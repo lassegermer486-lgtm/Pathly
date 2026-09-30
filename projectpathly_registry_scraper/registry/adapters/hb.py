@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 from datetime import datetime, timezone
-from pathlib import Path
 
 import requests
 from bs4 import BeautifulSoup
@@ -93,23 +92,9 @@ class BremenAdapter(RegistryAdapter):
         )
         response.raise_for_status()
 
-        raw_dir = Path(
-            self.config.get(
-                "_raw_dir",
-                "data/raw"
-            )
-        )
-        raw_dir.mkdir(
-            parents=True,
-            exist_ok=True
-        )
-
-        (
-            raw_dir /
-            f"{self.state_code}_universities.html"
-        ).write_text(
-            response.text,
-            encoding="utf-8"
+        self.snapshot(
+            f"{self.state_code}_universities.html",
+            response.text
         )
 
         soup = BeautifulSoup(

@@ -1,5 +1,4 @@
 from datetime import datetime, timezone
-from pathlib import Path
 from urllib.parse import urljoin
 
 import requests
@@ -61,14 +60,7 @@ class HessenAdapter(RegistryAdapter):
 
         response.raise_for_status()
 
-        # Raw snapshot
-        raw_dir = Path(
-            self.config.get("_raw_dir", "data/raw")
-        )
-        raw_dir.mkdir(parents=True, exist_ok=True)
-
-        snapshot = raw_dir / "DE-HE_hochschulen.html"
-        snapshot.write_bytes(response.content)
+        self.snapshot("DE-HE_hochschulen.html", response.content)
 
         soup = BeautifulSoup(
             response.text,

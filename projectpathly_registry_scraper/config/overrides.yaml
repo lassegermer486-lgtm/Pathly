@@ -1,0 +1,28 @@
+# Manuelle Entscheidungen für die Master-Registry (python -m registry.master).
+# Schlüssel sind source_keys "<Landescode>|<Name wie in der Landesquelle>".
+# Die Namen müssen exakt dem Scrape entsprechen; offene Fälle zeigt jeder Lauf
+# unter "REVIEW" an.
+
+# Dieselbe Hochschule -> zusammenführen (Standorte bleiben alle erhalten).
+merge:
+  # HSD: eine Hochschule, Sitz Potsdam; Köln, Regensburg, Hamburg sind Zweigstellen.
+  - ["DE-BB|HSD Hochschule Döpfer GmbH", "DE-NW|HSD Hochschule Döpfer"]
+  # Macromedia: ausdrücklich Multi-Campus-Hochschule.
+  - ["DE-BB|Macromedia University of Applied Sciences", "DE-HH|Hochschule Macromedia, University of Applied Science **"]
+  # ISBA: nennt Schwerin und Saarbrücken als Studienorte.
+  - ["DE-MV|Internationale Studien- und Berufsakademie ISBA", "DE-SL|ISBA gGmbH Internationale Studien- und Berufsakademie"]
+  # FHM: Schwerin ist Campus der FHM (NRW), laut DAAD.
+  - ["DE-MV|Fachhochschule des Mittelstands", "DE-NW|Fachhochschule des Mittelstands"]
+
+# Verschiedene Hochschulen -> nie zusammenführen, nicht mehr als Kandidat melden.
+keep_separate:
+  # Eigenständige evangelische Hochschulen (separat in der Übersicht kirchlicher Hochschulen).
+  - ["DE-BY|Evangelische Hochschule für angewandte Wissenschaften - Evangelische Fachhochschule Nürnberg", "DE-BE|Evangelische Hochschule Berlin"]
+  - ["DE-BY|Evangelische Hochschule für angewandte Wissenschaften - Evangelische Fachhochschule Nürnberg", "DE-SN|Evangelische Hochschule Dresden (FH)"]
+  # PHWT (Vechta/Diepholz) ist eine eigene private Hochschule.
+  - ["DE-BE|Hochschule für Technik und Wirtschaft Berlin (HTW)", "DE-NI|Private Hochschule für Wirtschaft und Technik"]
+  - ["DE-NI|Private Hochschule für Wirtschaft und Technik", "DE-SN|Hochschule für Technik und Wirtschaft Dresden"]
+
+# Korrekturen pro university_id, überschreiben Felder der Master-Registry,
+# z. B. lifecycle_status (active/renamed/merged/closed) nach Prüfung.
+records: {}

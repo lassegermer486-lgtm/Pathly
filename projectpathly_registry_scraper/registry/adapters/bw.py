@@ -1,5 +1,4 @@
 from datetime import datetime, timezone
-from pathlib import Path
 from urllib.parse import urljoin
 
 import requests
@@ -65,11 +64,6 @@ class BadenWuerttembergAdapter(RegistryAdapter):
             )
         }
 
-        raw_dir = Path(
-            self.config.get("_raw_dir", "data/raw")
-        )
-        raw_dir.mkdir(parents=True, exist_ok=True)
-
         rows = []
 
         # --------------------------------------------------
@@ -87,10 +81,7 @@ class BadenWuerttembergAdapter(RegistryAdapter):
             )
             response.raise_for_status()
 
-            (
-                raw_dir /
-                f"DE-BW_{slug}.html"
-            ).write_bytes(response.content)
+            self.snapshot(f"DE-BW_{slug}.html", response.content)
 
             soup = BeautifulSoup(
                 response.text,
@@ -165,10 +156,10 @@ class BadenWuerttembergAdapter(RegistryAdapter):
         )
         response.raise_for_status()
 
-        (
-            raw_dir /
-            "DE-BW_duale-hochschule-baden-wuerttemberg.html"
-        ).write_bytes(response.content)
+        self.snapshot(
+            "DE-BW_duale-hochschule-baden-wuerttemberg.html",
+            response.content
+        )
 
         soup = BeautifulSoup(
             response.text,
