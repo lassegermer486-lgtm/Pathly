@@ -1,0 +1,8 @@
+services:
+  scraper:
+    build: .
+    volumes:
+      - ./data:/app/data
+    # Standard: alle Bundesländer. Überschreiben z. B. mit:
+    #   docker compose run --rm scraper --states DE-NW DE-BW
+    command: []
