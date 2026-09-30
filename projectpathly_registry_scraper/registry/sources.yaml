@@ -1,0 +1,134 @@
+DE-BW:
+  name: Baden-Württemberg
+  authority: Ministerium für Wissenschaft, Forschung und Kunst Baden-Württemberg
+  url: https://mwk.baden-wuerttemberg.de/de/hochschulen-studium/hochschullandschaft/hochschularten
+  source_type: html_multi_page
+  adapter: bw
+  status: active
+  enabled: true
+  user_agent: ProjectPathlyRegistry/0.1
+DE-BY:
+  name: Bayern
+  authority: Bayerisches Staatsministerium für Wissenschaft und Kunst
+  url: https://www.stmwk.bayern.de/ministerium/hochschule-und-forschung/hochschulen/universitaeten.html
+  source_type: html_multi_page
+  adapter: by
+  status: active
+  enabled: true
+  user_agent: ProjectPathlyRegistry/0.1
+DE-BE:
+  name: Berlin
+  authority: Senatsverwaltung für Wissenschaft, Gesundheit und Pflege Berlin
+  url: https://www.berlin.de/sen/wissenschaft/einrichtungen/hochschulen/
+  source_type: html
+  adapter: be
+  status: active
+  enabled: true
+DE-BB:
+  name: Brandenburg
+  authority: Ministerium für Wissenschaft, Forschung und Kultur Brandenburg
+  url: https://mwfk.brandenburg.de/mwfk/de/wissenschaft/hochschulen/
+  source_type: html_multi_page
+  adapter: bb
+  status: active
+  enabled: true
+DE-HB:
+  name: Bremen
+  authority: Freie Hansestadt Bremen — Wissenschaft
+  url: https://umwelt.bremen.de/wissenschaft/hochschulen-einrichtungen-2157273
+  source_type: html
+  adapter: hb
+  status: active
+  note: Six institutions from the official Bremen science authority overview; Hochschule
+    für Öffentliche Verwaltung added from separate official Bremen source.
+  enabled: true
+DE-HH:
+  name: Hamburg
+  authority: Behörde für Wissenschaft, Forschung, Gleichstellung und Bezirke Hamburg
+  url: https://www.hamburg.de/politik-und-verwaltung/behoerden/bwfg/unsere-themen/hochschulen-und-studium/hochschullandschaft-hamburg
+  source_type: html
+  adapter: hh
+  status: active
+  enabled: true
+  note: Hamburg canonical institution registry. Official BWFG live source plus institutions
+    validated against official Hamburg/statistical sources. External universities
+    with Hamburg campuses excluded.
+DE-HE:
+  name: Hessen
+  authority: Hessisches Ministerium für Wissenschaft und Forschung, Kunst und Kultur
+  url: https://wissenschaft.hessen.de/studieren/hochschulen-in-hessen
+  source_type: html
+  adapter: he
+  status: active
+  enabled: true
+DE-MV:
+  name: Mecklenburg-Vorpommern
+  authority: Ministerium für Wissenschaft, Kultur, Bundes- und Europaangelegenheiten
+    Mecklenburg-Vorpommern
+  url: https://www.regierung-mv.de/Landesregierung/wkm/Wissenschaft/Hochschule/
+  source_type: html
+  adapter: mv
+  status: active
+DE-NI:
+  name: Niedersachsen
+  authority: Niedersächsisches Ministerium für Wissenschaft und Kultur
+  url: https://www.mwk.niedersachsen.de/startseite/hochschulen/hochschullandschaft/hochschulen_und_berufsakademien/hochschulen-berufsakademien-19117.html
+  source_type: html
+  adapter: ni
+  status: active
+DE-NW:
+  name: Nordrhein-Westfalen
+  authority: Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen
+  url: https://www.mkw.nrw/system/files/opendata/hochschulen_hochschulstandorte-nrw_220705.csv
+  source_type: csv
+  adapter: nrw
+  status: active
+  enabled: true
+  user_agent: ProjectPathlyRegistry/0.1 (+https://projectpathly.local)
+  encoding: cp1252
+DE-RP:
+  name: Rheinland-Pfalz
+  authority: Ministerium für Wissenschaft und Gesundheit Rheinland-Pfalz
+  url: https://mwg.rlp.de/themen/wissenschaft/hochschulen
+  source_type: html
+  adapter: rp
+  status: active
+  note: Verify canonical university overview URL before implementing parser.
+DE-SL:
+  name: Saarland
+  authority: Saarland — Wissenschaft
+  url: https://www.saarland.de/
+  source_type: html
+  adapter: sl
+  status: active
+  note: Canonical university registry subpage still needs verification.
+DE-SN:
+  name: Sachsen
+  authority: Sächsisches Staatsministerium für Wissenschaft, Kultur und Tourismus
+  url: https://www.smwk.sachsen.de/
+  source_type: html
+  adapter: sn
+  status: active
+  note: Canonical university registry subpage still needs verification.
+DE-ST:
+  name: Sachsen-Anhalt
+  authority: Statistisches Landesamt Sachsen-Anhalt
+  url: https://statistik.sachsen-anhalt.de/daten-und-veroeffentlichungen/verzeichnisse-elektronische-informationsangebote
+  source_type: pdf_discovery
+  adapter: st
+  status: active
+  note: Page links to the official Hochschulverzeichnis PDF; PDF parser is next.
+DE-SH:
+  name: Schleswig-Holstein
+  authority: Landesregierung Schleswig-Holstein
+  url: https://www.schleswig-holstein.de/DE/landesregierung/themen/bildung-hochschulen/hochschule_allgemein
+  source_type: html
+  adapter: sh
+  status: active
+DE-TH:
+  name: Thüringen
+  authority: Thüringer Landesamt für Statistik
+  url: https://statistik.thueringen.de/DatenBank/TabAnzeige.asp?auswahlnr=hs2090&tabelle=NT001313&zeit=2024%7C%7Cws
+  source_type: html
+  adapter: th
+  status: active
