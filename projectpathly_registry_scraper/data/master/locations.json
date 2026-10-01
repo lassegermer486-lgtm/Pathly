@@ -726,6 +726,17 @@
     "source_url": null
   },
   {
+    "registry_id": "PTH-DE-8F4F588D",
+    "name": null,
+    "city": "Hamburg",
+    "state": "DE-HH",
+    "postal_code": null,
+    "street": null,
+    "location_type": "branch",
+    "source_state": "DE-HH",
+    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
+  },
+  {
     "registry_id": "PTH-DE-32472D3C",
     "name": null,
     "city": "Hamburg",
@@ -793,17 +804,6 @@
   },
   {
     "registry_id": "PTH-DE-B4A33FEB",
-    "name": null,
-    "city": "Hamburg",
-    "state": "DE-HH",
-    "postal_code": null,
-    "street": null,
-    "location_type": "branch",
-    "source_state": "DE-HH",
-    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
-  },
-  {
-    "registry_id": "PTH-DE-8F4F588D",
     "name": null,
     "city": "Hamburg",
     "state": "DE-HH",
