@@ -45,6 +45,18 @@
   },
   {
     "registry_id": "PTH-DE-26273F0F",
+    "alias": "Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Kriminalpolizei in Wiesbaden"
+  },
+  {
+    "registry_id": "PTH-DE-26273F0F",
+    "alias": "Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Landwirtschaftliche Sozialversicherung in Kassel"
+  },
+  {
+    "registry_id": "PTH-DE-26273F0F",
+    "alias": "Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Wetterdienst in Offenbach"
+  },
+  {
+    "registry_id": "PTH-DE-26273F0F",
     "alias": "FH des Bundes für öffentliche Verwaltung (Bundespolizei)"
   },
   {
@@ -74,6 +86,10 @@
   {
     "registry_id": "PTH-DE-D41EDDF0",
     "alias": "Hochschule Fresenius Heidelberg"
+  },
+  {
+    "registry_id": "PTH-DE-D41EDDF0",
+    "alias": "Hochschule Fresenius (Idstein)"
   },
   {
     "registry_id": "PTH-DE-D41EDDF0",
@@ -114,6 +130,46 @@
   {
     "registry_id": "PTH-DE-2AE9B688",
     "alias": "Technische Hochschule Würzburg-Schweinfurt (THWS)"
+  },
+  {
+    "registry_id": "PTH-DE-8F4F588D",
+    "alias": "DIPLOMA Hochschule Hamburg"
+  },
+  {
+    "registry_id": "PTH-DE-BEAA4AC8",
+    "alias": "EBS Universität für Wirtschaft und Recht (Oestrich-Winkel)"
+  },
+  {
+    "registry_id": "PTH-DE-5CEA08BF",
+    "alias": "Evangelische Hochschule TABOR (Marburg)"
+  },
+  {
+    "registry_id": "PTH-DE-BF4D2C33",
+    "alias": "Hessische Hochschule für öffentliches Management und Sicherheit (HöMS)"
+  },
+  {
+    "registry_id": "PTH-DE-99E5F115",
+    "alias": "Hochschule der Deutschen Gesetzlichen Unfallversicherung (HGU)"
+  },
+  {
+    "registry_id": "PTH-DE-0A7C30B2",
+    "alias": "Philosophisch-Theologische Hochschule Sankt Georgen (Frankfurt/Main)"
+  },
+  {
+    "registry_id": "PTH-DE-4582E4C0",
+    "alias": "Provadis School of International Management and Technology (Frankfurt/Main)"
+  },
+  {
+    "registry_id": "PTH-DE-F6603125",
+    "alias": "Tomorrow University of Applied Sciences (Frankfurt/Main)"
+  },
+  {
+    "registry_id": "PTH-DE-55826C49",
+    "alias": "University of Labour (Frankfurt/Main)"
+  },
+  {
+    "registry_id": "PTH-DE-32B9B6CC",
+    "alias": "accadis Hochschule (Bad Homburg)"
   },
   {
     "registry_id": "PTH-DE-D94FDBE5",

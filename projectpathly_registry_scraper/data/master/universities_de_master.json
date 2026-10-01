@@ -1,5 +1,27 @@
 [
   {
+    "registry_id": "PTH-DE-32B9B6CC",
+    "name": "accadis Hochschule",
+    "official_url": "https://www.accadis.com",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:44.107344+00:00"
+    },
+    "members": [
+      "DE-HE|accadis Hochschule (Bad Homburg)"
+    ],
+    "flags": []
+  },
+  {
     "registry_id": "PTH-DE-5881F06A",
     "name": "AKAD – Hochschule Stuttgart",
     "official_url": "https://www.akad.de",
@@ -233,6 +255,28 @@
     },
     "members": [
       "DE-HB|Apollon Hochschule der Gesundheitswirtschaft"
+    ],
+    "flags": []
+  },
+  {
+    "registry_id": "PTH-DE-59111616",
+    "name": "Archivschule Marburg (Hochschule für Archivwissenschaft)",
+    "official_url": "https://www.archivschule.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:42.623826+00:00"
+    },
+    "members": [
+      "DE-HE|Archivschule Marburg (Hochschule für Archivwissenschaft)"
     ],
     "flags": []
   },
@@ -673,6 +717,28 @@
     "flags": []
   },
   {
+    "registry_id": "PTH-DE-CE56C432",
+    "name": "Charlotte Fresenius Hochschule (Wiesbaden)",
+    "official_url": "https://www.charlotte-fresenius-uni.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:45.264861+00:00"
+    },
+    "members": [
+      "DE-HE|Charlotte Fresenius Hochschule (Wiesbaden)"
+    ],
+    "flags": []
+  },
+  {
     "registry_id": "PTH-DE-84824DD9",
     "name": "Christian-Albrechts-Universität zu Kiel",
     "official_url": "https://www.uni-kiel.de",
@@ -928,25 +994,33 @@
   },
   {
     "registry_id": "PTH-DE-8F4F588D",
-    "name": "DIPLOMA Hochschule Hamburg",
+    "name": "DIPLOMA Hochschule – Private Fachhochschule Nordhessen (Bad Sooden-Allendorf)",
     "official_url": "https://www.diploma.de",
     "country": "DE",
     "lifecycle_status": "active",
     "name_origin": "state_source",
-    "name_confirmed": true,
+    "name_confirmed": false,
     "listed_by": [
+      "DE-HE",
       "DE-HH"
     ],
     "former_registry_ids": [],
     "website": {
       "method": "source_direct",
       "confidence": 0.9,
-      "last_verified_at": "2026-10-01T16:12:07.260376+00:00"
+      "last_verified_at": "2026-10-01T16:22:44.187785+00:00"
     },
     "members": [
+      "DE-HE|DIPLOMA Hochschule – Private Fachhochschule Nordhessen (Bad Sooden-Allendorf)",
       "DE-HH|DIPLOMA Hochschule Hamburg"
     ],
-    "flags": []
+    "flags": [
+      {
+        "code": "name_unconfirmed",
+        "severity": "low",
+        "detail": "canonical name not confirmed by the website"
+      }
+    ]
   },
   {
     "registry_id": "PTH-DE-450D8EFA",
@@ -1089,6 +1163,28 @@
     },
     "members": [
       "DE-HH|EBC Hochschule Hamburg"
+    ],
+    "flags": []
+  },
+  {
+    "registry_id": "PTH-DE-BEAA4AC8",
+    "name": "EBS Universität für Wirtschaft und Recht",
+    "official_url": "https://www.ebs.edu",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:44.330607+00:00"
+    },
+    "members": [
+      "DE-HE|EBS Universität für Wirtschaft und Recht (Oestrich-Winkel)"
     ],
     "flags": []
   },
@@ -1390,6 +1486,28 @@
     "flags": []
   },
   {
+    "registry_id": "PTH-DE-92D8BA3F",
+    "name": "Evangelische Hochschule Hessen",
+    "official_url": "https://www.eh-hessen.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:44.498999+00:00"
+    },
+    "members": [
+      "DE-HE|Evangelische Hochschule Hessen"
+    ],
+    "flags": []
+  },
+  {
     "registry_id": "PTH-DE-677ABB74",
     "name": "Evangelische Hochschule Ludwigsburg",
     "official_url": "https://www.eh-ludwigsburg.de",
@@ -1438,6 +1556,28 @@
         "detail": "canonical name not confirmed by the website"
       }
     ]
+  },
+  {
+    "registry_id": "PTH-DE-5CEA08BF",
+    "name": "Evangelische Hochschule TABOR",
+    "official_url": "https://www.eh-tabor.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:44.597344+00:00"
+    },
+    "members": [
+      "DE-HE|Evangelische Hochschule TABOR (Marburg)"
+    ],
+    "flags": []
   },
   {
     "registry_id": "PTH-DE-44A66C04",
@@ -1978,6 +2118,50 @@
     "flags": []
   },
   {
+    "registry_id": "PTH-DE-5C55C38B",
+    "name": "Frankfurt School of Finance & Management",
+    "official_url": "https://www.frankfurt-school.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:44.621924+00:00"
+    },
+    "members": [
+      "DE-HE|Frankfurt School of Finance & Management"
+    ],
+    "flags": []
+  },
+  {
+    "registry_id": "PTH-DE-606079E5",
+    "name": "Frankfurt University of Applied Sciences",
+    "official_url": "https://www.frankfurt-university.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:42.620927+00:00"
+    },
+    "members": [
+      "DE-HE|Frankfurt University of Applied Sciences"
+    ],
+    "flags": []
+  },
+  {
     "registry_id": "PTH-DE-ADDA85A2",
     "name": "Freie Hochschule Stuttgart – Seminar für Waldorfpädagogik",
     "official_url": "https://www.freie-hochschule-stuttgart.de",
@@ -1996,6 +2180,28 @@
     },
     "members": [
       "DE-BW|Freie Hochschule Stuttgart – Seminar für Waldorfpädagogik"
+    ],
+    "flags": []
+  },
+  {
+    "registry_id": "PTH-DE-296DF03C",
+    "name": "Freie Theologische Hochschule Gießen",
+    "official_url": "https://fth.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "verified_redirect",
+      "confidence": 0.85,
+      "last_verified_at": "2026-10-01T16:22:44.786878+00:00"
+    },
+    "members": [
+      "DE-HE|Freie Theologische Hochschule Gießen"
     ],
     "flags": []
   },
@@ -2128,6 +2334,28 @@
     },
     "members": [
       "DE-BB|Gisma University of Applied Sciences"
+    ],
+    "flags": []
+  },
+  {
+    "registry_id": "PTH-DE-6BE29E26",
+    "name": "Goethe-Universität Frankfurt am Main",
+    "official_url": "https://www.uni-frankfurt.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:42.620329+00:00"
+    },
+    "members": [
+      "DE-HE|Goethe-Universität Frankfurt am Main"
     ],
     "flags": []
   },
@@ -2354,6 +2582,39 @@
         "code": "website_unverifiable",
         "severity": "low",
         "detail": "site blocks automated checks"
+      },
+      {
+        "code": "name_unconfirmed",
+        "severity": "low",
+        "detail": "canonical name not confirmed by the website"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-BF4D2C33",
+    "name": "Hessische Hochschule für öffentliches Management und Sicherheit",
+    "official_url": "https://hoems.hessen.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": false,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.8,
+      "last_verified_at": "2026-10-01T16:22:43.870217+00:00"
+    },
+    "members": [
+      "DE-HE|Hessische Hochschule für öffentliches Management und Sicherheit (HöMS)"
+    ],
+    "flags": [
+      {
+        "code": "website_unverifiable",
+        "severity": "low",
+        "detail": "site was down (outage page) during the check"
       },
       {
         "code": "name_unconfirmed",
@@ -2635,6 +2896,34 @@
     "flags": []
   },
   {
+    "registry_id": "PTH-DE-CC5105D4",
+    "name": "Hochschule Darmstadt",
+    "official_url": "https://h-da.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": false,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:42.620860+00:00"
+    },
+    "members": [
+      "DE-HE|Hochschule Darmstadt"
+    ],
+    "flags": [
+      {
+        "code": "name_unconfirmed",
+        "severity": "low",
+        "detail": "canonical name not confirmed by the website"
+      }
+    ]
+  },
+  {
     "registry_id": "PTH-DE-211D09A0",
     "name": "Hochschule der Bayerischen Wirtschaft für angewandte Wissenschaften",
     "official_url": "https://www.hdbw-hochschule.de",
@@ -2756,6 +3045,34 @@
       "DE-RP|Hochschule der Deutschen Bundesbank"
     ],
     "flags": []
+  },
+  {
+    "registry_id": "PTH-DE-99E5F115",
+    "name": "Hochschule der Deutschen Gesetzlichen Unfallversicherung",
+    "official_url": "https://www.dguv.de/hochschule/index.jsp",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": false,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:44.149160+00:00"
+    },
+    "members": [
+      "DE-HE|Hochschule der Deutschen Gesetzlichen Unfallversicherung (HGU)"
+    ],
+    "flags": [
+      {
+        "code": "name_unconfirmed",
+        "severity": "low",
+        "detail": "canonical name not confirmed by the website"
+      }
+    ]
   },
   {
     "registry_id": "PTH-DE-557FD547",
@@ -2956,6 +3273,7 @@
     "name_confirmed": true,
     "listed_by": [
       "DE-BE",
+      "DE-HE",
       "DE-NW",
       "DE-SH"
     ],
@@ -2967,6 +3285,9 @@
     },
     "members": [
       "DE-BE|Hochschule des Bundes für öffentliche Verwaltung",
+      "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Kriminalpolizei in Wiesbaden",
+      "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Landwirtschaftliche Sozialversicherung in Kassel",
+      "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Wetterdienst in Offenbach",
       "DE-NW|Hochschule des Bundes für öffentliche Verwaltung",
       "DE-SH|FH des Bundes für öffentliche Verwaltung (Bundespolizei)"
     ],
@@ -3070,6 +3391,7 @@
     "name_confirmed": true,
     "listed_by": [
       "DE-BW",
+      "DE-HE",
       "DE-HH"
     ],
     "former_registry_ids": [],
@@ -3080,7 +3402,30 @@
     },
     "members": [
       "DE-BW|Hochschule Fresenius Heidelberg",
+      "DE-HE|Hochschule Fresenius (Idstein)",
       "DE-HH|Hochschule Fresenius *"
+    ],
+    "flags": []
+  },
+  {
+    "registry_id": "PTH-DE-C994F80F",
+    "name": "Hochschule Fulda",
+    "official_url": "https://www.hs-fulda.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:42.621040+00:00"
+    },
+    "members": [
+      "DE-HE|Hochschule Fulda"
     ],
     "flags": []
   },
@@ -3444,6 +3789,39 @@
     "flags": []
   },
   {
+    "registry_id": "PTH-DE-670B7399",
+    "name": "Hochschule für Bildende Künste–Städelschule Frankfurt am Main",
+    "official_url": "https://staedelschule.de/de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": false,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:42.623313+00:00"
+    },
+    "members": [
+      "DE-HE|Hochschule für Bildende Künste–Städelschule Frankfurt am Main"
+    ],
+    "flags": [
+      {
+        "code": "website_identity_unconfirmed",
+        "severity": "medium",
+        "detail": "website does not name the institution"
+      },
+      {
+        "code": "name_unconfirmed",
+        "severity": "low",
+        "detail": "canonical name not confirmed by the website"
+      }
+    ]
+  },
+  {
     "registry_id": "PTH-DE-AECF7F9A",
     "name": "Hochschule für Evangelische Kirchenmusik Bayreuth",
     "official_url": "https://www.hfk-bayreuth.de",
@@ -3611,6 +3989,28 @@
     },
     "members": [
       "DE-RP|Hochschule für Gesellschaftsgestaltung"
+    ],
+    "flags": []
+  },
+  {
+    "registry_id": "PTH-DE-AB90C3B0",
+    "name": "Hochschule für Gestaltung Offenbach am Main",
+    "official_url": "https://www.hfg-offenbach.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:42.622848+00:00"
+    },
+    "members": [
+      "DE-HE|Hochschule für Gestaltung Offenbach am Main"
     ],
     "flags": []
   },
@@ -4142,6 +4542,28 @@
         "detail": "canonical name not confirmed by the website"
       }
     ]
+  },
+  {
+    "registry_id": "PTH-DE-CA665B06",
+    "name": "Hochschule für Musik und Darstellende Kunst Frankfurt am Main",
+    "official_url": "https://www.hfmdk-frankfurt.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "verified_redirect",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:42.623104+00:00"
+    },
+    "members": [
+      "DE-HE|Hochschule für Musik und Darstellende Kunst Frankfurt am Main"
+    ],
+    "flags": []
   },
   {
     "registry_id": "PTH-DE-05F4D294",
@@ -4802,6 +5224,28 @@
     "flags": []
   },
   {
+    "registry_id": "PTH-DE-075D68E2",
+    "name": "Hochschule Geisenheim",
+    "official_url": "https://www.hs-geisenheim.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:42.623590+00:00"
+    },
+    "members": [
+      "DE-HE|Hochschule Geisenheim"
+    ],
+    "flags": []
+  },
+  {
     "registry_id": "PTH-DE-3081F973",
     "name": "Hochschule Hamm-Lippstadt",
     "official_url": "https://www.hshl.de",
@@ -5260,6 +5704,28 @@
     },
     "members": [
       "DE-NW|Hochschule Rhein-Waal"
+    ],
+    "flags": []
+  },
+  {
+    "registry_id": "PTH-DE-9C957CAA",
+    "name": "Hochschule RheinMain (Wiesbaden/Rüsselsheim)",
+    "official_url": "https://www.hs-rm.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:42.622040+00:00"
+    },
+    "members": [
+      "DE-HE|Hochschule RheinMain (Wiesbaden/Rüsselsheim)"
     ],
     "flags": []
   },
@@ -5809,6 +6275,28 @@
     ]
   },
   {
+    "registry_id": "PTH-DE-1FC5D3D7",
+    "name": "Justus-Liebig-Universität Gießen",
+    "official_url": "https://www.uni-giessen.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:42.620476+00:00"
+    },
+    "members": [
+      "DE-HE|Justus-Liebig-Universität Gießen"
+    ],
+    "flags": []
+  },
+  {
     "registry_id": "PTH-DE-B9CC4CD7",
     "name": "Karlshochschule International University",
     "official_url": "https://karlshochschule.de",
@@ -6129,6 +6617,39 @@
     ]
   },
   {
+    "registry_id": "PTH-DE-D38A4DED",
+    "name": "Kunsthochschule Kassel an der Universität Kassel",
+    "official_url": "https://kunsthochschulekassel.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:42.623532+00:00"
+    },
+    "members": [
+      "DE-HE|Kunsthochschule Kassel an der Universität Kassel"
+    ],
+    "flags": [
+      {
+        "code": "tls_certificate_unverified",
+        "severity": "low",
+        "detail": null
+      },
+      {
+        "code": "possibly_part_of_other_institution",
+        "severity": "low",
+        "detail": "Kunsthochschule Kassel an der Universität Kassel"
+      }
+    ]
+  },
+  {
     "registry_id": "PTH-DE-5132DCB5",
     "name": "Kunsthochschule Mainz",
     "official_url": "https://kunsthochschule-mainz.de",
@@ -6270,6 +6791,28 @@
         "detail": "canonical name not confirmed by the website"
       }
     ]
+  },
+  {
+    "registry_id": "PTH-DE-28BB0A9D",
+    "name": "Lutherische Theologische Hochschule (Oberursel)",
+    "official_url": "https://lthh.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:43.904737+00:00"
+    },
+    "members": [
+      "DE-HE|Lutherische Theologische Hochschule (Oberursel)"
+    ],
+    "flags": []
   },
   {
     "registry_id": "PTH-DE-40DF455E",
@@ -7038,6 +7581,50 @@
     ]
   },
   {
+    "registry_id": "PTH-DE-7134AF4F",
+    "name": "Philipps-Universität Marburg",
+    "official_url": "https://www.uni-marburg.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:42.620731+00:00"
+    },
+    "members": [
+      "DE-HE|Philipps-Universität Marburg"
+    ],
+    "flags": []
+  },
+  {
+    "registry_id": "PTH-DE-0A7C30B2",
+    "name": "Philosophisch-Theologische Hochschule Sankt Georgen",
+    "official_url": "https://www.sankt-georgen.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:43.937484+00:00"
+    },
+    "members": [
+      "DE-HE|Philosophisch-Theologische Hochschule Sankt Georgen (Frankfurt/Main)"
+    ],
+    "flags": []
+  },
+  {
     "registry_id": "PTH-DE-766BDEBB",
     "name": "Polizeiakademie Niedersachsen",
     "official_url": "https://polizei-studium.de",
@@ -7169,6 +7756,34 @@
       "DE-NW|Private Universität Witten/Herdecke"
     ],
     "flags": []
+  },
+  {
+    "registry_id": "PTH-DE-4582E4C0",
+    "name": "Provadis School of International Management and Technology",
+    "official_url": "https://www.provadis-hochschule.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": false,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:44.902247+00:00"
+    },
+    "members": [
+      "DE-HE|Provadis School of International Management and Technology (Frankfurt/Main)"
+    ],
+    "flags": [
+      {
+        "code": "name_unconfirmed",
+        "severity": "low",
+        "detail": "canonical name not confirmed by the website"
+      }
+    ]
   },
   {
     "registry_id": "PTH-DE-4045CE85",
@@ -7667,6 +8282,39 @@
     "flags": []
   },
   {
+    "registry_id": "PTH-DE-1EEADEAB",
+    "name": "Studienzentrum der Finanzverwaltung und Justiz in Rotenburg an der Fulda",
+    "official_url": "https://studienzentrum-rotenburg.hessen.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": false,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.8,
+      "last_verified_at": "2026-10-01T16:22:43.780914+00:00"
+    },
+    "members": [
+      "DE-HE|Studienzentrum der Finanzverwaltung und Justiz in Rotenburg an der Fulda"
+    ],
+    "flags": [
+      {
+        "code": "website_unverifiable",
+        "severity": "low",
+        "detail": "site was down (outage page) during the check"
+      },
+      {
+        "code": "name_unconfirmed",
+        "severity": "low",
+        "detail": "canonical name not confirmed by the website"
+      }
+    ]
+  },
+  {
     "registry_id": "PTH-DE-FE2294C9",
     "name": "Technische Hochschule Aschaffenburg",
     "official_url": "https://www.th-ab.de",
@@ -7895,6 +8543,28 @@
     },
     "members": [
       "DE-BW|Technische Hochschule Mannheim"
+    ],
+    "flags": []
+  },
+  {
+    "registry_id": "PTH-DE-35CD887C",
+    "name": "Technische Hochschule Mittelhessen (Gießen/Friedberg)",
+    "official_url": "https://www.thm.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:42.621248+00:00"
+    },
+    "members": [
+      "DE-HE|Technische Hochschule Mittelhessen (Gießen/Friedberg)"
     ],
     "flags": []
   },
@@ -8158,6 +8828,34 @@
     "flags": []
   },
   {
+    "registry_id": "PTH-DE-C14F807F",
+    "name": "Technische Universität Darmstadt",
+    "official_url": "https://www.tu-darmstadt.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": false,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:42.619772+00:00"
+    },
+    "members": [
+      "DE-HE|Technische Universität Darmstadt"
+    ],
+    "flags": [
+      {
+        "code": "name_unconfirmed",
+        "severity": "low",
+        "detail": "canonical name not confirmed by the website"
+      }
+    ]
+  },
+  {
     "registry_id": "PTH-DE-C1AB1B37",
     "name": "Technische Universität Dortmund",
     "official_url": "https://www.tu-dortmund.de",
@@ -8308,6 +9006,28 @@
     "flags": []
   },
   {
+    "registry_id": "PTH-DE-F75C157C",
+    "name": "Theologische Fakultät Fulda",
+    "official_url": "https://www.thf-fulda.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:43.976177+00:00"
+    },
+    "members": [
+      "DE-HE|Theologische Fakultät Fulda"
+    ],
+    "flags": []
+  },
+  {
     "registry_id": "PTH-DE-F6816864",
     "name": "Theologische Fakultät Paderborn",
     "official_url": "https://www.thf-paderborn.de",
@@ -8370,6 +9090,28 @@
     },
     "members": [
       "DE-BB|Theologische Hochschule Elstal"
+    ],
+    "flags": []
+  },
+  {
+    "registry_id": "PTH-DE-10DC77CD",
+    "name": "Theologische Hochschule Ewersbach",
+    "official_url": "https://th-ewersbach.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:44.930122+00:00"
+    },
+    "members": [
+      "DE-HE|Theologische Hochschule Ewersbach"
     ],
     "flags": []
   },
@@ -8449,6 +9191,28 @@
         "detail": "canonical name not confirmed by the website"
       }
     ]
+  },
+  {
+    "registry_id": "PTH-DE-F6603125",
+    "name": "Tomorrow University of Applied Sciences",
+    "official_url": "https://www.tomorrow.university",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:45.361313+00:00"
+    },
+    "members": [
+      "DE-HE|Tomorrow University of Applied Sciences (Frankfurt/Main)"
+    ],
+    "flags": []
   },
   {
     "registry_id": "PTH-DE-6ABA8D4F",
@@ -8540,6 +9304,28 @@
         "detail": "BTK Hochschule für Gestaltung, Campus Hamburg -> University of Europe for Applied Sciences"
       }
     ]
+  },
+  {
+    "registry_id": "PTH-DE-55826C49",
+    "name": "University of Labour",
+    "official_url": "https://www.university-of-labour.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:45.176422+00:00"
+    },
+    "members": [
+      "DE-HE|University of Labour (Frankfurt/Main)"
+    ],
+    "flags": []
   },
   {
     "registry_id": "PTH-DE-CD886016",
@@ -8896,6 +9682,28 @@
     },
     "members": [
       "DE-BW|Universität Hohenheim"
+    ],
+    "flags": []
+  },
+  {
+    "registry_id": "PTH-DE-622B5496",
+    "name": "Universität Kassel",
+    "official_url": "https://www.uni-kassel.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:42.620616+00:00"
+    },
+    "members": [
+      "DE-HE|Universität Kassel"
     ],
     "flags": []
   },
@@ -9513,6 +10321,28 @@
     },
     "members": [
       "DE-RP|WHU - Otto Beisheim School of Management"
+    ],
+    "flags": []
+  },
+  {
+    "registry_id": "PTH-DE-4FEE1C6C",
+    "name": "Wilhelm Büchner Hochschule",
+    "official_url": "https://www.wb-fernstudium.de",
+    "country": "DE",
+    "lifecycle_status": "active",
+    "name_origin": "state_source",
+    "name_confirmed": true,
+    "listed_by": [
+      "DE-HE"
+    ],
+    "former_registry_ids": [],
+    "website": {
+      "method": "source_direct",
+      "confidence": 0.9,
+      "last_verified_at": "2026-10-01T16:22:45.057274+00:00"
+    },
+    "members": [
+      "DE-HE|Wilhelm Büchner Hochschule"
     ],
     "flags": []
   },
