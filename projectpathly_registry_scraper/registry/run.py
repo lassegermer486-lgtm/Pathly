@@ -1,9 +1,7 @@
 from __future__ import annotations
 
 import argparse
-import contextlib
 import json
-import sys
 from pathlib import Path
 
 import yaml
@@ -28,7 +26,6 @@ from .adapters.th import ThueringenAdapter
 from .normalize import aggregate_nrw_universities
 from .normalizers.university import aggregate_university_rows
 from .utils.validation import validate_registry
-from .states import BY_CODE, STATES, resolve, short
 
 
 ADAPTERS = {
@@ -51,6 +48,26 @@ ADAPTERS = {
 }
 
 
+STATE_ORDER = [
+    "DE-BW",
+    "DE-BY",
+    "DE-BE",
+    "DE-BB",
+    "DE-HB",
+    "DE-HH",
+    "DE-HE",
+    "DE-MV",
+    "DE-NI",
+    "DE-NW",
+    "DE-RP",
+    "DE-SL",
+    "DE-SN",
+    "DE-ST",
+    "DE-SH",
+    "DE-TH",
+]
+
+
 def normalize_state(state, rows):
     """
     Convert state-specific raw rows into the common
@@ -63,58 +80,137 @@ def normalize_state(state, rows):
     return aggregate_university_rows(rows, state)
 
 
-def scrape(states, config, snapshots=False, log=print):
-    """
-    Run the adapters for the given state codes and return the records.
+def main():
+    parser = argparse.ArgumentParser(
+        description="ProjectPathly German University Registry"
+    )
 
-    Only with snapshots=True raw copies of the sources are written and the
-    SH fallback cache is refreshed.
-    """
+    parser.add_argument(
+        "--states",
+        nargs="+",
+        default=None,
+        help="Optional state codes, e.g. DE-NW DE-BW"
+    )
+
+    parser.add_argument(
+        "--sources",
+        default="registry/sources.yaml"
+    )
+
+    parser.add_argument(
+        "--out",
+        default="data/normalized/universities_de.json"
+    )
+
+    args = parser.parse_args()
+
+    config = yaml.safe_load(
+        Path(args.sources).read_text(encoding="utf-8")
+    )
+
+    states = args.states or STATE_ORDER
+
     all_universities = []
     report = []
 
+    print()
+    print("=" * 62)
+    print("PROJECTPATHLY — GERMAN UNIVERSITY REGISTRY")
+    print("=" * 62)
+
     for state in states:
-        label = BY_CODE[state].label
 
         if state not in config:
-            log(f"[ERROR] {label}: missing from sources.yaml")
-            report.append({"state": state, "status": "ERROR", "error": "missing_config"})
+            print(f"[ERROR] {state}: missing from sources.yaml")
+            report.append({
+                "state": state,
+                "status": "ERROR",
+                "error": "missing_config"
+            })
             continue
 
         cfg = dict(config[state])
 
         if not cfg.get("enabled", True):
-            log(f"[SKIP]  {label}: disabled")
-            report.append({"state": state, "status": "SKIPPED"})
+            print(f"[SKIP] {state}: disabled")
+            report.append({
+                "state": state,
+                "status": "SKIPPED"
+            })
             continue
 
         adapter_name = cfg.get("adapter", "stub")
+
+        if adapter_name == "stub":
+            print(
+                f"[TODO] {state} — {cfg['name']}: "
+                "adapter not implemented"
+            )
+
+            report.append({
+                "state": state,
+                "status": "TODO"
+            })
+
+            continue
+
         adapter_cls = ADAPTERS.get(adapter_name)
 
         if adapter_cls is None:
-            log(f"[ERROR] {label}: unknown adapter '{adapter_name}'")
-            report.append({"state": state, "status": "ERROR",
-                           "error": f"unknown_adapter:{adapter_name}"})
+            print(
+                f"[ERROR] {state}: unknown adapter "
+                f"'{adapter_name}'"
+            )
+
+            report.append({
+                "state": state,
+                "status": "ERROR",
+                "error": f"unknown_adapter:{adapter_name}"
+            })
+
             continue
 
-        if snapshots:
-            cfg["_raw_dir"] = "data/raw"
-            cfg["_refresh_cache"] = True
+        cfg["_raw_dir"] = "data/raw"
 
-        log(f"[FETCH] {label}")
+        print()
+        print(f"[FETCH] {state} — {cfg['name']}")
 
         try:
-            raw_rows = adapter_cls(state, cfg).fetch()
-            universities = normalize_state(state, raw_rows)
-            invalid = validate_registry(universities)
-            locations = sum(len(u.get("locations", [])) for u in universities)
+            raw_rows = adapter_cls(
+                state,
+                cfg
+            ).fetch()
 
-            log(f"[OK]    {BY_CODE[state].short}: {len(universities)} universities / "
-                f"{locations} locations")
+            universities = normalize_state(
+                state,
+                raw_rows
+            )
+
+            invalid = validate_registry(
+                universities
+            )
+
+            locations = sum(
+                len(u.get("locations", []))
+                for u in universities
+            )
+
+            print(
+                f"[OK] {state}: "
+                f"{len(universities)} universities / "
+                f"{locations} locations"
+            )
+
             if invalid:
-                log(f"[WARN]  {BY_CODE[state].short}: {len(invalid)} validation issues")
+                print(
+                    f"[WARN] {state}: "
+                    f"{len(invalid)} validation issues"
+                )
 
-            all_universities.extend(universities)
+            all_universities.extend(
+                universities
+            )
+
             report.append({
                 "state": state,
                 "name": cfg["name"],
@@ -122,126 +218,108 @@ def scrape(states, config, snapshots=False, log=print):
                 "raw_rows": len(raw_rows),
                 "universities": len(universities),
                 "locations": locations,
-                "validation_issues": len(invalid),
+                "validation_issues": len(invalid)
             })
 
         except NotImplementedError as exc:
-            log(f"[TODO]  {exc}")
-            report.append({"state": state, "status": "TODO"})
+            print(f"[TODO] {exc}")
+
+            report.append({
+                "state": state,
+                "status": "TODO"
+            })
 
         except Exception as exc:
-            log(f"[ERROR] {label}: {type(exc).__name__}: {exc}")
-            report.append({"state": state, "status": "ERROR", "error": str(exc)})
+            print(
+                f"[ERROR] {state}: "
+                f"{type(exc).__name__}: {exc}"
+            )
 
-    return all_universities, report
+            report.append({
+                "state": state,
+                "status": "ERROR",
+                "error": str(exc)
+            })
 
+    # --------------------------------------------------
+    # Export university registry
+    # --------------------------------------------------
 
-def parse_states(tokens):
-    if not tokens:
-        return [s.code for s in STATES]
-    return [resolve(t).code for t in tokens]
-
-
-def load_config(path="registry/sources.yaml"):
-    return yaml.safe_load(Path(path).read_text(encoding="utf-8"))
-
-
-def _write_json(path, data):
-    path = Path(path)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-
-
-def main():
-    parser = argparse.ArgumentParser(
-        description="ProjectPathly German University Registry — state scrape"
-    )
-    parser.add_argument(
-        "--states", nargs="+", default=None,
-        help="States to scrape, e.g. NRW BW BY (also DE-NW). Default: all 16",
-    )
-    parser.add_argument("--sources", default="registry/sources.yaml")
-    parser.add_argument(
-        "--out", default=None,
-        help="JSON output file (default: data/normalized/universities_de.json, "
-             "or universities_<STATES>.json when --states is given)",
-    )
-    parser.add_argument(
-        "--dry-run", action="store_true",
-        help="only print, do not write the JSON file",
-    )
-    parser.add_argument(
-        "--snapshots", action="store_true",
-        help="also store raw copies of the sources in data/raw/ and "
-             "refresh the SH fallback cache",
-    )
-    parser.add_argument(
-        "--list", action="store_true",
-        help="print every scraped institution",
-    )
-    parser.add_argument(
-        "--json", action="store_true",
-        help="print the full result as JSON to stdout (log goes to stderr)",
-    )
-    args = parser.parse_args()
-
-    try:
-        states = parse_states(args.states)
-    except ValueError as exc:
-        parser.error(str(exc))
-
-    log = (lambda msg: print(msg, file=sys.stderr)) if args.json else print
-
-    # A partial scrape must not overwrite the full dataset.
-    out = args.out or (
-        "data/normalized/universities_de.json" if not args.states
-        else f"data/normalized/universities_{'_'.join(short(s) for s in states)}.json"
+    out = Path(args.out)
+    out.parent.mkdir(
+        parents=True,
+        exist_ok=True
     )
 
-    log("")
-    log("=" * 62)
-    log("PROJECTPATHLY — GERMAN UNIVERSITY REGISTRY")
-    log("=" * 62)
+    out.write_text(
+        json.dumps(
+            all_universities,
+            ensure_ascii=False,
+            indent=2
+        ),
+        encoding="utf-8"
+    )
 
-    # Adapters print progress; with --json that must not end up in stdout.
-    with contextlib.redirect_stdout(sys.stderr) if args.json else contextlib.nullcontext():
-        universities, report = scrape(states, load_config(args.sources), args.snapshots, log)
+    # --------------------------------------------------
+    # Export run report
+    # --------------------------------------------------
 
-    if args.json:
-        print(json.dumps(universities, ensure_ascii=False, indent=2))
+    report_path = Path(
+        "data/reports/registry_run.json"
+    )
 
-    if args.list:
-        log("")
-        for u in sorted(universities, key=lambda u: (u["state"], u["name"])):
-            cities = sorted({l.get("city") for l in u.get("locations", []) if l.get("city")})
-            log(f"{short(u['state']):<3} {u['name'][:60]:<60} {u['institution_type']:<31} "
-                f"{', '.join(cities)[:40]}")
+    report_path.parent.mkdir(
+        parents=True,
+        exist_ok=True
+    )
 
-    ok = sum(1 for r in report if r["status"] == "OK")
-    locations = sum(len(u.get("locations", [])) for u in universities)
+    report_path.write_text(
+        json.dumps(
+            report,
+            ensure_ascii=False,
+            indent=2
+        ),
+        encoding="utf-8"
+    )
 
-    log("")
-    log("-" * 62)
-    log(f"STATES:       {ok}/{len(states)} successful")
-    log(f"UNIVERSITIES: {len(universities)}")
-    log(f"LOCATIONS:    {locations}")
+    # --------------------------------------------------
+    # Summary
+    # --------------------------------------------------
 
-    if args.dry_run:
-        log("OUTPUT:       nothing written (--dry-run)")
-    else:
-        _write_json(out, universities)
-        log(f"OUTPUT:       {out}")
-    if args.snapshots:
-        log("RAW:          data/raw/")
+    successful_states = sum(
+        1
+        for r in report
+        if r["status"] == "OK"
+    )
 
-    failed = [r for r in report if r["status"] == "ERROR"]
-    if failed:
-        log(f"[WARN]  incomplete: failed states "
-            f"{', '.join(short(r['state']) for r in failed)}")
-    log("-" * 62)
+    total_locations = sum(
+        len(u.get("locations", []))
+        for u in all_universities
+    )
 
-    if failed:
-        sys.exit(1)
+    print()
+    print("-" * 62)
+    print(
+        f"STATES:       "
+        f"{successful_states}/{len(states)} successful"
+    )
+    print(
+        f"UNIVERSITIES: "
+        f"{len(all_universities)}"
+    )
+    print(
+        f"LOCATIONS:    "
+        f"{total_locations}"
+    )
+    print(
+        f"OUTPUT:       "
+        f"{out}"
+    )
+    print(
+        f"REPORT:       "
+        f"{report_path}"
+    )
+    print("-" * 62)
 
 
 if __name__ == "__main__":

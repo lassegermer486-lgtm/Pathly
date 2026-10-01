@@ -1,7 +1,0 @@
-# Web UI only. The scraper's own packages come from
-# ../projectpathly_registry_scraper/requirements.txt
-fastapi>=0.115
-uvicorn>=0.30
-PyYAML>=6.0.2
-# Laden des Registers in die Supabase-Datenbank
-psycopg[binary]>=3.2
