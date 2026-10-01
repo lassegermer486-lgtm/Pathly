@@ -1,0 +1,489 @@
+{
+  "generated_at": "2026-10-01T16:22:47.874169+00:00",
+  "records": 458,
+  "checked": 458,
+  "official_url_coverage": 0.9934,
+  "by_status": {
+    "resolved": 455,
+    "review": 2,
+    "unresolved": 1
+  },
+  "by_method": {
+    "source_direct": 409,
+    "verified_redirect": 30,
+    "agent_verified": 11,
+    "deterministic_high": 5
+  },
+  "flags": {
+    "tls_certificate_unverified": 7,
+    "identity_unconfirmed": 17,
+    "redirected_to_other_domain": 40,
+    "possible_rename_or_merger": 10,
+    "subpage_replaced_by_homepage": 44,
+    "bot_challenge": 3,
+    "source_link_broken_root_used": 2,
+    "renamed_per_agent": 10,
+    "agent_identity_unconfirmed": 3,
+    "site_unavailable": 2,
+    "http_blocked_403": 1,
+    "source_unreachable_ReadTimeout": 1,
+    "http_blocked_503": 1,
+    "agent_no_url": 2,
+    "agent_url_blocked": 2
+  },
+  "review": [
+    {
+      "state": "DE-HH",
+      "name": "Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg",
+      "status": "review",
+      "method": null,
+      "confidence": 0.0,
+      "official_url": null,
+      "suggested_url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa",
+      "source_url": null,
+      "flags": [
+        "agent_identity_unconfirmed",
+        "agent_identity_unconfirmed"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-TH",
+      "name": "Thüringer Fachhochschule für öffentliche Verwaltung Gotha",
+      "status": "review",
+      "method": null,
+      "confidence": 0.0,
+      "official_url": null,
+      "suggested_url": "https://bildungszentrum.thueringen.de/thueringer-fachhochschule-fuer-oeffentliche-verwaltung",
+      "source_url": null,
+      "flags": [
+        "agent_url_blocked",
+        "agent_url_blocked"
+      ],
+      "reachable_candidates": []
+    }
+  ],
+  "unresolved": [
+    {
+      "state": "DE-SL",
+      "name": "Berufsakademie für Gesundheits- und Sozialwesen Saarland gGmbH (BAGSS)",
+      "status": "unresolved",
+      "method": null,
+      "confidence": 0.0,
+      "official_url": null,
+      "suggested_url": null,
+      "source_url": null,
+      "flags": [
+        "agent_no_url",
+        "agent_no_url"
+      ],
+      "reachable_candidates": [
+        {
+          "domain": "bagss.de",
+          "final_url": "https://www.shg-kliniken.de/bildung",
+          "identity": 0.0
+        },
+        {
+          "domain": "bagss.com",
+          "final_url": "http://www.bagss.com",
+          "identity": 0.0
+        }
+      ]
+    }
+  ],
+  "unconfirmed_source_urls": [
+    {
+      "state": "DE-BW",
+      "name": "Staatliche Hochschule für Musik Freiburg",
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.mh-freiburg.de",
+      "suggested_url": null,
+      "source_url": "http://www.mh-freiburg.de",
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-BW",
+      "name": "Hochschule für Ingenieur- und Wirtschaftswissenschaften Albstadt-Sigmaringen",
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.hs-albsig.de",
+      "suggested_url": null,
+      "source_url": "http://www.hs-albsig.de",
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-BW",
+      "name": "AKAD – Hochschule Stuttgart",
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.akad.de",
+      "suggested_url": null,
+      "source_url": "http://www.akad.de",
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-BW",
+      "name": "Hochschule der Wirtschaft für Management Mannheim (HdWM)",
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.hdwm.de",
+      "suggested_url": null,
+      "source_url": "http://www.hdwm.de",
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-BW",
+      "name": "Universidad Paraguayo-Alemana de Ciencias Alicadas (UPA)",
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://upa.edu.py",
+      "suggested_url": null,
+      "source_url": "http://www.upa.edu.py",
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-BY",
+      "name": "Augustana Hochschule der Evang.-Luth. Kirche in Bayern (Neuendettelsau)",
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://augustana.de",
+      "suggested_url": null,
+      "source_url": "http://www.augustana.de",
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-BY",
+      "name": "Hochschule für angewandte Wissenschaften Weihenstephan-Triesdorf",
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.hswt.de",
+      "suggested_url": null,
+      "source_url": "http://www.hswt.de",
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-BY",
+      "name": "Evangelische Hochschule für angewandte Wissenschaften - Evangelische Fachhochschule Nürnberg",
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.evhn.de",
+      "suggested_url": null,
+      "source_url": "http://www.evhn.de",
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-BY",
+      "name": "Hochschule der Bayerischen Wirtschaft für angewandte Wissenschaften (HDBW)",
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.hdbw-hochschule.de",
+      "suggested_url": null,
+      "source_url": "http://hdbw-hochschule.de",
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-BE",
+      "name": "Mediadesign Hochschule für Kommunikation und Informatik",
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.mediadesign.de",
+      "suggested_url": null,
+      "source_url": "http://www.mediadesign.de",
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-BB",
+      "name": "FH Sport und Management - Campus",
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.fhsmp.de",
+      "suggested_url": null,
+      "source_url": "https://www.fhsmp.de",
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-BB",
+      "name": "XU",
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://xu-university.com",
+      "suggested_url": null,
+      "source_url": "https://xu-university.com",
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-HH",
+      "name": "Hochschule Macromedia, University of Applied Science **",
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.macromedia-fachhochschule.de/de",
+      "suggested_url": null,
+      "source_url": "https://www.macromedia-fachhochschule.de/de",
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-HE",
+      "name": "Hochschule für Bildende Künste–Städelschule Frankfurt am Main",
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://staedelschule.de/de",
+      "suggested_url": null,
+      "source_url": "https://www.staedelschule.de/de",
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NI",
+      "name": "HAWK Hildesheim/ Holzminden/ Göttingen",
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.hawk.de",
+      "suggested_url": null,
+      "source_url": "https://www.hawk.de",
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NI",
+      "name": "Private Hochschule für Wirtschaft und Technik",
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.phwt.de",
+      "suggested_url": null,
+      "source_url": "https://www.phwt.de",
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "Westfälische Wilhelms-Universität Münster",
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.uni-muenster.de",
+      "suggested_url": null,
+      "source_url": "https://www.uni-muenster.de",
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "reachable_candidates": []
+    }
+  ],
+  "possible_rename_or_merger": [
+    {
+      "state": "DE-BW",
+      "name": "Hochschule für Forstwirtschaft Rottenburg",
+      "status": "resolved",
+      "method": "verified_redirect",
+      "confidence": 0.85,
+      "official_url": "https://www.hs-rottenburg.net",
+      "suggested_url": null,
+      "source_url": "http://www.hs-rottenburg.de",
+      "flags": [
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-BW",
+      "name": "Technische Hochschule Ulm",
+      "status": "resolved",
+      "method": "verified_redirect",
+      "confidence": 0.85,
+      "official_url": "https://www.thu.de",
+      "suggested_url": null,
+      "source_url": "http://www.hs-ulm.de",
+      "flags": [
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-BW",
+      "name": "SRH University of Applied Sciences Heidelberg",
+      "status": "resolved",
+      "method": "verified_redirect",
+      "confidence": 0.85,
+      "official_url": "https://www.srh-university.de",
+      "suggested_url": null,
+      "source_url": "http://www.fh-heidelberg.de",
+      "flags": [
+        "subpage_replaced_by_homepage",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-BY",
+      "name": "Ludwig-Maximilians-Universität München",
+      "status": "resolved",
+      "method": "verified_redirect",
+      "confidence": 0.85,
+      "official_url": "https://www.lmu.de",
+      "suggested_url": null,
+      "source_url": "http://www.uni-muenchen.de",
+      "flags": [
+        "subpage_replaced_by_homepage",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-BY",
+      "name": "Hochschule für angewandte Wissenschaften Kempten",
+      "status": "resolved",
+      "method": "verified_redirect",
+      "confidence": 0.85,
+      "official_url": "https://www.hs-kempten.de",
+      "suggested_url": null,
+      "source_url": "http://www.hochschule-kempten.de",
+      "flags": [
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-BE",
+      "name": "Media University of Applied Sciences",
+      "status": "resolved",
+      "method": "verified_redirect",
+      "confidence": 0.85,
+      "official_url": "https://www.media-university.de",
+      "suggested_url": null,
+      "source_url": "http://www.hmkw.de",
+      "flags": [
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-BB",
+      "name": "Macromedia University of Applied Sciences",
+      "status": "resolved",
+      "method": "verified_redirect",
+      "confidence": 0.85,
+      "official_url": "https://www.macromedia-fachhochschule.de",
+      "suggested_url": null,
+      "source_url": "https://www.macromedia-university.de",
+      "flags": [
+        "subpage_replaced_by_homepage",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "Heinrich-Heine-Universität Düsseldorf",
+      "status": "resolved",
+      "method": "verified_redirect",
+      "confidence": 0.85,
+      "official_url": "https://www.hhu.de",
+      "suggested_url": null,
+      "source_url": "https://www.uni-duesseldorf.de",
+      "flags": [
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "Hochschule für Gesundheit",
+      "status": "resolved",
+      "method": "verified_redirect",
+      "confidence": 0.85,
+      "official_url": "https://gesundheitscampus.hochschule-bochum.de",
+      "suggested_url": null,
+      "source_url": "https://www.hs-gesundheit.de",
+      "flags": [
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "Rheinische Fachhochschule Köln",
+      "status": "resolved",
+      "method": "verified_redirect",
+      "confidence": 0.85,
+      "official_url": "https://rh-koeln.de",
+      "suggested_url": null,
+      "source_url": "https://www.rfh-koeln.de",
+      "flags": [
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    }
+  ]
+}
