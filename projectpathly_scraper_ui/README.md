@@ -33,7 +33,7 @@ Weitere Funktionen:
 
 - **Optionen:** nur einzelne Bundesländer abrufen; **Websites aller Hochschulen prüfen** (dauert einige Minuten). Ohne diese Option nimmt die UI die Ergebnisse der letzten Website-Prüfung aus `data/enriched/universities_de_urls.json`. Neue oder umbenannte Einträge gelten dann als „nicht geprüft“ und werden eher als mögliches Duplikat vorgelegt als automatisch zusammengeführt.
 - **Letzten Abruf laden:** öffnet den zuletzt gespeicherten Abruf, ohne die Quellen erneut abzufragen. Praktisch zum Ausprobieren.
-- **Erneut abrufen:** erscheint im Reiter eines Landes, dessen Abruf fehlgeschlagen ist.
+- **Erneut abrufen:** erscheint im Reiter eines Landes, dessen Abruf fehlgeschlagen ist. Als fehlgeschlagen gilt auch ein Land, aus dem 0 Hochschulen gelesen wurden, z. B. weil die Landesseite gerade eine Störungsseite zeigt. Solange ein Land fehlt, ist der Stand unvollständig und kommt nicht in die Datenbank.
 - **Protokoll:** die Ausgabe des Scrapers, wie sie sonst im Terminal steht.
 - Klick auf eine Tabellenzeile zeigt Standorte, Quellen und Hinweise.
 
