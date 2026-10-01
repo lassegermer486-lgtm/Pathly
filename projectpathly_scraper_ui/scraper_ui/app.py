@@ -89,6 +89,10 @@ def create_app(bridge: ScraperBridge | None = None) -> FastAPI:
     def save(body: SaveRequest):
         return guarded(runner.save, body.confirm_incomplete)
 
+    @app.post("/api/db/push")
+    def db_push():
+        return guarded(runner.push_to_db)
+
     @app.get("/api/download")
     def download():
         data = guarded(runner.registry)

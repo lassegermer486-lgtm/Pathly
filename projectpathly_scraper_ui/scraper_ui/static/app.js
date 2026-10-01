@@ -196,6 +196,13 @@
 
     $("btn-download").hidden = !(hasData && !busy && open === 0 && (st.phase === "ready" || st.phase === "saved"));
 
+    const db = $("btn-db");
+    db.hidden = st.phase !== "saved";
+    db.disabled = st.db.pushing;
+    db.textContent = st.db.pushing ? "Lädt in die Datenbank …"
+      : (st.db.last ? "Erneut in Datenbank laden" : "In Datenbank laden");
+    db.classList.toggle("primary", st.phase === "saved" && st.db.configured && !st.db.last && !st.db.pushing);
+
     let m = "Noch kein Abruf in dieser Sitzung";
     if (st.started_at) {
       const src = st.source === "file" ? "aus gespeichertem Abruf geladen" : "live abgerufen";
@@ -255,7 +262,18 @@
         " sollen getrennt bleiben, werden aber über andere Zusammenführungen vereint.";
     }
     if (st.phase === "saved" && st.saved) {
-      text = "Gespeichert: " + st.saved.files.join(", ") + (st.saved.complete ? "" : " (unvollständiger Stand)");
+      text = "Gespeichert: " + st.saved.files.join(", ") + (st.saved.complete ? "." : " (unvollständiger Stand).");
+      if (st.db.pushing) {
+        text += " Lade in die Datenbank " + (st.db.target || "") + " …";
+      } else if (st.db.last) {
+        const c = st.db.last.counts;
+        text += " In die Datenbank geladen (" + st.db.last.target + ", " + fmtTime(st.db.last.at).split(", ")[1] + "): " +
+          plural(c.universities, "Hochschule", "Hochschulen") + ", davon " + c.universities_new + " neu, " +
+          c.universities_changed + " geändert, " + c.universities_unlisted + " nicht mehr gelistet; " +
+          plural(c.locations, "Standort", "Standorte") + ".";
+      } else if (!st.db.configured) {
+        text += " Die Datenbank ist noch nicht eingerichtet (siehe README, Abschnitt „Datenbank“).";
+      }
     }
     $("status-text").textContent = text;
   }
@@ -614,6 +632,18 @@
   }));
 
   $("btn-next").addEventListener("click", () => { activeTab = "review"; renderAll(); });
+
+  $("btn-db").addEventListener("click", () => {
+    if (st.db.configured) {
+      const n = st.kpis ? st.kpis.institutions : 0;
+      if (!window.confirm(n + " Hochschulen in die Datenbank laden?\n\nZiel: " + st.db.target +
+        "\n\nVorhandene Einträge werden aktualisiert. Hochschulen, die im Register fehlen, " +
+        "werden als nicht mehr gelistet markiert, aber nicht gelöscht.")) return;
+    }
+    const btn = $("btn-db");
+    btn.disabled = true; btn.textContent = "Lädt in die Datenbank …";
+    act(() => api("/api/db/push", {}));
+  });
 
   function toggle(btn, target) {
     const el = $(target);

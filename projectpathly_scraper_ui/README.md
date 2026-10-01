@@ -37,6 +37,33 @@ Weitere Funktionen:
 - **Protokoll:** die Ausgabe des Scrapers, wie sie sonst im Terminal steht.
 - Klick auf eine Tabellenzeile zeigt Standorte, Quellen und Hinweise.
 
+## Datenbank
+
+Nach dem Speichern erscheint der Knopf **„In Datenbank laden“**. Er schreibt das gespeicherte Register in die Supabase-Tabellen aus `supabase/migrations` (`universities`, `locations`, `sources`, `university_flags`, `university_aliases`) und protokolliert den Lauf in `import_runs`.
+
+Einmalige Einrichtung:
+
+1. Die Migrationen müssen im Supabase-Projekt eingespielt sein.
+2. Vorlage kopieren: `cp projectpathly_scraper_ui/.env.example projectpathly_scraper_ui/.env`
+3. Im Supabase-Dashboard auf „Connect“ klicken, die Adresse unter „Session pooler“ kopieren, in `.env` hinter `SUPABASE_DB_URL=` eintragen und `[YOUR-PASSWORD]` durch das Datenbank-Passwort ersetzen.
+
+Die `.env` enthält ein Passwort mit Schreibrecht. Sie ist per `.gitignore` ausgeschlossen und darf nie eingecheckt werden. Ein Neustart der UI ist nach dem Anlegen nicht nötig.
+
+Regeln des Imports:
+
+- Alles läuft in einer Transaktion: entweder der komplette neue Stand oder gar nichts.
+- Hochschulen werden über `registry_id` wiedererkannt. Ein zweiter Import aktualisiert, er verdoppelt nichts.
+- Aus `universities` wird nie gelöscht. Fehlt eine Hochschule im Register, wird sie auf `is_listed = false` gesetzt.
+- Standorte behalten ihre Datenbank-ID, solange Name und Adresse gleich bleiben.
+- In die Datenbank darf nur ein gespeicherter, vollständiger Abruf aller 16 Länder. Bei einem Teilabruf würden sonst alle übrigen Hochschulen als nicht mehr gelistet markiert.
+- Die Tabelle kennt bei Standorten nur `main`, `branch` und `unknown`. `campus`, `study_location` und `department` aus dem Scraper werden deshalb als `branch` gespeichert.
+
+Ohne Oberfläche (zum Beispiel später in einer Pipeline) lädt derselbe Import die zuletzt gespeicherte Datei:
+
+```bash
+cd projectpathly_scraper_ui && .venv/bin/python -m scraper_ui.registry_import
+```
+
 ## Was geschrieben wird
 
 Alles landet im Scraper-Ordner, genau wie bei `python -m registry.master --save`:
@@ -85,6 +112,7 @@ Die Tests brauchen kein Netz.
 |---|---|---|
 | `PATHLY_SCRAPER_DIR` | `../projectpathly_registry_scraper` | Ordner des Scrapers |
 | `PATHLY_UI_PORT` | `8000` | Port |
+| `SUPABASE_DB_URL` | leer | Verbindungsadresse der Datenbank; üblicherweise in `.env` statt in der Umgebung |
 | `PATHLY_UI_HOST` | `127.0.0.1` | nur vom eigenen Rechner erreichbar; es gibt keinen Login, deshalb nicht öffentlich freigeben |
 
 ## Aufbau
@@ -97,6 +125,7 @@ projectpathly_scraper_ui/
 │   ├── bridge.py            einzige Verbindung zum Scraper
 │   ├── runner.py            Laufzustand, Phasen, Entscheidungen, Speichern
 │   ├── overrides_file.py    Einträge in config/overrides.yaml
+│   ├── registry_import.py   Import in die Supabase-Datenbank
 │   ├── app.py               HTTP-Schnittstelle
 │   └── static/              Seite (HTML, CSS, JavaScript ohne Build-Schritt)
 └── tests/

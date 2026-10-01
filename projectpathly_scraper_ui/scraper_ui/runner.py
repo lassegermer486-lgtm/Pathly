@@ -18,7 +18,7 @@ import threading
 import time
 from datetime import datetime, timezone
 
-from . import overrides_file
+from . import overrides_file, registry_import
 from .bridge import ScraperBridge
 
 BUSY_PHASES = {"fetching", "matching", "checking"}
@@ -62,6 +62,8 @@ class Runner:
         self.result: dict | None = None
         self.decisions: dict[str, dict] = {}     # decided in this session
         self.saved: dict | None = None
+        self.db_pushing = False
+        self.db_last: dict | None = None         # last successful push of this state
         self.log: list[str] = []
         self.log_dropped = 0
         self.version = 0                          # bumps whenever data changes
@@ -79,9 +81,11 @@ class Runner:
                 self.log_dropped += overflow
 
     def busy(self) -> bool:
-        return self.phase in BUSY_PHASES
+        return self.phase in BUSY_PHASES or self.db_pushing
 
     def _require_idle(self) -> None:
+        if self.db_pushing:
+            raise Conflict("Die Daten werden gerade in die Datenbank geladen. Bitte kurz warten.")
         if self.busy():
             raise Conflict("Es läuft gerade ein Abruf. Bitte warten, bis er fertig ist.")
 
@@ -140,6 +144,7 @@ class Runner:
         with self._lock:
             self.result = result
             self.saved = None
+            self.db_last = None
             self.version += 1
 
     # ------------------------------------------------------------------
@@ -172,6 +177,7 @@ class Runner:
             self.result = None
             self.decisions = {}
             self.saved = None
+            self.db_last = None
             self.log = []
             self.log_dropped = 0
             self.version += 1
@@ -392,6 +398,54 @@ class Runner:
             return self.saved
 
     # ------------------------------------------------------------------
+    # database
+    # ------------------------------------------------------------------
+
+    def db_status(self) -> dict:
+        dsn = registry_import.load_dsn()
+        return {"configured": bool(dsn), "target": registry_import.describe_target(dsn),
+                "pushing": self.db_pushing, "last": self.db_last}
+
+    def push_to_db(self) -> dict:
+        """Load the saved registry into the database. Only a saved, complete state."""
+        with self._lock:
+            self._require_idle()
+            if not self.result or self.phase != "saved" or not self.saved:
+                raise Conflict("Bitte zuerst speichern. In die Datenbank kommt nur ein gespeicherter Stand.")
+            if not self.result.get("dedup"):
+                raise Conflict("Diese Scraper-Version liefert kein bereinigtes Register mit festen IDs. "
+                               "Ohne das ist kein Import möglich.")
+            if not self.saved.get("complete"):
+                raise Conflict("Nur ein vollständiger Abruf aller Bundesländer darf in die Datenbank. "
+                               "Sonst würden die fehlenden Hochschulen dort als nicht mehr gelistet markiert.")
+            dsn = registry_import.load_dsn()
+            if not dsn:
+                raise Conflict("Die Datenbank ist noch nicht eingerichtet: In projectpathly_scraper_ui/.env "
+                               "fehlt SUPABASE_DB_URL (Vorlage: .env.example).")
+            masters = self.result["masters"]
+            id_registry = self.result.get("id_registry")
+            self.db_pushing = True
+            self._log(f"[DB] Import startet → {registry_import.describe_target(dsn)}")
+
+        try:
+            counts = registry_import.import_registry(
+                dsn, masters, id_registry,
+                source_file=self.bridge.registry_path.name, repo_dir=self.bridge.dir)
+        except registry_import.ImportProblem as exc:
+            self._log(f"[DB] {exc}")
+            raise Conflict(str(exc)) from exc
+        except Exception as exc:
+            self._log(f"[DB] {type(exc).__name__}: {exc}")
+            raise Conflict(f"Import fehlgeschlagen: {type(exc).__name__}: {exc}") from exc
+        finally:
+            self.db_pushing = False
+
+        with self._lock:
+            self.db_last = {"at": _now(), "target": registry_import.describe_target(dsn), "counts": counts}
+            self._log("[DB] Import fertig: " + ", ".join(f"{k} {v}" for k, v in counts.items()))
+            return self.db_last
+
+    # ------------------------------------------------------------------
     # views for the API
     # ------------------------------------------------------------------
 
@@ -441,6 +495,7 @@ class Runner:
                 "kpis": self.kpis(),
                 "conflicts": self._conflicts(),
                 "saved": self.saved,
+                "db": self.db_status(),
                 "version": self.version,
                 "log": self.log[start - first:],
                 "log_next": first + len(self.log),
