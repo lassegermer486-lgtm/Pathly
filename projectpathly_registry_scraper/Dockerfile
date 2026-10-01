@@ -10,9 +10,10 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 COPY registry ./registry
-COPY config ./config
 COPY tests ./tests
 
-# data/ (SH/SL fallback sources, --save output) and config/ (overrides,
-# id registry) are mounted from the host by docker-compose.yml.
+# Ergebnisse (raw, normalized, reports, source_cache) landen in /app/data
+# und werden per Volume auf den Host gemappt.
+VOLUME ["/app/data"]
+
 ENTRYPOINT ["python", "-m", "registry.run"]

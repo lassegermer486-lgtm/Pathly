@@ -1,8 +1,0 @@
-.venv/
-__pycache__/
-*.pyc
-.pytest_cache/
-.DS_Store
-
-# Zugangsdaten zur Datenbank – nie einchecken
-.env

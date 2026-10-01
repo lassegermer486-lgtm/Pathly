@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from datetime import datetime, timezone
+from pathlib import Path
 from urllib.parse import urljoin
 
 import requests
@@ -77,6 +78,12 @@ class BerlinAdapter(RegistryAdapter):
             timezone.utc
         ).isoformat()
 
+        raw_dir = Path("data/raw")
+        raw_dir.mkdir(
+            parents=True,
+            exist_ok=True
+        )
+
         for meta in self.PAGES:
 
             url = urljoin(
@@ -97,9 +104,14 @@ class BerlinAdapter(RegistryAdapter):
 
             response.raise_for_status()
 
-            self.snapshot(
-                f"DE-BE_{meta['path'].strip('/').replace('/', '_')}.html",
-                response.text
+            snapshot = (
+                raw_dir
+                / f"DE-BE_{meta['path'].strip('/').replace('/', '_')}.html"
+            )
+
+            snapshot.write_text(
+                response.text,
+                encoding="utf-8"
             )
 
             soup = BeautifulSoup(

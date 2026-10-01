@@ -1,4 +1,5 @@
 from datetime import datetime, timezone
+from pathlib import Path
 from urllib.parse import urljoin
 
 import requests
@@ -73,6 +74,14 @@ class BayernAdapter(RegistryAdapter):
             )
         }
 
+        raw_dir = Path(
+            self.config.get("_raw_dir", "data/raw")
+        )
+        raw_dir.mkdir(
+            parents=True,
+            exist_ok=True
+        )
+
         rows = []
 
         for page, page_config in self.PAGES.items():
@@ -95,7 +104,12 @@ class BayernAdapter(RegistryAdapter):
                 + ".html"
             )
 
-            self.snapshot(snapshot_name, response.content)
+            (
+                raw_dir /
+                snapshot_name
+            ).write_bytes(
+                response.content
+            )
 
             soup = BeautifulSoup(
                 response.text,

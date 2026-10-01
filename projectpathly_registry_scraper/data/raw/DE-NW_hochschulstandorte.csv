@@ -1,0 +1,139 @@
+Datei-interne ID;Kategorie;Name der Hochschule;Standort;Straße Nr.;PLZ;Stadt;Tel.;Fax;Website
+1;Öffentlich-rechtliche Universitäten;Rheinisch-Westfälische Technische Hochschule (RWTH) Aachen;;Templergraben 55;52062;Aachen;0241 80-1;0241 80-92312;www.rwth-aachen.de
+2;Öffentlich-rechtliche Universitäten;Universität Bielefeld;;Universitätsstr. 25;33615;Bielefeld;0521 106-00;0521 106-5844;www.uni-bielefeld.de
+3;Öffentlich-rechtliche Universitäten;Ruhr-Universität Bochum;;Universitätsstr. 150;44801;Bochum;0234 322-01;0234 32-14201;www.ruhr-uni-bochum.de
+4;Öffentlich-rechtliche Universitäten;Rheinische Friedrich-Wilhelms-Universität Bonn;;Regina-Pacis-Weg 3;53113;Bonn;0228 73-0;0228 73-5579;www.uni-bonn.de
+5;Öffentlich-rechtliche Universitäten;Technische Universität Dortmund;;August-Schmidt-Str. 4;44227;Dortmund;0231 755-1;0231 755-4664;www.tu-dortmund.de
+6;Öffentlich-rechtliche Universitäten;Universität Duisburg-Essen;Campus Duisburg;Forsthausweg 2;47057;Duisburg;0203 379-0;0203 379-3333;www.uni-due.de
+7;Öffentlich-rechtliche Universitäten;Universität Duisburg-Essen;Campus Essen;Universitätsstr. 2;45141;Essen;0201 183-1;0201 183-2151;www.uni-due.de
+8;Öffentlich-rechtliche Universitäten;Heinrich-Heine-Universität Düsseldorf;;Universitätsstr. 1;40225;Düsseldorf;0211 81-11;0211 342229;www.uni-duesseldorf.de
+9;Öffentlich-rechtliche Universitäten;FernUniversität in Hagen;;Universitätsstr. 11;58097;Hagen;02331 987-2444;02331 987-316;www.fernuni-hagen.de
+10;Öffentlich-rechtliche Universitäten;Deutsche Sporthochschule Köln;;Am Sportpark Müngersdorf 6;50933;Köln;0221 4982-0;0221 4982-833;www.dshs-koeln.de
+11;Öffentlich-rechtliche Universitäten;Universität zu Köln;;Albertus-Magnus-Platz;50923;Köln;0221 470-0;0221 470-5151;www.uni-koeln.de
+12;Öffentlich-rechtliche Universitäten;Westfälische Wilhelms-Universität Münster;;Schlossplatz 2;48149;Münster;0251 83-0;0251 83-32090;www.uni-muenster.de
+13;Öffentlich-rechtliche Universitäten;Universität Paderborn;;Warburger Str. 100;33098;Paderborn;05251 60-0;05251 60-2519;www.uni-paderborn.de
+14;Öffentlich-rechtliche Universitäten;Universität Siegen;;Adolf-Reichwein-Straße 2a;57076;Siegen;0271 740-0;0271 740-4899;www.uni-siegen.de
+15;Öffentlich-rechtliche Universitäten;Bergische Universität Wuppertal;;Gaußstr. 20;42097;Wuppertal;0202 439-0;0202 439-2901;www.uni-wuppertal.de
+16;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Fachhochschule Aachen;;Bayernallee 11;52066;Aachen;0241 6009-0;0241 6009-51090;www.fh-aachen.de
+17;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Fachhochschule Aachen;Standort Jülich;Heinrich-Mußmann-Straße 1–5;52428;Jülich;0241 6009-50;0241 6009-51090;www.fh-aachen.de
+18;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Fachhochschule Bielefeld;;Interaktion 1;33619;Bielefeld;0521 106-01;0521 106-7790;www.fh-bielefeld.de
+19;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Fachhochschule Bielefeld;Campus Minden;Ringstr. 94;32427;Minden;0571 8385-201;0571 8385-250;www.fh-bielefeld.de/campus-minden
+20;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Hochschule Bochum;;Am Hochschulcampus 1;44801;Bochum;0234 32-202;0234 32-14219;www.hochschule-bochum.de
+21;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Hochschule Bochum;Campus Velbert Heiligenhaus;Höseler Platz 2;42579;Heiligenhaus;02056 15-8703;02056 15-8799;www.hochschule-bochum.de
+22;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Hochschule für Gesundheit;;Gesundheitscampus 6–8;44801;Bochum;0234 77727-0;; www.hs-gesundheit.de
+23;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Fachhochschule Dortmund;;Sonnenstr. 96–100;44139;Dortmund;0231 9112-0;0231 9112-313;www.fh-dortmund.de
+24;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Hochschule Düsseldorf;;Münsterstraße 156;40476;Düsseldorf;0221 81-00;0221 81-14916;www.hs-duesseldorf.de
+25;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Westfälische Hochschule;;Neidenburger Str. 43;45877;Gelsenkirchen;0209 9596-0;0209 9596-445;www.w-hs.de
+26;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Westfälische Hochschule;Standort Bocholt;Münsterstr. 265;46397;Bocholt;02871 2155-0;;www.w-hs.de
+27;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Westfälische Hochschule;Standort Recklinghausen;August-Schmidt-Ring 10;45657;Recklinghausen;02361 915-3;;www.w-hs.de
+28;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Hochschule Hamm-Lippstadt;;Marker Allee 76–78;59063;Hamm;02381 8789-0;;www.hshl.de
+29;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Hochschule Hamm-Lippstadt;Campus-Lippstadt;Dr.-Arnold-Hueck-Straße 3;59557;Lippstadt;;;www.hshl.de
+30;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Fachhochschule Südwestfalen;;Frauenstuhlweg 31;58644;Iserlohn;02371 566-0;02371 566-274;www.fh-swf.de
+31;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Fachhochschule Südwestfalen;Standort Hagen;Haldener Str. 182;58095;Hagen;02331 987-01;;www.fh-swf.de
+32;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Fachhochschule Südwestfalen;Standort Meschede;Lindenstr. 53;59872;Meschede;;;www.fh-swf.de
+33;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Fachhochschule Südwestfalen;Standort Lüdenscheid;Bahnhofsallee 5;58507;Lüdenscheid;;;www.fh-swf.de
+34;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Fachhochschule Südwestfalen;Standort Soest;Lübecker Ring 2;59494;Soest;02921 378-0;;www.fh-swf.de
+35;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Hochschule Rhein-Waal;;Marie-Curie-Straße 1;47533;Kleve;02821 80673-0;02821 80673-60;www.hochschule-rhein-waal.de
+36;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Hochschule Rhein-Waal;Standort Kamp-Lintfort;Friedrich-Heinrich-Allee 25;47475;Kamp-Lintfort;02842 90825-0;;www.hochschule-rhein-waal.de
+37;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Hochschule Niederrhein;Campus Krefeld;Reinarzstr. 49;47805;Krefeld;02151 822-2777;;www.hs-niederrhein.de 
+38;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Hochschule Niederrhein;Campus Mönchengladbach;Richard-Wagner-Str. 97;41065;Mönchengladbach;02161 186-2777;;www.hs-niederrhein.de 
+39;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Technische Hochschule Köln;;Claudiusstr. 1;50678;Köln;0221 8275-0;0221 8275-3131;www.th-koeln.de
+40;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Technische Hochschule Köln;Standort Gummersbach;Am Sandberg 1;51643;Gummersbach;02261 8196-0;02261 8196-15;www.th-koeln.de/informatik-und-ingenieurwissenschaften/
+41;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Technische Hochschule Köln;Standort Leverkusen - Chempark Leverkusen – Gebäude E39;Kaiser-Wilhelm-Allee;51368;Leverkusen;0214 32831-4600;;www.th-koeln.de/angewandte-naturwissenschaften/
+42;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Technische Hochschule Ostwestfalen-Lippe;;Campusallee 12;32657;Lemgo;05261 7020;;www.th-owl.de 
+43;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Technische Hochschule Ostwestfalen-Lippe;Standort Detmold;Emilienstr. 45;32756;Detmold;05231 769-50;05231 769-681;www.th-owl.de 
+44;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Technische Hochschule Ostwestfalen-Lippe;Standort Höxter;An der Wilhelmshöhe 44;37671;Höxter;05271 687-0;05271 687-200;www.th-owl.de 
+45;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Hochschule Ruhr West;;Duisburger Str. 100;45479;Mülheim an der Ruhr;0208 88254-0;0208 88254-109;www.hochschule-ruhr-west.de
+46;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Hochschule Ruhr West;Campus Bottrop;Lützowstraße 5;46236;Bottrop;0208 88254-0;0208 88254-109;www.hochschule-ruhr-west.de
+47;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;FH Münster;;Hüfferstr. 27;48149;Münster;0251 83-0;0251 83-64015;www.fh-muenster.de
+48;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;FH Münster;Standort Steinfurt;Stegerwaldstr. 39;48565;Steinfurt;02551 962-0;;www.fh-muenster.de
+49;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Hochschule Bonn-Rhein-Sieg;;Grantham-Allee 20;53757;St. Augustin;02241 865-0;02241 865-609;www.h-brs.de/de
+50;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Hochschule Bonn-Rhein-Sieg;Standort Hennef;Zum Steimelsberg 7;53773;Hennef;02241 865-0;;www.h-brs.de/de
+51;Öffentlich-rechtliche Hochschulen für angewandte Wissenschaften;Hochschule Bonn-Rhein-Sieg;Standort Rheinbach;Von-Liebig-Str. 20;53359;Rheinbach;02241 865-0;;www.h-brs.de/de
+52;Staatliche Kunst- und Musikhochschulen ;Hochschule für Musik Detmold;;Neustadt 22;32756;Detmold;05231 975-5;05231 975-604;www.hfm-detmold.de
+53;Staatliche Kunst- und Musikhochschulen ;Kunstakademie Düsseldorf;;Eiskellerstr. 1;40213;Düsseldorf;0221 1396-0;0221 1396-225;www.kunstakademie-duesseldorf.de
+54;Staatliche Kunst- und Musikhochschulen ;Robert-Schumann-Hochschule Düsseldorf;;Fischerstr. 110;40476;Düsseldorf;0211 4918-0;0211 49116-18;www.rsh-duesseldorf.de
+55;Staatliche Kunst- und Musikhochschulen ;Folkwang Universität der Künste;;Klemensborn 39;45239;Essen;0201 4903-0;0201 4903-288;www.folkwang-uni.de
+56;Staatliche Kunst- und Musikhochschulen ;Folkwang Universität der Künste;Quartier Nord, Campus Welterbe Zollverein;Martin-Kremmer-Str. 21;45327;Essen;0201 6505-1419;0201 6505-1412;www.folkwang-uni.de
+57;Staatliche Kunst- und Musikhochschulen ;Folkwang Universität der Künste;Campus Welterbe Zollverein - SANAA-Gebäude;Gelsenkirchener Str. 209;45309;Essen;0201 18503-410;;www.folkwang-uni.de
+58;Staatliche Kunst- und Musikhochschulen ;Folkwang Universität der Künste;Standort Bochum - Campus Folkwang Theaterzentrum;Friederikastraße 4;44789;Bochum;0201 6505-1700;0201 6505-1701;www.folkwang-uni.de
+59;Staatliche Kunst- und Musikhochschulen ;Folkwang Universität der Künste;Institut für Populäre Musik;Prinz-Regent-Straße 50–60;44795;Bochum;0234 976483-10;;www.folkwang-uni.de
+60;Staatliche Kunst- und Musikhochschulen ;Folkwang Universität der Künste;Standort Duisburg;Düsseldorfer Str. 19;47051;Duisburg;0203 29588-0;0203 29588-55/-41;www.folkwang-uni.de
+61;Staatliche Kunst- und Musikhochschulen ;Folkwang Universität der Künste;Standort Dortmund - Orchesterzentrum|NRW;Brückstr. 47;44135;Dortmund;0231 725168-0;0231 725168-20;www.orchesterzentrum.de
+62;Staatliche Kunst- und Musikhochschulen ;Hochschule für Musik und Tanz Köln;;Unter Krahnenbäumen 87;50668;Köln;0221 28380-0;0221 28380-179;www.hfmt-koeln.de
+63;Staatliche Kunst- und Musikhochschulen ;Hochschule für Musik und Tanz Köln;Standort Aachen;Theaterplatz 16;52062;Aachen;0221 28380-0;;www.hfmt-koeln.de
+64;Staatliche Kunst- und Musikhochschulen ;Hochschule für Musik und Tanz Köln;Standort Wuppertal;Sedanstr. 15;42275;Wuppertal;0202 37150-0;0202 37150-40;www.hfmt-koeln.de
+65;Staatliche Kunst- und Musikhochschulen ;Kunsthochschule für Medien Köln;;Peter-Welter-Platz 2;50676;Köln;0221 20189-0;0221 20189-17;www.khm.de
+66;Staatliche Kunst- und Musikhochschulen ;Kunstakademie Münster;;Leonardo Campus 2;48149;Münster;0251 8361-330;0251 8361-430;www.kunstakademie-muenster.de
+67;Private und kirchliche Hochschulen;Alanus Hochschule für Kunst und Gesellschaft;;Villestr. 3;53347;Alfter;02222 9321-0;02222 9321-21;www.alanus.edu
+68;Private und kirchliche Hochschulen;Fachhochschule der Diakonie;;Bethelweg 8;33617;Bielefeld;0521 144-2700;0521 144-3230;www.fhdd.de
+69;Private und kirchliche Hochschulen;Fachhochschule des Mittelstands;;Ravensberger Str. 10G;33602;Bielefeld;0521 96655-10;0521 96655-11;www.fhm-mittelstand.de
+70;Private und kirchliche Hochschulen;Fachhochschule des Mittelstands;Standort Köln;Hohenzollernring 16–18;50674;Köln;0221 258898-0;0221 258898-20;www.fhm-mittelstand.de
+71;Private und kirchliche Hochschulen;Fachhochschule des Mittelstands;Standort Düren;Nideggener Straße 43;52349;Düren;;;www.fhm-mittelstand.de
+72;Private und kirchliche Hochschulen;Fachhochschule des Mittelstands;Standort Frechen;Kölner Str. 33;50226;Frechen;02234 9813030;;www.fhm-mittelstand.de
+73;Private und kirchliche Hochschulen;EBZ Business School;;Springorumallee 20;44795;Bochum;0234 9447-606;0234 9447-199;www.ebz-business-school.de
+74;Private und kirchliche Hochschulen;Evangelische Hochschule Rheinland-Westfalen-Lippe;;Immanuel-Kant-Str. 18–20;44803;Bochum;0234 36901-0;0234 36901-100;www.evh-bochum.de
+75;Private und kirchliche Hochschulen;Technische Hochschule Georg Agricola;;Herner Str. 45;44787;Bochum;0234 968-02;0234 968-3417;www.thga.de
+76;Private und kirchliche Hochschulen;Hochschule für Finanzwirtschaft & Management;;Simrockstr. 4;53113;Bonn;0228 204-900;0228 204-903;www.s-hochschule.de
+77;Private und kirchliche Hochschulen;Europäische Fachhochschule Rhein/Erft;;Kaiserstr. 6;50321;Brühl;02232 5673-0;02232 5673-229;www.eufh.de
+78;Private und kirchliche Hochschulen;Europäische Fachhochschule Rhein/Erft;Standort Aachen;Kapuzinergraben 19;52062;Aachen;;;www.eufh.de
+79;Private und kirchliche Hochschulen;Europäische Fachhochschule Rhein/Erft;Standort Köln;Neusser Straße 99;50670;Köln;;;www.eufh.de
+80;Private und kirchliche Hochschulen;Europäische Fachhochschule Rhein/Erft;Standort Neuss;Hammer Landstraße 89;41460;Neuss;;;www.eufh.de
+81;Private und kirchliche Hochschulen;Europäische Fachhochschule Rhein/Erft;Standort Rheine;Dutumer Straße 33;48431;Rheine;;;www.eufh.de
+82;Private und kirchliche Hochschulen;International School of Management;Standort Dortmund;Otto-Hahn-Straße 19;44227;Dortmund;0231 975139-0;;www.ism.de
+83;Private und kirchliche Hochschulen;International School of Management;Standort Köln;Im MediaPark 5c;50670;Köln;0221 270995-0;;www.ism.de
+84;Private und kirchliche Hochschulen;Fliedner Fachhochschule Düsseldorf;;Geschwister-Aufricht-Straße 9;40489;Düsseldorf;0211 409-3232;0211 409-3233;www.fliedner-fachhochschule.de
+85;Private und kirchliche Hochschulen;IST-Hochschule für Management;;Erkrather Straße 220 a-c;40227;Düsseldorf;0211 86668-0;0211 86668-30;www.ist-hochschule.de
+86;Private und kirchliche Hochschulen;FOM Hochschule für Oekonomie & Management;;Leimkugelstr. 6;45141;Essen;0201 81004-8;0201 81004-180;www.fom.de
+87;Private und kirchliche Hochschulen;FOM Hochschule für Oekonomie & Management;Studienort Bochum - c/o Technologiezentrum Ruhr;Universitätsstr. 142;44799;Bochum;0234 976671-0;;www.fom-bochum.de
+88;Private und kirchliche Hochschulen;FOM Hochschule für Oekonomie & Management;Studienort Bonn - Rheinwerk 3;Joseph-Schumpeter-Allee 23–25;53227;Bonn;;;www.fom-bonn.de
+89;Private und kirchliche Hochschulen;FOM Hochschule für Oekonomie & Management;Studienort Dortmund;Lissaboner Allee 7;44269;Dortmund;0231 286808-43;;www.fom-dortmund.de
+90;Private und kirchliche Hochschulen;FOM Hochschule für Oekonomie & Management;Studienort Düsseldorf - Hochschulzentrum Düsseldorf;Toulouser Allee 53;40476;Düsseldorf;;;www.fom-duesseldorf.de
+91;Private und kirchliche Hochschulen;FOM Hochschule für Oekonomie & Management;Studienort Duisburg - Tec-Center;Bismarckstr. 120;47057;Duisburg-Neudorf;0203 348782-32;;www.fom-duisburg.de
+92;Private und kirchliche Hochschulen;FOM Hochschule für Oekonomie & Management;Studienort Essen - Hochschulzentrum Essen;Herkulesstraße 32;45127;Essen;;;www.fom-essen.de
+93;Private und kirchliche Hochschulen;FOM Hochschule für Oekonomie & Management;Studienort Gütersloh - Hochschulzentrum Gütersloh - ZAB-Akademie - Haus 20;Hermann-Simon-Str. 7;33334;Gütersloh;05241 3050332;;www.fom-guetersloh.de
+94;Private und kirchliche Hochschulen;FOM Hochschule für Oekonomie & Management;Studienort Hagen;Roggenkamp 12;58093;Hagen;0234 07667-14;;www.fom-hagen.de
+95;Private und kirchliche Hochschulen;FOM Hochschule für Oekonomie & Management;Studienort Köln - Rheinauhafen Süd;Agrippinawerft 4;50678;Köln;0221 801478-10;;www.fom-koeln.de
+96;Private und kirchliche Hochschulen;FOM Hochschule für Oekonomie & Management;Studienort Marl - c/o Hans-Böckler-Berufskolleg;Hagenstr. 28;45768;Marl;;;www.fom-marl.de
+97;Private und kirchliche Hochschulen;FOM Hochschule für Oekonomie & Management;Studienort Münster - Hochschulzentrum Münster;Martin-Luther-King-Weg 30-30a;48155;Münster;;;www.fom-muenster.de
+98;Private und kirchliche Hochschulen;FOM Hochschule für Oekonomie & Management;Studienort Neuss - Hochschulzentrum Neuss - First Choice Business Center Neuss;Stresemannallee 4-6;41460;Neuss;;;www.fom-neuss.de
+99;Private und kirchliche Hochschulen;FOM Hochschule für Oekonomie & Management;Studienort Siegen - c/o KM:SI GmbH;Birlenbacher Str. 17;57078;Siegen;0271 770032 -13;;www.fom-siegen.de
+100;Private und kirchliche Hochschulen;FOM Hochschule für Oekonomie & Management;Studienort Wuppertal - Hochschulzentrum Wuppertal;Robert-Daum-Platz 7;42117;Wuppertal;0271 770032 -13;;www.fom-wuppertal.de
+101;Private und kirchliche Hochschulen;Hochschule der bildenden Künste Essen;;Prinz-Friedrich-Straße 28a;45257;Essen;0201 95989800;0201 95989801;www.hbk-essen.de
+102;Private und kirchliche Hochschulen;Hochschule der bildenden Künste Essen;Standort Wuppertal  ;Gewerbeschulstr. 76;42289;Wuppertal;;;www.hbk-essen.de
+103;Private und kirchliche Hochschulen;SRH Hochschule in Nordrhein-Westfalen ;;Platz der Deutschen Einheit 1;59065;Hamm;02381 9291-0;02381 9291-199;www.fh-hamm.de
+104;Private und kirchliche Hochschulen;SRH Hochschule in Nordrhein-Westfalen ;Studienort Leverkusen;Marie-Curie-Straße 11-13;51377;Leverkusen;;;www.fh-hamm.de
+105;Private und kirchliche Hochschulen;Hochschule für Kirchenmusik der Evangelischen Kirche von Westfalen;;Parkstr. 6;32049;Herford;05221 991450;05221 830809;www.hochschule-herford.de
+106;Private und kirchliche Hochschulen;CBS International Business School;;Hardefuststr. 1;50677;Köln;0221 93180931;0221 931809720;www.cbs.de
+107;Private und kirchliche Hochschulen;HSD Hochschule Döpfer;;Waidmarkt 3 u. 9;50676;Köln;0221 126125-0;0221 126125-19;www.hs-doepfer.de
+108;Private und kirchliche Hochschulen;Katholische Hochschule Nordrhein-Westfalen;Abteilung Köln;Wörthstr. 10;50668;Köln;0221 7757-0;0221 7757-633;www.katho-nrw.de
+109;Private und kirchliche Hochschulen;Katholische Hochschule Nordrhein-Westfalen;Abteilung Aachen;Robert-Schumann-Str. 25;52066;Aachen;0241 60003-16;0241 60003-88;www.katho-nrw.de/aachen
+110;Private und kirchliche Hochschulen;Katholische Hochschule Nordrhein-Westfalen;Abteilung Münster;Piusallee 89;48147;Münster;0251 41767-25;0251 41767-52;www.katho-nrw.de/muenster
+111;Private und kirchliche Hochschulen;Katholische Hochschule Nordrhein-Westfalen;Abteilung Paderborn;Leostr. 19;33098;Paderborn;05251 1225-24;05251 1225-68;www.katho-nrw.de/paderborn
+112;Private und kirchliche Hochschulen;Rheinische Fachhochschule Köln;;Schaevenstr. 1a/1b;50676;Köln;0221 20302-0;0221 20302-45;www.rfh-koeln.de
+113;Private und kirchliche Hochschulen;Rheinische Fachhochschule Köln;Standort Neuss;Markt 11–15;41460;Neuss;02131 73986-0;02131 73986-19;http://www.hs-neuss.de
+114;Private und kirchliche Hochschulen;Philosophisch-Theologische Hochschule Münster;;Hohenzollernring 60;48145;Münster;0251 48256-0;0251 48256-19;www.pth-muenster.de
+115;Private und kirchliche Hochschulen;Fachhochschule der Wirtschaft Nordrhein-Westfalen;;Fürstenallee 3–5;33102;Paderborn;05251 301-02;05251 301-188;www.fhdw.de
+116;Private und kirchliche Hochschulen;Fachhochschule der Wirtschaft Nordrhein-Westfalen;Standort Bergisch Gladbach;Hauptstr. 2;51465;Bergisch Gladbach;02202 9527-02;02202 9527-200;www.fhdw.de
+117;Private und kirchliche Hochschulen;Fachhochschule der Wirtschaft Nordrhein-Westfalen;Abteilung Bielefeld;Meisenstr. 92;33607;Bielefeld;0521 23842-02;0521 23842-18;www.fhdw.de
+118;Private und kirchliche Hochschulen;Fachhochschule der Wirtschaft Nordrhein-Westfalen;Abteilung Marburg;Bahnhofstraße 23;35037;Marburg;06421 96885-0;06421 96885-10;www.fhdw.de
+119;Private und kirchliche Hochschulen;Fachhochschule der Wirtschaft Nordrhein-Westfalen;Abteilung Mettmann;Marie-Curie-Str. 6;40822;Mettmann;02104 17756-02;02104 17756-12;www.fhdw.de
+120;Private und kirchliche Hochschulen;Theologische Fakultät Paderborn;;Kamp 6;33908;Paderborn;05251 121-6;05251 121-700;www.thf-paderborn.de
+121;Private und kirchliche Hochschulen;Kölner Hochschule für Katholische Theologie (KHKT);;Gleueler Straße 262 - 268;50935;Köln;02241 237 222;02241/237 204;www.khkt.de
+122;Private und kirchliche Hochschulen;Private Universität Witten/Herdecke;;Alfred-Herrenhausen-Str. 50;58448;Witten;02302 926-0; 02302 926-407;www.uni-wh.de
+123;Private und kirchliche Hochschulen;Kirchliche Hochschule Wuppertal/Bethel;;Missionsstr. 9b;42285;Wuppertal;0202 2820-100;0202 2802-101;www.kiho-wuppertal-bethel.de
+124;Private und kirchliche Hochschulen;Kirchliche Hochschule Wuppertal/Bethel;Standort Bielefeld;Remterweg 45;33617;Bielefeld;0521 144-3948;0521 144-3961;www.kiho-wuppertal-bethel.de
+125;Private und kirchliche Hochschulen;Private Kolping Hochschule für Gesundheit und Soziales;;St.-Apern-Straße 32;50667;Köln;0221 717909-0;;www.kolping-hochschule.de
+126;Verwaltungshochschulen;Fachhochschule für Rechtspflege in NRW;;Schleidtalstr. 3;53902;Bad Münstereifel;02253 318-0;02253 318-146;www.fhr.nrw.de
+127;Verwaltungshochschulen;Hochschule des Bundes für öffentliche Verwaltung;;Willy-Brandt-Str. 1;50321;Brühl;0228 99 629-0;0228 99 629-5100;www.hsbund.de
+128;Verwaltungshochschulen;Hochschule für Polizei und öffentliche Verwaltung Nordrhein-Westfalen;;Am Haidekamp 73;45886;Gelsenkirchen;0209 1659-0;0209 1659-400;www.hspv.nrw.de
+129;Verwaltungshochschulen;Hochschule für Polizei und öffentliche Verwaltung Nordrhein-Westfalen;Studienort Bielefeld;Kurt-Schumacher-Str. 6 - Gebäude B;33615;Bielefeld;0521 106-2684;;www.hspv.nrw.de
+130;Verwaltungshochschulen;Hochschule für Polizei und öffentliche Verwaltung Nordrhein-Westfalen;Studienort Dortmund;Hauert 9;44227;Dortmund;0231 793076-0;;www.hspv.nrw.de
+131;Verwaltungshochschulen;Hochschule für Polizei und öffentliche Verwaltung Nordrhein-Westfalen;Studienort Duisburg;Albert-Hahn-Str. 45;47269;Duisburg;0203 9350-0;;www.hspv.nrw.de
+132;Verwaltungshochschulen;Hochschule für Polizei und öffentliche Verwaltung Nordrhein-Westfalen;Studienort Gelsenkirchen;Wanner Str. 158–160;45888;Gelsenkirchen;0209 15528-0;;www.hspv.nrw.de
+133;Verwaltungshochschulen;Hochschule für Polizei und öffentliche Verwaltung Nordrhein-Westfalen;Studienort Hagen;"Handwerkerstr. 11 (für ältere Navigationssysteme:
+Eugen-Richter-Str. 114)";58135;Hagen;02331 3678-0;;www.hspv.nrw.de
+134;Verwaltungshochschulen;Hochschule für Polizei und öffentliche Verwaltung Nordrhein-Westfalen;Studienort Köln;Thürmchenswall 48–54;50668;Köln;0221 912652-0;;www.hspv.nrw.de
+135;Verwaltungshochschulen;Hochschule für Polizei und öffentliche Verwaltung Nordrhein-Westfalen;Studienort Münster;Nevinghoff 8/10;48147;Münster;0251 2859-0;;www.hspv.nrw.de
+136;Verwaltungshochschulen;Deutsche Hochschule der Polizei Münster;;Zum Roten Berge 18;48165;Münster;02501 806-0;;www.dhpol.de
+137;Verwaltungshochschulen;Fachhochschule für Finanzen;;Schloss Nordkirchen;59394;Nordkirchen;02595 933-0;0800 10092675019;www.fhf-nordkirchen.de
