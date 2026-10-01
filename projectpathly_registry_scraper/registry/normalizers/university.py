@@ -1,3 +1,5 @@
+from datetime import datetime, timezone
+
 from registry.normalize import (
     clean_text,
     normalize_url,
@@ -18,6 +20,15 @@ def aggregate_university_rows(rows, state_code):
     """
 
     universities = {}
+
+    # Some adapters do not stamp their sources. They were fetched
+    # moments ago in this same run.
+    retrieved_at = datetime.now(timezone.utc).isoformat()
+
+    for row in rows:
+        source = row.get("source")
+        if isinstance(source, dict) and not source.get("retrieved_at"):
+            row["source"] = {**source, "retrieved_at": retrieved_at}
 
     for row in rows:
         name = clean_text(row.get("name"))
@@ -47,6 +58,11 @@ def aggregate_university_rows(rows, state_code):
                 "official_url": normalize_url(
                     row.get("official_url")
                 ),
+                # Page on which the official URL was found, if the
+                # adapter knows it (may differ from the discovery source).
+                "official_url_source": row.get(
+                    "official_url_source"
+                ),
                 "locations": [],
                 "source": row.get("source"),
             }
@@ -59,6 +75,9 @@ def aggregate_university_rows(rows, state_code):
         ):
             universities[key]["official_url"] = normalize_url(
                 row.get("official_url")
+            )
+            universities[key]["official_url_source"] = row.get(
+                "official_url_source"
             )
 
         universities[key]["locations"].append({

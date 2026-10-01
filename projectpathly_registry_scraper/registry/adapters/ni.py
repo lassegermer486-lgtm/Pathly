@@ -134,12 +134,70 @@ class NiedersachsenAdapter(RegistryAdapter):
 
         rows = self._deduplicate(rows)
 
+        # The overview only links to profile pages. Each profile page
+        # names the institution's own website in its "Hochschule" tile.
+        for row in rows:
+            profile_url = row["source"]["source_url"]
+            website = self._fetch_profile_website(profile_url)
+
+            if website:
+                row["official_url"] = website
+                row["official_url_source"] = profile_url
+
+        with_url = sum(1 for row in rows if row["official_url"])
+
         print(
             f"[NI] Parsed {len(rows)} institutions "
+            f"({with_url} with website) "
             f"from official Niedersachsen study portal"
         )
 
         return rows
+
+    def _fetch_profile_website(self, profile_url):
+        try:
+            response = self.session.get(
+                profile_url,
+                timeout=30,
+            )
+            response.raise_for_status()
+        except requests.RequestException as exc:
+            print(
+                f"[WARN] NI: profile page failed: "
+                f"{profile_url} | {exc}"
+            )
+            return None
+
+        return self.extract_profile_website(response.text)
+
+    @classmethod
+    def extract_profile_website(cls, html):
+        """
+        Profile pages render several "kachel" tiles. The tile titled
+        "Hochschule" holds the institution name as an external link
+        to its website, followed by the postal address.
+        """
+        soup = BeautifulSoup(html, "html.parser")
+
+        for tile in soup.select(".hochschul-detail__kachel-content"):
+            title = tile.select_one(".kachel__titel")
+
+            if not title:
+                continue
+
+            if cls._clean(title.get_text(" ", strip=True)) != "Hochschule":
+                continue
+
+            link = tile.select_one(
+                ".kachel__headline a.link--external[href]"
+            )
+
+            if link and link["href"].strip().startswith(
+                ("http://", "https://")
+            ):
+                return link["href"].strip()
+
+        return None
 
     @staticmethod
     def _deduplicate(rows):

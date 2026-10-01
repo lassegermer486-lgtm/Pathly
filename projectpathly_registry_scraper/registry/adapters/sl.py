@@ -3,9 +3,12 @@ import io
 import re
 
 import requests
+from bs4 import BeautifulSoup
 from pypdf import PdfReader
 
 from registry.adapters.base import RegistryAdapter
+from registry.normalize import is_host_within
+from registry.utils.matching import match_name
 
 
 class SaarlandAdapter(RegistryAdapter):
@@ -18,6 +21,13 @@ class SaarlandAdapter(RegistryAdapter):
 
     FHSV_URL = "https://www.saarland.de/fhsv/DE/home/home_node.html"
 
+    # The BAföG directory has no websites. The science ministry's
+    # university overview links each institution's website.
+    MINISTRY_URL = (
+        "https://www.saarland.de/mfw/DE/portale/wissenschaft/"
+        "informationen/studieren/hochschulen"
+    )
+
     def __init__(self, state_code, config):
         super().__init__(state_code, config)
 
@@ -27,7 +37,9 @@ class SaarlandAdapter(RegistryAdapter):
                 "Mozilla/5.0 "
                 "(Macintosh; Intel Mac OS X 10_15_7) "
                 "AppleWebKit/537.36 Chrome/140 Safari/537.36"
-            )
+            ),
+            # saarland.de answers 403 to requests without it.
+            "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
         })
 
     def fetch(self):
@@ -40,12 +52,69 @@ class SaarlandAdapter(RegistryAdapter):
 
         rows = self._deduplicate(rows)
 
+        self._attach_ministry_websites(rows)
+
+        with_url = sum(1 for row in rows if row["official_url"])
+
         print(
             f"[SL] Parsed {len(rows)} institution candidates "
+            f"({with_url} with website) "
             f"from official Saarland sources"
         )
 
         return rows
+
+    def _attach_ministry_websites(self, rows):
+        try:
+            response = self.session.get(self.MINISTRY_URL, timeout=30)
+            response.raise_for_status()
+        except requests.RequestException as exc:
+            print(
+                f"[WARN] SL: ministry overview unavailable, "
+                f"websites stay empty | {exc}"
+            )
+            return
+
+        websites = self.extract_ministry_websites(response.text)
+
+        for row in rows:
+            if row["official_url"]:
+                continue
+
+            ministry_name = match_name(row["name"], list(websites))
+
+            if ministry_name is None:
+                continue
+
+            row["official_url"] = websites[ministry_name]
+            row["official_url_source"] = self.MINISTRY_URL
+
+    @staticmethod
+    def extract_ministry_websites(html):
+        """
+        Returns {link text: website} for the external links in the
+        page's main content. Footer links (Studierendenwerk etc.)
+        are outside <main>.
+        """
+        soup = BeautifulSoup(html, "html.parser")
+        main = soup.find("main") or soup
+
+        websites = {}
+
+        for link in main.select("a.external[href]"):
+            href = link["href"].strip()
+            name = re.sub(r"\s+", " ", link.get_text(" ", strip=True))
+
+            if not name or not href.startswith(("http://", "https://")):
+                continue
+
+            # uni-saarland.de is external, www.saarland.de is not.
+            if is_host_within(href, "www.saarland.de"):
+                continue
+
+            websites.setdefault(name, href)
+
+        return websites
 
     def _fetch_pdf_rows(self):
         cache_path = Path(
