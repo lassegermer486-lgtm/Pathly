@@ -64,9 +64,8 @@ class SchleswigHolsteinAdapter(RegistryAdapter):
         import time
         from pathlib import Path
 
-        # Committed fallback copies: SH regularly blocks/aborts requests.
-        # They are only read on failure and only refreshed on --save.
         cache_dir = Path("data/source_cache/DE-SH")
+        cache_dir.mkdir(parents=True, exist_ok=True)
 
         cache_name = hashlib.sha256(
             url.encode("utf-8")
@@ -99,12 +98,10 @@ class SchleswigHolsteinAdapter(RegistryAdapter):
                 )
                 response.raise_for_status()
 
-                if self.config.get("_refresh_cache"):
-                    cache_dir.mkdir(parents=True, exist_ok=True)
-                    cache_path.write_text(
-                        response.text,
-                        encoding="utf-8",
-                    )
+                cache_path.write_text(
+                    response.text,
+                    encoding="utf-8",
+                )
 
                 print(f"[SH] LIVE  {url}")
 
