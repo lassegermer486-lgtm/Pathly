@@ -89,6 +89,24 @@ def test_failed_state_needs_confirmation_and_can_be_retried(bridge):
     assert runner.save()["complete"] is True
 
 
+def test_state_without_records_counts_as_failed(bridge, monkeypatch):
+    from scraper_ui import registry_import as ri
+    monkeypatch.setattr(ri, "load_dsn", lambda: "postgresql://u:p@db.example/postgres")
+    monkeypatch.setattr(ri, "import_registry", lambda *a, **k: pytest.fail("must not be called"))
+
+    bridge.data["DE-CC"] = []              # source answered "OK", but with an outage page
+    runner = run(bridge)
+    runner.decide(pair_id(*PAIR), "merge")
+
+    assert runner.snapshot()["failed_states"] == ["DE-CC"]
+    assert "Keine Hochschulen gelesen" in runner.states["DE-CC"]["error"]
+    with pytest.raises(Conflict, match="INCOMPLETE:CC"):
+        runner.save()
+    assert runner.save(confirm_incomplete=True)["complete"] is False
+    with pytest.raises(Conflict, match="vollständiger Abruf"):
+        runner.push_to_db()                # the database never sees the gap
+
+
 def test_partial_selection_is_not_a_complete_dataset(bridge):
     runner = run(bridge, states=["DE-AA", "DE-CC"])
     assert runner.phase == "ready"
