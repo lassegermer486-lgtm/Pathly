@@ -1,0 +1,10 @@
+# Lokale Umgebungsvariablen und Schlüssel (z. B. OPENROUTER_API_KEY)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/

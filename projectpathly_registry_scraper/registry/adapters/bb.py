@@ -9,6 +9,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from .base import RegistryAdapter
+from ..normalize import is_host_within, is_social_media_url
 
 
 class BrandenburgAdapter(RegistryAdapter):
@@ -162,6 +163,11 @@ class BrandenburgAdapter(RegistryAdapter):
                 name = profile["name"]
                 profile_url = profile["url"]
 
+                official_url = self._fetch_profile_website(
+                    session,
+                    profile_url,
+                )
+
                 institution_type = meta[
                     "institution_type"
                 ]
@@ -179,7 +185,12 @@ class BrandenburgAdapter(RegistryAdapter):
 
                 rows.append({
                     "name": name,
-                    "official_url": None,
+                    "official_url": official_url,
+                    "official_url_source": (
+                        profile_url
+                        if official_url
+                        else None
+                    ),
                     "institution_type":
                         institution_type,
                     "ownership":
@@ -295,13 +306,113 @@ class BrandenburgAdapter(RegistryAdapter):
             deduped.values()
         )
 
+        with_url = sum(
+            1
+            for row in result
+            if row.get("official_url")
+        )
+
         print(
             f"[BB] Parsed {len(rows)} profile rows "
             f"→ {len(result)} unique institutions "
+            f"({with_url} with website) "
             f"from official MWFK pages"
         )
 
         return result
+
+    def _fetch_profile_website(
+        self,
+        session,
+        profile_url,
+    ):
+
+        try:
+            response = session.get(
+                profile_url,
+                timeout=30
+            )
+            response.raise_for_status()
+
+        except requests.RequestException as exc:
+            print(
+                "[WARN] BB: profile page failed: "
+                f"{profile_url} | {exc}"
+            )
+            return None
+
+        return self.extract_profile_website(
+            response.text
+        )
+
+    @classmethod
+    def extract_profile_website(
+        cls,
+        html,
+    ):
+        """
+        MWFK profile pages end with a contact sidebar
+        (div.trennung) holding name, postal address, phone,
+        website and e-mail. The website is usually a link,
+        but sometimes only plain text ("www.th-brandenburg.de").
+        """
+
+        soup = BeautifulSoup(
+            html,
+            "html.parser"
+        )
+
+        for block in soup.select(
+            "div.trennung"
+        ):
+
+            text = block.get_text(
+                " ",
+                strip=True
+            )
+
+            # Only the contact block carries a postal address.
+            if not re.search(
+                r"\b\d{5}\s+[A-ZÄÖÜ]",
+                text
+            ):
+                continue
+
+            for link in block.find_all(
+                "a",
+                href=True
+            ):
+
+                href = link["href"].strip()
+
+                if not href.startswith(
+                    ("http://", "https://")
+                ):
+                    continue
+
+                if is_host_within(
+                    href,
+                    "brandenburg.de"
+                ):
+                    continue
+
+                if is_social_media_url(href):
+                    continue
+
+                return href
+
+            # Plain-text website. The lookbehind skips the domain
+            # part of e-mail addresses (info@th-brandenburg.de).
+            match = re.search(
+                r"(?<![@\w.-])"
+                r"((?:https?://|www\.)[^\s|]+)",
+                text
+            )
+
+            if match:
+                return match.group(1).rstrip(".,;")
+
+        return None
 
     def _find_profiles(
         self,

@@ -1,0 +1,18 @@
+# Manuelle Entscheidungen für die Deduplizierung (registry/master/dedup.py).
+# Overrides haben Vorrang vor allen automatischen Regeln.
+#
+# Schlüssel: "<Bundesland>|<Name exakt wie in der Landesquelle>".
+# Offene Fälle mit fertigen Zeilen: data/reports/review_report.md
+#
+# merge:          gehören zur selben Hochschule (2 oder mehr Einträge)
+# keep_separate:  verschiedene Hochschulen, nie automatisch zusammenführen
+
+merge:
+  # ISBA ist eine Akademie mit mehreren Standorten (isba.eu).
+  - ["DE-MV|Internationale Studien- und Berufsakademie ISBA", "DE-SL|ISBA gGmbH Internationale Studien- und Berufsakademie"]
+  # FHM, Campus Schwerin.
+  - ["DE-MV|Fachhochschule des Mittelstands", "DE-NW|Fachhochschule des Mittelstands"]
+
+keep_separate:
+  # Eigenständig anerkannte Hochschulen desselben Betreibers.
+  - ["DE-BB|Health and Medical University Potsdam (HMU)", "DE-TH|HMU Health and Medical University Erfurt"]

@@ -1,0 +1,1528 @@
+{
+  "anthropic/claude-opus-5.5|DE-HH|Technische Universität Hamburg-Harburg": {
+    "answer": {
+      "official_url": "https://www.tuhh.de",
+      "canonical_name": "Technische Universität Hamburg",
+      "lifecycle_status": "renamed",
+      "confidence": 0.95,
+      "evidence": [
+        "A 2018 Hamburg state law, the 'Gesetz zur Umbenennung der Technischen Universität Hamburg-Harburg' of 29 May 2018, dropped 'Harburg' from the name. The abbreviation TUHH stays in use. (https://de.wikipedia.org/wiki/Technische_Universit%C3%A4t_Hamburg)",
+        "A TUHH press release says the Technische Universität Hamburg-Harburg is being renamed 'Technische Universität Hamburg'. (https://intranet.tuhh.de/presse/pressemitteilung_einzeln.php?Lang=en&id=11391)",
+        "The university's website is listed as www.tuhh.de. (https://en.wikipedia.org/wiki/Hamburg_University_of_Technology)",
+        "The old domain tu-harburg.de redirects to https://www.tuhh.de/tuhh/startseite (from the automatic check in the input)."
+      ]
+    },
+    "citations": [],
+    "requested_model": "anthropic/claude-opus-5.5",
+    "model": "anthropic/claude-opus-5.5",
+    "usage": {
+      "prompt_tokens": 14151,
+      "completion_tokens": 506,
+      "total_tokens": 14657,
+      "cost": 0.076724,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.076724,
+        "upstream_inference_prompt_cost": 0.056604,
+        "upstream_inference_completions_cost": 0.01012
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 49,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      },
+      "server_tool_use_details": {
+        "web_search_requests": 1
+      }
+    },
+    "asked_at": "2026-10-01T15:23:06.329210+00:00"
+  },
+  "anthropic/claude-opus-5.5|DE-HH|Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg": {
+    "answer": {
+      "official_url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa/",
+      "canonical_name": "Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg",
+      "lifecycle_status": "active",
+      "confidence": 0.65,
+      "evidence": [
+        "The Hamburg Finanzbehörde hosts the NoA's own section on hamburg.de, with an 'Über uns' page. It says the NoA was founded on 1 September 2010 by merging the Hochschule für Finanzen Hamburg with the Landesfinanzschule Hamburg: https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa/ueber-uns",
+        "The contact page in the same section gives the address Hammer Steindamm 129, 20535 Hamburg, and an email at fb.hamburg.de: https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa/01-start-206610",
+        "The Hamburg science authority lists the NoA as a state Hochschule in Hamburg's higher-education landscape: https://www.hamburg.de/politik-und-verwaltung/behoerden/bwfg/unsere-themen/hochschulen-und-studium/hochschullandschaft-hamburg/norddeutsche-akademie-finanzen-steuerrecht-hamburg-196348",
+        "A site at s370403951.website-start.de uses the NoA name and the email info@noa-hamburg.de. Its page description wrongly calls it a financial adviser ('Vermögensberater'), so it is not treated as reliable: http://s370403951.website-start.de/",
+        "A 2026 building-project page still describes the NoA as active and training tax officials for Hamburg, Bremen and Mecklenburg-Vorpommern: https://bildungsbau.hamburg/projekte/hochschulbau/noa/"
+      ]
+    },
+    "citations": [],
+    "requested_model": "anthropic/claude-opus-5.5",
+    "model": "anthropic/claude-opus-5.5",
+    "usage": {
+      "prompt_tokens": 14928,
+      "completion_tokens": 1308,
+      "total_tokens": 16236,
+      "cost": 0.095872,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.095872,
+        "upstream_inference_prompt_cost": 0.059712,
+        "upstream_inference_completions_cost": 0.02616
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 455,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      },
+      "server_tool_use_details": {
+        "web_search_requests": 1
+      }
+    },
+    "asked_at": "2026-10-01T15:23:33.714873+00:00"
+  },
+  "anthropic/claude-opus-5.5|DE-HH|BTK Hochschule für Gestaltung, Campus Hamburg": {
+    "answer": {
+      "official_url": "https://www.ue-germany.com/de",
+      "canonical_name": "University of Europe for Applied Sciences",
+      "lifecycle_status": "merged",
+      "confidence": 0.88,
+      "evidence": [
+        "In March 2017, BTK was absorbed by merger into BiTS, which was then renamed University of Applied Sciences Europe. Source: https://de.wikipedia.org/wiki/Berliner_Technische_Kunsthochschule",
+        "UE was formed in 2017 from the merger of BiTS and the Berliner Technische Kunsthochschule. It has campuses in Iserlohn, Berlin, Potsdam, Hamburg and Dubai, and its website is www.ue-germany.com. Source: https://en.wikipedia.org/wiki/University_of_Europe_for_Applied_Sciences",
+        "An old btk-fh.de page shows that BTK Art & Design in Berlin and Hamburg became part of the University of Applied Sciences Europe. Source: http://www.btk-fh.de/de/brochures/",
+        "The former BTK domain btk-fh.de now redirects to ue-germany.com/de, according to the automatic check given in the input."
+      ]
+    },
+    "citations": [],
+    "requested_model": "anthropic/claude-opus-5.5",
+    "model": "anthropic/claude-opus-5.5",
+    "usage": {
+      "prompt_tokens": 13515,
+      "completion_tokens": 527,
+      "total_tokens": 14042,
+      "cost": 0.0746,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0746,
+        "upstream_inference_prompt_cost": 0.05406,
+        "upstream_inference_completions_cost": 0.01054
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      },
+      "server_tool_use_details": {
+        "web_search_requests": 1
+      }
+    },
+    "asked_at": "2026-10-01T15:23:31.064737+00:00"
+  },
+  "anthropic/claude-opus-5.5|DE-HH|IUBH Internationale Hochschule, Campus Hamburg": {
+    "answer": {
+      "official_url": "https://www.iu.de/campus/hamburg/",
+      "canonical_name": "IU Internationale Hochschule – Campus Hamburg",
+      "lifecycle_status": "renamed",
+      "confidence": 0.88,
+      "evidence": [
+        "The old IUBH dual-study domain now redirects to iu-dualesstudium.de, and that site names the location 'IU Internationale Hochschule – Campus Hamburg', Christoph-Probst-Weg 28, 20251 Hamburg (https://www.iu-dualesstudium.de/standorte/hamburg/)",
+        "The university's main website has a campus page for Hamburg with the same name and address (https://www.iu.de/campus/hamburg/)",
+        "Studis Online lists https://www.iu.de/ as the website of IU Internationale Hochschule, which has a study location in Hamburg (https://www.studis-online.de/hochschulen/iu/hamburg/)",
+        "Not confirmed by search, from background knowledge: IUBH Internationale Hochschule changed its name to IU Internationale Hochschule around 2021. The redirect from the iubh-dualesstudium.de domain to iu-dualesstudium.de supports this."
+      ]
+    },
+    "citations": [],
+    "requested_model": "anthropic/claude-opus-5.5",
+    "model": "anthropic/claude-opus-5.5",
+    "usage": {
+      "prompt_tokens": 16384,
+      "completion_tokens": 564,
+      "total_tokens": 16948,
+      "cost": 0.086816,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.086816,
+        "upstream_inference_prompt_cost": 0.065536,
+        "upstream_inference_completions_cost": 0.01128
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 99,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      },
+      "server_tool_use_details": {
+        "web_search_requests": 1
+      }
+    },
+    "asked_at": "2026-10-01T15:23:28.431103+00:00"
+  },
+  "anthropic/claude-opus-5.5|DE-NW|Fachhochschule Bielefeld": {
+    "answer": {
+      "official_url": "https://www.hsbi.de",
+      "canonical_name": "Hochschule Bielefeld – University of Applied Sciences and Arts",
+      "lifecycle_status": "renamed",
+      "confidence": 0.97,
+      "evidence": [
+        "The HSBI's own press release says that on 19 April 2023 the Fachhochschule Bielefeld was renamed Hochschule Bielefeld – University of Applied Sciences and Arts (HSBI), and that it can now be found online at hsbi.de, with old addresses redirecting automatically (https://www.hsbi.de/presse/pressemitteilungen/aus-fh-wird-hsbi-die-fachhochschule-bielefeld-wird-zur-hochschule-bielefeld)",
+        "The English press release says the new URL will be hsbi.de and that requests to the old addresses will be forwarded (https://www.hsbi.de/en/press-releases/bielefeld-uas-becomes-hsbi-fachhochschule-bielefeld-turns-into-hochschule-bielefeld)",
+        "The automatic check found that fh-bielefeld.de redirects to https://www.hsbi.de, which matches the announced change of domain (input redirect_target)",
+        "An HSBI department page uses the name 'Hochschule Bielefeld University of Applied Sciences and Arts' and mentions the 2023 rename (https://www.hsbi.de/gestaltung/fachbereich)"
+      ]
+    },
+    "citations": [],
+    "requested_model": "anthropic/claude-opus-5.5",
+    "model": "anthropic/claude-opus-5.5",
+    "usage": {
+      "prompt_tokens": 15629,
+      "completion_tokens": 643,
+      "total_tokens": 16272,
+      "cost": 0.085376,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.085376,
+        "upstream_inference_prompt_cost": 0.062516,
+        "upstream_inference_completions_cost": 0.01286
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 88,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      },
+      "server_tool_use_details": {
+        "web_search_requests": 1
+      }
+    },
+    "asked_at": "2026-10-01T15:23:42.011464+00:00"
+  },
+  "anthropic/claude-opus-5.5|DE-NW|Fachhochschule der Diakonie": {
+    "answer": {
+      "official_url": "https://www.hochschule-diakonie.de",
+      "canonical_name": "Hochschule der Diakonie",
+      "lifecycle_status": "renamed",
+      "confidence": 0.9,
+      "evidence": [
+        "The institution's own news page on hochschule-diakonie.de has an item saying the university has renamed itself, and lists the operator as 'Hochschule der Diakonie gem. GmbH, Bethelweg 8, 33617 Bielefeld' with the email info@hochschule-diakonie.de (https://www.hochschule-diakonie.de/.cms/fh_diakonie/aktuelles/819)",
+        "In the commercial register (Amtsgericht Bielefeld HRB 38697), the operating company's name changed from 'Fachhochschule der Diakonie gemeinnützige GmbH' to 'Hochschule der Diakonie gGmbH', published on 21.07.2026 (https://www.northdata.de/Fachhochschule%20der%20Diakonie%20gemeinn%C3%BCtzige%20GmbH,%20Bielefeld/HRB%2038697)",
+        "The institution's older website, fh-diakonie.de, still described it as the 'Fachhochschule der Diakonie', founded in 2006 in Bielefeld (https://www.fh-diakonie.de/.cms/fh_diakonie/ueber_uns/823)",
+        "The automatic check found that the source URL fhdd.de redirects to hochschule-diakonie.de (input hint)"
+      ]
+    },
+    "citations": [],
+    "requested_model": "anthropic/claude-opus-5.5",
+    "model": "anthropic/claude-opus-5.5",
+    "usage": {
+      "prompt_tokens": 14455,
+      "completion_tokens": 630,
+      "total_tokens": 15085,
+      "cost": 0.08042,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.08042,
+        "upstream_inference_prompt_cost": 0.05782,
+        "upstream_inference_completions_cost": 0.0126
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 51,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      },
+      "server_tool_use_details": {
+        "web_search_requests": 1
+      }
+    },
+    "asked_at": "2026-10-01T15:23:47.458396+00:00"
+  },
+  "anthropic/claude-opus-5.5|DE-NW|Europäische Fachhochschule Rhein/Erft": {
+    "answer": {
+      "official_url": "https://www.cbs.de",
+      "canonical_name": "CBS University of Applied Sciences",
+      "lifecycle_status": "merged",
+      "confidence": 0.88,
+      "evidence": [
+        "CBS took over EU|FH's entire Management and Technology division, including its Brühl main site, at the start of 2022 – https://www.cbs.de/blog/cbs-uebernimmt-die-eufh-standorte",
+        "CBS International Business School and EU|FH merged to form CBS University of Applied Sciences, with sites in Köln, Aachen, Neuss, Rheine and other cities – https://www.cbs.de/blog/cbs-eufh-werden-cbs-university-of-applied-sciences",
+        "Wikipedia says EU|FH was fully merged into CBS University of Applied Sciences in April 2025 and no longer exists as a separate Hochschule. It lists eufh.de as its former website. – https://de.wikipedia.org/wiki/Europ%C3%A4ische_Fachhochschule",
+        "The EU|FH brand is not being continued after the merger – https://pablog.de/bachelorstudium/pa-hochschulen/fusion-im-bildungssektor-cbs-uebernimmt-eufh/",
+        "The automatic check found that eufh.de redirects to cbs.de, which matches the merger"
+      ]
+    },
+    "citations": [],
+    "requested_model": "anthropic/claude-opus-5.5",
+    "model": "anthropic/claude-opus-5.5",
+    "usage": {
+      "prompt_tokens": 15439,
+      "completion_tokens": 583,
+      "total_tokens": 16022,
+      "cost": 0.083416,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.083416,
+        "upstream_inference_prompt_cost": 0.061756,
+        "upstream_inference_completions_cost": 0.01166
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 75,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      },
+      "server_tool_use_details": {
+        "web_search_requests": 1
+      }
+    },
+    "asked_at": "2026-10-01T15:23:45.496153+00:00"
+  },
+  "anthropic/claude-opus-5.5|DE-NW|SRH Hochschule in Nordrhein-Westfalen": {
+    "answer": {
+      "official_url": "https://www.srh-university.de/de/",
+      "canonical_name": "SRH University of Applied Sciences Heidelberg",
+      "lifecycle_status": "merged",
+      "confidence": 0.88,
+      "evidence": [
+        "The SRH University of Applied Sciences Heidelberg (SRH University) was formed on 1 October 2024 by merging five SRH universities, including SRH Hochschule in Nordrhein-Westfalen in Hamm (https://de.wikipedia.org/wiki/SRH_University_of_Applied_Sciences_Heidelberg)",
+        "Studis Online says SRH University resulted from the merger of the SRH on-campus universities on 1.10.2024, including the former SRH Hochschule NRW (https://www.studis-online.de/hochschulen/srh-heidelberg/duesseldorf/)",
+        "The former Hamm, Leverkusen and Münster sites continue as campuses of SRH University. Wikipedia gives the integration date as 1 July 2024, which does not match the 1 October 2024 merger date given elsewhere (https://de.wikipedia.org/wiki/SRH_Hochschule_in_Nordrhein-Westfalen)",
+        "The official SRH University website has a page for SRH Campus Hamm (https://www.srh-university.de/en/our-campuses/hamm/)",
+        "The old domain fh-hamm.de redirects to https://www.srh-university.de/de (input redirect_target)"
+      ]
+    },
+    "citations": [],
+    "requested_model": "anthropic/claude-opus-5.5",
+    "model": "anthropic/claude-opus-5.5",
+    "usage": {
+      "prompt_tokens": 14291,
+      "completion_tokens": 728,
+      "total_tokens": 15019,
+      "cost": 0.081724,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.081724,
+        "upstream_inference_prompt_cost": 0.057164,
+        "upstream_inference_completions_cost": 0.01456
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 171,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      },
+      "server_tool_use_details": {
+        "web_search_requests": 1
+      }
+    },
+    "asked_at": "2026-10-01T15:23:57.881775+00:00"
+  },
+  "anthropic/claude-opus-5.5|DE-NW|Philosophisch-Theologische Hochschule Münster": {
+    "answer": {
+      "official_url": "https://www.cts-hochschule.de",
+      "canonical_name": "CTS Hochschule Münster",
+      "lifecycle_status": "renamed",
+      "confidence": 0.92,
+      "evidence": [
+        "The official site calls itself 'CTS Hochschule Münster (vormals PTH Münster)' and announces a new operator and a new name, with the rename to 'CTS Hochschule Münster'. https://www.cts-hochschule.de/",
+        "The contact page gives the postal address as CTS Hochschule Münster, Kapuzinerstr. 27, 48149 Münster. https://www.cts-hochschule.de/kontakt-aufnehmen/",
+        "On 1 January 2026, the Trägerverein Campus für Theologie und Spiritualität Berlin e.V. took over operation of PTH Münster from the Deutsche Kapuzinerprovinz, and a rename to 'CTS Hochschule Münster' was planned. https://www.cts-berlin.org/programm/strategische-neuausrichtung-cts-berlin-uebernimmt-traegerschaft-der-pth-muenster/",
+        "The Capuchin province also reported the change of operator and the planned rename to 'CTS Hochschule Münster'. https://www.kapuziner.org/neuausrichtung-cts-berlin-uebernimmt-traegerschaft-der-pth-muenster/",
+        "Wikipedia says the school was called Philosophisch-Theologische Hochschule until April 2026 and lists www.cts-hochschule.de as its website. https://de.wikipedia.org/wiki/Philosophisch-Theologische_Hochschule_der_Franziskaner_und_Kapuziner_M%C3%BCnster",
+        "The old domain pth-muenster.de redirects to cts-hochschule.de. This comes from the input hint, which matches what the official site says."
+      ]
+    },
+    "citations": [],
+    "requested_model": "anthropic/claude-opus-5.5",
+    "model": "anthropic/claude-opus-5.5",
+    "usage": {
+      "prompt_tokens": 14452,
+      "completion_tokens": 751,
+      "total_tokens": 15203,
+      "cost": 0.082828,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.082828,
+        "upstream_inference_prompt_cost": 0.057808,
+        "upstream_inference_completions_cost": 0.01502
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 69,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      },
+      "server_tool_use_details": {
+        "web_search_requests": 1
+      }
+    },
+    "asked_at": "2026-10-01T15:24:00.339012+00:00"
+  },
+  "anthropic/claude-opus-5.5|DE-NW|Fachhochschule für Rechtspflege in NRW": {
+    "answer": {
+      "official_url": "https://www.hsjustiz.nrw.de",
+      "canonical_name": "Hochschule der Justiz Nordrhein-Westfalen",
+      "lifecycle_status": "renamed",
+      "confidence": 0.96,
+      "evidence": [
+        "The NRW Ministry of Justice says the Fachhochschule für Rechtspflege (FHR) NRW took the name Hochschule der Justiz Nordrhein-Westfalen on 3 October 2025 (https://www.justiz.nrw/presse/2025-10-02).",
+        "The press page on hsjustiz.nrw.de says the Hochschule der Justiz NRW grew out of the former Fachhochschule für Rechtspflege NRW and has used its new name since 3 October 2025 (https://www.hsjustiz.nrw.de/behoerde/presse/index.php).",
+        "The welcome page on hsjustiz.nrw.de calls the site the online presence of the Hochschule der Justiz (HSJustiz) NRW, with study locations in Bad Münstereifel and Essen (https://www.hsjustiz.nrw.de/behoerde/behoerdenvorstellung/index.php).",
+        "The old domain fhr.nrw.de now shows the Hochschule der Justiz NRW homepage, which fits the automatic check's finding that it redirects to hsjustiz.nrw.de (https://www.fhr.nrw.de/?print=1).",
+        "A June 2026 ministry release on the 50th anniversary still refers to the institution as HSJustiz NRW in Bad Münstereifel, so it is still operating (https://www.justiz.nrw/mitteilung/2026-06-26)."
+      ]
+    },
+    "citations": [],
+    "requested_model": "anthropic/claude-opus-5.5",
+    "model": "anthropic/claude-opus-5.5",
+    "usage": {
+      "prompt_tokens": 15717,
+      "completion_tokens": 768,
+      "total_tokens": 16485,
+      "cost": 0.088228,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.088228,
+        "upstream_inference_prompt_cost": 0.062868,
+        "upstream_inference_completions_cost": 0.01536
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 121,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      },
+      "server_tool_use_details": {
+        "web_search_requests": 1
+      }
+    },
+    "asked_at": "2026-10-01T15:24:02.456867+00:00"
+  },
+  "anthropic/claude-opus-5.5|DE-NW|Fachhochschule für Finanzen": {
+    "answer": {
+      "official_url": "https://www.finanzverwaltung.nrw.de/dienststellen/hochschule-fuer-finanzen-nrw",
+      "canonical_name": "Hochschule für Finanzen Nordrhein-Westfalen",
+      "lifecycle_status": "renamed",
+      "confidence": 0.82,
+      "evidence": [
+        "The institution started as the Fachhochschule für Finanzen (FHF) in 1976. The Fachhochschulgesetz öffentlicher Dienst renamed it Hochschule für Finanzen (HSF) on 14 December 2019 (https://de.wikipedia.org/wiki/Hochschule_f%C3%BCr_Finanzen_Nordrhein-Westfalen, used only as a source for the rename)",
+        "Studis Online confirms the rename took effect in December 2019. It gives the earlier name as Fachhochschule für Finanzen Nordrhein Westfalen (FHF NRW) (https://www.studis-online.de/hochschulen/fhf-nrw/)",
+        "The NRW finance administration runs the HSF website as a section of its own site. That section's subpages describe the HSF's three locations: Nordkirchen, Herford and Hamminkeln (https://www.finanzverwaltung.nrw.de/dienststellen/hochschule-fur-finanzen-nrw/aussenstandorte-der-hsf)",
+        "Karriere.NRW lists the Hochschule für Finanzen Nordrhein-Westfalen at Schloss, 59394 Nordkirchen and names https://www.finanzverwaltung.nrw.de as its website (https://karriere.nrw/dienststelle/a84cb580-61e1-44a1-bc16-7dc672cf3c91)",
+        "The old domain fhf-nordkirchen.de redirects to the HSF section on finanzverwaltung.nrw.de, according to the automatic check that was provided as input. The exact form of the URL path is not fully confirmed: the input redirect uses 'fuer', but a subpage found in search uses 'fur'"
+      ]
+    },
+    "citations": [],
+    "requested_model": "anthropic/claude-opus-5.5",
+    "model": "anthropic/claude-opus-5.5",
+    "usage": {
+      "prompt_tokens": 15184,
+      "completion_tokens": 1030,
+      "total_tokens": 16214,
+      "cost": 0.091336,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.091336,
+        "upstream_inference_prompt_cost": 0.060736,
+        "upstream_inference_completions_cost": 0.0206
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 275,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      },
+      "server_tool_use_details": {
+        "web_search_requests": 1
+      }
+    },
+    "asked_at": "2026-10-01T15:24:14.439014+00:00"
+  },
+  "anthropic/claude-opus-5.5|DE-RP|Hochschule für Finanzen Rheinland-Pfalz": {
+    "answer": {
+      "official_url": "https://landesfinanzschule-edenkoben.rlp.de/",
+      "canonical_name": "Hochschule für Finanzen Rheinland-Pfalz",
+      "lifecycle_status": "active",
+      "confidence": 0.88,
+      "evidence": [
+        "The current site at landesfinanzschule-edenkoben.rlp.de is titled 'Hochschule für Finanzen Rheinland-Pfalz . Landesfinanzschule Edenkoben'. It gives the address Luitpoldstr. 33, 67480 Edenkoben, a notice about the teaching-free period from 06.07. to 31.07.2026, and the contact email Poststelle(at)hochschule.fin-rlp.de (https://landesfinanzschule-edenkoben.rlp.de/)",
+        "The old source URL on landesfinanzschule-edenkoben.fin-rlp.de showed the same institution with the same address and email, but its newest content dates from 2023. This suggests the site has moved from fin-rlp.de to rlp.de (https://landesfinanzschule-edenkoben.fin-rlp.de/startseite)",
+        "The ministry page names the joint institution 'Hochschule für Finanzen und Landesfinanzschule Rheinland-Pfalz' in Edenkoben and confirms it has run since 1981. It also lists an older web address, www.hochschule-finanzen-rlp.de (https://fm.rlp.de/ministerium/karriere/hochschule-fuer-finanzen)",
+        "Third-party directories also list landesfinanzschule-edenkoben.rlp.de as the website (https://studieren.de/hs-fuer-finanzen-rheinlandpfalz.hochschule.t-0.a-132.html)",
+        "The institution was still operating in September 2025, when it celebrated its 75th anniversary in Edenkoben (https://www.pfalz-express.de/edenkoben-75-jahre-hochschule-fuer-finanzen-und-landesfinanzschule-rheinland-pfalz/)"
+      ]
+    },
+    "citations": [],
+    "requested_model": "anthropic/claude-opus-5.5",
+    "model": "anthropic/claude-opus-5.5",
+    "usage": {
+      "prompt_tokens": 40113,
+      "completion_tokens": 987,
+      "total_tokens": 41100,
+      "cost": 0.200192,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.200192,
+        "upstream_inference_prompt_cost": 0.160452,
+        "upstream_inference_completions_cost": 0.01974
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 157,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      },
+      "server_tool_use_details": {
+        "web_search_requests": 2
+      }
+    },
+    "asked_at": "2026-10-01T15:24:27.547873+00:00"
+  },
+  "anthropic/claude-opus-5.5|DE-SL|Berufsakademie für Gesundheits- und Sozialwesen Saarland gGmbH (BAGSS)": {
+    "answer": {
+      "official_url": null,
+      "canonical_name": "Berufsakademie für Gesundheits- und Sozialwesen Saarland gemeinnützige GmbH (BAGSS)",
+      "lifecycle_status": "closed",
+      "confidence": 0.8,
+      "evidence": [
+        "The company register lists the operator as Berufsakademie für Gesundheits- und Sozialwesen Saarland gemeinnützige GmbH (BAGSS), HRB 100672, Saarbrücken, with the website www.bagss.de. Source: https://www.unternehmen24.info/Firmeninformationen/Deutschland/Firma/3808500",
+        "North Data marks the entity as dissolved (✝) and shows a liquidation filing with liquidators dated 23 Aug 2023. Source: https://www.northdata.com/Berufsakademie+f%C3%BCr+Gesundheits-+und+Sozialwesen+Saarland+gemeinn%C3%BCtzige+GmbH+(BAGSS),+Saarbr%C3%BCcken/HRB+100672",
+        "Earlier degree programmes were handed over to the FOM Hochschule. Only 'Berufspädagogik im Gesundheitswesen' remained. Source: https://www.soziales-studieren.de/hochschulen/berufsakademie-fuer-gesundheits-und-sozialwesen-saarland/",
+        "The former domain bagss.de now redirects to https://www.shg-kliniken.de/bildung, a page run by the shareholder Saarland-Heilstätten (SHG), not to an active BAGSS website. Source: input candidate_domains / https://www.shg-kliniken.de/bildung"
+      ]
+    },
+    "citations": [],
+    "requested_model": "anthropic/claude-opus-5.5",
+    "model": "anthropic/claude-opus-5.5",
+    "usage": {
+      "prompt_tokens": 13417,
+      "completion_tokens": 737,
+      "total_tokens": 14154,
+      "cost": 0.078408,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.078408,
+        "upstream_inference_prompt_cost": 0.053668,
+        "upstream_inference_completions_cost": 0.01474
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 100,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      },
+      "server_tool_use_details": {
+        "web_search_requests": 1
+      }
+    },
+    "asked_at": "2026-10-01T15:24:16.028013+00:00"
+  },
+  "anthropic/claude-opus-5.5|DE-TH|Thüringer Fachhochschule für öffentliche Verwaltung Gotha": {
+    "answer": {
+      "official_url": "https://bildungszentrum.thueringen.de/thueringer-fachhochschule-fuer-oeffentliche-verwaltung",
+      "canonical_name": "Thüringer Fachhochschule für öffentliche Verwaltung",
+      "lifecycle_status": "active",
+      "confidence": 0.72,
+      "evidence": [
+        "Wikipedia (used only as a hint) describes the Thüringer VFHS as an internal state institution based in Gotha, founded in April 1994, and gives its website as bildungszentrum.thueringen.de: https://de.wikipedia.org/wiki/Th%C3%BCringer_Fachhochschule_f%C3%BCr_%C3%B6ffentliche_Verwaltung",
+        "The state of Thuringia's official careers portal still uses the name Thüringer Fachhochschule für öffentliche Verwaltung. It links the Gotha departments (KSAV and Steuern) to https://bildungszentrum.thueringen.de and the police department to polizei.thueringen.de: https://karriere.thueringen.de/unsere-geschaeftsbereiche/thueringer-ministerium-fuer-inneres-kommunales-und-landesentwicklung/thueringer-fachhochschule-fuer-oeffentliche-verwaltung",
+        "A third-party site names the subpage https://bildungszentrum.thueringen.de/thueringer-fachhochschule-fuer-oeffentliche-verwaltung on the Bildungszentrum der Thüringer Landesverwaltung site (Bahnhofstraße 12, Gotha) as the contact page. The subpage itself was not checked directly: https://eisenach.life/de/hochschulen/thueringer-fachhochschule-fuer-oeffentliche-verwaltung",
+        "Old domains in directories (vfhs-thueringen.de and thueringen.de/th3/vfhs/) look out of date. No sign of a rename, merger or closure was found: https://hochschulen-liste.de/hochschule/thueringer-fachhochschule-fuer-oeffentliche-verwaltung-gotha/",
+        "Note: the institution has no standalone domain. Its web presence is part of the Bildungszentrum der Thüringer Landesverwaltung site, which lowers confidence in the exact URL."
+      ]
+    },
+    "citations": [],
+    "requested_model": "anthropic/claude-opus-5.5",
+    "model": "anthropic/claude-opus-5.5",
+    "usage": {
+      "prompt_tokens": 15417,
+      "completion_tokens": 1077,
+      "total_tokens": 16494,
+      "cost": 0.093208,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.093208,
+        "upstream_inference_prompt_cost": 0.061668,
+        "upstream_inference_completions_cost": 0.02154
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 236,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      },
+      "server_tool_use_details": {
+        "web_search_requests": 1
+      }
+    },
+    "asked_at": "2026-10-01T15:24:36.180203+00:00"
+  },
+  "openai/gpt-4o-mini|openai/gpt-4o-mini|DE-HH|Technische Universität Hamburg-Harburg": {
+    "answer": {
+      "official_url": "https://www.tuhh.de/tuhh/startseite",
+      "canonical_name": "Technische Universität Hamburg",
+      "lifecycle_status": "renamed",
+      "confidence": 0.9,
+      "evidence": [
+        "The institution was renamed in 2018 from Technische Universität Hamburg-Harburg to Technische Universität Hamburg. Source: [tuhh.de](https://www.tuhh.de/tuhh/startseite)",
+        "The official website of the university is confirmed to be www.tuhh.de. Source: [tuhh.de](https://www.tuhh.de/tuhh/startseite)"
+      ]
+    },
+    "citations": [
+      "https://www.tuhh.de/tuhh/startseite",
+      "https://www.tu-harburg.de/alt/tuhh/uni.html",
+      "https://de.wikipedia.org/wiki/Technische_Universit%C3%A4t_Hamburg-Harburg",
+      "https://www.tuhh.de/tuhh/tu-hamburg/profil/leitbild",
+      "https://www.tuhh.de/tuhh/studium-und-lehre"
+    ],
+    "requested_model": "openai/gpt-4o-mini",
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 2048,
+      "completion_tokens": 124,
+      "total_tokens": 2172,
+      "cost": 0.0073816,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003816,
+        "upstream_inference_prompt_cost": 0.0003072,
+        "upstream_inference_completions_cost": 7.44e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "asked_at": "2026-10-01T15:29:26.581462+00:00"
+  },
+  "openai/gpt-4o-mini|openai/gpt-4o-mini|DE-HH|Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg": {
+    "answer": {
+      "official_url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa",
+      "canonical_name": "Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg",
+      "lifecycle_status": "active",
+      "confidence": 0.9,
+      "evidence": [
+        "The Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg is described as a public institution under the supervision of the Hamburg finance authority, indicating its active status. Source: [hamburg.de](https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa)",
+        "The institution was established in 2010 and continues to operate, providing education for tax administration in Hamburg and surrounding areas. Source: [hamburg.de](https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa/ueber-uns)"
+      ]
+    },
+    "citations": [
+      "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa",
+      "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa/ueber-uns",
+      "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa/aufbau-und-struktur-der-noa-206614",
+      "https://www.hamburg.de/politik-und-verwaltung/behoerden/bwfg/unsere-themen/hochschulen-und-studium/hochschullandschaft-hamburg/norddeutsche-akademie-finanzen-steuerrecht-hamburg-196348",
+      "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa/fachhochschulstudium"
+    ],
+    "requested_model": "openai/gpt-4o-mini",
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 2649,
+      "completion_tokens": 254,
+      "total_tokens": 2903,
+      "cost": 0.00754975,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00054975,
+        "upstream_inference_prompt_cost": 0.00039735,
+        "upstream_inference_completions_cost": 0.0001524
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "asked_at": "2026-10-01T15:29:22.098271+00:00"
+  },
+  "openai/gpt-4o-mini|openai/gpt-4o-mini|DE-HH|BTK Hochschule für Gestaltung, Campus Hamburg": {
+    "answer": {
+      "official_url": "https://www.ue-germany.com",
+      "canonical_name": "University of Europe for Applied Sciences",
+      "lifecycle_status": "renamed",
+      "confidence": 0.9,
+      "evidence": [
+        "The BTK was renamed to University of Europe for Applied Sciences (UE) in March 2017 after a merger. Source: [wikipedia.org](https://de.wikipedia.org/wiki/Berliner_Technische_Kunsthochschule)",
+        "The official website of the University of Europe for Applied Sciences is listed as www.ue-germany.com. Source: [ue-germany.com](https://www.ue-germany.com/de/studiengaenge/bachelor/visuelle-kommunikation)"
+      ]
+    },
+    "citations": [
+      "https://www.ue-germany.com/de/studiengaenge/bachelor/visuelle-kommunikation",
+      "https://www.ue-germany.com/programmes/bachelor/visual-communication-ba",
+      "http://btk-communicationdesign.ue-germany.com/impressum/",
+      "https://de.wikipedia.org/wiki/Berliner_Technische_Kunsthochschule",
+      "http://btk-communicationdesign.ue-germany.com/category/allgemein/"
+    ],
+    "requested_model": "openai/gpt-4o-mini",
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 1905,
+      "completion_tokens": 143,
+      "total_tokens": 2048,
+      "cost": 0.00737155,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00037155,
+        "upstream_inference_prompt_cost": 0.00028575,
+        "upstream_inference_completions_cost": 8.58e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "asked_at": "2026-10-01T15:29:26.712762+00:00"
+  },
+  "openai/gpt-4o-mini|openai/gpt-4o-mini|DE-HH|IUBH Internationale Hochschule, Campus Hamburg": {
+    "answer": {
+      "official_url": "https://www.iu-dualesstudium.de/standorte/hamburg",
+      "canonical_name": "IU Internationale Hochschule",
+      "lifecycle_status": "renamed",
+      "confidence": 0.9,
+      "evidence": [
+        "The institution is referred to as IU Internationale Hochschule in the source from [iu-dualesstudium.de](https://www.iu-dualesstudium.de/standorte/hamburg).",
+        "The previous name IUBH is mentioned in multiple sources, indicating a renaming to IU Internationale Hochschule, as seen in [duales-studium.de](https://www.duales-studium.de/news/neuer-iubh-campus-in-hamburg)."
+      ]
+    },
+    "citations": [
+      "https://www.iu-dualesstudium.de/standorte/hamburg/",
+      "https://www.duales-studium.de/news/neuer-iubh-campus-in-hamburg",
+      "https://www.wiwi-online.de/download/pudowns/info.pdf",
+      "https://www.prmaximus.de/131494",
+      "https://www.hamburgportal.de/jobs-und-bildung/studium/iubh-duales-studium/"
+    ],
+    "requested_model": "openai/gpt-4o-mini",
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 3030,
+      "completion_tokens": 137,
+      "total_tokens": 3167,
+      "cost": 0.0075367,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0005367,
+        "upstream_inference_prompt_cost": 0.0004545,
+        "upstream_inference_completions_cost": 8.22e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "asked_at": "2026-10-01T15:29:29.655311+00:00"
+  },
+  "openai/gpt-4o-mini|openai/gpt-4o-mini|DE-NW|Fachhochschule Bielefeld": {
+    "answer": {
+      "official_url": "https://www.hsbi.de/",
+      "canonical_name": "Hochschule Bielefeld – University of Applied Sciences and Arts (HSBI)",
+      "lifecycle_status": "renamed",
+      "confidence": 0.9,
+      "evidence": [
+        "Hochschule Bielefeld (HSBI) official site: [hsbi.de](https://www.hsbi.de/)",
+        "Information about Hochschule Bielefeld: [fh-bielefeld.de](https://www.fh-bielefeld.de/impressum?nopp=51214)",
+        "Details on Hochschule Bielefeld: [hsbi.de](https://www.hsbi.de/en/)"
+      ]
+    },
+    "citations": [
+      "https://www.hsbi.de/",
+      "https://www.fh-bielefeld.de/impressum?nopp=51214",
+      "https://www.hsbi.de/en/",
+      "https://www.hsbi.de/hochschule",
+      "https://www.hsbi.de/media/hochschulverwaltung/dezernat-ii/studserv/allgemein.pdf"
+    ],
+    "requested_model": "openai/gpt-4o-mini",
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 1803,
+      "completion_tokens": 130,
+      "total_tokens": 1933,
+      "cost": 0.00734845,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00034845,
+        "upstream_inference_prompt_cost": 0.00027045,
+        "upstream_inference_completions_cost": 7.8e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "asked_at": "2026-10-01T15:29:31.115406+00:00"
+  },
+  "openai/gpt-4o-mini|openai/gpt-4o-mini|DE-NW|Fachhochschule der Diakonie": {
+    "answer": {
+      "official_url": "https://www.fh-diakonie.de",
+      "canonical_name": "Fachhochschule der Diakonie",
+      "lifecycle_status": "active",
+      "confidence": 0.9,
+      "evidence": [
+        "The official website of the institution is listed as fh-diakonie.de, which is confirmed in multiple sources including the institution's own pages. [fh-diakonie.de](https://www.fh-diakonie.de)",
+        "The institution is described as a state-recognized private university offering various programs in social and health sciences. [fh-diakonie.de](https://www.fh-diakonie.de)"
+      ]
+    },
+    "citations": [
+      "https://www.fh-diakonie.de//",
+      "https://www.fh-diakonie.de/.cms/fh_diakonie/ueber_uns/823",
+      "https://de.wikipedia.org/wiki/Fachhochschule_der_Diakonie",
+      "https://www.fh-diakonie.de/.cms/studium/907",
+      "https://www.fh-diakonie.de/obj/1_Relaunch/Downloads/Allgemein/FH-D_Info_Studium_2023.pdf"
+    ],
+    "requested_model": "openai/gpt-4o-mini",
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 3102,
+      "completion_tokens": 127,
+      "total_tokens": 3229,
+      "cost": 0.0075415,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0005415,
+        "upstream_inference_prompt_cost": 0.0004653,
+        "upstream_inference_completions_cost": 7.62e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "asked_at": "2026-10-01T15:29:34.923926+00:00"
+  },
+  "openai/gpt-4o-mini|openai/gpt-4o-mini|DE-NW|Europäische Fachhochschule Rhein/Erft": {
+    "answer": {
+      "official_url": "https://www.cbs.de",
+      "canonical_name": "CBS University of Applied Sciences",
+      "lifecycle_status": "renamed",
+      "confidence": 0.9,
+      "evidence": [
+        "CBS und EU|FH schließen sich zur CBS University of Applied Sciences zusammen - [cbs.de](https://www.cbs.de/blog/cbs-eufh-werden-cbs-university-of-applied-sciences)",
+        "Über die CBS University of Applied Sciences - [cbs.de](https://www.cbs.de/ueber-uns)"
+      ]
+    },
+    "citations": [
+      "https://www.cbs.de/blog/cbs-eufh-werden-cbs-university-of-applied-sciences",
+      "https://www.cbs.de/blog/cbs-uebernimmt-die-eufh-standorte",
+      "https://www.cbs.de/ueber-uns",
+      "https://student.eufh.de/impressum.php?p_id=10",
+      "https://www.eufh.de/hochschule"
+    ],
+    "requested_model": "openai/gpt-4o-mini",
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 2756,
+      "completion_tokens": 107,
+      "total_tokens": 2863,
+      "cost": 0.0074776,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0004776,
+        "upstream_inference_prompt_cost": 0.0004134,
+        "upstream_inference_completions_cost": 6.42e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "asked_at": "2026-10-01T15:29:38.613825+00:00"
+  },
+  "openai/gpt-4o-mini|openai/gpt-4o-mini|DE-NW|SRH Hochschule in Nordrhein-Westfalen": {
+    "answer": {
+      "official_url": "https://www.srh-university.de/de",
+      "canonical_name": "SRH University Campus Hamm",
+      "lifecycle_status": "renamed",
+      "confidence": 0.9,
+      "evidence": [
+        "The institution was renamed and integrated into SRH University of Applied Sciences Heidelberg as of July 1, 2024. Source: [wikipedia.org](https://de.wikipedia.org/wiki/SRH_Hochschule_f%C3%BCr_Logistik_und_Wirtschaft)",
+        "The current website for the renamed institution is listed as srh-university.de. Source: [srh-university.de](https://www.srh-university.de/de/unsere-standorte/hamm/)"
+      ]
+    },
+    "citations": [
+      "https://www.srh-university.de/de/unsere-standorte/hamm/",
+      "https://campus.fh-hamm.de/scripts/mgrqispi.dll?APPNAME=CampusNet&ARGUMENTS=-N000000000000001%2C-N000299%2C-Aimprint&PRGNAME=EXTERNALPAGES",
+      "https://de.wikipedia.org/wiki/SRH_Hochschule_f%C3%BCr_Logistik_und_Wirtschaft",
+      "https://campus.fh-hamm.de/",
+      "https://www.srh-university.de/fileadmin/user_upload/Who-we-are_2020.pdf"
+    ],
+    "requested_model": "openai/gpt-4o-mini",
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 2278,
+      "completion_tokens": 140,
+      "total_tokens": 2418,
+      "cost": 0.0074257,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0004257,
+        "upstream_inference_prompt_cost": 0.0003417,
+        "upstream_inference_completions_cost": 8.4e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "asked_at": "2026-10-01T15:29:41.756101+00:00"
+  },
+  "openai/gpt-4o-mini|openai/gpt-4o-mini|DE-NW|Philosophisch-Theologische Hochschule Münster": {
+    "answer": {
+      "official_url": "https://www.cts-hochschule.de/",
+      "canonical_name": "CTS Hochschule Münster",
+      "lifecycle_status": "renamed",
+      "confidence": 0.9,
+      "evidence": [
+        "The institution was renamed from PTH Münster to CTS Hochschule Münster as of January 1, 2026. Source: [cts-hochschule.de](https://www.cts-hochschule.de/)",
+        "The official website of the renamed institution is confirmed to be cts-hochschule.de. Source: [cts-hochschule.de](https://www.cts-hochschule.de/umbenennung/)"
+      ]
+    },
+    "citations": [
+      "https://www.cts-hochschule.de/",
+      "https://www.cts-hochschule.de/umbenennung/",
+      "https://pth-muenster.de/",
+      "https://www.cts-hochschule.de/die-pth/",
+      "https://www.cts-hochschule.de/programm/strategische-neuausrichtung-cts-berlin-uebernimmt-traegerschaft-der-pth-muenster/"
+    ],
+    "requested_model": "openai/gpt-4o-mini",
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 2838,
+      "completion_tokens": 123,
+      "total_tokens": 2961,
+      "cost": 0.0074995,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0004995,
+        "upstream_inference_prompt_cost": 0.0004257,
+        "upstream_inference_completions_cost": 7.38e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "asked_at": "2026-10-01T15:29:41.408247+00:00"
+  },
+  "openai/gpt-4o-mini|openai/gpt-4o-mini|DE-NW|Fachhochschule für Rechtspflege in NRW": {
+    "answer": {
+      "official_url": "https://www.hsjustiz.nrw.de/",
+      "canonical_name": "Hochschule der Justiz Nordrhein-Westfalen",
+      "lifecycle_status": "renamed",
+      "confidence": 0.9,
+      "evidence": [
+        "The institution was renamed from Fachhochschule für Rechtspflege to Hochschule der Justiz Nordrhein-Westfalen on October 3, 2025. Source: [justiz.nrw.de](https://www.justiz.nrw.de/mitteilung/2025-10-06-0)",
+        "The current official website of Hochschule der Justiz Nordrhein-Westfalen is confirmed as https://www.hsjustiz.nrw.de/. Source: [hsjustiz.nrw.de](https://www.hsjustiz.nrw.de/)"
+      ]
+    },
+    "citations": [
+      "https://www.hsjustiz.nrw.de/",
+      "https://www.justiz.nrw.de/mitteilung/2025-10-06-0",
+      "https://www.hsjustiz.nrw.de/behoerde/presse/Pressemitteilungen/archiv/Das-Pressemitteilungsarchiv/2025/HS-Justiz-NRW/index.php",
+      "https://www.hsjustiz.nrw.de/behoerde/behoerdenvorstellung/index.php",
+      "https://www.hsjustiz.nrw.de/behoerde/presse/index.php"
+    ],
+    "requested_model": "openai/gpt-4o-mini",
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 2686,
+      "completion_tokens": 148,
+      "total_tokens": 2834,
+      "cost": 0.0074917,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0004917,
+        "upstream_inference_prompt_cost": 0.0004029,
+        "upstream_inference_completions_cost": 8.88e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "asked_at": "2026-10-01T15:29:43.579412+00:00"
+  },
+  "openai/gpt-4o-mini|openai/gpt-4o-mini|DE-NW|Fachhochschule für Finanzen": {
+    "answer": {
+      "official_url": "https://www.finanzverwaltung.nrw.de/dienststellen/hochschule-fuer-finanzen-nrw",
+      "canonical_name": "Hochschule für Finanzen Nordrhein-Westfalen",
+      "lifecycle_status": "renamed",
+      "confidence": 0.9,
+      "evidence": [
+        "The institution is currently known as Hochschule für Finanzen Nordrhein-Westfalen, as stated on the official site of the Finanzverwaltung NRW: [finanzverwaltung.nrw.de](https://www.finanzverwaltung.nrw.de/dienststellen/hochschule-fuer-finanzen-nrw)",
+        "The previous name was Fachhochschule für Finanzen, which was changed in 2019 according to the information on Wikipedia: [wikipedia.org](https://de.wikipedia.org/wiki/Fachhochschule_f%C3%BCr_Finanzen_Nordrhein-Westfalen)"
+      ]
+    },
+    "citations": [
+      "https://www.finanzverwaltung.nrw.de/dienststellen/hochschule-fuer-finanzen-nrw",
+      "https://www.finanzverwaltung.nrw.de/dienststellen/hochschule-fur-finanzen-nrw/wissenswertes",
+      "https://www.finanzverwaltung.nrw.de/unterbringung-und-standorte",
+      "https://www.finanzverwaltung.nrw.de/dienststellen/hochschule-fur-finanzen-nrw/aussenstandorte-der-hsf",
+      "https://de.wikipedia.org/wiki/Fachhochschule_f%C3%BCr_Finanzen_Nordrhein-Westfalen"
+    ],
+    "requested_model": "openai/gpt-4o-mini",
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 2247,
+      "completion_tokens": 168,
+      "total_tokens": 2415,
+      "cost": 0.00743785,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00043785,
+        "upstream_inference_prompt_cost": 0.00033705,
+        "upstream_inference_completions_cost": 0.0001008
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "asked_at": "2026-10-01T15:29:49.526436+00:00"
+  },
+  "openai/gpt-4o-mini|openai/gpt-4o-mini|DE-RP|Hochschule für Finanzen Rheinland-Pfalz": {
+    "answer": {
+      "official_url": "https://www.hochschule-finanzen-rlp.de",
+      "canonical_name": "Hochschule für Finanzen Rheinland-Pfalz",
+      "lifecycle_status": "active",
+      "confidence": 0.9,
+      "evidence": [
+        "The official website of Hochschule für Finanzen Rheinland-Pfalz is listed as www.hochschule-finanzen-rlp.de. Source: [fm.rlp.de](https://fm.rlp.de/ministerium/karriere/hochschule-fuer-finanzen)",
+        "The institution is described as Hochschule für Finanzen Rheinland-Pfalz, located in Edenkoben. Source: [landesfinanzschule-edenkoben.rlp.de](https://landesfinanzschule-edenkoben.rlp.de/)"
+      ]
+    },
+    "citations": [
+      "https://landesfinanzschule-edenkoben.rlp.de/",
+      "https://fm.rlp.de/ministerium/karriere/hochschule-fuer-finanzen",
+      "https://landesfinanzschule-edenkoben.rlp.de/studium",
+      "https://landesfinanzschule-edenkoben.rlp.de/ueber-uns/impressum",
+      "https://lfst.rlp.de/ausbildung-karriere/studium-finanzwirt"
+    ],
+    "requested_model": "openai/gpt-4o-mini",
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 2035,
+      "completion_tokens": 153,
+      "total_tokens": 2188,
+      "cost": 0.00739705,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00039705,
+        "upstream_inference_prompt_cost": 0.00030525,
+        "upstream_inference_completions_cost": 9.18e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "asked_at": "2026-10-01T15:29:46.684087+00:00"
+  },
+  "openai/gpt-4o-mini|openai/gpt-4o-mini|DE-SL|Berufsakademie für Gesundheits- und Sozialwesen Saarland gGmbH (BAGSS)": {
+    "answer": {
+      "official_url": "https://www.shg-kliniken.de/bildung",
+      "canonical_name": "Berufsakademie für Gesundheits- und Sozialwesen Saarland gGmbH (BAGSS)",
+      "lifecycle_status": "renamed",
+      "confidence": 0.8,
+      "evidence": [
+        "The domain bagss.de has redirected to SHG Bildung, indicating a change in the institution's operational status. Source: [gradgermany.com](https://www.gradgermany.com/universities/berufsakademie-fur-gesundheits-und-sozialwesen-saarland-ggmbh)",
+        "The institution is currently recognized as a private Berufsakademie focusing on health and social care, with its programs largely transferred to FOM Hochschule. Source: [gradgermany.com](https://www.gradgermany.com/universities/berufsakademie-fur-gesundheits-und-sozialwesen-saarland-ggmbh)"
+      ]
+    },
+    "citations": [
+      "https://bagss.de/karriere/ausbildung/",
+      "https://www.online-handelsregister.de/handelsregisterauszug/sl/Saarbruecken/HRB/100672/Berufsakademie-fuer-Gesundheits-und-Sozialwesen-Saarland-gemeinnuetzige-GmbH-BAGSS",
+      "https://www.saarland.de/mbk/DE/service/themen-links",
+      "https://www.shg-kliniken.de/bildung/",
+      "https://www.gradgermany.com/universities/berufsakademie-fur-gesundheits-und-sozialwesen-saarland-ggmbh"
+    ],
+    "requested_model": "openai/gpt-4o-mini",
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 3172,
+      "completion_tokens": 195,
+      "total_tokens": 3367,
+      "cost": 0.0075928,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0005928,
+        "upstream_inference_prompt_cost": 0.0004758,
+        "upstream_inference_completions_cost": 0.000117
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "asked_at": "2026-10-01T15:29:50.601011+00:00"
+  },
+  "openai/gpt-4o-mini|openai/gpt-4o-mini|DE-TH|Thüringer Fachhochschule für öffentliche Verwaltung Gotha": {
+    "answer": {
+      "official_url": "https://bildungszentrum.thueringen.de/thueringer-fachhochschule-fuer-oeffentliche-verwaltung",
+      "canonical_name": "Thüringer Fachhochschule für öffentliche Verwaltung",
+      "lifecycle_status": "active",
+      "confidence": 0.9,
+      "evidence": [
+        "The official website of the Thüringer Fachhochschule für öffentliche Verwaltung is listed as bildungszentrum.thueringen.de. Source: [bildungszentrum.thueringen.de](https://bildungszentrum.thueringen.de/thueringer-fachhochschule-fuer-oeffentliche-verwaltung)",
+        "The institution is described as a public administration school in Gotha, with its website confirmed. Source: [wikipedia.org](https://de.wikipedia.org/wiki/Th%C3%BCringer_Fachhochschule_f%C3%BCr_%C3%B6ffentliche_Verwaltung)"
+      ]
+    },
+    "citations": [
+      "https://bildungszentrum.thueringen.de/thueringer-fachhochschule-fuer-oeffentliche-verwaltung",
+      "https://de.wikipedia.org/wiki/Th%C3%BCringer_Fachhochschule_f%C3%BCr_%C3%B6ffentliche_Verwaltung",
+      "https://bildungszentrum.thueringen.de/thueringer-verwaltungsfachhochschule-vfhs/organisation-und-kontakte",
+      "https://karriere.thueringen.de/unsere-geschaeftsbereiche/thueringer-ministerium-fuer-inneres-kommunales-und-landesentwicklung/thueringer-fachhochschule-fuer-oeffentliche-verwaltung",
+      "https://bildungszentrum.thueringen.de/fachbereich-ksav"
+    ],
+    "requested_model": "openai/gpt-4o-mini",
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 2080,
+      "completion_tokens": 178,
+      "total_tokens": 2258,
+      "cost": 0.0074188,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0004188,
+        "upstream_inference_prompt_cost": 0.000312,
+        "upstream_inference_completions_cost": 0.0001068
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "asked_at": "2026-10-01T15:29:56.045031+00:00"
+  },
+  "openai/gpt-4o-mini|DE-HH|Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg": {
+    "answer": {
+      "official_url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa",
+      "canonical_name": "Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg",
+      "lifecycle_status": "active",
+      "confidence": 0.8,
+      "evidence": [
+        "The Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg is described as a public institution under the supervision of the Hamburg financial authority. Source: [hamburg.de](https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa)",
+        "The academy was established in 2010 and is responsible for training civil servants in finance. Source: [hamburg.de](https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa/ueber-uns)"
+      ]
+    },
+    "citations": [
+      "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa",
+      "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa/ueber-uns",
+      "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa/aufbau-und-struktur-der-noa-206614",
+      "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa/fachhochschulstudium",
+      "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa/noa-rechtliche-grundlagen-206608"
+    ],
+    "requested_model": "openai/gpt-4o-mini",
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 2788,
+      "completion_tokens": 243,
+      "total_tokens": 3031,
+      "cost": 0.007564,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000564,
+        "upstream_inference_prompt_cost": 0.0004182,
+        "upstream_inference_completions_cost": 0.0001458
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "asked_at": "2026-10-01T16:19:48.410151+00:00"
+  },
+  "openai/gpt-4o-mini|DE-HH|IUBH Internationale Hochschule, Campus Hamburg": {
+    "answer": {
+      "official_url": "https://www.iu-dualesstudium.de/standorte/hamburg",
+      "canonical_name": "IU Internationale Hochschule",
+      "lifecycle_status": "renamed",
+      "confidence": 0.9,
+      "evidence": [
+        "The institution is referred to as IU Internationale Hochschule in the source: [iu-dualesstudium.de](https://www.iu-dualesstudium.de/standorte/hamburg)",
+        "The previous name was IUBH Internationale Hochschule, as indicated in multiple sources: [duales-studium.de](https://www.duales-studium.de/news/neuer-iubh-campus-in-hamburg), [prmaximus.de](https://www.prmaximus.de/131494)"
+      ]
+    },
+    "citations": [
+      "https://www.iu-dualesstudium.de/standorte/hamburg/",
+      "https://www.duales-studium.de/news/neuer-iubh-campus-in-hamburg",
+      "https://www.prmaximus.de/131494",
+      "https://www.hamburgportal.de/jobs-und-bildung/studium/iubh-duales-studium/",
+      "https://www.wiwi-online.de/download/pudowns/info.pdf"
+    ],
+    "requested_model": "openai/gpt-4o-mini",
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 3026,
+      "completion_tokens": 146,
+      "total_tokens": 3172,
+      "cost": 0.0075415,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0005415,
+        "upstream_inference_prompt_cost": 0.0004539,
+        "upstream_inference_completions_cost": 8.76e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "asked_at": "2026-10-01T16:19:49.903882+00:00"
+  },
+  "openai/gpt-4o-mini|DE-HE|Studienzentrum der Finanzverwaltung und Justiz in Rotenburg an der Fulda": {
+    "answer": {
+      "official_url": "https://studienzentrum-rotenburg.hessen.de/",
+      "canonical_name": "Studienzentrum der Finanzverwaltung und Justiz",
+      "lifecycle_status": "active",
+      "confidence": 0.9,
+      "evidence": [
+        "The official website of the institution is found at [studienzentrum-rotenburg.hessen.de](https://studienzentrum-rotenburg.hessen.de/).",
+        "The institution is described as a central training facility in Hesse, which aligns with its official name and purpose as stated on its website."
+      ]
+    },
+    "citations": [
+      "https://studienzentrum-rotenburg.hessen.de/",
+      "https://studienzentrum-rotenburg.hessen.de/das-studienzentrum",
+      "https://studienzentrum-rotenburg.hessen.de/impressum",
+      "https://studienzentrum-rotenburg.hessen.de/studium-ausbildung",
+      "https://studienzentrum-rotenburg.hessen.de/das-studienzentrum/organisation-leitung"
+    ],
+    "requested_model": "openai/gpt-4o-mini",
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 1996,
+      "completion_tokens": 108,
+      "total_tokens": 2104,
+      "cost": 0.0073642,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003642,
+        "upstream_inference_prompt_cost": 0.0002994,
+        "upstream_inference_completions_cost": 6.48e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "asked_at": "2026-10-01T16:19:45.932311+00:00"
+  },
+  "openai/gpt-4o-mini|DE-HE|Hessische Hochschule für öffentliches Management und Sicherheit (HöMS)": {
+    "answer": {
+      "official_url": "https://hoems.hessen.de/",
+      "canonical_name": "Hessische Hochschule für öffentliches Management und Sicherheit (HöMS)",
+      "lifecycle_status": "renamed",
+      "confidence": 0.9,
+      "evidence": [
+        "The institution was newly founded on January 1, 2022, and combines three previous institutions under one roof, as stated on their official website: [hoems.hessen.de](https://hoems.hessen.de/)",
+        "The official website confirms the current name and provides information about its structure and functions: [hoems.hessen.de](https://hoems.hessen.de/)"
+      ]
+    },
+    "citations": [
+      "https://hoems.hessen.de/",
+      "https://hoems.hessen.de/impressum",
+      "https://hoems.hessen.de/organisation/das-praesidium",
+      "https://hoems.hessen.de/organisation",
+      "https://hoems.hessen.de/studienorte"
+    ],
+    "requested_model": "openai/gpt-4o-mini",
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 1721,
+      "completion_tokens": 127,
+      "total_tokens": 1848,
+      "cost": 0.00733435,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00033435,
+        "upstream_inference_prompt_cost": 0.00025815,
+        "upstream_inference_completions_cost": 7.62e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "asked_at": "2026-10-01T16:19:55.099983+00:00"
+  },
+  "openai/gpt-4o-mini|DE-SL|Berufsakademie für Gesundheits- und Sozialwesen Saarland gGmbH (BAGSS)": {
+    "answer": {
+      "official_url": null,
+      "canonical_name": "Berufsakademie für Gesundheits- und Sozialwesen Saarland gGmbH (BAGSS)",
+      "lifecycle_status": "active",
+      "confidence": 0.5,
+      "evidence": [
+        "The institution is listed as active in the Handelsregister with the name Berufsakademie für Gesundheits- und Sozialwesen Saarland gemeinnützige GmbH (BAGSS) and is located in Saarbrücken. Source: [online-handelsregister.de](https://www.online-handelsregister.de/handelsregisterauszug/sl/Saarbruecken/HRB/100672/Berufsakademie-fuer-Gesundheits-und-Sozialwesen-Saarland-gemeinnuetzige-GmbH-BAGSS)",
+        "The institution offers dual study programs in cooperation with the University of Saarland, indicating its active role in higher education. Source: [shg-kliniken.de](https://www.shg-kliniken.de/bildung/)"
+      ]
+    },
+    "citations": [
+      "https://bagss.de/karriere/ausbildung/",
+      "https://www.shg-kliniken.de/bildung/",
+      "https://www.saarland.de/mbk/DE/service/themen-links",
+      "https://www.online-handelsregister.de/handelsregisterauszug/sl/Saarbruecken/HRB/100672/Berufsakademie-fuer-Gesundheits-und-Sozialwesen-Saarland-gemeinnuetzige-GmbH-BAGSS",
+      "https://vm.ahpgs.de/api/website/verfahren/pdf/7f7a98e1-e232-466a-b021-88d7c678530c"
+    ],
+    "requested_model": "openai/gpt-4o-mini",
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 3361,
+      "completion_tokens": 207,
+      "total_tokens": 3568,
+      "cost": 0.00762835,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00062835,
+        "upstream_inference_prompt_cost": 0.00050415,
+        "upstream_inference_completions_cost": 0.0001242
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "asked_at": "2026-10-01T16:19:55.984943+00:00"
+  },
+  "openai/gpt-4o-mini|DE-TH|Thüringer Fachhochschule für öffentliche Verwaltung Gotha": {
+    "answer": {
+      "official_url": "https://bildungszentrum.thueringen.de/thueringer-fachhochschule-fuer-oeffentliche-verwaltung",
+      "canonical_name": "Thüringer Fachhochschule für öffentliche Verwaltung",
+      "lifecycle_status": "active",
+      "confidence": 0.9,
+      "evidence": [
+        "The official website of the Thüringer Fachhochschule für öffentliche Verwaltung is listed as bildungszentrum.thueringen.de. Source: [bildungszentrum.thueringen.de](https://bildungszentrum.thueringen.de/thueringer-fachhochschule-fuer-oeffentliche-verwaltung)",
+        "The institution is described as a public administration school in Gotha, with its website confirmed. Source: [wikipedia.org](https://de.wikipedia.org/wiki/Th%C3%BCringer_Fachhochschule_f%C3%BCr_%C3%B6ffentliche_Verwaltung)"
+      ]
+    },
+    "citations": [
+      "https://bildungszentrum.thueringen.de/thueringer-fachhochschule-fuer-oeffentliche-verwaltung",
+      "https://de.wikipedia.org/wiki/Th%C3%BCringer_Fachhochschule_f%C3%BCr_%C3%B6ffentliche_Verwaltung",
+      "https://karriere.thueringen.de/unsere-geschaeftsbereiche/thueringer-ministerium-fuer-inneres-kommunales-und-landesentwicklung/thueringer-fachhochschule-fuer-oeffentliche-verwaltung",
+      "https://bildungszentrum.thueringen.de/fachbereich-ksav",
+      "https://bildungszentrum.thueringen.de/thueringer-verwaltungsfachhochschule-vfhs/organisation-und-kontakte"
+    ],
+    "requested_model": "openai/gpt-4o-mini",
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 2271,
+      "completion_tokens": 178,
+      "total_tokens": 2449,
+      "cost": 0.00744745,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00044745,
+        "upstream_inference_prompt_cost": 0.00034065,
+        "upstream_inference_completions_cost": 0.0001068
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "asked_at": "2026-10-01T16:20:00.247035+00:00"
+  }
+}

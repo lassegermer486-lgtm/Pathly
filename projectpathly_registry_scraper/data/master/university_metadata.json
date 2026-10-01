@@ -1,0 +1,6230 @@
+[
+  {
+    "registry_id": "PTH-DE-72AA564E",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "public_by_law",
+    "source_values": [
+      {
+        "source_record": "DE-BB|Brandenburgische Technische Universität Cottbus-Senftenberg",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "public"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-A51EADE6",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BB|Deutsche Hochschule für angewandte Wissenschaften",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_church",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-E0D36B6B",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "public_by_law",
+    "source_values": [
+      {
+        "source_record": "DE-BB|Europa-Universität Viadrina",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "public"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-AA7081B7",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BB|FH Sport und Management - Campus",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_church",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-8F341ADD",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "public_by_law",
+    "source_values": [
+      {
+        "source_record": "DE-BB|Fachhochschule Potsdam",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "public"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-50D317BB",
+    "institution_type": "public_administration",
+    "ownership": "public",
+    "recognition_status": "public_by_law",
+    "source_values": [
+      {
+        "source_record": "DE-BB|Fachhochschule für Finanzen des Landes Brandenburg",
+        "institution_type": "university_of_public_administration",
+        "ownership": "public",
+        "recognition_status": "public"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-D794B8B7",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "public_by_law",
+    "source_values": [
+      {
+        "source_record": "DE-BB|Filmuniversität Babelsberg Konrad Wolf",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "public"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-EB5F7983",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BB|German University of Digital Science (German UDS)",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-9D6D99CC",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BB|Gisma University of Applied Sciences",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_church",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C107396B",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BB|HSD Hochschule Döpfer GmbH",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_church",
+        "recognition_status": "state_recognized"
+      },
+      {
+        "source_record": "DE-NW|HSD Hochschule Döpfer",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-DFEEEE61",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BB|Health and Medical University Potsdam (HMU)",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-8838F343",
+    "institution_type": "public_administration",
+    "ownership": "public",
+    "recognition_status": "public_by_law",
+    "source_values": [
+      {
+        "source_record": "DE-BB|Hochschule der Polizei des Landes Brandenburg",
+        "institution_type": "university_of_public_administration",
+        "ownership": "public",
+        "recognition_status": "public"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-8DF9063F",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BB|Hochschule für Gesundheitsfachberufe Eberswalde",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_church",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-8CF3A197",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BB|Hochschule für angewandtes Management (HAM)",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_church",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-19865BCA",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "public_by_law",
+    "source_values": [
+      {
+        "source_record": "DE-BB|Hochschule für nachhaltige Entwicklung Eberswalde",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "public"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-40DF455E",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BB|Macromedia University of Applied Sciences",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_church",
+        "recognition_status": "state_recognized"
+      },
+      {
+        "source_record": "DE-HH|Hochschule Macromedia, University of Applied Science **",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-A686FCFA",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BB|Medizinische Hochschule Brandenburg - Außenansicht",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-23426299",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "public_by_law",
+    "source_values": [
+      {
+        "source_record": "DE-BB|Medizinische Universität Lausitz – Carl Thiem",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "public"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-8B5722AF",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "public_by_law",
+    "source_values": [
+      {
+        "source_record": "DE-BB|Technische Hochschule Brandenburg",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "public"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-6866ABA3",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "public_by_law",
+    "source_values": [
+      {
+        "source_record": "DE-BB|Technische Hochschule Wildau",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "public"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-06890AF4",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BB|Theologische Hochschule Elstal",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_church",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F57522F3",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BB|University of Europe for Applied Sciences",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_church",
+        "recognition_status": "state_recognized"
+      },
+      {
+        "source_record": "DE-HH|BTK Hochschule für Gestaltung, Campus Hamburg",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      },
+      {
+        "source_record": "DE-HH|University of Europe for Applied Sciences",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-755DAEB3",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "public_by_law",
+    "source_values": [
+      {
+        "source_record": "DE-BB|Universität Potsdam",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "public"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-B6F2CBE8",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BB|XU",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_church",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-6381E23A",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Akkon Hochschule",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-D47100E3",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Alice-Salomon-Hochschule Berlin (ASH)",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-2F9102C9",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|BSP Business and Law School – Hochschule für Management und Recht",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-221849F0",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Bard College Berlin – A Liberal Arts University",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-B27DA761",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Barenboim-Said Akademie gGmbH",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-551A1186",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Berliner Hochschule für Technik (BHT)",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-B0908312",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|CODE University of Applied Sciences",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-7E817150",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Charité - Universitätsmedizin Berlin",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-823B2D33",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|DHGS Deutsche Hochschule für Gesundheit und Sport",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-06DE9982",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Digital Business University of Applied Sciences",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-FB519A26",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|ESCP Business School",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-DD72DA93",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|European School of Management and Technology",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-32EC50D4",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "church",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Evangelische Hochschule Berlin",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-DA031CF0",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Freie Universität Berlin",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-64F03647",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|German International University",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-51352631",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Health Innovation University of Applied Sciences",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-2AF4EA5B",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Hertie School",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-26273F0F",
+    "institution_type": "public_administration",
+    "ownership": "federal",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Hochschule des Bundes für öffentliche Verwaltung",
+        "institution_type": "university_of_public_administration",
+        "ownership": "federal",
+        "recognition_status": "unknown"
+      },
+      {
+        "source_record": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Kriminalpolizei in Wiesbaden",
+        "institution_type": "university_of_public_administration",
+        "ownership": "federal",
+        "recognition_status": "unknown"
+      },
+      {
+        "source_record": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Landwirtschaftliche Sozialversicherung in Kassel",
+        "institution_type": "university_of_public_administration",
+        "ownership": "federal",
+        "recognition_status": "unknown"
+      },
+      {
+        "source_record": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Wetterdienst in Offenbach",
+        "institution_type": "university_of_public_administration",
+        "ownership": "federal",
+        "recognition_status": "unknown"
+      },
+      {
+        "source_record": "DE-NW|Hochschule des Bundes für öffentliche Verwaltung",
+        "institution_type": "university_of_public_administration",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      },
+      {
+        "source_record": "DE-SH|FH des Bundes für öffentliche Verwaltung (Bundespolizei)",
+        "institution_type": "public_administration",
+        "ownership": "public",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-DE8645F4",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Hochschule für Musik Hanns Eisler Berlin (HfM)",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-99024AE2",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Hochschule für Schauspielkunst Ernst Busch Berlin (HfS)",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-B5E9D769",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Hochschule für Soziale Arbeit und Pädagogik",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-2CB1F2F4",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Hochschule für Technik und Wirtschaft Berlin (HTW)",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-FD0C92D6",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Hochschule für Wirtschaft und Recht Berlin (HWR)",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C579BE61",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Humanistische Hochschule Berlin",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-7FB9ACF2",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Humboldt-Universität zu Berlin",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-80625C04",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|International Psychoanalytic University Berlin",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-5A796BB3",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "church",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Katholische Hochschule für Sozialwesen Berlin",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F235B112",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|MSB Medical School Berlin – Hochschule für Gesundheit und Medizin",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-D0BD6721",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Media University of Applied Sciences",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-8AB6E9F3",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Mediadesign Hochschule für Kommunikation und Informatik",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-4045CE85",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Psychologische Hochschule Berlin",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-381D261C",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Quadriga Hochschule Berlin",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-24113E46",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Technische Universität Berlin",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-2FAEE87C",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Universität der Künste Berlin (UdK)",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-6D9A2988",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|VICTORIA | Internationale Hochschule",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-90A61093",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Weißensee Kunsthochschule Berlin (KHB)",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-E6B220C3",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|Whitecliffe University of Applied Sciences",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-14CEAC13",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-BE|bbw Hochschule",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-5881F06A",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|AKAD – Hochschule Stuttgart",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-D0302145",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Allensbach Hochschule",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-DC3534B9",
+    "institution_type": "dual_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Duale Hochschule Baden-Württemberg",
+        "institution_type": "dual_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-D5A5DF1F",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|EHiP - Hochschule für Innovation und Perspektive",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-E653AA30",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Evangelische Hochschule Freiburg",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-677ABB74",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Evangelische Hochschule Ludwigsburg",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-ADDA85A2",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Freie Hochschule Stuttgart – Seminar für Waldorfpädagogik",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-4F5EC6E3",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule Aalen - Technik und Wirtschaft",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-DF5DB673",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule Biberach - Architektur und Bauwesen, Betriebswirtschaft und Biotechnologie",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-6F20BF4D",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule Esslingen - Technik, Wirtschaft, Soziales",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-D41EDDF0",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule Fresenius Heidelberg",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      },
+      {
+        "source_record": "DE-HE|Hochschule Fresenius (Idstein)",
+        "institution_type": "university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      },
+      {
+        "source_record": "DE-HH|Hochschule Fresenius *",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-1505E430",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule Furtwangen - Informatik, Technik, Wirtschaft, Medien",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-E5EC355B",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule Heilbronn - Technik, Wirtschaft, Informatik",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F016C142",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule Karlsruhe - Technik und Wirtschaft",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-2BC1C29A",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule Konstanz - Technik, Wirtschaft und Gestaltung",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-83A2DDFB",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule Pforzheim - Gestaltung, Technik, Wirtschaft und Recht",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-8F942E61",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule Ravensburg-Weingarten - Technik, Wirtschaft, Sozialwesen",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-138698E2",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule Reutlingen - Technik, Wirtschaft, Informatik, Design",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-1BDE8AC7",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule der Bundesagentur für Arbeit (HdBA)",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      },
+      {
+        "source_record": "DE-MV|Hochschule der Bundesagentur für Arbeit",
+        "institution_type": "unknown",
+        "ownership": "unknown",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-57AC693F",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule der Medien Stuttgart",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-FFEE9876",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule der Wirtschaft für Management Mannheim (HdWM)",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F5034CD3",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule für Forstwirtschaft Rottenburg",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-3402A145",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule für Gestaltung Schwäbisch Gmünd",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-42CD4B22",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule für Ingenieur- und Wirtschaftswissenschaften Albstadt-Sigmaringen",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-0D75B87F",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule für Jüdische Studien Heidelberg",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-466C16D5",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule für Kirchenmusik Heidelberg",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-8106A285",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule für Kirchenmusik Rottenburg",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-75B71A89",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule für Kirchenmusik Tübingen",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F8399B65",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule für Musik Karlsruhe",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-263C6BEC",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule für Polizei Baden-Württemberg",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-8D9E4F21",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule für Rechtspflege Schwetzingen",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-38C89262",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule für Technik Stuttgart",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-CDA74B53",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule für Technik, Wirtschaft und Medien Offenburg",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-7C9DC541",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule für Wirtschaft und Umwelt Nürtingen-Geislingen",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-DE98C3D1",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule für öffentliche Verwaltung Kehl",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-11D2C12F",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Hochschule für öffentliche Verwaltung und Finanzen Ludwigsburg",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-6BDEA2F6",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Internationale Hochschule Liebenzell (IHL)",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-B9CC4CD7",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Karlshochschule International University",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F0156433",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Karlsruher Institut für Technologie (KIT)",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C379160F",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Katholische Hochschule Freiburg",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-617CB782",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Merz Akademie Hochschule für Gestaltung Kunst und Medien Stuttgart",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-176402ED",
+    "institution_type": "university_of_education",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|PH Freiburg",
+        "institution_type": "university_of_education",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F22DC798",
+    "institution_type": "university_of_education",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|PH Heidelberg",
+        "institution_type": "university_of_education",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-0B19308B",
+    "institution_type": "university_of_education",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|PH Karlsruhe",
+        "institution_type": "university_of_education",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-75D1EB90",
+    "institution_type": "university_of_education",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|PH Ludwigsburg",
+        "institution_type": "university_of_education",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C67FC721",
+    "institution_type": "university_of_education",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|PH Schwäbisch Gmünd",
+        "institution_type": "university_of_education",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-A83C14C4",
+    "institution_type": "university_of_education",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|PH Weingarten",
+        "institution_type": "university_of_education",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-514F08C9",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|SRH Fernhochschule Riedlingen",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-08DAF0C4",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|SRH University of Applied Sciences Heidelberg",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      },
+      {
+        "source_record": "DE-NW|SRH Hochschule in Nordrhein-Westfalen",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      },
+      {
+        "source_record": "DE-TH|SRH University of Applied Sciences Heidelberg in Gera",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private",
+        "recognition_status": "official_statistics"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C1A841F9",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Staatliche Akademie der Bildenden Künste Karlsruhe",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-4848E4A1",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Staatliche Akademie der Bildenden Künste Stuttgart",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-0CA0B5DB",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Staatliche Hochschule für Gestaltung Karlsruhe",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-6CE50916",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Staatliche Hochschule für Musik Freiburg",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-A4CF6030",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Staatliche Hochschule für Musik Trossingen",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-0817C1E0",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Staatliche Hochschule für Musik und Darstellende Kunst Mannheim",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-FF84793A",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Staatliche Hochschule für Musik und Darstellende Kunst Stuttgart",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-FBCDA9A6",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Technische Hochschule Mannheim",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C464ABBB",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Technische Hochschule Ulm",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-4A25A017",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Theologische Hochschule Reutlingen",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-FA4F7F96",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Universidad Paraguayo-Alemana de Ciencias Alicadas (UPA)",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-B01B0994",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Universität Freiburg",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-3DB104EC",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Universität Heidelberg",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-2299BEAA",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Universität Hohenheim",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-32EDF317",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Universität Konstanz",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-B849EE58",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Universität Mannheim",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-059B0647",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Universität Stuttgart",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-62D051E1",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Universität Tübingen",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-521B813C",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Universität Ulm",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-216D1AF0",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BW|Zeppelin Universität",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C74696D0",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Akademie der Bildenden Künste München",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-B60C4C77",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Akademie der Bildenden Künste Nürnberg",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-00A1CCD3",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Augustana Hochschule der Evang.-Luth. Kirche in Bayern (Neuendettelsau)",
+        "institution_type": "university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-DB13A49C",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Evangelische Hochschule für angewandte Wissenschaften - Evangelische Fachhochschule Nürnberg",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-2F53C10E",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Friedrich-Alexander-Universität Erlangen-Nürnberg",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-211D09A0",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Hochschule der Bayerischen Wirtschaft für angewandte Wissenschaften (HDBW)",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-AECF7F9A",
+    "institution_type": "art_music_university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Hochschule für Evangelische Kirchenmusik Bayreuth",
+        "institution_type": "art_music_university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-027CB5C5",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Hochschule für Fernsehen und Film München",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-E0BD5F89",
+    "institution_type": "art_music_university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Hochschule für Katholische Kirchenmusik und Musikpädagogik Regensburg",
+        "institution_type": "art_music_university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-D3D3E78B",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Hochschule für Musik Nürnberg",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-3FA61DE6",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Hochschule für Musik Würzburg",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C34569DB",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Hochschule für Musik und Theater München",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-124DF39D",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Hochschule für Philosophie (München)",
+        "institution_type": "university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-91444195",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Hochschule für Politik München (Universitäre Einrichtung mit eigenem Rechtsstatus)",
+        "institution_type": "university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-D4990E57",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Hochschule für angewandte Wissenschaften Ansbach",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-6820E908",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Hochschule für angewandte Wissenschaften Coburg",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-A303ADB7",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Hochschule für angewandte Wissenschaften Hof",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-88C394FF",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Hochschule für angewandte Wissenschaften Kempten",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C1D4A99D",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Hochschule für angewandte Wissenschaften Landshut",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-5CC15E36",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Hochschule für angewandte Wissenschaften München",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-15830D14",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Hochschule für angewandte Wissenschaften Neu-Ulm",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-7796501C",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Hochschule für angewandte Wissenschaften Weihenstephan-Triesdorf",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-3C0E0D7A",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Internationale Hochschule SDI München – Hochschule für angewandte Wissenschaften",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-B5F7B2B0",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Julius-Maximilians-Universität Würzburg",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F563344D",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Katholische Stiftungshochschule für angewandte Wissenschaften München",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-54ACF41D",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Katholische Universität Eichstätt-Ingolstadt",
+        "institution_type": "university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-3BF568E8",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Ludwig-Maximilians-Universität München",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-E41EDA37",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Munich Business School",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-D9DDB71A",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Munich University of Digital Technologies & Applied Sciences",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-38588B71",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Ostbayerische Technische Hochschule Amberg-Weiden",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-7612A99E",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Ostbayerische Technische Hochschule Regensburg",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-03F065C0",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Otto-Friedrich-Universität Bamberg",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-FE2294C9",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Technische Hochschule Aschaffenburg",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-4447E8CD",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Technische Hochschule Augsburg",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-589B0C5B",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Technische Hochschule Deggendorf",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-CF6FC1B0",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Technische Hochschule Ingolstadt",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-1F8D52F2",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Technische Hochschule Nürnberg Georg Simon Ohm",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-54668927",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Technische Hochschule Rosenheim",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-2AE9B688",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Technische Hochschule Würzburg-Schweinfurt (THWS)",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-7C095366",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Technische Universität München",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-892C2B02",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Technische Universität Nürnberg",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-6ABA8D4F",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Ukrainische Freie Universität in München (staatlich genehmigte nichtstaatliche Universität, vgl. Art. 103 Abs.3 BayHSchG)",
+        "institution_type": "university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-CD886016",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Universität Augsburg",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-5533AB57",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Universität Bayreuth",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-D1C472F5",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Universität Passau",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-83D1DA34",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Universität Regensburg",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-5874CBE6",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-BY|Universität der Bundeswehr München",
+        "institution_type": "university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-248220E0",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-HB|Apollon Hochschule der Gesundheitswirtschaft",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_church",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-47CDD439",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-HB|Constructor University",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-5567DEBD",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "public_by_law",
+    "source_values": [
+      {
+        "source_record": "DE-HB|Hochschule Bremen",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "public"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-05FA537B",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "public_by_law",
+    "source_values": [
+      {
+        "source_record": "DE-HB|Hochschule Bremerhaven",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "public"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-8B3FF683",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "public_by_law",
+    "source_values": [
+      {
+        "source_record": "DE-HB|Hochschule für Künste Bremen",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "public"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-DDE42184",
+    "institution_type": "public_administration",
+    "ownership": "public",
+    "recognition_status": "public_by_law",
+    "source_values": [
+      {
+        "source_record": "DE-HB|Hochschule für Öffentliche Verwaltung",
+        "institution_type": "university_of_public_administration",
+        "ownership": "public",
+        "recognition_status": "public"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-E3443B43",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "public_by_law",
+    "source_values": [
+      {
+        "source_record": "DE-HB|Universität Bremen",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "public"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-59111616",
+    "institution_type": "public_administration",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Archivschule Marburg (Hochschule für Archivwissenschaft)",
+        "institution_type": "university_of_public_administration",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-CE56C432",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Charlotte Fresenius Hochschule (Wiesbaden)",
+        "institution_type": "university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-8F4F588D",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|DIPLOMA Hochschule – Private Fachhochschule Nordhessen (Bad Sooden-Allendorf)",
+        "institution_type": "university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      },
+      {
+        "source_record": "DE-HH|DIPLOMA Hochschule Hamburg",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-BEAA4AC8",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|EBS Universität für Wirtschaft und Recht (Oestrich-Winkel)",
+        "institution_type": "university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-92D8BA3F",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Evangelische Hochschule Hessen",
+        "institution_type": "university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-5CEA08BF",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Evangelische Hochschule TABOR (Marburg)",
+        "institution_type": "university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-5C55C38B",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Frankfurt School of Finance & Management",
+        "institution_type": "university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-606079E5",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Frankfurt University of Applied Sciences",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-296DF03C",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Freie Theologische Hochschule Gießen",
+        "institution_type": "university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-6BE29E26",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Goethe-Universität Frankfurt am Main",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-BF4D2C33",
+    "institution_type": "public_administration",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Hessische Hochschule für öffentliches Management und Sicherheit (HöMS)",
+        "institution_type": "university_of_public_administration",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-CC5105D4",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Hochschule Darmstadt",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C994F80F",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Hochschule Fulda",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-075D68E2",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Hochschule Geisenheim",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-9C957CAA",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Hochschule RheinMain (Wiesbaden/Rüsselsheim)",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-99E5F115",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Hochschule der Deutschen Gesetzlichen Unfallversicherung (HGU)",
+        "institution_type": "university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-670B7399",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Hochschule für Bildende Künste–Städelschule Frankfurt am Main",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-AB90C3B0",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Hochschule für Gestaltung Offenbach am Main",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-CA665B06",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Hochschule für Musik und Darstellende Kunst Frankfurt am Main",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-1FC5D3D7",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Justus-Liebig-Universität Gießen",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-D38A4DED",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Kunsthochschule Kassel an der Universität Kassel",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-28BB0A9D",
+    "institution_type": "university",
+    "ownership": "church",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Lutherische Theologische Hochschule (Oberursel)",
+        "institution_type": "university",
+        "ownership": "church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-7134AF4F",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Philipps-Universität Marburg",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-0A7C30B2",
+    "institution_type": "university",
+    "ownership": "church",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Philosophisch-Theologische Hochschule Sankt Georgen (Frankfurt/Main)",
+        "institution_type": "university",
+        "ownership": "church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-4582E4C0",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Provadis School of International Management and Technology (Frankfurt/Main)",
+        "institution_type": "university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-1EEADEAB",
+    "institution_type": "public_administration",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Studienzentrum der Finanzverwaltung und Justiz in Rotenburg an der Fulda",
+        "institution_type": "university_of_public_administration",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-35CD887C",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Technische Hochschule Mittelhessen (Gießen/Friedberg)",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C14F807F",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Technische Universität Darmstadt",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F75C157C",
+    "institution_type": "university",
+    "ownership": "church",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Theologische Fakultät Fulda",
+        "institution_type": "university",
+        "ownership": "church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-10DC77CD",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Theologische Hochschule Ewersbach",
+        "institution_type": "university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F6603125",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Tomorrow University of Applied Sciences (Frankfurt/Main)",
+        "institution_type": "university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-55826C49",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|University of Labour (Frankfurt/Main)",
+        "institution_type": "university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-622B5496",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Universität Kassel",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-4FEE1C6C",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|Wilhelm Büchner Hochschule",
+        "institution_type": "university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-32B9B6CC",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HE|accadis Hochschule (Bad Homburg)",
+        "institution_type": "university",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-32472D3C",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|AMD Akademie für Mode & Design",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-E2C1D231",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|Akademie der Polizei Hamburg",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-D94FDBE5",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|BSP Business School Berlin - Campus Hamburg",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-9B4D8864",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|Berufliche Hochschule Hamburg BHH",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-501A85C2",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|Brand University of Applied Sciences",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-9383B300",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-HH|Bucerius Law School Hochschule für Rechtswissenschaft",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-B4A33FEB",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|Carl Remigius Medical School",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-8867E01E",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|EBC Hochschule Hamburg",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-34CFFD22",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-HH|Euro-FH - Europäische Fernhochschule Hamburg",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_church",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-A716EDAB",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|FOM Die Hochschule für Berufstätige",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      },
+      {
+        "source_record": "DE-NW|FOM Hochschule für Oekonomie & Management",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-6AE93CEE",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|HFH Hamburger Fern-Hochschule",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      },
+      {
+        "source_record": "DE-MV|HFH Hamburger Fern-Hochschule",
+        "institution_type": "unknown",
+        "ownership": "unknown",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-A2A428DC",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-HH|HSBA Hamburg School of Business Administration",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_church",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-48551F21",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|HafenCity Universität Hamburg - Universität für Baukunst und Metropolenentwicklung",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-0607380E",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|Hamburg Media School",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-B26DE26C",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|Helmut-Schmidt-Universität - Universität der Bundeswehr Hamburg",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C4782A83",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|Hochschule für Angewandte Wissenschaften Hamburg",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-02428FA8",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|Hochschule für Musik und Theater Hamburg",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-E80E0A4E",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|Hochschule für bildende Künste Hamburg",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-6BE279ED",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|ISM International School of Management",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      },
+      {
+        "source_record": "DE-NW|International School of Management",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-718BBBB8",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|IUBH Internationale Hochschule, Campus Hamburg",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      },
+      {
+        "source_record": "DE-TH|IU Internationale Hochschule in Erfurt",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private",
+        "recognition_status": "official_statistics"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-7D64A04C",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-HH|KLU Kühne Logistics University - Wissenschaftliche Hochschule für Logistik und Unternehmensführung",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-FC327236",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "state_recognized",
+    "source_values": [
+      {
+        "source_record": "DE-HH|MSH Medical School Hamburg University of Applied Sciences and Medical University",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_church",
+        "recognition_status": "state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-09CE2A67",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|Miami ad School Europe, Campus Hamburg",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-379FB938",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|NBS Northern Business School",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-08836C5A",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|NORDAKADEMIE Hochschule der Wirtschaft | Graduate School",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      },
+      {
+        "source_record": "DE-SH|Nordakademie Elmshorn",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-8792A52A",
+    "institution_type": "public_administration",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg",
+        "institution_type": "university_of_public_administration",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-9085A09A",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|Technische Universität Hamburg-Harburg",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-3C6DFB6F",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|Universität Hamburg",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-1A57C376",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-HH|Universitätsmedizin Neumarkt A.M. Campus Hamburg",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-D4137ED9",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-MV|Fachhochschule des Mittelstands",
+        "institution_type": "unknown",
+        "ownership": "unknown",
+        "recognition_status": "unknown"
+      },
+      {
+        "source_record": "DE-NW|Fachhochschule des Mittelstands",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-5C990443",
+    "institution_type": "public_administration",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-MV|Fachhochschule für öffentliche Verwaltung, Polizei und Rechtspflege Mecklenburg-Vorpommern",
+        "institution_type": "public_administration",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-540286B3",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-MV|Hochschule Neubrandenburg",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-2E5C2F36",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-MV|Hochschule Stralsund",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C0AE2966",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-MV|Hochschule Wismar",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-265A9C06",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-MV|Hochschule für Musik und Theater Rostock",
+        "institution_type": "art_music",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-7A952626",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-MV|Internationale Studien- und Berufsakademie ISBA",
+        "institution_type": "unknown",
+        "ownership": "unknown",
+        "recognition_status": "unknown"
+      },
+      {
+        "source_record": "DE-SL|ISBA gGmbH Internationale Studien- und Berufsakademie",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-E7BE296C",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-MV|Universität Greifswald",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-E79284E9",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-MV|Universität Rostock",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-B9B7E336",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Fachhochschule für die Wirtschaft Hannover",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-819C93AE",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|HAWK Hildesheim/ Holzminden/ Göttingen",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-44606173",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Hochschule 21",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-8B8B233A",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Hochschule Emden / Leer",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-6A2EF4C3",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Hochschule Hannover",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-6CCAF63A",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Hochschule Osnabrück",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-1CE67FB3",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Hochschule Weserbergland",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-94E76296",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Hochschule für Bildende Künste Braunschweig",
+        "institution_type": "art_music",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-5DA0CCC0",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Hochschule für Künste im Sozialen",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-52B79A0C",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Hochschule für Musik, Theater und Medien Hannover",
+        "institution_type": "art_music",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F2F63386",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Jade Hochschule",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-E54DD2B1",
+    "institution_type": "public_administration",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Kommunale Hochschule für Verwaltung",
+        "institution_type": "public_administration",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-81E24F24",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Leibniz Universität Hannover",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-223E15AA",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Leibniz-Fachhochschule",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-B061110A",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Leuphana Universität Lüneburg",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-E105A8DF",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Medizinische Hochschule Hannover",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-22104A27",
+    "institution_type": "public_administration",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Norddeutsche Hochschule für Rechtspflege",
+        "institution_type": "public_administration",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-2619CDB0",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Ostfalia Hochschule",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-766BDEBB",
+    "institution_type": "public_administration",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Polizeiakademie Niedersachsen",
+        "institution_type": "public_administration",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-AEFBC1CF",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Private Hochschule Göttingen",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-734E7C77",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Private Hochschule für Wirtschaft und Technik",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-A7CB93AD",
+    "institution_type": "public_administration",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Steuerakademie Niedersachsen",
+        "institution_type": "public_administration",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-E75328AF",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Stiftung Tierärztliche Hochschule Hannover",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-AC8CFDC2",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Technische Universität Braunschweig",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-DCB777C4",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Technische Universität Clausthal",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-2D634A37",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Universität Göttingen",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-9A3BAD1E",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Universität Hildesheim",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-05ACCFBA",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Universität Oldenburg",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-91341A83",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Universität Osnabrück",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-36E37BAF",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NI|Universität Vechta",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-156C6345",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Alanus Hochschule für Kunst und Gesellschaft",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-908E8A5D",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Bergische Universität Wuppertal",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-856E235F",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|CBS International Business School",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      },
+      {
+        "source_record": "DE-NW|Europäische Fachhochschule Rhein/Erft",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-92B0CBE6",
+    "institution_type": "public_administration",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Deutsche Hochschule der Polizei Münster",
+        "institution_type": "university_of_public_administration",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-9D3878D4",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Deutsche Sporthochschule Köln",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-E8A8B9D9",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|EBZ Business School",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-E51D5CA7",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Evangelische Hochschule Rheinland-Westfalen-Lippe",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-DD6EB804",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|FH Münster",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-44A66C04",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Fachhochschule Aachen",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F281D17C",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Fachhochschule Bielefeld",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-D0786FB0",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Fachhochschule Dortmund",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-ED33C75F",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Fachhochschule Südwestfalen",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-557FD547",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Fachhochschule der Diakonie",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-550DDCC6",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Fachhochschule der Wirtschaft Nordrhein-Westfalen",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-DCCEF789",
+    "institution_type": "public_administration",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Fachhochschule für Finanzen",
+        "institution_type": "university_of_public_administration",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-9D0DE68B",
+    "institution_type": "public_administration",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Fachhochschule für Rechtspflege in NRW",
+        "institution_type": "university_of_public_administration",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-ABE3A109",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|FernUniversität in Hagen",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-3B91A02E",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Fliedner Fachhochschule Düsseldorf",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-8A2621E2",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Folkwang Universität der Künste",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F0E7998D",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Heinrich-Heine-Universität Düsseldorf",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-B13B4F4F",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Hochschule Bochum",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-780D3506",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Hochschule Bonn-Rhein-Sieg",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-4C0A39B5",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Hochschule Düsseldorf",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-3081F973",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Hochschule Hamm-Lippstadt",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-E5062F80",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Hochschule Niederrhein",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-CFE25A91",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Hochschule Rhein-Waal",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-DBDB4E6A",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Hochschule Ruhr West",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-0CEC5951",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Hochschule der bildenden Künste Essen",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-5F6B8E12",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Hochschule für Finanzwirtschaft & Management",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C9F2B38F",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Hochschule für Gesundheit",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-65749061",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Hochschule für Kirchenmusik der Evangelischen Kirche von Westfalen",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-A994F23F",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Hochschule für Musik Detmold",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-05F4D294",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Hochschule für Musik und Tanz Köln",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-920E5B21",
+    "institution_type": "public_administration",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Hochschule für Polizei und öffentliche Verwaltung Nordrhein-Westfalen",
+        "institution_type": "university_of_public_administration",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-3C8D8833",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|IST-Hochschule für Management",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-88F739C7",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Katholische Hochschule Nordrhein-Westfalen",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-0B29EF64",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Kirchliche Hochschule Wuppertal/Bethel",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C50CEC25",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Kunstakademie Düsseldorf",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-4EF400E0",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Kunstakademie Münster",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-1202E5CF",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Kunsthochschule für Medien Köln",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-3645D7EC",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Kölner Hochschule für Katholische Theologie (KHKT)",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F86A82ED",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Philosophisch-Theologische Hochschule Münster",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-758A394A",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Private Kolping Hochschule für Gesundheit und Soziales",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-CFA3E54D",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Private Universität Witten/Herdecke",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-9D336EC9",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Rheinisch-Westfälische Technische Hochschule (RWTH) Aachen",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-17EE22C0",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Rheinische Fachhochschule Köln",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-32723EFC",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Rheinische Friedrich-Wilhelms-Universität Bonn",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-976B9A2E",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Robert-Schumann-Hochschule Düsseldorf",
+        "institution_type": "art_music_university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-2E09310B",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Ruhr-Universität Bochum",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-1FEC7997",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Technische Hochschule Georg Agricola",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-4C92C243",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Technische Hochschule Köln",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F64404D1",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Technische Hochschule Ostwestfalen-Lippe",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C1AB1B37",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Technische Universität Dortmund",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F6816864",
+    "institution_type": "university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Theologische Fakultät Paderborn",
+        "institution_type": "university",
+        "ownership": "private_or_church",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-66981C2B",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Universität Bielefeld",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-E94E712B",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Universität Duisburg-Essen",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-65AA60A1",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Universität Paderborn",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-0F9CBBCB",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Universität Siegen",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-96FD0EAB",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Universität zu Köln",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-9F79B54A",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Westfälische Hochschule",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-50FCCD2A",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-NW|Westfälische Wilhelms-Universität Münster",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-56551C40",
+    "institution_type": "public_administration",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-RP|Deutsche Universität für Verwaltungswissenschaften Speyer",
+        "institution_type": "public_administration",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-BD4569A2",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-RP|Hochschule Kaiserslautern",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-FC91DB86",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-RP|Hochschule Koblenz",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-65355044",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-RP|Hochschule Mainz",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-22008BFA",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-RP|Hochschule Trier – Trier University of Applied Sciences",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-A0CBFA7C",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-RP|Hochschule Worms",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-4791CC23",
+    "institution_type": "public_administration",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-RP|Hochschule der Deutschen Bundesbank",
+        "institution_type": "public_administration",
+        "ownership": "unknown",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C4A9F029",
+    "institution_type": "public_administration",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-RP|Hochschule der Polizei Rheinland-Pfalz",
+        "institution_type": "public_administration",
+        "ownership": "unknown",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C24BE0FB",
+    "institution_type": "public_administration",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-RP|Hochschule für Finanzen Rheinland-Pfalz",
+        "institution_type": "public_administration",
+        "ownership": "unknown",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-61F9DA1B",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-RP|Hochschule für Gesellschaftsgestaltung",
+        "institution_type": "unknown",
+        "ownership": "unknown",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-06997DCE",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-RP|Hochschule für Musik Mainz",
+        "institution_type": "art_music",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-6E4E9287",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-RP|Hochschule für Wirtschaft und Gesellschaft Ludwigshafen",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-789DECCE",
+    "institution_type": "public_administration",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-RP|Hochschule für öffentliche Verwaltung Rheinland-Pfalz",
+        "institution_type": "public_administration",
+        "ownership": "unknown",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-395B0822",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-RP|Johannes Gutenberg-Universität Mainz",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-E1DF5DC9",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-RP|Katholische Hochschule Mainz",
+        "institution_type": "unknown",
+        "ownership": "unknown",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-5132DCB5",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-RP|Kunsthochschule Mainz",
+        "institution_type": "art_music",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-080CF5EE",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-RP|Rheinland-Pfälzische Technische Universität",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-AC36AD1B",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-RP|Technische Hochschule Bingen",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-EF56DF32",
+    "institution_type": "theological_university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-RP|Theologische Fakultät Trier",
+        "institution_type": "theological",
+        "ownership": "unknown",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-1BEF13D5",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-RP|Universität Koblenz",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-A0A49556",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-RP|Universität Trier",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-D58FD40A",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-RP|WHU - Otto Beisheim School of Management",
+        "institution_type": "unknown",
+        "ownership": "unknown",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-84824DD9",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SH|Christian-Albrechts-Universität zu Kiel",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-4A1918A0",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SH|Duale Hochschule Schleswig-Holstein",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-DD164845",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SH|Europa-Universität Flensburg",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-AD4B28F9",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SH|Fachhochschule Wedel",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-003E4856",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SH|Fachhochschule Westküste in Heide",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-191ACAD8",
+    "institution_type": "public_administration",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SH|Fachhochschule für Verwaltung und Dienstleistung",
+        "institution_type": "public_administration",
+        "ownership": "private",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-D7A64A0B",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SH|HAW Kiel",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-AA2C65F4",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SH|Hochschule Flensburg",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F0A89EC0",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SH|Musikhochschule Lübeck",
+        "institution_type": "art_music",
+        "ownership": "public",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-BC7BC0FE",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SH|Muthesius Kunsthochschule Kiel",
+        "institution_type": "art_music",
+        "ownership": "public",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-E85B1323",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SH|Technische Hochschule Lübeck",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-40FE027A",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SH|Universität Lübeck",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-5D21A57A",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SL|Berufsakademie für Gesundheits- und Sozialwesen Saarland gGmbH (BAGSS)",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-FEE310F4",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SL|Deutsche Hochschule für Prävention und Gesundheitsmanagement GmbH",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_other",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-0A839F05",
+    "institution_type": "public_administration",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SL|Fachhochschule für Verwaltung und Polizei",
+        "institution_type": "public_administration",
+        "ownership": "public",
+        "recognition_status": "confirmed"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-BF99C798",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SL|Hochschule der Bildenden Künste Saar",
+        "institution_type": "art_music",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-8F0B869F",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SL|Hochschule für Musik Saar",
+        "institution_type": "art_music",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-8D3A1160",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SL|Hochschule für Technik und Wirtschaft des Saarlandes",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-348915BF",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SL|Universität des Saarlandes",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-450D8EFA",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SN|DIU Dresden International University",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-44392154",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SN|Duale Hochschule Sachsen",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-8DA071A3",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SN|Evangelische Hochschule Dresden (FH)",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_other",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-9D69CACF",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SN|Fachhochschule Dresden",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private_or_other",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-7692F732",
+    "institution_type": "unknown",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SN|HHL Leipzig Graduate School of Management",
+        "institution_type": "unknown",
+        "ownership": "private_or_other",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-701F81DA",
+    "institution_type": "public_administration",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SN|Hochschule Meißen (FH) und Fortbildungszentrum",
+        "institution_type": "public_administration",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-B2200F51",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SN|Hochschule Mittweida",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-61A28327",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SN|Hochschule Zittau/Görlitz",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-D035B68A",
+    "institution_type": "public_administration",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SN|Hochschule der Sächsischen Polizei (FH)",
+        "institution_type": "public_administration",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C8DE9175",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SN|Hochschule für Bildende Künste Dresden",
+        "institution_type": "art_music",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-95A8D267",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SN|Hochschule für Grafik und Buchkunst Leipzig",
+        "institution_type": "art_music",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-518639E6",
+    "institution_type": "art_music_university",
+    "ownership": "unknown",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SN|Hochschule für Kirchenmusik der Evangelisch-Lutherischen Landeskirche Sachsens",
+        "institution_type": "art_music",
+        "ownership": "private_or_other",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-A5AC58BC",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SN|Hochschule für Musik Carl Maria von Weber Dresden",
+        "institution_type": "art_music",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-A4D1A1AB",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SN|Hochschule für Musik und Theater »Felix Mendelssohn Bartholdy« Leipzig",
+        "institution_type": "art_music",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-62D704CE",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SN|Hochschule für Technik und Wirtschaft Dresden",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-EA084E1A",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SN|Hochschule für Technik, Wirtschaft und Kultur Leipzig",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-1F17E6E6",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SN|Palucca Hochschule für Tanz Dresden",
+        "institution_type": "art_music",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-20B72595",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SN|Technische Universität Bergakademie Freiberg",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-705B91D0",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SN|Technische Universität Chemnitz",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-0C8D99EC",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SN|Technische Universität Dresden",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-26F81842",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SN|Universität Leipzig",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-2619709A",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-SN|Westsächsische Hochschule Zwickau",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-83B75354",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-ST|Burg Giebichenstein Kunsthochschule Halle",
+        "institution_type": "art_music",
+        "ownership": "public",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-95820360",
+    "institution_type": "art_music_university",
+    "ownership": "church",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-ST|Evangelische Hochschule für Kirchenmusik Halle an der Saale",
+        "institution_type": "art_music",
+        "ownership": "church",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-17C9865D",
+    "institution_type": "public_administration",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-ST|Fachhochschule Polizei",
+        "institution_type": "public_administration",
+        "ownership": "public",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-DA1EB8C3",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-ST|Hochschule Anhalt",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-660E1BB2",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-ST|Hochschule Harz",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-30296A8D",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-ST|Hochschule Magdeburg-Stendal",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-38BC3E16",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-ST|Hochschule Merseburg",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-63966108",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-ST|Martin-Luther-Universität Halle-Wittenberg",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-22DDD815",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-ST|Otto-von-Guericke-Universität Magdeburg",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-7F9F30E7",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-ST|Steinbeis Hochschule",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-459002DC",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "church",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-ST|Theologische Hochschule Friedensau",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "church",
+        "recognition_status": "state_or_state_recognized"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-FBE2C96E",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-TH|Bauhaus-Universität Weimar",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "official_statistics"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-21A985A5",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-TH|Duale Hochschule Eisenach-Gera",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "official_statistics"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-A8C58F48",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-TH|Ernst-Abbe-Hochschule Jena",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "official_statistics"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C9521809",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-TH|Fachhochschule Erfurt",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "official_statistics"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-7F4D34EC",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-TH|Friedrich-Schiller-Universität Jena",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "official_statistics"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-31A0F44F",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-TH|HMU Health and Medical University Erfurt",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "official_statistics"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-66D641DF",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-TH|Hochschule Nordhausen",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "official_statistics"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-ED70255C",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-TH|Hochschule Schmalkalden",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "public",
+        "recognition_status": "official_statistics"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-135106ED",
+    "institution_type": "art_music_university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-TH|Hochschule für Musik Franz Liszt Weimar",
+        "institution_type": "art_music",
+        "ownership": "public",
+        "recognition_status": "official_statistics"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-06C00342",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-TH|Technische Universität Ilmenau",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "official_statistics"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F61E0273",
+    "institution_type": "public_administration",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-TH|Thüringer Fachhochschule für öffentliche Verwaltung Gotha",
+        "institution_type": "public_administration",
+        "ownership": "public",
+        "recognition_status": "official_statistics"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-B377A7B1",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "DE-TH|Universität Erfurt",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "official_statistics"
+      }
+    ]
+  }
+]
