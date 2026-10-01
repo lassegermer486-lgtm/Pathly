@@ -1,0 +1,16 @@
+# Python / tooling
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.DS_Store
+*.backup
+
+# Generated data: only written with --save, never committed.
+/data/*
+# Exception: committed fallback copies of official sources
+# (SH blocks requests regularly, SL PDF may be offline).
+!/data/source_cache/
+/data/source_cache/*
+!/data/source_cache/DE-SH/
+!/data/source_cache/DE-SL/
