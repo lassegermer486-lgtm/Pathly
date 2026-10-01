@@ -1,0 +1,673 @@
+# ProjectPathly – Feature-Katalog
+
+> Orientierungsplattform für Bildung und Karriere
+>
+> **Stand:** 01.10.2026 · **Grundlage:** zwei Abstimmungen zwischen Karm und Lasse (KI-generierte Besprechungsnotizen, inhaltlich übernommen und strukturiert) sowie der aktuelle Stand des Repositories.
+>
+> In den Notizen taucht der Produktname teils als „Pawley“ auf – gemeint ist **ProjectPathly**.
+
+---
+
+## Inhalt
+
+1. [Zielbild](#1-zielbild)
+2. [Leitprinzipien](#2-leitprinzipien)
+3. [Legende](#3-legende)
+4. [Übersicht aller Features](#4-übersicht-aller-features)
+5. [Feature-Details](#5-feature-details)
+   - [A – Hochschul-Register & Datengrundlage](#a--hochschul-register--datengrundlage)
+   - [B – Standorte & Kartenansicht](#b--standorte--kartenansicht)
+   - [C – Studiengänge](#c--studiengänge)
+   - [D – Bewerbung & Zulassung](#d--bewerbung--zulassung)
+   - [E – Kosten & Lebenshaltung](#e--kosten--lebenshaltung)
+   - [F – Rankings](#f--rankings)
+   - [G – Karriere & Outcomes](#g--karriere--outcomes)
+   - [H – Studentische Bewertungen & Verifikation](#h--studentische-bewertungen--verifikation)
+   - [I – Wissens- & Unterstützungsangebot](#i--wissens---unterstützungsangebot)
+   - [J – Bewerbungstraining & Premium-Services](#j--bewerbungstraining--premium-services)
+   - [K – Internationalisierung & Netzwerke](#k--internationalisierung--netzwerke)
+   - [L – Studierenden-Hub (Vision)](#l--studierenden-hub-vision)
+6. [Roadmap](#6-roadmap)
+7. [Datenquellen](#7-datenquellen)
+8. [Offene Aufgaben aus den Meetings](#8-offene-aufgaben-aus-den-meetings)
+9. [Offene Fragen & Risiken](#9-offene-fragen--risiken)
+
+---
+
+## 1. Zielbild
+
+ProjectPathly soll Studieninteressierten und Studierenden einen **zentralen, transparenten Überblick** über Hochschulen, Studiengänge, Zulassung, Kosten und Karriereperspektiven geben – zunächst für Deutschland, später für den DACH-Raum und Europa.
+
+Langfristig wird aus der Übersichtsplattform ein **Informations- und Unterstützungsangebot** für den gesamten Weg von der Studienwahl über Bewerbung und Studium bis in den Beruf.
+
+**Kern-Mehrwert:**
+
+- Alle relevanten Informationen zu Hochschule und Studiengang an einem Ort statt verstreut auf Hochschulseiten.
+- Vergleich von Zulassungsvoraussetzungen, insbesondere beim Übergang Bachelor → Master (Kernfeature).
+- Eigene, **nachvollziehbare** Rankings statt unkommentierter Übernahme bestehender Rankings.
+- Ehrliche Einordnung von Karrierechancen – ohne Erfolgsversprechen.
+
+---
+
+## 2. Leitprinzipien
+
+| # | Prinzip | Bedeutung für die Umsetzung |
+|---|---|---|
+| P1 | **Working Product zuerst** | Erst ein funktionsfähiges Kernprodukt, dann Feature-Deep-Dives, Menüstruktur und internationale Erweiterung. |
+| P2 | **Offizielle Quellen sind maßgeblich** | Daten stammen bevorzugt aus amtlichen Quellen (Landesministerien). Nichts wird aus Namen „erraten“. Quelle, URL und Abrufzeitpunkt werden pro Datensatz gespeichert. |
+| P3 | **Transparente Methodik** | Jede Ranking-Formel, jeder Faktor und jede Gewichtung wird offen dokumentiert. |
+| P4 | **Keine Garantien** | Die Plattform gibt keine festen Bildungs- oder Karrierewege vor und verspricht keine Ergebnisse. Aussagen werden **probabilistisch** formuliert („Profile mit X haben typischerweise bessere Chancen auf Y“). |
+| P5 | **Kennzahlen immer mit Kontext** | Gehälter und ähnliche KPIs werden nur mit Einordnung gezeigt (Berufserfahrung, vorherige Ausbildung, Jobwechsel, individuelle Ziele). |
+| P6 | **Alternative Wege sichtbar machen** | Ungewöhnliche Bildungswege werden nicht ausgeschlossen. Nischenkompetenzen und individuelle Erfahrungen können ebenso zum Ziel führen. |
+| P7 | **Verifizierte Stimmen** | Studentische Bewertungen nur nach nachgewiesener Hochschulzugehörigkeit. |
+
+---
+
+## 3. Legende
+
+**Phase**
+
+| Kürzel | Bedeutung |
+|---|---|
+| **MVP** | Teil des ersten Working Products |
+| **P2** | Nächste Ausbaustufe nach dem MVP |
+| **P3** | Spätere Ausbaustufe |
+| **V** | Langfristige Vision |
+
+**Status**
+
+| Symbol | Bedeutung |
+|---|---|
+| ✅ | umgesetzt |
+| 🟡 | in Arbeit / teilweise umgesetzt |
+| ⚪ | offen / Idee |
+
+---
+
+## 4. Übersicht aller Features
+
+| ID | Feature | Phase | Status | Verantwortlich |
+|---|---|---|---|---|
+| **A** | **Hochschul-Register & Datengrundlage** | | | |
+| A1 | Hochschul-Scraper (Name, Website, Bundesland) | MVP | 🟡 | Karm |
+| A2 | Erweiterte Hochschul-Attribute (Trägerschaft, Typ, Anerkennung) | MVP | 🟡 | Karm |
+| A3 | Quellen-Nachverfolgung & Rohdaten-Snapshots | MVP | ✅ | Karm |
+| A4 | Deduplizierung & Vereinheitlichung | MVP | 🟡 | Karm |
+| A5 | Abgleich mit Hochschulkompass (Validierungsreport) | P2 | ⚪ | – |
+| A6 | Containerisierter Betrieb (Docker) | MVP | ✅ | Karm |
+| **B** | **Standorte & Kartenansicht** | | | |
+| B1 | Standort-Datenmodell (Haupt- & Nebenstandorte) | MVP | 🟡 | Lasse |
+| B2 | Zuordnung Fakultät ↔ Standort | P2 | ⚪ | Lasse |
+| B3 | Zuordnung Studiengang ↔ Standort/Gebäude | P2 | ⚪ | Lasse |
+| B4 | Kartenansicht Hochschulstandorte | P2 | ⚪ | – |
+| B5 | Studentenwohnheime auf der Karte | P3 | ⚪ | – |
+| B6 | Weitere Orte auf der Karte (Mensen, relevante POIs) | V | ⚪ | – |
+| **C** | **Studiengänge** | | | |
+| C1 | Studiengangs-Steckbrief (Dauer, Abschluss, Sprache) | MVP | ⚪ | – |
+| C2 | Semesterplan & Module | P2 | ⚪ | – |
+| C3 | Modulbeschreibungen | P2 | ⚪ | – |
+| C4 | Studienformat (Vollzeit/Teilzeit, Wochentag/Wochenende/Block) | P2 | ⚪ | – |
+| C5 | Kohorten-Kennzahlen (Alter, Klassengröße, Gender, International) | P3 | ⚪ | – |
+| C6 | Verwendete Programmiersprachen / Tools | P3 | ⚪ | – |
+| **D** | **Bewerbung & Zulassung** | | | |
+| D1 | Bewerbungszeiträume als Zeitfenster | MVP | ⚪ | – |
+| D2 | Early-Bird-Fristen & Rabatte | P2 | ⚪ | – |
+| D3 | Checkliste erforderlicher Unterlagen | P2 | ⚪ | – |
+| D4 | Zulassungsvoraussetzungen (ECTS, Pflichtfächer) | MVP | ⚪ | – |
+| D5 | **Bachelor-Master-Zulassungsvergleich (Kernfeature)** | MVP/P2 | ⚪ | – |
+| **E** | **Kosten & Lebenshaltung** | | | |
+| E1 | Studiengebühren (Semester / gesamt) | P2 | ⚪ | – |
+| E2 | Kontextbezogene Kostenprognose | P3 | ⚪ | – |
+| **F** | **Rankings** | | | |
+| F1 | Ranking-Framework & offene Methodik | P2 | ⚪ | Karm, Lasse |
+| F2 | Einkommen & Karrierechancen | P2 | ⚪ | Karm |
+| F3 | Innovation & Zukunftssicherheit | P3 | ⚪ | Karm |
+| F4 | Praxis- vs. Forschungsorientierung | P3 | ⚪ | Lasse |
+| F5 | Wissenschaftliche Qualität | P3 | ⚪ | – |
+| F6 | Industriebezug | P3 | ⚪ | Lasse |
+| F7 | Entrepreneurship | P3 | ⚪ | – |
+| F8 | Fachspezifische Rankings (z. B. BWL) | P3 | ⚪ | – |
+| F9 | Facility-Ranking | P3 | ⚪ | – |
+| F10 | Standort-Rankings (einzeln & kumuliert) | P3 | ⚪ | – |
+| F11 | Gesamtranking (kumuliert) | P3 | ⚪ | Karm, Lasse |
+| **G** | **Karriere & Outcomes** | | | |
+| G1 | Karrierepfade & Absolventen-Positionierung | P3 | ⚪ | – |
+| G2 | Gehalts-KPIs mit Kontext | P3 | ⚪ | Karm |
+| G3 | ROI-Einschätzung für Masterprogramme | P3 | ⚪ | – |
+| G4 | Praktika-Analyse & Einstiegspfade | P3 | ⚪ | Karm |
+| G5 | Probabilistische Profil-Orientierung | V | ⚪ | – |
+| **H** | **Studentische Bewertungen & Verifikation** | | | |
+| H1 | Verifikation über Hochschul-Mailadresse | P3 | ⚪ | Karm |
+| H2 | Studentische Bewertungen (internes Ranking) | P3 | ⚪ | – |
+| **I** | **Wissens- & Unterstützungsangebot** | | | |
+| I1 | Bewerbungs-Grundlagen (CV, Anschreiben, Interviews) | P3 | ⚪ | – |
+| I2 | Studium-Grundlagen (Lernen, Prüfungen, Administration) | P3 | ⚪ | – |
+| I3 | Studienplanung (Double Degree, Praktikumsfenster) | P3 | ⚪ | – |
+| **J** | **Bewerbungstraining & Premium-Services** | | | |
+| J1 | KI-Sprachchatbot als Bewerbungs-Sparringspartner | V | ⚪ | – |
+| J2 | Case-Study- & Quant-Simulationen | V | ⚪ | – |
+| J3 | CV-Check-Service | V | ⚪ | – |
+| **K** | **Internationalisierung & Netzwerke** | | | |
+| K1 | Auslandssemester & Partnerhochschulen | P3 | ⚪ | – |
+| K2 | Netzwerk-/Graph-Ansicht (Hochschulen, Verbände, Unternehmen) | V | ⚪ | – |
+| K3 | Regionaler Ausbau DACH | P3 | ⚪ | – |
+| K4 | Regionaler Ausbau Europa | V | ⚪ | – |
+| **L** | **Studierenden-Hub (Vision)** | | | |
+| L1 | Hochschulkonto verbinden & Stundenplan laden | V | ⚪ | – |
+| L2 | Mensa-Finder & aktueller Speiseplan | V | ⚪ | – |
+
+---
+
+## 5. Feature-Details
+
+### A – Hochschul-Register & Datengrundlage
+
+Fundament der Plattform: ein reproduzierbares Verzeichnis aller deutschen Hochschulen, aufgebaut aus offiziellen Quellen der Bundesländer. Umgesetzt im Modul [`projectpathly_registry_scraper`](../projectpathly_registry_scraper/README.md).
+
+#### A1 – Hochschul-Scraper (Grunddaten)
+
+| | |
+|---|---|
+| **Phase / Status** | MVP · 🟡 |
+| **Verantwortlich** | Karm |
+| **Beschreibung** | Erfasst für jede Hochschule die Pflichtfelder **Name** und **offizielle Website** sowie – sofern die Quelle es liefert – das **meldende Bundesland**. |
+| **Datenfelder** | `name`, `official_url`, `state` (ISO 3166-2, z. B. `DE-NW`), `country` |
+| **Aktueller Stand** | Adapter für alle 16 Bundesländer angelegt (`registry/adapters/`). Saarland: Parsing des Ausbildungsstättenverzeichnisses (PDF) in Arbeit. |
+| **Akzeptanzkriterien** | Für jedes Bundesland mindestens Name + Website aller gelisteten Hochschulen; Lauf ist reproduzierbar (`python -m registry.run`). |
+
+#### A2 – Erweiterte Hochschul-Attribute
+
+| | |
+|---|---|
+| **Phase / Status** | MVP · 🟡 |
+| **Beschreibung** | Ergänzung von Attributen, abhängig davon, was die jeweilige Landesquelle bereitstellt. |
+| **Datenfelder** | `ownership` (öffentlich / privat / kirchlich), `institution_type` (Universität, HAW, Kunst-/Musikhochschule, PH, Duale Hochschule …), `recognition_status` |
+| **Regel** | Werte nur übernehmen, wenn die Quelle sie explizit nennt – sonst `unknown`. |
+
+#### A3 – Quellen-Nachverfolgung & Rohdaten-Snapshots
+
+| | |
+|---|---|
+| **Phase / Status** | MVP · ✅ |
+| **Beschreibung** | Jeder Abruf wird als Rohdatei gespeichert (`data/raw/`, `data/source_cache/`). Jeder Datensatz trägt Behörde, URL, Quelltyp (HTML/CSV/PDF) und Abrufzeitpunkt. |
+| **Datenfelder** | `source.authority`, `source.url`, `source.source_type`, `source.retrieved_at` |
+| **Nutzen** | Nachvollziehbarkeit (P2, P3), Debugging, spätere Änderungsverfolgung. |
+
+#### A4 – Deduplizierung & Vereinheitlichung
+
+| | |
+|---|---|
+| **Phase / Status** | MVP · 🟡 (Branch `Scraper-v1.2`, noch nicht in `main`) |
+| **Beschreibung** | Zusammenführen doppelter Einträge (z. B. Hochschule in mehreren Landeslisten) und Normalisierung von Schreibweisen, Typen und URLs. |
+| **Nächster Schritt** | Pull Request `Scraper-v1.2` → `main` mit Review. |
+
+#### A5 – Abgleich mit Hochschulkompass
+
+| | |
+|---|---|
+| **Phase / Status** | P2 · ⚪ |
+| **Beschreibung** | Vergleich des eigenen Registers mit dem Hochschulkompass der HRK als **Validierungsreport** (`MATCH`, `MISSING`, `CONFLICT`) – kein stilles Überschreiben. |
+
+#### A6 – Containerisierter Betrieb
+
+| | |
+|---|---|
+| **Phase / Status** | MVP · ✅ |
+| **Beschreibung** | Scraper läuft per `Dockerfile` / `docker-compose.yml` reproduzierbar auf jeder Maschine. |
+
+---
+
+### B – Standorte & Kartenansicht
+
+#### B1 – Standort-Datenmodell
+
+| | |
+|---|---|
+| **Phase / Status** | MVP · 🟡 |
+| **Verantwortlich** | Lasse (Definition des vollständigen Datensatzes) |
+| **Beschreibung** | Hochschule und Standort sind getrennte Entitäten. Eine Hochschule hat einen Hauptstandort und beliebig viele Nebenstandorte/Campus. |
+| **Datenfelder** | `locations[].name` (Bezeichnung, z. B. „Campus Garching“), `street`, `postal_code`, `city`, `location_type` (`main` / `branch`), *geplant:* Geokoordinaten (`lat`, `lon`) |
+| **Aktueller Stand** | Adressfelder und `location_type` im normalisierten Schema vorhanden; Bezeichnungen und Nebenstandorte nur teilweise befüllt. |
+
+#### B2 – Zuordnung Fakultät ↔ Standort
+
+| | |
+|---|---|
+| **Phase / Status** | P2 · ⚪ |
+| **Beschreibung** | Welche Fakultäten/Fachbereiche sitzen an welchem Standort. |
+
+#### B3 – Zuordnung Studiengang ↔ Standort/Gebäude
+
+| | |
+|---|---|
+| **Phase / Status** | P2 · ⚪ |
+| **Beschreibung** | Mapping, an welchem Standort bzw. in welchem Gebäude ein Studiengang stattfindet. Grundlage für Kartenansicht, Wege- und Wohnortplanung. |
+| **Abhängigkeiten** | B1, C1 |
+
+#### B4 – Kartenansicht Hochschulstandorte
+
+| | |
+|---|---|
+| **Phase / Status** | P2 · ⚪ |
+| **Beschreibung** | Interaktive Karte aller Hochschulstandorte mit Filter (Bundesland, Typ, Trägerschaft, Studiengang). Klick auf Standort öffnet Hochschul- bzw. Studiengangs-Steckbrief. |
+| **Abhängigkeiten** | B1 inkl. Geokoordinaten (Geocoding der Adressen) |
+
+#### B5 – Studentenwohnheime auf der Karte
+
+| | |
+|---|---|
+| **Phase / Status** | P3 · ⚪ |
+| **Beschreibung** | Staatliche Studentenwohnheime (Studierendenwerke) als eigene Kartenebene, damit Studierende Wege und Wohnort rund um das Studium planen können. Optional: Mietpreise als Input für E2. |
+
+#### B6 – Weitere Orte auf der Karte
+
+| | |
+|---|---|
+| **Phase / Status** | V · ⚪ |
+| **Beschreibung** | Zusätzliche Ebenen wie Mensen, Bibliotheken oder andere studienrelevante Orte. |
+
+---
+
+### C – Studiengänge
+
+#### C1 – Studiengangs-Steckbrief
+
+| | |
+|---|---|
+| **Phase / Status** | MVP · ⚪ |
+| **Beschreibung** | Kerninformationen je Studiengang (Bachelor und Master). |
+| **Datenfelder** | Name, Abschluss (B.Sc., M.A., …), Regelstudienzeit, ECTS gesamt, Unterrichtssprache(n), Hochschule, Standort(e), Studienbeginn (WS/SS), Link zur Studiengangsseite |
+
+#### C2 – Semesterplan & Module
+
+| | |
+|---|---|
+| **Phase / Status** | P2 · ⚪ |
+| **Beschreibung** | Darstellung des Studienverlaufs pro Semester mit Pflicht- und Wahlmodulen sowie ECTS je Modul. |
+
+#### C3 – Modulbeschreibungen
+
+| | |
+|---|---|
+| **Phase / Status** | P2 · ⚪ |
+| **Beschreibung** | Inhalte und Anforderungen einzelner Module (aus Modulhandbüchern), damit Interessierte Inhalte und Schwierigkeit besser einschätzen können. Grundlage für die Innovationsmetrik (F3). |
+
+#### C4 – Studienformat
+
+| | |
+|---|---|
+| **Phase / Status** | P2 · ⚪ |
+| **Beschreibung** | Vollzeit, Teilzeit, dual, berufsbegleitend. Bei Teilzeit: Veranstaltungen **unter der Woche, am Wochenende oder in Blöcken** – wichtig für die Abstimmung mit Arbeitgebern. |
+
+#### C5 – Kohorten-Kennzahlen
+
+| | |
+|---|---|
+| **Phase / Status** | P3 · ⚪ |
+| **Beschreibung** | Altersdurchschnitt, Klassen-/Kohortengröße, Geschlechterverteilung, Anteil internationaler Studierender. |
+
+#### C6 – Programmiersprachen & Tools
+
+| | |
+|---|---|
+| **Phase / Status** | P3 · ⚪ |
+| **Beschreibung** | Welche Programmiersprachen und Tools im Studiengang gelehrt bzw. genutzt werden (z. B. Python, R, SQL, MATLAB). |
+
+---
+
+### D – Bewerbung & Zulassung
+
+#### D1 – Bewerbungszeiträume
+
+| | |
+|---|---|
+| **Phase / Status** | MVP · ⚪ |
+| **Beschreibung** | Bewerbungsfristen als klar erkennbare Zeitfenster (Start, Ende, ggf. mehrere Runden), getrennt nach Semester sowie nach deutschen/internationalen Bewerbenden. |
+| **Erweiterung** | Erinnerungsfunktion / Kalender-Export (P2). |
+
+#### D2 – Early-Bird-Fristen & Rabatte
+
+| | |
+|---|---|
+| **Phase / Status** | P2 · ⚪ |
+| **Beschreibung** | Bei kostenpflichtigen Studiengängen: Early-Bird-Deadlines und die damit verbundenen Rabatte. |
+
+#### D3 – Checkliste Unterlagen
+
+| | |
+|---|---|
+| **Phase / Status** | P2 · ⚪ |
+| **Beschreibung** | Übersicht der benötigten Unterlagen, z. B. Lebenslauf, Transcript of Records, Empfehlungsschreiben, Motivationsschreiben, Sprachnachweise, GMAT/GRE. |
+
+#### D4 – Zulassungsvoraussetzungen
+
+| | |
+|---|---|
+| **Phase / Status** | MVP · ⚪ |
+| **Beschreibung** | Strukturierte Erfassung: erforderlicher Abschluss, Mindest-ECTS, ECTS in bestimmten Fachgebieten, Pflichtfächer, Notengrenzen/NC, Sprachniveau. |
+
+#### D5 – Bachelor-Master-Zulassungsvergleich ⭐ Kernfeature
+
+| | |
+|---|---|
+| **Phase / Status** | MVP/P2 · ⚪ |
+| **Beschreibung** | Nutzer gibt seinen Bachelor (bzw. Module/ECTS) an und sieht, für welche Master er die Zulassungsvoraussetzungen erfüllt, teilweise erfüllt (inkl. fehlender ECTS/Fächer) oder nicht erfüllt. |
+| **Abhängigkeiten** | C1, C2, D4 |
+| **Hinweis** | Von Karm als besonders wichtig eingestuft. Laut Lasse aber erst nach einem funktionsfähigen Grundprodukt im Detail ausarbeiten. |
+
+---
+
+### E – Kosten & Lebenshaltung
+
+#### E1 – Studiengebühren
+
+| | |
+|---|---|
+| **Phase / Status** | P2 · ⚪ |
+| **Beschreibung** | Semesterbeitrag, Studiengebühren pro Semester bzw. Gesamtkosten des Programms. |
+
+#### E2 – Kontextbezogene Kostenprognose
+
+| | |
+|---|---|
+| **Phase / Status** | P3 · ⚪ |
+| **Beschreibung** | Schätzung der Gesamtkosten des Studiums: Gebühren + monatliche Lebenshaltung (Miete, Essen) am Studienort, optional Wohnheimkosten (B5). |
+| **Darstellung** | Als Spanne mit Annahmen, nicht als exakter Wert. |
+
+---
+
+### F – Rankings
+
+**Grundsatz:** eigene, transparente, datenbasierte Rankings statt unveränderter Übernahme bestehender Rankings. Einzelrankings sind individuell einsehbar und werden zu einem Gesamtranking kumuliert. Ausreißer einzelner Metriken schwächen sich über mehrere Dimensionen ab.
+
+**Orientierung an etablierten Rankings** (z. B. Financial Times): Umfragen, Reputation, Forschungsleistung sowie statistische Kennzahlen wie Betreuungsverhältnis, finanzielle Ausstattung, Anteil internationaler Studierender und Zitationsmaße.
+
+#### F1 – Ranking-Framework & offene Methodik
+
+| | |
+|---|---|
+| **Phase / Status** | P2 · ⚪ |
+| **Verantwortlich** | Karm, Lasse |
+| **Beschreibung** | Technisches und methodisches Gerüst: Dimensionen, Metriken, Normalisierung, Gewichtung, Aggregation. Öffentliche Methodik-Seite je Ranking. |
+| **Anforderungen** | Jeder Faktor dokumentiert · Datenquelle und Stand angegeben · Gewichtung sichtbar (optional vom Nutzer anpassbar) · Versionierung der Methodik |
+
+#### F2 – Einkommen & Karrierechancen
+
+| | |
+|---|---|
+| **Phase / Status** | P2 · ⚪ |
+| **Beschreibung** | Baseline-Ranking auf Basis von Absolventen-Daten: Median-/Durchschnittsgehälter, Arbeitgeber ehemaliger Studierender, Platzierung bei Top-Unternehmen, möglichst je Studiengang. |
+| **Mögliche Quelle** | LinkedIn (Jobs/Profile), weitere zu prüfen |
+| **Pflicht-Hinweis** | Hohe Einkommenswerte ≠ „beste Hochschule“. Gehälter werden durch Berufserfahrung, vorherige Ausbildung und Jobwechsel verzerrt (P5). |
+
+#### F3 – Innovation & Zukunftssicherheit
+
+| | |
+|---|---|
+| **Phase / Status** | P3 · ⚪ |
+| **Beschreibung** | Wie stark decken Studiengänge aktuelle gesellschaftliche und wirtschaftliche Themen ab und wie zukunftssicher sind die daraus folgenden Berufsperspektiven? |
+| **Metriken (Ideen)** | Abdeckung von Themen wie Digitalisierung, KI, Quantencomputing, Globalisierung/Handel in Modulen (C3) · digitale Kompetenzen · englischsprachige Anteile/Internationalität |
+| **Beispiel** | Ein rein deutschsprachiger BWL-Studiengang ohne digitale oder englische Bezüge schneidet in einer globalen Wirtschaft schlechter ab. |
+| **Später** | Fachinterviews mit Führungskräften/Unternehmen zu gesuchten Skills. |
+
+#### F4 – Praxis- vs. Forschungsorientierung
+
+| | |
+|---|---|
+| **Phase / Status** | P3 · ⚪ |
+| **Beschreibung** | Einordnung auf einer Skala zwischen starkem Praxisbezug (Praxissemester, Projekte mit Unternehmen, Dozierende aus der Praxis) und ausgeprägtem Forschungsauftrag. Eher Profil als Rangfolge. |
+
+#### F5 – Wissenschaftliche Qualität
+
+| | |
+|---|---|
+| **Phase / Status** | P3 · ⚪ |
+| **Metriken (Ideen)** | Anzahl Publikationen der Hochschule und ihrer Professor:innen, Zitationsmaße, Drittmittel. Abhängig von verlässlichen Quellen. |
+
+#### F6 – Industriebezug
+
+| | |
+|---|---|
+| **Phase / Status** | P3 · ⚪ |
+| **Beschreibung** | Welche Branchen eine Hochschule besonders stark bedient (z. B. Automobilindustrie), etwa über Absolventen-Arbeitgeber, Kooperationen, Stiftungsprofessuren. |
+
+#### F7 – Entrepreneurship
+
+| | |
+|---|---|
+| **Phase / Status** | P3 · ⚪ |
+| **Metriken (Ideen)** | Ausgründungen, Gründungszentren/Inkubatoren, Gründungen durch Absolvent:innen, Entrepreneurship-Module. |
+
+#### F8 – Fachspezifische Rankings
+
+| | |
+|---|---|
+| **Phase / Status** | P3 · ⚪ |
+| **Beschreibung** | Rankings pro Fachrichtung, z. B. BWL. |
+
+#### F9 – Facility-Ranking
+
+| | |
+|---|---|
+| **Phase / Status** | P3 · ⚪ |
+| **Beschreibung** | Qualität und Ausstattung der Einrichtungen (Bibliotheken, Labore, Lernräume, Sport, Mensa). Bei mehreren Standorten pro Standort bewertet. |
+
+#### F10 – Standort-Rankings
+
+| | |
+|---|---|
+| **Phase / Status** | P3 · ⚪ |
+| **Beschreibung** | Standorte einer Hochschule einzeln bewerten und bei Bedarf kumulieren, damit Unterschiede zwischen Campus sichtbar werden. |
+
+#### F11 – Gesamtranking
+
+| | |
+|---|---|
+| **Phase / Status** | P3 · ⚪ |
+| **Beschreibung** | Gewichtete Kumulation der Einzelrankings F2–F10. Gewichtung transparent, optional durch Nutzer individualisierbar („Was ist mir wichtig?“). |
+
+---
+
+### G – Karriere & Outcomes
+
+#### G1 – Karrierepfade & Absolventen-Positionierung
+
+| | |
+|---|---|
+| **Phase / Status** | P3 · ⚪ |
+| **Beschreibung** | Typische Karrierepfade nach einem Studiengang, z. B. Consulting, Finance, Investment Banking, Industrie, und wo Absolvent:innen landen. |
+
+#### G2 – Gehalts-KPIs mit Kontext
+
+| | |
+|---|---|
+| **Phase / Status** | P3 · ⚪ |
+| **Beschreibung** | Durchschnitts-/Mediangehälter je Studiengang bzw. Karrierepfad, immer mit Einordnung (Berufserfahrung, Branche, Region, Stichprobengröße). Keine Suggestion eines garantierten Weges (P4, P5). |
+
+#### G3 – ROI-Einschätzung Master
+
+| | |
+|---|---|
+| **Phase / Status** | P3 · ⚪ |
+| **Beschreibung** | Hilft ein bestimmter Master beruflich weiter? Kosten (E1/E2) im Verhältnis zu Karriere- und Gehaltseffekten (G1/G2). |
+
+#### G4 – Praktika-Analyse & Einstiegspfade
+
+| | |
+|---|---|
+| **Phase / Status** | P3 · ⚪ |
+| **Beschreibung** | Auswertung öffentlich verfügbarer Profile von Mitarbeitenden z. B. bei BCG, McKinsey, Bain: durchschnittliche Anzahl Praktika und typische Einstiegspfade. |
+| **Botschaft** | Karrierewege entstehen schrittweise – nicht jedes erste Praktikum muss bei einem Top-Arbeitgeber stattfinden. |
+| **Hinweis** | Rechtliche Prüfung (Datenschutz, Nutzungsbedingungen der Plattformen) erforderlich. |
+
+#### G5 – Probabilistische Profil-Orientierung
+
+| | |
+|---|---|
+| **Phase / Status** | V · ⚪ |
+| **Beschreibung** | Einordnung, welche Profile typischerweise bessere Chancen für bestimmte Ziele haben – unter Berücksichtigung von relevanten Praktika, Ehrenamt, besonderen Fachkenntnissen, Leistungen und Gründungserfahrung. Ausdrücklich ohne Zusage, alternative Wege bleiben sichtbar (P4, P6). |
+
+---
+
+### H – Studentische Bewertungen & Verifikation
+
+#### H1 – Verifikation über Hochschul-Mailadresse
+
+| | |
+|---|---|
+| **Phase / Status** | P3 · ⚪ |
+| **Verantwortlich** | Karm (Konzept) |
+| **Beschreibung** | Bewertungen nur nach Registrierung mit einer Hochschul-Mailadresse (Domain-Abgleich mit `official_url` aus A1 + Bestätigungslink). Schützt vor externen oder unbelegten Abwertungen. |
+| **Offene Punkte** | Umgang mit Alumni (Mailadresse läuft ab), Mehrfach-Accounts, Domains von Tochter-/Partnereinrichtungen, Datenschutz (DSGVO). |
+
+#### H2 – Studentische Bewertungen
+
+| | |
+|---|---|
+| **Phase / Status** | P3 · ⚪ |
+| **Beschreibung** | Verifizierte Studierende bewerten Aspekte des Hochschulalltags (z. B. Lehre, Betreuung, Organisation, Ausstattung, Campusleben). Ergebnis ist ein **internes Ranking durch Studierende**, klar getrennt vom plattformseitigen, datenbasierten Ranking (F). |
+
+---
+
+### I – Wissens- & Unterstützungsangebot
+
+Gebündelte Antworten auf Grundsatzfragen, besonders zu Beginn eines Bachelor- oder Masterstudiums.
+
+| ID | Feature | Phase | Inhalte |
+|---|---|---|---|
+| I1 | Bewerbungs-Grundlagen | P3 | Lebenslauf, Anschreiben, Bewerbungsgespräche |
+| I2 | Studium-Grundlagen | P3 | Lernmethoden, Prüfungsphasen, administrative Abläufe (Einschreibung, Rückmeldung, Prüfungsanmeldung) |
+| I3 | Studienplanung | P3 | Wie funktionieren Double Degrees? Wie holt man mehr aus dem Studium heraus? Wann Praktika einplanen? Feste Praktikafenster früh verstehen, damit Bewerbungen rechtzeitig erfolgen. |
+
+---
+
+### J – Bewerbungstraining & Premium-Services
+
+Mögliches Monetarisierungsfeld: kostenpflichtige bzw. teilweise kostenlose Zusatzleistungen.
+
+#### J1 – KI-Sprachchatbot als Bewerbungs-Sparringspartner
+
+| | |
+|---|---|
+| **Phase / Status** | V · ⚪ |
+| **Beschreibung** | Animierter KI-Sprachchatbot, mit dem Demo-Bewerbungsgespräche geführt werden können, inkl. Feedback. |
+
+#### J2 – Case-Study- & Quant-Simulationen
+
+| | |
+|---|---|
+| **Phase / Status** | V · ⚪ |
+| **Beschreibung** | Spezielle Simulationen für Case Studies (Consulting), Mathematik und quantitative Studiengänge. |
+
+#### J3 – CV-Check-Service
+
+| | |
+|---|---|
+| **Phase / Status** | V · ⚪ |
+| **Beschreibung** | Upload des Lebenslaufs als PDF. Rückgabe mit manuellen bzw. personalisierten, handschriftähnlichen Kommentaren. |
+| **Serviceversprechen** | Rückgabe innerhalb weniger Stunden (im Meeting genannt: ca. 6–12 h). |
+
+---
+
+### K – Internationalisierung & Netzwerke
+
+#### K1 – Auslandssemester & Partnerhochschulen
+
+| | |
+|---|---|
+| **Phase / Status** | P3 · ⚪ |
+| **Beschreibung** | In welchen Semestern ein Auslandsaufenthalt möglich ist und welche Partnerhochschulen zur Verfügung stehen. Gemeinsame Übersicht über Partnerschaften, die oft über schwer überschaubare Verbände organisiert sind. |
+| **Abgrenzung** | Keine Konkurrenz zu spezialisierten Freemover-Plattformen. |
+
+#### K2 – Netzwerk-/Graph-Ansicht
+
+| | |
+|---|---|
+| **Phase / Status** | V · ⚪ |
+| **Beschreibung** | Graph- bzw. Spinnennetz-Darstellung der Verbindungen zwischen Hochschulen, Verbänden und ggf. Unternehmen. Klick auf eine Hochschule zeigt deren externe Partnerschaften und institutionelle Netzwerke. |
+
+#### K3 – Regionaler Ausbau DACH
+
+| | |
+|---|---|
+| **Phase / Status** | P3 · ⚪ |
+| **Beschreibung** | Erweiterung um Österreich und Schweiz, die vergleichsweise gut an das deutsche System anschließen. Erfordert neue Quell-Adapter (analog A1). |
+
+#### K4 – Regionaler Ausbau Europa
+
+| | |
+|---|---|
+| **Phase / Status** | V · ⚪ |
+| **Beschreibung** | Ausweitung auf Europa. Deutlich höhere Komplexität durch unterschiedliche Arbeitsmärkte, Bildungssysteme und Informationsquellen. |
+
+---
+
+### L – Studierenden-Hub (Vision)
+
+Langfristig: zentrale Plattform für mehrere Hochschulen, die auch im laufenden Studium genutzt wird.
+
+| ID | Feature | Phase | Beschreibung |
+|---|---|---|---|
+| L1 | Hochschulkonto verbinden & Stundenplan laden | V | Studierende verbinden ihre Hochschule und importieren ihren Stundenplan. |
+| L2 | Mensa-Finder & Speiseplan | V | Mensen in der Nähe finden und das aktuelle Mensaangebot einsehen. |
+
+---
+
+## 6. Roadmap
+
+```mermaid
+flowchart LR
+    MVP["<b>MVP – Working Product</b><br/>A1–A4, A6 Register<br/>B1 Standorte<br/>C1 Steckbrief<br/>D1, D4 Fristen & Zulassung<br/>D5 Zulassungsvergleich (Basis)"]
+    P2["<b>P2</b><br/>A5 Hochschulkompass-Abgleich<br/>B2–B4 Mappings & Karte<br/>C2–C4 Module & Format<br/>D2–D3, E1<br/>F1–F2 Ranking-Baseline"]
+    P3["<b>P3</b><br/>B5 Wohnheime<br/>C5–C6, E2<br/>F3–F11 Rankings<br/>G1–G4 Karriere<br/>H Bewertungen<br/>I Wissen<br/>K1, K3 DACH"]
+    V["<b>Vision</b><br/>B6, G5<br/>J Premium-Services<br/>K2, K4 Netzwerk & Europa<br/>L Studierenden-Hub"]
+    MVP --> P2 --> P3 --> V
+```
+
+**Definition „Working Product“ (Vorschlag):** Ein Nutzer kann eine deutsche Hochschule suchen, sieht deren Grunddaten und Standorte, findet die angebotenen Studiengänge mit Steckbrief, Bewerbungsfristen und Zulassungsvoraussetzungen.
+
+---
+
+## 7. Datenquellen
+
+| Quelle | Inhalt | Genutzt für | Status |
+|---|---|---|---|
+| Landesministerien / amtliche Hochschullisten (16 Bundesländer) | Hochschulen, Typ, Trägerschaft, Adressen | A1–A4, B1 | in Nutzung |
+| Ausbildungsstättenverzeichnis Saarland (PDF) | Hochschulen Saarland | A1 | in Arbeit |
+| Hochschulkompass (HRK) | Hochschulen, Studiengänge | A5, C1, D1, D4 | zu prüfen |
+| Hochschul-Websites, Modulhandbücher, Prüfungsordnungen | Studiengänge, Module, Zulassung, Fristen | C1–C4, D1–D4, F3 | zu prüfen |
+| Studierendenwerke | Wohnheime, Mensen, Semesterbeitrag | B5, E1, L2 | zu prüfen |
+| LinkedIn (Jobs/Profile) | Arbeitgeber, Karrierepfade, Gehälter | F2, F6, G1–G4 | zu prüfen (rechtlich!) |
+| Publikations-/Zitationsdatenbanken (z. B. OpenAlex) | Publikationen, Zitationen | F5 | zu prüfen |
+| Statistisches Bundesamt (Destatis) | Studierendenzahlen, Betreuungsverhältnis, Finanzen | C5, F | zu prüfen |
+| Etablierte Rankings (z. B. Financial Times) | Methodik als Orientierung | F1 | Referenz |
+
+---
+
+## 8. Offene Aufgaben aus den Meetings
+
+| Aufgabe | Verantwortlich | Bezug |
+|---|---|---|
+| Pflichtfelder der ersten Scraper-Version festlegen: Name, Website, Bundesland (sofern verfügbar) | Karm | A1 |
+| Saarland-Daten vollständig durchlesen und PDF parsen | Karm | A1 |
+| Code-Änderungen als Pull Request bereitstellen (`Scraper-v1.2` → `main`) | Karm | A4 |
+| Vollständigen Standort-Datensatz definieren (Haupt-/Nebenstandorte, Adressen, Bezeichnungen, Fakultäten, Studiengang-Mapping) | Lasse | B1–B3 |
+| Belastbare Datenquellen für Gehälter und weitere Ranking-Metriken prüfen | Karm | F2, G2, Abschnitt 7 |
+| Transparente Ranking-Formel mit getrennten Dimensionen erstellen | Karm, Lasse | F1–F11 |
+| Verifikationskonzept für Studentenbewertungen (Hochschul-Mail) | Karm | H1 |
+| Working Product auf Kernfunktionen fokussieren; Feature-Deep-Dive und Internationalisierung verschieben | Lasse, Karm | Abschnitt 6 |
+
+---
+
+## 9. Offene Fragen & Risiken
+
+| Thema | Frage / Risiko |
+|---|---|
+| **Rechtliches Scraping** | Nutzungsbedingungen von LinkedIn & Co. verbieten automatisiertes Auslesen häufig. Personenbezogene Profildaten unterliegen der DSGVO. Alternativen: offizielle APIs, Absolventenstudien, aggregierte Statistiken. |
+| **Datenaktualität** | Fristen, Gebühren und Module ändern sich jährlich – wie oft wird neu gescraped, wie werden Änderungen erkannt? |
+| **Datenvollständigkeit** | Bundesländer liefern unterschiedlich viele Attribute; Lücken müssen als `unknown` sichtbar bleiben statt geschätzt zu werden. |
+| **Ranking-Bias** | Gehalts- und Karrieredaten sind verzerrt (Selbstselektion, Stichprobengröße, Branche). Mindest-Stichprobengrößen und Konfidenzangaben festlegen. |
+| **Haftung / Erwartungsmanagement** | Klare Disclaimer, dass keine Karriere- oder Zulassungsgarantien gegeben werden (P4). |
+| **Verifikation** | Hochschul-Mails sind nicht für alle Gruppen (Alumni, Bewerbende) verfügbar – wer darf was bewerten? |
+| **Tech-Stack** | Backend, Datenbank, Frontend und Hosting für das Working Product noch nicht festgelegt. |
+| **Monetarisierung** | Abgrenzung kostenloser vs. Premium-Funktionen (J) und Vereinbarkeit mit der Neutralität der Rankings. |
