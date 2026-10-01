@@ -1,0 +1,319 @@
+{
+  "generated_at": "2026-10-01T16:19:42.282781+00:00",
+  "model": "anthropic/claude-opus-5.5",
+  "asked": 14,
+  "accepted": 10,
+  "by_reason": {
+    "rename_confirmed_by_source_redirect": 9,
+    "agent_identity_unconfirmed": 2,
+    "identity_confirmed": 1,
+    "agent_no_url": 1,
+    "agent_url_blocked": 1
+  },
+  "cost_usd": 0,
+  "records": [
+    {
+      "state": "DE-HH",
+      "name": "Technische Universität Hamburg-Harburg",
+      "previous_status": "review",
+      "agent_url": "https://www.tuhh.de",
+      "canonical_name": "Technische Universität Hamburg",
+      "lifecycle_status": "renamed",
+      "agent_confidence": 0.95,
+      "evidence": [
+        "A 2018 Hamburg state law, the 'Gesetz zur Umbenennung der Technischen Universität Hamburg-Harburg' of 29 May 2018, dropped 'Harburg' from the name. The abbreviation TUHH stays in use. (https://de.wikipedia.org/wiki/Technische_Universit%C3%A4t_Hamburg)",
+        "A TUHH press release says the Technische Universität Hamburg-Harburg is being renamed 'Technische Universität Hamburg'. (https://intranet.tuhh.de/presse/pressemitteilung_einzeln.php?Lang=en&id=11391)",
+        "The university's website is listed as www.tuhh.de. (https://en.wikipedia.org/wiki/Hamburg_University_of_Technology)",
+        "The old domain tu-harburg.de redirects to https://www.tuhh.de/tuhh/startseite (from the automatic check in the input)."
+      ],
+      "citations": [],
+      "accepted": true,
+      "reason": "rename_confirmed_by_source_redirect",
+      "official_url": "https://www.tuhh.de/tuhh/startseite",
+      "from_cache": true,
+      "usage": null
+    },
+    {
+      "state": "DE-HH",
+      "name": "Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg",
+      "previous_status": "unresolved",
+      "agent_url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa/",
+      "canonical_name": "Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg",
+      "lifecycle_status": "active",
+      "agent_confidence": 0.65,
+      "evidence": [
+        "The Hamburg Finanzbehörde hosts the NoA's own section on hamburg.de, with an 'Über uns' page. It says the NoA was founded on 1 September 2010 by merging the Hochschule für Finanzen Hamburg with the Landesfinanzschule Hamburg: https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa/ueber-uns",
+        "The contact page in the same section gives the address Hammer Steindamm 129, 20535 Hamburg, and an email at fb.hamburg.de: https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa/01-start-206610",
+        "The Hamburg science authority lists the NoA as a state Hochschule in Hamburg's higher-education landscape: https://www.hamburg.de/politik-und-verwaltung/behoerden/bwfg/unsere-themen/hochschulen-und-studium/hochschullandschaft-hamburg/norddeutsche-akademie-finanzen-steuerrecht-hamburg-196348",
+        "A site at s370403951.website-start.de uses the NoA name and the email info@noa-hamburg.de. Its page description wrongly calls it a financial adviser ('Vermögensberater'), so it is not treated as reliable: http://s370403951.website-start.de/",
+        "A 2026 building-project page still describes the NoA as active and training tax officials for Hamburg, Bremen and Mecklenburg-Vorpommern: https://bildungsbau.hamburg/projekte/hochschulbau/noa/"
+      ],
+      "citations": [],
+      "accepted": false,
+      "reason": "agent_identity_unconfirmed",
+      "official_url": null,
+      "from_cache": true,
+      "usage": null
+    },
+    {
+      "state": "DE-HH",
+      "name": "BTK Hochschule für Gestaltung, Campus Hamburg",
+      "previous_status": "review",
+      "agent_url": "https://www.ue-germany.com/de",
+      "canonical_name": "University of Europe for Applied Sciences",
+      "lifecycle_status": "merged",
+      "agent_confidence": 0.88,
+      "evidence": [
+        "In March 2017, BTK was absorbed by merger into BiTS, which was then renamed University of Applied Sciences Europe. Source: https://de.wikipedia.org/wiki/Berliner_Technische_Kunsthochschule",
+        "UE was formed in 2017 from the merger of BiTS and the Berliner Technische Kunsthochschule. It has campuses in Iserlohn, Berlin, Potsdam, Hamburg and Dubai, and its website is www.ue-germany.com. Source: https://en.wikipedia.org/wiki/University_of_Europe_for_Applied_Sciences",
+        "An old btk-fh.de page shows that BTK Art & Design in Berlin and Hamburg became part of the University of Applied Sciences Europe. Source: http://www.btk-fh.de/de/brochures/",
+        "The former BTK domain btk-fh.de now redirects to ue-germany.com/de, according to the automatic check given in the input."
+      ],
+      "citations": [],
+      "accepted": true,
+      "reason": "rename_confirmed_by_source_redirect",
+      "official_url": "https://www.ue-germany.com/de",
+      "from_cache": true,
+      "usage": null
+    },
+    {
+      "state": "DE-HH",
+      "name": "IUBH Internationale Hochschule, Campus Hamburg",
+      "previous_status": "review",
+      "agent_url": "https://www.iu.de/campus/hamburg/",
+      "canonical_name": "IU Internationale Hochschule – Campus Hamburg",
+      "lifecycle_status": "renamed",
+      "agent_confidence": 0.88,
+      "evidence": [
+        "The old IUBH dual-study domain now redirects to iu-dualesstudium.de, and that site names the location 'IU Internationale Hochschule – Campus Hamburg', Christoph-Probst-Weg 28, 20251 Hamburg (https://www.iu-dualesstudium.de/standorte/hamburg/)",
+        "The university's main website has a campus page for Hamburg with the same name and address (https://www.iu.de/campus/hamburg/)",
+        "Studis Online lists https://www.iu.de/ as the website of IU Internationale Hochschule, which has a study location in Hamburg (https://www.studis-online.de/hochschulen/iu/hamburg/)",
+        "Not confirmed by search, from background knowledge: IUBH Internationale Hochschule changed its name to IU Internationale Hochschule around 2021. The redirect from the iubh-dualesstudium.de domain to iu-dualesstudium.de supports this."
+      ],
+      "citations": [],
+      "accepted": false,
+      "reason": "agent_identity_unconfirmed",
+      "official_url": "https://www.iubh-dualesstudium.de/standorte/hamburg",
+      "from_cache": true,
+      "usage": null
+    },
+    {
+      "state": "DE-NW",
+      "name": "Fachhochschule Bielefeld",
+      "previous_status": "review",
+      "agent_url": "https://www.hsbi.de",
+      "canonical_name": "Hochschule Bielefeld – University of Applied Sciences and Arts",
+      "lifecycle_status": "renamed",
+      "agent_confidence": 0.97,
+      "evidence": [
+        "The HSBI's own press release says that on 19 April 2023 the Fachhochschule Bielefeld was renamed Hochschule Bielefeld – University of Applied Sciences and Arts (HSBI), and that it can now be found online at hsbi.de, with old addresses redirecting automatically (https://www.hsbi.de/presse/pressemitteilungen/aus-fh-wird-hsbi-die-fachhochschule-bielefeld-wird-zur-hochschule-bielefeld)",
+        "The English press release says the new URL will be hsbi.de and that requests to the old addresses will be forwarded (https://www.hsbi.de/en/press-releases/bielefeld-uas-becomes-hsbi-fachhochschule-bielefeld-turns-into-hochschule-bielefeld)",
+        "The automatic check found that fh-bielefeld.de redirects to https://www.hsbi.de, which matches the announced change of domain (input redirect_target)",
+        "An HSBI department page uses the name 'Hochschule Bielefeld University of Applied Sciences and Arts' and mentions the 2023 rename (https://www.hsbi.de/gestaltung/fachbereich)"
+      ],
+      "citations": [],
+      "accepted": true,
+      "reason": "rename_confirmed_by_source_redirect",
+      "official_url": "https://www.hsbi.de",
+      "from_cache": true,
+      "usage": null
+    },
+    {
+      "state": "DE-NW",
+      "name": "Fachhochschule der Diakonie",
+      "previous_status": "review",
+      "agent_url": "https://www.hochschule-diakonie.de",
+      "canonical_name": "Hochschule der Diakonie",
+      "lifecycle_status": "renamed",
+      "agent_confidence": 0.9,
+      "evidence": [
+        "The institution's own news page on hochschule-diakonie.de has an item saying the university has renamed itself, and lists the operator as 'Hochschule der Diakonie gem. GmbH, Bethelweg 8, 33617 Bielefeld' with the email info@hochschule-diakonie.de (https://www.hochschule-diakonie.de/.cms/fh_diakonie/aktuelles/819)",
+        "In the commercial register (Amtsgericht Bielefeld HRB 38697), the operating company's name changed from 'Fachhochschule der Diakonie gemeinnützige GmbH' to 'Hochschule der Diakonie gGmbH', published on 21.07.2026 (https://www.northdata.de/Fachhochschule%20der%20Diakonie%20gemeinn%C3%BCtzige%20GmbH,%20Bielefeld/HRB%2038697)",
+        "The institution's older website, fh-diakonie.de, still described it as the 'Fachhochschule der Diakonie', founded in 2006 in Bielefeld (https://www.fh-diakonie.de/.cms/fh_diakonie/ueber_uns/823)",
+        "The automatic check found that the source URL fhdd.de redirects to hochschule-diakonie.de (input hint)"
+      ],
+      "citations": [],
+      "accepted": true,
+      "reason": "rename_confirmed_by_source_redirect",
+      "official_url": "https://www.hochschule-diakonie.de",
+      "from_cache": true,
+      "usage": null
+    },
+    {
+      "state": "DE-NW",
+      "name": "Europäische Fachhochschule Rhein/Erft",
+      "previous_status": "review",
+      "agent_url": "https://www.cbs.de",
+      "canonical_name": "CBS University of Applied Sciences",
+      "lifecycle_status": "merged",
+      "agent_confidence": 0.88,
+      "evidence": [
+        "CBS took over EU|FH's entire Management and Technology division, including its Brühl main site, at the start of 2022 – https://www.cbs.de/blog/cbs-uebernimmt-die-eufh-standorte",
+        "CBS International Business School and EU|FH merged to form CBS University of Applied Sciences, with sites in Köln, Aachen, Neuss, Rheine and other cities – https://www.cbs.de/blog/cbs-eufh-werden-cbs-university-of-applied-sciences",
+        "Wikipedia says EU|FH was fully merged into CBS University of Applied Sciences in April 2025 and no longer exists as a separate Hochschule. It lists eufh.de as its former website. – https://de.wikipedia.org/wiki/Europ%C3%A4ische_Fachhochschule",
+        "The EU|FH brand is not being continued after the merger – https://pablog.de/bachelorstudium/pa-hochschulen/fusion-im-bildungssektor-cbs-uebernimmt-eufh/",
+        "The automatic check found that eufh.de redirects to cbs.de, which matches the merger"
+      ],
+      "citations": [],
+      "accepted": true,
+      "reason": "rename_confirmed_by_source_redirect",
+      "official_url": "https://www.cbs.de",
+      "from_cache": true,
+      "usage": null
+    },
+    {
+      "state": "DE-NW",
+      "name": "SRH Hochschule in Nordrhein-Westfalen",
+      "previous_status": "review",
+      "agent_url": "https://www.srh-university.de/de/",
+      "canonical_name": "SRH University of Applied Sciences Heidelberg",
+      "lifecycle_status": "merged",
+      "agent_confidence": 0.88,
+      "evidence": [
+        "The SRH University of Applied Sciences Heidelberg (SRH University) was formed on 1 October 2024 by merging five SRH universities, including SRH Hochschule in Nordrhein-Westfalen in Hamm (https://de.wikipedia.org/wiki/SRH_University_of_Applied_Sciences_Heidelberg)",
+        "Studis Online says SRH University resulted from the merger of the SRH on-campus universities on 1.10.2024, including the former SRH Hochschule NRW (https://www.studis-online.de/hochschulen/srh-heidelberg/duesseldorf/)",
+        "The former Hamm, Leverkusen and Münster sites continue as campuses of SRH University. Wikipedia gives the integration date as 1 July 2024, which does not match the 1 October 2024 merger date given elsewhere (https://de.wikipedia.org/wiki/SRH_Hochschule_in_Nordrhein-Westfalen)",
+        "The official SRH University website has a page for SRH Campus Hamm (https://www.srh-university.de/en/our-campuses/hamm/)",
+        "The old domain fh-hamm.de redirects to https://www.srh-university.de/de (input redirect_target)"
+      ],
+      "citations": [],
+      "accepted": true,
+      "reason": "rename_confirmed_by_source_redirect",
+      "official_url": "https://www.srh-university.de/de",
+      "from_cache": true,
+      "usage": null
+    },
+    {
+      "state": "DE-NW",
+      "name": "Philosophisch-Theologische Hochschule Münster",
+      "previous_status": "review",
+      "agent_url": "https://www.cts-hochschule.de",
+      "canonical_name": "CTS Hochschule Münster",
+      "lifecycle_status": "renamed",
+      "agent_confidence": 0.92,
+      "evidence": [
+        "The official site calls itself 'CTS Hochschule Münster (vormals PTH Münster)' and announces a new operator and a new name, with the rename to 'CTS Hochschule Münster'. https://www.cts-hochschule.de/",
+        "The contact page gives the postal address as CTS Hochschule Münster, Kapuzinerstr. 27, 48149 Münster. https://www.cts-hochschule.de/kontakt-aufnehmen/",
+        "On 1 January 2026, the Trägerverein Campus für Theologie und Spiritualität Berlin e.V. took over operation of PTH Münster from the Deutsche Kapuzinerprovinz, and a rename to 'CTS Hochschule Münster' was planned. https://www.cts-berlin.org/programm/strategische-neuausrichtung-cts-berlin-uebernimmt-traegerschaft-der-pth-muenster/",
+        "The Capuchin province also reported the change of operator and the planned rename to 'CTS Hochschule Münster'. https://www.kapuziner.org/neuausrichtung-cts-berlin-uebernimmt-traegerschaft-der-pth-muenster/",
+        "Wikipedia says the school was called Philosophisch-Theologische Hochschule until April 2026 and lists www.cts-hochschule.de as its website. https://de.wikipedia.org/wiki/Philosophisch-Theologische_Hochschule_der_Franziskaner_und_Kapuziner_M%C3%BCnster",
+        "The old domain pth-muenster.de redirects to cts-hochschule.de. This comes from the input hint, which matches what the official site says."
+      ],
+      "citations": [],
+      "accepted": true,
+      "reason": "rename_confirmed_by_source_redirect",
+      "official_url": "https://www.cts-hochschule.de",
+      "from_cache": true,
+      "usage": null
+    },
+    {
+      "state": "DE-NW",
+      "name": "Fachhochschule für Rechtspflege in NRW",
+      "previous_status": "review",
+      "agent_url": "https://www.hsjustiz.nrw.de",
+      "canonical_name": "Hochschule der Justiz Nordrhein-Westfalen",
+      "lifecycle_status": "renamed",
+      "agent_confidence": 0.96,
+      "evidence": [
+        "The NRW Ministry of Justice says the Fachhochschule für Rechtspflege (FHR) NRW took the name Hochschule der Justiz Nordrhein-Westfalen on 3 October 2025 (https://www.justiz.nrw/presse/2025-10-02).",
+        "The press page on hsjustiz.nrw.de says the Hochschule der Justiz NRW grew out of the former Fachhochschule für Rechtspflege NRW and has used its new name since 3 October 2025 (https://www.hsjustiz.nrw.de/behoerde/presse/index.php).",
+        "The welcome page on hsjustiz.nrw.de calls the site the online presence of the Hochschule der Justiz (HSJustiz) NRW, with study locations in Bad Münstereifel and Essen (https://www.hsjustiz.nrw.de/behoerde/behoerdenvorstellung/index.php).",
+        "The old domain fhr.nrw.de now shows the Hochschule der Justiz NRW homepage, which fits the automatic check's finding that it redirects to hsjustiz.nrw.de (https://www.fhr.nrw.de/?print=1).",
+        "A June 2026 ministry release on the 50th anniversary still refers to the institution as HSJustiz NRW in Bad Münstereifel, so it is still operating (https://www.justiz.nrw/mitteilung/2026-06-26)."
+      ],
+      "citations": [],
+      "accepted": true,
+      "reason": "rename_confirmed_by_source_redirect",
+      "official_url": "https://www.hsjustiz.nrw.de",
+      "from_cache": true,
+      "usage": null
+    },
+    {
+      "state": "DE-NW",
+      "name": "Fachhochschule für Finanzen",
+      "previous_status": "review",
+      "agent_url": "https://www.finanzverwaltung.nrw.de/dienststellen/hochschule-fuer-finanzen-nrw",
+      "canonical_name": "Hochschule für Finanzen Nordrhein-Westfalen",
+      "lifecycle_status": "renamed",
+      "agent_confidence": 0.82,
+      "evidence": [
+        "The institution started as the Fachhochschule für Finanzen (FHF) in 1976. The Fachhochschulgesetz öffentlicher Dienst renamed it Hochschule für Finanzen (HSF) on 14 December 2019 (https://de.wikipedia.org/wiki/Hochschule_f%C3%BCr_Finanzen_Nordrhein-Westfalen, used only as a source for the rename)",
+        "Studis Online confirms the rename took effect in December 2019. It gives the earlier name as Fachhochschule für Finanzen Nordrhein Westfalen (FHF NRW) (https://www.studis-online.de/hochschulen/fhf-nrw/)",
+        "The NRW finance administration runs the HSF website as a section of its own site. That section's subpages describe the HSF's three locations: Nordkirchen, Herford and Hamminkeln (https://www.finanzverwaltung.nrw.de/dienststellen/hochschule-fur-finanzen-nrw/aussenstandorte-der-hsf)",
+        "Karriere.NRW lists the Hochschule für Finanzen Nordrhein-Westfalen at Schloss, 59394 Nordkirchen and names https://www.finanzverwaltung.nrw.de as its website (https://karriere.nrw/dienststelle/a84cb580-61e1-44a1-bc16-7dc672cf3c91)",
+        "The old domain fhf-nordkirchen.de redirects to the HSF section on finanzverwaltung.nrw.de, according to the automatic check that was provided as input. The exact form of the URL path is not fully confirmed: the input redirect uses 'fuer', but a subpage found in search uses 'fur'"
+      ],
+      "citations": [],
+      "accepted": true,
+      "reason": "rename_confirmed_by_source_redirect",
+      "official_url": "https://www.finanzverwaltung.nrw.de/dienststellen/hochschule-fuer-finanzen-nrw",
+      "from_cache": true,
+      "usage": null
+    },
+    {
+      "state": "DE-RP",
+      "name": "Hochschule für Finanzen Rheinland-Pfalz",
+      "previous_status": "review",
+      "agent_url": "https://landesfinanzschule-edenkoben.rlp.de/",
+      "canonical_name": "Hochschule für Finanzen Rheinland-Pfalz",
+      "lifecycle_status": "active",
+      "agent_confidence": 0.88,
+      "evidence": [
+        "The current site at landesfinanzschule-edenkoben.rlp.de is titled 'Hochschule für Finanzen Rheinland-Pfalz . Landesfinanzschule Edenkoben'. It gives the address Luitpoldstr. 33, 67480 Edenkoben, a notice about the teaching-free period from 06.07. to 31.07.2026, and the contact email Poststelle(at)hochschule.fin-rlp.de (https://landesfinanzschule-edenkoben.rlp.de/)",
+        "The old source URL on landesfinanzschule-edenkoben.fin-rlp.de showed the same institution with the same address and email, but its newest content dates from 2023. This suggests the site has moved from fin-rlp.de to rlp.de (https://landesfinanzschule-edenkoben.fin-rlp.de/startseite)",
+        "The ministry page names the joint institution 'Hochschule für Finanzen und Landesfinanzschule Rheinland-Pfalz' in Edenkoben and confirms it has run since 1981. It also lists an older web address, www.hochschule-finanzen-rlp.de (https://fm.rlp.de/ministerium/karriere/hochschule-fuer-finanzen)",
+        "Third-party directories also list landesfinanzschule-edenkoben.rlp.de as the website (https://studieren.de/hs-fuer-finanzen-rheinlandpfalz.hochschule.t-0.a-132.html)",
+        "The institution was still operating in September 2025, when it celebrated its 75th anniversary in Edenkoben (https://www.pfalz-express.de/edenkoben-75-jahre-hochschule-fuer-finanzen-und-landesfinanzschule-rheinland-pfalz/)"
+      ],
+      "citations": [],
+      "accepted": true,
+      "reason": "identity_confirmed",
+      "official_url": "https://landesfinanzschule-edenkoben.rlp.de",
+      "from_cache": true,
+      "usage": null
+    },
+    {
+      "state": "DE-SL",
+      "name": "Berufsakademie für Gesundheits- und Sozialwesen Saarland gGmbH (BAGSS)",
+      "previous_status": "unresolved",
+      "agent_url": null,
+      "canonical_name": "Berufsakademie für Gesundheits- und Sozialwesen Saarland gemeinnützige GmbH (BAGSS)",
+      "lifecycle_status": "closed",
+      "agent_confidence": 0.8,
+      "evidence": [
+        "The company register lists the operator as Berufsakademie für Gesundheits- und Sozialwesen Saarland gemeinnützige GmbH (BAGSS), HRB 100672, Saarbrücken, with the website www.bagss.de. Source: https://www.unternehmen24.info/Firmeninformationen/Deutschland/Firma/3808500",
+        "North Data marks the entity as dissolved (✝) and shows a liquidation filing with liquidators dated 23 Aug 2023. Source: https://www.northdata.com/Berufsakademie+f%C3%BCr+Gesundheits-+und+Sozialwesen+Saarland+gemeinn%C3%BCtzige+GmbH+(BAGSS),+Saarbr%C3%BCcken/HRB+100672",
+        "Earlier degree programmes were handed over to the FOM Hochschule. Only 'Berufspädagogik im Gesundheitswesen' remained. Source: https://www.soziales-studieren.de/hochschulen/berufsakademie-fuer-gesundheits-und-sozialwesen-saarland/",
+        "The former domain bagss.de now redirects to https://www.shg-kliniken.de/bildung, a page run by the shareholder Saarland-Heilstätten (SHG), not to an active BAGSS website. Source: input candidate_domains / https://www.shg-kliniken.de/bildung"
+      ],
+      "citations": [],
+      "accepted": false,
+      "reason": "agent_no_url",
+      "official_url": null,
+      "from_cache": true,
+      "usage": null
+    },
+    {
+      "state": "DE-TH",
+      "name": "Thüringer Fachhochschule für öffentliche Verwaltung Gotha",
+      "previous_status": "unresolved",
+      "agent_url": "https://bildungszentrum.thueringen.de/thueringer-fachhochschule-fuer-oeffentliche-verwaltung",
+      "canonical_name": "Thüringer Fachhochschule für öffentliche Verwaltung",
+      "lifecycle_status": "active",
+      "agent_confidence": 0.72,
+      "evidence": [
+        "Wikipedia (used only as a hint) describes the Thüringer VFHS as an internal state institution based in Gotha, founded in April 1994, and gives its website as bildungszentrum.thueringen.de: https://de.wikipedia.org/wiki/Th%C3%BCringer_Fachhochschule_f%C3%BCr_%C3%B6ffentliche_Verwaltung",
+        "The state of Thuringia's official careers portal still uses the name Thüringer Fachhochschule für öffentliche Verwaltung. It links the Gotha departments (KSAV and Steuern) to https://bildungszentrum.thueringen.de and the police department to polizei.thueringen.de: https://karriere.thueringen.de/unsere-geschaeftsbereiche/thueringer-ministerium-fuer-inneres-kommunales-und-landesentwicklung/thueringer-fachhochschule-fuer-oeffentliche-verwaltung",
+        "A third-party site names the subpage https://bildungszentrum.thueringen.de/thueringer-fachhochschule-fuer-oeffentliche-verwaltung on the Bildungszentrum der Thüringer Landesverwaltung site (Bahnhofstraße 12, Gotha) as the contact page. The subpage itself was not checked directly: https://eisenach.life/de/hochschulen/thueringer-fachhochschule-fuer-oeffentliche-verwaltung",
+        "Old domains in directories (vfhs-thueringen.de and thueringen.de/th3/vfhs/) look out of date. No sign of a rename, merger or closure was found: https://hochschulen-liste.de/hochschule/thueringer-fachhochschule-fuer-oeffentliche-verwaltung-gotha/",
+        "Note: the institution has no standalone domain. Its web presence is part of the Bildungszentrum der Thüringer Landesverwaltung site, which lowers confidence in the exact URL."
+      ],
+      "citations": [],
+      "accepted": false,
+      "reason": "agent_url_blocked",
+      "official_url": null,
+      "from_cache": true,
+      "usage": null
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "generated_at": "2026-10-01T16:20:00.630712+00:00",
+  "model": "openai/gpt-4o-mini",
+  "asked": 6,
+  "accepted": 1,
+  "by_reason": {
+    "agent_identity_unconfirmed": 3,
+    "rename_confirmed_by_source_redirect": 1,
+    "agent_no_url": 1,
+    "agent_url_blocked": 1
+  },
+  "cost_usd": 0.0449,
+  "records": [
+    {
+      "state": "DE-HH",
+      "name": "Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg",
+      "previous_status": "review",
+      "agent_url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa",
+      "canonical_name": "Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg",
+      "lifecycle_status": "active",
+      "agent_confidence": 0.8,
+      "evidence": [
+        "The Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg is described as a public institution under the supervision of the Hamburg financial authority. Source: [hamburg.de](https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa)",
+        "The academy was established in 2010 and is responsible for training civil servants in finance. Source: [hamburg.de](https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa/ueber-uns)"
+      ],
+      "citations": [
+        "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa",
+        "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa/ueber-uns",
+        "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa/aufbau-und-struktur-der-noa-206614",
+        "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa/fachhochschulstudium",
+        "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa/noa-rechtliche-grundlagen-206608"
+      ],
+      "accepted": false,
+      "reason": "agent_identity_unconfirmed",
+      "official_url": null,
+      "from_cache": false,
+      "usage": {
+        "prompt_tokens": 2788,
+        "completion_tokens": 243,
+        "total_tokens": 3031,
+        "cost": 0.007564,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000564,
+          "upstream_inference_prompt_cost": 0.0004182,
+          "upstream_inference_completions_cost": 0.0001458
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "state": "DE-HH",
+      "name": "IUBH Internationale Hochschule, Campus Hamburg",
+      "previous_status": "review",
+      "agent_url": "https://www.iu-dualesstudium.de/standorte/hamburg",
+      "canonical_name": "IU Internationale Hochschule",
+      "lifecycle_status": "renamed",
+      "agent_confidence": 0.9,
+      "evidence": [
+        "The institution is referred to as IU Internationale Hochschule in the source: [iu-dualesstudium.de](https://www.iu-dualesstudium.de/standorte/hamburg)",
+        "The previous name was IUBH Internationale Hochschule, as indicated in multiple sources: [duales-studium.de](https://www.duales-studium.de/news/neuer-iubh-campus-in-hamburg), [prmaximus.de](https://www.prmaximus.de/131494)"
+      ],
+      "citations": [
+        "https://www.iu-dualesstudium.de/standorte/hamburg/",
+        "https://www.duales-studium.de/news/neuer-iubh-campus-in-hamburg",
+        "https://www.prmaximus.de/131494",
+        "https://www.hamburgportal.de/jobs-und-bildung/studium/iubh-duales-studium/",
+        "https://www.wiwi-online.de/download/pudowns/info.pdf"
+      ],
+      "accepted": true,
+      "reason": "rename_confirmed_by_source_redirect",
+      "official_url": "https://www.iu-dualesstudium.de/standorte/hamburg",
+      "from_cache": false,
+      "usage": {
+        "prompt_tokens": 3026,
+        "completion_tokens": 146,
+        "total_tokens": 3172,
+        "cost": 0.0075415,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0005415,
+          "upstream_inference_prompt_cost": 0.0004539,
+          "upstream_inference_completions_cost": 8.76e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "state": "DE-HE",
+      "name": "Studienzentrum der Finanzverwaltung und Justiz in Rotenburg an der Fulda",
+      "previous_status": "review",
+      "agent_url": "https://studienzentrum-rotenburg.hessen.de/",
+      "canonical_name": "Studienzentrum der Finanzverwaltung und Justiz",
+      "lifecycle_status": "active",
+      "agent_confidence": 0.9,
+      "evidence": [
+        "The official website of the institution is found at [studienzentrum-rotenburg.hessen.de](https://studienzentrum-rotenburg.hessen.de/).",
+        "The institution is described as a central training facility in Hesse, which aligns with its official name and purpose as stated on its website."
+      ],
+      "citations": [
+        "https://studienzentrum-rotenburg.hessen.de/",
+        "https://studienzentrum-rotenburg.hessen.de/das-studienzentrum",
+        "https://studienzentrum-rotenburg.hessen.de/impressum",
+        "https://studienzentrum-rotenburg.hessen.de/studium-ausbildung",
+        "https://studienzentrum-rotenburg.hessen.de/das-studienzentrum/organisation-leitung"
+      ],
+      "accepted": false,
+      "reason": "agent_identity_unconfirmed",
+      "official_url": "https://studienzentrum-rotenburg.hessen.de",
+      "from_cache": false,
+      "usage": {
+        "prompt_tokens": 1996,
+        "completion_tokens": 108,
+        "total_tokens": 2104,
+        "cost": 0.0073642,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0003642,
+          "upstream_inference_prompt_cost": 0.0002994,
+          "upstream_inference_completions_cost": 6.48e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "state": "DE-HE",
+      "name": "Hessische Hochschule für öffentliches Management und Sicherheit (HöMS)",
+      "previous_status": "review",
+      "agent_url": "https://hoems.hessen.de/",
+      "canonical_name": "Hessische Hochschule für öffentliches Management und Sicherheit (HöMS)",
+      "lifecycle_status": "renamed",
+      "agent_confidence": 0.9,
+      "evidence": [
+        "The institution was newly founded on January 1, 2022, and combines three previous institutions under one roof, as stated on their official website: [hoems.hessen.de](https://hoems.hessen.de/)",
+        "The official website confirms the current name and provides information about its structure and functions: [hoems.hessen.de](https://hoems.hessen.de/)"
+      ],
+      "citations": [
+        "https://hoems.hessen.de/",
+        "https://hoems.hessen.de/impressum",
+        "https://hoems.hessen.de/organisation/das-praesidium",
+        "https://hoems.hessen.de/organisation",
+        "https://hoems.hessen.de/studienorte"
+      ],
+      "accepted": false,
+      "reason": "agent_identity_unconfirmed",
+      "official_url": "https://hoems.hessen.de",
+      "from_cache": false,
+      "usage": {
+        "prompt_tokens": 1721,
+        "completion_tokens": 127,
+        "total_tokens": 1848,
+        "cost": 0.00733435,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00033435,
+          "upstream_inference_prompt_cost": 0.00025815,
+          "upstream_inference_completions_cost": 7.62e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "state": "DE-SL",
+      "name": "Berufsakademie für Gesundheits- und Sozialwesen Saarland gGmbH (BAGSS)",
+      "previous_status": "unresolved",
+      "agent_url": null,
+      "canonical_name": "Berufsakademie für Gesundheits- und Sozialwesen Saarland gGmbH (BAGSS)",
+      "lifecycle_status": "active",
+      "agent_confidence": 0.5,
+      "evidence": [
+        "The institution is listed as active in the Handelsregister with the name Berufsakademie für Gesundheits- und Sozialwesen Saarland gemeinnützige GmbH (BAGSS) and is located in Saarbrücken. Source: [online-handelsregister.de](https://www.online-handelsregister.de/handelsregisterauszug/sl/Saarbruecken/HRB/100672/Berufsakademie-fuer-Gesundheits-und-Sozialwesen-Saarland-gemeinnuetzige-GmbH-BAGSS)",
+        "The institution offers dual study programs in cooperation with the University of Saarland, indicating its active role in higher education. Source: [shg-kliniken.de](https://www.shg-kliniken.de/bildung/)"
+      ],
+      "citations": [
+        "https://bagss.de/karriere/ausbildung/",
+        "https://www.shg-kliniken.de/bildung/",
+        "https://www.saarland.de/mbk/DE/service/themen-links",
+        "https://www.online-handelsregister.de/handelsregisterauszug/sl/Saarbruecken/HRB/100672/Berufsakademie-fuer-Gesundheits-und-Sozialwesen-Saarland-gemeinnuetzige-GmbH-BAGSS",
+        "https://vm.ahpgs.de/api/website/verfahren/pdf/7f7a98e1-e232-466a-b021-88d7c678530c"
+      ],
+      "accepted": false,
+      "reason": "agent_no_url",
+      "official_url": null,
+      "from_cache": false,
+      "usage": {
+        "prompt_tokens": 3361,
+        "completion_tokens": 207,
+        "total_tokens": 3568,
+        "cost": 0.00762835,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00062835,
+          "upstream_inference_prompt_cost": 0.00050415,
+          "upstream_inference_completions_cost": 0.0001242
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "state": "DE-TH",
+      "name": "Thüringer Fachhochschule für öffentliche Verwaltung Gotha",
+      "previous_status": "review",
+      "agent_url": "https://bildungszentrum.thueringen.de/thueringer-fachhochschule-fuer-oeffentliche-verwaltung",
+      "canonical_name": "Thüringer Fachhochschule für öffentliche Verwaltung",
+      "lifecycle_status": "active",
+      "agent_confidence": 0.9,
+      "evidence": [
+        "The official website of the Thüringer Fachhochschule für öffentliche Verwaltung is listed as bildungszentrum.thueringen.de. Source: [bildungszentrum.thueringen.de](https://bildungszentrum.thueringen.de/thueringer-fachhochschule-fuer-oeffentliche-verwaltung)",
+        "The institution is described as a public administration school in Gotha, with its website confirmed. Source: [wikipedia.org](https://de.wikipedia.org/wiki/Th%C3%BCringer_Fachhochschule_f%C3%BCr_%C3%B6ffentliche_Verwaltung)"
+      ],
+      "citations": [
+        "https://bildungszentrum.thueringen.de/thueringer-fachhochschule-fuer-oeffentliche-verwaltung",
+        "https://de.wikipedia.org/wiki/Th%C3%BCringer_Fachhochschule_f%C3%BCr_%C3%B6ffentliche_Verwaltung",
+        "https://karriere.thueringen.de/unsere-geschaeftsbereiche/thueringer-ministerium-fuer-inneres-kommunales-und-landesentwicklung/thueringer-fachhochschule-fuer-oeffentliche-verwaltung",
+        "https://bildungszentrum.thueringen.de/fachbereich-ksav",
+        "https://bildungszentrum.thueringen.de/thueringer-verwaltungsfachhochschule-vfhs/organisation-und-kontakte"
+      ],
+      "accepted": false,
+      "reason": "agent_url_blocked",
+      "official_url": null,
+      "from_cache": false,
+      "usage": {
+        "prompt_tokens": 2271,
+        "completion_tokens": 178,
+        "total_tokens": 2449,
+        "cost": 0.00744745,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00044745,
+          "upstream_inference_prompt_cost": 0.00034065,
+          "upstream_inference_completions_cost": 0.0001068
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  ]
+}
