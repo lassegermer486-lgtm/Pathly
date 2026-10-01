@@ -1,33 +1,8 @@
-# scraper saves its result as JSON (data/normalized/); master writes only with --save.
-x-common: &common
-  build: .
-  volumes:
-    - ./data:/app/data
-    - ./config:/app/config
-
 services:
-  # Scrape der Landesquellen
-  #   docker compose run --rm scraper                    # alle 16 Länder -> data/normalized/universities_de.json
-  #   docker compose run --rm scraper --states NRW HH    # Auswahl -> data/normalized/universities_NRW_HH.json
-  #   docker compose run --rm scraper --dry-run          # nur anzeigen, nichts speichern
-  #   docker compose run --rm scraper --snapshots        # zusätzlich Rohkopien der Quellen
   scraper:
-    <<: *common
-    command: []
-
-  # Master-Registry: Dedup, einheitliches Schema, Validierung, stabile IDs
-  #   docker compose run --rm master                     # live scrapen + Master bauen
-  #   docker compose run --rm master --input data/normalized/universities_de.json
-  #   docker compose run --rm master --candidates-only   # nur Kandidaten
-  #   docker compose run --rm master --online --list     # mit Website-Check, alle anzeigen
-  master:
-    <<: *common
-    entrypoint: ["python", "-m", "registry.master"]
-    command: []
-
-  # Tests
-  #   docker compose run --rm tests
-  tests:
-    <<: *common
-    entrypoint: ["python", "-m", "pytest", "-q", "-p", "no:cacheprovider", "tests"]
+    build: .
+    volumes:
+      - ./data:/app/data
+    # Standard: alle Bundesländer. Überschreiben z. B. mit:
+    #   docker compose run --rm scraper --states DE-NW DE-BW
     command: []

@@ -1,6 +1,7 @@
 import csv
 import io
 from datetime import datetime, timezone
+from pathlib import Path
 from urllib.parse import urlparse
 
 import requests
@@ -31,7 +32,12 @@ class NRWAdapter(RegistryAdapter):
         encoding = self.config.get("encoding", "cp1252")
         text = response.content.decode(encoding)
 
-        self.snapshot("DE-NW_hochschulstandorte.csv", response.content)
+        # Save immutable-ish raw snapshot for provenance/debugging.
+        raw_dir = Path(self.config.get("_raw_dir", "data/raw"))
+        raw_dir.mkdir(parents=True, exist_ok=True)
+
+        snapshot = raw_dir / "DE-NW_hochschulstandorte.csv"
+        snapshot.write_bytes(response.content)
 
         reader = csv.DictReader(
             io.StringIO(text),
