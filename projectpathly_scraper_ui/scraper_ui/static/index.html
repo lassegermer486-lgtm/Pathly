@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hochschulregister – Scraper</title>
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <div class="page">
+
+    <header class="top">
+      <div class="title">
+        <h1>Hochschulregister</h1>
+        <p id="run-meta" class="muted">Noch kein Abruf in dieser Sitzung</p>
+      </div>
+      <div class="actions">
+        <button id="btn-options" class="btn" type="button" aria-expanded="false" aria-controls="options">Optionen</button>
+        <button id="btn-load" class="btn" type="button" hidden>Letzten Abruf laden</button>
+        <button id="btn-start" class="btn" type="button">Abruf starten</button>
+        <button id="btn-save" class="btn" type="button" disabled>Speichern</button>
+      </div>
+    </header>
+
+    <section id="options" class="options" hidden>
+      <fieldset>
+        <legend>Bundesländer</legend>
+        <div class="optrow">
+          <button id="opt-all" class="link" type="button">alle</button>
+          <button id="opt-none" class="link" type="button">keines</button>
+        </div>
+        <div id="opt-states" class="optstates"></div>
+      </fieldset>
+      <fieldset id="opt-online-box">
+        <legend>Prüfung</legend>
+        <label class="check"><input type="checkbox" id="opt-online"> Websites aller Hochschulen prüfen (dauert einige Minuten)</label>
+      </fieldset>
+    </section>
+
+    <section id="phases" class="phases" aria-label="Phasen des Laufs"></section>
+
+    <section class="statusbar">
+      <p id="status-text" class="status-text">Mit „Abruf starten“ werden die Hochschullisten der 16 Bundesländer abgerufen. Das dauert etwa eine Minute.</p>
+      <span id="save-hint" class="hint"></span>
+      <a id="btn-download" class="btn" href="/api/download" hidden>JSON herunterladen</a>
+      <button id="btn-next" class="btn primary" type="button" hidden>Duplikate entscheiden</button>
+      <button id="btn-log" class="link" type="button" aria-expanded="false" aria-controls="log">Protokoll</button>
+    </section>
+
+    <p id="notice" class="notice" role="alert" hidden></p>
+
+    <pre id="log" class="log" hidden></pre>
+
+    <section id="kpis" class="kpis" aria-label="Kennzahlen"></section>
+
+    <nav id="tabs" class="tabs" role="tablist" aria-label="Bundesländer"></nav>
+
+    <section id="panel" class="panel"></section>
+
+    <footer id="foot" class="foot muted"></footer>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

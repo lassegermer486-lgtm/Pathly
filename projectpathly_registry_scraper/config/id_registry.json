@@ -1,1 +1,4190 @@
-{"version": 1, "entries": {}}
+{
+  "entries": {
+    "PTH-DE-006D308D": {
+      "created": 379,
+      "hosts": [
+        "th-luebeck.de"
+      ],
+      "name": "Technische Hochschule Lübeck",
+      "source_keys": [
+        "DE-SH|Technische Hochschule Lübeck"
+      ]
+    },
+    "PTH-DE-0093C335": {
+      "created": 48,
+      "hosts": [
+        "mediadesign.de"
+      ],
+      "name": "Mediadesign Hochschule für Kommunikation und Informatik",
+      "source_keys": [
+        "DE-BE|Mediadesign Hochschule für Kommunikation und Informatik"
+      ]
+    },
+    "PTH-DE-00A8BD0E": {
+      "created": 92,
+      "hosts": [
+        "hs-ludwigsburg.de"
+      ],
+      "name": "Hochschule für öffentliche Verwaltung und Finanzen Ludwigsburg",
+      "source_keys": [
+        "DE-BW|Hochschule für öffentliche Verwaltung und Finanzen Ludwigsburg"
+      ]
+    },
+    "PTH-DE-018E9FDD": {
+      "created": 118,
+      "hosts": [
+        "uni-heidelberg.de"
+      ],
+      "name": "Universität Heidelberg",
+      "source_keys": [
+        "DE-BW|Universität Heidelberg"
+      ]
+    },
+    "PTH-DE-019A8675": {
+      "created": 36,
+      "hosts": [],
+      "name": "Freie Universität Berlin",
+      "source_keys": [
+        "DE-BE|Freie Universität Berlin"
+      ]
+    },
+    "PTH-DE-02345224": {
+      "created": 123,
+      "hosts": [
+        "uni-tuebingen.de"
+      ],
+      "name": "Universität Tübingen",
+      "source_keys": [
+        "DE-BW|Universität Tübingen"
+      ]
+    },
+    "PTH-DE-02A1F015": {
+      "created": 20,
+      "hosts": [],
+      "name": "Theologische Hochschule Elstal",
+      "source_keys": [
+        "DE-BB|Theologische Hochschule Elstal"
+      ]
+    },
+    "PTH-DE-035A5654": {
+      "created": 93,
+      "hosts": [
+        "ihl.eu"
+      ],
+      "name": "Internationale Hochschule Liebenzell",
+      "source_keys": [
+        "DE-BW|Internationale Hochschule Liebenzell (IHL)"
+      ]
+    },
+    "PTH-DE-05CDE98C": {
+      "created": 398,
+      "hosts": [
+        "hgb-leipzig.de"
+      ],
+      "name": "Hochschule für Grafik und Buchkunst Leipzig",
+      "source_keys": [
+        "DE-SN|Hochschule für Grafik und Buchkunst Leipzig"
+      ]
+    },
+    "PTH-DE-06D4148D": {
+      "created": 105,
+      "hosts": [
+        "fh-heidelberg.de"
+      ],
+      "name": "SRH University of Applied Sciences Heidelberg",
+      "source_keys": [
+        "DE-BW|SRH University of Applied Sciences Heidelberg",
+        "DE-TH|SRH University of Applied Sciences Heidelberg in Gera"
+      ]
+    },
+    "PTH-DE-072C80F1": {
+      "created": 197,
+      "hosts": [
+        "hfg-offenbach.de"
+      ],
+      "name": "Hochschule für Gestaltung Offenbach am Main",
+      "source_keys": [
+        "DE-HE|Hochschule für Gestaltung Offenbach am Main"
+      ]
+    },
+    "PTH-DE-077492C0": {
+      "created": 181,
+      "hosts": [
+        "charlotte-fresenius-uni.de"
+      ],
+      "name": "Charlotte Fresenius Hochschule",
+      "source_keys": [
+        "DE-HE|Charlotte Fresenius Hochschule (Wiesbaden)"
+      ]
+    },
+    "PTH-DE-07C572E9": {
+      "created": 430,
+      "hosts": [],
+      "name": "IU Internationale Hochschule in Erfurt",
+      "source_keys": [
+        "DE-TH|IU Internationale Hochschule in Erfurt"
+      ]
+    },
+    "PTH-DE-081483D2": {
+      "created": 88,
+      "hosts": [
+        "hft-stuttgart.de"
+      ],
+      "name": "Hochschule für Technik Stuttgart",
+      "source_keys": [
+        "DE-BW|Hochschule für Technik Stuttgart"
+      ]
+    },
+    "PTH-DE-08A25F33": {
+      "created": 219,
+      "hosts": [
+        "bhh.hamburg.de"
+      ],
+      "name": "Berufliche Hochschule Hamburg BHH",
+      "source_keys": [
+        "DE-HH|Berufliche Hochschule Hamburg BHH"
+      ]
+    },
+    "PTH-DE-08FF152C": {
+      "created": 196,
+      "hosts": [
+        "staedelschule.de"
+      ],
+      "name": "Hochschule für Bildende Künste–Städelschule Frankfurt am Main",
+      "source_keys": [
+        "DE-HE|Hochschule für Bildende Künste–Städelschule Frankfurt am Main"
+      ]
+    },
+    "PTH-DE-0B4B2003": {
+      "created": 239,
+      "hosts": [
+        "nbs.de"
+      ],
+      "name": "NBS Northern Business School",
+      "source_keys": [
+        "DE-HH|NBS Northern Business School"
+      ]
+    },
+    "PTH-DE-0BD38F3E": {
+      "created": 421,
+      "hosts": [],
+      "name": "Bauhaus-Universität Weimar",
+      "source_keys": [
+        "DE-TH|Bauhaus-Universität Weimar"
+      ]
+    },
+    "PTH-DE-0C3B4597": {
+      "created": 26,
+      "hosts": [
+        "berlin.bard.edu"
+      ],
+      "name": "Bard College Berlin",
+      "source_keys": [
+        "DE-BE|Bard College Berlin – A Liberal Arts University"
+      ]
+    },
+    "PTH-DE-0E3FD6C2": {
+      "created": 124,
+      "hosts": [
+        "uni-ulm.de"
+      ],
+      "name": "Universität Ulm",
+      "source_keys": [
+        "DE-BW|Universität Ulm"
+      ]
+    },
+    "PTH-DE-0EFA3442": {
+      "created": 176,
+      "hosts": [
+        "hs-bremerhaven.de"
+      ],
+      "name": "Hochschule Bremerhaven",
+      "source_keys": [
+        "DE-HB|Hochschule Bremerhaven"
+      ]
+    },
+    "PTH-DE-102007BD": {
+      "created": 75,
+      "hosts": [
+        "hdba.de"
+      ],
+      "name": "Hochschule der Bundesagentur für Arbeit",
+      "source_keys": [
+        "DE-BW|Hochschule der Bundesagentur für Arbeit (HdBA)",
+        "DE-MV|Hochschule der Bundesagentur für Arbeit"
+      ]
+    },
+    "PTH-DE-119C21B0": {
+      "created": 346,
+      "hosts": [
+        "uni-muenster.de"
+      ],
+      "name": "Westfälische Wilhelms-Universität Münster",
+      "source_keys": [
+        "DE-NW|Westfälische Wilhelms-Universität Münster"
+      ]
+    },
+    "PTH-DE-121CE9AB": {
+      "created": 406,
+      "hosts": [
+        "saxeed.net"
+      ],
+      "name": "Technische Universität Chemnitz",
+      "source_keys": [
+        "DE-SN|Technische Universität Chemnitz"
+      ]
+    },
+    "PTH-DE-122CD420": {
+      "created": 418,
+      "hosts": [
+        "uni-magdeburg.de"
+      ],
+      "name": "Otto-von-Guericke-Universität Magdeburg",
+      "source_keys": [
+        "DE-ST|Otto-von-Guericke-Universität Magdeburg"
+      ]
+    },
+    "PTH-DE-1385FCF3": {
+      "created": 63,
+      "hosts": [
+        "freie-hochschule-stuttgart.de"
+      ],
+      "name": "Freie Hochschule Stuttgart",
+      "source_keys": [
+        "DE-BW|Freie Hochschule Stuttgart – Seminar für Waldorfpädagogik"
+      ]
+    },
+    "PTH-DE-13C82E99": {
+      "created": 321,
+      "hosts": [
+        "kiho-wuppertal-bethel.de"
+      ],
+      "name": "Kirchliche Hochschule Wuppertal/Bethel",
+      "source_keys": [
+        "DE-NW|Kirchliche Hochschule Wuppertal/Bethel"
+      ]
+    },
+    "PTH-DE-13D906D8": {
+      "created": 188,
+      "hosts": [
+        "fthgiessen.de"
+      ],
+      "name": "Freie Theologische Hochschule Gießen",
+      "source_keys": [
+        "DE-HE|Freie Theologische Hochschule Gießen"
+      ]
+    },
+    "PTH-DE-14A023BD": {
+      "created": 389,
+      "hosts": [
+        "dhsn.de"
+      ],
+      "name": "Duale Hochschule Sachsen",
+      "source_keys": [
+        "DE-SN|Duale Hochschule Sachsen"
+      ]
+    },
+    "PTH-DE-152693EE": {
+      "created": 19,
+      "hosts": [],
+      "name": "Technische Hochschule Wildau",
+      "source_keys": [
+        "DE-BB|Technische Hochschule Wildau"
+      ]
+    },
+    "PTH-DE-1721AE48": {
+      "created": 133,
+      "hosts": [
+        "hff-muc.de"
+      ],
+      "name": "Hochschule für Fernsehen und Film München",
+      "source_keys": [
+        "DE-BY|Hochschule für Fernsehen und Film München"
+      ]
+    },
+    "PTH-DE-17AF99FA": {
+      "created": 90,
+      "hosts": [
+        "hfwu.de"
+      ],
+      "name": "Hochschule für Wirtschaft und Umwelt Nürtingen-Geislingen",
+      "source_keys": [
+        "DE-BW|Hochschule für Wirtschaft und Umwelt Nürtingen-Geislingen"
+      ]
+    },
+    "PTH-DE-180B0E9A": {
+      "created": 347,
+      "hosts": [
+        "uni-speyer.de"
+      ],
+      "name": "Deutsche Universität für Verwaltungswissenschaften Speyer",
+      "source_keys": [
+        "DE-RP|Deutsche Universität für Verwaltungswissenschaften Speyer"
+      ]
+    },
+    "PTH-DE-187144D7": {
+      "created": 417,
+      "hosts": [
+        "uni-halle.de"
+      ],
+      "name": "Martin-Luther-Universität Halle-Wittenberg",
+      "source_keys": [
+        "DE-ST|Martin-Luther-Universität Halle-Wittenberg"
+      ]
+    },
+    "PTH-DE-18F4A492": {
+      "created": 269,
+      "hosts": [],
+      "name": "Medizinische Hochschule Hannover",
+      "source_keys": [
+        "DE-NI|Medizinische Hochschule Hannover"
+      ]
+    },
+    "PTH-DE-198895D7": {
+      "created": 344,
+      "hosts": [
+        "uni-koeln.de"
+      ],
+      "name": "Universität zu Köln",
+      "source_keys": [
+        "DE-NW|Universität zu Köln"
+      ]
+    },
+    "PTH-DE-1AF21417": {
+      "created": 287,
+      "hosts": [
+        "dhpol.de"
+      ],
+      "name": "Deutsche Hochschule der Polizei Münster",
+      "source_keys": [
+        "DE-NW|Deutsche Hochschule der Polizei Münster"
+      ]
+    },
+    "PTH-DE-1B6328F8": {
+      "created": 333,
+      "hosts": [
+        "ruhr-uni-bochum.de"
+      ],
+      "name": "Ruhr-Universität Bochum",
+      "source_keys": [
+        "DE-NW|Ruhr-Universität Bochum"
+      ]
+    },
+    "PTH-DE-1C94F418": {
+      "created": 101,
+      "hosts": [
+        "ph-ludwigsburg.de"
+      ],
+      "name": "PH Ludwigsburg",
+      "source_keys": [
+        "DE-BW|PH Ludwigsburg"
+      ]
+    },
+    "PTH-DE-1D5FA6B6": {
+      "created": 76,
+      "hosts": [
+        "hdm-stuttgart.de"
+      ],
+      "name": "Hochschule der Medien Stuttgart",
+      "source_keys": [
+        "DE-BW|Hochschule der Medien Stuttgart"
+      ]
+    },
+    "PTH-DE-1D755434": {
+      "created": 144,
+      "hosts": [
+        "haw-landshut.de"
+      ],
+      "name": "Hochschule für angewandte Wissenschaften Landshut",
+      "source_keys": [
+        "DE-BY|Hochschule für angewandte Wissenschaften Landshut"
+      ]
+    },
+    "PTH-DE-1D7FF4EE": {
+      "created": 128,
+      "hosts": [
+        "augustana.de"
+      ],
+      "name": "Augustana Hochschule der Evang.-Luth. Kirche in Bayern",
+      "source_keys": [
+        "DE-BY|Augustana Hochschule der Evang.-Luth. Kirche in Bayern (Neuendettelsau)"
+      ]
+    },
+    "PTH-DE-1E87A3DB": {
+      "created": 12,
+      "hosts": [],
+      "name": "Hochschule für Gesundheitsfachberufe Eberswalde",
+      "source_keys": [
+        "DE-BB|Hochschule für Gesundheitsfachberufe Eberswalde"
+      ]
+    },
+    "PTH-DE-1EE61B60": {
+      "created": 44,
+      "hosts": [],
+      "name": "Hochschule für Wirtschaft und Recht Berlin",
+      "source_keys": [
+        "DE-BE|Hochschule für Wirtschaft und Recht Berlin (HWR)"
+      ]
+    },
+    "PTH-DE-1F6D43A9": {
+      "created": 189,
+      "hosts": [
+        "uni-frankfurt.de"
+      ],
+      "name": "Goethe-Universität Frankfurt am Main",
+      "source_keys": [
+        "DE-HE|Goethe-Universität Frankfurt am Main"
+      ]
+    },
+    "PTH-DE-20EE390D": {
+      "created": 110,
+      "hosts": [
+        "mh-trossingen.de"
+      ],
+      "name": "Staatliche Hochschule für Musik Trossingen",
+      "source_keys": [
+        "DE-BW|Staatliche Hochschule für Musik Trossingen"
+      ]
+    },
+    "PTH-DE-21B97AEC": {
+      "created": 233,
+      "hosts": [
+        "hfbk-hamburg.de"
+      ],
+      "name": "Hochschule für bildende Künste Hamburg",
+      "source_keys": [
+        "DE-HH|Hochschule für bildende Künste Hamburg"
+      ]
+    },
+    "PTH-DE-231F05D4": {
+      "created": 102,
+      "hosts": [
+        "ph-gmuend.de"
+      ],
+      "name": "PH Schwäbisch Gmünd",
+      "source_keys": [
+        "DE-BW|PH Schwäbisch Gmünd"
+      ]
+    },
+    "PTH-DE-24F31381": {
+      "created": 0,
+      "hosts": [],
+      "name": "Brandenburgische Technische Universität Cottbus-Senftenberg",
+      "source_keys": [
+        "DE-BB|Brandenburgische Technische Universität Cottbus-Senftenberg"
+      ]
+    },
+    "PTH-DE-26AB265E": {
+      "created": 135,
+      "hosts": [
+        "hfm-nuernberg.de"
+      ],
+      "name": "Hochschule für Musik Nürnberg",
+      "source_keys": [
+        "DE-BY|Hochschule für Musik Nürnberg"
+      ]
+    },
+    "PTH-DE-26BBB009": {
+      "created": 341,
+      "hosts": [
+        "uni-due.de"
+      ],
+      "name": "Universität Duisburg-Essen",
+      "source_keys": [
+        "DE-NW|Universität Duisburg-Essen"
+      ]
+    },
+    "PTH-DE-26C00B73": {
+      "created": 429,
+      "hosts": [],
+      "name": "Hochschule für Musik Franz Liszt Weimar",
+      "source_keys": [
+        "DE-TH|Hochschule für Musik Franz Liszt Weimar"
+      ]
+    },
+    "PTH-DE-2769B481": {
+      "created": 178,
+      "hosts": [
+        "hfoev.bremen.de"
+      ],
+      "name": "Hochschule für Öffentliche Verwaltung",
+      "source_keys": [
+        "DE-HB|Hochschule für Öffentliche Verwaltung"
+      ]
+    },
+    "PTH-DE-279BFE26": {
+      "created": 432,
+      "hosts": [],
+      "name": "Thüringer Fachhochschule für öffentliche Verwaltung Gotha",
+      "source_keys": [
+        "DE-TH|Thüringer Fachhochschule für öffentliche Verwaltung Gotha"
+      ]
+    },
+    "PTH-DE-28D8E50B": {
+      "created": 366,
+      "hosts": [
+        "uni-koblenz.de"
+      ],
+      "name": "Universität Koblenz",
+      "source_keys": [
+        "DE-RP|Universität Koblenz"
+      ]
+    },
+    "PTH-DE-29E06352": {
+      "created": 402,
+      "hosts": [
+        "htw-dresden.de"
+      ],
+      "name": "Hochschule für Technik und Wirtschaft Dresden",
+      "source_keys": [
+        "DE-SN|Hochschule für Technik und Wirtschaft Dresden"
+      ]
+    },
+    "PTH-DE-29E29D99": {
+      "created": 172,
+      "hosts": [
+        "unibw.de"
+      ],
+      "name": "Universität der Bundeswehr München",
+      "source_keys": [
+        "DE-BY|Universität der Bundeswehr München"
+      ]
+    },
+    "PTH-DE-2A33D205": {
+      "created": 420,
+      "hosts": [
+        "thh-friedensau.de"
+      ],
+      "name": "Theologische Hochschule Friedensau",
+      "source_keys": [
+        "DE-ST|Theologische Hochschule Friedensau"
+      ]
+    },
+    "PTH-DE-2A78C68B": {
+      "created": 5,
+      "hosts": [
+        "fhf.brandenburg.de"
+      ],
+      "name": "Fachhochschule für Finanzen des Landes Brandenburg",
+      "source_keys": [
+        "DE-BB|Fachhochschule für Finanzen des Landes Brandenburg"
+      ]
+    },
+    "PTH-DE-2A97C308": {
+      "created": 159,
+      "hosts": [
+        "tha.de"
+      ],
+      "name": "Technische Hochschule Augsburg",
+      "source_keys": [
+        "DE-BY|Technische Hochschule Augsburg"
+      ]
+    },
+    "PTH-DE-2AD9B6C1": {
+      "created": 232,
+      "hosts": [
+        "hfmt-hamburg.de"
+      ],
+      "name": "Hochschule für Musik und Theater Hamburg",
+      "source_keys": [
+        "DE-HH|Hochschule für Musik und Theater Hamburg"
+      ]
+    },
+    "PTH-DE-2AF5EEEA": {
+      "created": 205,
+      "hosts": [
+        "studienzentrum-rotenburg.hessen.de"
+      ],
+      "name": "Studienzentrum der Finanzverwaltung und Justiz in Rotenburg an der Fulda",
+      "source_keys": [
+        "DE-HE|Studienzentrum der Finanzverwaltung und Justiz in Rotenburg an der Fulda"
+      ]
+    },
+    "PTH-DE-2C5332DB": {
+      "created": 74,
+      "hosts": [
+        "reutlingen-university.de"
+      ],
+      "name": "Hochschule Reutlingen",
+      "source_keys": [
+        "DE-BW|Hochschule Reutlingen - Technik, Wirtschaft, Informatik, Design"
+      ]
+    },
+    "PTH-DE-2CBD0BEF": {
+      "created": 43,
+      "hosts": [],
+      "name": "Hochschule für Technik und Wirtschaft Berlin",
+      "source_keys": [
+        "DE-BE|Hochschule für Technik und Wirtschaft Berlin (HTW)"
+      ]
+    },
+    "PTH-DE-2CE8618A": {
+      "created": 14,
+      "hosts": [],
+      "name": "Hochschule für nachhaltige Entwicklung Eberswalde",
+      "source_keys": [
+        "DE-BB|Hochschule für nachhaltige Entwicklung Eberswalde"
+      ]
+    },
+    "PTH-DE-2CE97B28": {
+      "created": 244,
+      "hosts": [
+        "edu.umch.de"
+      ],
+      "name": "Universitätsmedizin Neumarkt A.M. Campus Hamburg",
+      "source_keys": [
+        "DE-HH|Universitätsmedizin Neumarkt A.M. Campus Hamburg"
+      ]
+    },
+    "PTH-DE-2D4135EF": {
+      "created": 193,
+      "hosts": [
+        "hs-geisenheim.de"
+      ],
+      "name": "Hochschule Geisenheim",
+      "source_keys": [
+        "DE-HE|Hochschule Geisenheim"
+      ]
+    },
+    "PTH-DE-2D462EE3": {
+      "created": 210,
+      "hosts": [
+        "tomorrow.university"
+      ],
+      "name": "Tomorrow University of Applied Sciences",
+      "source_keys": [
+        "DE-HE|Tomorrow University of Applied Sciences (Frankfurt/Main)"
+      ]
+    },
+    "PTH-DE-2DF4F92C": {
+      "created": 134,
+      "hosts": [
+        "hfkm-regensburg.de"
+      ],
+      "name": "Hochschule für Katholische Kirchenmusik und Musikpädagogik Regensburg",
+      "source_keys": [
+        "DE-BY|Hochschule für Katholische Kirchenmusik und Musikpädagogik Regensburg"
+      ]
+    },
+    "PTH-DE-2F2A474B": {
+      "created": 384,
+      "hosts": [],
+      "name": "Hochschule der Bildenden Künste Saar",
+      "source_keys": [
+        "DE-SL|Hochschule der Bildenden Künste Saar"
+      ]
+    },
+    "PTH-DE-306F9FBC": {
+      "created": 324,
+      "hosts": [
+        "khm.de"
+      ],
+      "name": "Kunsthochschule für Medien Köln",
+      "source_keys": [
+        "DE-NW|Kunsthochschule für Medien Köln"
+      ]
+    },
+    "PTH-DE-317AA3D9": {
+      "created": 217,
+      "hosts": [
+        "bsp-campus-hamburg.de"
+      ],
+      "name": "BSP Business School Berlin",
+      "source_keys": [
+        "DE-HH|BSP Business School Berlin - Campus Hamburg"
+      ]
+    },
+    "PTH-DE-31C0DDE5": {
+      "created": 296,
+      "hosts": [
+        "fh-swf.de"
+      ],
+      "name": "Fachhochschule Südwestfalen",
+      "source_keys": [
+        "DE-NW|Fachhochschule Südwestfalen"
+      ]
+    },
+    "PTH-DE-31D7DFCF": {
+      "created": 312,
+      "hosts": [
+        "hbk-essen.de"
+      ],
+      "name": "Hochschule der bildenden Künste Essen",
+      "source_keys": [
+        "DE-NW|Hochschule der bildenden Künste Essen"
+      ]
+    },
+    "PTH-DE-31F75DCE": {
+      "created": 371,
+      "hosts": [
+        "uni-flensburg.de"
+      ],
+      "name": "Europa-Universität Flensburg",
+      "source_keys": [
+        "DE-SH|Europa-Universität Flensburg"
+      ]
+    },
+    "PTH-DE-32EAD670": {
+      "created": 424,
+      "hosts": [],
+      "name": "Fachhochschule Erfurt",
+      "source_keys": [
+        "DE-TH|Fachhochschule Erfurt"
+      ]
+    },
+    "PTH-DE-33C604A2": {
+      "created": 386,
+      "hosts": [],
+      "name": "Hochschule für Technik und Wirtschaft des Saarlandes",
+      "source_keys": [
+        "DE-SL|Hochschule für Technik und Wirtschaft des Saarlandes"
+      ]
+    },
+    "PTH-DE-33C9BFE6": {
+      "created": 407,
+      "hosts": [
+        "tu-dresden.de"
+      ],
+      "name": "Technische Universität Dresden",
+      "source_keys": [
+        "DE-SN|Technische Universität Dresden"
+      ]
+    },
+    "PTH-DE-343A18BC": {
+      "created": 60,
+      "hosts": [
+        "ehip.eu"
+      ],
+      "name": "EHiP - Hochschule für Innovation und Perspektive",
+      "source_keys": [
+        "DE-BW|EHiP - Hochschule für Innovation und Perspektive"
+      ]
+    },
+    "PTH-DE-350FDC95": {
+      "created": 71,
+      "hosts": [
+        "htwg-konstanz.de"
+      ],
+      "name": "Hochschule Konstanz",
+      "source_keys": [
+        "DE-BW|Hochschule Konstanz - Technik, Wirtschaft und Gestaltung"
+      ]
+    },
+    "PTH-DE-352E36CF": {
+      "created": 185,
+      "hosts": [
+        "eh-tabor.de"
+      ],
+      "name": "Evangelische Hochschule TABOR",
+      "source_keys": [
+        "DE-HE|Evangelische Hochschule TABOR (Marburg)"
+      ]
+    },
+    "PTH-DE-3585A584": {
+      "created": 351,
+      "hosts": [
+        "hochschule-trier.de"
+      ],
+      "name": "Hochschule Trier",
+      "source_keys": [
+        "DE-RP|Hochschule Trier – Trier University of Applied Sciences"
+      ]
+    },
+    "PTH-DE-3597E030": {
+      "created": 180,
+      "hosts": [
+        "archivschule.de"
+      ],
+      "name": "Archivschule Marburg",
+      "source_keys": [
+        "DE-HE|Archivschule Marburg (Hochschule für Archivwissenschaft)"
+      ]
+    },
+    "PTH-DE-36687C58": {
+      "created": 111,
+      "hosts": [
+        "muho-mannheim.de"
+      ],
+      "name": "Staatliche Hochschule für Musik und Darstellende Kunst Mannheim",
+      "source_keys": [
+        "DE-BW|Staatliche Hochschule für Musik und Darstellende Kunst Mannheim"
+      ]
+    },
+    "PTH-DE-36B96033": {
+      "created": 281,
+      "hosts": [],
+      "name": "Universität Oldenburg",
+      "source_keys": [
+        "DE-NI|Universität Oldenburg"
+      ]
+    },
+    "PTH-DE-3741DD4A": {
+      "created": 215,
+      "hosts": [],
+      "name": "AMD Akademie für Mode & Design",
+      "source_keys": [
+        "DE-HH|AMD Akademie für Mode & Design"
+      ]
+    },
+    "PTH-DE-376B7508": {
+      "created": 320,
+      "hosts": [
+        "katho-nrw.de"
+      ],
+      "name": "Katholische Hochschule Nordrhein-Westfalen",
+      "source_keys": [
+        "DE-NW|Katholische Hochschule Nordrhein-Westfalen"
+      ]
+    },
+    "PTH-DE-39967578": {
+      "created": 240,
+      "hosts": [
+        "nordakademie.de"
+      ],
+      "name": "NORDAKADEMIE Hochschule der Wirtschaft",
+      "source_keys": [
+        "DE-HH|NORDAKADEMIE Hochschule der Wirtschaft | Graduate School",
+        "DE-SH|Nordakademie Elmshorn"
+      ]
+    },
+    "PTH-DE-39B47CC7": {
+      "created": 412,
+      "hosts": [
+        "fh-polizei.sachsen-anhalt.de"
+      ],
+      "name": "Fachhochschule Polizei",
+      "source_keys": [
+        "DE-ST|Fachhochschule Polizei"
+      ]
+    },
+    "PTH-DE-39F644CA": {
+      "created": 266,
+      "hosts": [],
+      "name": "Leibniz Universität Hannover",
+      "source_keys": [
+        "DE-NI|Leibniz Universität Hannover"
+      ]
+    },
+    "PTH-DE-3A011963": {
+      "created": 9,
+      "hosts": [
+        "hs-doepfer.de"
+      ],
+      "name": "HSD Hochschule Döpfer",
+      "source_keys": [
+        "DE-BB|HSD Hochschule Döpfer GmbH",
+        "DE-NW|HSD Hochschule Döpfer"
+      ]
+    },
+    "PTH-DE-3A183762": {
+      "created": 319,
+      "hosts": [
+        "ist-hochschule.de"
+      ],
+      "name": "IST-Hochschule für Management",
+      "source_keys": [
+        "DE-NW|IST-Hochschule für Management"
+      ]
+    },
+    "PTH-DE-3A33FD5A": {
+      "created": 104,
+      "hosts": [
+        "mobile-university.de"
+      ],
+      "name": "SRH Fernhochschule Riedlingen",
+      "source_keys": [
+        "DE-BW|SRH Fernhochschule Riedlingen"
+      ]
+    },
+    "PTH-DE-3AB4DD4F": {
+      "created": 248,
+      "hosts": [
+        "hochschule-stralsund.de"
+      ],
+      "name": "Hochschule Stralsund",
+      "source_keys": [
+        "DE-MV|Hochschule Stralsund"
+      ]
+    },
+    "PTH-DE-3AB8CB0F": {
+      "created": 62,
+      "hosts": [
+        "eh-ludwigsburg.de"
+      ],
+      "name": "Evangelische Hochschule Ludwigsburg",
+      "source_keys": [
+        "DE-BW|Evangelische Hochschule Ludwigsburg"
+      ]
+    },
+    "PTH-DE-3BF4A51C": {
+      "created": 23,
+      "hosts": [],
+      "name": "XU",
+      "source_keys": [
+        "DE-BB|XU"
+      ]
+    },
+    "PTH-DE-3C2B59A9": {
+      "created": 206,
+      "hosts": [
+        "thm.de"
+      ],
+      "name": "Technische Hochschule Mittelhessen",
+      "source_keys": [
+        "DE-HE|Technische Hochschule Mittelhessen (Gießen/Friedberg)"
+      ]
+    },
+    "PTH-DE-3D5CA8C8": {
+      "created": 182,
+      "hosts": [
+        "diploma.de"
+      ],
+      "name": "DIPLOMA Hochschule",
+      "source_keys": [
+        "DE-HE|DIPLOMA Hochschule – Private Fachhochschule Nordhessen (Bad Sooden-Allendorf)",
+        "DE-HH|DIPLOMA Hochschule Hamburg"
+      ]
+    },
+    "PTH-DE-3E00439F": {
+      "created": 414,
+      "hosts": [
+        "hs-harz.de"
+      ],
+      "name": "Hochschule Harz",
+      "source_keys": [
+        "DE-ST|Hochschule Harz"
+      ]
+    },
+    "PTH-DE-3E07591B": {
+      "created": 310,
+      "hosts": [
+        "hochschule-rhein-waal.de"
+      ],
+      "name": "Hochschule Rhein-Waal",
+      "source_keys": [
+        "DE-NW|Hochschule Rhein-Waal"
+      ]
+    },
+    "PTH-DE-3EC558C1": {
+      "created": 32,
+      "hosts": [
+        "dbuas.de"
+      ],
+      "name": "Digital Business University of Applied Sciences",
+      "source_keys": [
+        "DE-BE|Digital Business University of Applied Sciences"
+      ]
+    },
+    "PTH-DE-3F1282C7": {
+      "created": 117,
+      "hosts": [
+        "uni-freiburg.de"
+      ],
+      "name": "Universität Freiburg",
+      "source_keys": [
+        "DE-BW|Universität Freiburg"
+      ]
+    },
+    "PTH-DE-3F8387C4": {
+      "created": 45,
+      "hosts": [],
+      "name": "Humboldt-Universität zu Berlin",
+      "source_keys": [
+        "DE-BE|Humboldt-Universität zu Berlin"
+      ]
+    },
+    "PTH-DE-418448CF": {
+      "created": 293,
+      "hosts": [
+        "fh-aachen.de"
+      ],
+      "name": "Fachhochschule Aachen",
+      "source_keys": [
+        "DE-NW|Fachhochschule Aachen"
+      ]
+    },
+    "PTH-DE-422DBF7D": {
+      "created": 138,
+      "hosts": [
+        "hfph.de"
+      ],
+      "name": "Hochschule für Philosophie",
+      "source_keys": [
+        "DE-BY|Hochschule für Philosophie (München)"
+      ]
+    },
+    "PTH-DE-424425E0": {
+      "created": 235,
+      "hosts": [
+        "ism.de"
+      ],
+      "name": "International School of Management",
+      "source_keys": [
+        "DE-HH|ISM International School of Management",
+        "DE-NW|International School of Management"
+      ]
+    },
+    "PTH-DE-42748F21": {
+      "created": 24,
+      "hosts": [
+        "akkon-hochschule.de"
+      ],
+      "name": "Akkon Hochschule",
+      "source_keys": [
+        "DE-BE|Akkon Hochschule"
+      ]
+    },
+    "PTH-DE-429C8693": {
+      "created": 410,
+      "hosts": [
+        "burg-halle.de"
+      ],
+      "name": "Burg Giebichenstein Kunsthochschule Halle",
+      "source_keys": [
+        "DE-ST|Burg Giebichenstein Kunsthochschule Halle"
+      ]
+    },
+    "PTH-DE-4305C1A7": {
+      "created": 286,
+      "hosts": [
+        "cbs.de"
+      ],
+      "name": "CBS International Business School",
+      "source_keys": [
+        "DE-NW|CBS International Business School"
+      ]
+    },
+    "PTH-DE-43C6FA2F": {
+      "created": 153,
+      "hosts": [
+        "munich-business-school.de"
+      ],
+      "name": "Munich Business School",
+      "source_keys": [
+        "DE-BY|Munich Business School"
+      ]
+    },
+    "PTH-DE-44285DF1": {
+      "created": 357,
+      "hosts": [
+        "musik.uni-mainz.de"
+      ],
+      "name": "Hochschule für Musik Mainz",
+      "source_keys": [
+        "DE-RP|Hochschule für Musik Mainz"
+      ]
+    },
+    "PTH-DE-446BE4D6": {
+      "created": 422,
+      "hosts": [],
+      "name": "Duale Hochschule Eisenach-Gera",
+      "source_keys": [
+        "DE-TH|Duale Hochschule Eisenach-Gera"
+      ]
+    },
+    "PTH-DE-45449A84": {
+      "created": 348,
+      "hosts": [
+        "hs-kl.de"
+      ],
+      "name": "Hochschule Kaiserslautern",
+      "source_keys": [
+        "DE-RP|Hochschule Kaiserslautern"
+      ]
+    },
+    "PTH-DE-45814B16": {
+      "created": 340,
+      "hosts": [
+        "uni-bielefeld.de"
+      ],
+      "name": "Universität Bielefeld",
+      "source_keys": [
+        "DE-NW|Universität Bielefeld"
+      ]
+    },
+    "PTH-DE-46D89328": {
+      "created": 131,
+      "hosts": [
+        "hdbw-hochschule.de"
+      ],
+      "name": "Hochschule der Bayerischen Wirtschaft für angewandte Wissenschaften",
+      "source_keys": [
+        "DE-BY|Hochschule der Bayerischen Wirtschaft für angewandte Wissenschaften (HDBW)"
+      ]
+    },
+    "PTH-DE-476DFD99": {
+      "created": 305,
+      "hosts": [
+        "hochschule-bochum.de"
+      ],
+      "name": "Hochschule Bochum",
+      "source_keys": [
+        "DE-NW|Hochschule Bochum"
+      ]
+    },
+    "PTH-DE-4777CF64": {
+      "created": 249,
+      "hosts": [
+        "hs-wismar.de"
+      ],
+      "name": "Hochschule Wismar",
+      "source_keys": [
+        "DE-MV|Hochschule Wismar"
+      ]
+    },
+    "PTH-DE-47D20C8B": {
+      "created": 141,
+      "hosts": [
+        "hs-coburg.de"
+      ],
+      "name": "Hochschule für angewandte Wissenschaften Coburg",
+      "source_keys": [
+        "DE-BY|Hochschule für angewandte Wissenschaften Coburg"
+      ]
+    },
+    "PTH-DE-48209EE5": {
+      "created": 297,
+      "hosts": [
+        "fhdd.de"
+      ],
+      "name": "Fachhochschule der Diakonie",
+      "source_keys": [
+        "DE-NW|Fachhochschule der Diakonie"
+      ]
+    },
+    "PTH-DE-48B1634A": {
+      "created": 107,
+      "hosts": [
+        "abk-stuttgart.de"
+      ],
+      "name": "Staatliche Akademie der Bildenden Künste Stuttgart",
+      "source_keys": [
+        "DE-BW|Staatliche Akademie der Bildenden Künste Stuttgart"
+      ]
+    },
+    "PTH-DE-48E66D56": {
+      "created": 396,
+      "hosts": [
+        "polizei.sachsen.de"
+      ],
+      "name": "Hochschule der Sächsischen Polizei",
+      "source_keys": [
+        "DE-SN|Hochschule der Sächsischen Polizei (FH)"
+      ]
+    },
+    "PTH-DE-49736689": {
+      "created": 349,
+      "hosts": [
+        "hs-koblenz.de"
+      ],
+      "name": "Hochschule Koblenz",
+      "source_keys": [
+        "DE-RP|Hochschule Koblenz"
+      ]
+    },
+    "PTH-DE-4A23C6C2": {
+      "created": 231,
+      "hosts": [
+        "haw-hamburg.de"
+      ],
+      "name": "Hochschule für Angewandte Wissenschaften Hamburg",
+      "source_keys": [
+        "DE-HH|Hochschule für Angewandte Wissenschaften Hamburg"
+      ]
+    },
+    "PTH-DE-4B2260C7": {
+      "created": 18,
+      "hosts": [],
+      "name": "Technische Hochschule Brandenburg",
+      "source_keys": [
+        "DE-BB|Technische Hochschule Brandenburg"
+      ]
+    },
+    "PTH-DE-4B69C7F3": {
+      "created": 204,
+      "hosts": [
+        "provadis-hochschule.de"
+      ],
+      "name": "Provadis School of International Management and Technology",
+      "source_keys": [
+        "DE-HE|Provadis School of International Management and Technology (Frankfurt/Main)"
+      ]
+    },
+    "PTH-DE-4B7BB3B8": {
+      "created": 91,
+      "hosts": [
+        "hs-kehl.de"
+      ],
+      "name": "Hochschule für öffentliche Verwaltung Kehl",
+      "source_keys": [
+        "DE-BW|Hochschule für öffentliche Verwaltung Kehl"
+      ]
+    },
+    "PTH-DE-4C702584": {
+      "created": 143,
+      "hosts": [
+        "hochschule-kempten.de"
+      ],
+      "name": "Hochschule für angewandte Wissenschaften Kempten",
+      "source_keys": [
+        "DE-BY|Hochschule für angewandte Wissenschaften Kempten"
+      ]
+    },
+    "PTH-DE-4DF99FF8": {
+      "created": 82,
+      "hosts": [
+        "hfk-heidelberg.de"
+      ],
+      "name": "Hochschule für Kirchenmusik Heidelberg",
+      "source_keys": [
+        "DE-BW|Hochschule für Kirchenmusik Heidelberg"
+      ]
+    },
+    "PTH-DE-4E4AB5F7": {
+      "created": 364,
+      "hosts": [
+        "th-bingen.de"
+      ],
+      "name": "Technische Hochschule Bingen",
+      "source_keys": [
+        "DE-RP|Technische Hochschule Bingen"
+      ]
+    },
+    "PTH-DE-4F7BE011": {
+      "created": 304,
+      "hosts": [
+        "uni-duesseldorf.de"
+      ],
+      "name": "Heinrich-Heine-Universität Düsseldorf",
+      "source_keys": [
+        "DE-NW|Heinrich-Heine-Universität Düsseldorf"
+      ]
+    },
+    "PTH-DE-4F9B6084": {
+      "created": 405,
+      "hosts": [
+        "tu-freiberg.de"
+      ],
+      "name": "Technische Universität Bergakademie Freiberg",
+      "source_keys": [
+        "DE-SN|Technische Universität Bergakademie Freiberg"
+      ]
+    },
+    "PTH-DE-4FA09F9E": {
+      "created": 218,
+      "hosts": [
+        "btk-fh.de"
+      ],
+      "name": "BTK Hochschule für Gestaltung, Campus Hamburg",
+      "source_keys": [
+        "DE-HH|BTK Hochschule für Gestaltung, Campus Hamburg"
+      ]
+    },
+    "PTH-DE-4FC99DCA": {
+      "created": 315,
+      "hosts": [
+        "hochschule-herford.de"
+      ],
+      "name": "Hochschule für Kirchenmusik der Evangelischen Kirche von Westfalen",
+      "source_keys": [
+        "DE-NW|Hochschule für Kirchenmusik der Evangelischen Kirche von Westfalen"
+      ]
+    },
+    "PTH-DE-5014306F": {
+      "created": 392,
+      "hosts": [
+        "hhl.de"
+      ],
+      "name": "HHL Leipzig Graduate School of Management",
+      "source_keys": [
+        "DE-SN|HHL Leipzig Graduate School of Management"
+      ]
+    },
+    "PTH-DE-518AAD9C": {
+      "created": 145,
+      "hosts": [
+        "hm.edu"
+      ],
+      "name": "Hochschule für angewandte Wissenschaften München",
+      "source_keys": [
+        "DE-BY|Hochschule für angewandte Wissenschaften München"
+      ]
+    },
+    "PTH-DE-52680C45": {
+      "created": 390,
+      "hosts": [
+        "ehs-dresden.de"
+      ],
+      "name": "Evangelische Hochschule Dresden",
+      "source_keys": [
+        "DE-SN|Evangelische Hochschule Dresden (FH)"
+      ]
+    },
+    "PTH-DE-531B42AA": {
+      "created": 250,
+      "hosts": [
+        "hmt-rostock.de"
+      ],
+      "name": "Hochschule für Musik und Theater Rostock",
+      "source_keys": [
+        "DE-MV|Hochschule für Musik und Theater Rostock"
+      ]
+    },
+    "PTH-DE-534FBA4A": {
+      "created": 264,
+      "hosts": [],
+      "name": "Jade Hochschule",
+      "source_keys": [
+        "DE-NI|Jade Hochschule"
+      ]
+    },
+    "PTH-DE-539D112B": {
+      "created": 387,
+      "hosts": [],
+      "name": "Universität des Saarlandes",
+      "source_keys": [
+        "DE-SL|Universität des Saarlandes"
+      ]
+    },
+    "PTH-DE-53DC9DC3": {
+      "created": 179,
+      "hosts": [
+        "uni-bremen.de"
+      ],
+      "name": "Universität Bremen",
+      "source_keys": [
+        "DE-HB|Universität Bremen"
+      ]
+    },
+    "PTH-DE-541FEE5A": {
+      "created": 353,
+      "hosts": [
+        "hochschule-bundesbank.de"
+      ],
+      "name": "Hochschule der Deutschen Bundesbank",
+      "source_keys": [
+        "DE-RP|Hochschule der Deutschen Bundesbank"
+      ]
+    },
+    "PTH-DE-54BDC1DA": {
+      "created": 96,
+      "hosts": [
+        "kh-freiburg.de"
+      ],
+      "name": "Katholische Hochschule Freiburg",
+      "source_keys": [
+        "DE-BW|Katholische Hochschule Freiburg"
+      ]
+    },
+    "PTH-DE-54E9D2DD": {
+      "created": 369,
+      "hosts": [
+        "uni-kiel.de"
+      ],
+      "name": "Christian-Albrechts-Universität zu Kiel",
+      "source_keys": [
+        "DE-SH|Christian-Albrechts-Universität zu Kiel"
+      ]
+    },
+    "PTH-DE-551873BC": {
+      "created": 255,
+      "hosts": [],
+      "name": "HAWK Hildesheim/ Holzminden/ Göttingen",
+      "source_keys": [
+        "DE-NI|HAWK Hildesheim/ Holzminden/ Göttingen"
+      ]
+    },
+    "PTH-DE-560C9922": {
+      "created": 42,
+      "hosts": [
+        "hsap.de"
+      ],
+      "name": "Hochschule für Soziale Arbeit und Pädagogik",
+      "source_keys": [
+        "DE-BE|Hochschule für Soziale Arbeit und Pädagogik"
+      ]
+    },
+    "PTH-DE-570B64D1": {
+      "created": 211,
+      "hosts": [
+        "university-of-labour.de"
+      ],
+      "name": "University of Labour",
+      "source_keys": [
+        "DE-HE|University of Labour (Frankfurt/Main)"
+      ]
+    },
+    "PTH-DE-5A3DD864": {
+      "created": 146,
+      "hosts": [
+        "hs-neu-ulm.de"
+      ],
+      "name": "Hochschule für angewandte Wissenschaften Neu-Ulm",
+      "source_keys": [
+        "DE-BY|Hochschule für angewandte Wissenschaften Neu-Ulm"
+      ]
+    },
+    "PTH-DE-5BA42785": {
+      "created": 8,
+      "hosts": [],
+      "name": "Gisma University of Applied Sciences",
+      "source_keys": [
+        "DE-BB|Gisma University of Applied Sciences"
+      ]
+    },
+    "PTH-DE-5BEA08E1": {
+      "created": 165,
+      "hosts": [
+        "tu-muenchen.de"
+      ],
+      "name": "Technische Universität München",
+      "source_keys": [
+        "DE-BY|Technische Universität München"
+      ]
+    },
+    "PTH-DE-5CBA8BE6": {
+      "created": 22,
+      "hosts": [],
+      "name": "Universität Potsdam",
+      "source_keys": [
+        "DE-BB|Universität Potsdam"
+      ]
+    },
+    "PTH-DE-5E5CF26D": {
+      "created": 251,
+      "hosts": [
+        "studieren-in-schwerin.de"
+      ],
+      "name": "Internationale Studien- und Berufsakademie ISBA",
+      "source_keys": [
+        "DE-MV|Internationale Studien- und Berufsakademie ISBA",
+        "DE-SL|ISBA gGmbH Internationale Studien- und Berufsakademie"
+      ]
+    },
+    "PTH-DE-5F111E12": {
+      "created": 84,
+      "hosts": [
+        "kirchenmusikhochschule.de"
+      ],
+      "name": "Hochschule für Kirchenmusik Tübingen",
+      "source_keys": [
+        "DE-BW|Hochschule für Kirchenmusik Tübingen"
+      ]
+    },
+    "PTH-DE-5FDE3ECE": {
+      "created": 168,
+      "hosts": [
+        "uni-augsburg.de"
+      ],
+      "name": "Universität Augsburg",
+      "source_keys": [
+        "DE-BY|Universität Augsburg"
+      ]
+    },
+    "PTH-DE-5FF7BA0B": {
+      "created": 230,
+      "hosts": [],
+      "name": "Helmut-Schmidt-Universität",
+      "source_keys": [
+        "DE-HH|Helmut-Schmidt-Universität - Universität der Bundeswehr Hamburg"
+      ]
+    },
+    "PTH-DE-5FFB7FF4": {
+      "created": 415,
+      "hosts": [
+        "h2.de"
+      ],
+      "name": "Hochschule Magdeburg-Stendal",
+      "source_keys": [
+        "DE-ST|Hochschule Magdeburg-Stendal"
+      ]
+    },
+    "PTH-DE-6044ABB4": {
+      "created": 190,
+      "hosts": [
+        "hoems.hessen.de"
+      ],
+      "name": "Hessische Hochschule für öffentliches Management und Sicherheit",
+      "source_keys": [
+        "DE-HE|Hessische Hochschule für öffentliches Management und Sicherheit (HöMS)"
+      ]
+    },
+    "PTH-DE-6046E751": {
+      "created": 279,
+      "hosts": [],
+      "name": "Universität Göttingen",
+      "source_keys": [
+        "DE-NI|Universität Göttingen"
+      ]
+    },
+    "PTH-DE-6060270E": {
+      "created": 31,
+      "hosts": [
+        "dhgs-hochschule.de"
+      ],
+      "name": "DHGS Deutsche Hochschule für Gesundheit und Sport",
+      "source_keys": [
+        "DE-BE|DHGS Deutsche Hochschule für Gesundheit und Sport"
+      ]
+    },
+    "PTH-DE-60C7062B": {
+      "created": 191,
+      "hosts": [
+        "h-da.de"
+      ],
+      "name": "Hochschule Darmstadt",
+      "source_keys": [
+        "DE-HE|Hochschule Darmstadt"
+      ]
+    },
+    "PTH-DE-626689A1": {
+      "created": 294,
+      "hosts": [
+        "fh-bielefeld.de"
+      ],
+      "name": "Fachhochschule Bielefeld",
+      "source_keys": [
+        "DE-NW|Fachhochschule Bielefeld"
+      ]
+    },
+    "PTH-DE-62C68996": {
+      "created": 343,
+      "hosts": [
+        "uni-siegen.de"
+      ],
+      "name": "Universität Siegen",
+      "source_keys": [
+        "DE-NW|Universität Siegen"
+      ]
+    },
+    "PTH-DE-6353F503": {
+      "created": 11,
+      "hosts": [
+        "hpolbb.de"
+      ],
+      "name": "Hochschule der Polizei des Landes Brandenburg",
+      "source_keys": [
+        "DE-BB|Hochschule der Polizei des Landes Brandenburg"
+      ]
+    },
+    "PTH-DE-63A4A9EA": {
+      "created": 274,
+      "hosts": [],
+      "name": "Private Hochschule für Wirtschaft und Technik",
+      "source_keys": [
+        "DE-NI|Private Hochschule für Wirtschaft und Technik"
+      ]
+    },
+    "PTH-DE-63AC0121": {
+      "created": 228,
+      "hosts": [
+        "hcu-hamburg.de"
+      ],
+      "name": "HafenCity Universität Hamburg",
+      "source_keys": [
+        "DE-HH|HafenCity Universität Hamburg - Universität für Baukunst und Metropolenentwicklung"
+      ]
+    },
+    "PTH-DE-63CC88BF": {
+      "created": 89,
+      "hosts": [
+        "hs-offenburg.de"
+      ],
+      "name": "Hochschule für Technik, Wirtschaft und Medien Offenburg",
+      "source_keys": [
+        "DE-BW|Hochschule für Technik, Wirtschaft und Medien Offenburg"
+      ]
+    },
+    "PTH-DE-640BC1C6": {
+      "created": 99,
+      "hosts": [
+        "ph-heidelberg.de"
+      ],
+      "name": "PH Heidelberg",
+      "source_keys": [
+        "DE-BW|PH Heidelberg"
+      ]
+    },
+    "PTH-DE-65AF302B": {
+      "created": 17,
+      "hosts": [],
+      "name": "Medizinische Universität Lausitz",
+      "source_keys": [
+        "DE-BB|Medizinische Universität Lausitz – Carl Thiem"
+      ]
+    },
+    "PTH-DE-65CF70A1": {
+      "created": 183,
+      "hosts": [
+        "ebs.edu"
+      ],
+      "name": "EBS Universität für Wirtschaft und Recht",
+      "source_keys": [
+        "DE-HE|EBS Universität für Wirtschaft und Recht (Oestrich-Winkel)"
+      ]
+    },
+    "PTH-DE-66F10FD8": {
+      "created": 37,
+      "hosts": [
+        "hi-university.de"
+      ],
+      "name": "Health Innovation University of Applied Sciences",
+      "source_keys": [
+        "DE-BE|Health Innovation University of Applied Sciences"
+      ]
+    },
+    "PTH-DE-6707DA28": {
+      "created": 142,
+      "hosts": [
+        "hof-university.de"
+      ],
+      "name": "Hochschule für angewandte Wissenschaften Hof",
+      "source_keys": [
+        "DE-BY|Hochschule für angewandte Wissenschaften Hof"
+      ]
+    },
+    "PTH-DE-6891D452": {
+      "created": 130,
+      "hosts": [
+        "fau.de"
+      ],
+      "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+      "source_keys": [
+        "DE-BY|Friedrich-Alexander-Universität Erlangen-Nürnberg"
+      ]
+    },
+    "PTH-DE-68F1D51B": {
+      "created": 50,
+      "hosts": [
+        "quadriga.eu"
+      ],
+      "name": "Quadriga Hochschule Berlin",
+      "source_keys": [
+        "DE-BE|Quadriga Hochschule Berlin"
+      ]
+    },
+    "PTH-DE-692468FE": {
+      "created": 409,
+      "hosts": [
+        "fh-zwickau.de"
+      ],
+      "name": "Westsächsische Hochschule Zwickau",
+      "source_keys": [
+        "DE-SN|Westsächsische Hochschule Zwickau"
+      ]
+    },
+    "PTH-DE-693155B1": {
+      "created": 428,
+      "hosts": [],
+      "name": "Hochschule Schmalkalden",
+      "source_keys": [
+        "DE-TH|Hochschule Schmalkalden"
+      ]
+    },
+    "PTH-DE-69EA8917": {
+      "created": 127,
+      "hosts": [
+        "adbk-nuernberg.de"
+      ],
+      "name": "Akademie der Bildenden Künste Nürnberg",
+      "source_keys": [
+        "DE-BY|Akademie der Bildenden Künste Nürnberg"
+      ]
+    },
+    "PTH-DE-69FF1013": {
+      "created": 160,
+      "hosts": [
+        "th-deg.de"
+      ],
+      "name": "Technische Hochschule Deggendorf",
+      "source_keys": [
+        "DE-BY|Technische Hochschule Deggendorf"
+      ]
+    },
+    "PTH-DE-6A13037D": {
+      "created": 109,
+      "hosts": [
+        "mh-freiburg.de"
+      ],
+      "name": "Staatliche Hochschule für Musik Freiburg",
+      "source_keys": [
+        "DE-BW|Staatliche Hochschule für Musik Freiburg"
+      ]
+    },
+    "PTH-DE-6C08AA39": {
+      "created": 224,
+      "hosts": [],
+      "name": "Euro-FH - Europäische Fernhochschule Hamburg",
+      "source_keys": [
+        "DE-HH|Euro-FH - Europäische Fernhochschule Hamburg"
+      ]
+    },
+    "PTH-DE-6D4CCF40": {
+      "created": 194,
+      "hosts": [
+        "hs-rm.de"
+      ],
+      "name": "Hochschule RheinMain",
+      "source_keys": [
+        "DE-HE|Hochschule RheinMain (Wiesbaden/Rüsselsheim)"
+      ]
+    },
+    "PTH-DE-6DB0346C": {
+      "created": 259,
+      "hosts": [],
+      "name": "Hochschule Osnabrück",
+      "source_keys": [
+        "DE-NI|Hochschule Osnabrück"
+      ]
+    },
+    "PTH-DE-6ECA5C30": {
+      "created": 38,
+      "hosts": [
+        "hertie-school.org"
+      ],
+      "name": "Hertie School",
+      "source_keys": [
+        "DE-BE|Hertie School"
+      ]
+    },
+    "PTH-DE-6FBC72F0": {
+      "created": 78,
+      "hosts": [
+        "hs-rottenburg.de"
+      ],
+      "name": "Hochschule für Forstwirtschaft Rottenburg",
+      "source_keys": [
+        "DE-BW|Hochschule für Forstwirtschaft Rottenburg"
+      ]
+    },
+    "PTH-DE-70BC12C0": {
+      "created": 306,
+      "hosts": [
+        "h-brs.de"
+      ],
+      "name": "Hochschule Bonn-Rhein-Sieg",
+      "source_keys": [
+        "DE-NW|Hochschule Bonn-Rhein-Sieg"
+      ]
+    },
+    "PTH-DE-71374D94": {
+      "created": 34,
+      "hosts": [
+        "esmt.berlin"
+      ],
+      "name": "European School of Management and Technology",
+      "source_keys": [
+        "DE-BE|European School of Management and Technology"
+      ]
+    },
+    "PTH-DE-7156DFB0": {
+      "created": 49,
+      "hosts": [
+        "psychologische-hochschule.de"
+      ],
+      "name": "Psychologische Hochschule Berlin",
+      "source_keys": [
+        "DE-BE|Psychologische Hochschule Berlin"
+      ]
+    },
+    "PTH-DE-71863107": {
+      "created": 213,
+      "hosts": [
+        "wb-fernstudium.de"
+      ],
+      "name": "Wilhelm Büchner Hochschule",
+      "source_keys": [
+        "DE-HE|Wilhelm Büchner Hochschule"
+      ]
+    },
+    "PTH-DE-71C4839E": {
+      "created": 301,
+      "hosts": [
+        "fernuni-hagen.de"
+      ],
+      "name": "FernUniversität in Hagen",
+      "source_keys": [
+        "DE-NW|FernUniversität in Hagen"
+      ]
+    },
+    "PTH-DE-722A9C5A": {
+      "created": 311,
+      "hosts": [
+        "hochschule-ruhr-west.de"
+      ],
+      "name": "Hochschule Ruhr West",
+      "source_keys": [
+        "DE-NW|Hochschule Ruhr West"
+      ]
+    },
+    "PTH-DE-73327850": {
+      "created": 201,
+      "hosts": [
+        "lthh.de"
+      ],
+      "name": "Lutherische Theologische Hochschule",
+      "source_keys": [
+        "DE-HE|Lutherische Theologische Hochschule (Oberursel)"
+      ]
+    },
+    "PTH-DE-735828A2": {
+      "created": 328,
+      "hosts": [
+        "uni-wh.de"
+      ],
+      "name": "Private Universität Witten/Herdecke",
+      "source_keys": [
+        "DE-NW|Private Universität Witten/Herdecke"
+      ]
+    },
+    "PTH-DE-736555E1": {
+      "created": 7,
+      "hosts": [],
+      "name": "German University of Digital Science",
+      "source_keys": [
+        "DE-BB|German University of Digital Science (German UDS)"
+      ]
+    },
+    "PTH-DE-73FB342A": {
+      "created": 33,
+      "hosts": [
+        "escp.eu"
+      ],
+      "name": "ESCP Business School",
+      "source_keys": [
+        "DE-BE|ESCP Business School"
+      ]
+    },
+    "PTH-DE-7418EB9F": {
+      "created": 326,
+      "hosts": [
+        "pth-muenster.de"
+      ],
+      "name": "Philosophisch-Theologische Hochschule Münster",
+      "source_keys": [
+        "DE-NW|Philosophisch-Theologische Hochschule Münster"
+      ]
+    },
+    "PTH-DE-75627240": {
+      "created": 6,
+      "hosts": [],
+      "name": "Filmuniversität Babelsberg Konrad Wolf",
+      "source_keys": [
+        "DE-BB|Filmuniversität Babelsberg Konrad Wolf"
+      ]
+    },
+    "PTH-DE-7725F08E": {
+      "created": 223,
+      "hosts": [
+        "ebc-hochschule.de"
+      ],
+      "name": "EBC Hochschule Hamburg",
+      "source_keys": [
+        "DE-HH|EBC Hochschule Hamburg"
+      ]
+    },
+    "PTH-DE-7746BCE9": {
+      "created": 166,
+      "hosts": [
+        "tu-n.org"
+      ],
+      "name": "Technische Universität Nürnberg",
+      "source_keys": [
+        "DE-BY|Technische Universität Nürnberg"
+      ]
+    },
+    "PTH-DE-77C86E68": {
+      "created": 431,
+      "hosts": [],
+      "name": "Technische Universität Ilmenau",
+      "source_keys": [
+        "DE-TH|Technische Universität Ilmenau"
+      ]
+    },
+    "PTH-DE-7866B017": {
+      "created": 184,
+      "hosts": [
+        "eh-hessen.de"
+      ],
+      "name": "Evangelische Hochschule Hessen",
+      "source_keys": [
+        "DE-HE|Evangelische Hochschule Hessen"
+      ]
+    },
+    "PTH-DE-79190743": {
+      "created": 280,
+      "hosts": [],
+      "name": "Universität Hildesheim",
+      "source_keys": [
+        "DE-NI|Universität Hildesheim"
+      ]
+    },
+    "PTH-DE-7965EB58": {
+      "created": 261,
+      "hosts": [],
+      "name": "Hochschule für Bildende Künste Braunschweig",
+      "source_keys": [
+        "DE-NI|Hochschule für Bildende Künste Braunschweig"
+      ]
+    },
+    "PTH-DE-79BA83ED": {
+      "created": 120,
+      "hosts": [
+        "uni-konstanz.de"
+      ],
+      "name": "Universität Konstanz",
+      "source_keys": [
+        "DE-BW|Universität Konstanz"
+      ]
+    },
+    "PTH-DE-79FED04C": {
+      "created": 65,
+      "hosts": [
+        "hochschule-biberach.de"
+      ],
+      "name": "Hochschule Biberach",
+      "source_keys": [
+        "DE-BW|Hochschule Biberach - Architektur und Bauwesen, Betriebswirtschaft und Biotechnologie"
+      ]
+    },
+    "PTH-DE-7A2C6946": {
+      "created": 195,
+      "hosts": [
+        "dguv.de"
+      ],
+      "name": "Hochschule der Deutschen Gesetzlichen Unfallversicherung",
+      "source_keys": [
+        "DE-HE|Hochschule der Deutschen Gesetzlichen Unfallversicherung (HGU)"
+      ]
+    },
+    "PTH-DE-7A4CABD1": {
+      "created": 416,
+      "hosts": [
+        "hs-merseburg.de"
+      ],
+      "name": "Hochschule Merseburg",
+      "source_keys": [
+        "DE-ST|Hochschule Merseburg"
+      ]
+    },
+    "PTH-DE-7AB69005": {
+      "created": 350,
+      "hosts": [
+        "hs-mainz.de"
+      ],
+      "name": "Hochschule Mainz",
+      "source_keys": [
+        "DE-RP|Hochschule Mainz"
+      ]
+    },
+    "PTH-DE-7ACBD936": {
+      "created": 256,
+      "hosts": [],
+      "name": "Hochschule 21",
+      "source_keys": [
+        "DE-NI|Hochschule 21"
+      ]
+    },
+    "PTH-DE-7B83B116": {
+      "created": 433,
+      "hosts": [],
+      "name": "Universität Erfurt",
+      "source_keys": [
+        "DE-TH|Universität Erfurt"
+      ]
+    },
+    "PTH-DE-7F947934": {
+      "created": 252,
+      "hosts": [
+        "uni-greifswald.de"
+      ],
+      "name": "Universität Greifswald",
+      "source_keys": [
+        "DE-MV|Universität Greifswald"
+      ]
+    },
+    "PTH-DE-7FD81E84": {
+      "created": 199,
+      "hosts": [
+        "uni-giessen.de"
+      ],
+      "name": "Justus-Liebig-Universität Gießen",
+      "source_keys": [
+        "DE-HE|Justus-Liebig-Universität Gießen"
+      ]
+    },
+    "PTH-DE-8006A184": {
+      "created": 41,
+      "hosts": [],
+      "name": "Hochschule für Schauspielkunst Ernst Busch Berlin",
+      "source_keys": [
+        "DE-BE|Hochschule für Schauspielkunst Ernst Busch Berlin (HfS)"
+      ]
+    },
+    "PTH-DE-81103A71": {
+      "created": 10,
+      "hosts": [],
+      "name": "Health and Medical University Potsdam",
+      "source_keys": [
+        "DE-BB|Health and Medical University Potsdam (HMU)"
+      ]
+    },
+    "PTH-DE-811643D5": {
+      "created": 28,
+      "hosts": [],
+      "name": "Berliner Hochschule für Technik",
+      "source_keys": [
+        "DE-BE|Berliner Hochschule für Technik (BHT)"
+      ]
+    },
+    "PTH-DE-814E571B": {
+      "created": 241,
+      "hosts": [],
+      "name": "Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg",
+      "source_keys": [
+        "DE-HH|Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg"
+      ]
+    },
+    "PTH-DE-81BA9ED3": {
+      "created": 260,
+      "hosts": [],
+      "name": "Hochschule Weserbergland",
+      "source_keys": [
+        "DE-NI|Hochschule Weserbergland"
+      ]
+    },
+    "PTH-DE-82129851": {
+      "created": 376,
+      "hosts": [
+        "hs-flensburg.de"
+      ],
+      "name": "Hochschule Flensburg",
+      "source_keys": [
+        "DE-SH|Hochschule Flensburg"
+      ]
+    },
+    "PTH-DE-8221F823": {
+      "created": 247,
+      "hosts": [
+        "hs-nb.de"
+      ],
+      "name": "Hochschule Neubrandenburg",
+      "source_keys": [
+        "DE-MV|Hochschule Neubrandenburg"
+      ]
+    },
+    "PTH-DE-82357F20": {
+      "created": 322,
+      "hosts": [
+        "kunstakademie-duesseldorf.de"
+      ],
+      "name": "Kunstakademie Düsseldorf",
+      "source_keys": [
+        "DE-NW|Kunstakademie Düsseldorf"
+      ]
+    },
+    "PTH-DE-8504CB52": {
+      "created": 15,
+      "hosts": [
+        "macromedia-fachhochschule.de"
+      ],
+      "name": "Macromedia University of Applied Sciences",
+      "source_keys": [
+        "DE-BB|Macromedia University of Applied Sciences",
+        "DE-HH|Hochschule Macromedia, University of Applied Science **"
+      ]
+    },
+    "PTH-DE-850F2C37": {
+      "created": 253,
+      "hosts": [
+        "uni-rostock.de"
+      ],
+      "name": "Universität Rostock",
+      "source_keys": [
+        "DE-MV|Universität Rostock"
+      ]
+    },
+    "PTH-DE-85C8C4A4": {
+      "created": 318,
+      "hosts": [
+        "hspv.nrw.de"
+      ],
+      "name": "Hochschule für Polizei und öffentliche Verwaltung Nordrhein-Westfalen",
+      "source_keys": [
+        "DE-NW|Hochschule für Polizei und öffentliche Verwaltung Nordrhein-Westfalen"
+      ]
+    },
+    "PTH-DE-8718D34D": {
+      "created": 198,
+      "hosts": [
+        "hfmdk-frankfurt.info"
+      ],
+      "name": "Hochschule für Musik und Darstellende Kunst Frankfurt am Main",
+      "source_keys": [
+        "DE-HE|Hochschule für Musik und Darstellende Kunst Frankfurt am Main"
+      ]
+    },
+    "PTH-DE-87BBE472": {
+      "created": 339,
+      "hosts": [
+        "thf-paderborn.de"
+      ],
+      "name": "Theologische Fakultät Paderborn",
+      "source_keys": [
+        "DE-NW|Theologische Fakultät Paderborn"
+      ]
+    },
+    "PTH-DE-87EA7F58": {
+      "created": 1,
+      "hosts": [],
+      "name": "Deutsche Hochschule für angewandte Wissenschaften",
+      "source_keys": [
+        "DE-BB|Deutsche Hochschule für angewandte Wissenschaften"
+      ]
+    },
+    "PTH-DE-87F8256D": {
+      "created": 403,
+      "hosts": [
+        "htwk-leipzig.de"
+      ],
+      "name": "Hochschule für Technik, Wirtschaft und Kultur Leipzig",
+      "source_keys": [
+        "DE-SN|Hochschule für Technik, Wirtschaft und Kultur Leipzig"
+      ]
+    },
+    "PTH-DE-88C4820B": {
+      "created": 207,
+      "hosts": [
+        "tu-darmstadt.de"
+      ],
+      "name": "Technische Universität Darmstadt",
+      "source_keys": [
+        "DE-HE|Technische Universität Darmstadt"
+      ]
+    },
+    "PTH-DE-895EDEAB": {
+      "created": 388,
+      "hosts": [
+        "di-uni.de"
+      ],
+      "name": "DIU Dresden International University",
+      "source_keys": [
+        "DE-SN|DIU Dresden International University"
+      ]
+    },
+    "PTH-DE-8A0785DF": {
+      "created": 419,
+      "hosts": [
+        "steinbeis-hochschule.de"
+      ],
+      "name": "Steinbeis Hochschule",
+      "source_keys": [
+        "DE-ST|Steinbeis Hochschule"
+      ]
+    },
+    "PTH-DE-8A85D78E": {
+      "created": 377,
+      "hosts": [
+        "mh-luebeck.de"
+      ],
+      "name": "Musikhochschule Lübeck",
+      "source_keys": [
+        "DE-SH|Musikhochschule Lübeck"
+      ]
+    },
+    "PTH-DE-8AA8F1E8": {
+      "created": 289,
+      "hosts": [
+        "ebz-business-school.de"
+      ],
+      "name": "EBZ Business School",
+      "source_keys": [
+        "DE-NW|EBZ Business School"
+      ]
+    },
+    "PTH-DE-8ABAABBA": {
+      "created": 373,
+      "hosts": [
+        "fh-westkueste.de"
+      ],
+      "name": "Fachhochschule Westküste in Heide",
+      "source_keys": [
+        "DE-SH|Fachhochschule Westküste in Heide"
+      ]
+    },
+    "PTH-DE-8B32735E": {
+      "created": 356,
+      "hosts": [
+        "hfgg.de"
+      ],
+      "name": "Hochschule für Gesellschaftsgestaltung",
+      "source_keys": [
+        "DE-RP|Hochschule für Gesellschaftsgestaltung"
+      ]
+    },
+    "PTH-DE-8B6AE132": {
+      "created": 79,
+      "hosts": [
+        "hfg-gmuend.de"
+      ],
+      "name": "Hochschule für Gestaltung Schwäbisch Gmünd",
+      "source_keys": [
+        "DE-BW|Hochschule für Gestaltung Schwäbisch Gmünd"
+      ]
+    },
+    "PTH-DE-8B75A17C": {
+      "created": 360,
+      "hosts": [
+        "uni-mainz.de"
+      ],
+      "name": "Johannes Gutenberg-Universität Mainz",
+      "source_keys": [
+        "DE-RP|Johannes Gutenberg-Universität Mainz"
+      ]
+    },
+    "PTH-DE-8C7D0241": {
+      "created": 278,
+      "hosts": [],
+      "name": "Technische Universität Clausthal",
+      "source_keys": [
+        "DE-NI|Technische Universität Clausthal"
+      ]
+    },
+    "PTH-DE-8C9328E4": {
+      "created": 147,
+      "hosts": [
+        "hswt.de"
+      ],
+      "name": "Hochschule für angewandte Wissenschaften Weihenstephan-Triesdorf",
+      "source_keys": [
+        "DE-BY|Hochschule für angewandte Wissenschaften Weihenstephan-Triesdorf"
+      ]
+    },
+    "PTH-DE-8CC497AB": {
+      "created": 152,
+      "hosts": [
+        "uni-muenchen.de"
+      ],
+      "name": "Ludwig-Maximilians-Universität München",
+      "source_keys": [
+        "DE-BY|Ludwig-Maximilians-Universität München"
+      ]
+    },
+    "PTH-DE-8CC9B530": {
+      "created": 393,
+      "hosts": [
+        "hsf.sachsen.de"
+      ],
+      "name": "Hochschule Meißen und Fortbildungszentrum",
+      "source_keys": [
+        "DE-SN|Hochschule Meißen (FH) und Fortbildungszentrum"
+      ]
+    },
+    "PTH-DE-8D9F2D19": {
+      "created": 382,
+      "hosts": [],
+      "name": "Deutsche Hochschule für Prävention und Gesundheitsmanagement GmbH",
+      "source_keys": [
+        "DE-SL|Deutsche Hochschule für Prävention und Gesundheitsmanagement GmbH"
+      ]
+    },
+    "PTH-DE-8E0FCE15": {
+      "created": 21,
+      "hosts": [
+        "ue-germany.com"
+      ],
+      "name": "University of Europe for Applied Sciences",
+      "source_keys": [
+        "DE-BB|University of Europe for Applied Sciences",
+        "DE-HH|University of Europe for Applied Sciences"
+      ]
+    },
+    "PTH-DE-8E18AE36": {
+      "created": 163,
+      "hosts": [
+        "th-rosenheim.de"
+      ],
+      "name": "Technische Hochschule Rosenheim",
+      "source_keys": [
+        "DE-BY|Technische Hochschule Rosenheim"
+      ]
+    },
+    "PTH-DE-8E80E7B5": {
+      "created": 162,
+      "hosts": [
+        "th-nuernberg.de"
+      ],
+      "name": "Technische Hochschule Nürnberg Georg Simon Ohm",
+      "source_keys": [
+        "DE-BY|Technische Hochschule Nürnberg Georg Simon Ohm"
+      ]
+    },
+    "PTH-DE-91E32BF9": {
+      "created": 330,
+      "hosts": [
+        "rfh-koeln.de"
+      ],
+      "name": "Rheinische Fachhochschule Köln",
+      "source_keys": [
+        "DE-NW|Rheinische Fachhochschule Köln"
+      ]
+    },
+    "PTH-DE-91F4B012": {
+      "created": 47,
+      "hosts": [
+        "hmkw.de"
+      ],
+      "name": "Media University of Applied Sciences",
+      "source_keys": [
+        "DE-BE|Media University of Applied Sciences"
+      ]
+    },
+    "PTH-DE-939BAA2D": {
+      "created": 221,
+      "hosts": [
+        "law-school.de"
+      ],
+      "name": "Bucerius Law School Hochschule für Rechtswissenschaft",
+      "source_keys": [
+        "DE-HH|Bucerius Law School Hochschule für Rechtswissenschaft"
+      ]
+    },
+    "PTH-DE-93D759B8": {
+      "created": 83,
+      "hosts": [
+        "kirchenmusik-hochschule.org"
+      ],
+      "name": "Hochschule für Kirchenmusik Rottenburg",
+      "source_keys": [
+        "DE-BW|Hochschule für Kirchenmusik Rottenburg"
+      ]
+    },
+    "PTH-DE-9474447B": {
+      "created": 58,
+      "hosts": [
+        "allensbach-hochschule.de"
+      ],
+      "name": "Allensbach Hochschule",
+      "source_keys": [
+        "DE-BW|Allensbach Hochschule"
+      ]
+    },
+    "PTH-DE-94951124": {
+      "created": 69,
+      "hosts": [
+        "hs-heilbronn.de"
+      ],
+      "name": "Hochschule Heilbronn",
+      "source_keys": [
+        "DE-BW|Hochschule Heilbronn - Technik, Wirtschaft, Informatik"
+      ]
+    },
+    "PTH-DE-94D2C637": {
+      "created": 119,
+      "hosts": [
+        "uni-hohenheim.de"
+      ],
+      "name": "Universität Hohenheim",
+      "source_keys": [
+        "DE-BW|Universität Hohenheim"
+      ]
+    },
+    "PTH-DE-951272E7": {
+      "created": 66,
+      "hosts": [
+        "hs-esslingen.de"
+      ],
+      "name": "Hochschule Esslingen",
+      "source_keys": [
+        "DE-BW|Hochschule Esslingen - Technik, Wirtschaft, Soziales"
+      ]
+    },
+    "PTH-DE-95B44EFC": {
+      "created": 175,
+      "hosts": [
+        "hs-bremen.de"
+      ],
+      "name": "Hochschule Bremen",
+      "source_keys": [
+        "DE-HB|Hochschule Bremen"
+      ]
+    },
+    "PTH-DE-964C4772": {
+      "created": 59,
+      "hosts": [
+        "dhbw.de"
+      ],
+      "name": "Duale Hochschule Baden-Württemberg",
+      "source_keys": [
+        "DE-BW|Duale Hochschule Baden-Württemberg"
+      ]
+    },
+    "PTH-DE-969C7D7A": {
+      "created": 94,
+      "hosts": [
+        "karlshochschule.de"
+      ],
+      "name": "Karlshochschule International University",
+      "source_keys": [
+        "DE-BW|Karlshochschule International University"
+      ]
+    },
+    "PTH-DE-98294AE5": {
+      "created": 212,
+      "hosts": [
+        "uni-kassel.de"
+      ],
+      "name": "Universität Kassel",
+      "source_keys": [
+        "DE-HE|Universität Kassel"
+      ]
+    },
+    "PTH-DE-984EF29F": {
+      "created": 342,
+      "hosts": [
+        "uni-paderborn.de"
+      ],
+      "name": "Universität Paderborn",
+      "source_keys": [
+        "DE-NW|Universität Paderborn"
+      ]
+    },
+    "PTH-DE-984F281F": {
+      "created": 263,
+      "hosts": [],
+      "name": "Hochschule für Musik, Theater und Medien Hannover",
+      "source_keys": [
+        "DE-NI|Hochschule für Musik, Theater und Medien Hannover"
+      ]
+    },
+    "PTH-DE-99641BA9": {
+      "created": 136,
+      "hosts": [
+        "hfm-wuerzburg.de"
+      ],
+      "name": "Hochschule für Musik Würzburg",
+      "source_keys": [
+        "DE-BY|Hochschule für Musik Würzburg"
+      ]
+    },
+    "PTH-DE-99A0C56C": {
+      "created": 158,
+      "hosts": [
+        "th-ab.de"
+      ],
+      "name": "Technische Hochschule Aschaffenburg",
+      "source_keys": [
+        "DE-BY|Technische Hochschule Aschaffenburg"
+      ]
+    },
+    "PTH-DE-9A155DBB": {
+      "created": 150,
+      "hosts": [
+        "ksh-muenchen.de"
+      ],
+      "name": "Katholische Stiftungshochschule für angewandte Wissenschaften München",
+      "source_keys": [
+        "DE-BY|Katholische Stiftungshochschule für angewandte Wissenschaften München"
+      ]
+    },
+    "PTH-DE-9A57A703": {
+      "created": 226,
+      "hosts": [
+        "hfh-fernstudium.de"
+      ],
+      "name": "HFH Hamburger Fern-Hochschule",
+      "source_keys": [
+        "DE-HH|HFH Hamburger Fern-Hochschule",
+        "DE-MV|HFH Hamburger Fern-Hochschule"
+      ]
+    },
+    "PTH-DE-9B0266E7": {
+      "created": 156,
+      "hosts": [
+        "oth-regensburg.de"
+      ],
+      "name": "Ostbayerische Technische Hochschule Regensburg",
+      "source_keys": [
+        "DE-BY|Ostbayerische Technische Hochschule Regensburg"
+      ]
+    },
+    "PTH-DE-9B09777C": {
+      "created": 106,
+      "hosts": [
+        "kunstakademie-karlsruhe.de"
+      ],
+      "name": "Staatliche Akademie der Bildenden Künste Karlsruhe",
+      "source_keys": [
+        "DE-BW|Staatliche Akademie der Bildenden Künste Karlsruhe"
+      ]
+    },
+    "PTH-DE-9BA66218": {
+      "created": 323,
+      "hosts": [
+        "kunstakademie-muenster.de"
+      ],
+      "name": "Kunstakademie Münster",
+      "source_keys": [
+        "DE-NW|Kunstakademie Münster"
+      ]
+    },
+    "PTH-DE-9BA736D9": {
+      "created": 53,
+      "hosts": [
+        "victoria-hochschule.de"
+      ],
+      "name": "VICTORIA | Internationale Hochschule",
+      "source_keys": [
+        "DE-BE|VICTORIA | Internationale Hochschule"
+      ]
+    },
+    "PTH-DE-9BBE6545": {
+      "created": 331,
+      "hosts": [
+        "uni-bonn.de"
+      ],
+      "name": "Rheinische Friedrich-Wilhelms-Universität Bonn",
+      "source_keys": [
+        "DE-NW|Rheinische Friedrich-Wilhelms-Universität Bonn"
+      ]
+    },
+    "PTH-DE-9D20A805": {
+      "created": 61,
+      "hosts": [
+        "eh-freiburg.de"
+      ],
+      "name": "Evangelische Hochschule Freiburg",
+      "source_keys": [
+        "DE-BW|Evangelische Hochschule Freiburg"
+      ]
+    },
+    "PTH-DE-9E5A9A74": {
+      "created": 336,
+      "hosts": [
+        "th-koeln.de"
+      ],
+      "name": "Technische Hochschule Köln",
+      "source_keys": [
+        "DE-NW|Technische Hochschule Köln"
+      ]
+    },
+    "PTH-DE-9EE725D4": {
+      "created": 317,
+      "hosts": [
+        "hfmt-koeln.de"
+      ],
+      "name": "Hochschule für Musik und Tanz Köln",
+      "source_keys": [
+        "DE-NW|Hochschule für Musik und Tanz Köln"
+      ]
+    },
+    "PTH-DE-9F19FA38": {
+      "created": 243,
+      "hosts": [
+        "uni-hamburg.de"
+      ],
+      "name": "Universität Hamburg",
+      "source_keys": [
+        "DE-HH|Universität Hamburg"
+      ]
+    },
+    "PTH-DE-9F2938CA": {
+      "created": 313,
+      "hosts": [
+        "s-hochschule.de"
+      ],
+      "name": "Hochschule für Finanzwirtschaft & Management",
+      "source_keys": [
+        "DE-NW|Hochschule für Finanzwirtschaft & Management"
+      ]
+    },
+    "PTH-DE-9FCC98BE": {
+      "created": 298,
+      "hosts": [
+        "fhdw.de"
+      ],
+      "name": "Fachhochschule der Wirtschaft Nordrhein-Westfalen",
+      "source_keys": [
+        "DE-NW|Fachhochschule der Wirtschaft Nordrhein-Westfalen"
+      ]
+    },
+    "PTH-DE-9FDC2FCB": {
+      "created": 401,
+      "hosts": [
+        "hmt-leipzig.de"
+      ],
+      "name": "Hochschule für Musik und Theater »Felix Mendelssohn Bartholdy« Leipzig",
+      "source_keys": [
+        "DE-SN|Hochschule für Musik und Theater »Felix Mendelssohn Bartholdy« Leipzig"
+      ]
+    },
+    "PTH-DE-A000C198": {
+      "created": 95,
+      "hosts": [
+        "kit.edu"
+      ],
+      "name": "Karlsruher Institut für Technologie",
+      "source_keys": [
+        "DE-BW|Karlsruher Institut für Technologie (KIT)"
+      ]
+    },
+    "PTH-DE-A131128F": {
+      "created": 115,
+      "hosts": [
+        "th-reutlingen.de"
+      ],
+      "name": "Theologische Hochschule Reutlingen",
+      "source_keys": [
+        "DE-BW|Theologische Hochschule Reutlingen"
+      ]
+    },
+    "PTH-DE-A23A3F24": {
+      "created": 394,
+      "hosts": [
+        "hs-mittweida.de"
+      ],
+      "name": "Hochschule Mittweida",
+      "source_keys": [
+        "DE-SN|Hochschule Mittweida"
+      ]
+    },
+    "PTH-DE-A362F446": {
+      "created": 140,
+      "hosts": [
+        "hs-ansbach.de"
+      ],
+      "name": "Hochschule für angewandte Wissenschaften Ansbach",
+      "source_keys": [
+        "DE-BY|Hochschule für angewandte Wissenschaften Ansbach"
+      ]
+    },
+    "PTH-DE-A382A8F2": {
+      "created": 246,
+      "hosts": [],
+      "name": "Fachhochschule für öffentliche Verwaltung, Polizei und Rechtspflege Mecklenburg-Vorpommern",
+      "source_keys": [
+        "DE-MV|Fachhochschule für öffentliche Verwaltung, Polizei und Rechtspflege Mecklenburg-Vorpommern"
+      ]
+    },
+    "PTH-DE-A39F716D": {
+      "created": 426,
+      "hosts": [],
+      "name": "HMU Health and Medical University Erfurt",
+      "source_keys": [
+        "DE-TH|HMU Health and Medical University Erfurt"
+      ]
+    },
+    "PTH-DE-A4FEC245": {
+      "created": 354,
+      "hosts": [
+        "polizei.rlp.de"
+      ],
+      "name": "Hochschule der Polizei Rheinland-Pfalz",
+      "source_keys": [
+        "DE-RP|Hochschule der Polizei Rheinland-Pfalz"
+      ]
+    },
+    "PTH-DE-A5B8EA35": {
+      "created": 303,
+      "hosts": [
+        "folkwang-uni.de"
+      ],
+      "name": "Folkwang Universität der Künste",
+      "source_keys": [
+        "DE-NW|Folkwang Universität der Künste"
+      ]
+    },
+    "PTH-DE-A6424118": {
+      "created": 372,
+      "hosts": [
+        "fh-wedel.de"
+      ],
+      "name": "Fachhochschule Wedel",
+      "source_keys": [
+        "DE-SH|Fachhochschule Wedel"
+      ]
+    },
+    "PTH-DE-A7AEF5C7": {
+      "created": 408,
+      "hosts": [
+        "leipzig-studieren.de"
+      ],
+      "name": "Universität Leipzig",
+      "source_keys": [
+        "DE-SN|Universität Leipzig"
+      ]
+    },
+    "PTH-DE-A85D8D5A": {
+      "created": 275,
+      "hosts": [],
+      "name": "Steuerakademie Niedersachsen",
+      "source_keys": [
+        "DE-NI|Steuerakademie Niedersachsen"
+      ]
+    },
+    "PTH-DE-A999088C": {
+      "created": 355,
+      "hosts": [
+        "landesfinanzschule-edenkoben.fin-rlp.de"
+      ],
+      "name": "Hochschule für Finanzen Rheinland-Pfalz",
+      "source_keys": [
+        "DE-RP|Hochschule für Finanzen Rheinland-Pfalz"
+      ]
+    },
+    "PTH-DE-A9D82277": {
+      "created": 171,
+      "hosts": [
+        "uni-regensburg.de"
+      ],
+      "name": "Universität Regensburg",
+      "source_keys": [
+        "DE-BY|Universität Regensburg"
+      ]
+    },
+    "PTH-DE-A9DB0F31": {
+      "created": 27,
+      "hosts": [
+        "barenboimsaid.de"
+      ],
+      "name": "Barenboim-Said Akademie gGmbH",
+      "source_keys": [
+        "DE-BE|Barenboim-Said Akademie gGmbH"
+      ]
+    },
+    "PTH-DE-AA0D9A9A": {
+      "created": 173,
+      "hosts": [
+        "apollon-hochschule.de"
+      ],
+      "name": "Apollon Hochschule der Gesundheitswirtschaft",
+      "source_keys": [
+        "DE-HB|Apollon Hochschule der Gesundheitswirtschaft"
+      ]
+    },
+    "PTH-DE-AA23EC07": {
+      "created": 411,
+      "hosts": [
+        "ehk-halle.de"
+      ],
+      "name": "Evangelische Hochschule für Kirchenmusik Halle an der Saale",
+      "source_keys": [
+        "DE-ST|Evangelische Hochschule für Kirchenmusik Halle an der Saale"
+      ]
+    },
+    "PTH-DE-AA53C23D": {
+      "created": 220,
+      "hosts": [
+        "brand-university.de"
+      ],
+      "name": "Brand University of Applied Sciences",
+      "source_keys": [
+        "DE-HH|Brand University of Applied Sciences"
+      ]
+    },
+    "PTH-DE-ABB5F177": {
+      "created": 254,
+      "hosts": [],
+      "name": "Fachhochschule für die Wirtschaft Hannover",
+      "source_keys": [
+        "DE-NI|Fachhochschule für die Wirtschaft Hannover"
+      ]
+    },
+    "PTH-DE-ADDB8FB5": {
+      "created": 358,
+      "hosts": [
+        "hwg-lu.de"
+      ],
+      "name": "Hochschule für Wirtschaft und Gesellschaft Ludwigshafen",
+      "source_keys": [
+        "DE-RP|Hochschule für Wirtschaft und Gesellschaft Ludwigshafen"
+      ]
+    },
+    "PTH-DE-AEE38437": {
+      "created": 126,
+      "hosts": [
+        "adbk.de"
+      ],
+      "name": "Akademie der Bildenden Künste München",
+      "source_keys": [
+        "DE-BY|Akademie der Bildenden Künste München"
+      ]
+    },
+    "PTH-DE-AF3B2281": {
+      "created": 13,
+      "hosts": [],
+      "name": "Hochschule für angewandtes Management",
+      "source_keys": [
+        "DE-BB|Hochschule für angewandtes Management (HAM)"
+      ]
+    },
+    "PTH-DE-AF84820E": {
+      "created": 151,
+      "hosts": [
+        "ku.de"
+      ],
+      "name": "Katholische Universität Eichstätt-Ingolstadt",
+      "source_keys": [
+        "DE-BY|Katholische Universität Eichstätt-Ingolstadt"
+      ]
+    },
+    "PTH-DE-AFA7F1E8": {
+      "created": 309,
+      "hosts": [
+        "hs-niederrhein.de"
+      ],
+      "name": "Hochschule Niederrhein",
+      "source_keys": [
+        "DE-NW|Hochschule Niederrhein"
+      ]
+    },
+    "PTH-DE-B014911B": {
+      "created": 35,
+      "hosts": [],
+      "name": "Evangelische Hochschule Berlin",
+      "source_keys": [
+        "DE-BE|Evangelische Hochschule Berlin"
+      ]
+    },
+    "PTH-DE-B1010E05": {
+      "created": 302,
+      "hosts": [
+        "fliedner-fachhochschule.de"
+      ],
+      "name": "Fliedner Fachhochschule Düsseldorf",
+      "source_keys": [
+        "DE-NW|Fliedner Fachhochschule Düsseldorf"
+      ]
+    },
+    "PTH-DE-B1D4EBE9": {
+      "created": 39,
+      "hosts": [
+        "hsbund.de"
+      ],
+      "name": "Hochschule des Bundes für öffentliche Verwaltung",
+      "source_keys": [
+        "DE-BE|Hochschule des Bundes für öffentliche Verwaltung",
+        "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Kriminalpolizei in Wiesbaden",
+        "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Landwirtschaftliche Sozialversicherung in Kassel",
+        "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Wetterdienst in Offenbach",
+        "DE-NW|Hochschule des Bundes für öffentliche Verwaltung",
+        "DE-SH|FH des Bundes für öffentliche Verwaltung (Bundespolizei)"
+      ]
+    },
+    "PTH-DE-B20BF9BC": {
+      "created": 29,
+      "hosts": [
+        "code.berlin"
+      ],
+      "name": "CODE University of Applied Sciences",
+      "source_keys": [
+        "DE-BE|CODE University of Applied Sciences"
+      ]
+    },
+    "PTH-DE-B2122679": {
+      "created": 242,
+      "hosts": [
+        "tu-harburg.de"
+      ],
+      "name": "Technische Universität Hamburg-Harburg",
+      "source_keys": [
+        "DE-HH|Technische Universität Hamburg-Harburg"
+      ]
+    },
+    "PTH-DE-B253D054": {
+      "created": 3,
+      "hosts": [],
+      "name": "FH Sport und Management - Campus",
+      "source_keys": [
+        "DE-BB|FH Sport und Management - Campus"
+      ]
+    },
+    "PTH-DE-B2F89B7D": {
+      "created": 391,
+      "hosts": [
+        "fh-dresden.eu"
+      ],
+      "name": "Fachhochschule Dresden",
+      "source_keys": [
+        "DE-SN|Fachhochschule Dresden"
+      ]
+    },
+    "PTH-DE-B3028169": {
+      "created": 316,
+      "hosts": [
+        "hfm-detmold.de"
+      ],
+      "name": "Hochschule für Musik Detmold",
+      "source_keys": [
+        "DE-NW|Hochschule für Musik Detmold"
+      ]
+    },
+    "PTH-DE-B40F3464": {
+      "created": 308,
+      "hosts": [
+        "hshl.de"
+      ],
+      "name": "Hochschule Hamm-Lippstadt",
+      "source_keys": [
+        "DE-NW|Hochschule Hamm-Lippstadt"
+      ]
+    },
+    "PTH-DE-B4588293": {
+      "created": 227,
+      "hosts": [],
+      "name": "HSBA Hamburg School of Business Administration",
+      "source_keys": [
+        "DE-HH|HSBA Hamburg School of Business Administration"
+      ]
+    },
+    "PTH-DE-B5094C2D": {
+      "created": 64,
+      "hosts": [
+        "htw-aalen.de"
+      ],
+      "name": "Hochschule Aalen",
+      "source_keys": [
+        "DE-BW|Hochschule Aalen - Technik und Wirtschaft"
+      ]
+    },
+    "PTH-DE-B5582DF5": {
+      "created": 148,
+      "hosts": [
+        "sdi-muenchen.de"
+      ],
+      "name": "Internationale Hochschule SDI München",
+      "source_keys": [
+        "DE-BY|Internationale Hochschule SDI München – Hochschule für angewandte Wissenschaften"
+      ]
+    },
+    "PTH-DE-B5989A2C": {
+      "created": 257,
+      "hosts": [],
+      "name": "Hochschule Emden / Leer",
+      "source_keys": [
+        "DE-NI|Hochschule Emden / Leer"
+      ]
+    },
+    "PTH-DE-B602F473": {
+      "created": 395,
+      "hosts": [
+        "hszg.de"
+      ],
+      "name": "Hochschule Zittau/Görlitz",
+      "source_keys": [
+        "DE-SN|Hochschule Zittau/Görlitz"
+      ]
+    },
+    "PTH-DE-B69F6DFC": {
+      "created": 271,
+      "hosts": [],
+      "name": "Ostfalia Hochschule",
+      "source_keys": [
+        "DE-NI|Ostfalia Hochschule"
+      ]
+    },
+    "PTH-DE-B6B6444D": {
+      "created": 238,
+      "hosts": [
+        "miamiadschool.de"
+      ],
+      "name": "Miami ad School Europe, Campus Hamburg",
+      "source_keys": [
+        "DE-HH|Miami ad School Europe, Campus Hamburg"
+      ]
+    },
+    "PTH-DE-B6C2E995": {
+      "created": 40,
+      "hosts": [],
+      "name": "Hochschule für Musik Hanns Eisler Berlin",
+      "source_keys": [
+        "DE-BE|Hochschule für Musik Hanns Eisler Berlin (HfM)"
+      ]
+    },
+    "PTH-DE-B845A3F3": {
+      "created": 273,
+      "hosts": [],
+      "name": "Private Hochschule Göttingen",
+      "source_keys": [
+        "DE-NI|Private Hochschule Göttingen"
+      ]
+    },
+    "PTH-DE-B971A9FC": {
+      "created": 154,
+      "hosts": [
+        "uni-munich.de"
+      ],
+      "name": "Munich University of Digital Technologies & Applied Sciences",
+      "source_keys": [
+        "DE-BY|Munich University of Digital Technologies & Applied Sciences"
+      ]
+    },
+    "PTH-DE-B9C902FA": {
+      "created": 113,
+      "hosts": [
+        "hs-mannheim.de"
+      ],
+      "name": "Technische Hochschule Mannheim",
+      "source_keys": [
+        "DE-BW|Technische Hochschule Mannheim"
+      ]
+    },
+    "PTH-DE-BB43E53E": {
+      "created": 295,
+      "hosts": [
+        "fh-dortmund.de"
+      ],
+      "name": "Fachhochschule Dortmund",
+      "source_keys": [
+        "DE-NW|Fachhochschule Dortmund"
+      ]
+    },
+    "PTH-DE-BBEC6EAD": {
+      "created": 187,
+      "hosts": [
+        "frankfurt-university.de"
+      ],
+      "name": "Frankfurt University of Applied Sciences",
+      "source_keys": [
+        "DE-HE|Frankfurt University of Applied Sciences"
+      ]
+    },
+    "PTH-DE-BC4E1432": {
+      "created": 55,
+      "hosts": [
+        "berlin-international.de"
+      ],
+      "name": "Whitecliffe University of Applied Sciences",
+      "source_keys": [
+        "DE-BE|Whitecliffe University of Applied Sciences"
+      ]
+    },
+    "PTH-DE-BCC10614": {
+      "created": 282,
+      "hosts": [],
+      "name": "Universität Osnabrück",
+      "source_keys": [
+        "DE-NI|Universität Osnabrück"
+      ]
+    },
+    "PTH-DE-BDD44C3F": {
+      "created": 98,
+      "hosts": [
+        "ph-freiburg.de"
+      ],
+      "name": "PH Freiburg",
+      "source_keys": [
+        "DE-BW|PH Freiburg"
+      ]
+    },
+    "PTH-DE-BE6A014B": {
+      "created": 177,
+      "hosts": [
+        "hfk-bremen.de"
+      ],
+      "name": "Hochschule für Künste Bremen",
+      "source_keys": [
+        "DE-HB|Hochschule für Künste Bremen"
+      ]
+    },
+    "PTH-DE-BE90EAEB": {
+      "created": 214,
+      "hosts": [
+        "accadis.com"
+      ],
+      "name": "accadis Hochschule",
+      "source_keys": [
+        "DE-HE|accadis Hochschule (Bad Homburg)"
+      ]
+    },
+    "PTH-DE-BF15A370": {
+      "created": 290,
+      "hosts": [
+        "eufh.de"
+      ],
+      "name": "Europäische Fachhochschule Rhein/Erft",
+      "source_keys": [
+        "DE-NW|Europäische Fachhochschule Rhein/Erft"
+      ]
+    },
+    "PTH-DE-BF7758DC": {
+      "created": 327,
+      "hosts": [
+        "kolping-hochschule.de"
+      ],
+      "name": "Private Kolping Hochschule für Gesundheit und Soziales",
+      "source_keys": [
+        "DE-NW|Private Kolping Hochschule für Gesundheit und Soziales"
+      ]
+    },
+    "PTH-DE-C01DD4F9": {
+      "created": 46,
+      "hosts": [],
+      "name": "Katholische Hochschule für Sozialwesen Berlin",
+      "source_keys": [
+        "DE-BE|Katholische Hochschule für Sozialwesen Berlin"
+      ]
+    },
+    "PTH-DE-C2BE9672": {
+      "created": 72,
+      "hosts": [
+        "hs-pforzheim.de"
+      ],
+      "name": "Hochschule Pforzheim",
+      "source_keys": [
+        "DE-BW|Hochschule Pforzheim - Gestaltung, Technik, Wirtschaft und Recht"
+      ]
+    },
+    "PTH-DE-C3EE60D8": {
+      "created": 272,
+      "hosts": [],
+      "name": "Polizeiakademie Niedersachsen",
+      "source_keys": [
+        "DE-NI|Polizeiakademie Niedersachsen"
+      ]
+    },
+    "PTH-DE-C3FFC56E": {
+      "created": 200,
+      "hosts": [
+        "kunsthochschulekassel.de"
+      ],
+      "name": "Kunsthochschule Kassel an der Universität Kassel",
+      "source_keys": [
+        "DE-HE|Kunsthochschule Kassel an der Universität Kassel"
+      ]
+    },
+    "PTH-DE-C5C18B4B": {
+      "created": 2,
+      "hosts": [],
+      "name": "Europa-Universität Viadrina",
+      "source_keys": [
+        "DE-BB|Europa-Universität Viadrina"
+      ]
+    },
+    "PTH-DE-C5D6AE9D": {
+      "created": 237,
+      "hosts": [
+        "medicalschool-hamburg.de"
+      ],
+      "name": "MSH Medical School Hamburg University of Applied Sciences and Medical University",
+      "source_keys": [
+        "DE-HH|MSH Medical School Hamburg University of Applied Sciences and Medical University"
+      ]
+    },
+    "PTH-DE-C5FC029B": {
+      "created": 52,
+      "hosts": [],
+      "name": "Universität der Künste Berlin",
+      "source_keys": [
+        "DE-BE|Universität der Künste Berlin (UdK)"
+      ]
+    },
+    "PTH-DE-C63590D1": {
+      "created": 374,
+      "hosts": [
+        "fhvd-sh.de"
+      ],
+      "name": "Fachhochschule für Verwaltung und Dienstleistung",
+      "source_keys": [
+        "DE-SH|Fachhochschule für Verwaltung und Dienstleistung"
+      ]
+    },
+    "PTH-DE-C69DF8D6": {
+      "created": 258,
+      "hosts": [],
+      "name": "Hochschule Hannover",
+      "source_keys": [
+        "DE-NI|Hochschule Hannover"
+      ]
+    },
+    "PTH-DE-C80C4156": {
+      "created": 423,
+      "hosts": [],
+      "name": "Ernst-Abbe-Hochschule Jena",
+      "source_keys": [
+        "DE-TH|Ernst-Abbe-Hochschule Jena"
+      ]
+    },
+    "PTH-DE-C84E589A": {
+      "created": 4,
+      "hosts": [],
+      "name": "Fachhochschule Potsdam",
+      "source_keys": [
+        "DE-BB|Fachhochschule Potsdam"
+      ]
+    },
+    "PTH-DE-C8A11830": {
+      "created": 332,
+      "hosts": [
+        "rsh-duesseldorf.de"
+      ],
+      "name": "Robert-Schumann-Hochschule Düsseldorf",
+      "source_keys": [
+        "DE-NW|Robert-Schumann-Hochschule Düsseldorf"
+      ]
+    },
+    "PTH-DE-C8D23656": {
+      "created": 334,
+      "hosts": [
+        "fh-hamm.de"
+      ],
+      "name": "SRH Hochschule in Nordrhein-Westfalen",
+      "source_keys": [
+        "DE-NW|SRH Hochschule in Nordrhein-Westfalen"
+      ]
+    },
+    "PTH-DE-C8FD5636": {
+      "created": 112,
+      "hosts": [
+        "mh-stuttgart.de"
+      ],
+      "name": "Staatliche Hochschule für Musik und Darstellende Kunst Stuttgart",
+      "source_keys": [
+        "DE-BW|Staatliche Hochschule für Musik und Darstellende Kunst Stuttgart"
+      ]
+    },
+    "PTH-DE-C900CD13": {
+      "created": 329,
+      "hosts": [
+        "rwth-aachen.de"
+      ],
+      "name": "Rheinisch-Westfälische Technische Hochschule Aachen",
+      "source_keys": [
+        "DE-NW|Rheinisch-Westfälische Technische Hochschule (RWTH) Aachen"
+      ]
+    },
+    "PTH-DE-C96932E3": {
+      "created": 167,
+      "hosts": [
+        "ufu-muenchen.de"
+      ],
+      "name": "Ukrainische Freie Universität in München",
+      "source_keys": [
+        "DE-BY|Ukrainische Freie Universität in München (staatlich genehmigte nichtstaatliche Universität, vgl. Art. 103 Abs.3 BayHSchG)"
+      ]
+    },
+    "PTH-DE-C9BE3AE1": {
+      "created": 116,
+      "hosts": [
+        "upa.edu.py"
+      ],
+      "name": "Universidad Paraguayo-Alemana de Ciencias Alicadas",
+      "source_keys": [
+        "DE-BW|Universidad Paraguayo-Alemana de Ciencias Alicadas (UPA)"
+      ]
+    },
+    "PTH-DE-CA02E866": {
+      "created": 262,
+      "hosts": [],
+      "name": "Hochschule für Künste im Sozialen",
+      "source_keys": [
+        "DE-NI|Hochschule für Künste im Sozialen"
+      ]
+    },
+    "PTH-DE-CACE6B4F": {
+      "created": 86,
+      "hosts": [
+        "hfpol-bw.de"
+      ],
+      "name": "Hochschule für Polizei Baden-Württemberg",
+      "source_keys": [
+        "DE-BW|Hochschule für Polizei Baden-Württemberg"
+      ]
+    },
+    "PTH-DE-CAD83EA6": {
+      "created": 222,
+      "hosts": [
+        "carl-remigius.de"
+      ],
+      "name": "Carl Remigius Medical School",
+      "source_keys": [
+        "DE-HH|Carl Remigius Medical School"
+      ]
+    },
+    "PTH-DE-CB6F164F": {
+      "created": 51,
+      "hosts": [],
+      "name": "Technische Universität Berlin",
+      "source_keys": [
+        "DE-BE|Technische Universität Berlin"
+      ]
+    },
+    "PTH-DE-CBF43321": {
+      "created": 155,
+      "hosts": [
+        "oth-aw.de"
+      ],
+      "name": "Ostbayerische Technische Hochschule Amberg-Weiden",
+      "source_keys": [
+        "DE-BY|Ostbayerische Technische Hochschule Amberg-Weiden"
+      ]
+    },
+    "PTH-DE-CC56CB38": {
+      "created": 292,
+      "hosts": [
+        "fh-muenster.de"
+      ],
+      "name": "FH Münster",
+      "source_keys": [
+        "DE-NW|FH Münster"
+      ]
+    },
+    "PTH-DE-CF32BEE2": {
+      "created": 380,
+      "hosts": [
+        "uni-luebeck.de"
+      ],
+      "name": "Universität Lübeck",
+      "source_keys": [
+        "DE-SH|Universität Lübeck"
+      ]
+    },
+    "PTH-DE-D087ED2C": {
+      "created": 132,
+      "hosts": [
+        "hfk-bayreuth.de"
+      ],
+      "name": "Hochschule für Evangelische Kirchenmusik Bayreuth",
+      "source_keys": [
+        "DE-BY|Hochschule für Evangelische Kirchenmusik Bayreuth"
+      ]
+    },
+    "PTH-DE-D1E9A12C": {
+      "created": 352,
+      "hosts": [
+        "hs-worms.de"
+      ],
+      "name": "Hochschule Worms",
+      "source_keys": [
+        "DE-RP|Hochschule Worms"
+      ]
+    },
+    "PTH-DE-D20DDE2F": {
+      "created": 229,
+      "hosts": [
+        "hamburgmediaschool.com"
+      ],
+      "name": "Hamburg Media School",
+      "source_keys": [
+        "DE-HH|Hamburg Media School"
+      ]
+    },
+    "PTH-DE-D2FE6685": {
+      "created": 203,
+      "hosts": [
+        "sankt-georgen.de"
+      ],
+      "name": "Philosophisch-Theologische Hochschule Sankt Georgen",
+      "source_keys": [
+        "DE-HE|Philosophisch-Theologische Hochschule Sankt Georgen (Frankfurt/Main)"
+      ]
+    },
+    "PTH-DE-D486AA70": {
+      "created": 265,
+      "hosts": [],
+      "name": "Kommunale Hochschule für Verwaltung",
+      "source_keys": [
+        "DE-NI|Kommunale Hochschule für Verwaltung"
+      ]
+    },
+    "PTH-DE-D6B46D01": {
+      "created": 383,
+      "hosts": [],
+      "name": "Fachhochschule für Verwaltung und Polizei",
+      "source_keys": [
+        "DE-SL|Fachhochschule für Verwaltung und Polizei"
+      ]
+    },
+    "PTH-DE-D7F1CB92": {
+      "created": 161,
+      "hosts": [
+        "thi.de"
+      ],
+      "name": "Technische Hochschule Ingolstadt",
+      "source_keys": [
+        "DE-BY|Technische Hochschule Ingolstadt"
+      ]
+    },
+    "PTH-DE-D7FA972A": {
+      "created": 103,
+      "hosts": [
+        "ph-weingarten.de"
+      ],
+      "name": "PH Weingarten",
+      "source_keys": [
+        "DE-BW|PH Weingarten"
+      ]
+    },
+    "PTH-DE-D8079F8D": {
+      "created": 234,
+      "hosts": [
+        "iubh-dualesstudium.de"
+      ],
+      "name": "IUBH Internationale Hochschule, Campus Hamburg",
+      "source_keys": [
+        "DE-HH|IUBH Internationale Hochschule, Campus Hamburg"
+      ]
+    },
+    "PTH-DE-D8AD9BD7": {
+      "created": 236,
+      "hosts": [
+        "the-klu.org"
+      ],
+      "name": "KLU Kühne Logistics University",
+      "source_keys": [
+        "DE-HH|KLU Kühne Logistics University - Wissenschaftliche Hochschule für Logistik und Unternehmensführung"
+      ]
+    },
+    "PTH-DE-D9DAB0DA": {
+      "created": 335,
+      "hosts": [
+        "thga.de"
+      ],
+      "name": "Technische Hochschule Georg Agricola",
+      "source_keys": [
+        "DE-NW|Technische Hochschule Georg Agricola"
+      ]
+    },
+    "PTH-DE-D9DD6BDE": {
+      "created": 186,
+      "hosts": [
+        "frankfurt-school.de"
+      ],
+      "name": "Frankfurt School of Finance & Management",
+      "source_keys": [
+        "DE-HE|Frankfurt School of Finance & Management"
+      ]
+    },
+    "PTH-DE-DA1FD38A": {
+      "created": 314,
+      "hosts": [
+        "hs-gesundheit.de"
+      ],
+      "name": "Hochschule für Gesundheit",
+      "source_keys": [
+        "DE-NW|Hochschule für Gesundheit"
+      ]
+    },
+    "PTH-DE-DA6B8D58": {
+      "created": 225,
+      "hosts": [
+        "fom.de"
+      ],
+      "name": "FOM Hochschule für Oekonomie & Management",
+      "source_keys": [
+        "DE-HH|FOM Die Hochschule für Berufstätige",
+        "DE-NW|FOM Hochschule für Oekonomie & Management"
+      ]
+    },
+    "PTH-DE-DBF32ADD": {
+      "created": 56,
+      "hosts": [
+        "bbw-hochschule.de"
+      ],
+      "name": "bbw Hochschule",
+      "source_keys": [
+        "DE-BE|bbw Hochschule"
+      ]
+    },
+    "PTH-DE-DD568EE1": {
+      "created": 300,
+      "hosts": [
+        "fhr.nrw.de"
+      ],
+      "name": "Fachhochschule für Rechtspflege in NRW",
+      "source_keys": [
+        "DE-NW|Fachhochschule für Rechtspflege in NRW"
+      ]
+    },
+    "PTH-DE-DD629A72": {
+      "created": 122,
+      "hosts": [
+        "uni-stuttgart.de"
+      ],
+      "name": "Universität Stuttgart",
+      "source_keys": [
+        "DE-BW|Universität Stuttgart"
+      ]
+    },
+    "PTH-DE-DE69C21E": {
+      "created": 25,
+      "hosts": [
+        "ash-berlin.eu"
+      ],
+      "name": "Alice-Salomon-Hochschule Berlin",
+      "source_keys": [
+        "DE-BE|Alice-Salomon-Hochschule Berlin (ASH)"
+      ]
+    },
+    "PTH-DE-DE9EDCD9": {
+      "created": 114,
+      "hosts": [
+        "hs-ulm.de"
+      ],
+      "name": "Technische Hochschule Ulm",
+      "source_keys": [
+        "DE-BW|Technische Hochschule Ulm"
+      ]
+    },
+    "PTH-DE-DF06E031": {
+      "created": 85,
+      "hosts": [
+        "hfm-karlsruhe.de"
+      ],
+      "name": "Hochschule für Musik Karlsruhe",
+      "source_keys": [
+        "DE-BW|Hochschule für Musik Karlsruhe"
+      ]
+    },
+    "PTH-DE-E09EEC8C": {
+      "created": 284,
+      "hosts": [
+        "alanus.edu"
+      ],
+      "name": "Alanus Hochschule für Kunst und Gesellschaft",
+      "source_keys": [
+        "DE-NW|Alanus Hochschule für Kunst und Gesellschaft"
+      ]
+    },
+    "PTH-DE-E0F6DD5B": {
+      "created": 137,
+      "hosts": [
+        "hmtm.de"
+      ],
+      "name": "Hochschule für Musik und Theater München",
+      "source_keys": [
+        "DE-BY|Hochschule für Musik und Theater München"
+      ]
+    },
+    "PTH-DE-E120D2BC": {
+      "created": 362,
+      "hosts": [
+        "kunsthochschule-mainz.de"
+      ],
+      "name": "Kunsthochschule Mainz",
+      "source_keys": [
+        "DE-RP|Kunsthochschule Mainz"
+      ]
+    },
+    "PTH-DE-E14EE6C1": {
+      "created": 67,
+      "hosts": [
+        "hs-fresenius.de"
+      ],
+      "name": "Hochschule Fresenius",
+      "source_keys": [
+        "DE-BW|Hochschule Fresenius Heidelberg",
+        "DE-HE|Hochschule Fresenius (Idstein)",
+        "DE-HH|Hochschule Fresenius *"
+      ]
+    },
+    "PTH-DE-E151E7EA": {
+      "created": 368,
+      "hosts": [
+        "whu.edu"
+      ],
+      "name": "WHU - Otto Beisheim School of Management",
+      "source_keys": [
+        "DE-RP|WHU - Otto Beisheim School of Management"
+      ]
+    },
+    "PTH-DE-E179DFBA": {
+      "created": 97,
+      "hosts": [
+        "merz-akademie.de"
+      ],
+      "name": "Merz Akademie Hochschule für Gestaltung Kunst und Medien Stuttgart",
+      "source_keys": [
+        "DE-BW|Merz Akademie Hochschule für Gestaltung Kunst und Medien Stuttgart"
+      ]
+    },
+    "PTH-DE-E18EC891": {
+      "created": 365,
+      "hosts": [
+        "theologie-trier.de"
+      ],
+      "name": "Theologische Fakultät Trier",
+      "source_keys": [
+        "DE-RP|Theologische Fakultät Trier"
+      ]
+    },
+    "PTH-DE-E1AA188F": {
+      "created": 100,
+      "hosts": [
+        "ph-karlsruhe.de"
+      ],
+      "name": "PH Karlsruhe",
+      "source_keys": [
+        "DE-BW|PH Karlsruhe"
+      ]
+    },
+    "PTH-DE-E2390CFA": {
+      "created": 361,
+      "hosts": [
+        "kh-mz.de"
+      ],
+      "name": "Katholische Hochschule Mainz",
+      "source_keys": [
+        "DE-RP|Katholische Hochschule Mainz"
+      ]
+    },
+    "PTH-DE-E26C4FE4": {
+      "created": 270,
+      "hosts": [],
+      "name": "Norddeutsche Hochschule für Rechtspflege",
+      "source_keys": [
+        "DE-NI|Norddeutsche Hochschule für Rechtspflege"
+      ]
+    },
+    "PTH-DE-E2871E26": {
+      "created": 149,
+      "hosts": [
+        "uni-wuerzburg.de"
+      ],
+      "name": "Julius-Maximilians-Universität Würzburg",
+      "source_keys": [
+        "DE-BY|Julius-Maximilians-Universität Würzburg"
+      ]
+    },
+    "PTH-DE-E345D3A2": {
+      "created": 174,
+      "hosts": [
+        "constructor.university"
+      ],
+      "name": "Constructor University",
+      "source_keys": [
+        "DE-HB|Constructor University"
+      ]
+    },
+    "PTH-DE-E3977D14": {
+      "created": 399,
+      "hosts": [
+        "kirchenmusik-dresden.de"
+      ],
+      "name": "Hochschule für Kirchenmusik der Evangelisch-Lutherischen Landeskirche Sachsens",
+      "source_keys": [
+        "DE-SN|Hochschule für Kirchenmusik der Evangelisch-Lutherischen Landeskirche Sachsens"
+      ]
+    },
+    "PTH-DE-E4424A6C": {
+      "created": 299,
+      "hosts": [
+        "fhf-nordkirchen.de"
+      ],
+      "name": "Fachhochschule für Finanzen",
+      "source_keys": [
+        "DE-NW|Fachhochschule für Finanzen"
+      ]
+    },
+    "PTH-DE-E46AE5B9": {
+      "created": 16,
+      "hosts": [],
+      "name": "Medizinische Hochschule Brandenburg",
+      "source_keys": [
+        "DE-BB|Medizinische Hochschule Brandenburg - Außenansicht"
+      ]
+    },
+    "PTH-DE-E534CF9A": {
+      "created": 381,
+      "hosts": [],
+      "name": "Berufsakademie für Gesundheits- und Sozialwesen Saarland gGmbH",
+      "source_keys": [
+        "DE-SL|Berufsakademie für Gesundheits- und Sozialwesen Saarland gGmbH (BAGSS)"
+      ]
+    },
+    "PTH-DE-E5D17CA4": {
+      "created": 81,
+      "hosts": [
+        "hfjs.eu"
+      ],
+      "name": "Hochschule für Jüdische Studien Heidelberg",
+      "source_keys": [
+        "DE-BW|Hochschule für Jüdische Studien Heidelberg"
+      ]
+    },
+    "PTH-DE-E5EBF47F": {
+      "created": 277,
+      "hosts": [],
+      "name": "Technische Universität Braunschweig",
+      "source_keys": [
+        "DE-NI|Technische Universität Braunschweig"
+      ]
+    },
+    "PTH-DE-E6636A5C": {
+      "created": 268,
+      "hosts": [],
+      "name": "Leuphana Universität Lüneburg",
+      "source_keys": [
+        "DE-NI|Leuphana Universität Lüneburg"
+      ]
+    },
+    "PTH-DE-E7363611": {
+      "created": 367,
+      "hosts": [
+        "uni-trier.de"
+      ],
+      "name": "Universität Trier",
+      "source_keys": [
+        "DE-RP|Universität Trier"
+      ]
+    },
+    "PTH-DE-E7D66F8D": {
+      "created": 87,
+      "hosts": [
+        "fh-schwetzingen.de"
+      ],
+      "name": "Hochschule für Rechtspflege Schwetzingen",
+      "source_keys": [
+        "DE-BW|Hochschule für Rechtspflege Schwetzingen"
+      ]
+    },
+    "PTH-DE-E8962EC0": {
+      "created": 125,
+      "hosts": [
+        "zu.de"
+      ],
+      "name": "Zeppelin Universität",
+      "source_keys": [
+        "DE-BW|Zeppelin Universität"
+      ]
+    },
+    "PTH-DE-E8DACA78": {
+      "created": 425,
+      "hosts": [],
+      "name": "Friedrich-Schiller-Universität Jena",
+      "source_keys": [
+        "DE-TH|Friedrich-Schiller-Universität Jena"
+      ]
+    },
+    "PTH-DE-E9C3772C": {
+      "created": 80,
+      "hosts": [
+        "hs-albsig.de"
+      ],
+      "name": "Hochschule für Ingenieur- und Wirtschaftswissenschaften Albstadt-Sigmaringen",
+      "source_keys": [
+        "DE-BW|Hochschule für Ingenieur- und Wirtschaftswissenschaften Albstadt-Sigmaringen"
+      ]
+    },
+    "PTH-DE-EA2B942E": {
+      "created": 363,
+      "hosts": [
+        "rptu.de"
+      ],
+      "name": "Rheinland-Pfälzische Technische Universität",
+      "source_keys": [
+        "DE-RP|Rheinland-Pfälzische Technische Universität"
+      ]
+    },
+    "PTH-DE-EAC3BDF6": {
+      "created": 202,
+      "hosts": [
+        "uni-marburg.de"
+      ],
+      "name": "Philipps-Universität Marburg",
+      "source_keys": [
+        "DE-HE|Philipps-Universität Marburg"
+      ]
+    },
+    "PTH-DE-EB0234D3": {
+      "created": 121,
+      "hosts": [
+        "uni-mannheim.de"
+      ],
+      "name": "Universität Mannheim",
+      "source_keys": [
+        "DE-BW|Universität Mannheim"
+      ]
+    },
+    "PTH-DE-EC5C07AB": {
+      "created": 208,
+      "hosts": [
+        "thf-fulda.de"
+      ],
+      "name": "Theologische Fakultät Fulda",
+      "source_keys": [
+        "DE-HE|Theologische Fakultät Fulda"
+      ]
+    },
+    "PTH-DE-EC907610": {
+      "created": 400,
+      "hosts": [
+        "hfmdd.de"
+      ],
+      "name": "Hochschule für Musik Carl Maria von Weber Dresden",
+      "source_keys": [
+        "DE-SN|Hochschule für Musik Carl Maria von Weber Dresden"
+      ]
+    },
+    "PTH-DE-ECF71956": {
+      "created": 68,
+      "hosts": [
+        "hs-furtwangen.de"
+      ],
+      "name": "Hochschule Furtwangen",
+      "source_keys": [
+        "DE-BW|Hochschule Furtwangen - Informatik, Technik, Wirtschaft, Medien"
+      ]
+    },
+    "PTH-DE-ECF8AB92": {
+      "created": 307,
+      "hosts": [
+        "hs-duesseldorf.de"
+      ],
+      "name": "Hochschule Düsseldorf",
+      "source_keys": [
+        "DE-NW|Hochschule Düsseldorf"
+      ]
+    },
+    "PTH-DE-EE6ADBD4": {
+      "created": 245,
+      "hosts": [
+        "fhm-campus.de"
+      ],
+      "name": "Fachhochschule des Mittelstands",
+      "source_keys": [
+        "DE-MV|Fachhochschule des Mittelstands",
+        "DE-NW|Fachhochschule des Mittelstands"
+      ]
+    },
+    "PTH-DE-EFC1DAA4": {
+      "created": 139,
+      "hosts": [
+        "hfp.tum.de"
+      ],
+      "name": "Hochschule für Politik München",
+      "source_keys": [
+        "DE-BY|Hochschule für Politik München (Universitäre Einrichtung mit eigenem Rechtsstatus)"
+      ]
+    },
+    "PTH-DE-EFC3B129": {
+      "created": 338,
+      "hosts": [
+        "tu-dortmund.de"
+      ],
+      "name": "Technische Universität Dortmund",
+      "source_keys": [
+        "DE-NW|Technische Universität Dortmund"
+      ]
+    },
+    "PTH-DE-EFCB16A5": {
+      "created": 170,
+      "hosts": [
+        "uni-passau.de"
+      ],
+      "name": "Universität Passau",
+      "source_keys": [
+        "DE-BY|Universität Passau"
+      ]
+    },
+    "PTH-DE-EFE82423": {
+      "created": 375,
+      "hosts": [
+        "haw-kiel.de"
+      ],
+      "name": "HAW Kiel",
+      "source_keys": [
+        "DE-SH|HAW Kiel"
+      ]
+    },
+    "PTH-DE-F019B960": {
+      "created": 108,
+      "hosts": [
+        "hfg-karlsruhe.de"
+      ],
+      "name": "Staatliche Hochschule für Gestaltung Karlsruhe",
+      "source_keys": [
+        "DE-BW|Staatliche Hochschule für Gestaltung Karlsruhe"
+      ]
+    },
+    "PTH-DE-F02FD2C4": {
+      "created": 169,
+      "hosts": [
+        "uni-bayreuth.de"
+      ],
+      "name": "Universität Bayreuth",
+      "source_keys": [
+        "DE-BY|Universität Bayreuth"
+      ]
+    },
+    "PTH-DE-F0E2DD0F": {
+      "created": 413,
+      "hosts": [
+        "hs-anhalt.de"
+      ],
+      "name": "Hochschule Anhalt",
+      "source_keys": [
+        "DE-ST|Hochschule Anhalt"
+      ]
+    },
+    "PTH-DE-F16254CC": {
+      "created": 164,
+      "hosts": [
+        "thws.de"
+      ],
+      "name": "Technische Hochschule Würzburg-Schweinfurt",
+      "source_keys": [
+        "DE-BY|Technische Hochschule Würzburg-Schweinfurt (THWS)"
+      ]
+    },
+    "PTH-DE-F1D035F4": {
+      "created": 427,
+      "hosts": [],
+      "name": "Hochschule Nordhausen",
+      "source_keys": [
+        "DE-TH|Hochschule Nordhausen"
+      ]
+    },
+    "PTH-DE-F24FDB38": {
+      "created": 385,
+      "hosts": [],
+      "name": "Hochschule für Musik Saar",
+      "source_keys": [
+        "DE-SL|Hochschule für Musik Saar"
+      ]
+    },
+    "PTH-DE-F259A2FC": {
+      "created": 216,
+      "hosts": [
+        "akademie-der-polizei.hamburg.de"
+      ],
+      "name": "Akademie der Polizei Hamburg",
+      "source_keys": [
+        "DE-HH|Akademie der Polizei Hamburg"
+      ]
+    },
+    "PTH-DE-F2A302F3": {
+      "created": 157,
+      "hosts": [
+        "uni-bamberg.de"
+      ],
+      "name": "Otto-Friedrich-Universität Bamberg",
+      "source_keys": [
+        "DE-BY|Otto-Friedrich-Universität Bamberg"
+      ]
+    },
+    "PTH-DE-F30D3B63": {
+      "created": 283,
+      "hosts": [],
+      "name": "Universität Vechta",
+      "source_keys": [
+        "DE-NI|Universität Vechta"
+      ]
+    },
+    "PTH-DE-F313B36F": {
+      "created": 345,
+      "hosts": [
+        "w-hs.de"
+      ],
+      "name": "Westfälische Hochschule",
+      "source_keys": [
+        "DE-NW|Westfälische Hochschule"
+      ]
+    },
+    "PTH-DE-F3482DB6": {
+      "created": 267,
+      "hosts": [],
+      "name": "Leibniz-Fachhochschule",
+      "source_keys": [
+        "DE-NI|Leibniz-Fachhochschule"
+      ]
+    },
+    "PTH-DE-F3602BB2": {
+      "created": 378,
+      "hosts": [
+        "muthesius-kunsthochschule.de"
+      ],
+      "name": "Muthesius Kunsthochschule Kiel",
+      "source_keys": [
+        "DE-SH|Muthesius Kunsthochschule Kiel"
+      ]
+    },
+    "PTH-DE-F3828808": {
+      "created": 325,
+      "hosts": [
+        "khkt.de"
+      ],
+      "name": "Kölner Hochschule für Katholische Theologie",
+      "source_keys": [
+        "DE-NW|Kölner Hochschule für Katholische Theologie (KHKT)"
+      ]
+    },
+    "PTH-DE-F3C0E673": {
+      "created": 73,
+      "hosts": [
+        "hs-weingarten.de"
+      ],
+      "name": "Hochschule Ravensburg-Weingarten",
+      "source_keys": [
+        "DE-BW|Hochschule Ravensburg-Weingarten - Technik, Wirtschaft, Sozialwesen"
+      ]
+    },
+    "PTH-DE-F40EB47C": {
+      "created": 77,
+      "hosts": [
+        "hdwm.de"
+      ],
+      "name": "Hochschule der Wirtschaft für Management Mannheim",
+      "source_keys": [
+        "DE-BW|Hochschule der Wirtschaft für Management Mannheim (HdWM)"
+      ]
+    },
+    "PTH-DE-F48F6C5C": {
+      "created": 30,
+      "hosts": [
+        "charite.de"
+      ],
+      "name": "Charité - Universitätsmedizin Berlin",
+      "source_keys": [
+        "DE-BE|Charité - Universitätsmedizin Berlin"
+      ]
+    },
+    "PTH-DE-F53A8DA0": {
+      "created": 359,
+      "hosts": [
+        "hoev-rlp.de"
+      ],
+      "name": "Hochschule für öffentliche Verwaltung Rheinland-Pfalz",
+      "source_keys": [
+        "DE-RP|Hochschule für öffentliche Verwaltung Rheinland-Pfalz"
+      ]
+    },
+    "PTH-DE-F59D99D9": {
+      "created": 285,
+      "hosts": [
+        "uni-wuppertal.de"
+      ],
+      "name": "Bergische Universität Wuppertal",
+      "source_keys": [
+        "DE-NW|Bergische Universität Wuppertal"
+      ]
+    },
+    "PTH-DE-F5F3AFDE": {
+      "created": 70,
+      "hosts": [
+        "hs-karlsruhe.de"
+      ],
+      "name": "Hochschule Karlsruhe",
+      "source_keys": [
+        "DE-BW|Hochschule Karlsruhe - Technik und Wirtschaft"
+      ]
+    },
+    "PTH-DE-F66EBFB0": {
+      "created": 192,
+      "hosts": [
+        "hs-fulda.de"
+      ],
+      "name": "Hochschule Fulda",
+      "source_keys": [
+        "DE-HE|Hochschule Fulda"
+      ]
+    },
+    "PTH-DE-F6BF8DAD": {
+      "created": 129,
+      "hosts": [
+        "evhn.de"
+      ],
+      "name": "Evangelische Hochschule für angewandte Wissenschaften",
+      "source_keys": [
+        "DE-BY|Evangelische Hochschule für angewandte Wissenschaften - Evangelische Fachhochschule Nürnberg"
+      ]
+    },
+    "PTH-DE-F6FE9CF1": {
+      "created": 404,
+      "hosts": [
+        "palucca.eu"
+      ],
+      "name": "Palucca Hochschule für Tanz Dresden",
+      "source_keys": [
+        "DE-SN|Palucca Hochschule für Tanz Dresden"
+      ]
+    },
+    "PTH-DE-F737649D": {
+      "created": 54,
+      "hosts": [],
+      "name": "Weißensee Kunsthochschule Berlin",
+      "source_keys": [
+        "DE-BE|Weißensee Kunsthochschule Berlin (KHB)"
+      ]
+    },
+    "PTH-DE-F9D62517": {
+      "created": 337,
+      "hosts": [
+        "th-owl.de"
+      ],
+      "name": "Technische Hochschule Ostwestfalen-Lippe",
+      "source_keys": [
+        "DE-NW|Technische Hochschule Ostwestfalen-Lippe"
+      ]
+    },
+    "PTH-DE-FA105B56": {
+      "created": 288,
+      "hosts": [
+        "dshs-koeln.de"
+      ],
+      "name": "Deutsche Sporthochschule Köln",
+      "source_keys": [
+        "DE-NW|Deutsche Sporthochschule Köln"
+      ]
+    },
+    "PTH-DE-FA6EB0AE": {
+      "created": 209,
+      "hosts": [
+        "th-ewersbach.de"
+      ],
+      "name": "Theologische Hochschule Ewersbach",
+      "source_keys": [
+        "DE-HE|Theologische Hochschule Ewersbach"
+      ]
+    },
+    "PTH-DE-FA77F5D3": {
+      "created": 276,
+      "hosts": [],
+      "name": "Stiftung Tierärztliche Hochschule Hannover",
+      "source_keys": [
+        "DE-NI|Stiftung Tierärztliche Hochschule Hannover"
+      ]
+    },
+    "PTH-DE-FD1B7CC5": {
+      "created": 370,
+      "hosts": [
+        "dhsh.de"
+      ],
+      "name": "Duale Hochschule Schleswig-Holstein",
+      "source_keys": [
+        "DE-SH|Duale Hochschule Schleswig-Holstein"
+      ]
+    },
+    "PTH-DE-FDFB3669": {
+      "created": 57,
+      "hosts": [
+        "akad.de"
+      ],
+      "name": "AKAD – Hochschule Stuttgart",
+      "source_keys": [
+        "DE-BW|AKAD – Hochschule Stuttgart"
+      ]
+    },
+    "PTH-DE-FEF91B0E": {
+      "created": 397,
+      "hosts": [
+        "hfbk-dresden.de"
+      ],
+      "name": "Hochschule für Bildende Künste Dresden",
+      "source_keys": [
+        "DE-SN|Hochschule für Bildende Künste Dresden"
+      ]
+    },
+    "PTH-DE-FF38331A": {
+      "created": 291,
+      "hosts": [
+        "evh-bochum.de"
+      ],
+      "name": "Evangelische Hochschule Rheinland-Westfalen-Lippe",
+      "source_keys": [
+        "DE-NW|Evangelische Hochschule Rheinland-Westfalen-Lippe"
+      ]
+    }
+  },
+  "version": 1
+}

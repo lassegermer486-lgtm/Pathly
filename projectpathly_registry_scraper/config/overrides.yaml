@@ -13,6 +13,8 @@ merge:
   - ["DE-MV|Internationale Studien- und Berufsakademie ISBA", "DE-SL|ISBA gGmbH Internationale Studien- und Berufsakademie"]
   # FHM: Schwerin ist Campus der FHM (NRW), laut DAAD.
   - ["DE-MV|Fachhochschule des Mittelstands", "DE-NW|Fachhochschule des Mittelstands"]
+  # UI 2026-10-01
+  - ["DE-BW|SRH University of Applied Sciences Heidelberg", "DE-TH|SRH University of Applied Sciences Heidelberg in Gera"]
 
 # Verschiedene Hochschulen -> nie zusammenführen, nicht mehr als Kandidat melden.
 keep_separate:
@@ -22,6 +24,8 @@ keep_separate:
   # PHWT (Vechta/Diepholz) ist eine eigene private Hochschule.
   - ["DE-BE|Hochschule für Technik und Wirtschaft Berlin (HTW)", "DE-NI|Private Hochschule für Wirtschaft und Technik"]
   - ["DE-NI|Private Hochschule für Wirtschaft und Technik", "DE-SN|Hochschule für Technik und Wirtschaft Dresden"]
+  # UI 2026-10-01
+  - ["DE-RP|Johannes Gutenberg-Universität Mainz", "DE-RP|Hochschule für Musik Mainz"]
 
 # Korrekturen pro university_id, überschreiben Felder der Master-Registry,
 # z. B. lifecycle_status (active/renamed/merged/closed) nach Prüfung.
