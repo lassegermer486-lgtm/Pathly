@@ -203,6 +203,17 @@ class Runner:
         seconds = round(time.monotonic() - t0, 1)
 
         status = {"OK": "ok", "ERROR": "error"}.get(report.get("status"), "skipped")
+        error = report.get("error")
+        # An outage or redesigned page can parse to nothing without raising
+        # (DE-HE on 2026-10-01: "Hessen | Störung"). Every state has
+        # universities, so an empty result is a failure: otherwise the run
+        # counts as complete and the database import marks that state's
+        # universities as no longer listed.
+        if status == "ok" and not records:
+            status = "error"
+            error = ("Keine Hochschulen gelesen. Die Quelle war vermutlich gestört "
+                     "oder hat sich geändert.")
+            self._log(f"[ERROR] {code}: 0 Einträge – als fehlgeschlagen gewertet")
         entry = {
             "status": status,
             "seconds": seconds,
@@ -210,7 +221,7 @@ class Runner:
             "locations": report.get("locations",
                                     sum(len(r.get("locations") or []) for r in records)),
             "validation_issues": report.get("validation_issues", 0),
-            "error": report.get("error"),
+            "error": error,
             "detail": report.get("status"),
         }
         # Adapters say so in their output when they fall back to a stored copy.
