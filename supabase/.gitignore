@@ -1,0 +1,9 @@
+# Supabase CLI
+.branches
+.temp
+
+# Lokale Umgebungsvariablen und Schlüssel
+.env
+.env.keys
+.env.local
+.env.*.local

@@ -1,0 +1,38 @@
+# Supabase-Konfiguration für ProjectPathly.
+# Gilt für die lokale Entwicklung mit der Supabase-CLI und für die
+# GitHub-Integration (Migrationen aus ./migrations werden bei Merge auf main
+# in das verbundene Projekt eingespielt).
+# Nicht gesetzte Werte nutzen die Standardwerte der CLI.
+
+project_id = "projectpathly"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+# Muss zur Postgres-Version des Cloud-Projekts passen
+# (Dashboard -> Project Settings -> Infrastructure).
+major_version = 17
+
+[studio]
+enabled = true
+port = 54323
+
+[inbucket]
+enabled = true
+port = 54324
+
+[auth]
+enabled = true
+site_url = "http://localhost:3000"
+additional_redirect_urls = ["http://localhost:3000"]
+enable_signup = true
+
+[auth.email]
+enable_signup = true
+enable_confirmations = true
