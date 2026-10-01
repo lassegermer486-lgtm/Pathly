@@ -16,13 +16,52 @@ def normalize_url(url: str | None) -> str | None:
     elif not url.startswith(("http://", "https://")):
         url = "https://" + url
     parts = urlsplit(url)
-    return urlunsplit((parts.scheme.lower(), parts.netloc.lower(), parts.path.rstrip("/"), "", ""))
+    scheme = parts.scheme.lower()
+    netloc = parts.netloc.lower()
+    # https://www.hs-pforzheim.de:443 -> https://www.hs-pforzheim.de
+    if (scheme, netloc.rpartition(":")[2]) in (("https", "443"), ("http", "80")):
+        netloc = netloc.rpartition(":")[0]
+    return urlunsplit((scheme, netloc, parts.path.rstrip("/"), "", ""))
 
 def domain_key(url: str | None) -> str | None:
     if not url:
         return None
     host = urlsplit(normalize_url(url)).netloc.lower()
     return host.removeprefix("www.")
+
+def is_host_within(url: str | None, domain: str) -> bool:
+    """
+    True if the URL's host is `domain` itself or one of its subdomains.
+
+    A substring check is not enough: "fu-berlin.de" contains "berlin.de"
+    and "uni-saarland.de" contains "saarland.de", but neither belongs to
+    the state portal.
+    """
+    if not url:
+        return False
+    host = (urlsplit(url.strip()).hostname or "").lower()
+    domain = domain.lower()
+    return host == domain or host.endswith("." + domain)
+
+SOCIAL_MEDIA_DOMAINS = (
+    "facebook.com",
+    "instagram.com",
+    "youtube.com",
+    "tiktok.com",
+    "linkedin.com",
+    "x.com",
+    "twitter.com",
+    "xing.com",
+    "mastodon.social",
+    "threads.net",
+    "bsky.app",
+)
+
+def is_social_media_url(url: str | None) -> bool:
+    return any(
+        is_host_within(url, domain)
+        for domain in SOCIAL_MEDIA_DOMAINS
+    )
 
 def university_name_key(name: str) -> str:
     s = name.lower()

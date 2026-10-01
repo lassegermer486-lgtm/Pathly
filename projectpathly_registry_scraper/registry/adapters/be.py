@@ -8,6 +8,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from registry.adapters.base import RegistryAdapter
+from registry.normalize import is_host_within
 
 
 class BerlinAdapter(RegistryAdapter):
@@ -166,6 +167,9 @@ class BerlinAdapter(RegistryAdapter):
                 and row.get("official_url")
             ):
                 existing["official_url"] = row["official_url"]
+                existing["official_url_source"] = row[
+                    "official_url_source"
+                ]
 
         result = list(
             deduped.values()
@@ -303,7 +307,7 @@ class BerlinAdapter(RegistryAdapter):
                 href
             )
 
-            if "berlin.de" in official_url.lower():
+            if is_host_within(official_url, "berlin.de"):
                 continue
 
             if official_url.startswith(
@@ -342,6 +346,24 @@ class BerlinAdapter(RegistryAdapter):
         self,
         heading,
     ):
+        """
+        Each institution block ends with its address line, which
+        starts with a link to the website whose text is the
+        institution name ("Freie Universität Berlin: Kaiserswerther
+        Straße 16/18 ..."). Earlier links in the block can point to
+        affiliated institutes, e.g. the Jazz-Institut under UdK.
+        """
+        heading_key = self._canonical_key(
+            self._clean(
+                heading.get_text(
+                    " ",
+                    strip=True
+                )
+            ) or ""
+        )
+
+        candidates = []
+
         for element in heading.find_all_next():
 
             if (
@@ -361,19 +383,42 @@ class BerlinAdapter(RegistryAdapter):
             absolute = urljoin(
                 self.BASE_URL,
                 href
-            )
+            ).strip()
 
-            if absolute.startswith(
-                ("mailto:", "tel:")
+            if not absolute.startswith(
+                ("http://", "https://")
             ):
                 continue
 
-            if "berlin.de" in absolute.lower():
+            # Host check, not substring: fu-berlin.de and
+            # htw-berlin.de are institution websites.
+            if is_host_within(absolute, "berlin.de"):
                 continue
 
-            return absolute
+            text_key = self._canonical_key(
+                (
+                    self._clean(
+                        element.get_text(
+                            " ",
+                            strip=True
+                        )
+                    ) or ""
+                ).rstrip(":")
+            )
 
-        return None
+            candidates.append(
+                (text_key, absolute)
+            )
+
+        for text_key, absolute in candidates:
+            if text_key == heading_key:
+                return absolute
+
+        for text_key, absolute in candidates:
+            if text_key.startswith(heading_key):
+                return absolute
+
+        return candidates[0][1] if candidates else None
 
     def _row(
         self,
@@ -389,6 +434,11 @@ class BerlinAdapter(RegistryAdapter):
         return {
             "name": name,
             "official_url": official_url,
+            "official_url_source": (
+                source_url
+                if official_url
+                else None
+            ),
             "institution_type": institution_type,
             "ownership": ownership,
             "recognition_status": (

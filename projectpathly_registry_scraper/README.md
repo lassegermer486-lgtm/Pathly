@@ -1,18 +1,28 @@
 # ProjectPathly — German University Registry Scraper
 
-First technical spike for a reproducible German university registry built from
-official state/authority sources.
+Reproducible register of German higher-education institutions, built from
+official state sources: every institution once, with its official website and
+a permanent ProjectPathly ID (`PTH-DE-XXXXXXXX`).
 
-## Current scope
+## Pipeline (v1.2)
 
-- 16 German state sources are configured in `registry/sources.yaml`.
-- NRW has the first executable HTML adapter.
-- Baden-Württemberg and Sachsen-Anhalt are configured as the next two parser types:
-  multi-page HTML and official PDF discovery.
-- Every request is snapshotted to `data/raw/<STATE>/`.
-- Normalized records are written to `data/normalized/universities.json`.
-- Institutions and locations/campuses are separate concepts.
-- Source authority, URL, source category and retrieval timestamp are retained.
+```text
+16 state sources   registry.run                         data/normalized/
+URL check/resolve  registry.enrichment.website_resolver data/enriched/
+agent (last resort)registry.enrichment.agent_resolver   data/enriched/
+deduplication      registry.master.dedup                data/master/universities_dedup.json
+master registry    registry.master.build                data/master/*.json
+Supabase import    registry.master.supabase_import      data/master/supabase_import.sql
+```
+
+```bash
+python -m registry.pipeline                     # everything
+python -m registry.pipeline --from dedup        # rebuild from enriched data
+python -m registry.pipeline --agent-cache-only  # no API calls
+```
+
+Discovery data (`data/raw`, `data/normalized`) is never overwritten by later
+steps. Reports for every step are in `data/reports/`.
 
 ## Important design rule
 
@@ -52,14 +62,86 @@ Expected output shape:
 ```text
 [FETCH] DE-NW — Nordrhein-Westfalen
 [OK] DE-NW: <n> parsed records
-[DONE] <n> unique records -> data/normalized/universities.json
+[DONE] <n> unique records -> data/normalized/universities_de.json
 ```
 
 Open:
 
 ```text
-data/normalized/universities.json
+data/normalized/universities_de.json
 ```
+
+## URL enrichment — verify and resolve official websites
+
+Runs on the discovery output and writes a separate enriched layer:
+
+```bash
+python -m registry.enrichment.website_resolver
+# only records without a source URL:
+python -m registry.enrichment.website_resolver --only-missing
+```
+
+```text
+data/normalized/universities_de.json  ->  data/enriched/universities_de_urls.json
+                                          data/reports/url_resolution.json
+```
+
+- A URL from the state source has priority. It is checked technically
+  (DNS, HTTP, redirects); the final URL is stored.
+- Missing URLs: domain candidates are generated from the name (acronyms,
+  `fh-<city>`, umlaut variants `muenchen`/`münchen` as IDN, initials).
+  These are only candidates.
+- A candidate is accepted (`deterministic_high`) only when the website's
+  imprint names the institution, and no second, different website does
+  the same. A matching title alone goes to `review`; HTTP 200 alone counts
+  for nothing.
+- `possible_rename_or_merger`: the source URL redirects to a site that no
+  longer carries the source name (e.g. FH Bielefeld -> HSBI).
+
+## Agent resolver — last resort for unresolved and review cases
+
+Only for records the website resolver left as `unresolved` or `review`.
+An LLM with web search (via OpenRouter) suggests the website, canonical
+name and lifecycle status; the suggestion then passes the same technical
+and identity checks. The agent is a resolver, not a source of truth.
+
+```bash
+cp .env.example .env          # then set OPENROUTER_API_KEY (never committed)
+python -m registry.enrichment.agent_resolver --dry-run   # what would be asked
+python -m registry.enrichment.agent_resolver
+```
+
+- Accepted (`agent_verified`) only if the site's imprint names the
+  institution, or — for renames — the site names the new name *and* the URL
+  from the state source forwards to it. Otherwise the suggestion stays in
+  `review` and `official_url` is not filled.
+- Answers are cached in `data/enriched/agent_cache.json`; reruns are free.
+  `--refresh` asks again. Default model `openai/gpt-4o-mini` (a few cents
+  per record, mostly web search); `OPENROUTER_MODEL` or `--model` changes it.
+- The agent's `canonical_name` and `lifecycle_status` (renamed/merged/closed)
+  are kept in `website_resolution.agent` for the later naming and lifecycle steps.
+
+## Deduplication — one entry per institution
+
+```bash
+python -m registry.master.dedup
+```
+
+```text
+data/enriched/universities_de_urls.json  ->  data/master/universities_dedup.json
+data/master/overrides.yaml                   data/reports/dedup_report.json
+                                             data/reports/review_report.md
+```
+
+- Same verified website + related name -> merged automatically. Related:
+  same name, same name without a location suffix ("... in Gera"), an
+  acronym written in both names, or the distinctive words of one name
+  inside the other. Generic words and cities never count.
+- Same name on different or unverified websites, a location-suffix
+  variant, or a shared acronym across different websites -> review.
+- Merging keeps every source name, location and source.
+- Review cases are decided in `data/master/overrides.yaml` (`merge` /
+  `keep_separate`); `review_report.md` lists them with ready-made lines.
 
 ## Why the NRW adapter is intentionally defensive
 
@@ -77,13 +159,34 @@ After the first real run, inspect the output count and several records. We shoul
 then harden the selectors against the exact live DOM rather than pretending a
 generic parser is guaranteed to be correct forever.
 
-## Next implementation order
+## Master registry — names, lifecycle, stable IDs
 
-1. Harden NRW after the first live run.
-2. Implement Baden-Württemberg multi-page adapter.
-3. Implement Sachsen-Anhalt PDF adapter.
-4. Add automated source-count validation.
-5. Implement remaining 13 state adapters.
-6. Add cross-state deduplication and external-campus handling.
-7. Add Hochschulkompass validation report.
-8. Only then start the program/master crawler.
+```bash
+python -m registry.master.build
+```
+
+```text
+data/master/universities_de_master.json   registry_id, name, official_url, country, lifecycle_status, flags
+data/master/university_metadata.json      institution_type, ownership, recognition_status (+ raw source values)
+data/master/locations.json  aliases.json  sources.json
+data/master/id_registry.json              stable IDs — commit this file
+data/reports/validation_report.json       quality report (coverage, review list)
+```
+
+- Canonical name: a name the website confirms (imprint before title) or a
+  verified rename beats the cleaned source name; source names stay as aliases.
+- `lifecycle_status`: `active` with a verified website, otherwise `review`.
+  Doubts become flags (`missing_website`, `possibly_not_hochschule`, ...).
+- IDs are random, never derived from names, and kept in `id_registry.json`
+  across runs, renames and merges (the older ID wins, the other becomes an alias).
+
+## Supabase import
+
+```bash
+python -m registry.master.supabase_import
+psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f data/master/supabase_import.sql
+```
+
+One transaction, safe to repeat: universities are matched by `registry_id`,
+their locations/sources/flags replaced; institutions no longer listed stay
+with `is_listed = false`.
