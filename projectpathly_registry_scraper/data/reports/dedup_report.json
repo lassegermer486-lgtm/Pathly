@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-01T16:23:06.654404+00:00",
-  "source_records": 458,
-  "institutions": 435,
-  "merged_institutions": 16,
-  "records_merged_away": 23,
+  "generated_at": "2026-10-01T17:37:52.959206+00:00",
+  "source_records": 419,
+  "institutions": 401,
+  "merged_institutions": 15,
+  "records_merged_away": 18,
   "rules": {
     "override_merge": 2,
-    "rule_4_similar_name_different_site": 26,
-    "rule_2_name_variant_same_site": 26,
-    "rule_1_same_name_same_site": 8,
+    "rule_4_similar_name_different_site": 24,
+    "rule_2_name_variant_same_site": 12,
+    "rule_1_same_name_same_site": 7,
     "override_keep_separate": 1
   },
   "review_cases": 0,
@@ -81,35 +81,11 @@
     {
       "members": [
         "DE-BE|Hochschule des Bundes für öffentliche Verwaltung",
-        "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Kriminalpolizei in Wiesbaden",
-        "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Landwirtschaftliche Sozialversicherung in Kassel",
-        "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Wetterdienst in Offenbach",
         "DE-NW|Hochschule des Bundes für öffentliche Verwaltung",
         "DE-SH|FH des Bundes für öffentliche Verwaltung (Bundespolizei)"
       ],
       "official_url": "https://hsbund.de",
       "evidence": [
-        {
-          "a": "DE-BE|Hochschule des Bundes für öffentliche Verwaltung",
-          "b": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Kriminalpolizei in Wiesbaden",
-          "decision": "auto_merge",
-          "rule": "rule_2_name_variant_same_site",
-          "evidence": "distinctive_words:bundes,verwaltung"
-        },
-        {
-          "a": "DE-BE|Hochschule des Bundes für öffentliche Verwaltung",
-          "b": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Landwirtschaftliche Sozialversicherung in Kassel",
-          "decision": "auto_merge",
-          "rule": "rule_2_name_variant_same_site",
-          "evidence": "distinctive_words:bundes,verwaltung"
-        },
-        {
-          "a": "DE-BE|Hochschule des Bundes für öffentliche Verwaltung",
-          "b": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Wetterdienst in Offenbach",
-          "decision": "auto_merge",
-          "rule": "rule_2_name_variant_same_site",
-          "evidence": "distinctive_words:bundes,verwaltung"
-        },
         {
           "a": "DE-BE|Hochschule des Bundes für öffentliche Verwaltung",
           "b": "DE-NW|Hochschule des Bundes für öffentliche Verwaltung",
@@ -119,69 +95,6 @@
         },
         {
           "a": "DE-BE|Hochschule des Bundes für öffentliche Verwaltung",
-          "b": "DE-SH|FH des Bundes für öffentliche Verwaltung (Bundespolizei)",
-          "decision": "auto_merge",
-          "rule": "rule_2_name_variant_same_site",
-          "evidence": "distinctive_words:bundes,verwaltung"
-        },
-        {
-          "a": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Kriminalpolizei in Wiesbaden",
-          "b": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Landwirtschaftliche Sozialversicherung in Kassel",
-          "decision": "auto_merge",
-          "rule": "rule_2_name_variant_same_site",
-          "evidence": "distinctive_words:bundes,verwaltung"
-        },
-        {
-          "a": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Kriminalpolizei in Wiesbaden",
-          "b": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Wetterdienst in Offenbach",
-          "decision": "auto_merge",
-          "rule": "rule_2_name_variant_same_site",
-          "evidence": "distinctive_words:bundes,verwaltung"
-        },
-        {
-          "a": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Kriminalpolizei in Wiesbaden",
-          "b": "DE-NW|Hochschule des Bundes für öffentliche Verwaltung",
-          "decision": "auto_merge",
-          "rule": "rule_2_name_variant_same_site",
-          "evidence": "distinctive_words:bundes,verwaltung"
-        },
-        {
-          "a": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Kriminalpolizei in Wiesbaden",
-          "b": "DE-SH|FH des Bundes für öffentliche Verwaltung (Bundespolizei)",
-          "decision": "auto_merge",
-          "rule": "rule_2_name_variant_same_site",
-          "evidence": "distinctive_words:bundes,verwaltung"
-        },
-        {
-          "a": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Landwirtschaftliche Sozialversicherung in Kassel",
-          "b": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Wetterdienst in Offenbach",
-          "decision": "auto_merge",
-          "rule": "rule_2_name_variant_same_site",
-          "evidence": "distinctive_words:bundes,verwaltung"
-        },
-        {
-          "a": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Landwirtschaftliche Sozialversicherung in Kassel",
-          "b": "DE-NW|Hochschule des Bundes für öffentliche Verwaltung",
-          "decision": "auto_merge",
-          "rule": "rule_2_name_variant_same_site",
-          "evidence": "distinctive_words:bundes,verwaltung"
-        },
-        {
-          "a": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Landwirtschaftliche Sozialversicherung in Kassel",
-          "b": "DE-SH|FH des Bundes für öffentliche Verwaltung (Bundespolizei)",
-          "decision": "auto_merge",
-          "rule": "rule_2_name_variant_same_site",
-          "evidence": "distinctive_words:bundes,verwaltung"
-        },
-        {
-          "a": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Wetterdienst in Offenbach",
-          "b": "DE-NW|Hochschule des Bundes für öffentliche Verwaltung",
-          "decision": "auto_merge",
-          "rule": "rule_2_name_variant_same_site",
-          "evidence": "distinctive_words:bundes,verwaltung"
-        },
-        {
-          "a": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Wetterdienst in Offenbach",
           "b": "DE-SH|FH des Bundes für öffentliche Verwaltung (Bundespolizei)",
           "decision": "auto_merge",
           "rule": "rule_2_name_variant_same_site",
@@ -199,7 +112,6 @@
     {
       "members": [
         "DE-BW|Hochschule Fresenius Heidelberg",
-        "DE-HE|Hochschule Fresenius (Idstein)",
         "DE-HH|Hochschule Fresenius *"
       ],
       "official_url": "https://www.hs-fresenius.de",
@@ -210,20 +122,6 @@
           "decision": "auto_merge",
           "rule": "rule_2_name_variant_same_site",
           "evidence": "distinctive_words:fresenius"
-        },
-        {
-          "a": "DE-BW|Hochschule Fresenius Heidelberg",
-          "b": "DE-HE|Hochschule Fresenius (Idstein)",
-          "decision": "auto_merge",
-          "rule": "rule_2_name_variant_same_site",
-          "evidence": "distinctive_words:fresenius"
-        },
-        {
-          "a": "DE-HH|Hochschule Fresenius *",
-          "b": "DE-HE|Hochschule Fresenius (Idstein)",
-          "decision": "auto_merge",
-          "rule": "rule_1_same_name_same_site",
-          "evidence": "same_name"
         }
       ]
     },
@@ -271,22 +169,6 @@
           "decision": "auto_merge",
           "rule": "rule_2_name_variant_same_site",
           "evidence": "shared_acronym:srh"
-        }
-      ]
-    },
-    {
-      "members": [
-        "DE-HE|DIPLOMA Hochschule – Private Fachhochschule Nordhessen (Bad Sooden-Allendorf)",
-        "DE-HH|DIPLOMA Hochschule Hamburg"
-      ],
-      "official_url": "https://www.diploma.de",
-      "evidence": [
-        {
-          "a": "DE-HH|DIPLOMA Hochschule Hamburg",
-          "b": "DE-HE|DIPLOMA Hochschule – Private Fachhochschule Nordhessen (Bad Sooden-Allendorf)",
-          "decision": "auto_merge",
-          "rule": "rule_2_name_variant_same_site",
-          "evidence": "distinctive_words:diploma"
         }
       ]
     },
@@ -577,26 +459,6 @@
       "evidence": [
         "angewandte",
         "wissenschaften"
-      ]
-    },
-    {
-      "a": "DE-HE|Philosophisch-Theologische Hochschule Sankt Georgen (Frankfurt/Main)",
-      "b": "DE-NW|Philosophisch-Theologische Hochschule Münster",
-      "decision": "keep_separate",
-      "rule": "rule_4_similar_name_different_site",
-      "evidence": [
-        "philosophisch",
-        "theologische"
-      ]
-    },
-    {
-      "a": "DE-HE|Theologische Fakultät Fulda",
-      "b": "DE-NW|Theologische Fakultät Paderborn",
-      "decision": "keep_separate",
-      "rule": "rule_4_similar_name_different_site",
-      "evidence": [
-        "fakultaet",
-        "theologische"
       ]
     },
     {
