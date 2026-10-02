@@ -11,6 +11,8 @@ schema in supabase/migrations. Running it again is safe:
   - former IDs of merged institutions go to university_aliases,
   - v1.3: German presence (universities.presence_status,
     locations.location_status); needs migration 20261002120000,
+  - v1.3: home country, market_access, online_de_* and the discovery
+    provenance of international candidates; needs migration 20261003120000,
   - every run is logged in import_runs.
 
 Usage (from scrapers/hochschulen/):
@@ -50,13 +52,14 @@ insert into _pathly_import values ({tag}{payload}{tag}::jsonb);
 insert into public.universities as u (
   registry_id, name, name_variants, country, institution_type, ownership,
   recognition_status, lifecycle_status, official_url, listed_by, is_listed, last_seen_at,
-  german_physical_presence, presence_status, presence_basis
+  german_physical_presence, presence_status, presence_basis,
+  market_access, online_de_status, online_de_basis, online_de_evidence, external_ids, discovery
 )
 select
   r.registry_id,
   r.name,
   array(select jsonb_array_elements_text(r.name_variants)),
-  'DE',
+  coalesce(r.country, 'DE'),
   r.institution_type,
   r.ownership,
   r.recognition_status,
@@ -67,13 +70,21 @@ select
   now(),
   r.german_physical_presence,
   coalesce(r.presence_status, 'review'),
-  r.presence_basis
+  r.presence_basis,
+  array(select jsonb_array_elements_text(coalesce(r.market_access, '[]'::jsonb))),
+  coalesce(r.online_de_status, 'not_assessed'),
+  r.online_de_basis,
+  coalesce(r.online_de_evidence, '{{}}'::jsonb),
+  coalesce(r.external_ids, '{{}}'::jsonb),
+  coalesce(r.discovery, '[]'::jsonb)
 from _pathly_import i
 cross join lateral jsonb_to_recordset(i.doc->'universities') as r(
   registry_id text, name text, name_variants jsonb, institution_type text,
   ownership text, recognition_status text, lifecycle_status text,
   official_url text, listed_by jsonb,
-  german_physical_presence boolean, presence_status text, presence_basis text
+  german_physical_presence boolean, presence_status text, presence_basis text,
+  country text, market_access jsonb, online_de_status text, online_de_basis text,
+  online_de_evidence jsonb, external_ids jsonb, discovery jsonb
 )
 on conflict (registry_id) do update set
   name               = excluded.name,
@@ -88,7 +99,14 @@ on conflict (registry_id) do update set
   last_seen_at       = excluded.last_seen_at,
   german_physical_presence = excluded.german_physical_presence,
   presence_status    = excluded.presence_status,
-  presence_basis     = excluded.presence_basis;
+  presence_basis     = excluded.presence_basis,
+  country            = excluded.country,
+  market_access      = excluded.market_access,
+  online_de_status   = excluded.online_de_status,
+  online_de_basis    = excluded.online_de_basis,
+  online_de_evidence = excluded.online_de_evidence,
+  external_ids       = excluded.external_ids,
+  discovery          = excluded.discovery;
 
 -- 2. Universities no source lists any more: keep, but mark.
 --    Without a current listing their German presence is unknown again.
@@ -96,7 +114,8 @@ update public.universities
 set is_listed = false,
     german_physical_presence = null,
     presence_status = 'review',
-    presence_basis = 'no_longer_listed'
+    presence_basis = 'no_longer_listed',
+    market_access = '{{}}'
 where is_listed
   and registry_id not in (
     select r->>'registry_id'
@@ -140,12 +159,15 @@ cross join lateral jsonb_to_recordset(i.doc->'locations') as l(
 )
 join public.universities u on u.registry_id = l.registry_id;
 
-insert into public.sources (university_id, state, authority, url, category, source_type, retrieved_at)
-select u.id, s.state, s.authority, s.url, s.category, s.source_type, s.retrieved_at
+insert into public.sources (
+  university_id, state, authority, url, category, source_type, retrieved_at, dataset_version, record_id
+)
+select u.id, s.state, s.authority, s.url, s.category, s.source_type, s.retrieved_at,
+  s.dataset_version, s.record_id
 from _pathly_import i
 cross join lateral jsonb_to_recordset(i.doc->'sources') as s(
   registry_id text, state text, authority text, url text, category text,
-  source_type text, retrieved_at timestamptz
+  source_type text, retrieved_at timestamptz, dataset_version text, record_id text
 )
 join public.universities u on u.registry_id = s.registry_id;
 
@@ -213,6 +235,13 @@ def build_payload(master_dir: Path) -> dict:
             "german_physical_presence": u.get("german_physical_presence"),
             "presence_status": u.get("presence_status", "review"),
             "presence_basis": u.get("presence_basis"),
+            "country": u.get("country", "DE"),
+            "market_access": u.get("market_access", []),
+            "online_de_status": u.get("online_de_status", "not_assessed"),
+            "online_de_basis": u.get("online_de_basis"),
+            "online_de_evidence": u.get("online_de_evidence", {}),
+            "external_ids": u.get("external_ids", {}),
+            "discovery": u.get("discovery", []),
         })
         id_aliases += [
             {"alias_registry_id": former, "registry_id": u["registry_id"]}
@@ -233,6 +262,8 @@ def build_payload(master_dir: Path) -> dict:
                 "category": s["source_category"],
                 "source_type": s["source_type"],
                 "retrieved_at": s["retrieved_at"],
+                "dataset_version": s.get("dataset_version"),
+                "record_id": s.get("record_id"),
             }
             for s in sources
         ],
@@ -247,6 +278,9 @@ def build_payload(master_dir: Path) -> dict:
             "presence_confirmed": sum(1 for r in rows if r["presence_status"] == "confirmed"),
             "presence_not_present": sum(1 for r in rows if r["presence_status"] == "not_present"),
             "presence_review": sum(1 for r in rows if r["presence_status"] == "review"),
+            "international": sum(1 for r in rows if r["country"] != "DE"),
+            "online_de_confirmed": sum(1 for r in rows if r["online_de_status"] == "confirmed"),
+            "online_de_review": sum(1 for r in rows if r["online_de_status"] == "review"),
         },
     }
 

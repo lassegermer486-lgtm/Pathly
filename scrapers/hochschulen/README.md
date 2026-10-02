@@ -4,10 +4,11 @@ Reproducible register of German higher-education institutions, built from
 official state sources: every institution once, with its official website and
 a permanent ProjectPathly ID (`PTH-DE-XXXXXXXX`).
 
-## Pipeline (v1.2)
+## Pipeline (v1.2, extended in v1.3)
 
 ```text
 16 state sources   registry.run                         data/normalized/
+intl. candidates   registry.international.run           data/normalized/universities_intl.json (v1.3)
 URL check/resolve  registry.enrichment.website_resolver data/enriched/
 agent (last resort)registry.enrichment.agent_resolver   data/enriched/
 deduplication      registry.master.dedup                data/master/universities_dedup.json
@@ -235,9 +236,70 @@ data/reports/presence_review.md         open cases with ready-made decision entr
 - Nothing is deleted: closed and moved locations stay, with their source.
 - `source_location_status` keeps what the state source said
   (`confirmed` / `candidate` / `structural`).
+- This is a preliminary classification. `presence_basis` /
+  `location_status_basis` say where it comes from (city-level location,
+  state listing without a city, manual review). Verifying addresses and
+  campuses is left to the site scraper (Scraper 2), which can confirm or
+  correct these statuses; nothing from this registry is deleted for that.
 - Supabase: apply `supabase/migrations/20261002120000_university_presence.sql`
   before the first v1.3 import. Institutions no source lists any more get
   `is_listed = false` and `presence_status = review`.
+
+## International online institutions (v1.3)
+
+Institutions outside Germany whose study offer may be fully online, from
+official datasets. They join the same dedup, master registry and Supabase
+import; the German discovery output (`universities_de.json`) is untouched.
+Research and filter rationale: `docs/hochschulregister-v1.3-internationale-quellen.md`.
+
+```text
+registry.international.run   ETER (Europe) + IPEDS (USA)  -> data/normalized/universities_intl.json
+website_resolver / agent_resolver with --in/--out          -> data/enriched/universities_intl_urls.json
+registry.master.dedup / build read both enriched files     -> one master registry
+```
+
+| Source | Pinned version | Discovery filter | Candidates |
+|---|---|---|---|
+| ETER (`INTL-ETER`) | Zenodo dump 26.03.2024 (2021/22), CC BY 4.0 | `Distance education institution` = 2, country ≠ DE, latest answer ≥ 2019 | 25 |
+| IPEDS (`INTL-IPEDS`) | HD2024, IC2024, EFFY2024_DIST, EF2023A_DIST | `DISTNCED` = 1 and ≥ 90 % exclusively online students, active, Title IV, bachelor or above | 45 |
+
+- **`state` = `INTL-ETER` / `INTL-IPEDS` is a source namespace, not a German
+  state.** It keeps `record_key`, `overrides.yaml` and `listed_by` working
+  unchanged. German observations are only `DE-XX`.
+- Every file is pinned by URL and SHA-256 in `registry/international_sources.yaml`
+  and cached in `data/source_cache/INTL-*` (not versioned, 92 MB). A changed
+  publisher file fails the source; adopt new versions by changing the pin.
+- Reliability as for the states: `data/reports/international_build_status.json`,
+  counts in `state_counts.json`, the publishing gate checks both discoveries.
+- `country` is the home country (ETER `UK` → `GB`). IDs use the existing
+  `PTH-DE-…` strategy; existing IDs do not change.
+- **Discovery is not confirmation.** Candidates start with
+  `online_de_status = review`, `market_access = []`,
+  `german_physical_presence = null` (`presence_basis = no_german_source_listing`:
+  not found in the German sources, which is no evidence of absence).
+- `online_de_status = confirmed` (and `market_access` `online_de`) only from
+  `data/master/online_de_decisions.yaml` with two official evidence URLs:
+  a complete degree fully online, and enrolment possible from Germany.
+  Open cases with ready-made entries: `data/reports/online_de_review.md`.
+- German institutions: `online_de_status = not_assessed` (their online
+  programmes belong to the programme scraper), `market_access = [physical_de]`
+  when their German presence is confirmed.
+- USA: Title IV is a filter, not the recognition shown to users; the
+  accreditation is looked up in DAPIP by `external_ids.opeid`
+  (`recognition_evidence_url` in the decision).
+- The agent resolver is reused unchanged; its prompt speaks of German
+  institutions, so its answers for international candidates are hints only
+  (they pass the same website checks).
+
+```bash
+python -m registry.international.run                 # both sources
+python -m registry.international.run --sources INTL-ETER
+python -m registry.reliability --accept-drift INTL-ETER
+```
+
+Supabase: apply `supabase/migrations/20261003120000_university_online_access.sql`
+after the presence migration and before the first import with international
+institutions.
 
 ## Supabase import
 

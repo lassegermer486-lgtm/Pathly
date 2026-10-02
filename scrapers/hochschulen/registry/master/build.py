@@ -34,7 +34,8 @@ from urllib.parse import urlsplit
 from bs4 import BeautifulSoup
 
 from registry import reliability
-from registry.master import presence
+from registry.international.base import is_international
+from registry.master import online_de, presence
 from registry.enrichment.website_resolver import (
     LEGAL_FORM_RE,
     WebsiteResolver,
@@ -45,7 +46,7 @@ from registry.enrichment.website_resolver import (
     visible_text,
     without_stopwords,
 )
-from registry.master.dedup import LOCATION_SUFFIX_RE, record_key
+from registry.master.dedup import DEFAULT_INPUTS, LOCATION_SUFFIX_RE, load_inputs, record_key
 from registry.normalize import normalize_url
 
 
@@ -451,19 +452,26 @@ def build(
     site_texts=None,
     now: str | None = None,
     presence_decisions: list[dict] | None = None,
+    online_de_decisions: list[dict] | None = None,
 ) -> dict:
     """
-    presence_decisions: reviewed German-presence decisions; None reads
-    data/master/presence_decisions.yaml (as the scraper UI relies on).
+    presence_decisions / online_de_decisions: reviewed decisions; None reads
+    data/master/presence_decisions.yaml / online_de_decisions.yaml (as the
+    scraper UI relies on).
     """
     now = now or datetime.now(timezone.utc).isoformat()
     if presence_decisions is None:
         presence_decisions = presence.load_decisions()
+    if online_de_decisions is None:
+        online_de_decisions = online_de.load_decisions()
     by_key = {record_key(r): r for r in records}
 
+    # Cities of the German sources only (name cleaning); international seats
+    # must not change how German names are read.
     known_cities = frozenset(
         fold(location["city"])
         for record in records
+        if not is_international(record.get("state"))
         for location in record.get("locations") or []
         if location.get("city")
     )
@@ -493,7 +501,7 @@ def build(
             "registry_id": registry_id,
             "name": name["name"],
             "official_url": url,
-            "country": "DE",
+            "country": home_country(members),
             "lifecycle_status": None,
             "name_origin": name["origin"],
             "name_confirmed": name["confirmed"],
@@ -508,6 +516,10 @@ def build(
             "flags": [],
         }
         row["lifecycle_status"], row["flags"] = validate(row, members, chosen, name)
+        if row["country"] != "DE":
+            # Found as a foreign institution on purpose (international discovery).
+            row["flags"] = [f for f in row["flags"] if f["code"] != "possibly_foreign_institution"]
+        row["external_ids"], row["discovery"] = discovery_provenance(members)
         master.append(row)
         presence_doubts[registry_id] = presence.doubts(row, members)
 
@@ -531,6 +543,7 @@ def build(
                 "source_url": location.get("source_url"),
                 # confirmed / candidate / structural, as the state source says
                 "source_location_status": location.get("location_status"),
+                "country": location.get("country") or "DE",
             })
 
         for alias in institution["names"]:
@@ -546,6 +559,9 @@ def build(
                 "retrieved_at": source.get("retrieved_at"),
                 "source_category": source.get("category") or source.get("source_category"),
                 "source_type": source.get("source_type"),
+                # international datasets: pinned version and the record in it
+                "dataset_version": source.get("dataset_version"),
+                "record_id": source.get("record_id"),
             })
 
     master.sort(key=lambda row: row["name"].lower())
@@ -554,6 +570,8 @@ def build(
     presence_report = presence.apply(
         master, locations, sources, presence_doubts, presence_decisions, now
     )
+    # after presence: market_access needs german_physical_presence
+    online_de_report = online_de.apply(master, online_de_decisions, now)
 
     return {
         "universities": master,
@@ -563,7 +581,37 @@ def build(
         "sources": sources,
         "built_at": now,
         "presence": presence_report,
+        "online_de": online_de_report,
     }
+
+
+def home_country(members: list[dict]) -> str:
+    """
+    The institution's home country. German state sources record the campus
+    in Germany as DE; an international source states the home country, which
+    wins (§C12). Without an international member: DE, as before.
+    """
+    for member in members:
+        if is_international(member.get("state")) and member.get("country"):
+            return member["country"]
+    return "DE"
+
+
+def discovery_provenance(members: list[dict]) -> tuple[dict, list[dict]]:
+    """external_ids and the discovery signals of international members."""
+    external_ids, discovery = {}, []
+    for member in members:
+        found = member.get("discovery")
+        if not found:
+            continue
+        external_ids.update(found.get("external_ids") or {})
+        discovery.append({
+            "source": found.get("source"),
+            "record_id": (member.get("source") or {}).get("record_id"),
+            "signals": found.get("signals") or {},
+            **({"recognition": found["recognition"]} if found.get("recognition") else {}),
+        })
+    return external_ids, discovery
 
 
 def quality_report(result: dict, source_records: int, dedup_report: dict | None) -> dict:
@@ -619,7 +667,8 @@ def quality_report(result: dict, source_records: int, dedup_report: dict | None)
 def main():
     parser = argparse.ArgumentParser(description="ProjectPathly — master registry build")
     parser.add_argument("--dedup", default="data/master/universities_dedup.json")
-    parser.add_argument("--records", default="data/enriched/universities_de_urls.json")
+    # the same inputs as registry.master.dedup (German + international)
+    parser.add_argument("--records", nargs="+", default=list(DEFAULT_INPUTS))
     parser.add_argument("--ids", default="data/master/id_registry.json")
     parser.add_argument("--dedup-report", default="data/reports/dedup_report.json")
     parser.add_argument("--out-dir", default="data/master")
@@ -633,7 +682,7 @@ def main():
         raise SystemExit(2)
 
     institutions = json.loads(Path(args.dedup).read_text(encoding="utf-8"))
-    records = json.loads(Path(args.records).read_text(encoding="utf-8"))
+    records = load_inputs(args.records)
 
     ids_path = Path(args.ids)
     id_registry = IdRegistry(
@@ -652,6 +701,10 @@ def main():
     report = quality_report(result, len(records), dedup_report)
     report["discovery_build"] = reliability.build_summary()
     report["german_presence"] = result["presence"]["counts"]
+    report["international_discovery_build"] = reliability.build_summary(reliability.INTL_BUILD_STATUS_PATH)
+    report["online_de"] = result["online_de"]["counts"]
+    report["market_access"] = result["online_de"]["market_access"]
+    report["countries"] = dict(Counter(row["country"] for row in result["universities"]))
 
     out = Path(args.out_dir)
     out.mkdir(parents=True, exist_ok=True)
@@ -677,6 +730,11 @@ def main():
     presence_path.with_name("presence_review.md").write_text(
         presence.review_markdown(result["presence"]), encoding="utf-8"
     )
+    online_path = presence_path.with_name("online_de_validation.json")
+    online_path.write_text(json.dumps(result["online_de"], ensure_ascii=False, indent=2), encoding="utf-8")
+    online_path.with_name("online_de_review.md").write_text(
+        online_de.review_markdown(result["online_de"]), encoding="utf-8"
+    )
 
     print()
     print("=" * 62)
@@ -700,6 +758,14 @@ def main():
           f"{counts['not_present']} not present, {counts['review']} review")
     for warning in result["presence"]["decision_warnings"]:
         print(f"[WARN] presence decision {warning.get('registry_id')}: {warning['problem']}")
+    online = result["online_de"]["counts"]
+    access = result["online_de"]["market_access"]
+    print(f"Online from Germany:      {online['confirmed']} confirmed, {online['review']} review, "
+          f"{online['not_available']} not available, {online['not_assessed']} not assessed")
+    print(f"Market access:            {access['physical_de']} physical_de, {access['online_de']} online_de, "
+          f"{access['both']} both, {access['none']} none")
+    for warning in result["online_de"]["decision_warnings"]:
+        print(f"[WARN] online_de decision {warning.get('registry_id')}: {warning['problem']}")
     print("-" * 62)
 
 
