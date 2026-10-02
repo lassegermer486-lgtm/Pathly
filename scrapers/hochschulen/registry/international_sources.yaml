@@ -1,0 +1,78 @@
+# International online discovery (v1.3, Phase C).
+#
+# The keys are source namespaces, NOT German states: records of these sources
+# carry state = "INTL-ETER" / "INTL-IPEDS" so that record_key, overrides.yaml
+# and listed_by work unchanged. Never read them as a geographic state.
+#
+# Every file is pinned by URL and SHA-256. If the publisher replaces a file
+# (e.g. a final IPEDS release), the checksum fails and the source counts as
+# failed: a new version is adopted only by changing the pin here, on purpose.
+# Research and filter rationale: docs/hochschulregister-v1.3-internationale-quellen.md
+
+INTL-ETER:
+  name: ETER – European Tertiary Education Register
+  authority: European Commission – ETER/EHESO
+  adapter: eter
+  enabled: true
+  files:
+    dump:
+      url: https://zenodo.org/records/10879501/files/ETER_fullDump_26032024.csv?download=1
+      sha256: d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324
+      filename: ETER_fullDump_26032024.csv
+  dataset:
+    version: ETER_fullDump_26032024
+    doi: 10.5281/zenodo.10879501
+    landing_page: https://zenodo.org/records/10879501
+    licence: CC-BY-4.0
+    reference_years: 2011-2021 (academic year 2021/22)
+  filter:
+    # "Distance education institution" (STUD.DISTEDUINST), ETER handbook 2025 §5.6.4:
+    # 2 = mostly distance education (>90% of the students in distance programmes)
+    distance_education_institution: ["2"]
+    # value of the latest reference year with an answer (0/1/2) must be this recent
+    min_reference_year: 2019
+    exclude_countries: [DE]
+
+INTL-IPEDS:
+  name: IPEDS – Integrated Postsecondary Education Data System
+  authority: U.S. Department of Education, National Center for Education Statistics
+  adapter: ipeds
+  enabled: true
+  files:
+    hd:
+      url: https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip
+      sha256: d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345
+      filename: HD2024.zip
+      release: 2024-25 collection, Release 1 (September 2025)
+    ic:
+      url: https://nces.ed.gov/ipeds/datacenter/data/IC2024.zip
+      sha256: 924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288
+      filename: IC2024.zip
+      release: 2024-25 collection, Provisional Release 1 (September 2025)
+    effy_dist:
+      url: https://nces.ed.gov/ipeds/datacenter/data/EFFY2024_DIST.zip
+      sha256: 0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e
+      filename: EFFY2024_DIST.zip
+      release: 12-month enrollment 2023-24, Provisional (September 2025)
+    ef_dist:
+      url: https://nces.ed.gov/ipeds/datacenter/data/EF2023A_DIST.zip
+      sha256: 82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97
+      filename: EF2023A_DIST.zip
+      release: Fall 2023 enrollment, Provisional
+  dataset:
+    version: IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST
+    landing_page: https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx
+    licence: U.S. federal government data (public domain)
+  filter:
+    # HD2024
+    cyactive: "1"            # active in current year
+    pset4flg: "1"            # Title IV postsecondary institution
+    deggrant: "1"            # degree-granting
+    min_hloffer: 5           # highest offering: bachelor's or above
+    # IC2024: "Are all the programs at your institution offered completely via distance education?"
+    distnced: "1"
+    # EFFY2024_DIST, all students (EFFYDLEV = 1): EFYDEEXC / EFYDETOT
+    min_exclusive_distance_share: 0.90
+    min_enrollment: 100
+    # EF2023A_DIST EFDEEX4 (exclusively online, residing outside the U.S.)
+    # is stored as a ranking signal only, never used to exclude.

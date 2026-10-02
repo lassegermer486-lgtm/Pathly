@@ -16,6 +16,8 @@ comment on column public.universities.german_physical_presence is
   'true: mindestens ein aktiver Standort in Deutschland; false: alle deutschen Standorte geschlossen/verlegt (geprüft); null: unklar.';
 comment on column public.universities.presence_status is
   'confirmed / not_present / review – abgeleitet aus locations.location_status und den Landes-Listungen.';
+comment on column public.universities.presence_basis is
+  'Herkunft der Aussage: state_source_and_verified_website (Standort mit Ort), state_listing_without_city_and_verified_website (nur Landes-Listung), manual_review, uncertain_locations. Vorläufig; Scraper 2 kann mit Standortdaten bestätigen oder korrigieren.';
 
 create index universities_presence_idx on public.universities (presence_status);
 

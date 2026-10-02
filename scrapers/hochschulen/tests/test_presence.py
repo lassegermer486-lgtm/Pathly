@@ -99,9 +99,19 @@ def test_doubt_signals_make_the_automatic_status_uncertain():
 
 def test_state_listing_without_city_counts_as_observation():
     r = row(listed_by=("DE-BY",))
-    run([r], [])
+    report = run([r], [])
 
     assert r["german_physical_presence"] is True
+    # distinguishable from a confirmed address (Scraper 2 can refine it)
+    assert r["presence_basis"] == "state_listing_without_city_and_verified_website"
+    assert report["counts"]["confirmed"] == 1
+
+
+def test_city_location_basis_wins_over_state_listing():
+    r = row(listed_by=("DE-HH", "DE-BY"))
+    run([r], [loc("Hamburg", "DE-HH")])
+
+    assert r["presence_basis"] == "state_source_and_verified_website"
 
 
 def test_state_listing_can_be_closed_by_a_state_decision():

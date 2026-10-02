@@ -23,10 +23,27 @@ Nothing is deleted: closed and moved locations stay in locations.json.
 
 The automatic rules never conclude "no presence": negative statements need a
 person and an official source (data/master/presence_decisions.yaml).
+
+This is the registry's preliminary classification. The basis of every status
+says where it comes from, so the later site scraper (Scraper 2) can confirm
+or correct it with campus data without losing this provenance:
+
+    state_source_and_verified_website                 city-level location from a state source
+    state_listing_without_city_and_verified_website   only the state listing, no address
+    insufficient_evidence: <doubts>                   automatic, uncertain
+    manual_review                                     presence_decisions.yaml
+    no_german_source_listing                          no German state source lists it (an
+                                                      international discovery candidate);
+                                                      a signal, NOT evidence of absence
+
+Only German observations count: locations in Germany and listings by German
+state sources ("DE-XX"). International discovery namespaces in listed_by
+("INTL-ETER", "INTL-IPEDS") and locations abroad are not German observations.
 """
 
 from __future__ import annotations
 
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -119,6 +136,10 @@ def doubts(row: dict, members: list[dict]) -> list[str]:
     return found
 
 
+def is_german_state(state: str | None) -> bool:
+    return bool(state) and re.fullmatch(r"DE-[A-Z]{2}", state) is not None
+
+
 def _automatic(row_doubts: list[str]) -> tuple[str, str]:
     if row_doubts:
         return "uncertain", "insufficient_evidence: " + ", ".join(row_doubts)
@@ -177,7 +198,7 @@ def apply(
         source_by_state.setdefault((source["registry_id"], source.get("source_state")), source)
 
     used = set()
-    review, not_present = [], []
+    review, not_present, no_german_listing = [], [], []
 
     def decide(registry_id, state, city):
         # The most specific matching decision wins (city > state > institution).
@@ -200,6 +221,8 @@ def apply(
                 evidence_url = decision["evidence_url"]
             else:
                 status, basis = auto_status, auto_basis
+                if kind == "state_listing" and status == "active":
+                    basis = "state_listing_without_city_and_verified_website"
             observation = {
                 "kind": kind, "state": state, "city": city,
                 "location_status": status, "basis": basis, "evidence_url": evidence_url,
@@ -211,17 +234,23 @@ def apply(
 
         covered = set()
         for location in locations_by_id.get(registry_id, []):
+            location.setdefault("country", "DE")
+            if location["country"] != "DE" or not is_german_state(location.get("source_state")):
+                # A seat abroad (international discovery): not a German observation.
+                location["location_status"] = "uncertain"
+                location["location_status_basis"] = "outside_germany_not_validated"
+                location["location_status_evidence_url"] = None
+                continue
             covered.add(location.get("source_state"))
             observation = observe("location", location.get("state") or location.get("source_state"),
                                   location.get("city"), location.get("source_url"))
-            location["country"] = "DE"
             location["location_status"] = observation["location_status"]
             location["location_status_basis"] = observation["basis"]
             location["location_status_evidence_url"] = observation["evidence_url"]
 
         # States that list the institution without a city: the listing itself.
         for state in row.get("listed_by") or []:
-            if state in covered:
+            if state in covered or not is_german_state(state):
                 continue
             source = source_by_state.get((registry_id, state)) or {}
             observe("state_listing", state, None, source.get("source_url"))
@@ -232,6 +261,9 @@ def apply(
             basis = "manual_review" if all(o["basis"] == "manual_review" for o in active) else active[0]["basis"]
         elif status == "not_present":
             basis = "manual_review"
+        elif not observations:
+            # Absence from the German sources is not evidence of absence.
+            basis = "no_german_source_listing"
         else:
             basis = "uncertain_locations"
 
@@ -247,7 +279,9 @@ def apply(
             "doubts": [{"code": d, "detail": DOUBTS.get(d, d)} for d in row_doubts.get(registry_id, [])],
             "observations": observations,
         }
-        if status == "review":
+        if basis == "no_german_source_listing":
+            no_german_listing.append(row["registry_id"])
+        elif status == "review":
             review.append(entry)
         elif status == "not_present":
             not_present.append(entry)
@@ -259,8 +293,12 @@ def apply(
                          "city": decision.get("city"), "state": decision.get("state")})
 
     location_counts = {s: 0 for s in LOCATION_STATUSES}
+    abroad = 0
     for location in locations:
-        location_counts[location["location_status"]] += 1
+        if location.get("location_status_basis") == "outside_germany_not_validated":
+            abroad += 1
+        else:
+            location_counts[location["location_status"]] += 1
 
     return {
         "generated_at": now,
@@ -270,11 +308,16 @@ def apply(
             "institutions": len(universities),
             "confirmed": sum(1 for r in universities if r["presence_status"] == "confirmed"),
             "not_present": len(not_present),
+            # German observations that need a decision
             "review": len(review),
+            # international candidates, presence not assessed (null / review)
+            "no_german_source_listing": len(no_german_listing),
         },
         "location_status": location_counts,
+        "locations_outside_germany": abroad,
         "not_present": not_present,
         "review": review,
+        "no_german_source_listing": no_german_listing,
     }
 
 

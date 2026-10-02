@@ -1,0 +1,29 @@
+# Manuelle Entscheidungen: Ist ein vollständiges Studium online aus
+# Deutschland möglich? (registry/master/online_de.py)
+#
+# Offene Fälle mit fertigen Einträgen: data/reports/online_de_review.md
+#
+# registry_id:               stabile ID aus universities_de_master.json (Pflicht)
+# status:                    confirmed | not_available | review
+# degree_evidence_url:       offizielle Seite: mindestens ein vollständiger
+#                            Abschluss ist komplett online studierbar
+# eligibility_evidence_url:  offizielle Seite: Zulassung mit Wohnsitz in
+#                            Deutschland möglich (bzw. ausgeschlossen)
+# recognition_evidence_url:  optional: anabin (H+), DAPIP (USA), DEQAR
+# checked_at, note:          optional
+#
+# confirmed     braucht degree_evidence_url UND eligibility_evidence_url
+#               -> market_access enthält online_de
+# not_available braucht die offizielle Seite, die die Einschränkung zeigt
+# Ein ETER-/IPEDS-Treffer oder eine Agent-Antwort allein bestätigt nie.
+#
+# Beispiel:
+#   - registry_id: PTH-DE-0123ABCD
+#     status: confirmed
+#     degree_evidence_url: https://www.example.edu/online/bachelor-business
+#     eligibility_evidence_url: https://www.example.edu/admissions/international
+#     recognition_evidence_url: https://ope.ed.gov/dapip/
+#     checked_at: 2026-10-02
+#     note: "Online-Bachelor, Zulassung ohne Länderbeschränkung"
+
+decisions: []

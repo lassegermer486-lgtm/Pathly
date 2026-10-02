@@ -5,6 +5,7 @@ script) are exercised, and nothing is written into the scraper folder.
 This is the test that tells you early when a new scraper version changed
 something the UI relies on.
 """
+import json
 import os
 from pathlib import Path
 
@@ -111,3 +112,27 @@ def test_dedup_cache_returns_the_original_values(bridge):
         assert dedup.fold(name) == dedup.fold.__wrapped__(name)
         assert dedup.name_key(name) == dedup.name_key.__wrapped__(name)
         assert list(dedup.explicit_acronyms(name)) == website.explicit_acronyms(name)
+
+
+def test_international_candidates_are_kept_but_not_written_as_german(bridge, tmp_path, monkeypatch):
+    """v1.3: candidates from registry.international stay in the register when
+    the UI rebuilds it; the German enriched file stays German."""
+    candidate = {**raw("Universidad Abierta Ejemplo", "INTL-ETER", "https://www.abierta.example"),
+                 "country": "ES", "website_resolution": resolved("https://www.abierta.example")}
+    candidate["locations"][0].update(state=None, country="ES", city="Madrid", postal_code=None)
+    intl_file = tmp_path / "universities_intl_urls.json"
+    intl_file.write_text(json.dumps([candidate]), encoding="utf-8")
+    monkeypatch.setattr(bridge, "intl_enriched_path", intl_file)
+
+    result = bridge.build(RECORDS, log=lambda line: None)
+    master = next(m for m in result["masters"] if m["name"] == "Universidad Abierta Ejemplo")
+    assert master["country"] == "ES" and master["listed_by"] == ["INTL-ETER"]
+
+    written = {}
+    monkeypatch.setattr(bridge, "_write", lambda path, data: written.__setitem__(path, data))
+    bridge.save(result, RECORDS, complete=True, scraped_codes=[])
+
+    german = written[bridge.enriched_path]
+    assert len(german) == len(RECORDS)
+    assert all(r["state"].startswith("DE-") for r in german)
+    assert any(r["registry_id"] == master["university_id"] for r in written[bridge.registry_path])

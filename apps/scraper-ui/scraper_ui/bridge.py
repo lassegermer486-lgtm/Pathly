@@ -146,6 +146,11 @@ def _record_key(record: dict) -> str:
     return f"{record.get('state')}|{record.get('name')}"
 
 
+def _is_international(record: dict) -> bool:
+    """v1.3 international candidates carry a source namespace, not a state."""
+    return str(record.get("state") or "").startswith("INTL-")
+
+
 def _not_checked(record: dict) -> dict:
     """website_resolution of a record nobody has checked (as the resolver writes it)."""
     return {
@@ -182,6 +187,9 @@ class ScraperBridge:
         self.id_registry_path = self.master_dir / "id_registry.json"
         self.last_scrape_path = self.dir / "data" / "normalized" / "universities_de.json"
         self.enriched_path = self.dir / "data" / "enriched" / "universities_de_urls.json"
+        # v1.3: international candidates (registry.international + website check
+        # on the command line); the UI does not fetch them, it keeps them.
+        self.intl_enriched_path = self.dir / "data" / "enriched" / "universities_intl_urls.json"
         self.registry_path = self.master_dir / "universities_de_master.json"
 
     # ------------------------------------------------------------------
@@ -295,6 +303,12 @@ class ScraperBridge:
             "locations": locations, "validation_issues": len(invalid),
         }
 
+    def _international_records(self) -> list[dict]:
+        """Website-checked international candidates (v1.3), as the CLI wrote them."""
+        if not self.intl_enriched_path.is_file():
+            return []
+        return json.loads(self.intl_enriched_path.read_text(encoding="utf-8"))
+
     def load_last_scrape(self) -> list[dict]:
         return json.loads(self.last_scrape_path.read_text(encoding="utf-8"))
 
@@ -402,6 +416,9 @@ class ScraperBridge:
         p = self._pipeline
         with capture_output(log):
             records, used = self._with_websites(raw, log, online, websites)
+            # Without them a save would drop the international institutions
+            # from the master files (and the import would unlist them).
+            records = records + self._international_records()
             overrides = p.dedup.load_overrides(self.overrides_path)
             institutions, report = p.dedup.deduplicate(records, overrides)
 
@@ -568,7 +585,7 @@ class ScraperBridge:
         p, run = self._pipeline, result["pipeline"]
         built, report = run["built"], run["dedup_report"]
 
-        write(self.enriched_path, run["records"])
+        write(self.enriched_path, [r for r in run["records"] if not _is_international(r)])
         write(self.master_dir / "universities_dedup.json", run["institutions"])
         write(self.reports_dir / "dedup_report.json", report)
         write(self.reports_dir / "review_report.md", p.dedup.review_markdown(report))

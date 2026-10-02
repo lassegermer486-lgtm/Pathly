@@ -33,6 +33,12 @@ would be built from is not production safe (--allow-degraded overrides).
     python -m registry.reliability                        # show last build status
     python -m registry.reliability --accept-drift DE-NW   # after checking DE-NW
     python -m registry.reliability --accept-drift all
+    python -m registry.reliability --accept-drift INTL-ETER   # international source
+
+The international discovery (registry.international.run) uses the same rules
+with its own status file (international_build_status.json); its sources
+(INTL-ETER, INTL-IPEDS) share state_counts.json. The publishing gate checks
+both discovery outputs.
 """
 
 from __future__ import annotations
@@ -52,6 +58,14 @@ BUILD_STATUS_PATH = Path("data/reports/build_status.json")
 STATE_COUNTS_PATH = Path("data/master/state_counts.json")
 RUN_REPORT_PATH = Path("data/reports/registry_run.json")
 NORMALIZED_PATH = Path("data/normalized/universities_de.json")
+INTL_BUILD_STATUS_PATH = Path("data/reports/international_build_status.json")
+INTL_NORMALIZED_PATH = Path("data/normalized/universities_intl.json")
+
+# (build status, discovery output it was written for)
+DISCOVERY_OUTPUTS = [
+    (BUILD_STATUS_PATH, NORMALIZED_PATH),
+    (INTL_BUILD_STATUS_PATH, INTL_NORMALIZED_PATH),
+]
 
 
 def _now() -> str:
@@ -333,17 +347,31 @@ def accept_drift(
 def production_gate(
     step: str,
     allow_degraded: bool = False,
-    status_path: Path = BUILD_STATUS_PATH,
-    normalized_path: Path = NORMALIZED_PATH,
+    status_path: Path | None = None,
+    normalized_path: Path | None = None,
 ) -> bool:
     """
     True if `step` may replace the published registry files. Prints why not.
 
-    The status only counts for the discovery output it was written for: data
-    from before v1.3, or a normalized file written elsewhere (scraper UI,
-    git checkout), is not judged here.
+    Checks the German and the international discovery (DISCOVERY_OUTPUTS),
+    or only the given pair. The status only counts for the discovery output
+    it was written for: data from before v1.3, or a normalized file written
+    elsewhere (scraper UI, git checkout), is not judged here.
     """
+    if status_path is not None or normalized_path is not None:
+        pairs = [(status_path or BUILD_STATUS_PATH, normalized_path or NORMALIZED_PATH)]
+    else:
+        pairs = DISCOVERY_OUTPUTS
+
+    results = [_gate_one(step, allow_degraded, s, n) for s, n in pairs]
+    return all(results)
+
+
+def _gate_one(step: str, allow_degraded: bool, status_path: Path, normalized_path: Path) -> bool:
     status = _read_json(status_path)
+
+    if status is None and status_path == INTL_BUILD_STATUS_PATH and not Path(normalized_path).exists():
+        return True  # no international discovery yet
 
     if status is None:
         print(f"[BUILD] {step}: no discovery build status ({status_path}); not checked")
@@ -367,7 +395,7 @@ def production_gate(
 
     print(f"[BLOCKED] {step}: discovery build is {summary}")
     print("          The published registry files stay unchanged.")
-    print("          Inspect data/reports/build_status.json; after checking a count drift:")
+    print(f"          Inspect {status_path}; after checking a count drift:")
     print("            python -m registry.reliability --accept-drift <STATE>")
     print("          To write anyway (debugging only): --allow-degraded")
     return False
@@ -414,14 +442,27 @@ def main():
     )
     args = parser.parse_args()
 
-    if args.accept_drift:
-        status = accept_drift(args.accept_drift)
-    else:
-        status = _read_json(BUILD_STATUS_PATH)
-        if status is None:
-            sys.exit(f"No build status at {BUILD_STATUS_PATH}. Run python -m registry.run first.")
+    available = [path for path, _ in DISCOVERY_OUTPUTS if _read_json(path) is not None]
+    if not available:
+        sys.exit(f"No build status at {BUILD_STATUS_PATH}. Run python -m registry.run first.")
 
-    print_status(status)
+    accept_all = bool(args.accept_drift) and [s.lower() for s in args.accept_drift] == ["all"]
+
+    for path in available:
+        status = _read_json(path)
+        if args.accept_drift:
+            mine = [e["state"] for e in status.get("states") or []]
+            wanted = ["all"] if accept_all else [s for s in args.accept_drift if s in mine]
+            if wanted:
+                status = accept_drift(wanted, status_path=path)
+        print(f"[{path.name}]")
+        print_status(status)
+
+    if args.accept_drift and not accept_all:
+        known = {e["state"] for path in available for e in _read_json(path).get("states") or []}
+        for state in args.accept_drift:
+            if state not in known:
+                print(f"[WARN] {state}: not part of any discovery build status")
 
 
 if __name__ == "__main__":
