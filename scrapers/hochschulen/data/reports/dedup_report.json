@@ -1,0 +1,683 @@
+{
+  "generated_at": "2026-10-02T08:31:05.534570+00:00",
+  "source_records": 458,
+  "institutions": 435,
+  "merged_institutions": 16,
+  "records_merged_away": 23,
+  "rules": {
+    "override_merge": 2,
+    "rule_4_similar_name_different_site": 26,
+    "rule_2_name_variant_same_site": 26,
+    "rule_1_same_name_same_site": 8,
+    "override_keep_separate": 1
+  },
+  "review_cases": 0,
+  "conflicts": [],
+  "unknown_override_keys": [],
+  "merged": [
+    {
+      "members": [
+        "DE-BB|HSD Hochschule Döpfer GmbH",
+        "DE-NW|HSD Hochschule Döpfer"
+      ],
+      "official_url": "https://www.hs-doepfer.de",
+      "evidence": [
+        {
+          "a": "DE-BB|HSD Hochschule Döpfer GmbH",
+          "b": "DE-NW|HSD Hochschule Döpfer",
+          "decision": "auto_merge",
+          "rule": "rule_1_same_name_same_site",
+          "evidence": "same_name"
+        }
+      ]
+    },
+    {
+      "members": [
+        "DE-BB|Macromedia University of Applied Sciences",
+        "DE-HH|Hochschule Macromedia, University of Applied Science **"
+      ],
+      "official_url": "https://www.macromedia-fachhochschule.de",
+      "evidence": [
+        {
+          "a": "DE-BB|Macromedia University of Applied Sciences",
+          "b": "DE-HH|Hochschule Macromedia, University of Applied Science **",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "distinctive_words:macromedia"
+        }
+      ]
+    },
+    {
+      "members": [
+        "DE-BB|University of Europe for Applied Sciences",
+        "DE-HH|BTK Hochschule für Gestaltung, Campus Hamburg",
+        "DE-HH|University of Europe for Applied Sciences"
+      ],
+      "official_url": "https://www.ue-germany.com",
+      "evidence": [
+        {
+          "a": "DE-BB|University of Europe for Applied Sciences",
+          "b": "DE-HH|BTK Hochschule für Gestaltung, Campus Hamburg",
+          "decision": "auto_merge",
+          "rule": "rule_1_same_name_same_site",
+          "evidence": "same_name"
+        },
+        {
+          "a": "DE-BB|University of Europe for Applied Sciences",
+          "b": "DE-HH|University of Europe for Applied Sciences",
+          "decision": "auto_merge",
+          "rule": "rule_1_same_name_same_site",
+          "evidence": "same_name"
+        },
+        {
+          "a": "DE-HH|BTK Hochschule für Gestaltung, Campus Hamburg",
+          "b": "DE-HH|University of Europe for Applied Sciences",
+          "decision": "auto_merge",
+          "rule": "rule_1_same_name_same_site",
+          "evidence": "same_name"
+        }
+      ]
+    },
+    {
+      "members": [
+        "DE-BE|Hochschule des Bundes für öffentliche Verwaltung",
+        "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Kriminalpolizei in Wiesbaden",
+        "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Landwirtschaftliche Sozialversicherung in Kassel",
+        "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Wetterdienst in Offenbach",
+        "DE-NW|Hochschule des Bundes für öffentliche Verwaltung",
+        "DE-SH|FH des Bundes für öffentliche Verwaltung (Bundespolizei)"
+      ],
+      "official_url": "https://hsbund.de",
+      "evidence": [
+        {
+          "a": "DE-BE|Hochschule des Bundes für öffentliche Verwaltung",
+          "b": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Kriminalpolizei in Wiesbaden",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "distinctive_words:bundes,verwaltung"
+        },
+        {
+          "a": "DE-BE|Hochschule des Bundes für öffentliche Verwaltung",
+          "b": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Landwirtschaftliche Sozialversicherung in Kassel",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "distinctive_words:bundes,verwaltung"
+        },
+        {
+          "a": "DE-BE|Hochschule des Bundes für öffentliche Verwaltung",
+          "b": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Wetterdienst in Offenbach",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "distinctive_words:bundes,verwaltung"
+        },
+        {
+          "a": "DE-BE|Hochschule des Bundes für öffentliche Verwaltung",
+          "b": "DE-NW|Hochschule des Bundes für öffentliche Verwaltung",
+          "decision": "auto_merge",
+          "rule": "rule_1_same_name_same_site",
+          "evidence": "same_name"
+        },
+        {
+          "a": "DE-BE|Hochschule des Bundes für öffentliche Verwaltung",
+          "b": "DE-SH|FH des Bundes für öffentliche Verwaltung (Bundespolizei)",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "distinctive_words:bundes,verwaltung"
+        },
+        {
+          "a": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Kriminalpolizei in Wiesbaden",
+          "b": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Landwirtschaftliche Sozialversicherung in Kassel",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "distinctive_words:bundes,verwaltung"
+        },
+        {
+          "a": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Kriminalpolizei in Wiesbaden",
+          "b": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Wetterdienst in Offenbach",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "distinctive_words:bundes,verwaltung"
+        },
+        {
+          "a": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Kriminalpolizei in Wiesbaden",
+          "b": "DE-NW|Hochschule des Bundes für öffentliche Verwaltung",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "distinctive_words:bundes,verwaltung"
+        },
+        {
+          "a": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Kriminalpolizei in Wiesbaden",
+          "b": "DE-SH|FH des Bundes für öffentliche Verwaltung (Bundespolizei)",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "distinctive_words:bundes,verwaltung"
+        },
+        {
+          "a": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Landwirtschaftliche Sozialversicherung in Kassel",
+          "b": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Wetterdienst in Offenbach",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "distinctive_words:bundes,verwaltung"
+        },
+        {
+          "a": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Landwirtschaftliche Sozialversicherung in Kassel",
+          "b": "DE-NW|Hochschule des Bundes für öffentliche Verwaltung",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "distinctive_words:bundes,verwaltung"
+        },
+        {
+          "a": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Landwirtschaftliche Sozialversicherung in Kassel",
+          "b": "DE-SH|FH des Bundes für öffentliche Verwaltung (Bundespolizei)",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "distinctive_words:bundes,verwaltung"
+        },
+        {
+          "a": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Wetterdienst in Offenbach",
+          "b": "DE-NW|Hochschule des Bundes für öffentliche Verwaltung",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "distinctive_words:bundes,verwaltung"
+        },
+        {
+          "a": "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Wetterdienst in Offenbach",
+          "b": "DE-SH|FH des Bundes für öffentliche Verwaltung (Bundespolizei)",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "distinctive_words:bundes,verwaltung"
+        },
+        {
+          "a": "DE-NW|Hochschule des Bundes für öffentliche Verwaltung",
+          "b": "DE-SH|FH des Bundes für öffentliche Verwaltung (Bundespolizei)",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "distinctive_words:bundes,verwaltung"
+        }
+      ]
+    },
+    {
+      "members": [
+        "DE-BW|Hochschule Fresenius Heidelberg",
+        "DE-HE|Hochschule Fresenius (Idstein)",
+        "DE-HH|Hochschule Fresenius *"
+      ],
+      "official_url": "https://www.hs-fresenius.de",
+      "evidence": [
+        {
+          "a": "DE-BW|Hochschule Fresenius Heidelberg",
+          "b": "DE-HH|Hochschule Fresenius *",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "distinctive_words:fresenius"
+        },
+        {
+          "a": "DE-BW|Hochschule Fresenius Heidelberg",
+          "b": "DE-HE|Hochschule Fresenius (Idstein)",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "distinctive_words:fresenius"
+        },
+        {
+          "a": "DE-HH|Hochschule Fresenius *",
+          "b": "DE-HE|Hochschule Fresenius (Idstein)",
+          "decision": "auto_merge",
+          "rule": "rule_1_same_name_same_site",
+          "evidence": "same_name"
+        }
+      ]
+    },
+    {
+      "members": [
+        "DE-BW|Hochschule der Bundesagentur für Arbeit (HdBA)",
+        "DE-MV|Hochschule der Bundesagentur für Arbeit"
+      ],
+      "official_url": "https://www.hdba.de",
+      "evidence": [
+        {
+          "a": "DE-BW|Hochschule der Bundesagentur für Arbeit (HdBA)",
+          "b": "DE-MV|Hochschule der Bundesagentur für Arbeit",
+          "decision": "auto_merge",
+          "rule": "rule_1_same_name_same_site",
+          "evidence": "same_name"
+        }
+      ]
+    },
+    {
+      "members": [
+        "DE-BW|SRH University of Applied Sciences Heidelberg",
+        "DE-NW|SRH Hochschule in Nordrhein-Westfalen",
+        "DE-TH|SRH University of Applied Sciences Heidelberg in Gera"
+      ],
+      "official_url": "https://www.srh-university.de",
+      "evidence": [
+        {
+          "a": "DE-BW|SRH University of Applied Sciences Heidelberg",
+          "b": "DE-NW|SRH Hochschule in Nordrhein-Westfalen",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "shared_acronym:srh"
+        },
+        {
+          "a": "DE-BW|SRH University of Applied Sciences Heidelberg",
+          "b": "DE-TH|SRH University of Applied Sciences Heidelberg in Gera",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "same_name_without_location"
+        },
+        {
+          "a": "DE-NW|SRH Hochschule in Nordrhein-Westfalen",
+          "b": "DE-TH|SRH University of Applied Sciences Heidelberg in Gera",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "shared_acronym:srh"
+        }
+      ]
+    },
+    {
+      "members": [
+        "DE-HE|DIPLOMA Hochschule – Private Fachhochschule Nordhessen (Bad Sooden-Allendorf)",
+        "DE-HH|DIPLOMA Hochschule Hamburg"
+      ],
+      "official_url": "https://www.diploma.de",
+      "evidence": [
+        {
+          "a": "DE-HH|DIPLOMA Hochschule Hamburg",
+          "b": "DE-HE|DIPLOMA Hochschule – Private Fachhochschule Nordhessen (Bad Sooden-Allendorf)",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "distinctive_words:diploma"
+        }
+      ]
+    },
+    {
+      "members": [
+        "DE-HH|FOM Die Hochschule für Berufstätige",
+        "DE-NW|FOM Hochschule für Oekonomie & Management"
+      ],
+      "official_url": "https://www.fom.de",
+      "evidence": [
+        {
+          "a": "DE-HH|FOM Die Hochschule für Berufstätige",
+          "b": "DE-NW|FOM Hochschule für Oekonomie & Management",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "shared_acronym:fom"
+        }
+      ]
+    },
+    {
+      "members": [
+        "DE-HH|HFH Hamburger Fern-Hochschule",
+        "DE-MV|HFH Hamburger Fern-Hochschule"
+      ],
+      "official_url": "https://www.hfh-fernstudium.de",
+      "evidence": [
+        {
+          "a": "DE-HH|HFH Hamburger Fern-Hochschule",
+          "b": "DE-MV|HFH Hamburger Fern-Hochschule",
+          "decision": "auto_merge",
+          "rule": "rule_1_same_name_same_site",
+          "evidence": "same_name"
+        }
+      ]
+    },
+    {
+      "members": [
+        "DE-HH|ISM International School of Management",
+        "DE-NW|International School of Management"
+      ],
+      "official_url": "https://ism.de",
+      "evidence": [
+        {
+          "a": "DE-HH|ISM International School of Management",
+          "b": "DE-NW|International School of Management",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "distinctive_words:international"
+        }
+      ]
+    },
+    {
+      "members": [
+        "DE-HH|IUBH Internationale Hochschule, Campus Hamburg",
+        "DE-TH|IU Internationale Hochschule in Erfurt"
+      ],
+      "official_url": "https://www.iu-dualesstudium.de",
+      "evidence": [
+        {
+          "a": "DE-HH|IUBH Internationale Hochschule, Campus Hamburg",
+          "b": "DE-TH|IU Internationale Hochschule in Erfurt",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "shared_acronym:iu"
+        }
+      ]
+    },
+    {
+      "members": [
+        "DE-HH|NORDAKADEMIE Hochschule der Wirtschaft | Graduate School",
+        "DE-SH|Nordakademie Elmshorn"
+      ],
+      "official_url": "https://www.nordakademie.de",
+      "evidence": [
+        {
+          "a": "DE-HH|NORDAKADEMIE Hochschule der Wirtschaft | Graduate School",
+          "b": "DE-SH|Nordakademie Elmshorn",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "distinctive_words:nordakademie"
+        }
+      ]
+    },
+    {
+      "members": [
+        "DE-MV|Fachhochschule des Mittelstands",
+        "DE-NW|Fachhochschule des Mittelstands"
+      ],
+      "official_url": "https://www.fhm-campus.de",
+      "evidence": [
+        {
+          "a": "DE-MV|Fachhochschule des Mittelstands",
+          "b": "DE-NW|Fachhochschule des Mittelstands",
+          "rule": "override_merge"
+        }
+      ]
+    },
+    {
+      "members": [
+        "DE-MV|Internationale Studien- und Berufsakademie ISBA",
+        "DE-SL|ISBA gGmbH Internationale Studien- und Berufsakademie"
+      ],
+      "official_url": "https://www.isba.eu",
+      "evidence": [
+        {
+          "a": "DE-MV|Internationale Studien- und Berufsakademie ISBA",
+          "b": "DE-SL|ISBA gGmbH Internationale Studien- und Berufsakademie",
+          "rule": "override_merge"
+        }
+      ]
+    },
+    {
+      "members": [
+        "DE-NW|CBS International Business School",
+        "DE-NW|Europäische Fachhochschule Rhein/Erft"
+      ],
+      "official_url": "https://www.cbs.de",
+      "evidence": [
+        {
+          "a": "DE-NW|Europäische Fachhochschule Rhein/Erft",
+          "b": "DE-NW|CBS International Business School",
+          "decision": "auto_merge",
+          "rule": "rule_2_name_variant_same_site",
+          "evidence": "shared_acronym:cbs"
+        }
+      ]
+    }
+  ],
+  "review": [],
+  "kept_separate_similar": [
+    {
+      "a": "DE-BW|Hochschule für Polizei Baden-Württemberg",
+      "b": "DE-BW|Duale Hochschule Baden-Württemberg",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "baden",
+        "wuerttemberg"
+      ]
+    },
+    {
+      "a": "DE-BY|Hochschule für angewandte Wissenschaften Ansbach",
+      "b": "DE-HH|Hochschule für Angewandte Wissenschaften Hamburg",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "angewandte",
+        "wissenschaften"
+      ]
+    },
+    {
+      "a": "DE-BY|Hochschule für angewandte Wissenschaften Coburg",
+      "b": "DE-HH|Hochschule für Angewandte Wissenschaften Hamburg",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "angewandte",
+        "wissenschaften"
+      ]
+    },
+    {
+      "a": "DE-BY|Hochschule für angewandte Wissenschaften Hof",
+      "b": "DE-HH|Hochschule für Angewandte Wissenschaften Hamburg",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "angewandte",
+        "wissenschaften"
+      ]
+    },
+    {
+      "a": "DE-BY|Hochschule für angewandte Wissenschaften Kempten",
+      "b": "DE-HH|Hochschule für Angewandte Wissenschaften Hamburg",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "angewandte",
+        "wissenschaften"
+      ]
+    },
+    {
+      "a": "DE-BY|Hochschule für angewandte Wissenschaften Landshut",
+      "b": "DE-HH|Hochschule für Angewandte Wissenschaften Hamburg",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "angewandte",
+        "wissenschaften"
+      ]
+    },
+    {
+      "a": "DE-BY|Hochschule für angewandte Wissenschaften München",
+      "b": "DE-BY|Katholische Stiftungshochschule für angewandte Wissenschaften München",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "angewandte",
+        "muenchen",
+        "wissenschaften"
+      ]
+    },
+    {
+      "a": "DE-BY|Hochschule für angewandte Wissenschaften München",
+      "b": "DE-BY|Internationale Hochschule SDI München – Hochschule für angewandte Wissenschaften",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "angewandte",
+        "muenchen",
+        "wissenschaften"
+      ]
+    },
+    {
+      "a": "DE-BY|Hochschule für angewandte Wissenschaften München",
+      "b": "DE-HH|Hochschule für Angewandte Wissenschaften Hamburg",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "angewandte",
+        "wissenschaften"
+      ]
+    },
+    {
+      "a": "DE-BY|Hochschule für angewandte Wissenschaften Neu-Ulm",
+      "b": "DE-HH|Hochschule für Angewandte Wissenschaften Hamburg",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "angewandte",
+        "wissenschaften"
+      ]
+    },
+    {
+      "a": "DE-BY|Hochschule für angewandte Wissenschaften Weihenstephan-Triesdorf",
+      "b": "DE-HH|Hochschule für Angewandte Wissenschaften Hamburg",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "angewandte",
+        "wissenschaften"
+      ]
+    },
+    {
+      "a": "DE-BY|Katholische Stiftungshochschule für angewandte Wissenschaften München",
+      "b": "DE-HH|Hochschule für Angewandte Wissenschaften Hamburg",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "angewandte",
+        "wissenschaften"
+      ]
+    },
+    {
+      "a": "DE-BY|Evangelische Hochschule für angewandte Wissenschaften - Evangelische Fachhochschule Nürnberg",
+      "b": "DE-HH|Hochschule für Angewandte Wissenschaften Hamburg",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "angewandte",
+        "wissenschaften"
+      ]
+    },
+    {
+      "a": "DE-BY|Internationale Hochschule SDI München – Hochschule für angewandte Wissenschaften",
+      "b": "DE-HH|Hochschule für Angewandte Wissenschaften Hamburg",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "angewandte",
+        "wissenschaften"
+      ]
+    },
+    {
+      "a": "DE-BY|Hochschule der Bayerischen Wirtschaft für angewandte Wissenschaften (HDBW)",
+      "b": "DE-HH|Hochschule für Angewandte Wissenschaften Hamburg",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "angewandte",
+        "wissenschaften"
+      ]
+    },
+    {
+      "a": "DE-BB|Deutsche Hochschule für angewandte Wissenschaften",
+      "b": "DE-HH|Hochschule für Angewandte Wissenschaften Hamburg",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "angewandte",
+        "wissenschaften"
+      ]
+    },
+    {
+      "a": "DE-HE|Philosophisch-Theologische Hochschule Sankt Georgen (Frankfurt/Main)",
+      "b": "DE-NW|Philosophisch-Theologische Hochschule Münster",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "philosophisch",
+        "theologische"
+      ]
+    },
+    {
+      "a": "DE-HE|Theologische Fakultät Fulda",
+      "b": "DE-NW|Theologische Fakultät Paderborn",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "fakultaet",
+        "theologische"
+      ]
+    },
+    {
+      "a": "DE-MV|Fachhochschule für öffentliche Verwaltung, Polizei und Rechtspflege Mecklenburg-Vorpommern",
+      "b": "DE-SL|Fachhochschule für Verwaltung und Polizei",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "polizei",
+        "verwaltung"
+      ]
+    },
+    {
+      "a": "DE-NW|SRH Hochschule in Nordrhein-Westfalen",
+      "b": "DE-NW|Katholische Hochschule Nordrhein-Westfalen",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "nordrhein",
+        "westfalen"
+      ]
+    },
+    {
+      "a": "DE-NW|SRH Hochschule in Nordrhein-Westfalen",
+      "b": "DE-NW|Fachhochschule der Wirtschaft Nordrhein-Westfalen",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "nordrhein",
+        "westfalen"
+      ]
+    },
+    {
+      "a": "DE-NW|Katholische Hochschule Nordrhein-Westfalen",
+      "b": "DE-NW|Fachhochschule der Wirtschaft Nordrhein-Westfalen",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "nordrhein",
+        "westfalen"
+      ]
+    },
+    {
+      "a": "DE-NW|Katholische Hochschule Nordrhein-Westfalen",
+      "b": "DE-NW|Hochschule für Polizei und öffentliche Verwaltung Nordrhein-Westfalen",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "nordrhein",
+        "westfalen"
+      ]
+    },
+    {
+      "a": "DE-NW|Fachhochschule der Wirtschaft Nordrhein-Westfalen",
+      "b": "DE-NW|Hochschule für Polizei und öffentliche Verwaltung Nordrhein-Westfalen",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "nordrhein",
+        "westfalen"
+      ]
+    },
+    {
+      "a": "DE-NW|Theologische Fakultät Paderborn",
+      "b": "DE-RP|Theologische Fakultät Trier",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "fakultaet",
+        "theologische"
+      ]
+    },
+    {
+      "a": "DE-NW|Hochschule für Polizei und öffentliche Verwaltung Nordrhein-Westfalen",
+      "b": "DE-SL|Fachhochschule für Verwaltung und Polizei",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "polizei",
+        "verwaltung"
+      ]
+    }
+  ]
+}
