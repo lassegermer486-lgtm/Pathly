@@ -11,3 +11,7 @@ __pycache__/
 
 # Scraper-Rohdaten (werden bei jedem Lauf neu geschrieben)
 scrapers/*/data/raw/
+
+# Node / Next.js (für alle Apps)
+node_modules/
+.next/
