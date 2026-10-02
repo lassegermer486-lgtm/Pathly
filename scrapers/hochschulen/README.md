@@ -208,6 +208,37 @@ data/reports/validation_report.json       quality report (coverage, review list)
 - IDs are random, never derived from names, and kept in `id_registry.json`
   across runs, renames and merges (the older ID wins, the other becomes an alias).
 
+## German physical presence (v1.3)
+
+Does the institution currently have at least one active physical location in
+Germany? This is separate from "does the organisation still exist" and from
+online availability. Built by `registry.master.build` (`registry/master/presence.py`).
+
+```text
+data/master/locations.json            + country, location_status, location_status_basis,
+                                        location_status_evidence_url, source_location_status
+data/master/universities_de_master.json + german_physical_presence, presence_status, presence_basis
+data/master/presence_decisions.yaml     reviewed decisions (with evidence URL) — commit this file
+data/reports/presence_validation.json   counts, review and not-present cases with their evidence
+data/reports/presence_review.md         open cases with ready-made decision entries
+```
+
+- `location_status` per German observation (a city-level location, or the
+  state listing when a state lists the institution without a city):
+  `active` (current official state listing + verified website),
+  `uncertain` (no verified website, agent reports closure or an unverified
+  merger, only known as a predecessor, foreign website), `closed` / `moved`
+  (only from a reviewed decision with `evidence_url`).
+- `german_physical_presence`: `true` if any observation is active, `false` if
+  all are closed/moved, otherwise `null` with `presence_status = review`.
+  The automatic rules never conclude "not present".
+- Nothing is deleted: closed and moved locations stay, with their source.
+- `source_location_status` keeps what the state source said
+  (`confirmed` / `candidate` / `structural`).
+- Supabase: apply `supabase/migrations/20261002120000_university_presence.sql`
+  before the first v1.3 import. Institutions no source lists any more get
+  `is_listed = false` and `presence_status = review`.
+
 ## Supabase import
 
 ```bash

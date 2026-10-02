@@ -9,6 +9,8 @@ schema in supabase/migrations. Running it again is safe:
   - universities missing from this build stay, with is_listed = false
     (rows are never deleted),
   - former IDs of merged institutions go to university_aliases,
+  - v1.3: German presence (universities.presence_status,
+    locations.location_status); needs migration 20261002120000,
   - every run is logged in import_runs.
 
 Usage (from scrapers/hochschulen/):
@@ -47,7 +49,8 @@ insert into _pathly_import values ({tag}{payload}{tag}::jsonb);
 -- 1. Universities, matched by registry_id
 insert into public.universities as u (
   registry_id, name, name_variants, country, institution_type, ownership,
-  recognition_status, lifecycle_status, official_url, listed_by, is_listed, last_seen_at
+  recognition_status, lifecycle_status, official_url, listed_by, is_listed, last_seen_at,
+  german_physical_presence, presence_status, presence_basis
 )
 select
   r.registry_id,
@@ -61,12 +64,16 @@ select
   r.official_url,
   array(select jsonb_array_elements_text(r.listed_by)),
   true,
-  now()
+  now(),
+  r.german_physical_presence,
+  coalesce(r.presence_status, 'review'),
+  r.presence_basis
 from _pathly_import i
 cross join lateral jsonb_to_recordset(i.doc->'universities') as r(
   registry_id text, name text, name_variants jsonb, institution_type text,
   ownership text, recognition_status text, lifecycle_status text,
-  official_url text, listed_by jsonb
+  official_url text, listed_by jsonb,
+  german_physical_presence boolean, presence_status text, presence_basis text
 )
 on conflict (registry_id) do update set
   name               = excluded.name,
@@ -78,11 +85,18 @@ on conflict (registry_id) do update set
   official_url       = excluded.official_url,
   listed_by          = excluded.listed_by,
   is_listed          = true,
-  last_seen_at       = excluded.last_seen_at;
+  last_seen_at       = excluded.last_seen_at,
+  german_physical_presence = excluded.german_physical_presence,
+  presence_status    = excluded.presence_status,
+  presence_basis     = excluded.presence_basis;
 
--- 2. Universities no source lists any more: keep, but mark
+-- 2. Universities no source lists any more: keep, but mark.
+--    Without a current listing their German presence is unknown again.
 update public.universities
-set is_listed = false
+set is_listed = false,
+    german_physical_presence = null,
+    presence_status = 'review',
+    presence_basis = 'no_longer_listed'
 where is_listed
   and registry_id not in (
     select r->>'registry_id'
@@ -111,13 +125,18 @@ delete from public.sources          where university_id in (select id from _path
 delete from public.university_flags where university_id in (select id from _pathly_ids);
 
 insert into public.locations (
-  university_id, name, street, postal_code, city, state, location_type, source_state, source_url
+  university_id, name, street, postal_code, city, state, location_type, source_state, source_url,
+  country, location_status, location_status_basis, location_status_evidence_url
 )
-select u.id, l.name, l.street, l.postal_code, l.city, l.state, l.location_type, l.source_state, l.source_url
+select u.id, l.name, l.street, l.postal_code, l.city, l.state, l.location_type, l.source_state, l.source_url,
+  coalesce(l.country, 'DE'), coalesce(l.location_status, 'uncertain'),
+  l.location_status_basis, l.location_status_evidence_url
 from _pathly_import i
 cross join lateral jsonb_to_recordset(i.doc->'locations') as l(
   registry_id text, name text, street text, postal_code text, city text,
-  state text, location_type text, source_state text, source_url text
+  state text, location_type text, source_state text, source_url text,
+  country text, location_status text, location_status_basis text,
+  location_status_evidence_url text
 )
 join public.universities u on u.registry_id = l.registry_id;
 
@@ -190,6 +209,10 @@ def build_payload(master_dir: Path) -> dict:
             "lifecycle_status": LIFECYCLE.get(u["lifecycle_status"], "unknown"),
             "official_url": u["official_url"],
             "listed_by": u["listed_by"],
+            # v1.3; absent in master files built before it
+            "german_physical_presence": u.get("german_physical_presence"),
+            "presence_status": u.get("presence_status", "review"),
+            "presence_basis": u.get("presence_basis"),
         })
         id_aliases += [
             {"alias_registry_id": former, "registry_id": u["registry_id"]}
@@ -221,6 +244,9 @@ def build_payload(master_dir: Path) -> dict:
             "sources": len(sources),
             "flags": len(flags),
             "id_aliases": len(id_aliases),
+            "presence_confirmed": sum(1 for r in rows if r["presence_status"] == "confirmed"),
+            "presence_not_present": sum(1 for r in rows if r["presence_status"] == "not_present"),
+            "presence_review": sum(1 for r in rows if r["presence_status"] == "review"),
         },
     }
 
@@ -270,9 +296,9 @@ def main():
     print("PROJECTPATHLY — SUPABASE IMPORT SCRIPT")
     print("=" * 62)
     for key, value in counts.items():
-        print(f"{key:20s}{value}")
-    print(f"OUTPUT:             {args.out}")
-    print('RUN:                psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f ' + args.out)
+        print(f"{key:22s}{value}")
+    print(f"OUTPUT:               {args.out}")
+    print('RUN:                  psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f ' + args.out)
     print("-" * 62)
 
 

@@ -34,6 +34,7 @@ from urllib.parse import urlsplit
 from bs4 import BeautifulSoup
 
 from registry import reliability
+from registry.master import presence
 from registry.enrichment.website_resolver import (
     LEGAL_FORM_RE,
     WebsiteResolver,
@@ -449,8 +450,15 @@ def build(
     id_registry: IdRegistry,
     site_texts=None,
     now: str | None = None,
+    presence_decisions: list[dict] | None = None,
 ) -> dict:
+    """
+    presence_decisions: reviewed German-presence decisions; None reads
+    data/master/presence_decisions.yaml (as the scraper UI relies on).
+    """
     now = now or datetime.now(timezone.utc).isoformat()
+    if presence_decisions is None:
+        presence_decisions = presence.load_decisions()
     by_key = {record_key(r): r for r in records}
 
     known_cities = frozenset(
@@ -474,6 +482,7 @@ def build(
     )
 
     master, metadata, locations, aliases, sources = [], [], [], [], []
+    presence_doubts = {}
 
     for institution, members, chosen, name in prepared:
         registry_id = ids[institution["cluster_id"]]["registry_id"]
@@ -500,6 +509,7 @@ def build(
         }
         row["lifecycle_status"], row["flags"] = validate(row, members, chosen, name)
         master.append(row)
+        presence_doubts[registry_id] = presence.doubts(row, members)
 
         meta = resolve_metadata(members)
         metadata.append({"registry_id": registry_id, **meta})
@@ -519,6 +529,8 @@ def build(
                 "location_type": LOCATION_TYPES.get(location.get("location_type"), "unknown"),
                 "source_state": location["source_record"].split("|", 1)[0],
                 "source_url": location.get("source_url"),
+                # confirmed / candidate / structural, as the state source says
+                "source_location_status": location.get("location_status"),
             })
 
         for alias in institution["names"]:
@@ -538,6 +550,11 @@ def build(
 
     master.sort(key=lambda row: row["name"].lower())
 
+    # v1.3: adds location_status / german_physical_presence (nothing removed).
+    presence_report = presence.apply(
+        master, locations, sources, presence_doubts, presence_decisions, now
+    )
+
     return {
         "universities": master,
         "metadata": metadata,
@@ -545,6 +562,7 @@ def build(
         "aliases": aliases,
         "sources": sources,
         "built_at": now,
+        "presence": presence_report,
     }
 
 
@@ -633,6 +651,7 @@ def main():
     )
     report = quality_report(result, len(records), dedup_report)
     report["discovery_build"] = reliability.build_summary()
+    report["german_presence"] = result["presence"]["counts"]
 
     out = Path(args.out_dir)
     out.mkdir(parents=True, exist_ok=True)
@@ -653,6 +672,12 @@ def main():
     Path(args.report).parent.mkdir(parents=True, exist_ok=True)
     Path(args.report).write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
 
+    presence_path = Path(args.report).parent / "presence_validation.json"
+    presence_path.write_text(json.dumps(result["presence"], ensure_ascii=False, indent=2), encoding="utf-8")
+    presence_path.with_name("presence_review.md").write_text(
+        presence.review_markdown(result["presence"]), encoding="utf-8"
+    )
+
     print()
     print("=" * 62)
     print("PROJECTPATHLY MASTER REGISTRY")
@@ -670,6 +695,11 @@ def main():
     print(f"Dedup review cases:       {report['dedup_review_cases']}")
     print(f"Review required:          {len(report['review_required'])}")
     print(f"Core field violations:    {len(report['core_field_violations'])}")
+    counts = result["presence"]["counts"]
+    print(f"German presence:          {counts['confirmed']} confirmed, "
+          f"{counts['not_present']} not present, {counts['review']} review")
+    for warning in result["presence"]["decision_warnings"]:
+        print(f"[WARN] presence decision {warning.get('registry_id')}: {warning['problem']}")
     print("-" * 62)
 
 
