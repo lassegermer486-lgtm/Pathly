@@ -2,6 +2,8 @@ import re
 from urllib.parse import urljoin, urlparse
 
 import requests
+
+from registry import http_client
 from bs4 import BeautifulSoup
 
 from registry.adapters.base import RegistryAdapter
@@ -100,7 +102,7 @@ class ThueringenAdapter(RegistryAdapter):
         return re.sub(r"\s+", " ", name).strip()
 
     def fetch(self):
-        response = requests.get(
+        response = http_client.get(
             self.SOURCE_URL,
             timeout=30,
             headers=self.HEADERS,
@@ -275,7 +277,7 @@ class ThueringenAdapter(RegistryAdapter):
         """
         Returns {portal institution name: (website, profile_url)}.
         """
-        response = requests.get(
+        response = http_client.get(
             self.PORTAL_URL,
             timeout=30,
             headers=self.HEADERS,
@@ -291,7 +293,7 @@ class ThueringenAdapter(RegistryAdapter):
 
         for name, profile_url in profiles.items():
             try:
-                profile = requests.get(
+                profile = http_client.get(
                     profile_url,
                     timeout=30,
                     headers=self.HEADERS,

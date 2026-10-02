@@ -6,7 +6,16 @@
     "raw_rows": 79,
     "universities": 69,
     "locations": 79,
-    "validation_issues": 0
+    "validation_issues": 0,
+    "request_attempts": 6,
+    "request_retries": 0,
+    "source_status": "success",
+    "previous_count": 69,
+    "current_count": 69,
+    "absolute_delta": 0,
+    "relative_delta": 0.0,
+    "count_status": "normal",
+    "production_safe": true
   },
   {
     "state": "DE-BY",
@@ -15,7 +24,16 @@
     "raw_rows": 47,
     "universities": 47,
     "locations": 47,
-    "validation_issues": 0
+    "validation_issues": 0,
+    "request_attempts": 3,
+    "request_retries": 0,
+    "source_status": "success",
+    "previous_count": 47,
+    "current_count": 47,
+    "absolute_delta": 0,
+    "relative_delta": 0.0,
+    "count_status": "normal",
+    "production_safe": true
   },
   {
     "state": "DE-BE",
@@ -24,7 +42,16 @@
     "raw_rows": 38,
     "universities": 38,
     "locations": 38,
-    "validation_issues": 0
+    "validation_issues": 0,
+    "request_attempts": 5,
+    "request_retries": 0,
+    "source_status": "success",
+    "previous_count": 38,
+    "current_count": 38,
+    "absolute_delta": 0,
+    "relative_delta": 0.0,
+    "count_status": "normal",
+    "production_safe": true
   },
   {
     "state": "DE-BB",
@@ -33,7 +60,16 @@
     "raw_rows": 24,
     "universities": 24,
     "locations": 24,
-    "validation_issues": 0
+    "validation_issues": 0,
+    "request_attempts": 26,
+    "request_retries": 0,
+    "source_status": "success",
+    "previous_count": 24,
+    "current_count": 24,
+    "absolute_delta": 0,
+    "relative_delta": 0.0,
+    "count_status": "normal",
+    "production_safe": true
   },
   {
     "state": "DE-HB",
@@ -42,7 +78,16 @@
     "raw_rows": 8,
     "universities": 7,
     "locations": 8,
-    "validation_issues": 0
+    "validation_issues": 0,
+    "request_attempts": 1,
+    "request_retries": 0,
+    "source_status": "success",
+    "previous_count": 7,
+    "current_count": 7,
+    "absolute_delta": 0,
+    "relative_delta": 0.0,
+    "count_status": "normal",
+    "production_safe": true
   },
   {
     "state": "DE-HH",
@@ -51,7 +96,16 @@
     "raw_rows": 34,
     "universities": 34,
     "locations": 34,
-    "validation_issues": 0
+    "validation_issues": 0,
+    "request_attempts": 5,
+    "request_retries": 0,
+    "source_status": "success",
+    "previous_count": 34,
+    "current_count": 34,
+    "absolute_delta": 0,
+    "relative_delta": 0.0,
+    "count_status": "normal",
+    "production_safe": true
   },
   {
     "state": "DE-HE",
@@ -60,7 +114,16 @@
     "raw_rows": 39,
     "universities": 39,
     "locations": 39,
-    "validation_issues": 0
+    "validation_issues": 0,
+    "request_attempts": 1,
+    "request_retries": 0,
+    "source_status": "success",
+    "previous_count": 39,
+    "current_count": 39,
+    "absolute_delta": 0,
+    "relative_delta": 0.0,
+    "count_status": "normal",
+    "production_safe": true
   },
   {
     "state": "DE-MV",
@@ -69,7 +132,16 @@
     "raw_rows": 11,
     "universities": 11,
     "locations": 11,
-    "validation_issues": 0
+    "validation_issues": 0,
+    "request_attempts": 1,
+    "request_retries": 0,
+    "source_status": "success",
+    "previous_count": 11,
+    "current_count": 11,
+    "absolute_delta": 0,
+    "relative_delta": 0.0,
+    "count_status": "normal",
+    "production_safe": true
   },
   {
     "state": "DE-NI",
@@ -78,7 +150,16 @@
     "raw_rows": 30,
     "universities": 30,
     "locations": 30,
-    "validation_issues": 0
+    "validation_issues": 0,
+    "request_attempts": 31,
+    "request_retries": 0,
+    "source_status": "success",
+    "previous_count": 30,
+    "current_count": 30,
+    "absolute_delta": 0,
+    "relative_delta": 0.0,
+    "count_status": "normal",
+    "production_safe": true
   },
   {
     "state": "DE-NW",
@@ -87,7 +168,16 @@
     "raw_rows": 137,
     "universities": 68,
     "locations": 137,
-    "validation_issues": 0
+    "validation_issues": 0,
+    "request_attempts": 1,
+    "request_retries": 0,
+    "source_status": "success",
+    "previous_count": 68,
+    "current_count": 68,
+    "absolute_delta": 0,
+    "relative_delta": 0.0,
+    "count_status": "normal",
+    "production_safe": true
   },
   {
     "state": "DE-RP",
@@ -96,7 +186,16 @@
     "raw_rows": 22,
     "universities": 22,
     "locations": 22,
-    "validation_issues": 0
+    "validation_issues": 0,
+    "request_attempts": 1,
+    "request_retries": 0,
+    "source_status": "success",
+    "previous_count": 22,
+    "current_count": 22,
+    "absolute_delta": 0,
+    "relative_delta": 0.0,
+    "count_status": "normal",
+    "production_safe": true
   },
   {
     "state": "DE-SL",
@@ -105,7 +204,16 @@
     "raw_rows": 8,
     "universities": 8,
     "locations": 8,
-    "validation_issues": 0
+    "validation_issues": 0,
+    "request_attempts": 2,
+    "request_retries": 0,
+    "source_status": "success",
+    "previous_count": 8,
+    "current_count": 8,
+    "absolute_delta": 0,
+    "relative_delta": 0.0,
+    "count_status": "normal",
+    "production_safe": true
   },
   {
     "state": "DE-SN",
@@ -114,7 +222,16 @@
     "raw_rows": 28,
     "universities": 22,
     "locations": 28,
-    "validation_issues": 0
+    "validation_issues": 0,
+    "request_attempts": 5,
+    "request_retries": 0,
+    "source_status": "success",
+    "previous_count": 22,
+    "current_count": 22,
+    "absolute_delta": 0,
+    "relative_delta": 0.0,
+    "count_status": "normal",
+    "production_safe": true
   },
   {
     "state": "DE-ST",
@@ -123,7 +240,16 @@
     "raw_rows": 11,
     "universities": 11,
     "locations": 11,
-    "validation_issues": 0
+    "validation_issues": 0,
+    "request_attempts": 1,
+    "request_retries": 0,
+    "source_status": "success",
+    "previous_count": 11,
+    "current_count": 11,
+    "absolute_delta": 0,
+    "relative_delta": 0.0,
+    "count_status": "normal",
+    "production_safe": true
   },
   {
     "state": "DE-SH",
@@ -132,7 +258,16 @@
     "raw_rows": 14,
     "universities": 14,
     "locations": 14,
-    "validation_issues": 0
+    "validation_issues": 0,
+    "request_attempts": 5,
+    "request_retries": 0,
+    "source_status": "success",
+    "previous_count": 14,
+    "current_count": 14,
+    "absolute_delta": 0,
+    "relative_delta": 0.0,
+    "count_status": "normal",
+    "production_safe": true
   },
   {
     "state": "DE-TH",
@@ -141,6 +276,15 @@
     "raw_rows": 15,
     "universities": 14,
     "locations": 15,
-    "validation_issues": 0
+    "validation_issues": 0,
+    "request_attempts": 16,
+    "request_retries": 0,
+    "source_status": "success",
+    "previous_count": 14,
+    "current_count": 14,
+    "absolute_delta": 0,
+    "relative_delta": 0.0,
+    "count_status": "normal",
+    "production_safe": true
   }
 ]

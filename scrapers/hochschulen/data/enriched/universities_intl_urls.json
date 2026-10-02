@@ -1,0 +1,5550 @@
+[
+  {
+    "name": "Ferdinand Porsche Fern FH-Studiengänge",
+    "country": "AT",
+    "state": "INTL-ETER",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "http://www.fernfh.at",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Wiener Neustadt",
+        "state": null,
+        "country": "AT",
+        "postal_code": "2700",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808312+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "AT0061",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "AT0061",
+        "whed": "IAU-023176"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "FFH Gesellschaft zur Erhaltung und Durchführung von Fachhochschul-Studiengängen mbH",
+      "eter_country_code": "AT"
+    },
+    "website_resolution": {
+      "status": "review",
+      "method": null,
+      "confidence": 0.0,
+      "official_url": "http://www.fernfh.at",
+      "source_url": "http://www.fernfh.at/",
+      "http_status": null,
+      "identity": null,
+      "flags": [
+        "source_unreachable_ReadTimeout"
+      ],
+      "candidates": [
+        {
+          "domain": "ferdinand-porsche-fern-fh-studiengaenge.de",
+          "rule": "full_name",
+          "outcome": "no_dns"
+        },
+        {
+          "domain": "ferdinand-porsche-fern-fh-studiengänge.de",
+          "rule": "full_name",
+          "outcome": "no_dns"
+        },
+        {
+          "domain": "fpffs-wiener-neustadt.de",
+          "rule": "initials+place",
+          "outcome": "no_dns"
+        },
+        {
+          "domain": "fpffs-fh-studiengaenge.de",
+          "rule": "initials+place",
+          "outcome": "no_dns"
+        },
+        {
+          "domain": "fpffs-fh-studiengänge.de",
+          "rule": "initials+place",
+          "outcome": "no_dns"
+        },
+        {
+          "domain": "fpffs.de",
+          "rule": "initials",
+          "outcome": "no_dns"
+        }
+      ],
+      "checked_at": "2026-10-02T11:40:50.272241+00:00"
+    }
+  },
+  {
+    "name": "Swiss Distance Education University",
+    "country": "CH",
+    "state": "INTL-ETER",
+    "institution_type": "other",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.fernuni.ch",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Brig",
+        "state": null,
+        "country": "CH",
+        "postal_code": "3900",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808388+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "CH0035",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "CH0035",
+        "ror": "https://ror.org/01t75ff47",
+        "whed": "IAU-027247"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "Universitäre Fernstudien Schweiz",
+      "eter_country_code": "CH"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.fernuni.ch",
+      "source_url": "http://www.fernuni.ch",
+      "http_status": 200,
+      "identity": {
+        "score": 0.0,
+        "evidence": [],
+        "imprint_url": "https://www.fernuni.ch/impressum"
+      },
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:50.272895+00:00"
+    }
+  },
+  {
+    "name": "Open University of Cyprus",
+    "country": "CY",
+    "state": "INTL-ETER",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "official_url": "https://www.ouc.ac.cy",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Latsia",
+        "state": null,
+        "country": "CY",
+        "postal_code": "2252",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808404+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "CY0002",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "CY0002",
+        "ror": "https://ror.org/033sm2k57",
+        "whed": "IAU-013098"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "Ανοικτό Πανεπιστήμιο Κύπρου",
+      "eter_country_code": "CY"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.ouc.ac.cy",
+      "source_url": "http://www.ouc.ac.cy",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:50.273041+00:00"
+    }
+  },
+  {
+    "name": "Cyprus University of Technology",
+    "country": "CY",
+    "state": "INTL-ETER",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "official_url": "https://www.cut.ac.cy",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Limassol",
+        "state": null,
+        "country": "CY",
+        "postal_code": "3036",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808418+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "CY0003",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "CY0003",
+        "ror": "https://ror.org/05qt8tf94",
+        "whed": "IAU-003443"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "Τεχνολογικό Πανεπιστήμιο Κύπρου",
+      "eter_country_code": "CY"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.cut.ac.cy",
+      "source_url": "http://www.cut.ac.cy",
+      "http_status": 200,
+      "identity": {
+        "score": 0.0,
+        "evidence": [],
+        "imprint_url": null
+      },
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:50.273219+00:00"
+    }
+  },
+  {
+    "name": "University of Nicosia",
+    "country": "CY",
+    "state": "INTL-ETER",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.unic.ac.cy",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Nicosia",
+        "state": null,
+        "country": "CY",
+        "postal_code": "2417",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808424+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "CY0004",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "CY0004",
+        "ror": "https://ror.org/04v18t651",
+        "whed": "IAU-020338"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "Πανεπιστήμιο Λευκωσίας",
+      "eter_country_code": "CY"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.unic.ac.cy",
+      "source_url": "http://www.unic.ac.cy",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:50.273359+00:00"
+    }
+  },
+  {
+    "name": "Frederick University",
+    "country": "CY",
+    "state": "INTL-ETER",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.frederick.ac.cy",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Nicosia",
+        "state": null,
+        "country": "CY",
+        "postal_code": "1036",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808430+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "CY0005",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "CY0005",
+        "ror": "https://ror.org/05d8tf882",
+        "whed": "IAU-006420"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "Πανεπιστήμιο Frederick",
+      "eter_country_code": "CY"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.frederick.ac.cy",
+      "source_url": "http://www.frederick.ac.cy",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:50.273516+00:00"
+    }
+  },
+  {
+    "name": "European University - Cyprus",
+    "country": "CY",
+    "state": "INTL-ETER",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://euc.ac.cy",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Nicosia",
+        "state": null,
+        "country": "CY",
+        "postal_code": "2404",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808436+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "CY0006",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "CY0006",
+        "ror": "https://ror.org/04xp48827",
+        "whed": "IAU-004867"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "Ευρωπαϊκό Πανεπιστήμιο Κύπρου",
+      "eter_country_code": "CY"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://euc.ac.cy",
+      "source_url": "http://www.euc.ac.cy",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:50.274060+00:00"
+    }
+  },
+  {
+    "name": "American College",
+    "country": "CY",
+    "state": "INTL-ETER",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://ac.ac.cy",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Nicosia",
+        "state": null,
+        "country": "CY",
+        "postal_code": "1097",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808442+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "CY0014",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "CY0014",
+        "ror": "https://ror.org/05w3ffa57",
+        "whed": "IAU-025989"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "American College",
+      "eter_country_code": "CY"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://ac.ac.cy",
+      "source_url": "http://www.ac.ac.cy",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:50.274317+00:00"
+    }
+  },
+  {
+    "name": "Neapolis University",
+    "country": "CY",
+    "state": "INTL-ETER",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.nup.ac.cy",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Paphos",
+        "state": null,
+        "country": "CY",
+        "postal_code": "8042",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808447+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "CY0038",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "CY0038",
+        "ror": "https://ror.org/02kjms144",
+        "whed": "IAU-012585"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "Πανεπιστημιο Νεαπολης",
+      "eter_country_code": "CY"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.nup.ac.cy",
+      "source_url": "http://www.nup.ac.cy",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:50.738193+00:00"
+    }
+  },
+  {
+    "name": "University of Central Lancashire - Cyprus",
+    "country": "CY",
+    "state": "INTL-ETER",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.uclancyprus.ac.cy",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Larnaca",
+        "state": null,
+        "country": "CY",
+        "postal_code": "7080",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808453+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "CY0042",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "CY0042",
+        "ror": "https://ror.org/020ps3a34",
+        "whed": "IAU-025999"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "University of Central Lancashire - Cyprus",
+      "eter_country_code": "CY"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.uclancyprus.ac.cy",
+      "source_url": "http://www.uclancyprus.ac.cy",
+      "http_status": 200,
+      "identity": {
+        "score": 0.0,
+        "evidence": [],
+        "imprint_url": null
+      },
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:51.002293+00:00"
+    }
+  },
+  {
+    "name": "Open University of Madrid (UDIMA)",
+    "country": "ES",
+    "state": "INTL-ETER",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.udima.es",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Madrid",
+        "state": null,
+        "country": "ES",
+        "postal_code": "28420",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808459+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "ES0049",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "ES0049",
+        "ror": "https://ror.org/01r9skd65",
+        "whed": "IAU-017110"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "Universidad a Distancia de Madrid (UDIMA)",
+      "eter_country_code": "ES"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.udima.es",
+      "source_url": "http://www.udima.es",
+      "http_status": 200,
+      "identity": {
+        "score": 0.5,
+        "evidence": [
+          "acronym_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:51.214250+00:00"
+    }
+  },
+  {
+    "name": "International University Isabel I de Castilla",
+    "country": "ES",
+    "state": "INTL-ETER",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.ui1.es",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Burgos",
+        "state": null,
+        "country": "ES",
+        "postal_code": "9003",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808464+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "ES0063",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "ES0063",
+        "ror": "https://ror.org/055sgt471",
+        "whed": "IAU-023034"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "Universidad Internacional Isabel I de Castilla",
+      "eter_country_code": "ES"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.ui1.es",
+      "source_url": "http://www.ui1.es",
+      "http_status": 200,
+      "identity": {
+        "score": 0.0,
+        "evidence": [],
+        "imprint_url": null
+      },
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:51.474129+00:00"
+    }
+  },
+  {
+    "name": "International University of La Rioja",
+    "country": "ES",
+    "state": "INTL-ETER",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "http://www.unir.net",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Logroño",
+        "state": null,
+        "country": "ES",
+        "postal_code": "26000",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808470+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "ES0064",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "ES0064",
+        "ror": "https://ror.org/029gnnp81",
+        "whed": "IAU-017864"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "Universidad Internacional de la Rioja",
+      "eter_country_code": "ES"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.8,
+      "official_url": "http://www.unir.net",
+      "source_url": "http://www.unir.net",
+      "http_status": 403,
+      "identity": null,
+      "flags": [
+        "http_blocked_403"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:51.497659+00:00"
+    }
+  },
+  {
+    "name": "National University of Distance Education",
+    "country": "ES",
+    "state": "INTL-ETER",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "official_url": "https://www.uned.es",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Madrid",
+        "state": null,
+        "country": "ES",
+        "postal_code": "28015",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808475+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "ES0067",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "ES0067",
+        "ror": "https://ror.org/01r9skd65",
+        "whed": "IAU-018028"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "Universidad Nacional de Educación a Distancia",
+      "eter_country_code": "ES"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.uned.es",
+      "source_url": "http://www.uned.es",
+      "http_status": 200,
+      "identity": {
+        "score": 0.0,
+        "evidence": [],
+        "imprint_url": null
+      },
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:51.542991+00:00"
+    }
+  },
+  {
+    "name": "Valencian International University",
+    "country": "ES",
+    "state": "INTL-ETER",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.universidadviu.com",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "València",
+        "state": null,
+        "country": "ES",
+        "postal_code": "46002",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808481+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "ES0075",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "ES0075",
+        "whed": "IAU-023035"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "Universitat Internacional Valenciana (VIU)",
+      "eter_country_code": "ES"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "verified_redirect",
+      "confidence": 0.85,
+      "official_url": "https://www.universidadviu.com",
+      "source_url": "https://www.universidadviu.es/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.72,
+        "evidence": [
+          "name_in_homepage_text"
+        ],
+        "imprint_url": null
+      },
+      "flags": [
+        "subpage_replaced_by_homepage",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:51.853540+00:00"
+    }
+  },
+  {
+    "name": "Open University of Catalonia",
+    "country": "ES",
+    "state": "INTL-ETER",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.uoc.edu",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Barcelona",
+        "state": null,
+        "country": "ES",
+        "postal_code": "08018",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808487+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "ES0076",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "ES0076",
+        "ror": "https://ror.org/03mb6wj31",
+        "whed": "IAU-019354"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "Universitat Oberta de Catalunya",
+      "eter_country_code": "ES"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.uoc.edu",
+      "source_url": "http://www.uoc.edu",
+      "http_status": 200,
+      "identity": {
+        "score": 0.0,
+        "evidence": [],
+        "imprint_url": null
+      },
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:52.046457+00:00"
+    }
+  },
+  {
+    "name": "Hellenic Open University",
+    "country": "GR",
+    "state": "INTL-ETER",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "official_url": "https://www.eap.gr",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Patra",
+        "state": null,
+        "country": "GR",
+        "postal_code": "26335",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808499+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "GR0001",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "GR0001",
+        "ror": "https://ror.org/02kq26x23",
+        "whed": "IAU-004472"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "Ελληνικό Ανοικτό Πανεπιστήμιο",
+      "eter_country_code": "GR"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.eap.gr",
+      "source_url": "http://www.eap.gr/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.0,
+        "evidence": [],
+        "imprint_url": null
+      },
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:52.138732+00:00"
+    }
+  },
+  {
+    "name": "Rochester Institute of Technology Croatia",
+    "country": "HR",
+    "state": "INTL-ETER",
+    "institution_type": "other",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "http://www.croatia.rit.edu",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Dubrovnik",
+        "state": null,
+        "country": "HR",
+        "postal_code": "20000",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808513+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "HR0025",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "HR0025",
+        "ror": "https://ror.org/03jgxzm03",
+        "whed": "IAU-022587"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "RIT Croatia",
+      "eter_country_code": "HR"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "http://www.croatia.rit.edu",
+      "source_url": "http://www.croatia.rit.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.72,
+        "evidence": [
+          "name_in_homepage_text"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:52.327997+00:00"
+    }
+  },
+  {
+    "name": "Pegaso International",
+    "country": "MT",
+    "state": "INTL-ETER",
+    "institution_type": "other",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://pegasointernational.eu",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Valletta",
+        "state": null,
+        "country": "MT",
+        "postal_code": "VLT 1520",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808519+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "MT0007",
+      "reference_year": "2020"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "MT0007"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2020
+      },
+      "name_national": "Pegaso International",
+      "eter_country_code": "MT"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://pegasointernational.eu",
+      "source_url": "https://pegasointernational.eu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.0,
+        "evidence": [],
+        "imprint_url": null
+      },
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:52.521934+00:00"
+    }
+  },
+  {
+    "name": "Future Focus",
+    "country": "MT",
+    "state": "INTL-ETER",
+    "institution_type": "other",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://futurefocus.com.mt",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Floriana",
+        "state": null,
+        "country": "MT",
+        "postal_code": "FRN 1119",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808525+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "MT0009",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "MT0009"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "Future Focus",
+      "eter_country_code": "MT"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://futurefocus.com.mt",
+      "source_url": "https://futurefocus.com.mt/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:52.800647+00:00"
+    }
+  },
+  {
+    "name": "Triagon Academy",
+    "country": "MT",
+    "state": "INTL-ETER",
+    "institution_type": "other",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.triagon.mt",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Marsa",
+        "state": null,
+        "country": "MT",
+        "postal_code": "MRS 1331",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808535+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "MT0010",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "MT0010"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "Triagon Academy",
+      "eter_country_code": "MT"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.triagon.mt",
+      "source_url": "https://www.triagon.mt/de/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [
+        "subpage_replaced_by_homepage"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:52.811740+00:00"
+    }
+  },
+  {
+    "name": "Open University of the Netherlands",
+    "country": "NL",
+    "state": "INTL-ETER",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "official_url": "https://www.ou.nl",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Heerlen",
+        "state": null,
+        "country": "NL",
+        "postal_code": "6419 AT",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808548+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "NL0014",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "NL0014",
+        "whed": "IAU-013096"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "Open Universiteit",
+      "eter_country_code": "NL"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.ou.nl",
+      "source_url": "http://www.ou.nl/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.0,
+        "evidence": [],
+        "imprint_url": null
+      },
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:53.151445+00:00"
+    }
+  },
+  {
+    "name": "Open University of Portugal",
+    "country": "PT",
+    "state": "INTL-ETER",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "official_url": "http://www.uab.pt",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Lisboa",
+        "state": null,
+        "country": "PT",
+        "postal_code": "1269-001",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808554+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "PT0015",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "PT0015",
+        "ror": "https://ror.org/007rkz355",
+        "whed": "IAU-018507"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "Universidade Aberta",
+      "eter_country_code": "PT"
+    },
+    "website_resolution": {
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "http://www.uab.pt",
+      "source_url": "http://www.uab.pt",
+      "http_status": 200,
+      "identity": {
+        "score": 0.0,
+        "evidence": [],
+        "imprint_url": null
+      },
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:53.297536+00:00",
+      "suggested_url": "https://portal.uab.pt"
+    }
+  },
+  {
+    "name": "Anadolu University",
+    "country": "TR",
+    "state": "INTL-ETER",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "official_url": "https://www.anadolu.edu.tr/en",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Eskişehir",
+        "state": null,
+        "country": "TR",
+        "postal_code": "26470",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808561+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "TR0012",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "TR0012",
+        "ror": "https://ror.org/05nz37n09",
+        "whed": "IAU-000948"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "Anadolu Üniversitesi",
+      "eter_country_code": "TR"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.anadolu.edu.tr/en",
+      "source_url": "https://www.anadolu.edu.tr/en",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:53.328263+00:00"
+    }
+  },
+  {
+    "name": "The Open University",
+    "country": "GB",
+    "state": "INTL-ETER",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "http://www.open.ac.uk",
+    "official_url_source": "https://zenodo.org/records/10879501",
+    "locations": [
+      {
+        "name": null,
+        "city": "Milton Keynes",
+        "state": null,
+        "country": "GB",
+        "postal_code": "MK7 6AA",
+        "street": null,
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://zenodo.org/records/10879501",
+        "source_authority": "European Commission – ETER/EHESO"
+      }
+    ],
+    "source": {
+      "authority": "European Commission – ETER/EHESO",
+      "url": "https://zenodo.org/records/10879501",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:50.808573+00:00",
+      "dataset_version": "ETER_fullDump_26032024",
+      "dataset_sha256": {
+        "dump": "d14155ddc56b04889fc4b88f36e6cbd0060170e9c3950c9eb8fc355365124324"
+      },
+      "record_id": "UK0088",
+      "reference_year": "2021"
+    },
+    "discovery": {
+      "source": "INTL-ETER",
+      "external_ids": {
+        "eter": "UK0088",
+        "ror": "https://ror.org/05mzfcs16",
+        "whed": "IAU-016506"
+      },
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "name_national": "The Open University",
+      "eter_country_code": "UK"
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.8,
+      "official_url": "http://www.open.ac.uk",
+      "source_url": "http://www.open.ac.uk/",
+      "http_status": 403,
+      "identity": null,
+      "flags": [
+        "bot_challenge"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:53.357064+00:00"
+    }
+  },
+  {
+    "name": "Arizona State University Digital Immersion",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "official_url": "https://www.asu.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Scottsdale",
+        "state": null,
+        "country": "US",
+        "postal_code": "85257",
+        "street": "1365 N Scottsdale Rd",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049707+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "483124",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "483124",
+        "opeid": "00108159"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 98316,
+        "students_outside_us_fall": 2518,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "us_state": "AZ",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "00108159",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.asu.edu",
+      "source_url": "https://www.asu.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.0,
+        "evidence": [],
+        "imprint_url": null
+      },
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:53.625921+00:00"
+    }
+  },
+  {
+    "name": "Columbia Southern University",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.columbiasouthern.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Orange Beach",
+        "state": null,
+        "country": "US",
+        "postal_code": "36561-9000",
+        "street": "21982 University Lane",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049730+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "450933",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "450933",
+        "opeid": "04121500"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 30425,
+        "students_outside_us_fall": 547,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "us_state": "AL",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "04121500",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.columbiasouthern.edu",
+      "source_url": "https://www.columbiasouthern.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:53.736460+00:00"
+    }
+  },
+  {
+    "name": "American InterContinental University System",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.aius.education",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Chandler",
+        "state": null,
+        "country": "US",
+        "postal_code": "85286",
+        "street": "2200 E Germann Road, Suite 100",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049743+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "445027",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "445027",
+        "opeid": "02113600"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 23926,
+        "students_outside_us_fall": 354,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "us_state": "AZ",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "02113600",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.8,
+      "official_url": "https://www.aius.education",
+      "source_url": "https://www.aius.education/",
+      "http_status": 403,
+      "identity": null,
+      "flags": [
+        "http_blocked_403"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:54.181493+00:00"
+    }
+  },
+  {
+    "name": "Excelsior University",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.excelsior.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Albany",
+        "state": null,
+        "country": "US",
+        "postal_code": "12203-5159",
+        "street": "7 Columbia Cir",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049749+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "196680",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "196680",
+        "opeid": "00283400"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 18823,
+        "students_outside_us_fall": 197,
+        "title_iv": true,
+        "highest_offering": 8
+      },
+      "us_state": "NY",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "00283400",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.excelsior.edu",
+      "source_url": "https://www.excelsior.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:54.260966+00:00"
+    }
+  },
+  {
+    "name": "University of Florida-Online",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "official_url": "https://ufonline.ufl.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Gainesville",
+        "state": null,
+        "country": "US",
+        "postal_code": "32611",
+        "street": "341 Tigert Hall  300 SW 13th St",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049756+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "484473",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "484473",
+        "opeid": "00153500"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 6778,
+        "students_outside_us_fall": 164,
+        "title_iv": true,
+        "highest_offering": 5
+      },
+      "us_state": "FL",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "00153500",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://ufonline.ufl.edu",
+      "source_url": "https://www.ufonline.ufl.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:54.312263+00:00"
+    }
+  },
+  {
+    "name": "Capella University",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.capella.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Minneapolis",
+        "state": null,
+        "country": "US",
+        "postal_code": "55402-3389",
+        "street": "225 South 6th Street, 9th Floor",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049762+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "413413",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "413413",
+        "opeid": "03267300"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 81047,
+        "students_outside_us_fall": 162,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "us_state": "MN",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "03267300",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.capella.edu",
+      "source_url": "https://www.capella.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:54.382543+00:00"
+    }
+  },
+  {
+    "name": "University of Arkansas Grantham",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "official_url": "https://www.uagrantham.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "LIttle Rock",
+        "state": null,
+        "country": "US",
+        "postal_code": "72207",
+        "street": "2402 N University Ave",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049769+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "442569",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "442569",
+        "opeid": "04122300"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 5464,
+        "students_outside_us_fall": 136,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "us_state": "AR",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "04122300",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.uagrantham.edu",
+      "source_url": "https://www.uagrantham.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:54.411605+00:00"
+    }
+  },
+  {
+    "name": "California Intercontinental University",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://caluniversity.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Sioux Falls",
+        "state": null,
+        "country": "US",
+        "postal_code": "57103",
+        "street": "101 South Reid Street, Suite 307",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049780+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "485546",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "485546",
+        "opeid": "04244000"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 883,
+        "students_outside_us_fall": 125,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "us_state": "SD",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "04244000",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://caluniversity.edu",
+      "source_url": "https://www.caluniversity.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:54.529096+00:00"
+    }
+  },
+  {
+    "name": "Northcentral University",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.nu.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "San Diego",
+        "state": null,
+        "country": "US",
+        "postal_code": "92123",
+        "street": "9388 Lightwave Avenue",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049786+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "444130",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "444130",
+        "opeid": "03813300"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 12994,
+        "students_outside_us_fall": 89,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "us_state": "CA",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "03813300",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.nu.edu",
+      "source_url": "https://www.nu.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.0,
+        "evidence": [],
+        "imprint_url": null
+      },
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:54.686419+00:00"
+    }
+  },
+  {
+    "name": "Abilene Christian University-Undergraduate Online",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://acu.edu/academics/online/undergraduate",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Addison",
+        "state": null,
+        "country": "US",
+        "postal_code": "75001",
+        "street": "16633 Dallas Parkway, Suite 800",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049793+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "497037",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "497037",
+        "opeid": "00353700"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 1536,
+        "students_outside_us_fall": 72,
+        "title_iv": true,
+        "highest_offering": 5
+      },
+      "us_state": "TX",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "00353700",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://acu.edu/academics/online/undergraduate",
+      "source_url": "https://www.acu.edu/academics/online/undergraduate",
+      "http_status": 200,
+      "identity": {
+        "score": 0.72,
+        "evidence": [
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:54.751178+00:00"
+    }
+  },
+  {
+    "name": "American Public University System",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.apus.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Charles Town",
+        "state": null,
+        "country": "US",
+        "postal_code": "25414",
+        "street": "111 W Congress St",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049799+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "449339",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "449339",
+        "opeid": "03819300"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 95158,
+        "students_outside_us_fall": 58,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "us_state": "WV",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "03819300",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.apus.edu",
+      "source_url": "https://www.apus.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:55.027510+00:00"
+    }
+  },
+  {
+    "name": "Martinsburg College",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.martinsburgcollege.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Martinsburg",
+        "state": null,
+        "country": "US",
+        "postal_code": "25404-6204",
+        "street": "341 Aikens Center",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049804+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "487977",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "487977",
+        "opeid": "04242900"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 4870,
+        "students_outside_us_fall": 57,
+        "title_iv": true,
+        "highest_offering": 6
+      },
+      "us_state": "WV",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "04242900",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.8,
+      "official_url": "https://www.martinsburgcollege.edu",
+      "source_url": "https://www.martinsburgcollege.edu/",
+      "http_status": 403,
+      "identity": null,
+      "flags": [
+        "bot_challenge"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:55.077810+00:00"
+    }
+  },
+  {
+    "name": "National American University-Rapid City",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.national.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Rapid City",
+        "state": null,
+        "country": "US",
+        "postal_code": "57702",
+        "street": "4020 Jackson Boulevard Suite 1",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049809+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "219204",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "219204",
+        "opeid": "00405700"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 1660,
+        "students_outside_us_fall": 27,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "us_state": "SD",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "00405700",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.national.edu",
+      "source_url": "https://www.national.edu/locations/campuses/rapid-city/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:55.331236+00:00"
+    }
+  },
+  {
+    "name": "Florida Institute of Technology-Online",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.fit.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Melbourne",
+        "state": null,
+        "country": "US",
+        "postal_code": "32901-6975",
+        "street": "150 West University Blvd",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049815+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "480569",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "480569",
+        "opeid": "00146900"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 1835,
+        "students_outside_us_fall": 26,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "us_state": "FL",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "00146900",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.fit.edu",
+      "source_url": "https://www.fit.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.72,
+        "evidence": [
+          "name_in_homepage_text"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:55.363047+00:00"
+    }
+  },
+  {
+    "name": "South University-Savannah Online",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.southuniversity.edu/online",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Savannah",
+        "state": null,
+        "country": "US",
+        "postal_code": "31406",
+        "street": "709 Mall Blvd",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049822+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "475121",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "475121",
+        "opeid": "01303900"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 15044,
+        "students_outside_us_fall": 22,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "us_state": "GA",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "01303900",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.southuniversity.edu/online",
+      "source_url": "https://www.southuniversity.edu/online#location=Online Programs",
+      "http_status": 200,
+      "identity": {
+        "score": 0.0,
+        "evidence": [],
+        "imprint_url": null
+      },
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:55.379932+00:00"
+    }
+  },
+  {
+    "name": "Nazarene Bible College",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://nbc.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Colorado Springs",
+        "state": null,
+        "country": "US",
+        "postal_code": "80909",
+        "street": "2020 N Academy Blvd. Suite 316",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049827+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "127714",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "127714",
+        "opeid": "01300700"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 884,
+        "students_outside_us_fall": 20,
+        "title_iv": true,
+        "highest_offering": 5
+      },
+      "us_state": "CO",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "01300700",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://nbc.edu",
+      "source_url": "https://www.nbc.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:55.459218+00:00"
+    }
+  },
+  {
+    "name": "Veritas Baptist College",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://vbc.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Lawrenceburg",
+        "state": null,
+        "country": "US",
+        "postal_code": "47025",
+        "street": "208 Walnut Street, Suite 115",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049832+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "482228",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "482228",
+        "opeid": "03862600"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 317,
+        "students_outside_us_fall": 19,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "us_state": "IN",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "03862600",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://vbc.edu",
+      "source_url": "https://www.vbc.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:55.688087+00:00"
+    }
+  },
+  {
+    "name": "American College of Healthcare Sciences",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://achs.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Portland",
+        "state": null,
+        "country": "US",
+        "postal_code": "97239",
+        "street": "5005 S. Macadam Ave",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049840+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "443599",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "443599",
+        "opeid": "04194400"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 1574,
+        "students_outside_us_fall": 15,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "us_state": "OR",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "04194400",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://achs.edu",
+      "source_url": "https://www.achs.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:56.071170+00:00"
+    }
+  },
+  {
+    "name": "Johnson & Wales University-Online",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://online.jwu.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Providence",
+        "state": null,
+        "country": "US",
+        "postal_code": "02903",
+        "street": "8 Abbott Park Pl",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049848+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "460349",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "460349",
+        "opeid": "00340400"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 3765,
+        "students_outside_us_fall": 15,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "us_state": "RI",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "00340400",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://online.jwu.edu",
+      "source_url": "https://online.jwu.edu/?_ga=2.36357734.752362341.1629739669-391300583.1600981500",
+      "http_status": 200,
+      "identity": {
+        "score": 0.72,
+        "evidence": [
+          "name_in_homepage_text"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:56.607150+00:00"
+    }
+  },
+  {
+    "name": "Bridges Christian College",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.bcc.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "New Orleans",
+        "state": null,
+        "country": "US",
+        "postal_code": "70115-6305",
+        "street": "2524 Napoleon Avenue",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049854+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "497408",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "497408",
+        "opeid": "04299500"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 179,
+        "students_outside_us_fall": 13,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "us_state": "LA",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "04299500",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.bcc.edu",
+      "source_url": "https://www.bcc.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.72,
+        "evidence": [
+          "name_in_homepage_text"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:56.783509+00:00"
+    }
+  },
+  {
+    "name": "City Vision University",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.cityvision.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Kansas City",
+        "state": null,
+        "country": "US",
+        "postal_code": "64106-3028",
+        "street": "1100 E 11th Street",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049860+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "457697",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "457697",
+        "opeid": "04119100"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 422,
+        "students_outside_us_fall": 12,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "us_state": "MO",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "04119100",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.cityvision.edu",
+      "source_url": "https://www.cityvision.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:56.978995+00:00"
+    }
+  },
+  {
+    "name": "Midwives College of Utah",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.midwifery.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Salt Lake City",
+        "state": null,
+        "country": "US",
+        "postal_code": "84106",
+        "street": "1174 East Graystone Way, Suite #20F",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049866+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "480985",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "480985",
+        "opeid": "04218300"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 362,
+        "students_outside_us_fall": 8,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "us_state": "UT",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "04218300",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.midwifery.edu",
+      "source_url": "https://www.midwifery.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:57.159010+00:00"
+    }
+  },
+  {
+    "name": "Catholic International University",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://catholiciu.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Charles Town",
+        "state": null,
+        "country": "US",
+        "postal_code": "25414",
+        "street": "300 S. George Street",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049872+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "475398",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "475398",
+        "opeid": "04124200"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 286,
+        "students_outside_us_fall": 6,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "us_state": "WV",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "04124200",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://catholiciu.edu",
+      "source_url": "https://catholiciu.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:57.227384+00:00"
+    }
+  },
+  {
+    "name": "Charter Oak State College",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "official_url": "https://www.charteroak.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "New Britain",
+        "state": null,
+        "country": "US",
+        "postal_code": "06051",
+        "street": "185 Main Street",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049878+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "128780",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "128780",
+        "opeid": "03234300"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 2540,
+        "students_outside_us_fall": 5,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "us_state": "CT",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "03234300",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.charteroak.edu",
+      "source_url": "https://www.charteroak.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:57.477149+00:00"
+    }
+  },
+  {
+    "name": "Abraham Lincoln University",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.alu.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Glendale",
+        "state": null,
+        "country": "US",
+        "postal_code": "91210",
+        "street": "100 West Broadway, Suite 600",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049885+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "488031",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "488031",
+        "opeid": "04243800"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 208,
+        "students_outside_us_fall": 4,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "us_state": "CA",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "04243800",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.alu.edu",
+      "source_url": "https://www.alu.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:57.719772+00:00"
+    }
+  },
+  {
+    "name": "Colorado State University Global",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "official_url": "https://csuglobal.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Denver",
+        "state": null,
+        "country": "US",
+        "postal_code": "80202-0000",
+        "street": "555 17th Street Suite 1000",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049891+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "476975",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "476975",
+        "opeid": "04208700"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 15502,
+        "students_outside_us_fall": 3,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "us_state": "CO",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "04208700",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://csuglobal.edu",
+      "source_url": "https://csuglobal.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:57.757550+00:00"
+    }
+  },
+  {
+    "name": "Crestpoint University",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.crestpoint.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Phoenix",
+        "state": null,
+        "country": "US",
+        "postal_code": "85014-1561",
+        "street": "717 E Maryland Ave",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049897+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "461023",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "461023",
+        "opeid": "04157400"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 618,
+        "students_outside_us_fall": 3,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "us_state": "AZ",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "04157400",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.crestpoint.edu",
+      "source_url": "https://www.crestpoint.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:58.352157+00:00"
+    }
+  },
+  {
+    "name": "Frontier Nursing University",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://frontier.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Versailles",
+        "state": null,
+        "country": "US",
+        "postal_code": "40383",
+        "street": "2050 Lexington Road",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049917+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "156727",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "156727",
+        "opeid": "03007000"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 3483,
+        "students_outside_us_fall": 2,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "us_state": "KY",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "03007000",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://frontier.edu",
+      "source_url": "https://www.frontier.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:58.356903+00:00"
+    }
+  },
+  {
+    "name": "Sessions College for Professional Design",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.sessions.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Tempe",
+        "state": null,
+        "country": "US",
+        "postal_code": "85281",
+        "street": "404 South Mill Avenue, Suite 201",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049923+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "475839",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "475839",
+        "opeid": "04217600"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 279,
+        "students_outside_us_fall": 2,
+        "title_iv": true,
+        "highest_offering": 5
+      },
+      "us_state": "AZ",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "04217600",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.sessions.edu",
+      "source_url": "https://www.sessions.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.0,
+        "evidence": [],
+        "imprint_url": null
+      },
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:58.421257+00:00"
+    }
+  },
+  {
+    "name": "University of Wisconsin-Milwaukee Flex",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "official_url": "https://flex.wisconsin.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Milwaukee",
+        "state": null,
+        "country": "US",
+        "postal_code": "53201",
+        "street": "2200 E Kenwood Blvd",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049929+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "491288",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "491288",
+        "opeid": "00389600"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 928,
+        "students_outside_us_fall": 2,
+        "title_iv": true,
+        "highest_offering": 5
+      },
+      "us_state": "WI",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "00389600",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://flex.wisconsin.edu",
+      "source_url": "https://flex.wisconsin.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.0,
+        "evidence": [],
+        "imprint_url": null
+      },
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:58.575250+00:00"
+    }
+  },
+  {
+    "name": "Evangel University-College of Online Learning",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.evangel.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Springfield",
+        "state": null,
+        "country": "US",
+        "postal_code": "65802-2125",
+        "street": "1111 North Glenstone Avenue",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049935+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "497824",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "497824",
+        "opeid": "00246300"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 349,
+        "students_outside_us_fall": 1,
+        "title_iv": true,
+        "highest_offering": 5
+      },
+      "us_state": "MO",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "00246300",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.8,
+      "official_url": "https://www.evangel.edu",
+      "source_url": "https://www.evangel.edu/",
+      "http_status": 403,
+      "identity": null,
+      "flags": [
+        "bot_challenge"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:58.681797+00:00"
+    }
+  },
+  {
+    "name": "Lionel University",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.lionel.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Carpinteria",
+        "state": null,
+        "country": "US",
+        "postal_code": "93013-2912",
+        "street": "1013 Mark Avenue",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049939+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "485519",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "485519",
+        "opeid": "04243400"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 654,
+        "students_outside_us_fall": 1,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "us_state": "CA",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "04243400",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.lionel.edu",
+      "source_url": "https://lionel.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:58.746966+00:00"
+    }
+  },
+  {
+    "name": "University of New Hampshire College of Professional Studies Online",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "official_url": "https://cps.unh.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Manchester",
+        "state": null,
+        "country": "US",
+        "postal_code": "03101",
+        "street": "88 Commercial Street",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049946+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "183257",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "183257",
+        "opeid": "00258904"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 2257,
+        "students_outside_us_fall": 1,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "us_state": "NH",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "00258904",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://cps.unh.edu",
+      "source_url": "https://cps.unh.edu/online",
+      "http_status": 200,
+      "identity": {
+        "score": 0.72,
+        "evidence": [
+          "name_in_homepage_text"
+        ],
+        "imprint_url": null
+      },
+      "flags": [
+        "subpage_replaced_by_homepage"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:58.909371+00:00"
+    }
+  },
+  {
+    "name": "University of Wisconsin-Parkside Flex",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "official_url": "https://flex.wisconsin.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Kenosha",
+        "state": null,
+        "country": "US",
+        "postal_code": "53141",
+        "street": "900 Wood Rd",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049950+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "491297",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "491297",
+        "opeid": "00501500"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 219,
+        "students_outside_us_fall": 1,
+        "title_iv": true,
+        "highest_offering": 5
+      },
+      "us_state": "WI",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "00501500",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://flex.wisconsin.edu",
+      "source_url": "https://flex.wisconsin.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.0,
+        "evidence": [],
+        "imprint_url": null
+      },
+      "flags": [
+        "identity_unconfirmed"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:59.051351+00:00"
+    }
+  },
+  {
+    "name": "America Evangelical University",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://aeu.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Gardena",
+        "state": null,
+        "country": "US",
+        "postal_code": "90247-4432",
+        "street": "1204 W 163rd St",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049955+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "490081",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "490081",
+        "opeid": "04227100"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 329,
+        "students_outside_us_fall": 0,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "us_state": "CA",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "04227100",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://aeu.edu",
+      "source_url": "https://www.aeu.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:59.052589+00:00"
+    }
+  },
+  {
+    "name": "Amridge University",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.amridgeuniversity.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Montgomery",
+        "state": null,
+        "country": "US",
+        "postal_code": "36117-3553",
+        "street": "1200 Taylor Rd",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049961+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "100690",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "100690",
+        "opeid": "02503400"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 861,
+        "students_outside_us_fall": 0,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "us_state": "AL",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "02503400",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "review",
+      "method": null,
+      "confidence": 0.0,
+      "official_url": "https://www.amridgeuniversity.edu",
+      "source_url": "https://www.amridgeuniversity.edu/",
+      "http_status": null,
+      "identity": null,
+      "flags": [
+        "source_unreachable_ConnectionError"
+      ],
+      "candidates": [
+        {
+          "domain": "amridge-university.de",
+          "rule": "full_name",
+          "outcome": "no_dns"
+        },
+        {
+          "domain": "au-montgomery.de",
+          "rule": "initials+place",
+          "outcome": "no_dns"
+        },
+        {
+          "domain": "au.de",
+          "rule": "initials",
+          "outcome": "reachable",
+          "final_url": "https://www.au.de",
+          "identity": {
+            "score": 0.0,
+            "evidence": [],
+            "imprint_url": "https://www.au.de/impressum"
+          }
+        }
+      ],
+      "checked_at": "2026-10-02T11:40:59.146227+00:00"
+    }
+  },
+  {
+    "name": "Bryant & Stratton College-Online",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.bryantstratton.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Orchard Park",
+        "state": null,
+        "country": "US",
+        "postal_code": "14127",
+        "street": "200 Redtail Rd",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049966+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "480091",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "480091",
+        "opeid": "00267802"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 16061,
+        "students_outside_us_fall": 0,
+        "title_iv": true,
+        "highest_offering": 5
+      },
+      "us_state": "NY",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "00267802",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.8,
+      "official_url": "https://www.bryantstratton.edu",
+      "source_url": "https://www.bryantstratton.edu/",
+      "http_status": 403,
+      "identity": null,
+      "flags": [
+        "bot_challenge"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:59.438021+00:00"
+    }
+  },
+  {
+    "name": "Claremont Lincoln University",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://claremontlincoln.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Claremont",
+        "state": null,
+        "country": "US",
+        "postal_code": "91711-4744",
+        "street": "150 West First Street",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049974+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "488387",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "488387",
+        "opeid": "04253600"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 339,
+        "students_outside_us_fall": 0,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "us_state": "CA",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "04253600",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://claremontlincoln.edu",
+      "source_url": "https://claremontlincoln.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:59.576468+00:00"
+    }
+  },
+  {
+    "name": "Lexington Theological Seminary",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://lextheo.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Lexington",
+        "state": null,
+        "country": "US",
+        "postal_code": "40503",
+        "street": "230 Lexington Green Circle, Suite 300",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049979+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "157207",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "157207",
+        "opeid": "00197100"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 109,
+        "students_outside_us_fall": 0,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "us_state": "KY",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "00197100",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://lextheo.edu",
+      "source_url": "https://www.lextheo.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:40:59.584698+00:00"
+    }
+  },
+  {
+    "name": "Los Angeles Pacific University",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.lapu.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "San Dimas",
+        "state": null,
+        "country": "US",
+        "postal_code": "91773-1741",
+        "street": "300 N Lone Hill Avenue, #200",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049986+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "474863",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "474863",
+        "opeid": "04278800"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 2884,
+        "students_outside_us_fall": 0,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "us_state": "CA",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "04278800",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.lapu.edu",
+      "source_url": "https://www.lapu.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.0,
+        "evidence": [],
+        "imprint_url": null
+      },
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:41:00.621939+00:00",
+      "suggested_url": "https://www.apuglobal.edu"
+    }
+  },
+  {
+    "name": "Reach University",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://reach.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Oakland",
+        "state": null,
+        "country": "US",
+        "postal_code": "94612-1278",
+        "street": "1221 Preservation Park Way",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049993+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "497480",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "497480",
+        "opeid": "04263700"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 1768,
+        "students_outside_us_fall": 0,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "us_state": "CA",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "04263700",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://reach.edu",
+      "source_url": "https://www.reach.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:41:01.046316+00:00"
+    }
+  },
+  {
+    "name": "Relay Graduate School of Education",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.relay.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "New York",
+        "state": null,
+        "country": "US",
+        "postal_code": "10004",
+        "street": "25 Broadway, 3rd Fl",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.049998+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "475033",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "475033",
+        "opeid": "04208600"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 2477,
+        "students_outside_us_fall": 0,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "us_state": "NY",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "04208600",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.relay.edu",
+      "source_url": "https://www.relay.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:41:01.109823+00:00"
+    }
+  },
+  {
+    "name": "Taft University System",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://taftu.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Denver",
+        "state": null,
+        "country": "US",
+        "postal_code": "80222",
+        "street": "1325 S. Colorado Blvd. Building B, Suite 404",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.050003+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "454689",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "454689",
+        "opeid": "04100400"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 532,
+        "students_outside_us_fall": 0,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "us_state": "CO",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "04100400",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://taftu.edu",
+      "source_url": "https://www.taftu.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.72,
+        "evidence": [
+          "name_in_homepage_text"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:41:01.468267+00:00"
+    }
+  },
+  {
+    "name": "Walden University",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.waldenu.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Minneapolis",
+        "state": null,
+        "country": "US",
+        "postal_code": "55401",
+        "street": "100 Washington Avenue South, Suite 1210",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.050009+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "125231",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "125231",
+        "opeid": "02504200"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 72855,
+        "students_outside_us_fall": 0,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "us_state": "MN",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "02504200",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.waldenu.edu",
+      "source_url": "https://www.waldenu.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:41:01.590251+00:00"
+    }
+  },
+  {
+    "name": "Western Governors University",
+    "country": "US",
+    "state": "INTL-IPEDS",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "official_url": "https://www.wgu.edu",
+    "official_url_source": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "locations": [
+      {
+        "name": null,
+        "city": "Salt Lake City",
+        "state": null,
+        "country": "US",
+        "postal_code": "84107",
+        "street": "4001 South 700 East Suite 700",
+        "location_type": "main",
+        "location_status": "registered_seat",
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "source_authority": "U.S. Department of Education, National Center for Education Statistics"
+      }
+    ],
+    "source": {
+      "authority": "U.S. Department of Education, National Center for Education Statistics",
+      "url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "source_type": "dataset",
+      "source_category": "international_online_discovery",
+      "retrieved_at": "2026-10-02T11:31:57.050014+00:00",
+      "dataset_version": "IPEDS HD2024/IC2024/EFFY2024_DIST/EF2023A_DIST",
+      "dataset_sha256": {
+        "hd": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+        "ic": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288",
+        "effy_dist": "0d7e66e950c5f7a618ee6b3a10413446749ffdc11e3d8ce7fcb2ee4bbc82a46e",
+        "ef_dist": "82cf7c0db273ba3f594a5ffa54c6d5ea14bd01db15e8cdb886b3d1663a1fcb97"
+      },
+      "record_id": "433387",
+      "reference_year": "2024-25"
+    },
+    "discovery": {
+      "source": "INTL-IPEDS",
+      "external_ids": {
+        "ipeds_unitid": "433387",
+        "opeid": "03339400"
+      },
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 282150,
+        "students_outside_us_fall": 0,
+        "title_iv": true,
+        "highest_offering": 8
+      },
+      "us_state": "UT",
+      "recognition": {
+        "title_iv": true,
+        "accreditation_source": "DAPIP",
+        "accreditation_lookup": {
+          "opeid": "03339400",
+          "url": "https://ope.ed.gov/dapip/"
+        },
+        "accreditation_status": "not_checked"
+      }
+    },
+    "website_resolution": {
+      "status": "resolved",
+      "method": "source_direct",
+      "confidence": 0.9,
+      "official_url": "https://www.wgu.edu",
+      "source_url": "https://www.wgu.edu/",
+      "http_status": 200,
+      "identity": {
+        "score": 0.8,
+        "evidence": [
+          "name_in_homepage_text",
+          "name_in_title",
+          "tokens_in_title"
+        ],
+        "imprint_url": null
+      },
+      "flags": [],
+      "candidates": [],
+      "checked_at": "2026-10-02T11:41:01.751614+00:00"
+    }
+  }
+]

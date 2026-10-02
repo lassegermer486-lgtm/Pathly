@@ -12,6 +12,10 @@ __pycache__/
 # Scraper-Rohdaten (werden bei jedem Lauf neu geschrieben)
 scrapers/*/data/raw/
 
+# Internationale Datensätze (ETER-Dump 92 MB, IPEDS): per URL + SHA-256 in
+# registry/international_sources.yaml gepinnt und reproduzierbar ladbar
+scrapers/*/data/source_cache/INTL-*/
+
 # Node / Next.js (für alle Apps)
 node_modules/
 .next/

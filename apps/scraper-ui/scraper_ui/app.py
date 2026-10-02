@@ -11,6 +11,8 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 from .bridge import ScraperBridge
+from .build_reports import ReportCache, live_steps, overview
+from .pipeline_process import PipelineProcess
 from .runner import Conflict, NotFound, Runner
 
 STATIC_DIR = Path(__file__).resolve().parent / "static"
@@ -32,14 +34,27 @@ class SaveRequest(BaseModel):
     confirm_incomplete: bool = False
 
 
-def create_app(bridge: ScraperBridge | None = None) -> FastAPI:
+class BuildRequest(BaseModel):
+    start: str = "discovery"
+    stop: str = "supabase"
+    agent_api: bool = False      # False: agent uses cached answers only (no API cost)
+
+
+def create_app(bridge: ScraperBridge | None = None, pipeline: PipelineProcess | None = None) -> FastAPI:
     if bridge is None:
         bridge = ScraperBridge(os.environ.get("PATHLY_SCRAPER_DIR") or DEFAULT_SCRAPER_DIR)
     runner = Runner(bridge)
+    pipeline = pipeline or PipelineProcess(bridge.dir)
+    reports = ReportCache(bridge.dir)
 
     app = FastAPI(title="ProjectPathly Scraper UI", docs_url=None, redoc_url=None)
     app.state.runner = runner
     app.state.bridge = bridge
+    app.state.pipeline = pipeline
+
+    def no_build_running():
+        if pipeline.running:
+            raise HTTPException(status_code=409, detail="Es läuft gerade ein Registry-Build. Bitte warten.")
 
     def guarded(fn, *args, **kwargs):
         try:
@@ -67,6 +82,7 @@ def create_app(bridge: ScraperBridge | None = None) -> FastAPI:
     def run(body: RunRequest):
         if body.source not in ("live", "file"):
             raise HTTPException(status_code=422, detail="source muss 'live' oder 'file' sein.")
+        no_build_running()
         guarded(runner.start, body.states, body.online, body.source)
         return {"ok": True}
 
@@ -87,7 +103,42 @@ def create_app(bridge: ScraperBridge | None = None) -> FastAPI:
 
     @app.post("/api/save")
     def save(body: SaveRequest):
+        no_build_running()
         return guarded(runner.save, body.confirm_incomplete)
+
+    # ------------------------------------------------------------------
+    # Registry build: the scraper's own pipeline, shown from its reports
+    # ------------------------------------------------------------------
+
+    @app.get("/api/build/state")
+    def build_state(since: int = 0, raw_since: int = 0):
+        process = pipeline.snapshot(since, raw_since)
+        return {"overview": overview(reports), "process": process, "live": live_steps(process)}
+
+    @app.post("/api/build/start")
+    def build_start(body: BuildRequest):
+        if runner.busy():
+            raise HTTPException(status_code=409, detail="In der Ansicht „Bundesländer & Duplikate“ läuft "
+                                                        "gerade ein Abruf. Bitte warten.")
+        try:
+            pipeline.start(body.start, body.stop, body.agent_api)
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc)) from exc
+        except RuntimeError as exc:
+            raise HTTPException(status_code=409, detail=str(exc)) from exc
+        return {"ok": True}
+
+    @app.post("/api/build/cancel")
+    def build_cancel():
+        try:
+            pipeline.cancel()
+        except RuntimeError as exc:
+            raise HTTPException(status_code=409, detail=str(exc)) from exc
+        return {"ok": True}
+
+    @app.get("/build")
+    def build_page():
+        return FileResponse(STATIC_DIR / "build.html", headers={"Cache-Control": "no-store"})
 
     @app.post("/api/db/push")
     def db_push():

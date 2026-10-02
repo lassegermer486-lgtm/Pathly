@@ -6226,5 +6226,985 @@
         "recognition_status": "official_statistics"
       }
     ]
+  },
+  {
+    "registry_id": "PTH-DE-EC8BA419",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|American College",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-315FBD14",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|Anadolu University",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-A62F43BF",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|Cyprus University of Technology",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-47B70715",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|European University - Cyprus",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-D01FBAAA",
+    "institution_type": "university_of_applied_sciences",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|Ferdinand Porsche Fern FH-Studiengänge",
+        "institution_type": "university_of_applied_sciences",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-5A0F52DA",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|Frederick University",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-ACF1404D",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|Future Focus",
+        "institution_type": "other",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-1B5611C1",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|Hellenic Open University",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-328B5C20",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|International University Isabel I de Castilla",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-4F1EF6E3",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|International University of La Rioja",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-9213851D",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|National University of Distance Education",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-03DC7190",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|Neapolis University",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-87B04E20",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|Open University of Catalonia",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-5382AD83",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|Open University of Cyprus",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F7679A2C",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|Open University of Madrid (UDIMA)",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-748949B4",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|Open University of Portugal",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-BB50FD70",
+    "institution_type": "university",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|Open University of the Netherlands",
+        "institution_type": "university",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-57D7E28E",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|Pegaso International",
+        "institution_type": "other",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-A8138560",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|Rochester Institute of Technology Croatia",
+        "institution_type": "other",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-D6341E39",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|Swiss Distance Education University",
+        "institution_type": "other",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-7573816E",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|The Open University",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-938C59F7",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|Triagon Academy",
+        "institution_type": "other",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F32E415A",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|University of Central Lancashire - Cyprus",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-91678607",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|University of Nicosia",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-8E80BA5F",
+    "institution_type": "university",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-ETER|Valencian International University",
+        "institution_type": "university",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-1DB6E68B",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Abilene Christian University-Undergraduate Online",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-D8C6D5DA",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Abraham Lincoln University",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-14B3B21B",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|America Evangelical University",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-44AAD3C2",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|American College of Healthcare Sciences",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-215A63F1",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|American InterContinental University System",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-2CA5C00C",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|American Public University System",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-4A193C4B",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Amridge University",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-8B81DF5E",
+    "institution_type": "unknown",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Arizona State University Digital Immersion",
+        "institution_type": "unknown",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-E0CA9984",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Bridges Christian College",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-808C7D91",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Bryant & Stratton College-Online",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-1AF1B15B",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|California Intercontinental University",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C3BC309D",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Capella University",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-BCE4C493",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Catholic International University",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-B28A60E3",
+    "institution_type": "unknown",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Charter Oak State College",
+        "institution_type": "unknown",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-313C1E19",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|City Vision University",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-673701AB",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Claremont Lincoln University",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F7BDB8E8",
+    "institution_type": "unknown",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Colorado State University Global",
+        "institution_type": "unknown",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C51105D5",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Columbia Southern University",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-D837828B",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Crestpoint University",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-9B381023",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Evangel University-College of Online Learning",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-5B6B0CE6",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Excelsior University",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-9D93BA9A",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Florida Institute of Technology-Online",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-371E644E",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Frontier Nursing University",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-2031E501",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Johnson & Wales University-Online",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-52C1F83A",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Lexington Theological Seminary",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-156249CD",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Lionel University",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F1EE5175",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Los Angeles Pacific University",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-2658D8EE",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Martinsburg College",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-59538641",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Midwives College of Utah",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-98A54DEB",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|National American University-Rapid City",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-68F61510",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Nazarene Bible College",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-7026CC4D",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Northcentral University",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-38B05BCC",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Reach University",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-3756C4D4",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Relay Graduate School of Education",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-7345C6AD",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Sessions College for Professional Design",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-A03A613C",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|South University-Savannah Online",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-A8FB4DF5",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Taft University System",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-5D1D1967",
+    "institution_type": "unknown",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|University of Arkansas Grantham",
+        "institution_type": "unknown",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-71E0265F",
+    "institution_type": "unknown",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|University of Florida-Online",
+        "institution_type": "unknown",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-0B50D913",
+    "institution_type": "unknown",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|University of New Hampshire College of Professional Studies Online",
+        "institution_type": "unknown",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-A5F80185",
+    "institution_type": "unknown",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|University of Wisconsin-Milwaukee Flex",
+        "institution_type": "unknown",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-1B9D7DE9",
+    "institution_type": "unknown",
+    "ownership": "public",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|University of Wisconsin-Parkside Flex",
+        "institution_type": "unknown",
+        "ownership": "public",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-04975561",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Veritas Baptist College",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-F2FB0046",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Walden University",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
+  },
+  {
+    "registry_id": "PTH-DE-C62ED54E",
+    "institution_type": "unknown",
+    "ownership": "private",
+    "recognition_status": "unknown",
+    "source_values": [
+      {
+        "source_record": "INTL-IPEDS|Western Governors University",
+        "institution_type": "unknown",
+        "ownership": "private",
+        "recognition_status": "unknown"
+      }
+    ]
   }
 ]

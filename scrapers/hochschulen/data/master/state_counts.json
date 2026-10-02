@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "states": {
+    "DE-BB": {
+      "count": 24,
+      "updated_at": "2026-10-02T11:31:41+00:00",
+      "origin": "run"
+    },
+    "DE-BE": {
+      "count": 38,
+      "updated_at": "2026-10-02T11:31:41+00:00",
+      "origin": "run"
+    },
+    "DE-BW": {
+      "count": 69,
+      "updated_at": "2026-10-02T11:31:41+00:00",
+      "origin": "run"
+    },
+    "DE-BY": {
+      "count": 47,
+      "updated_at": "2026-10-02T11:31:41+00:00",
+      "origin": "run"
+    },
+    "DE-HB": {
+      "count": 7,
+      "updated_at": "2026-10-02T11:31:41+00:00",
+      "origin": "run"
+    },
+    "DE-HE": {
+      "count": 39,
+      "updated_at": "2026-10-02T11:31:41+00:00",
+      "origin": "run"
+    },
+    "DE-HH": {
+      "count": 34,
+      "updated_at": "2026-10-02T11:31:41+00:00",
+      "origin": "run"
+    },
+    "DE-MV": {
+      "count": 11,
+      "updated_at": "2026-10-02T11:31:41+00:00",
+      "origin": "run"
+    },
+    "DE-NI": {
+      "count": 30,
+      "updated_at": "2026-10-02T11:31:41+00:00",
+      "origin": "run"
+    },
+    "DE-NW": {
+      "count": 68,
+      "updated_at": "2026-10-02T11:31:41+00:00",
+      "origin": "run"
+    },
+    "DE-RP": {
+      "count": 22,
+      "updated_at": "2026-10-02T11:31:41+00:00",
+      "origin": "run"
+    },
+    "DE-SH": {
+      "count": 14,
+      "updated_at": "2026-10-02T11:31:41+00:00",
+      "origin": "run"
+    },
+    "DE-SL": {
+      "count": 8,
+      "updated_at": "2026-10-02T11:31:41+00:00",
+      "origin": "run"
+    },
+    "DE-SN": {
+      "count": 22,
+      "updated_at": "2026-10-02T11:31:41+00:00",
+      "origin": "run"
+    },
+    "DE-ST": {
+      "count": 11,
+      "updated_at": "2026-10-02T11:31:41+00:00",
+      "origin": "run"
+    },
+    "DE-TH": {
+      "count": 14,
+      "updated_at": "2026-10-02T11:31:41+00:00",
+      "origin": "run"
+    },
+    "INTL-ETER": {
+      "count": 25,
+      "updated_at": "2026-10-02T11:31:57+00:00",
+      "origin": "run"
+    },
+    "INTL-IPEDS": {
+      "count": 45,
+      "updated_at": "2026-10-02T11:31:57+00:00",
+      "origin": "run"
+    }
+  }
+}

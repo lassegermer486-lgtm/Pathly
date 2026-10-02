@@ -1,0 +1,790 @@
+{
+  "generated_at": "2026-10-02T11:46:09.910272+00:00",
+  "decision_warnings": [],
+  "counts": {
+    "confirmed": 0,
+    "not_available": 0,
+    "review": 70,
+    "not_assessed": 435
+  },
+  "market_access": {
+    "physical_de": 431,
+    "online_de": 0,
+    "both": 0,
+    "none": 74
+  },
+  "confirmed": [],
+  "not_available": [],
+  "review": [
+    {
+      "registry_id": "PTH-DE-1DB6E68B",
+      "name": "Abilene Christian University-Undergraduate Online",
+      "country": "US",
+      "official_url": "https://acu.edu/academics/online/undergraduate",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-D8C6D5DA",
+      "name": "Abraham Lincoln University",
+      "country": "US",
+      "official_url": "https://www.alu.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-14B3B21B",
+      "name": "America Evangelical University",
+      "country": "US",
+      "official_url": "https://aeu.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-EC8BA419",
+      "name": "American College",
+      "country": "CY",
+      "official_url": "https://ac.ac.cy",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-44AAD3C2",
+      "name": "American College of Healthcare Sciences",
+      "country": "US",
+      "official_url": "https://achs.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-215A63F1",
+      "name": "American InterContinental University System",
+      "country": "US",
+      "official_url": "https://www.aius.education",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-2CA5C00C",
+      "name": "American Public University System",
+      "country": "US",
+      "official_url": "https://www.apus.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-4A193C4B",
+      "name": "Amridge University",
+      "country": "US",
+      "official_url": null,
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-315FBD14",
+      "name": "Anadolu University",
+      "country": "TR",
+      "official_url": "https://www.anadolu.edu.tr/en",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-8B81DF5E",
+      "name": "Arizona State University Digital Immersion",
+      "country": "US",
+      "official_url": "https://www.asu.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-E0CA9984",
+      "name": "Bridges Christian College",
+      "country": "US",
+      "official_url": "https://www.bcc.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-808C7D91",
+      "name": "Bryant & Stratton College-Online",
+      "country": "US",
+      "official_url": "https://www.bryantstratton.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-1AF1B15B",
+      "name": "California Intercontinental University",
+      "country": "US",
+      "official_url": "https://caluniversity.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-C3BC309D",
+      "name": "Capella University",
+      "country": "US",
+      "official_url": "https://www.capella.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-BCE4C493",
+      "name": "Catholic International University",
+      "country": "US",
+      "official_url": "https://catholiciu.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-B28A60E3",
+      "name": "Charter Oak State College",
+      "country": "US",
+      "official_url": "https://www.charteroak.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-313C1E19",
+      "name": "City Vision University",
+      "country": "US",
+      "official_url": "https://www.cityvision.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-673701AB",
+      "name": "Claremont Lincoln University",
+      "country": "US",
+      "official_url": "https://claremontlincoln.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-F7BDB8E8",
+      "name": "Colorado State University Global",
+      "country": "US",
+      "official_url": "https://csuglobal.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-C51105D5",
+      "name": "Columbia Southern University",
+      "country": "US",
+      "official_url": "https://www.columbiasouthern.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-D837828B",
+      "name": "Crestpoint University",
+      "country": "US",
+      "official_url": "https://www.crestpoint.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-A62F43BF",
+      "name": "Cyprus University of Technology",
+      "country": "CY",
+      "official_url": "https://www.cut.ac.cy",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-47B70715",
+      "name": "European University - Cyprus",
+      "country": "CY",
+      "official_url": "https://euc.ac.cy",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-9B381023",
+      "name": "Evangel University-College of Online Learning",
+      "country": "US",
+      "official_url": "https://www.evangel.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-5B6B0CE6",
+      "name": "Excelsior University",
+      "country": "US",
+      "official_url": "https://www.excelsior.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-D01FBAAA",
+      "name": "Ferdinand Porsche Fern FH-Studiengänge",
+      "country": "AT",
+      "official_url": null,
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-9D93BA9A",
+      "name": "Florida Institute of Technology-Online",
+      "country": "US",
+      "official_url": "https://www.fit.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-5A0F52DA",
+      "name": "Frederick University",
+      "country": "CY",
+      "official_url": "https://www.frederick.ac.cy",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-371E644E",
+      "name": "Frontier Nursing University",
+      "country": "US",
+      "official_url": "https://frontier.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-ACF1404D",
+      "name": "Future Focus",
+      "country": "MT",
+      "official_url": "https://futurefocus.com.mt",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-1B5611C1",
+      "name": "Hellenic Open University",
+      "country": "GR",
+      "official_url": "https://www.eap.gr",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-328B5C20",
+      "name": "International University Isabel I de Castilla",
+      "country": "ES",
+      "official_url": "https://www.ui1.es",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-4F1EF6E3",
+      "name": "International University of La Rioja",
+      "country": "ES",
+      "official_url": "http://www.unir.net",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-2031E501",
+      "name": "Johnson & Wales University-Online",
+      "country": "US",
+      "official_url": "https://online.jwu.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-52C1F83A",
+      "name": "Lexington Theological Seminary",
+      "country": "US",
+      "official_url": "https://lextheo.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-156249CD",
+      "name": "Lionel University",
+      "country": "US",
+      "official_url": "https://www.lionel.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-F1EE5175",
+      "name": "Los Angeles Pacific University",
+      "country": "US",
+      "official_url": null,
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-2658D8EE",
+      "name": "Martinsburg College",
+      "country": "US",
+      "official_url": "https://www.martinsburgcollege.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-59538641",
+      "name": "Midwives College of Utah",
+      "country": "US",
+      "official_url": "https://www.midwifery.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-98A54DEB",
+      "name": "National American University-Rapid City",
+      "country": "US",
+      "official_url": "https://www.national.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-9213851D",
+      "name": "National University of Distance Education",
+      "country": "ES",
+      "official_url": "https://www.uned.es",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-68F61510",
+      "name": "Nazarene Bible College",
+      "country": "US",
+      "official_url": "https://nbc.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-03DC7190",
+      "name": "Neapolis University",
+      "country": "CY",
+      "official_url": "https://www.nup.ac.cy",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-7026CC4D",
+      "name": "Northcentral University",
+      "country": "US",
+      "official_url": "https://www.nu.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-87B04E20",
+      "name": "Open University of Catalonia",
+      "country": "ES",
+      "official_url": "https://www.uoc.edu",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-5382AD83",
+      "name": "Open University of Cyprus",
+      "country": "CY",
+      "official_url": "https://www.ouc.ac.cy",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-F7679A2C",
+      "name": "Open University of Madrid",
+      "country": "ES",
+      "official_url": "https://www.udima.es",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-748949B4",
+      "name": "Open University of Portugal",
+      "country": "PT",
+      "official_url": null,
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-BB50FD70",
+      "name": "Open University of the Netherlands",
+      "country": "NL",
+      "official_url": "https://www.ou.nl",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-57D7E28E",
+      "name": "Pegaso International",
+      "country": "MT",
+      "official_url": "https://pegasointernational.eu",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-38B05BCC",
+      "name": "Reach University",
+      "country": "US",
+      "official_url": "https://reach.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-3756C4D4",
+      "name": "Relay Graduate School of Education",
+      "country": "US",
+      "official_url": "https://www.relay.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-A8138560",
+      "name": "Rochester Institute of Technology Croatia",
+      "country": "HR",
+      "official_url": "http://www.croatia.rit.edu",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-7345C6AD",
+      "name": "Sessions College for Professional Design",
+      "country": "US",
+      "official_url": "https://www.sessions.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-A03A613C",
+      "name": "South University-Savannah Online",
+      "country": "US",
+      "official_url": "https://www.southuniversity.edu/online",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-D6341E39",
+      "name": "Swiss Distance Education University",
+      "country": "CH",
+      "official_url": "https://www.fernuni.ch",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-A8FB4DF5",
+      "name": "Taft University System",
+      "country": "US",
+      "official_url": "https://taftu.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-7573816E",
+      "name": "The Open University",
+      "country": "GB",
+      "official_url": "http://www.open.ac.uk",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-938C59F7",
+      "name": "Triagon Academy",
+      "country": "MT",
+      "official_url": "https://www.triagon.mt",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-5D1D1967",
+      "name": "University of Arkansas Grantham",
+      "country": "US",
+      "official_url": "https://www.uagrantham.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-F32E415A",
+      "name": "University of Central Lancashire - Cyprus",
+      "country": "CY",
+      "official_url": "https://www.uclancyprus.ac.cy",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-71E0265F",
+      "name": "University of Florida-Online",
+      "country": "US",
+      "official_url": "https://ufonline.ufl.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-0B50D913",
+      "name": "University of New Hampshire College of Professional Studies Online",
+      "country": "US",
+      "official_url": "https://cps.unh.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-91678607",
+      "name": "University of Nicosia",
+      "country": "CY",
+      "official_url": "https://www.unic.ac.cy",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-A5F80185",
+      "name": "University of Wisconsin-Milwaukee Flex",
+      "country": "US",
+      "official_url": "https://flex.wisconsin.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-1B9D7DE9",
+      "name": "University of Wisconsin-Parkside Flex",
+      "country": "US",
+      "official_url": "https://flex.wisconsin.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-8E80BA5F",
+      "name": "Valencian International University",
+      "country": "ES",
+      "official_url": "https://www.universidadviu.com",
+      "discovery_sources": [
+        "INTL-ETER"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-04975561",
+      "name": "Veritas Baptist College",
+      "country": "US",
+      "official_url": "https://vbc.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-F2FB0046",
+      "name": "Walden University",
+      "country": "US",
+      "official_url": "https://www.waldenu.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    },
+    {
+      "registry_id": "PTH-DE-C62ED54E",
+      "name": "Western Governors University",
+      "country": "US",
+      "official_url": "https://www.wgu.edu",
+      "discovery_sources": [
+        "INTL-IPEDS"
+      ],
+      "online_de_status": "review",
+      "evidence": {}
+    }
+  ]
+}
