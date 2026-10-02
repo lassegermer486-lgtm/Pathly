@@ -1,0 +1,25 @@
+# Manuelle Entscheidungen zur physischen Präsenz in Deutschland
+# (registry/master/presence.py). Sie haben Vorrang vor den automatischen Regeln.
+#
+# Offene Fälle mit fertigen Einträgen: data/reports/presence_review.md
+#
+# registry_id:   stabile ID aus universities_de_master.json (Pflicht)
+# city / state:  optional; ohne beides gilt die Entscheidung für alle
+#                deutschen Standorte der Hochschule
+# status:        active | closed | moved | uncertain
+# evidence_url:  Pflicht – offizielle Quelle (Standortseite, Impressum,
+#                Schließungs- oder Umzugsmitteilung). Eine erreichbare
+#                Website allein belegt nichts.
+# note, checked_at, moved_to: optional
+#
+# Geschlossene Standorte bleiben in locations.json erhalten.
+#
+# Beispiel:
+#   - registry_id: PTH-DE-0123ABCD
+#     city: Hamburg
+#     status: closed
+#     evidence_url: https://www.example-hochschule.de/news/campus-hamburg
+#     note: "Studienbetrieb in Hamburg zum WS 2025/26 eingestellt"
+#     checked_at: 2026-10-02
+
+decisions: []
