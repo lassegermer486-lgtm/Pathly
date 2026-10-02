@@ -181,7 +181,7 @@ join public.universities u on u.registry_id = f.registry_id;
 
 -- 5. Log
 insert into public.import_runs (finished_at, status, source_file, git_commit, counts, message)
-select now(), 'succeeded', {source_literal}, {commit_literal}, i.doc->'counts', 'ProjectPathly registry v1.2'
+select now(), 'succeeded', {source_literal}, {commit_literal}, i.doc->'counts', 'ProjectPathly registry v1.3'
 from _pathly_import i;
 
 commit;
@@ -323,6 +323,17 @@ def main():
     sql = render_sql(payload, str(master_dir / "universities_de_master.json"), git_commit())
 
     Path(args.out).write_text(sql, encoding="utf-8")
+
+    # what was exported, for reports and the UI
+    report_path = Path("data/reports/supabase_export.json")
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    report_path.write_text(json.dumps({
+        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "output": args.out,
+        "master_dir": str(master_dir),
+        "git_commit": git_commit(),
+        "counts": payload["counts"],
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
 
     counts = payload["counts"]
     print()

@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-02T08:31:05.534570+00:00",
-  "source_records": 458,
-  "institutions": 435,
+  "generated_at": "2026-10-02T11:46:09.741598+00:00",
+  "source_records": 528,
+  "institutions": 505,
   "merged_institutions": 16,
   "records_merged_away": 23,
   "rules": {
     "override_merge": 2,
-    "rule_4_similar_name_different_site": 26,
+    "rule_4_similar_name_different_site": 27,
     "rule_2_name_variant_same_site": 26,
     "rule_1_same_name_same_site": 8,
-    "override_keep_separate": 1
+    "override_keep_separate": 2
   },
   "review_cases": 0,
   "conflicts": [],
@@ -677,6 +677,16 @@
       "evidence": [
         "polizei",
         "verwaltung"
+      ]
+    },
+    {
+      "a": "INTL-IPEDS|University of Florida-Online",
+      "b": "INTL-IPEDS|Florida Institute of Technology-Online",
+      "decision": "keep_separate",
+      "rule": "rule_4_similar_name_different_site",
+      "evidence": [
+        "florida",
+        "online"
       ]
     }
   ]

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registry-Build</title>
+  <link rel="stylesheet" href="/static/app.css">
+  <link rel="stylesheet" href="/static/build.css">
+</head>
+<body>
+  <div class="page">
+
+    <header class="top">
+      <div class="title">
+        <h1>Registry-Build</h1>
+        <p id="build-meta" class="muted">Alle Angaben stammen aus den Reports der Pipeline (data/reports).</p>
+      </div>
+      <div class="actions">
+        <a class="btn" href="/">Bundesländer &amp; Duplikate</a>
+        <button id="btn-build-options" class="btn" type="button" aria-expanded="false" aria-controls="build-options">Optionen</button>
+        <button id="btn-build" class="btn primary" type="button">Build starten</button>
+      </div>
+    </header>
+
+    <section id="build-options" class="options" hidden>
+      <fieldset>
+        <legend>Schritte</legend>
+        <label class="check">ab <select id="opt-from"></select></label>
+        <label class="check">bis <select id="opt-to"></select></label>
+      </fieldset>
+      <fieldset>
+        <legend>Agent</legend>
+        <label class="check"><input type="checkbox" id="opt-agent-api"> Agent mit API befragen (kostet Guthaben; sonst nur gespeicherte Antworten)</label>
+      </fieldset>
+      <p class="muted opt-note">Gleicher Befehl wie auf der Kommandozeile: <code id="opt-command"></code></p>
+    </section>
+
+    <section id="build-status" class="bstatus" aria-label="Build-Status"></section>
+
+    <p id="notice" class="notice" role="alert" hidden></p>
+
+    <nav class="tabs" role="tablist" aria-label="Bereiche">
+      <button class="tab" role="tab" type="button" data-view="pipeline" aria-selected="true">Pipeline</button>
+      <button class="tab" role="tab" type="button" data-view="sources" aria-selected="false">Quellen<span class="n" id="n-sources"></span></button>
+      <button class="tab" role="tab" type="button" data-view="reviews" aria-selected="false">Reviews<span class="n" id="n-reviews"></span></button>
+      <button class="tab" role="tab" type="button" data-view="log" aria-selected="false">Protokoll</button>
+    </nav>
+
+    <section class="panel">
+      <div id="view-pipeline" class="view">
+        <div class="pipe">
+          <ol id="steps" class="steps"></ol>
+          <div class="feedbox">
+            <div class="feedhead"><strong>Live</strong> <span id="feed-state" class="muted"></span></div>
+            <ol id="feed" class="feed" aria-live="polite"></ol>
+          </div>
+        </div>
+      </div>
+      <div id="view-sources" class="view" hidden></div>
+      <div id="view-reviews" class="view" hidden></div>
+      <div id="view-log" class="view" hidden>
+        <pre id="rawlog" class="log rawlog"></pre>
+      </div>
+    </section>
+
+    <footer id="reports-foot" class="foot muted"></footer>
+  </div>
+
+  <script src="/static/build.js"></script>
+</body>
+</html>

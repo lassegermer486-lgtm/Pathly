@@ -39,3 +39,21 @@ def test_committed_institutions_keep_their_registry_ids():
 
     assert got == expected
     assert len(set(got.values())) == len(got)
+
+
+def test_stable_id_summary_counts_kept_new_merged_and_unlisted():
+    from registry.master.build import stable_id_summary
+
+    registry = IdRegistry({"ids": {
+        "PTH-DE-0000000A": {"created_at": "1"},
+        "PTH-DE-0000000B": {"created_at": "1", "alias_of": "PTH-DE-0000000A"},
+        "PTH-DE-0000000C": {"created_at": "1"},
+        "PTH-DE-0000000D": {"created_at": "2"},
+    }})
+    existing = {"PTH-DE-0000000A", "PTH-DE-0000000B", "PTH-DE-0000000C"}
+    rows = [{"registry_id": "PTH-DE-0000000A"}, {"registry_id": "PTH-DE-0000000D"}]
+
+    summary = stable_id_summary(existing, rows, registry)
+
+    assert summary == {"existing": 3, "kept": 1, "new": 1, "merged": 1,
+                       "unlisted": ["PTH-DE-0000000C"], "all_existing_kept": False}

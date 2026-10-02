@@ -8,7 +8,12 @@
     "street": "Schillerstraße 6",
     "location_type": "main",
     "source_state": "DE-BB",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-C107396B",
@@ -19,7 +24,12 @@
     "street": "Waidmarkt 3 u. 9",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-8838F343",
@@ -30,7 +40,12 @@
     "street": "Bernauer Straße 146",
     "location_type": "main",
     "source_state": "DE-BB",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-40DF455E",
@@ -41,7 +56,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-HH",
-    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
+    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
   },
   {
     "registry_id": "PTH-DE-F57522F3",
@@ -52,7 +72,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-HH",
-    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
+    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
   },
   {
     "registry_id": "PTH-DE-6381E23A",
@@ -63,7 +88,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-D47100E3",
@@ -74,7 +104,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-2F9102C9",
@@ -85,7 +120,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-221849F0",
@@ -96,7 +136,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-B27DA761",
@@ -107,7 +152,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-551A1186",
@@ -118,7 +168,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-B0908312",
@@ -129,7 +184,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-7E817150",
@@ -140,7 +200,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-823B2D33",
@@ -151,7 +216,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-06DE9982",
@@ -162,7 +232,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-FB519A26",
@@ -173,7 +248,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-DD72DA93",
@@ -184,7 +264,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-32EC50D4",
@@ -195,7 +280,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-DA031CF0",
@@ -206,7 +296,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-64F03647",
@@ -217,7 +312,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-51352631",
@@ -228,7 +328,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-2AF4EA5B",
@@ -239,7 +344,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-26273F0F",
@@ -250,7 +360,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-26273F0F",
@@ -261,7 +376,12 @@
     "street": "Willy-Brandt-Str. 1",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-DE8645F4",
@@ -272,7 +392,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-99024AE2",
@@ -283,7 +408,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-B5E9D769",
@@ -294,7 +424,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-2CB1F2F4",
@@ -305,7 +440,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-FD0C92D6",
@@ -316,7 +456,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-C579BE61",
@@ -327,7 +472,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-7FB9ACF2",
@@ -338,7 +488,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-80625C04",
@@ -349,7 +504,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-5A796BB3",
@@ -360,7 +520,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-F235B112",
@@ -371,7 +536,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-D0BD6721",
@@ -382,7 +552,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-8AB6E9F3",
@@ -393,7 +568,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-4045CE85",
@@ -404,7 +584,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-381D261C",
@@ -415,7 +600,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-24113E46",
@@ -426,7 +616,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-2FAEE87C",
@@ -437,7 +632,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-6D9A2988",
@@ -448,7 +648,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-90A61093",
@@ -459,7 +664,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-E6B220C3",
@@ -470,7 +680,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-14CEAC13",
@@ -481,7 +696,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-BE",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-DC3534B9",
@@ -492,7 +712,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-BW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-DC3534B9",
@@ -503,7 +728,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-BW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-DC3534B9",
@@ -514,7 +744,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-BW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-DC3534B9",
@@ -525,7 +760,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-BW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-DC3534B9",
@@ -536,7 +776,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-BW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-DC3534B9",
@@ -547,7 +792,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-BW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-DC3534B9",
@@ -558,7 +808,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-BW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-DC3534B9",
@@ -569,7 +824,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-BW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-DC3534B9",
@@ -580,7 +840,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-BW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-DC3534B9",
@@ -591,7 +856,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-BW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-D41EDDF0",
@@ -602,7 +872,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-HH",
-    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
+    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
   },
   {
     "registry_id": "PTH-DE-1BDE8AC7",
@@ -613,7 +888,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-MV",
-    "source_url": "https://www.schwerin.de/mein-schwerin/lernen/hochschulen-forschung/hochschule/"
+    "source_url": "https://www.schwerin.de/mein-schwerin/lernen/hochschulen-forschung/hochschule/",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.schwerin.de/mein-schwerin/lernen/hochschulen-forschung/hochschule/"
   },
   {
     "registry_id": "PTH-DE-08DAF0C4",
@@ -624,7 +904,12 @@
     "street": "Platz der Deutschen Einheit 1",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-08DAF0C4",
@@ -635,7 +920,12 @@
     "street": "Marie-Curie-Straße 11-13",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-248220E0",
@@ -646,7 +936,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-HB",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-47CDD439",
@@ -657,7 +952,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-HB",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-5567DEBD",
@@ -668,7 +968,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-HB",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-05FA537B",
@@ -679,7 +984,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-HB",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-8B3FF683",
@@ -690,7 +1000,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-HB",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-DDE42184",
@@ -701,7 +1016,12 @@
     "street": "Doventorscontrescarpe 172 C",
     "location_type": "main",
     "source_state": "DE-HB",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-DDE42184",
@@ -712,7 +1032,12 @@
     "street": "Niedersachsendamm 78-80",
     "location_type": "branch",
     "source_state": "DE-HB",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-E3443B43",
@@ -723,7 +1048,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-HB",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-8F4F588D",
@@ -734,7 +1064,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-HH",
-    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
+    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
   },
   {
     "registry_id": "PTH-DE-32472D3C",
@@ -745,7 +1080,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-HH",
-    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
+    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
   },
   {
     "registry_id": "PTH-DE-E2C1D231",
@@ -756,7 +1096,12 @@
     "street": "Braamkamp 3b",
     "location_type": "main",
     "source_state": "DE-HH",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-D94FDBE5",
@@ -767,7 +1112,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-HH",
-    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
+    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
   },
   {
     "registry_id": "PTH-DE-9B4D8864",
@@ -778,7 +1128,12 @@
     "street": "Anckelmannstraße 10",
     "location_type": "main",
     "source_state": "DE-HH",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-501A85C2",
@@ -789,7 +1144,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-HH",
-    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
+    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
   },
   {
     "registry_id": "PTH-DE-9383B300",
@@ -800,7 +1160,12 @@
     "street": "Jungiusstraße 6",
     "location_type": "main",
     "source_state": "DE-HH",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-B4A33FEB",
@@ -811,7 +1176,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-HH",
-    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
+    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
   },
   {
     "registry_id": "PTH-DE-8867E01E",
@@ -822,7 +1192,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-HH",
-    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
+    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
   },
   {
     "registry_id": "PTH-DE-A716EDAB",
@@ -833,7 +1208,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-HH",
-    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
+    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
   },
   {
     "registry_id": "PTH-DE-A716EDAB",
@@ -844,7 +1224,12 @@
     "street": "Leimkugelstr. 6",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-A716EDAB",
@@ -855,7 +1240,12 @@
     "street": "Universitätsstr. 142",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-A716EDAB",
@@ -866,7 +1256,12 @@
     "street": "Joseph-Schumpeter-Allee 23–25",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-A716EDAB",
@@ -877,7 +1272,12 @@
     "street": "Lissaboner Allee 7",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-A716EDAB",
@@ -888,7 +1288,12 @@
     "street": "Toulouser Allee 53",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-A716EDAB",
@@ -899,7 +1304,12 @@
     "street": "Bismarckstr. 120",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-A716EDAB",
@@ -910,7 +1320,12 @@
     "street": "Herkulesstraße 32",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-A716EDAB",
@@ -921,7 +1336,12 @@
     "street": "Hermann-Simon-Str. 7",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-A716EDAB",
@@ -932,7 +1352,12 @@
     "street": "Roggenkamp 12",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-A716EDAB",
@@ -943,7 +1368,12 @@
     "street": "Agrippinawerft 4",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-A716EDAB",
@@ -954,7 +1384,12 @@
     "street": "Hagenstr. 28",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-A716EDAB",
@@ -965,7 +1400,12 @@
     "street": "Martin-Luther-King-Weg 30-30a",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-A716EDAB",
@@ -976,7 +1416,12 @@
     "street": "Stresemannallee 4-6",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-A716EDAB",
@@ -987,7 +1432,12 @@
     "street": "Birlenbacher Str. 17",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-A716EDAB",
@@ -998,7 +1448,12 @@
     "street": "Robert-Daum-Platz 7",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-6AE93CEE",
@@ -1009,7 +1464,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-HH",
-    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
+    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
   },
   {
     "registry_id": "PTH-DE-6AE93CEE",
@@ -1020,7 +1480,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-MV",
-    "source_url": "https://www.schwerin.de/mein-schwerin/lernen/hochschulen-forschung/hochschule/"
+    "source_url": "https://www.schwerin.de/mein-schwerin/lernen/hochschulen-forschung/hochschule/",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.schwerin.de/mein-schwerin/lernen/hochschulen-forschung/hochschule/"
   },
   {
     "registry_id": "PTH-DE-48551F21",
@@ -1031,7 +1496,12 @@
     "street": "Hebebrandstraße 1",
     "location_type": "main",
     "source_state": "DE-HH",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-0607380E",
@@ -1042,7 +1512,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-HH",
-    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
+    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
   },
   {
     "registry_id": "PTH-DE-C4782A83",
@@ -1053,7 +1528,12 @@
     "street": "Berliner Tor 5",
     "location_type": "main",
     "source_state": "DE-HH",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-02428FA8",
@@ -1064,7 +1544,12 @@
     "street": "Harvestehuder Weg 12",
     "location_type": "main",
     "source_state": "DE-HH",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-E80E0A4E",
@@ -1075,7 +1560,12 @@
     "street": "Lerchenfeld 2",
     "location_type": "main",
     "source_state": "DE-HH",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-6BE279ED",
@@ -1086,7 +1576,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-HH",
-    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
+    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
   },
   {
     "registry_id": "PTH-DE-6BE279ED",
@@ -1097,7 +1592,12 @@
     "street": "Otto-Hahn-Straße 19",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-6BE279ED",
@@ -1108,7 +1608,12 @@
     "street": "Im MediaPark 5c",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-718BBBB8",
@@ -1119,7 +1624,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-HH",
-    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
+    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
   },
   {
     "registry_id": "PTH-DE-7D64A04C",
@@ -1130,7 +1640,12 @@
     "street": "Brooktorkai 20",
     "location_type": "main",
     "source_state": "DE-HH",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-FC327236",
@@ -1141,7 +1656,12 @@
     "street": "Am Kaiserkai 1",
     "location_type": "main",
     "source_state": "DE-HH",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-09CE2A67",
@@ -1152,7 +1672,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-HH",
-    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
+    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
   },
   {
     "registry_id": "PTH-DE-379FB938",
@@ -1163,7 +1688,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-HH",
-    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
+    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
   },
   {
     "registry_id": "PTH-DE-08836C5A",
@@ -1174,7 +1704,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-HH",
-    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
+    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
   },
   {
     "registry_id": "PTH-DE-9085A09A",
@@ -1185,7 +1720,12 @@
     "street": "Harburger Schloßstraße 20",
     "location_type": "main",
     "source_state": "DE-HH",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-3C6DFB6F",
@@ -1196,7 +1736,12 @@
     "street": "Edmund-Siemers-Allee 1",
     "location_type": "main",
     "source_state": "DE-HH",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-1A57C376",
@@ -1207,7 +1752,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-HH",
-    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
+    "source_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.hamburg.de/leben-in-hamburg/private-hochschule-hamburg-379684"
   },
   {
     "registry_id": "PTH-DE-D4137ED9",
@@ -1218,7 +1768,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-MV",
-    "source_url": "https://www.fhm-campus.de/dein-campus/campus-rostock/"
+    "source_url": "https://www.fhm-campus.de/dein-campus/campus-rostock/",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.fhm-campus.de/dein-campus/campus-rostock/"
   },
   {
     "registry_id": "PTH-DE-D4137ED9",
@@ -1229,7 +1784,12 @@
     "street": "Ravensberger Str. 10G",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-D4137ED9",
@@ -1240,7 +1800,12 @@
     "street": "Hohenzollernring 16–18",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-D4137ED9",
@@ -1251,7 +1816,12 @@
     "street": "Nideggener Straße 43",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-D4137ED9",
@@ -1262,7 +1832,12 @@
     "street": "Kölner Str. 33",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-5C990443",
@@ -1273,7 +1848,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-MV",
-    "source_url": "https://www.regierung-mv.de/Landesregierung/wkm/Wissenschaft/Hochschule/"
+    "source_url": "https://www.regierung-mv.de/Landesregierung/wkm/Wissenschaft/Hochschule/",
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.regierung-mv.de/Landesregierung/wkm/Wissenschaft/Hochschule/"
   },
   {
     "registry_id": "PTH-DE-7A952626",
@@ -1284,7 +1864,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-MV",
-    "source_url": "https://www.schwerin.de/mein-schwerin/lernen/hochschulen-forschung/hochschule/"
+    "source_url": "https://www.schwerin.de/mein-schwerin/lernen/hochschulen-forschung/hochschule/",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.schwerin.de/mein-schwerin/lernen/hochschulen-forschung/hochschule/"
   },
   {
     "registry_id": "PTH-DE-7A952626",
@@ -1295,7 +1880,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-SL",
-    "source_url": "https://www.saarland.de/SharedDocs/Downloads/DE/mbk/Bildungsserver/unterricht.und-bildungsthemen/Berufstudienorientierung/ausbildungsstaettenverzeichnis.pdf?__blob=publicationFile&v=5"
+    "source_url": "https://www.saarland.de/SharedDocs/Downloads/DE/mbk/Bildungsserver/unterricht.und-bildungsthemen/Berufstudienorientierung/ausbildungsstaettenverzeichnis.pdf?__blob=publicationFile&v=5",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.saarland.de/SharedDocs/Downloads/DE/mbk/Bildungsserver/unterricht.und-bildungsthemen/Berufstudienorientierung/ausbildungsstaettenverzeichnis.pdf?__blob=publicationFile&v=5"
   },
   {
     "registry_id": "PTH-DE-156C6345",
@@ -1306,7 +1896,12 @@
     "street": "Villestr. 3",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-908E8A5D",
@@ -1317,7 +1912,12 @@
     "street": "Gaußstr. 20",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-856E235F",
@@ -1328,7 +1928,12 @@
     "street": "Hardefuststr. 1",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-856E235F",
@@ -1339,7 +1944,12 @@
     "street": "Kaiserstr. 6",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-856E235F",
@@ -1350,7 +1960,12 @@
     "street": "Kapuzinergraben 19",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-856E235F",
@@ -1361,7 +1976,12 @@
     "street": "Neusser Straße 99",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-856E235F",
@@ -1372,7 +1992,12 @@
     "street": "Hammer Landstraße 89",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-856E235F",
@@ -1383,7 +2008,12 @@
     "street": "Dutumer Straße 33",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-92B0CBE6",
@@ -1394,7 +2024,12 @@
     "street": "Zum Roten Berge 18",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-9D3878D4",
@@ -1405,7 +2040,12 @@
     "street": "Am Sportpark Müngersdorf 6",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-E8A8B9D9",
@@ -1416,7 +2056,12 @@
     "street": "Springorumallee 20",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-E51D5CA7",
@@ -1427,7 +2072,12 @@
     "street": "Immanuel-Kant-Str. 18–20",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-DD6EB804",
@@ -1438,7 +2088,12 @@
     "street": "Hüfferstr. 27",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-DD6EB804",
@@ -1449,7 +2104,12 @@
     "street": "Stegerwaldstr. 39",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-44A66C04",
@@ -1460,7 +2120,12 @@
     "street": "Bayernallee 11",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-44A66C04",
@@ -1471,7 +2136,12 @@
     "street": "Heinrich-Mußmann-Straße 1–5",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-F281D17C",
@@ -1482,7 +2152,12 @@
     "street": "Interaktion 1",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-F281D17C",
@@ -1493,7 +2168,12 @@
     "street": "Ringstr. 94",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-D0786FB0",
@@ -1504,7 +2184,12 @@
     "street": "Sonnenstr. 96–100",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-ED33C75F",
@@ -1515,7 +2200,12 @@
     "street": "Frauenstuhlweg 31",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-ED33C75F",
@@ -1526,7 +2216,12 @@
     "street": "Haldener Str. 182",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-ED33C75F",
@@ -1537,7 +2232,12 @@
     "street": "Lindenstr. 53",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-ED33C75F",
@@ -1548,7 +2248,12 @@
     "street": "Bahnhofsallee 5",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-ED33C75F",
@@ -1559,7 +2264,12 @@
     "street": "Lübecker Ring 2",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-557FD547",
@@ -1570,7 +2280,12 @@
     "street": "Bethelweg 8",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-550DDCC6",
@@ -1581,7 +2296,12 @@
     "street": "Fürstenallee 3–5",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-550DDCC6",
@@ -1592,7 +2312,12 @@
     "street": "Hauptstr. 2",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-550DDCC6",
@@ -1603,7 +2328,12 @@
     "street": "Meisenstr. 92",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-550DDCC6",
@@ -1614,7 +2344,12 @@
     "street": "Bahnhofstraße 23",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-550DDCC6",
@@ -1625,7 +2360,12 @@
     "street": "Marie-Curie-Str. 6",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-DCCEF789",
@@ -1636,7 +2376,12 @@
     "street": "Schloss Nordkirchen",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-9D0DE68B",
@@ -1647,7 +2392,12 @@
     "street": "Schleidtalstr. 3",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-ABE3A109",
@@ -1658,7 +2408,12 @@
     "street": "Universitätsstr. 11",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-3B91A02E",
@@ -1669,7 +2424,12 @@
     "street": "Geschwister-Aufricht-Straße 9",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-8A2621E2",
@@ -1680,7 +2440,12 @@
     "street": "Klemensborn 39",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-8A2621E2",
@@ -1691,7 +2456,12 @@
     "street": "Martin-Kremmer-Str. 21",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-8A2621E2",
@@ -1702,7 +2472,12 @@
     "street": "Gelsenkirchener Str. 209",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-8A2621E2",
@@ -1713,7 +2488,12 @@
     "street": "Friederikastraße 4",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-8A2621E2",
@@ -1724,7 +2504,12 @@
     "street": "Prinz-Regent-Straße 50–60",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-8A2621E2",
@@ -1735,7 +2520,12 @@
     "street": "Düsseldorfer Str. 19",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-8A2621E2",
@@ -1746,7 +2536,12 @@
     "street": "Brückstr. 47",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-F0E7998D",
@@ -1757,7 +2552,12 @@
     "street": "Universitätsstr. 1",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-B13B4F4F",
@@ -1768,7 +2568,12 @@
     "street": "Am Hochschulcampus 1",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-B13B4F4F",
@@ -1779,7 +2584,12 @@
     "street": "Höseler Platz 2",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-780D3506",
@@ -1790,7 +2600,12 @@
     "street": "Grantham-Allee 20",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-780D3506",
@@ -1801,7 +2616,12 @@
     "street": "Zum Steimelsberg 7",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-780D3506",
@@ -1812,7 +2632,12 @@
     "street": "Von-Liebig-Str. 20",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-4C0A39B5",
@@ -1823,7 +2648,12 @@
     "street": "Münsterstraße 156",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-3081F973",
@@ -1834,7 +2664,12 @@
     "street": "Marker Allee 76–78",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-3081F973",
@@ -1845,7 +2680,12 @@
     "street": "Dr.-Arnold-Hueck-Straße 3",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-E5062F80",
@@ -1856,7 +2696,12 @@
     "street": "Reinarzstr. 49",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-E5062F80",
@@ -1867,7 +2712,12 @@
     "street": "Richard-Wagner-Str. 97",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-CFE25A91",
@@ -1878,7 +2728,12 @@
     "street": "Marie-Curie-Straße 1",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-CFE25A91",
@@ -1889,7 +2744,12 @@
     "street": "Friedrich-Heinrich-Allee 25",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-DBDB4E6A",
@@ -1900,7 +2760,12 @@
     "street": "Duisburger Str. 100",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-DBDB4E6A",
@@ -1911,7 +2776,12 @@
     "street": "Lützowstraße 5",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-0CEC5951",
@@ -1922,7 +2792,12 @@
     "street": "Prinz-Friedrich-Straße 28a",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-0CEC5951",
@@ -1933,7 +2808,12 @@
     "street": "Gewerbeschulstr. 76",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-5F6B8E12",
@@ -1944,7 +2824,12 @@
     "street": "Simrockstr. 4",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-C9F2B38F",
@@ -1955,7 +2840,12 @@
     "street": "Gesundheitscampus 6–8",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-65749061",
@@ -1966,7 +2856,12 @@
     "street": "Parkstr. 6",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-A994F23F",
@@ -1977,7 +2872,12 @@
     "street": "Neustadt 22",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-05F4D294",
@@ -1988,7 +2888,12 @@
     "street": "Unter Krahnenbäumen 87",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-05F4D294",
@@ -1999,7 +2904,12 @@
     "street": "Theaterplatz 16",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-05F4D294",
@@ -2010,7 +2920,12 @@
     "street": "Sedanstr. 15",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-920E5B21",
@@ -2021,7 +2936,12 @@
     "street": "Am Haidekamp 73",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-920E5B21",
@@ -2032,7 +2952,12 @@
     "street": "Kurt-Schumacher-Str. 6 - Gebäude B",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-920E5B21",
@@ -2043,7 +2968,12 @@
     "street": "Hauert 9",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-920E5B21",
@@ -2054,7 +2984,12 @@
     "street": "Albert-Hahn-Str. 45",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-920E5B21",
@@ -2065,7 +3000,12 @@
     "street": "Wanner Str. 158–160",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-920E5B21",
@@ -2076,7 +3016,12 @@
     "street": "Handwerkerstr. 11 (für ältere Navigationssysteme: Eugen-Richter-Str. 114)",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-920E5B21",
@@ -2087,7 +3032,12 @@
     "street": "Thürmchenswall 48–54",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-920E5B21",
@@ -2098,7 +3048,12 @@
     "street": "Nevinghoff 8/10",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-3C8D8833",
@@ -2109,7 +3064,12 @@
     "street": "Erkrather Straße 220 a-c",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-88F739C7",
@@ -2120,7 +3080,12 @@
     "street": "Wörthstr. 10",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-88F739C7",
@@ -2131,7 +3096,12 @@
     "street": "Robert-Schumann-Str. 25",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-88F739C7",
@@ -2142,7 +3112,12 @@
     "street": "Piusallee 89",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-88F739C7",
@@ -2153,7 +3128,12 @@
     "street": "Leostr. 19",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-0B29EF64",
@@ -2164,7 +3144,12 @@
     "street": "Missionsstr. 9b",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-0B29EF64",
@@ -2175,7 +3160,12 @@
     "street": "Remterweg 45",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-C50CEC25",
@@ -2186,7 +3176,12 @@
     "street": "Eiskellerstr. 1",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-4EF400E0",
@@ -2197,7 +3192,12 @@
     "street": "Leonardo Campus 2",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-1202E5CF",
@@ -2208,7 +3208,12 @@
     "street": "Peter-Welter-Platz 2",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-3645D7EC",
@@ -2219,7 +3224,12 @@
     "street": "Gleueler Straße 262 - 268",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-F86A82ED",
@@ -2230,7 +3240,12 @@
     "street": "Hohenzollernring 60",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-758A394A",
@@ -2241,7 +3256,12 @@
     "street": "St.-Apern-Straße 32",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-CFA3E54D",
@@ -2252,7 +3272,12 @@
     "street": "Alfred-Herrenhausen-Str. 50",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-9D336EC9",
@@ -2263,7 +3288,12 @@
     "street": "Templergraben 55",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-17EE22C0",
@@ -2274,7 +3304,12 @@
     "street": "Schaevenstr. 1a/1b",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-17EE22C0",
@@ -2285,7 +3320,12 @@
     "street": "Markt 11–15",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-32723EFC",
@@ -2296,7 +3336,12 @@
     "street": "Regina-Pacis-Weg 3",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-976B9A2E",
@@ -2307,7 +3352,12 @@
     "street": "Fischerstr. 110",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-2E09310B",
@@ -2318,7 +3368,12 @@
     "street": "Universitätsstr. 150",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-1FEC7997",
@@ -2329,7 +3384,12 @@
     "street": "Herner Str. 45",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-4C92C243",
@@ -2340,7 +3400,12 @@
     "street": "Claudiusstr. 1",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-4C92C243",
@@ -2351,7 +3416,12 @@
     "street": "Am Sandberg 1",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-4C92C243",
@@ -2362,7 +3432,12 @@
     "street": "Kaiser-Wilhelm-Allee",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-F64404D1",
@@ -2373,7 +3448,12 @@
     "street": "Campusallee 12",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-F64404D1",
@@ -2384,7 +3464,12 @@
     "street": "Emilienstr. 45",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-F64404D1",
@@ -2395,7 +3480,12 @@
     "street": "An der Wilhelmshöhe 44",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-C1AB1B37",
@@ -2406,7 +3496,12 @@
     "street": "August-Schmidt-Str. 4",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-F6816864",
@@ -2417,7 +3512,12 @@
     "street": "Kamp 6",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-66981C2B",
@@ -2428,7 +3528,12 @@
     "street": "Universitätsstr. 25",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-E94E712B",
@@ -2439,7 +3544,12 @@
     "street": "Forsthausweg 2",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-E94E712B",
@@ -2450,7 +3560,12 @@
     "street": "Universitätsstr. 2",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-65AA60A1",
@@ -2461,7 +3576,12 @@
     "street": "Warburger Str. 100",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-0F9CBBCB",
@@ -2472,7 +3592,12 @@
     "street": "Adolf-Reichwein-Straße 2a",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-96FD0EAB",
@@ -2483,7 +3608,12 @@
     "street": "Albertus-Magnus-Platz",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-9F79B54A",
@@ -2494,7 +3624,12 @@
     "street": "Neidenburger Str. 43",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-9F79B54A",
@@ -2505,7 +3640,12 @@
     "street": "Münsterstr. 265",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-9F79B54A",
@@ -2516,7 +3656,12 @@
     "street": "August-Schmidt-Ring 10",
     "location_type": "branch",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-50FCCD2A",
@@ -2527,7 +3672,12 @@
     "street": "Schlossplatz 2",
     "location_type": "main",
     "source_state": "DE-NW",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": null,
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-5D21A57A",
@@ -2538,7 +3688,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-SL",
-    "source_url": "https://www.saarland.de/SharedDocs/Downloads/DE/mbk/Bildungsserver/unterricht.und-bildungsthemen/Berufstudienorientierung/ausbildungsstaettenverzeichnis.pdf?__blob=publicationFile&v=5"
+    "source_url": "https://www.saarland.de/SharedDocs/Downloads/DE/mbk/Bildungsserver/unterricht.und-bildungsthemen/Berufstudienorientierung/ausbildungsstaettenverzeichnis.pdf?__blob=publicationFile&v=5",
+    "source_location_status": "candidate",
+    "country": "DE",
+    "location_status": "uncertain",
+    "location_status_basis": "insufficient_evidence: no_verified_website, agent_reports_closed",
+    "location_status_evidence_url": "https://www.saarland.de/SharedDocs/Downloads/DE/mbk/Bildungsserver/unterricht.und-bildungsthemen/Berufstudienorientierung/ausbildungsstaettenverzeichnis.pdf?__blob=publicationFile&v=5"
   },
   {
     "registry_id": "PTH-DE-FEE310F4",
@@ -2549,7 +3704,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-SL",
-    "source_url": "https://www.saarland.de/SharedDocs/Downloads/DE/mbk/Bildungsserver/unterricht.und-bildungsthemen/Berufstudienorientierung/ausbildungsstaettenverzeichnis.pdf?__blob=publicationFile&v=5"
+    "source_url": "https://www.saarland.de/SharedDocs/Downloads/DE/mbk/Bildungsserver/unterricht.und-bildungsthemen/Berufstudienorientierung/ausbildungsstaettenverzeichnis.pdf?__blob=publicationFile&v=5",
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.saarland.de/SharedDocs/Downloads/DE/mbk/Bildungsserver/unterricht.und-bildungsthemen/Berufstudienorientierung/ausbildungsstaettenverzeichnis.pdf?__blob=publicationFile&v=5"
   },
   {
     "registry_id": "PTH-DE-0A839F05",
@@ -2560,7 +3720,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-SL",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-BF99C798",
@@ -2571,7 +3736,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-SL",
-    "source_url": "https://www.saarland.de/SharedDocs/Downloads/DE/mbk/Bildungsserver/unterricht.und-bildungsthemen/Berufstudienorientierung/ausbildungsstaettenverzeichnis.pdf?__blob=publicationFile&v=5"
+    "source_url": "https://www.saarland.de/SharedDocs/Downloads/DE/mbk/Bildungsserver/unterricht.und-bildungsthemen/Berufstudienorientierung/ausbildungsstaettenverzeichnis.pdf?__blob=publicationFile&v=5",
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.saarland.de/SharedDocs/Downloads/DE/mbk/Bildungsserver/unterricht.und-bildungsthemen/Berufstudienorientierung/ausbildungsstaettenverzeichnis.pdf?__blob=publicationFile&v=5"
   },
   {
     "registry_id": "PTH-DE-8F0B869F",
@@ -2582,7 +3752,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-SL",
-    "source_url": "https://www.saarland.de/SharedDocs/Downloads/DE/mbk/Bildungsserver/unterricht.und-bildungsthemen/Berufstudienorientierung/ausbildungsstaettenverzeichnis.pdf?__blob=publicationFile&v=5"
+    "source_url": "https://www.saarland.de/SharedDocs/Downloads/DE/mbk/Bildungsserver/unterricht.und-bildungsthemen/Berufstudienorientierung/ausbildungsstaettenverzeichnis.pdf?__blob=publicationFile&v=5",
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.saarland.de/SharedDocs/Downloads/DE/mbk/Bildungsserver/unterricht.und-bildungsthemen/Berufstudienorientierung/ausbildungsstaettenverzeichnis.pdf?__blob=publicationFile&v=5"
   },
   {
     "registry_id": "PTH-DE-8D3A1160",
@@ -2593,7 +3768,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-SL",
-    "source_url": "https://www.saarland.de/SharedDocs/Downloads/DE/mbk/Bildungsserver/unterricht.und-bildungsthemen/Berufstudienorientierung/ausbildungsstaettenverzeichnis.pdf?__blob=publicationFile&v=5"
+    "source_url": "https://www.saarland.de/SharedDocs/Downloads/DE/mbk/Bildungsserver/unterricht.und-bildungsthemen/Berufstudienorientierung/ausbildungsstaettenverzeichnis.pdf?__blob=publicationFile&v=5",
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.saarland.de/SharedDocs/Downloads/DE/mbk/Bildungsserver/unterricht.und-bildungsthemen/Berufstudienorientierung/ausbildungsstaettenverzeichnis.pdf?__blob=publicationFile&v=5"
   },
   {
     "registry_id": "PTH-DE-348915BF",
@@ -2604,7 +3784,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-SL",
-    "source_url": "https://www.saarland.de/SharedDocs/Downloads/DE/mbk/Bildungsserver/unterricht.und-bildungsthemen/Berufstudienorientierung/ausbildungsstaettenverzeichnis.pdf?__blob=publicationFile&v=5"
+    "source_url": "https://www.saarland.de/SharedDocs/Downloads/DE/mbk/Bildungsserver/unterricht.und-bildungsthemen/Berufstudienorientierung/ausbildungsstaettenverzeichnis.pdf?__blob=publicationFile&v=5",
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://www.saarland.de/SharedDocs/Downloads/DE/mbk/Bildungsserver/unterricht.und-bildungsthemen/Berufstudienorientierung/ausbildungsstaettenverzeichnis.pdf?__blob=publicationFile&v=5"
   },
   {
     "registry_id": "PTH-DE-450D8EFA",
@@ -2615,7 +3800,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-SN",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-44392154",
@@ -2626,7 +3816,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-SN",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-44392154",
@@ -2637,7 +3832,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-SN",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-44392154",
@@ -2648,7 +3848,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-SN",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-44392154",
@@ -2659,7 +3864,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-SN",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-44392154",
@@ -2670,7 +3880,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-SN",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-44392154",
@@ -2681,7 +3896,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-SN",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-44392154",
@@ -2692,7 +3912,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-SN",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-8DA071A3",
@@ -2703,7 +3928,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-SN",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-9D69CACF",
@@ -2714,7 +3944,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-SN",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-7692F732",
@@ -2725,7 +3960,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-SN",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-D035B68A",
@@ -2736,7 +3976,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-SN",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-518639E6",
@@ -2747,7 +3992,12 @@
     "street": null,
     "location_type": "main",
     "source_state": "DE-SN",
-    "source_url": null
+    "source_url": null,
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": null
   },
   {
     "registry_id": "PTH-DE-21A985A5",
@@ -2758,7 +4008,12 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-TH",
-    "source_url": "https://statistik.thueringen.de/DatenBank/TabAnzeige.asp?auswahlnr=hs2090&tabelle=NT001313&zeit=2024%7C%7Cws"
+    "source_url": "https://statistik.thueringen.de/DatenBank/TabAnzeige.asp?auswahlnr=hs2090&tabelle=NT001313&zeit=2024%7C%7Cws",
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://statistik.thueringen.de/DatenBank/TabAnzeige.asp?auswahlnr=hs2090&tabelle=NT001313&zeit=2024%7C%7Cws"
   },
   {
     "registry_id": "PTH-DE-21A985A5",
@@ -2769,6 +4024,1131 @@
     "street": null,
     "location_type": "branch",
     "source_state": "DE-TH",
-    "source_url": "https://statistik.thueringen.de/DatenBank/TabAnzeige.asp?auswahlnr=hs2090&tabelle=NT001313&zeit=2024%7C%7Cws"
+    "source_url": "https://statistik.thueringen.de/DatenBank/TabAnzeige.asp?auswahlnr=hs2090&tabelle=NT001313&zeit=2024%7C%7Cws",
+    "source_location_status": "confirmed",
+    "country": "DE",
+    "location_status": "active",
+    "location_status_basis": "state_source_and_verified_website",
+    "location_status_evidence_url": "https://statistik.thueringen.de/DatenBank/TabAnzeige.asp?auswahlnr=hs2090&tabelle=NT001313&zeit=2024%7C%7Cws"
+  },
+  {
+    "registry_id": "PTH-DE-EC8BA419",
+    "name": null,
+    "city": "Nicosia",
+    "state": null,
+    "postal_code": null,
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "CY",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-315FBD14",
+    "name": null,
+    "city": "Eskişehir",
+    "state": null,
+    "postal_code": "26470",
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "TR",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-A62F43BF",
+    "name": null,
+    "city": "Limassol",
+    "state": null,
+    "postal_code": null,
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "CY",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-47B70715",
+    "name": null,
+    "city": "Nicosia",
+    "state": null,
+    "postal_code": null,
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "CY",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-D01FBAAA",
+    "name": null,
+    "city": "Wiener Neustadt",
+    "state": null,
+    "postal_code": null,
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "AT",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-5A0F52DA",
+    "name": null,
+    "city": "Nicosia",
+    "state": null,
+    "postal_code": null,
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "CY",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-ACF1404D",
+    "name": null,
+    "city": "Floriana",
+    "state": null,
+    "postal_code": null,
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "MT",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-1B5611C1",
+    "name": null,
+    "city": "Patra",
+    "state": null,
+    "postal_code": "26335",
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "GR",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-328B5C20",
+    "name": null,
+    "city": "Burgos",
+    "state": null,
+    "postal_code": null,
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "ES",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-4F1EF6E3",
+    "name": null,
+    "city": "Logroño",
+    "state": null,
+    "postal_code": "26000",
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "ES",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-9213851D",
+    "name": null,
+    "city": "Madrid",
+    "state": null,
+    "postal_code": "28015",
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "ES",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-03DC7190",
+    "name": null,
+    "city": "Paphos",
+    "state": null,
+    "postal_code": null,
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "CY",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-87B04E20",
+    "name": null,
+    "city": "Barcelona",
+    "state": null,
+    "postal_code": "08018",
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "ES",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-5382AD83",
+    "name": null,
+    "city": "Latsia",
+    "state": null,
+    "postal_code": null,
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "CY",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-F7679A2C",
+    "name": null,
+    "city": "Madrid",
+    "state": null,
+    "postal_code": "28420",
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "ES",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-748949B4",
+    "name": null,
+    "city": "Lisboa",
+    "state": null,
+    "postal_code": null,
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "PT",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-BB50FD70",
+    "name": null,
+    "city": "Heerlen",
+    "state": null,
+    "postal_code": null,
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "NL",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-57D7E28E",
+    "name": null,
+    "city": "Valletta",
+    "state": null,
+    "postal_code": null,
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "MT",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-A8138560",
+    "name": null,
+    "city": "Dubrovnik",
+    "state": null,
+    "postal_code": "20000",
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "HR",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-D6341E39",
+    "name": null,
+    "city": "Brig",
+    "state": null,
+    "postal_code": null,
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "CH",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-7573816E",
+    "name": null,
+    "city": "Milton Keynes",
+    "state": null,
+    "postal_code": null,
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "GB",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-938C59F7",
+    "name": null,
+    "city": "Marsa",
+    "state": null,
+    "postal_code": null,
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "MT",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-F32E415A",
+    "name": null,
+    "city": "Larnaca",
+    "state": null,
+    "postal_code": null,
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "CY",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-91678607",
+    "name": null,
+    "city": "Nicosia",
+    "state": null,
+    "postal_code": null,
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "CY",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-8E80BA5F",
+    "name": null,
+    "city": "València",
+    "state": null,
+    "postal_code": "46002",
+    "street": null,
+    "location_type": "main",
+    "source_state": "INTL-ETER",
+    "source_url": "https://zenodo.org/records/10879501",
+    "source_location_status": "registered_seat",
+    "country": "ES",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-1DB6E68B",
+    "name": null,
+    "city": "Addison",
+    "state": null,
+    "postal_code": "75001",
+    "street": "16633 Dallas Parkway, Suite 800",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-D8C6D5DA",
+    "name": null,
+    "city": "Glendale",
+    "state": null,
+    "postal_code": "91210",
+    "street": "100 West Broadway, Suite 600",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-14B3B21B",
+    "name": null,
+    "city": "Gardena",
+    "state": null,
+    "postal_code": null,
+    "street": "1204 W 163rd St",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-44AAD3C2",
+    "name": null,
+    "city": "Portland",
+    "state": null,
+    "postal_code": "97239",
+    "street": "5005 S. Macadam Ave",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-215A63F1",
+    "name": null,
+    "city": "Chandler",
+    "state": null,
+    "postal_code": "85286",
+    "street": "2200 E Germann Road, Suite 100",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-2CA5C00C",
+    "name": null,
+    "city": "Charles Town",
+    "state": null,
+    "postal_code": "25414",
+    "street": "111 W Congress St",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-4A193C4B",
+    "name": null,
+    "city": "Montgomery",
+    "state": null,
+    "postal_code": null,
+    "street": "1200 Taylor Rd",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-8B81DF5E",
+    "name": null,
+    "city": "Scottsdale",
+    "state": null,
+    "postal_code": "85257",
+    "street": "1365 N Scottsdale Rd",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-E0CA9984",
+    "name": null,
+    "city": "New Orleans",
+    "state": null,
+    "postal_code": null,
+    "street": "2524 Napoleon Avenue",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-808C7D91",
+    "name": null,
+    "city": "Orchard Park",
+    "state": null,
+    "postal_code": "14127",
+    "street": "200 Redtail Rd",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-1AF1B15B",
+    "name": null,
+    "city": "Sioux Falls",
+    "state": null,
+    "postal_code": "57103",
+    "street": "101 South Reid Street, Suite 307",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-C3BC309D",
+    "name": null,
+    "city": "Minneapolis",
+    "state": null,
+    "postal_code": null,
+    "street": "225 South 6th Street, 9th Floor",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-BCE4C493",
+    "name": null,
+    "city": "Charles Town",
+    "state": null,
+    "postal_code": "25414",
+    "street": "300 S. George Street",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-B28A60E3",
+    "name": null,
+    "city": "New Britain",
+    "state": null,
+    "postal_code": "06051",
+    "street": "185 Main Street",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-313C1E19",
+    "name": null,
+    "city": "Kansas City",
+    "state": null,
+    "postal_code": null,
+    "street": "1100 E 11th Street",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-673701AB",
+    "name": null,
+    "city": "Claremont",
+    "state": null,
+    "postal_code": null,
+    "street": "150 West First Street",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-F7BDB8E8",
+    "name": null,
+    "city": "Denver",
+    "state": null,
+    "postal_code": null,
+    "street": "555 17th Street Suite 1000",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-C51105D5",
+    "name": null,
+    "city": "Orange Beach",
+    "state": null,
+    "postal_code": null,
+    "street": "21982 University Lane",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-D837828B",
+    "name": null,
+    "city": "Phoenix",
+    "state": null,
+    "postal_code": null,
+    "street": "717 E Maryland Ave",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-9B381023",
+    "name": null,
+    "city": "Springfield",
+    "state": null,
+    "postal_code": null,
+    "street": "1111 North Glenstone Avenue",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-5B6B0CE6",
+    "name": null,
+    "city": "Albany",
+    "state": null,
+    "postal_code": null,
+    "street": "7 Columbia Cir",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-9D93BA9A",
+    "name": null,
+    "city": "Melbourne",
+    "state": null,
+    "postal_code": null,
+    "street": "150 West University Blvd",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-371E644E",
+    "name": null,
+    "city": "Versailles",
+    "state": null,
+    "postal_code": "40383",
+    "street": "2050 Lexington Road",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-2031E501",
+    "name": null,
+    "city": "Providence",
+    "state": null,
+    "postal_code": "02903",
+    "street": "8 Abbott Park Pl",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-52C1F83A",
+    "name": null,
+    "city": "Lexington",
+    "state": null,
+    "postal_code": "40503",
+    "street": "230 Lexington Green Circle, Suite 300",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-156249CD",
+    "name": null,
+    "city": "Carpinteria",
+    "state": null,
+    "postal_code": null,
+    "street": "1013 Mark Avenue",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-F1EE5175",
+    "name": null,
+    "city": "San Dimas",
+    "state": null,
+    "postal_code": null,
+    "street": "300 N Lone Hill Avenue, #200",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-2658D8EE",
+    "name": null,
+    "city": "Martinsburg",
+    "state": null,
+    "postal_code": null,
+    "street": "341 Aikens Center",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-59538641",
+    "name": null,
+    "city": "Salt Lake City",
+    "state": null,
+    "postal_code": "84106",
+    "street": "1174 East Graystone Way, Suite #20F",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-98A54DEB",
+    "name": null,
+    "city": "Rapid City",
+    "state": null,
+    "postal_code": "57702",
+    "street": "4020 Jackson Boulevard Suite 1",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-68F61510",
+    "name": null,
+    "city": "Colorado Springs",
+    "state": null,
+    "postal_code": "80909",
+    "street": "2020 N Academy Blvd. Suite 316",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-7026CC4D",
+    "name": null,
+    "city": "San Diego",
+    "state": null,
+    "postal_code": "92123",
+    "street": "9388 Lightwave Avenue",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-38B05BCC",
+    "name": null,
+    "city": "Oakland",
+    "state": null,
+    "postal_code": null,
+    "street": "1221 Preservation Park Way",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-3756C4D4",
+    "name": null,
+    "city": "New York",
+    "state": null,
+    "postal_code": "10004",
+    "street": "25 Broadway, 3rd Fl",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-7345C6AD",
+    "name": null,
+    "city": "Tempe",
+    "state": null,
+    "postal_code": "85281",
+    "street": "404 South Mill Avenue, Suite 201",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-A03A613C",
+    "name": null,
+    "city": "Savannah",
+    "state": null,
+    "postal_code": "31406",
+    "street": "709 Mall Blvd",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-A8FB4DF5",
+    "name": null,
+    "city": "Denver",
+    "state": null,
+    "postal_code": "80222",
+    "street": "1325 S. Colorado Blvd. Building B, Suite 404",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-5D1D1967",
+    "name": null,
+    "city": "LIttle Rock",
+    "state": null,
+    "postal_code": "72207",
+    "street": "2402 N University Ave",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-71E0265F",
+    "name": null,
+    "city": "Gainesville",
+    "state": null,
+    "postal_code": "32611",
+    "street": "341 Tigert Hall  300 SW 13th St",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-0B50D913",
+    "name": null,
+    "city": "Manchester",
+    "state": null,
+    "postal_code": "03101",
+    "street": "88 Commercial Street",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-A5F80185",
+    "name": null,
+    "city": "Milwaukee",
+    "state": null,
+    "postal_code": "53201",
+    "street": "2200 E Kenwood Blvd",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-1B9D7DE9",
+    "name": null,
+    "city": "Kenosha",
+    "state": null,
+    "postal_code": "53141",
+    "street": "900 Wood Rd",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-04975561",
+    "name": null,
+    "city": "Lawrenceburg",
+    "state": null,
+    "postal_code": "47025",
+    "street": "208 Walnut Street, Suite 115",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-F2FB0046",
+    "name": null,
+    "city": "Minneapolis",
+    "state": null,
+    "postal_code": "55401",
+    "street": "100 Washington Avenue South, Suite 1210",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
+  },
+  {
+    "registry_id": "PTH-DE-C62ED54E",
+    "name": null,
+    "city": "Salt Lake City",
+    "state": null,
+    "postal_code": "84107",
+    "street": "4001 South 700 East Suite 700",
+    "location_type": "main",
+    "source_state": "INTL-IPEDS",
+    "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+    "source_location_status": "registered_seat",
+    "country": "US",
+    "location_status": "uncertain",
+    "location_status_basis": "outside_germany_not_validated",
+    "location_status_evidence_url": null
   }
 ]
