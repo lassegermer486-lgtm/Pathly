@@ -8,3 +8,6 @@ __pycache__/
 *.pyc
 .venv/
 .pytest_cache/
+
+# Scraper-Rohdaten (werden bei jedem Lauf neu geschrieben)
+scrapers/*/data/raw/
