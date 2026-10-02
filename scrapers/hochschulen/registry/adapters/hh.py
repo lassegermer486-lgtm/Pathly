@@ -5,6 +5,8 @@ import re
 import time
 
 import requests
+
+from registry import http_client
 from bs4 import BeautifulSoup
 
 from .base import RegistryAdapter
@@ -83,7 +85,8 @@ class HamburgAdapter(RegistryAdapter):
     def __init__(self, state_code: str, config: dict):
         super().__init__(state_code, config)
 
-        self.session = requests.Session()
+        # Own retry loops below (warm-up, IASON POST): counted, not retried twice.
+        self.session = http_client.session(retry=False)
 
         self.session.headers.update({
             "User-Agent": self.USER_AGENT,

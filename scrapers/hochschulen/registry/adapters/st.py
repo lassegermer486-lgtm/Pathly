@@ -1,6 +1,8 @@
 import re
 
 import requests
+
+from registry import http_client
 from bs4 import BeautifulSoup
 
 from .base import RegistryAdapter
@@ -32,7 +34,7 @@ class SachsenAnhaltAdapter(RegistryAdapter):
     AUTHORITY = "Land Sachsen-Anhalt"
 
     def _get_soup(self):
-        response = requests.get(
+        response = http_client.get(
             self.SOURCE_URL,
             timeout=30,
             headers={"User-Agent": "Mozilla/5.0"},

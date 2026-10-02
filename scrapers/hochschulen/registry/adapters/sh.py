@@ -2,6 +2,8 @@ import re
 from urllib.parse import urljoin
 
 import requests
+
+from registry import http_client
 from bs4 import BeautifulSoup
 
 from .base import RegistryAdapter
@@ -91,8 +93,10 @@ class SchleswigHolsteinAdapter(RegistryAdapter):
 
         for attempt in range(1, 4):
             try:
-                response = requests.get(
+                # This loop is the retry (with cache fallback).
+                response = http_client.get(
                     url,
+                    retry=False,
                     timeout=30,
                     headers=headers,
                 )

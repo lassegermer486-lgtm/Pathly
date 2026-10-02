@@ -1,69 +1,219 @@
 {
-  "generated_at": "2026-10-01T16:22:47.874169+00:00",
+  "generated_at": "2026-10-02T11:40:50.014923+00:00",
   "records": 458,
   "checked": 458,
   "official_url_coverage": 0.9934,
   "by_status": {
-    "resolved": 455,
-    "review": 2,
-    "unresolved": 1
+    "resolved": 444,
+    "review": 11,
+    "unresolved": 3
   },
   "by_method": {
-    "source_direct": 409,
-    "verified_redirect": 30,
-    "agent_verified": 11,
+    "source_direct": 418,
+    "verified_redirect": 31,
     "deterministic_high": 5
   },
   "flags": {
     "tls_certificate_unverified": 7,
-    "identity_unconfirmed": 17,
-    "redirected_to_other_domain": 40,
-    "possible_rename_or_merger": 10,
+    "identity_unconfirmed": 27,
+    "redirected_to_other_domain": 41,
+    "possible_rename_or_merger": 20,
     "subpage_replaced_by_homepage": 44,
-    "bot_challenge": 3,
+    "bot_challenge": 2,
     "source_link_broken_root_used": 2,
-    "renamed_per_agent": 10,
-    "agent_identity_unconfirmed": 3,
-    "site_unavailable": 2,
     "http_blocked_403": 1,
     "source_unreachable_ReadTimeout": 1,
-    "http_blocked_503": 1,
-    "agent_no_url": 2,
-    "agent_url_blocked": 2
+    "http_blocked_503": 1
   },
   "review": [
     {
       "state": "DE-HH",
-      "name": "Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg",
+      "name": "Technische Universität Hamburg-Harburg",
       "status": "review",
-      "method": null,
-      "confidence": 0.0,
-      "official_url": null,
-      "suggested_url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa",
-      "source_url": null,
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "http://www.tu-harburg.de",
+      "suggested_url": "https://www.tuhh.de/tuhh/startseite",
+      "source_url": "http://www.tu-harburg.de",
       "flags": [
-        "agent_identity_unconfirmed",
-        "agent_identity_unconfirmed"
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
       ],
       "reachable_candidates": []
     },
     {
-      "state": "DE-TH",
-      "name": "Thüringer Fachhochschule für öffentliche Verwaltung Gotha",
+      "state": "DE-HH",
+      "name": "BTK Hochschule für Gestaltung, Campus Hamburg",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.btk-fh.de/de",
+      "suggested_url": "https://www.ue-germany.com/de",
+      "source_url": "https://www.btk-fh.de/de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-HH",
+      "name": "IUBH Internationale Hochschule, Campus Hamburg",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.iubh-dualesstudium.de/standorte/hamburg",
+      "suggested_url": "https://www.iu-dualesstudium.de/standorte/hamburg",
+      "source_url": "https://www.iubh-dualesstudium.de/standorte/hamburg",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "Fachhochschule Bielefeld",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.fh-bielefeld.de",
+      "suggested_url": "https://www.hsbi.de",
+      "source_url": "https://www.fh-bielefeld.de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "Fachhochschule der Diakonie",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.fhdd.de",
+      "suggested_url": "https://www.hochschule-diakonie.de",
+      "source_url": "https://www.fhdd.de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "Europäische Fachhochschule Rhein/Erft",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.eufh.de",
+      "suggested_url": "https://www.cbs.de",
+      "source_url": "https://www.eufh.de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "SRH Hochschule in Nordrhein-Westfalen",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.fh-hamm.de",
+      "suggested_url": "https://www.srh-university.de/de",
+      "source_url": "https://www.fh-hamm.de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "Philosophisch-Theologische Hochschule Münster",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.pth-muenster.de",
+      "suggested_url": "https://www.cts-hochschule.de",
+      "source_url": "https://www.pth-muenster.de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "Fachhochschule für Rechtspflege in NRW",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.fhr.nrw.de",
+      "suggested_url": "https://www.hsjustiz.nrw.de",
+      "source_url": "https://www.fhr.nrw.de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "Fachhochschule für Finanzen",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.fhf-nordkirchen.de",
+      "suggested_url": "https://www.finanzverwaltung.nrw.de/dienststellen/hochschule-fuer-finanzen-nrw",
+      "source_url": "https://www.fhf-nordkirchen.de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-RP",
+      "name": "Hochschule für Finanzen Rheinland-Pfalz",
       "status": "review",
       "method": null,
       "confidence": 0.0,
-      "official_url": null,
-      "suggested_url": "https://bildungszentrum.thueringen.de/thueringer-fachhochschule-fuer-oeffentliche-verwaltung",
-      "source_url": null,
+      "official_url": "https://landesfinanzschule-edenkoben.fin-rlp.de/startseite",
+      "suggested_url": null,
+      "source_url": "https://landesfinanzschule-edenkoben.fin-rlp.de/startseite",
       "flags": [
-        "agent_url_blocked",
-        "agent_url_blocked"
+        "source_unreachable_ReadTimeout"
       ],
       "reachable_candidates": []
     }
   ],
   "unresolved": [
+    {
+      "state": "DE-HH",
+      "name": "Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg",
+      "status": "unresolved",
+      "method": null,
+      "confidence": 0.0,
+      "official_url": null,
+      "suggested_url": null,
+      "source_url": null,
+      "flags": [],
+      "reachable_candidates": []
+    },
     {
       "state": "DE-SL",
       "name": "Berufsakademie für Gesundheits- und Sozialwesen Saarland gGmbH (BAGSS)",
@@ -73,10 +223,7 @@
       "official_url": null,
       "suggested_url": null,
       "source_url": null,
-      "flags": [
-        "agent_no_url",
-        "agent_no_url"
-      ],
+      "flags": [],
       "reachable_candidates": [
         {
           "domain": "bagss.de",
@@ -89,6 +236,18 @@
           "identity": 0.0
         }
       ]
+    },
+    {
+      "state": "DE-TH",
+      "name": "Thüringer Fachhochschule für öffentliche Verwaltung Gotha",
+      "status": "unresolved",
+      "method": null,
+      "confidence": 0.0,
+      "official_url": null,
+      "suggested_url": null,
+      "source_url": null,
+      "flags": [],
+      "reachable_candidates": []
     }
   ],
   "unconfirmed_source_urls": [
@@ -262,6 +421,54 @@
     },
     {
       "state": "DE-HH",
+      "name": "Technische Universität Hamburg-Harburg",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "http://www.tu-harburg.de",
+      "suggested_url": "https://www.tuhh.de/tuhh/startseite",
+      "source_url": "http://www.tu-harburg.de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-HH",
+      "name": "BTK Hochschule für Gestaltung, Campus Hamburg",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.btk-fh.de/de",
+      "suggested_url": "https://www.ue-germany.com/de",
+      "source_url": "https://www.btk-fh.de/de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-HH",
+      "name": "IUBH Internationale Hochschule, Campus Hamburg",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.iubh-dualesstudium.de/standorte/hamburg",
+      "suggested_url": "https://www.iu-dualesstudium.de/standorte/hamburg",
+      "source_url": "https://www.iubh-dualesstudium.de/standorte/hamburg",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-HH",
       "name": "Hochschule Macromedia, University of Applied Science **",
       "status": "resolved",
       "method": "source_direct",
@@ -327,6 +534,118 @@
       "source_url": "https://www.uni-muenster.de",
       "flags": [
         "identity_unconfirmed"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "Fachhochschule Bielefeld",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.fh-bielefeld.de",
+      "suggested_url": "https://www.hsbi.de",
+      "source_url": "https://www.fh-bielefeld.de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "Fachhochschule der Diakonie",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.fhdd.de",
+      "suggested_url": "https://www.hochschule-diakonie.de",
+      "source_url": "https://www.fhdd.de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "Europäische Fachhochschule Rhein/Erft",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.eufh.de",
+      "suggested_url": "https://www.cbs.de",
+      "source_url": "https://www.eufh.de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "SRH Hochschule in Nordrhein-Westfalen",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.fh-hamm.de",
+      "suggested_url": "https://www.srh-university.de/de",
+      "source_url": "https://www.fh-hamm.de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "Philosophisch-Theologische Hochschule Münster",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.pth-muenster.de",
+      "suggested_url": "https://www.cts-hochschule.de",
+      "source_url": "https://www.pth-muenster.de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "Fachhochschule für Rechtspflege in NRW",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.fhr.nrw.de",
+      "suggested_url": "https://www.hsjustiz.nrw.de",
+      "source_url": "https://www.fhr.nrw.de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "Fachhochschule für Finanzen",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.fhf-nordkirchen.de",
+      "suggested_url": "https://www.finanzverwaltung.nrw.de/dienststellen/hochschule-fuer-finanzen-nrw",
+      "source_url": "https://www.fhf-nordkirchen.de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
       ],
       "reachable_candidates": []
     }
@@ -441,6 +760,54 @@
       "reachable_candidates": []
     },
     {
+      "state": "DE-HH",
+      "name": "Technische Universität Hamburg-Harburg",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "http://www.tu-harburg.de",
+      "suggested_url": "https://www.tuhh.de/tuhh/startseite",
+      "source_url": "http://www.tu-harburg.de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-HH",
+      "name": "BTK Hochschule für Gestaltung, Campus Hamburg",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.btk-fh.de/de",
+      "suggested_url": "https://www.ue-germany.com/de",
+      "source_url": "https://www.btk-fh.de/de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-HH",
+      "name": "IUBH Internationale Hochschule, Campus Hamburg",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.iubh-dualesstudium.de/standorte/hamburg",
+      "suggested_url": "https://www.iu-dualesstudium.de/standorte/hamburg",
+      "source_url": "https://www.iubh-dualesstudium.de/standorte/hamburg",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
       "state": "DE-NW",
       "name": "Heinrich-Heine-Universität Düsseldorf",
       "status": "resolved",
@@ -450,6 +817,22 @@
       "suggested_url": null,
       "source_url": "https://www.uni-duesseldorf.de",
       "flags": [
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "Fachhochschule Bielefeld",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.fh-bielefeld.de",
+      "suggested_url": "https://www.hsbi.de",
+      "source_url": "https://www.fh-bielefeld.de",
+      "flags": [
+        "identity_unconfirmed",
         "redirected_to_other_domain",
         "possible_rename_or_merger"
       ],
@@ -472,6 +855,54 @@
     },
     {
       "state": "DE-NW",
+      "name": "Fachhochschule der Diakonie",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.fhdd.de",
+      "suggested_url": "https://www.hochschule-diakonie.de",
+      "source_url": "https://www.fhdd.de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "Europäische Fachhochschule Rhein/Erft",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.eufh.de",
+      "suggested_url": "https://www.cbs.de",
+      "source_url": "https://www.eufh.de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "SRH Hochschule in Nordrhein-Westfalen",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.fh-hamm.de",
+      "suggested_url": "https://www.srh-university.de/de",
+      "source_url": "https://www.fh-hamm.de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
       "name": "Rheinische Fachhochschule Köln",
       "status": "resolved",
       "method": "verified_redirect",
@@ -480,6 +911,54 @@
       "suggested_url": null,
       "source_url": "https://www.rfh-koeln.de",
       "flags": [
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "Philosophisch-Theologische Hochschule Münster",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.pth-muenster.de",
+      "suggested_url": "https://www.cts-hochschule.de",
+      "source_url": "https://www.pth-muenster.de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "Fachhochschule für Rechtspflege in NRW",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.fhr.nrw.de",
+      "suggested_url": "https://www.hsjustiz.nrw.de",
+      "source_url": "https://www.fhr.nrw.de",
+      "flags": [
+        "identity_unconfirmed",
+        "redirected_to_other_domain",
+        "possible_rename_or_merger"
+      ],
+      "reachable_candidates": []
+    },
+    {
+      "state": "DE-NW",
+      "name": "Fachhochschule für Finanzen",
+      "status": "review",
+      "method": "source_direct",
+      "confidence": 0.5,
+      "official_url": "https://www.fhf-nordkirchen.de",
+      "suggested_url": "https://www.finanzverwaltung.nrw.de/dienststellen/hochschule-fuer-finanzen-nrw",
+      "source_url": "https://www.fhf-nordkirchen.de",
+      "flags": [
+        "identity_unconfirmed",
         "redirected_to_other_domain",
         "possible_rename_or_merger"
       ],

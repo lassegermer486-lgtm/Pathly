@@ -9,6 +9,10 @@ schema in supabase/migrations. Running it again is safe:
   - universities missing from this build stay, with is_listed = false
     (rows are never deleted),
   - former IDs of merged institutions go to university_aliases,
+  - v1.3: German presence (universities.presence_status,
+    locations.location_status); needs migration 20261002120000,
+  - v1.3: home country, market_access, online_de_* and the discovery
+    provenance of international candidates; needs migration 20261003120000,
   - every run is logged in import_runs.
 
 Usage (from scrapers/hochschulen/):
@@ -25,6 +29,8 @@ import json
 import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
+
+from registry import reliability
 
 
 # The database knows no "review" lifecycle; the reason is in university_flags.
@@ -45,13 +51,15 @@ insert into _pathly_import values ({tag}{payload}{tag}::jsonb);
 -- 1. Universities, matched by registry_id
 insert into public.universities as u (
   registry_id, name, name_variants, country, institution_type, ownership,
-  recognition_status, lifecycle_status, official_url, listed_by, is_listed, last_seen_at
+  recognition_status, lifecycle_status, official_url, listed_by, is_listed, last_seen_at,
+  german_physical_presence, presence_status, presence_basis,
+  market_access, online_de_status, online_de_basis, online_de_evidence, external_ids, discovery
 )
 select
   r.registry_id,
   r.name,
   array(select jsonb_array_elements_text(r.name_variants)),
-  'DE',
+  coalesce(r.country, 'DE'),
   r.institution_type,
   r.ownership,
   r.recognition_status,
@@ -59,12 +67,24 @@ select
   r.official_url,
   array(select jsonb_array_elements_text(r.listed_by)),
   true,
-  now()
+  now(),
+  r.german_physical_presence,
+  coalesce(r.presence_status, 'review'),
+  r.presence_basis,
+  array(select jsonb_array_elements_text(coalesce(r.market_access, '[]'::jsonb))),
+  coalesce(r.online_de_status, 'not_assessed'),
+  r.online_de_basis,
+  coalesce(r.online_de_evidence, '{{}}'::jsonb),
+  coalesce(r.external_ids, '{{}}'::jsonb),
+  coalesce(r.discovery, '[]'::jsonb)
 from _pathly_import i
 cross join lateral jsonb_to_recordset(i.doc->'universities') as r(
   registry_id text, name text, name_variants jsonb, institution_type text,
   ownership text, recognition_status text, lifecycle_status text,
-  official_url text, listed_by jsonb
+  official_url text, listed_by jsonb,
+  german_physical_presence boolean, presence_status text, presence_basis text,
+  country text, market_access jsonb, online_de_status text, online_de_basis text,
+  online_de_evidence jsonb, external_ids jsonb, discovery jsonb
 )
 on conflict (registry_id) do update set
   name               = excluded.name,
@@ -76,11 +96,26 @@ on conflict (registry_id) do update set
   official_url       = excluded.official_url,
   listed_by          = excluded.listed_by,
   is_listed          = true,
-  last_seen_at       = excluded.last_seen_at;
+  last_seen_at       = excluded.last_seen_at,
+  german_physical_presence = excluded.german_physical_presence,
+  presence_status    = excluded.presence_status,
+  presence_basis     = excluded.presence_basis,
+  country            = excluded.country,
+  market_access      = excluded.market_access,
+  online_de_status   = excluded.online_de_status,
+  online_de_basis    = excluded.online_de_basis,
+  online_de_evidence = excluded.online_de_evidence,
+  external_ids       = excluded.external_ids,
+  discovery          = excluded.discovery;
 
--- 2. Universities no source lists any more: keep, but mark
+-- 2. Universities no source lists any more: keep, but mark.
+--    Without a current listing their German presence is unknown again.
 update public.universities
-set is_listed = false
+set is_listed = false,
+    german_physical_presence = null,
+    presence_status = 'review',
+    presence_basis = 'no_longer_listed',
+    market_access = '{{}}'
 where is_listed
   and registry_id not in (
     select r->>'registry_id'
@@ -109,22 +144,30 @@ delete from public.sources          where university_id in (select id from _path
 delete from public.university_flags where university_id in (select id from _pathly_ids);
 
 insert into public.locations (
-  university_id, name, street, postal_code, city, state, location_type, source_state, source_url
+  university_id, name, street, postal_code, city, state, location_type, source_state, source_url,
+  country, location_status, location_status_basis, location_status_evidence_url
 )
-select u.id, l.name, l.street, l.postal_code, l.city, l.state, l.location_type, l.source_state, l.source_url
+select u.id, l.name, l.street, l.postal_code, l.city, l.state, l.location_type, l.source_state, l.source_url,
+  coalesce(l.country, 'DE'), coalesce(l.location_status, 'uncertain'),
+  l.location_status_basis, l.location_status_evidence_url
 from _pathly_import i
 cross join lateral jsonb_to_recordset(i.doc->'locations') as l(
   registry_id text, name text, street text, postal_code text, city text,
-  state text, location_type text, source_state text, source_url text
+  state text, location_type text, source_state text, source_url text,
+  country text, location_status text, location_status_basis text,
+  location_status_evidence_url text
 )
 join public.universities u on u.registry_id = l.registry_id;
 
-insert into public.sources (university_id, state, authority, url, category, source_type, retrieved_at)
-select u.id, s.state, s.authority, s.url, s.category, s.source_type, s.retrieved_at
+insert into public.sources (
+  university_id, state, authority, url, category, source_type, retrieved_at, dataset_version, record_id
+)
+select u.id, s.state, s.authority, s.url, s.category, s.source_type, s.retrieved_at,
+  s.dataset_version, s.record_id
 from _pathly_import i
 cross join lateral jsonb_to_recordset(i.doc->'sources') as s(
   registry_id text, state text, authority text, url text, category text,
-  source_type text, retrieved_at timestamptz
+  source_type text, retrieved_at timestamptz, dataset_version text, record_id text
 )
 join public.universities u on u.registry_id = s.registry_id;
 
@@ -138,7 +181,7 @@ join public.universities u on u.registry_id = f.registry_id;
 
 -- 5. Log
 insert into public.import_runs (finished_at, status, source_file, git_commit, counts, message)
-select now(), 'succeeded', {source_literal}, {commit_literal}, i.doc->'counts', 'ProjectPathly registry v1.2'
+select now(), 'succeeded', {source_literal}, {commit_literal}, i.doc->'counts', 'ProjectPathly registry v1.3'
 from _pathly_import i;
 
 commit;
@@ -188,6 +231,17 @@ def build_payload(master_dir: Path) -> dict:
             "lifecycle_status": LIFECYCLE.get(u["lifecycle_status"], "unknown"),
             "official_url": u["official_url"],
             "listed_by": u["listed_by"],
+            # v1.3; absent in master files built before it
+            "german_physical_presence": u.get("german_physical_presence"),
+            "presence_status": u.get("presence_status", "review"),
+            "presence_basis": u.get("presence_basis"),
+            "country": u.get("country", "DE"),
+            "market_access": u.get("market_access", []),
+            "online_de_status": u.get("online_de_status", "not_assessed"),
+            "online_de_basis": u.get("online_de_basis"),
+            "online_de_evidence": u.get("online_de_evidence", {}),
+            "external_ids": u.get("external_ids", {}),
+            "discovery": u.get("discovery", []),
         })
         id_aliases += [
             {"alias_registry_id": former, "registry_id": u["registry_id"]}
@@ -208,6 +262,8 @@ def build_payload(master_dir: Path) -> dict:
                 "category": s["source_category"],
                 "source_type": s["source_type"],
                 "retrieved_at": s["retrieved_at"],
+                "dataset_version": s.get("dataset_version"),
+                "record_id": s.get("record_id"),
             }
             for s in sources
         ],
@@ -219,6 +275,12 @@ def build_payload(master_dir: Path) -> dict:
             "sources": len(sources),
             "flags": len(flags),
             "id_aliases": len(id_aliases),
+            "presence_confirmed": sum(1 for r in rows if r["presence_status"] == "confirmed"),
+            "presence_not_present": sum(1 for r in rows if r["presence_status"] == "not_present"),
+            "presence_review": sum(1 for r in rows if r["presence_status"] == "review"),
+            "international": sum(1 for r in rows if r["country"] != "DE"),
+            "online_de_confirmed": sum(1 for r in rows if r["online_de_status"] == "confirmed"),
+            "online_de_review": sum(1 for r in rows if r["online_de_status"] == "review"),
         },
     }
 
@@ -248,7 +310,13 @@ def main():
     parser = argparse.ArgumentParser(description="ProjectPathly — Supabase import script")
     parser.add_argument("--master-dir", default="data/master")
     parser.add_argument("--out", default="data/master/supabase_import.sql")
+    parser.add_argument("--allow-degraded", action="store_true",
+                        help="Write even if the discovery build is not production safe")
     args = parser.parse_args()
+
+    # Institutions missing from an incomplete build would be set is_listed = false.
+    if not reliability.production_gate("supabase import", args.allow_degraded):
+        raise SystemExit(2)
 
     master_dir = Path(args.master_dir)
     payload = build_payload(master_dir)
@@ -256,15 +324,26 @@ def main():
 
     Path(args.out).write_text(sql, encoding="utf-8")
 
+    # what was exported, for reports and the UI
+    report_path = Path("data/reports/supabase_export.json")
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    report_path.write_text(json.dumps({
+        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "output": args.out,
+        "master_dir": str(master_dir),
+        "git_commit": git_commit(),
+        "counts": payload["counts"],
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
+
     counts = payload["counts"]
     print()
     print("=" * 62)
     print("PROJECTPATHLY — SUPABASE IMPORT SCRIPT")
     print("=" * 62)
     for key, value in counts.items():
-        print(f"{key:20s}{value}")
-    print(f"OUTPUT:             {args.out}")
-    print('RUN:                psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f ' + args.out)
+        print(f"{key:22s}{value}")
+    print(f"OUTPUT:               {args.out}")
+    print('RUN:                  psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f ' + args.out)
     print("-" * 62)
 
 

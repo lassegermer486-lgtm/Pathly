@@ -544,16 +544,36 @@ def review_markdown(report: dict) -> str:
 # CLI
 # ----------------------------------------------------------------------
 
+DEFAULT_INPUTS = (
+    "data/enriched/universities_de_urls.json",
+    "data/enriched/universities_intl_urls.json",
+)
+OPTIONAL_INPUTS = {"data/enriched/universities_intl_urls.json"}
+
+
+def load_inputs(paths: list[str]) -> list[dict]:
+    """Records of all inputs, in order; one institution may appear in several."""
+    records = []
+    for path in paths:
+        if path in OPTIONAL_INPUTS and not Path(path).exists():
+            print(f"[DEDUP] {path} not found, skipped")
+            continue
+        records += json.loads(Path(path).read_text(encoding="utf-8"))
+    return records
+
+
 def main():
     parser = argparse.ArgumentParser(description="ProjectPathly — nationwide deduplication")
-    parser.add_argument("--in", dest="input", default="data/enriched/universities_de_urls.json")
+    # German records first, then the international candidates (v1.3); a
+    # missing optional input is skipped. The German file must exist.
+    parser.add_argument("--in", dest="input", nargs="+", default=list(DEFAULT_INPUTS))
     parser.add_argument("--overrides", default="data/master/overrides.yaml")
     parser.add_argument("--out", default="data/master/universities_dedup.json")
     parser.add_argument("--report", default="data/reports/dedup_report.json")
     parser.add_argument("--review", default="data/reports/review_report.md")
     args = parser.parse_args()
 
-    records = json.loads(Path(args.input).read_text(encoding="utf-8"))
+    records = load_inputs(args.input)
     overrides = load_overrides(Path(args.overrides))
 
     institutions, report = deduplicate(records, overrides)

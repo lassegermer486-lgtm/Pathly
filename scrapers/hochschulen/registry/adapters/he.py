@@ -3,6 +3,8 @@ from pathlib import Path
 from urllib.parse import urljoin
 
 import requests
+
+from registry import http_client
 from bs4 import BeautifulSoup
 
 from .base import RegistryAdapter
@@ -48,7 +50,7 @@ class HessenAdapter(RegistryAdapter):
     def fetch(self):
         url = self.config["url"]
 
-        response = requests.get(
+        response = http_client.get(
             url,
             headers={
                 "User-Agent": self.config.get(

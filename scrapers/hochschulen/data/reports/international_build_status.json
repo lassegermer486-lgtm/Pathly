@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-10-02T11:31:57+00:00",
+  "build_status": "complete",
+  "production_safe": true,
+  "reasons": [],
+  "states_expected": 2,
+  "states_successful": 2,
+  "failed_states": [],
+  "skipped_states": [],
+  "missing_states": [],
+  "count_drift_states": [],
+  "normalized_output": "data/normalized/universities_intl.json",
+  "normalized_sha256": "c22d552d96da7ee8c44adc0a3705db78fd77ac14c0e39a4f40b903f969a83b15",
+  "states": [
+    {
+      "state": "INTL-ETER",
+      "status": "OK",
+      "source_status": "success",
+      "previous_count": null,
+      "current_count": 25,
+      "absolute_delta": null,
+      "relative_delta": null,
+      "count_status": "no_baseline",
+      "production_safe": true,
+      "request_attempts": 1,
+      "request_retries": 0
+    },
+    {
+      "state": "INTL-IPEDS",
+      "status": "OK",
+      "source_status": "success",
+      "previous_count": null,
+      "current_count": 45,
+      "absolute_delta": null,
+      "relative_delta": null,
+      "count_status": "no_baseline",
+      "production_safe": true,
+      "request_attempts": 4,
+      "request_retries": 0
+    }
+  ]
+}

@@ -4,10 +4,11 @@ Reproducible register of German higher-education institutions, built from
 official state sources: every institution once, with its official website and
 a permanent ProjectPathly ID (`PTH-DE-XXXXXXXX`).
 
-## Pipeline (v1.2)
+## Pipeline (v1.2, extended in v1.3)
 
 ```text
 16 state sources   registry.run                         data/normalized/
+intl. candidates   registry.international.run           data/normalized/universities_intl.json (v1.3)
 URL check/resolve  registry.enrichment.website_resolver data/enriched/
 agent (last resort)registry.enrichment.agent_resolver   data/enriched/
 deduplication      registry.master.dedup                data/master/universities_dedup.json
@@ -23,6 +24,34 @@ python -m registry.pipeline --agent-cache-only  # no API calls
 
 Discovery data (`data/raw`, `data/normalized`) is never overwritten by later
 steps. Reports for every step are in `data/reports/`.
+
+## Reliability (v1.3)
+
+- **Retries:** state sources are fetched through `registry/http_client.py`.
+  A request is tried at most 3 times (waits 2 s, then 5 s) on connection
+  errors, timeouts, 429 and 5xx; 4xx answers and POSTs are not retried.
+  Hamburg and Schleswig-Holstein keep their own retry loops (and the
+  Schleswig-Holstein / Saarland source caches); their requests are only counted.
+- **Source status and count drift:** `data/reports/registry_run.json` keeps
+  its fields and adds `source_status`, `previous_count`, `current_count`,
+  `absolute_delta`, `relative_delta`, `count_status`, `production_safe`,
+  `request_attempts` per state. A state with 0 institutions counts as failed.
+  Count drift = more than ±10 institutions or more than ±30 % against the last
+  accepted count (`data/master/state_counts.json`, commit this file).
+- **Build status:** `data/reports/build_status.json`: `complete` (production
+  safe), `review` (count drift to check), `degraded` (a state failed, was
+  skipped or not requested), `failed`.
+- **Safe publishing:** while the build is not production safe, the pipeline
+  stops after discovery, and `registry.master.build` / `supabase_import`
+  refuse to replace the published files. Debugging only: `--allow-degraded`.
+
+```bash
+python -m registry.reliability                        # last build status
+python -m registry.reliability --accept-drift DE-SL   # drift checked and correct
+```
+
+Count drift never deletes or restores institutions; accepting it makes the
+new count the baseline.
 
 ## Important design rule
 
@@ -118,6 +147,12 @@ python -m registry.enrichment.agent_resolver
 - Answers are cached in `data/enriched/agent_cache.json`; reruns are free.
   `--refresh` asks again. Default model `openai/gpt-4o-mini` (a few cents
   per record, mostly web search); `OPENROUTER_MODEL` or `--model` changes it.
+- **The cache is keyed by model.** The v1.3 registry was built with
+  `OPENROUTER_MODEL=anthropic/claude-opus-5.5` (set in `.env.example`). A run
+  with another model finds none of the cached answers, even with
+  `--agent-cache-only`, and loses the verified renames/mergers (on
+  2026-10-02 that meant 3 missing merges and 3 extra institutions). Keep the
+  model when you rebuild.
 - The agent's `canonical_name` and `lifecycle_status` (renamed/merged/closed)
   are kept in `website_resolution.agent` for the later naming and lifecycle steps.
 
@@ -179,6 +214,98 @@ data/reports/validation_report.json       quality report (coverage, review list)
   Doubts become flags (`missing_website`, `possibly_not_hochschule`, ...).
 - IDs are random, never derived from names, and kept in `id_registry.json`
   across runs, renames and merges (the older ID wins, the other becomes an alias).
+
+## German physical presence (v1.3)
+
+Does the institution currently have at least one active physical location in
+Germany? This is separate from "does the organisation still exist" and from
+online availability. Built by `registry.master.build` (`registry/master/presence.py`).
+
+```text
+data/master/locations.json            + country, location_status, location_status_basis,
+                                        location_status_evidence_url, source_location_status
+data/master/universities_de_master.json + german_physical_presence, presence_status, presence_basis
+data/master/presence_decisions.yaml     reviewed decisions (with evidence URL) — commit this file
+data/reports/presence_validation.json   counts, review and not-present cases with their evidence
+data/reports/presence_review.md         open cases with ready-made decision entries
+```
+
+- `location_status` per German observation (a city-level location, or the
+  state listing when a state lists the institution without a city):
+  `active` (current official state listing + verified website),
+  `uncertain` (no verified website, agent reports closure or an unverified
+  merger, only known as a predecessor, foreign website), `closed` / `moved`
+  (only from a reviewed decision with `evidence_url`).
+- `german_physical_presence`: `true` if any observation is active, `false` if
+  all are closed/moved, otherwise `null` with `presence_status = review`.
+  The automatic rules never conclude "not present".
+- Nothing is deleted: closed and moved locations stay, with their source.
+- `source_location_status` keeps what the state source said
+  (`confirmed` / `candidate` / `structural`).
+- This is a preliminary classification. `presence_basis` /
+  `location_status_basis` say where it comes from (city-level location,
+  state listing without a city, manual review). Verifying addresses and
+  campuses is left to the site scraper (Scraper 2), which can confirm or
+  correct these statuses; nothing from this registry is deleted for that.
+- Supabase: apply `supabase/migrations/20261002120000_university_presence.sql`
+  before the first v1.3 import. Institutions no source lists any more get
+  `is_listed = false` and `presence_status = review`.
+
+## International online institutions (v1.3)
+
+Institutions outside Germany whose study offer may be fully online, from
+official datasets. They join the same dedup, master registry and Supabase
+import; the German discovery output (`universities_de.json`) is untouched.
+Research and filter rationale: `docs/hochschulregister-v1.3-internationale-quellen.md`.
+
+```text
+registry.international.run   ETER (Europe) + IPEDS (USA)  -> data/normalized/universities_intl.json
+website_resolver / agent_resolver with --in/--out          -> data/enriched/universities_intl_urls.json
+registry.master.dedup / build read both enriched files     -> one master registry
+```
+
+| Source | Pinned version | Discovery filter | Candidates |
+|---|---|---|---|
+| ETER (`INTL-ETER`) | Zenodo dump 26.03.2024 (2021/22), CC BY 4.0 | `Distance education institution` = 2, country ≠ DE, latest answer ≥ 2019 | 25 |
+| IPEDS (`INTL-IPEDS`) | HD2024, IC2024, EFFY2024_DIST, EF2023A_DIST | `DISTNCED` = 1 and ≥ 90 % exclusively online students, active, Title IV, bachelor or above | 45 |
+
+- **`state` = `INTL-ETER` / `INTL-IPEDS` is a source namespace, not a German
+  state.** It keeps `record_key`, `overrides.yaml` and `listed_by` working
+  unchanged. German observations are only `DE-XX`.
+- Every file is pinned by URL and SHA-256 in `registry/international_sources.yaml`
+  and cached in `data/source_cache/INTL-*` (not versioned, 92 MB). A changed
+  publisher file fails the source; adopt new versions by changing the pin.
+- Reliability as for the states: `data/reports/international_build_status.json`,
+  counts in `state_counts.json`, the publishing gate checks both discoveries.
+- `country` is the home country (ETER `UK` → `GB`). IDs use the existing
+  `PTH-DE-…` strategy; existing IDs do not change.
+- **Discovery is not confirmation.** Candidates start with
+  `online_de_status = review`, `market_access = []`,
+  `german_physical_presence = null` (`presence_basis = no_german_source_listing`:
+  not found in the German sources, which is no evidence of absence).
+- `online_de_status = confirmed` (and `market_access` `online_de`) only from
+  `data/master/online_de_decisions.yaml` with two official evidence URLs:
+  a complete degree fully online, and enrolment possible from Germany.
+  Open cases with ready-made entries: `data/reports/online_de_review.md`.
+- German institutions: `online_de_status = not_assessed` (their online
+  programmes belong to the programme scraper), `market_access = [physical_de]`
+  when their German presence is confirmed.
+- USA: Title IV is a filter, not the recognition shown to users; the
+  accreditation is looked up in DAPIP by `external_ids.opeid`
+  (`recognition_evidence_url` in the decision).
+- The agent resolver is reused unchanged; its prompt speaks of German
+  institutions, so its answers for international candidates are hints only
+  (they pass the same website checks).
+
+```bash
+python -m registry.international.run                 # both sources
+python -m registry.international.run --sources INTL-ETER
+python -m registry.reliability --accept-drift INTL-ETER
+```
+
+Supabase: apply `supabase/migrations/20261003120000_university_online_access.sql`
+after the presence migration and before the first import with international
+institutions.
 
 ## Supabase import
 
