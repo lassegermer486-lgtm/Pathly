@@ -36,7 +36,7 @@ Hochschulkompass layer should be a validation report (`MATCH`, `MISSING`,
 macOS / Linux:
 
 ```bash
-cd projectpathly_registry_scraper
+cd scrapers/hochschulen
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 Windows PowerShell:
 
 ```powershell
-cd projectpathly_registry_scraper
+cd scrapers/hochschulen
 py -m venv .venv
 .venv\Scripts\Activate.ps1
 pip install -r requirements.txt

@@ -14,7 +14,7 @@ from .bridge import ScraperBridge
 from .runner import Conflict, NotFound, Runner
 
 STATIC_DIR = Path(__file__).resolve().parent / "static"
-DEFAULT_SCRAPER_DIR = Path(__file__).resolve().parents[2] / "projectpathly_registry_scraper"
+DEFAULT_SCRAPER_DIR = Path(__file__).resolve().parents[3] / "scrapers" / "hochschulen"
 
 
 class RunRequest(BaseModel):

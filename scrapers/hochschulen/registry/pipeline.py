@@ -8,7 +8,7 @@ The whole registry build, in order (spec §39):
     master      names, lifecycle, IDs        registry.master.build
     supabase    import script                registry.master.supabase_import
 
-Usage (from projectpathly_registry_scraper/):
+Usage (from scrapers/hochschulen/):
 
     python -m registry.pipeline
     python -m registry.pipeline --from dedup        # rebuild from enriched data

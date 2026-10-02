@@ -5,7 +5,7 @@
 set -euo pipefail
 
 UI_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-SCRAPER_DIR="${PATHLY_SCRAPER_DIR:-$UI_DIR/../projectpathly_registry_scraper}"
+SCRAPER_DIR="${PATHLY_SCRAPER_DIR:-$UI_DIR/../../scrapers/hochschulen}"
 VENV="$UI_DIR/.venv"
 
 if [ ! -f "$SCRAPER_DIR/registry/run.py" ]; then

@@ -13,7 +13,7 @@ validation and lifecycle, stable registry IDs, master files.
     data/master/sources.json
     data/reports/validation_report.json
 
-Usage (from projectpathly_registry_scraper/):
+Usage (from scrapers/hochschulen/):
 
     python -m registry.master.build
     python -m registry.master.build --offline   # no website lookups for names

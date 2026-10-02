@@ -1,6 +1,6 @@
 # Scraper-UI
 
-Weboberfläche für den Hochschul-Scraper (`../projectpathly_registry_scraper`): Abruf starten, Fortschritt und Kennzahlen sehen, Bundesländer durchsehen, offene Duplikate entscheiden, Ergebnis als JSON speichern.
+Weboberfläche für den Hochschul-Scraper (`../../scrapers/hochschulen`): Abruf starten, Fortschritt und Kennzahlen sehen, Bundesländer durchsehen, offene Duplikate entscheiden, Ergebnis als JSON speichern.
 
 Die UI ist ein eigener Ordner und ändert **keine Datei des Scrapers**. Sie ruft dessen Funktionen auf und läuft nur lokal auf dem eigenen Rechner.
 
@@ -9,17 +9,17 @@ Die UI ist ein eigener Ordner und ändert **keine Datei des Scrapers**. Sie ruft
 Voraussetzung: Python 3.10 oder neuer. Im Repo-Wurzelordner:
 
 ```bash
-./projectpathly_scraper_ui/start.sh
+./apps/scraper-ui/start.sh
 ```
 
-Beim ersten Aufruf richtet das Skript eine eigene Python-Umgebung ein (`projectpathly_scraper_ui/.venv`, etwa eine Minute). Danach im Browser öffnen: <http://localhost:8000>
+Beim ersten Aufruf richtet das Skript eine eigene Python-Umgebung ein (`apps/scraper-ui/.venv`, etwa eine Minute). Danach im Browser öffnen: <http://localhost:8000>
 
 Beenden mit `Strg+C` im Terminal.
 
 Alternativ mit Docker (Docker Desktop muss laufen):
 
 ```bash
-docker compose -f projectpathly_scraper_ui/docker-compose.yml up --build
+docker compose -f apps/scraper-ui/docker-compose.yml up --build
 ```
 
 ## Bedienung
@@ -46,7 +46,7 @@ Das SQL dafür erzeugt der Scraper selbst (`registry.master.supabase_import`). D
 Einmalige Einrichtung:
 
 1. Die Migrationen müssen im Supabase-Projekt eingespielt sein.
-2. Vorlage kopieren: `cp projectpathly_scraper_ui/.env.example projectpathly_scraper_ui/.env`
+2. Vorlage kopieren: `cp apps/scraper-ui/.env.example apps/scraper-ui/.env`
 3. Im Supabase-Dashboard auf „Connect“ klicken, die Adresse unter „Session pooler“ kopieren, in `.env` hinter `SUPABASE_DB_URL=` eintragen und `[YOUR-PASSWORD]` durch das Datenbank-Passwort ersetzen.
 
 Die `.env` enthält ein Passwort mit Schreibrecht. Sie ist per `.gitignore` ausgeschlossen und darf nie eingecheckt werden. Ein Neustart der UI ist nach dem Anlegen nicht nötig.
@@ -63,7 +63,7 @@ Regeln des Imports:
 Ohne Oberfläche (zum Beispiel später in einer Pipeline) lädt derselbe Import den zuletzt gespeicherten Stand:
 
 ```bash
-cd projectpathly_scraper_ui && .venv/bin/python -m scraper_ui.registry_import
+cd apps/scraper-ui && .venv/bin/python -m scraper_ui.registry_import
 ```
 
 ## Was geschrieben wird
@@ -106,11 +106,11 @@ Unbekannte Werte (neuer Hochschultyp, neuer Hinweis) zeigt die Oberfläche unver
 ## Tests
 
 ```bash
-projectpathly_scraper_ui/.venv/bin/pip install -r projectpathly_scraper_ui/requirements-dev.txt
+apps/scraper-ui/.venv/bin/pip install -r apps/scraper-ui/requirements-dev.txt
 ```
 
 ```bash
-cd projectpathly_scraper_ui && .venv/bin/python -m pytest -q tests
+cd apps/scraper-ui && .venv/bin/python -m pytest -q tests
 ```
 
 Die Tests brauchen kein Netz.
@@ -119,7 +119,7 @@ Die Tests brauchen kein Netz.
 
 | Umgebungsvariable | Vorgabe | Zweck |
 |---|---|---|
-| `PATHLY_SCRAPER_DIR` | `../projectpathly_registry_scraper` | Ordner des Scrapers |
+| `PATHLY_SCRAPER_DIR` | `../../scrapers/hochschulen` | Ordner des Scrapers |
 | `PATHLY_UI_PORT` | `8000` | Port |
 | `SUPABASE_DB_URL` | leer | Verbindungsadresse der Datenbank; üblicherweise in `.env` statt in der Umgebung |
 | `PATHLY_UI_HOST` | `127.0.0.1` | nur vom eigenen Rechner erreichbar; es gibt keinen Login, deshalb nicht öffentlich freigeben |
@@ -127,7 +127,7 @@ Die Tests brauchen kein Netz.
 ## Aufbau
 
 ```
-projectpathly_scraper_ui/
+scraper-ui/
 ├── start.sh                 Start ohne Docker
 ├── Dockerfile, docker-compose.yml
 ├── scraper_ui/

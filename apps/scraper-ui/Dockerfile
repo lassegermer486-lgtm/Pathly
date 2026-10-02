@@ -11,11 +11,11 @@ ENV PYTHONUNBUFFERED=1 \
 WORKDIR /app/ui
 
 # Packages of the scraper and of the UI.
-COPY projectpathly_registry_scraper/requirements.txt /tmp/scraper-requirements.txt
-COPY projectpathly_scraper_ui/requirements.txt /tmp/ui-requirements.txt
+COPY scrapers/hochschulen/requirements.txt /tmp/scraper-requirements.txt
+COPY apps/scraper-ui/requirements.txt /tmp/ui-requirements.txt
 RUN pip install -r /tmp/scraper-requirements.txt -r /tmp/ui-requirements.txt
 
-COPY projectpathly_scraper_ui/scraper_ui ./scraper_ui
+COPY apps/scraper-ui/scraper_ui ./scraper_ui
 
 # The scraper itself is mounted from the host at /app/scraper, so the UI always
 # runs against the scraper version that is checked out.
