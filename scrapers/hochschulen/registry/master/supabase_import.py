@@ -11,7 +11,7 @@ schema in supabase/migrations. Running it again is safe:
   - former IDs of merged institutions go to university_aliases,
   - every run is logged in import_runs.
 
-Usage (from projectpathly_registry_scraper/):
+Usage (from scrapers/hochschulen/):
 
     python -m registry.master.supabase_import
     psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f data/master/supabase_import.sql

@@ -14,7 +14,7 @@ only when the website itself names the institution, and only when no
 second, different website does the same. Everything weaker goes to
 review with official_url left empty.
 
-Usage (from projectpathly_registry_scraper/):
+Usage (from scrapers/hochschulen/):
 
     python -m registry.enrichment.website_resolver
     python -m registry.enrichment.website_resolver --only-missing

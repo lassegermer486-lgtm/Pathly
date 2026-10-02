@@ -28,7 +28,7 @@ never count as evidence, so "Evangelische Hochschule Berlin" and
 A canonical name confirmed by the agent resolver counts as an alias
 (e.g. BTK -> "University of Europe for Applied Sciences").
 
-Usage (from projectpathly_registry_scraper/):
+Usage (from scrapers/hochschulen/):
 
     python -m registry.master.dedup
 """

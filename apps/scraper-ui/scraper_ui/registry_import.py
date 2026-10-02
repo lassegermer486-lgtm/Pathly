@@ -191,7 +191,7 @@ def main(argv: list[str] | None = None) -> int:
 
     argv = sys.argv[1:] if argv is None else argv
     scraper = Path(argv[0] if argv else os.environ.get("PATHLY_SCRAPER_DIR")
-                   or UI_DIR.parent / "projectpathly_registry_scraper")
+                   or UI_DIR.parents[1] / "scrapers" / "hochschulen")
 
     dsn = load_dsn()
     if not dsn:

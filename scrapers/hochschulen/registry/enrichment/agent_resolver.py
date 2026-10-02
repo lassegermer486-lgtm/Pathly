@@ -14,7 +14,7 @@ data/enriched/agent_cache.json so reruns cost nothing and stay stable.
 The API key is read from the environment (OPENROUTER_API_KEY), or from a
 local .env file that is never committed.
 
-Usage (from projectpathly_registry_scraper/):
+Usage (from scrapers/hochschulen/):
 
     python -m registry.enrichment.agent_resolver --dry-run
     python -m registry.enrichment.agent_resolver --limit 1

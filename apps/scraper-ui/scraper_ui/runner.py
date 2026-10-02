@@ -433,7 +433,7 @@ class Runner:
                                "Sonst würden die fehlenden Hochschulen dort als nicht mehr gelistet markiert.")
             dsn = registry_import.load_dsn()
             if not dsn:
-                raise Conflict("Die Datenbank ist noch nicht eingerichtet: In projectpathly_scraper_ui/.env "
+                raise Conflict("Die Datenbank ist noch nicht eingerichtet: In apps/scraper-ui/.env "
                                "fehlt SUPABASE_DB_URL (Vorlage: .env.example).")
             self.db_pushing = True
             self._log(f"[DB] Import startet → {registry_import.describe_target(dsn)}")

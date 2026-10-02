@@ -12,7 +12,7 @@ import pytest
 
 SCRAPER_DIR = Path(os.environ.get(
     "PATHLY_SCRAPER_DIR",
-    Path(__file__).resolve().parents[2] / "projectpathly_registry_scraper"))
+    Path(__file__).resolve().parents[3] / "scrapers" / "hochschulen"))
 
 pytestmark = pytest.mark.skipif(
     not (SCRAPER_DIR / "registry" / "run.py").is_file(), reason="scraper not checked out")

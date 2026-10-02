@@ -162,7 +162,7 @@ Langfristig wird aus der Übersichtsplattform ein **Informations- und Unterstüt
 
 ### A – Hochschul-Register & Datengrundlage
 
-Fundament der Plattform: ein reproduzierbares Verzeichnis aller deutschen Hochschulen, aufgebaut aus offiziellen Quellen der Bundesländer. Umgesetzt im Modul [`projectpathly_registry_scraper`](../projectpathly_registry_scraper/README.md).
+Fundament der Plattform: ein reproduzierbares Verzeichnis aller deutschen Hochschulen, aufgebaut aus offiziellen Quellen der Bundesländer. Umgesetzt im Modul [`scrapers/hochschulen`](../scrapers/hochschulen/README.md).
 
 #### A1 – Hochschul-Scraper (Grunddaten)
 
