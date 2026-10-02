@@ -1,30 +1,31 @@
 {
-  "generated_at": "2026-10-02T08:31:05.597642+00:00",
-  "source_observations": 458,
-  "master_universities": 435,
-  "official_url_coverage": 0.9931,
+  "generated_at": "2026-10-02T11:46:09.910272+00:00",
+  "source_observations": 528,
+  "master_universities": 505,
+  "official_url_coverage": 0.9861,
   "canonical_name_coverage": 1.0,
-  "canonical_name_confirmed": 0.8092,
+  "canonical_name_confirmed": 0.7703,
   "stable_id_coverage": 1.0,
   "lifecycle": {
-    "active": 432,
-    "review": 3
+    "active": 498,
+    "review": 7
   },
   "merged_source_records": 23,
   "renamed": 7,
   "merged_predecessors": 3,
-  "unresolved_websites": 3,
+  "unresolved_websites": 7,
   "dedup_review_cases": 0,
   "core_field_violations": [],
   "flags": {
-    "website_identity_unconfirmed": 16,
-    "name_unconfirmed": 83,
-    "missing_website": 3,
+    "name_unconfirmed": 116,
+    "website_identity_unconfirmed": 32,
+    "website_unverifiable": 10,
+    "missing_website": 7,
+    "lifecycle_review": 1,
     "possibly_not_hochschule": 2,
     "merged_predecessor": 3,
     "renamed": 7,
-    "website_unverifiable": 7,
-    "possible_rename_or_merger": 9,
+    "possible_rename_or_merger": 10,
     "tls_certificate_unverified": 6,
     "possibly_part_of_other_institution": 1,
     "possibly_foreign_institution": 1
@@ -34,6 +35,30 @@
       "registry_id": "PTH-DE-5881F06A",
       "name": "AKAD – Hochschule Stuttgart",
       "official_url": "https://www.akad.de",
+      "flags": [
+        {
+          "code": "website_identity_unconfirmed",
+          "severity": "medium",
+          "detail": "website does not name the institution"
+        }
+      ]
+    },
+    {
+      "registry_id": "PTH-DE-4A193C4B",
+      "name": "Amridge University",
+      "official_url": null,
+      "flags": [
+        {
+          "code": "missing_website",
+          "severity": "high",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "registry_id": "PTH-DE-8B81DF5E",
+      "name": "Arizona State University Digital Immersion",
+      "official_url": "https://www.asu.edu",
       "flags": [
         {
           "code": "website_identity_unconfirmed",
@@ -65,9 +90,26 @@
           "detail": null
         },
         {
+          "code": "lifecycle_review",
+          "severity": "medium",
+          "detail": "agent reports 'closed' (not verifiable): Berufsakademie für Gesundheits- und Sozialwesen Saarland gGmbH (BAGSS)"
+        },
+        {
           "code": "possibly_not_hochschule",
           "severity": "medium",
           "detail": "Berufsakademie"
+        }
+      ]
+    },
+    {
+      "registry_id": "PTH-DE-A62F43BF",
+      "name": "Cyprus University of Technology",
+      "official_url": "https://www.cut.ac.cy",
+      "flags": [
+        {
+          "code": "website_identity_unconfirmed",
+          "severity": "medium",
+          "detail": "website does not name the institution"
         }
       ]
     },
@@ -80,6 +122,18 @@
           "code": "website_identity_unconfirmed",
           "severity": "medium",
           "detail": "website does not name the institution"
+        }
+      ]
+    },
+    {
+      "registry_id": "PTH-DE-D01FBAAA",
+      "name": "Ferdinand Porsche Fern FH-Studiengänge",
+      "official_url": null,
+      "flags": [
+        {
+          "code": "missing_website",
+          "severity": "high",
+          "detail": null
         }
       ]
     },
@@ -116,6 +170,18 @@
           "code": "possible_rename_or_merger",
           "severity": "medium",
           "detail": "source URL forwards to a differently named site"
+        }
+      ]
+    },
+    {
+      "registry_id": "PTH-DE-1B5611C1",
+      "name": "Hellenic Open University",
+      "official_url": "https://www.eap.gr",
+      "flags": [
+        {
+          "code": "website_identity_unconfirmed",
+          "severity": "medium",
+          "detail": "website does not name the institution"
         }
       ]
     },
@@ -216,6 +282,18 @@
       ]
     },
     {
+      "registry_id": "PTH-DE-328B5C20",
+      "name": "International University Isabel I de Castilla",
+      "official_url": "https://www.ui1.es",
+      "flags": [
+        {
+          "code": "website_identity_unconfirmed",
+          "severity": "medium",
+          "detail": "website does not name the institution"
+        }
+      ]
+    },
+    {
       "registry_id": "PTH-DE-7A952626",
       "name": "ISBA Internationale Studien- und Berufsakademie",
       "official_url": "https://www.isba.eu",
@@ -224,6 +302,18 @@
           "code": "possibly_not_hochschule",
           "severity": "medium",
           "detail": "Berufsakademie"
+        }
+      ]
+    },
+    {
+      "registry_id": "PTH-DE-F1EE5175",
+      "name": "Los Angeles Pacific University",
+      "official_url": null,
+      "flags": [
+        {
+          "code": "missing_website",
+          "severity": "high",
+          "detail": "suggested: https://www.apuglobal.edu"
         }
       ]
     },
@@ -276,6 +366,18 @@
       ]
     },
     {
+      "registry_id": "PTH-DE-9213851D",
+      "name": "National University of Distance Education",
+      "official_url": "https://www.uned.es",
+      "flags": [
+        {
+          "code": "website_identity_unconfirmed",
+          "severity": "medium",
+          "detail": "website does not name the institution"
+        }
+      ]
+    },
+    {
       "registry_id": "PTH-DE-8792A52A",
       "name": "Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg",
       "official_url": null,
@@ -284,6 +386,78 @@
           "code": "missing_website",
           "severity": "high",
           "detail": "suggested: https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa"
+        }
+      ]
+    },
+    {
+      "registry_id": "PTH-DE-7026CC4D",
+      "name": "Northcentral University",
+      "official_url": "https://www.nu.edu",
+      "flags": [
+        {
+          "code": "website_identity_unconfirmed",
+          "severity": "medium",
+          "detail": "website does not name the institution"
+        }
+      ]
+    },
+    {
+      "registry_id": "PTH-DE-87B04E20",
+      "name": "Open University of Catalonia",
+      "official_url": "https://www.uoc.edu",
+      "flags": [
+        {
+          "code": "website_identity_unconfirmed",
+          "severity": "medium",
+          "detail": "website does not name the institution"
+        }
+      ]
+    },
+    {
+      "registry_id": "PTH-DE-F7679A2C",
+      "name": "Open University of Madrid",
+      "official_url": "https://www.udima.es",
+      "flags": [
+        {
+          "code": "website_identity_unconfirmed",
+          "severity": "medium",
+          "detail": "website does not name the institution"
+        }
+      ]
+    },
+    {
+      "registry_id": "PTH-DE-748949B4",
+      "name": "Open University of Portugal",
+      "official_url": null,
+      "flags": [
+        {
+          "code": "missing_website",
+          "severity": "high",
+          "detail": "suggested: https://portal.uab.pt"
+        }
+      ]
+    },
+    {
+      "registry_id": "PTH-DE-BB50FD70",
+      "name": "Open University of the Netherlands",
+      "official_url": "https://www.ou.nl",
+      "flags": [
+        {
+          "code": "website_identity_unconfirmed",
+          "severity": "medium",
+          "detail": "website does not name the institution"
+        }
+      ]
+    },
+    {
+      "registry_id": "PTH-DE-57D7E28E",
+      "name": "Pegaso International",
+      "official_url": "https://pegasointernational.eu",
+      "flags": [
+        {
+          "code": "website_identity_unconfirmed",
+          "severity": "medium",
+          "detail": "website does not name the institution"
         }
       ]
     },
@@ -312,9 +486,45 @@
       ]
     },
     {
+      "registry_id": "PTH-DE-7345C6AD",
+      "name": "Sessions College for Professional Design",
+      "official_url": "https://www.sessions.edu",
+      "flags": [
+        {
+          "code": "website_identity_unconfirmed",
+          "severity": "medium",
+          "detail": "website does not name the institution"
+        }
+      ]
+    },
+    {
+      "registry_id": "PTH-DE-A03A613C",
+      "name": "South University-Savannah Online",
+      "official_url": "https://www.southuniversity.edu/online",
+      "flags": [
+        {
+          "code": "website_identity_unconfirmed",
+          "severity": "medium",
+          "detail": "website does not name the institution"
+        }
+      ]
+    },
+    {
       "registry_id": "PTH-DE-6CE50916",
       "name": "Staatliche Hochschule für Musik Freiburg",
       "official_url": "https://www.mh-freiburg.de",
+      "flags": [
+        {
+          "code": "website_identity_unconfirmed",
+          "severity": "medium",
+          "detail": "website does not name the institution"
+        }
+      ]
+    },
+    {
+      "registry_id": "PTH-DE-D6341E39",
+      "name": "Swiss Distance Education University",
+      "official_url": "https://www.fernuni.ch",
       "flags": [
         {
           "code": "website_identity_unconfirmed",
@@ -365,6 +575,54 @@
       ]
     },
     {
+      "registry_id": "PTH-DE-F32E415A",
+      "name": "University of Central Lancashire - Cyprus",
+      "official_url": "https://www.uclancyprus.ac.cy",
+      "flags": [
+        {
+          "code": "website_identity_unconfirmed",
+          "severity": "medium",
+          "detail": "website does not name the institution"
+        }
+      ]
+    },
+    {
+      "registry_id": "PTH-DE-A5F80185",
+      "name": "University of Wisconsin-Milwaukee Flex",
+      "official_url": "https://flex.wisconsin.edu",
+      "flags": [
+        {
+          "code": "website_identity_unconfirmed",
+          "severity": "medium",
+          "detail": "website does not name the institution"
+        }
+      ]
+    },
+    {
+      "registry_id": "PTH-DE-1B9D7DE9",
+      "name": "University of Wisconsin-Parkside Flex",
+      "official_url": "https://flex.wisconsin.edu",
+      "flags": [
+        {
+          "code": "website_identity_unconfirmed",
+          "severity": "medium",
+          "detail": "website does not name the institution"
+        }
+      ]
+    },
+    {
+      "registry_id": "PTH-DE-8E80BA5F",
+      "name": "Valencian International University",
+      "official_url": "https://www.universidadviu.com",
+      "flags": [
+        {
+          "code": "possible_rename_or_merger",
+          "severity": "medium",
+          "detail": "source URL forwards to a differently named site"
+        }
+      ]
+    },
+    {
       "registry_id": "PTH-DE-50FCCD2A",
       "name": "Westfälische Wilhelms-Universität Münster",
       "official_url": "https://www.uni-muenster.de",
@@ -388,5 +646,63 @@
         }
       ]
     }
-  ]
+  ],
+  "discovery_build": {
+    "generated_at": "2026-10-02T11:31:41+00:00",
+    "build_status": "complete",
+    "production_safe": true,
+    "reasons": [],
+    "failed_states": [],
+    "count_drift_states": []
+  },
+  "german_presence": {
+    "institutions": 505,
+    "confirmed": 431,
+    "not_present": 0,
+    "review": 4,
+    "no_german_source_listing": 70
+  },
+  "international_discovery_build": {
+    "generated_at": "2026-10-02T11:31:57+00:00",
+    "build_status": "complete",
+    "production_safe": true,
+    "reasons": [],
+    "failed_states": [],
+    "count_drift_states": []
+  },
+  "online_de": {
+    "confirmed": 0,
+    "not_available": 0,
+    "review": 70,
+    "not_assessed": 435
+  },
+  "market_access": {
+    "physical_de": 431,
+    "online_de": 0,
+    "both": 0,
+    "none": 74
+  },
+  "countries": {
+    "US": 45,
+    "DE": 435,
+    "CY": 8,
+    "TR": 1,
+    "AT": 1,
+    "MT": 3,
+    "GR": 1,
+    "ES": 6,
+    "PT": 1,
+    "NL": 1,
+    "HR": 1,
+    "CH": 1,
+    "GB": 1
+  },
+  "stable_ids": {
+    "existing": 435,
+    "kept": 435,
+    "new": 70,
+    "merged": 0,
+    "unlisted": [],
+    "all_existing_kept": true
+  }
 }

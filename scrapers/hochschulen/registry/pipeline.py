@@ -97,6 +97,8 @@ def main():
         print(f"\n[PIPELINE] {name}: {' '.join(command[1:])}")
         subprocess.run(command, check=True)
 
+    print(f"\n[PIPELINE] complete: {', '.join(name for name, _ in selected)}")
+
 
 if __name__ == "__main__":
     main()

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-01T16:19:42.282781+00:00",
+  "generated_at": "2026-10-02T11:46:03.570031+00:00",
   "model": "anthropic/claude-opus-5.5",
-  "asked": 14,
+  "asked": 13,
   "accepted": 10,
   "by_reason": {
     "rename_confirmed_by_source_redirect": 9,
-    "agent_identity_unconfirmed": 2,
+    "agent_identity_unconfirmed": 1,
     "identity_confirmed": 1,
     "agent_no_url": 1,
     "agent_url_blocked": 1
@@ -36,7 +36,7 @@
     {
       "state": "DE-HH",
       "name": "Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg",
-      "previous_status": "unresolved",
+      "previous_status": "review",
       "agent_url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/einrichtungen/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg-noa/",
       "canonical_name": "Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg",
       "lifecycle_status": "active",
@@ -73,27 +73,6 @@
       "accepted": true,
       "reason": "rename_confirmed_by_source_redirect",
       "official_url": "https://www.ue-germany.com/de",
-      "from_cache": true,
-      "usage": null
-    },
-    {
-      "state": "DE-HH",
-      "name": "IUBH Internationale Hochschule, Campus Hamburg",
-      "previous_status": "review",
-      "agent_url": "https://www.iu.de/campus/hamburg/",
-      "canonical_name": "IU Internationale Hochschule – Campus Hamburg",
-      "lifecycle_status": "renamed",
-      "agent_confidence": 0.88,
-      "evidence": [
-        "The old IUBH dual-study domain now redirects to iu-dualesstudium.de, and that site names the location 'IU Internationale Hochschule – Campus Hamburg', Christoph-Probst-Weg 28, 20251 Hamburg (https://www.iu-dualesstudium.de/standorte/hamburg/)",
-        "The university's main website has a campus page for Hamburg with the same name and address (https://www.iu.de/campus/hamburg/)",
-        "Studis Online lists https://www.iu.de/ as the website of IU Internationale Hochschule, which has a study location in Hamburg (https://www.studis-online.de/hochschulen/iu/hamburg/)",
-        "Not confirmed by search, from background knowledge: IUBH Internationale Hochschule changed its name to IU Internationale Hochschule around 2021. The redirect from the iubh-dualesstudium.de domain to iu-dualesstudium.de supports this."
-      ],
-      "citations": [],
-      "accepted": false,
-      "reason": "agent_identity_unconfirmed",
-      "official_url": "https://www.iubh-dualesstudium.de/standorte/hamburg",
       "from_cache": true,
       "usage": null
     },
@@ -296,7 +275,7 @@
     {
       "state": "DE-TH",
       "name": "Thüringer Fachhochschule für öffentliche Verwaltung Gotha",
-      "previous_status": "unresolved",
+      "previous_status": "review",
       "agent_url": "https://bildungszentrum.thueringen.de/thueringer-fachhochschule-fuer-oeffentliche-verwaltung",
       "canonical_name": "Thüringer Fachhochschule für öffentliche Verwaltung",
       "lifecycle_status": "active",

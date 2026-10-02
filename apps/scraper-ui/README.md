@@ -37,6 +37,19 @@ Weitere Funktionen:
 - **Protokoll:** die Ausgabe des Scrapers, wie sie sonst im Terminal steht.
 - Klick auf eine Tabellenzeile zeigt Standorte, Quellen und Hinweise.
 
+## Registry-Build (v1.3)
+
+Die Seite **Registry-Build** (<http://localhost:8000/build>, Knopf oben rechts) startet die vollständige Pipeline des Scrapers: 16 Bundesländer, ETER und IPEDS, Website-Prüfung, Agent, Deduplizierung, Master-Register mit Präsenz- und Online-DE-Prüfung und den Supabase-Export.
+
+- Sie führt **genau den Befehl der Kommandozeile** aus (`python -m registry.pipeline`, der Befehl steht unter „Optionen“). Es gibt keine zweite Pipeline in der UI.
+- **Alle Zahlen stammen aus den Reports der Pipeline** (`data/reports/*.json`): `registry_run.json`, `build_status.json`, `international_build_status.json`, `url_resolution*.json`, `agent_resolution*.json`, `dedup_report.json`, `presence_validation.json`, `online_de_validation.json`, `validation_report.json`, `supabase_export.json`. Die UI berechnet keinen eigenen Status. CLI und UI können deshalb nichts Unterschiedliches über einen Build sagen.
+- **Status oben:** Build-Status, Production safe, Quellen (16 + 2), Hochschulen, Review, Drift, Fehler.
+- **Pipeline:** neun Schritte mit dem Stand ihres Reports. Ist ein Schritt älter als der vorherige, steht das dabei. Daneben der Live-Feed während eines Laufs in drei Ebenen: Schritt → Quelle oder Hochschule → Ergebnis. Die vollständige Ausgabe steht unter „Protokoll“.
+- **Quellen:** Status, vorherige und jetzige Anzahl, Drift und Requests je Quelle.
+- **Reviews:** alle offenen Fälle, nach Grund gruppiert: Drift, fehlgeschlagene Quelle, Website, Duplikate, Präsenz, Online-DE, Hinweise im Register. Bei jedem Grund steht, wo er entschieden wird.
+- Der Agent nutzt standardmäßig nur gespeicherte Antworten. Die API (kostet Guthaben) muss unter „Optionen“ ausdrücklich gewählt werden.
+- Ein Build und ein Abruf in „Bundesländer & Duplikate“ schließen sich gegenseitig aus, weil beide dieselben Dateien schreiben.
+
 ## Datenbank
 
 Nach dem Speichern erscheint der Knopf **„In Datenbank laden“**. Er schreibt das gespeicherte Register in die Supabase-Tabellen aus `supabase/migrations` (`universities`, `locations`, `sources`, `university_flags`, `university_aliases`) und protokolliert den Lauf in `import_runs`.
@@ -135,6 +148,8 @@ scraper-ui/
 │   ├── runner.py            Laufzustand, Phasen, Entscheidungen, Speichern
 │   ├── overrides_file.py    Einträge in data/master/overrides.yaml
 │   ├── registry_import.py   führt das Import-SQL des Scrapers in Supabase aus
+│   ├── pipeline_process.py  Registry-Build: startet registry.pipeline, Live-Feed
+│   ├── build_reports.py     Registry-Build: liest die Reports der Pipeline
 │   ├── app.py               HTTP-Schnittstelle
 │   └── static/              Seite (HTML, CSS, JavaScript ohne Build-Schritt)
 └── tests/

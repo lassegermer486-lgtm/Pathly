@@ -44,6 +44,7 @@ def pinned_file(source: str, spec: dict, cache_root: Path = CACHE_ROOT) -> tuple
     target = Path(cache_root) / source / spec["filename"]
 
     if target.exists() and sha256_file(target) == spec["sha256"]:
+        print(f"[CHECKSUM] {source} {spec['filename']}: verified (sha256 {spec['sha256'][:12]}…, cache)")
         return target, "cache"
 
     target.parent.mkdir(parents=True, exist_ok=True)
@@ -68,6 +69,7 @@ def pinned_file(source: str, spec: dict, cache_root: Path = CACHE_ROOT) -> tuple
         )
 
     partial.replace(target)
+    print(f"[CHECKSUM] {source} {spec['filename']}: verified (sha256 {spec['sha256'][:12]}…, downloaded)")
     return target, "download"
 
 

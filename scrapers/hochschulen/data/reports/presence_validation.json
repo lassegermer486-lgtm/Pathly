@@ -1,0 +1,194 @@
+{
+  "generated_at": "2026-10-02T11:46:09.910272+00:00",
+  "decisions_used": 0,
+  "decision_warnings": [],
+  "counts": {
+    "institutions": 505,
+    "confirmed": 431,
+    "not_present": 0,
+    "review": 4,
+    "no_german_source_listing": 70
+  },
+  "location_status": {
+    "active": 251,
+    "closed": 0,
+    "moved": 0,
+    "uncertain": 1
+  },
+  "locations_outside_germany": 70,
+  "not_present": [],
+  "review": [
+    {
+      "registry_id": "PTH-DE-5D21A57A",
+      "name": "Berufsakademie für Gesundheits- und Sozialwesen Saarland",
+      "official_url": null,
+      "listed_by": [
+        "DE-SL"
+      ],
+      "doubts": [
+        {
+          "code": "no_verified_website",
+          "detail": "no verified official website"
+        },
+        {
+          "code": "agent_reports_closed",
+          "detail": "agent reports the institution as closed (not authoritative)"
+        }
+      ],
+      "observations": [
+        {
+          "kind": "location",
+          "state": "DE-SL",
+          "city": "Saarbrücken",
+          "location_status": "uncertain",
+          "basis": "insufficient_evidence: no_verified_website, agent_reports_closed",
+          "evidence_url": "https://www.saarland.de/SharedDocs/Downloads/DE/mbk/Bildungsserver/unterricht.und-bildungsthemen/Berufstudienorientierung/ausbildungsstaettenverzeichnis.pdf?__blob=publicationFile&v=5"
+        }
+      ]
+    },
+    {
+      "registry_id": "PTH-DE-8792A52A",
+      "name": "Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg",
+      "official_url": null,
+      "listed_by": [
+        "DE-HH"
+      ],
+      "doubts": [
+        {
+          "code": "no_verified_website",
+          "detail": "no verified official website"
+        }
+      ],
+      "observations": [
+        {
+          "kind": "state_listing",
+          "state": "DE-HH",
+          "city": null,
+          "location_status": "uncertain",
+          "basis": "insufficient_evidence: no_verified_website",
+          "evidence_url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bwfg/unsere-themen/hochschulen-und-studium/hochschullandschaft-hamburg"
+        }
+      ]
+    },
+    {
+      "registry_id": "PTH-DE-F61E0273",
+      "name": "Thüringer Fachhochschule für öffentliche Verwaltung Gotha",
+      "official_url": null,
+      "listed_by": [
+        "DE-TH"
+      ],
+      "doubts": [
+        {
+          "code": "no_verified_website",
+          "detail": "no verified official website"
+        }
+      ],
+      "observations": [
+        {
+          "kind": "state_listing",
+          "state": "DE-TH",
+          "city": null,
+          "location_status": "uncertain",
+          "basis": "insufficient_evidence: no_verified_website",
+          "evidence_url": "https://statistik.thueringen.de/DatenBank/TabAnzeige.asp?auswahlnr=hs2090&tabelle=NT001313&zeit=2024%7C%7Cws"
+        }
+      ]
+    },
+    {
+      "registry_id": "PTH-DE-FA4F7F96",
+      "name": "Universidad Paraguayo-Alemana de Ciencias Alicadas",
+      "official_url": "https://upa.edu.py",
+      "listed_by": [
+        "DE-BW"
+      ],
+      "doubts": [
+        {
+          "code": "possibly_foreign_institution",
+          "detail": "website of a foreign institution"
+        }
+      ],
+      "observations": [
+        {
+          "kind": "state_listing",
+          "state": "DE-BW",
+          "city": null,
+          "location_status": "uncertain",
+          "basis": "insufficient_evidence: possibly_foreign_institution",
+          "evidence_url": "https://mwk.baden-wuerttemberg.de/de/hochschulen-studium/hochschullandschaft/hochschularten/nichtstaatliche-hochschulen"
+        }
+      ]
+    }
+  ],
+  "no_german_source_listing": [
+    "PTH-DE-1DB6E68B",
+    "PTH-DE-D8C6D5DA",
+    "PTH-DE-14B3B21B",
+    "PTH-DE-EC8BA419",
+    "PTH-DE-44AAD3C2",
+    "PTH-DE-215A63F1",
+    "PTH-DE-2CA5C00C",
+    "PTH-DE-4A193C4B",
+    "PTH-DE-315FBD14",
+    "PTH-DE-8B81DF5E",
+    "PTH-DE-E0CA9984",
+    "PTH-DE-808C7D91",
+    "PTH-DE-1AF1B15B",
+    "PTH-DE-C3BC309D",
+    "PTH-DE-BCE4C493",
+    "PTH-DE-B28A60E3",
+    "PTH-DE-313C1E19",
+    "PTH-DE-673701AB",
+    "PTH-DE-F7BDB8E8",
+    "PTH-DE-C51105D5",
+    "PTH-DE-D837828B",
+    "PTH-DE-A62F43BF",
+    "PTH-DE-47B70715",
+    "PTH-DE-9B381023",
+    "PTH-DE-5B6B0CE6",
+    "PTH-DE-D01FBAAA",
+    "PTH-DE-9D93BA9A",
+    "PTH-DE-5A0F52DA",
+    "PTH-DE-371E644E",
+    "PTH-DE-ACF1404D",
+    "PTH-DE-1B5611C1",
+    "PTH-DE-328B5C20",
+    "PTH-DE-4F1EF6E3",
+    "PTH-DE-2031E501",
+    "PTH-DE-52C1F83A",
+    "PTH-DE-156249CD",
+    "PTH-DE-F1EE5175",
+    "PTH-DE-2658D8EE",
+    "PTH-DE-59538641",
+    "PTH-DE-98A54DEB",
+    "PTH-DE-9213851D",
+    "PTH-DE-68F61510",
+    "PTH-DE-03DC7190",
+    "PTH-DE-7026CC4D",
+    "PTH-DE-87B04E20",
+    "PTH-DE-5382AD83",
+    "PTH-DE-F7679A2C",
+    "PTH-DE-748949B4",
+    "PTH-DE-BB50FD70",
+    "PTH-DE-57D7E28E",
+    "PTH-DE-38B05BCC",
+    "PTH-DE-3756C4D4",
+    "PTH-DE-A8138560",
+    "PTH-DE-7345C6AD",
+    "PTH-DE-A03A613C",
+    "PTH-DE-D6341E39",
+    "PTH-DE-A8FB4DF5",
+    "PTH-DE-7573816E",
+    "PTH-DE-938C59F7",
+    "PTH-DE-5D1D1967",
+    "PTH-DE-F32E415A",
+    "PTH-DE-71E0265F",
+    "PTH-DE-0B50D913",
+    "PTH-DE-91678607",
+    "PTH-DE-A5F80185",
+    "PTH-DE-1B9D7DE9",
+    "PTH-DE-8E80BA5F",
+    "PTH-DE-04975561",
+    "PTH-DE-F2FB0046",
+    "PTH-DE-C62ED54E"
+  ]
+}

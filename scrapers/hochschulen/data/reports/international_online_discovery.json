@@ -1,0 +1,1090 @@
+{
+  "generated_at": "2026-10-02T11:31:57.076742+00:00",
+  "sources": [
+    {
+      "state": "INTL-ETER",
+      "name": "ETER – European Tertiary Education Register",
+      "status": "OK",
+      "raw_rows": 31228,
+      "universities": 25,
+      "locations": 25,
+      "validation_issues": 0,
+      "request_attempts": 1,
+      "request_retries": 0,
+      "source_status": "success",
+      "previous_count": null,
+      "current_count": 25,
+      "absolute_delta": null,
+      "relative_delta": null,
+      "count_status": "no_baseline",
+      "production_safe": true
+    },
+    {
+      "state": "INTL-IPEDS",
+      "name": "IPEDS – Integrated Postsecondary Education Data System",
+      "status": "OK",
+      "raw_rows": 6072,
+      "universities": 45,
+      "locations": 45,
+      "validation_issues": 0,
+      "request_attempts": 4,
+      "request_retries": 0,
+      "source_status": "success",
+      "previous_count": null,
+      "current_count": 45,
+      "absolute_delta": null,
+      "relative_delta": null,
+      "count_status": "no_baseline",
+      "production_safe": true
+    }
+  ],
+  "details": {
+    "INTL-ETER": {
+      "rows_scanned": 31228,
+      "file": "data/source_cache/INTL-ETER/ETER_fullDump_26032024.csv",
+      "obtained": "download",
+      "institutions_with_answer": 3185,
+      "flagged": 50,
+      "too_old": 10,
+      "excluded_country": 15,
+      "no_website": 0,
+      "validation_issues": []
+    },
+    "INTL-IPEDS": {
+      "rows_scanned": 6072,
+      "obtained": {
+        "hd": "download",
+        "ic": "download",
+        "effy_dist": "download",
+        "ef_dist": "download"
+      },
+      "institutions": 6072,
+      "eligible": 2743,
+      "distnced": 51,
+      "selected": 45,
+      "validation_issues": []
+    }
+  },
+  "candidates": [
+    {
+      "source": "INTL-ETER",
+      "record_id": "AT0061",
+      "name": "Ferdinand Porsche Fern FH-Studiengänge",
+      "country": "AT",
+      "official_url": "http://www.fernfh.at/",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "CH0035",
+      "name": "Swiss Distance Education University",
+      "country": "CH",
+      "official_url": "http://www.fernuni.ch",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "CY0002",
+      "name": "Open University of Cyprus",
+      "country": "CY",
+      "official_url": "http://www.ouc.ac.cy",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "CY0003",
+      "name": "Cyprus University of Technology",
+      "country": "CY",
+      "official_url": "http://www.cut.ac.cy",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "CY0004",
+      "name": "University of Nicosia",
+      "country": "CY",
+      "official_url": "http://www.unic.ac.cy",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "CY0005",
+      "name": "Frederick University",
+      "country": "CY",
+      "official_url": "http://www.frederick.ac.cy",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "CY0006",
+      "name": "European University - Cyprus",
+      "country": "CY",
+      "official_url": "http://www.euc.ac.cy",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "CY0014",
+      "name": "American College",
+      "country": "CY",
+      "official_url": "http://www.ac.ac.cy",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "CY0038",
+      "name": "Neapolis University",
+      "country": "CY",
+      "official_url": "http://www.nup.ac.cy",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "CY0042",
+      "name": "University of Central Lancashire - Cyprus",
+      "country": "CY",
+      "official_url": "http://www.uclancyprus.ac.cy",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "ES0049",
+      "name": "Open University of Madrid (UDIMA)",
+      "country": "ES",
+      "official_url": "http://www.udima.es",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "ES0063",
+      "name": "International University Isabel I de Castilla",
+      "country": "ES",
+      "official_url": "http://www.ui1.es",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "ES0064",
+      "name": "International University of La Rioja",
+      "country": "ES",
+      "official_url": "http://www.unir.net",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "ES0067",
+      "name": "National University of Distance Education",
+      "country": "ES",
+      "official_url": "http://www.uned.es",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "ES0075",
+      "name": "Valencian International University",
+      "country": "ES",
+      "official_url": "https://www.universidadviu.es/",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "ES0076",
+      "name": "Open University of Catalonia",
+      "country": "ES",
+      "official_url": "http://www.uoc.edu",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "GR0001",
+      "name": "Hellenic Open University",
+      "country": "GR",
+      "official_url": "http://www.eap.gr/",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "HR0025",
+      "name": "Rochester Institute of Technology Croatia",
+      "country": "HR",
+      "official_url": "http://www.croatia.rit.edu/",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "MT0007",
+      "name": "Pegaso International",
+      "country": "MT",
+      "official_url": "https://pegasointernational.eu/",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2020
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "MT0009",
+      "name": "Future Focus",
+      "country": "MT",
+      "official_url": "https://futurefocus.com.mt/",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "MT0010",
+      "name": "Triagon Academy",
+      "country": "MT",
+      "official_url": "https://www.triagon.mt/de/",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "NL0014",
+      "name": "Open University of the Netherlands",
+      "country": "NL",
+      "official_url": "http://www.ou.nl/",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "PT0015",
+      "name": "Open University of Portugal",
+      "country": "PT",
+      "official_url": "http://www.uab.pt",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "TR0012",
+      "name": "Anadolu University",
+      "country": "TR",
+      "official_url": "https://www.anadolu.edu.tr/en",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-ETER",
+      "record_id": "UK0088",
+      "name": "The Open University",
+      "country": "GB",
+      "official_url": "http://www.open.ac.uk/",
+      "signals": {
+        "distance_education_institution": 2,
+        "distance_education_reference_year": 2021
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "483124",
+      "name": "Arizona State University Digital Immersion",
+      "country": "US",
+      "official_url": "https://www.asu.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 98316,
+        "students_outside_us_fall": 2518,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "450933",
+      "name": "Columbia Southern University",
+      "country": "US",
+      "official_url": "https://www.columbiasouthern.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 30425,
+        "students_outside_us_fall": 547,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "445027",
+      "name": "American InterContinental University System",
+      "country": "US",
+      "official_url": "https://www.aius.education/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 23926,
+        "students_outside_us_fall": 354,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "196680",
+      "name": "Excelsior University",
+      "country": "US",
+      "official_url": "https://www.excelsior.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 18823,
+        "students_outside_us_fall": 197,
+        "title_iv": true,
+        "highest_offering": 8
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "484473",
+      "name": "University of Florida-Online",
+      "country": "US",
+      "official_url": "https://www.ufonline.ufl.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 6778,
+        "students_outside_us_fall": 164,
+        "title_iv": true,
+        "highest_offering": 5
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "413413",
+      "name": "Capella University",
+      "country": "US",
+      "official_url": "https://www.capella.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 81047,
+        "students_outside_us_fall": 162,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "442569",
+      "name": "University of Arkansas Grantham",
+      "country": "US",
+      "official_url": "https://www.uagrantham.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 5464,
+        "students_outside_us_fall": 136,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "485546",
+      "name": "California Intercontinental University",
+      "country": "US",
+      "official_url": "https://www.caluniversity.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 883,
+        "students_outside_us_fall": 125,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "444130",
+      "name": "Northcentral University",
+      "country": "US",
+      "official_url": "https://www.nu.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 12994,
+        "students_outside_us_fall": 89,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "497037",
+      "name": "Abilene Christian University-Undergraduate Online",
+      "country": "US",
+      "official_url": "https://www.acu.edu/academics/online/undergraduate",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 1536,
+        "students_outside_us_fall": 72,
+        "title_iv": true,
+        "highest_offering": 5
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "449339",
+      "name": "American Public University System",
+      "country": "US",
+      "official_url": "https://www.apus.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 95158,
+        "students_outside_us_fall": 58,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "487977",
+      "name": "Martinsburg College",
+      "country": "US",
+      "official_url": "https://www.martinsburgcollege.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 4870,
+        "students_outside_us_fall": 57,
+        "title_iv": true,
+        "highest_offering": 6
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "219204",
+      "name": "National American University-Rapid City",
+      "country": "US",
+      "official_url": "https://www.national.edu/locations/campuses/rapid-city/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 1660,
+        "students_outside_us_fall": 27,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "480569",
+      "name": "Florida Institute of Technology-Online",
+      "country": "US",
+      "official_url": "https://www.fit.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 1835,
+        "students_outside_us_fall": 26,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "475121",
+      "name": "South University-Savannah Online",
+      "country": "US",
+      "official_url": "https://www.southuniversity.edu/online#location=Online Programs",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 15044,
+        "students_outside_us_fall": 22,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "127714",
+      "name": "Nazarene Bible College",
+      "country": "US",
+      "official_url": "https://www.nbc.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 884,
+        "students_outside_us_fall": 20,
+        "title_iv": true,
+        "highest_offering": 5
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "482228",
+      "name": "Veritas Baptist College",
+      "country": "US",
+      "official_url": "https://www.vbc.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 317,
+        "students_outside_us_fall": 19,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "443599",
+      "name": "American College of Healthcare Sciences",
+      "country": "US",
+      "official_url": "https://www.achs.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 1574,
+        "students_outside_us_fall": 15,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "460349",
+      "name": "Johnson & Wales University-Online",
+      "country": "US",
+      "official_url": "https://online.jwu.edu/?_ga=2.36357734.752362341.1629739669-391300583.1600981500",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 3765,
+        "students_outside_us_fall": 15,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "497408",
+      "name": "Bridges Christian College",
+      "country": "US",
+      "official_url": "https://www.bcc.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 179,
+        "students_outside_us_fall": 13,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "457697",
+      "name": "City Vision University",
+      "country": "US",
+      "official_url": "https://www.cityvision.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 422,
+        "students_outside_us_fall": 12,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "480985",
+      "name": "Midwives College of Utah",
+      "country": "US",
+      "official_url": "https://www.midwifery.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 362,
+        "students_outside_us_fall": 8,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "475398",
+      "name": "Catholic International University",
+      "country": "US",
+      "official_url": "https://catholiciu.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 286,
+        "students_outside_us_fall": 6,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "128780",
+      "name": "Charter Oak State College",
+      "country": "US",
+      "official_url": "https://www.charteroak.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 2540,
+        "students_outside_us_fall": 5,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "488031",
+      "name": "Abraham Lincoln University",
+      "country": "US",
+      "official_url": "https://www.alu.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 208,
+        "students_outside_us_fall": 4,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "476975",
+      "name": "Colorado State University Global",
+      "country": "US",
+      "official_url": "https://csuglobal.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 15502,
+        "students_outside_us_fall": 3,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "461023",
+      "name": "Crestpoint University",
+      "country": "US",
+      "official_url": "https://www.crestpoint.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 618,
+        "students_outside_us_fall": 3,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "156727",
+      "name": "Frontier Nursing University",
+      "country": "US",
+      "official_url": "https://www.frontier.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 3483,
+        "students_outside_us_fall": 2,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "475839",
+      "name": "Sessions College for Professional Design",
+      "country": "US",
+      "official_url": "https://www.sessions.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 279,
+        "students_outside_us_fall": 2,
+        "title_iv": true,
+        "highest_offering": 5
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "491288",
+      "name": "University of Wisconsin-Milwaukee Flex",
+      "country": "US",
+      "official_url": "https://flex.wisconsin.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 928,
+        "students_outside_us_fall": 2,
+        "title_iv": true,
+        "highest_offering": 5
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "497824",
+      "name": "Evangel University-College of Online Learning",
+      "country": "US",
+      "official_url": "https://www.evangel.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 349,
+        "students_outside_us_fall": 1,
+        "title_iv": true,
+        "highest_offering": 5
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "485519",
+      "name": "Lionel University",
+      "country": "US",
+      "official_url": "https://lionel.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 654,
+        "students_outside_us_fall": 1,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "183257",
+      "name": "University of New Hampshire College of Professional Studies Online",
+      "country": "US",
+      "official_url": "https://cps.unh.edu/online",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 2257,
+        "students_outside_us_fall": 1,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "491297",
+      "name": "University of Wisconsin-Parkside Flex",
+      "country": "US",
+      "official_url": "https://flex.wisconsin.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 219,
+        "students_outside_us_fall": 1,
+        "title_iv": true,
+        "highest_offering": 5
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "490081",
+      "name": "America Evangelical University",
+      "country": "US",
+      "official_url": "https://www.aeu.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 329,
+        "students_outside_us_fall": 0,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "100690",
+      "name": "Amridge University",
+      "country": "US",
+      "official_url": "https://www.amridgeuniversity.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 861,
+        "students_outside_us_fall": 0,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "480091",
+      "name": "Bryant & Stratton College-Online",
+      "country": "US",
+      "official_url": "https://www.bryantstratton.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 16061,
+        "students_outside_us_fall": 0,
+        "title_iv": true,
+        "highest_offering": 5
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "488387",
+      "name": "Claremont Lincoln University",
+      "country": "US",
+      "official_url": "https://claremontlincoln.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 339,
+        "students_outside_us_fall": 0,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "157207",
+      "name": "Lexington Theological Seminary",
+      "country": "US",
+      "official_url": "https://www.lextheo.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 109,
+        "students_outside_us_fall": 0,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "474863",
+      "name": "Los Angeles Pacific University",
+      "country": "US",
+      "official_url": "https://www.lapu.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 2884,
+        "students_outside_us_fall": 0,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "497480",
+      "name": "Reach University",
+      "country": "US",
+      "official_url": "https://www.reach.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 1768,
+        "students_outside_us_fall": 0,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "475033",
+      "name": "Relay Graduate School of Education",
+      "country": "US",
+      "official_url": "https://www.relay.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 2477,
+        "students_outside_us_fall": 0,
+        "title_iv": true,
+        "highest_offering": 7
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "454689",
+      "name": "Taft University System",
+      "country": "US",
+      "official_url": "https://www.taftu.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 532,
+        "students_outside_us_fall": 0,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "125231",
+      "name": "Walden University",
+      "country": "US",
+      "official_url": "https://www.waldenu.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 72855,
+        "students_outside_us_fall": 0,
+        "title_iv": true,
+        "highest_offering": 9
+      },
+      "online_de_status": "review"
+    },
+    {
+      "source": "INTL-IPEDS",
+      "record_id": "433387",
+      "name": "Western Governors University",
+      "country": "US",
+      "official_url": "https://www.wgu.edu/",
+      "signals": {
+        "all_programs_fully_online": true,
+        "exclusive_distance_share_12m": 1.0,
+        "enrollment_12m": 282150,
+        "students_outside_us_fall": 0,
+        "title_iv": true,
+        "highest_offering": 8
+      },
+      "online_de_status": "review"
+    }
+  ]
+}

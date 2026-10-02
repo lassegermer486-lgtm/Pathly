@@ -31,6 +31,13 @@ def bridge():
         os.chdir(cwd)
 
 
+@pytest.fixture(autouse=True)
+def without_saved_international_candidates(bridge, tmp_path, monkeypatch):
+    """The tests use their own records only; the scraper folder may hold
+    real international candidates from a production run (v1.3)."""
+    monkeypatch.setattr(bridge, "intl_enriched_path", tmp_path / "none.json")
+
+
 def raw(name, state, url):
     return {"name": name, "state": state, "official_url": url, "institution_type": "university",
             "ownership": "public", "recognition_status": "public",

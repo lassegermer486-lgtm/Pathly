@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-10-02T11:57:14+00:00",
+  "output": "data/master/supabase_import.sql",
+  "master_dir": "data/master",
+  "git_commit": "1060fce",
+  "counts": {
+    "universities": 505,
+    "with_official_url": 498,
+    "locations": 322,
+    "sources": 528,
+    "flags": 196,
+    "id_aliases": 0,
+    "presence_confirmed": 431,
+    "presence_not_present": 0,
+    "presence_review": 74,
+    "international": 70,
+    "online_de_confirmed": 0,
+    "online_de_review": 70
+  }
+}

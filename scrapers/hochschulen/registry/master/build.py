@@ -585,6 +585,26 @@ def build(
     }
 
 
+def stable_id_summary(existing: set[str], rows: list[dict], id_registry: IdRegistry) -> dict:
+    """
+    existing  active IDs before this build
+    kept      still the ID of an institution in this build
+    new       assigned in this build
+    merged    became an alias of another ID (kept as former_registry_ids)
+    unlisted  no institution in this build (Supabase: is_listed = false)
+    """
+    current = {row["registry_id"] for row in rows}
+    merged = {rid for rid in existing if id_registry.ids.get(rid, {}).get("alias_of")}
+    return {
+        "existing": len(existing),
+        "kept": len(existing & current),
+        "new": len(current - existing),
+        "merged": len(merged),
+        "unlisted": sorted(existing - current - merged),
+        "all_existing_kept": existing <= current,
+    }
+
+
 def home_country(members: list[dict]) -> str:
     """
     The institution's home country. German state sources record the campus
@@ -690,6 +710,8 @@ def main():
     )
 
     site_texts = None if args.offline else make_site_texts(WebsiteResolver())
+    # Stable IDs (§D5): which active IDs existed before this build
+    existing_ids = {rid for rid, entry in id_registry.ids.items() if not entry.get("alias_of")}
     result = build(institutions, records, id_registry, site_texts)
 
     dedup_report_path = Path(args.dedup_report)
@@ -705,6 +727,7 @@ def main():
     report["online_de"] = result["online_de"]["counts"]
     report["market_access"] = result["online_de"]["market_access"]
     report["countries"] = dict(Counter(row["country"] for row in result["universities"]))
+    report["stable_ids"] = stable_id_summary(existing_ids, result["universities"], id_registry)
 
     out = Path(args.out_dir)
     out.mkdir(parents=True, exist_ok=True)
@@ -753,6 +776,9 @@ def main():
     print(f"Dedup review cases:       {report['dedup_review_cases']}")
     print(f"Review required:          {len(report['review_required'])}")
     print(f"Core field violations:    {len(report['core_field_violations'])}")
+    ids = report["stable_ids"]
+    print(f"Stable IDs:               {ids['kept']}/{ids['existing']} existing kept, {ids['new']} new, "
+          f"{ids['merged']} merged, {len(ids['unlisted'])} unlisted")
     counts = result["presence"]["counts"]
     print(f"German presence:          {counts['confirmed']} confirmed, "
           f"{counts['not_present']} not present, {counts['review']} review")

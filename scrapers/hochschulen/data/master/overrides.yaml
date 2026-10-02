@@ -16,3 +16,8 @@ merge:
 keep_separate:
   # Eigenständig anerkannte Hochschulen desselben Betreibers.
   - ["DE-BB|Health and Medical University Potsdam (HMU)", "DE-TH|HMU Health and Medical University Erfurt"]
+  # Online-Zweige zweier verschiedener Universitäten (IPEDS OPEFLAG 2 =
+  # Branch campus): Milwaukee Flex hat die OPEID von UW-Milwaukee (00389600),
+  # Parkside Flex die von UW-Parkside (00501500). Gemeinsam ist nur das
+  # Flex-Portal des UW-Systems (flex.wisconsin.edu). Geprüft 2026-10-02.
+  - ["INTL-IPEDS|University of Wisconsin-Milwaukee Flex", "INTL-IPEDS|University of Wisconsin-Parkside Flex"]

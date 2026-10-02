@@ -147,6 +147,12 @@ python -m registry.enrichment.agent_resolver
 - Answers are cached in `data/enriched/agent_cache.json`; reruns are free.
   `--refresh` asks again. Default model `openai/gpt-4o-mini` (a few cents
   per record, mostly web search); `OPENROUTER_MODEL` or `--model` changes it.
+- **The cache is keyed by model.** The v1.3 registry was built with
+  `OPENROUTER_MODEL=anthropic/claude-opus-5.5` (set in `.env.example`). A run
+  with another model finds none of the cached answers, even with
+  `--agent-cache-only`, and loses the verified renames/mergers (on
+  2026-10-02 that meant 3 missing merges and 3 extra institutions). Keep the
+  model when you rebuild.
 - The agent's `canonical_name` and `lifecycle_status` (renamed/merged/closed)
   are kept in `website_resolution.agent` for the later naming and lifecycle steps.
 
