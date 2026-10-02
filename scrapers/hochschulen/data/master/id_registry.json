@@ -1,0 +1,3943 @@
+{
+  "version": 1,
+  "ids": {
+    "PTH-DE-003E4856": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Fachhochschule Westküste in Heide",
+      "official_url": "https://www.fh-westkueste.de",
+      "members": [
+        "DE-SH|Fachhochschule Westküste in Heide"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-00A1CCD3": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Augustana Hochschule der Evang.-Luth. Kirche in Bayern (Neuendettelsau)",
+      "official_url": "https://augustana.de",
+      "members": [
+        "DE-BY|Augustana Hochschule der Evang.-Luth. Kirche in Bayern (Neuendettelsau)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-02428FA8": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Musik und Theater Hamburg",
+      "official_url": "https://www.hfmt-hamburg.de",
+      "members": [
+        "DE-HH|Hochschule für Musik und Theater Hamburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-027CB5C5": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Fernsehen und Film München",
+      "official_url": "https://www.hff-muc.de",
+      "members": [
+        "DE-BY|Hochschule für Fernsehen und Film München"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-03F065C0": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Otto-Friedrich-Universität Bamberg",
+      "official_url": "https://www.uni-bamberg.de",
+      "members": [
+        "DE-BY|Otto-Friedrich-Universität Bamberg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-059B0647": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Stuttgart",
+      "official_url": "https://www.uni-stuttgart.de",
+      "members": [
+        "DE-BW|Universität Stuttgart"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-05ACCFBA": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Oldenburg",
+      "official_url": "https://uol.de",
+      "members": [
+        "DE-NI|Universität Oldenburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-05F4D294": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Musik und Tanz Köln",
+      "official_url": "https://www.hfmt-koeln.de",
+      "members": [
+        "DE-NW|Hochschule für Musik und Tanz Köln"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-05FA537B": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Bremerhaven",
+      "official_url": "https://www.hs-bremerhaven.de",
+      "members": [
+        "DE-HB|Hochschule Bremerhaven"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-0607380E": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hamburg Media School",
+      "official_url": "https://www.hamburgmediaschool.com",
+      "members": [
+        "DE-HH|Hamburg Media School"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-06890AF4": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Theologische Hochschule Elstal",
+      "official_url": "https://www.th-elstal.de",
+      "members": [
+        "DE-BB|Theologische Hochschule Elstal"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-06997DCE": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Musik Mainz",
+      "official_url": "https://www.musik.uni-mainz.de",
+      "members": [
+        "DE-RP|Hochschule für Musik Mainz"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-06C00342": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Universität Ilmenau",
+      "official_url": "https://www.tu-ilmenau.de",
+      "members": [
+        "DE-TH|Technische Universität Ilmenau"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-06DE9982": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Digital Business University of Applied Sciences",
+      "official_url": "https://dbuas.de",
+      "members": [
+        "DE-BE|Digital Business University of Applied Sciences"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-075D68E2": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Geisenheim",
+      "official_url": "https://www.hs-geisenheim.de",
+      "members": [
+        "DE-HE|Hochschule Geisenheim"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-080CF5EE": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Rheinland-Pfälzische Technische Universität",
+      "official_url": "https://rptu.de",
+      "members": [
+        "DE-RP|Rheinland-Pfälzische Technische Universität"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-0817C1E0": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Staatliche Hochschule für Musik und Darstellende Kunst Mannheim",
+      "official_url": "https://www.muho-mannheim.de",
+      "members": [
+        "DE-BW|Staatliche Hochschule für Musik und Darstellende Kunst Mannheim"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-08836C5A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "NORDAKADEMIE Hochschule der Wirtschaft",
+      "official_url": "https://www.nordakademie.de",
+      "members": [
+        "DE-HH|NORDAKADEMIE Hochschule der Wirtschaft | Graduate School",
+        "DE-SH|Nordakademie Elmshorn"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-08DAF0C4": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "SRH University of Applied Sciences Heidelberg",
+      "official_url": "https://www.srh-university.de",
+      "members": [
+        "DE-BW|SRH University of Applied Sciences Heidelberg",
+        "DE-NW|SRH Hochschule in Nordrhein-Westfalen",
+        "DE-TH|SRH University of Applied Sciences Heidelberg in Gera"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-09CE2A67": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Miami ad School Europe",
+      "official_url": "https://miamiadschool.de",
+      "members": [
+        "DE-HH|Miami ad School Europe, Campus Hamburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-0A7C30B2": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Philosophisch-Theologische Hochschule Sankt Georgen",
+      "official_url": "https://www.sankt-georgen.de",
+      "members": [
+        "DE-HE|Philosophisch-Theologische Hochschule Sankt Georgen (Frankfurt/Main)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-0A839F05": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Fachhochschule für Verwaltung und Polizei",
+      "official_url": "https://www.saarland.de/fhsv/DE/home/home_node.html",
+      "members": [
+        "DE-SL|Fachhochschule für Verwaltung und Polizei"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-0B19308B": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "PH Karlsruhe",
+      "official_url": "https://www.ph-karlsruhe.de",
+      "members": [
+        "DE-BW|PH Karlsruhe"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-0B29EF64": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Kirchliche Hochschule Wuppertal/Bethel",
+      "official_url": "http://kiho-wuppertal.de",
+      "members": [
+        "DE-NW|Kirchliche Hochschule Wuppertal/Bethel"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-0C8D99EC": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Universität Dresden",
+      "official_url": "https://tu-dresden.de",
+      "members": [
+        "DE-SN|Technische Universität Dresden"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-0CA0B5DB": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Staatliche Hochschule für Gestaltung Karlsruhe",
+      "official_url": "https://hfg-karlsruhe.de",
+      "members": [
+        "DE-BW|Staatliche Hochschule für Gestaltung Karlsruhe"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-0CEC5951": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule der bildenden Künste Essen",
+      "official_url": "https://www.hbk-essen.de",
+      "members": [
+        "DE-NW|Hochschule der bildenden Künste Essen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-0D75B87F": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Jüdische Studien Heidelberg",
+      "official_url": "https://www.hfjs.eu",
+      "members": [
+        "DE-BW|Hochschule für Jüdische Studien Heidelberg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-0F9CBBCB": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Siegen",
+      "official_url": "https://www.uni-siegen.de",
+      "members": [
+        "DE-NW|Universität Siegen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-10DC77CD": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Theologische Hochschule Ewersbach",
+      "official_url": "https://th-ewersbach.de",
+      "members": [
+        "DE-HE|Theologische Hochschule Ewersbach"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-11D2C12F": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für öffentliche Verwaltung und Finanzen Ludwigsburg",
+      "official_url": "https://www.hs-ludwigsburg.de",
+      "members": [
+        "DE-BW|Hochschule für öffentliche Verwaltung und Finanzen Ludwigsburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-1202E5CF": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Kunsthochschule für Medien Köln",
+      "official_url": "https://www.khm.de",
+      "members": [
+        "DE-NW|Kunsthochschule für Medien Köln"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-124DF39D": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Philosophie (München)",
+      "official_url": "https://hfph.de",
+      "members": [
+        "DE-BY|Hochschule für Philosophie (München)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-135106ED": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Musik Franz Liszt Weimar",
+      "official_url": "https://www.hfm-weimar.de",
+      "members": [
+        "DE-TH|Hochschule für Musik Franz Liszt Weimar"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-138698E2": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Reutlingen - Technik, Wirtschaft, Informatik, Design",
+      "official_url": "https://www.reutlingen-university.de",
+      "members": [
+        "DE-BW|Hochschule Reutlingen - Technik, Wirtschaft, Informatik, Design"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-14CEAC13": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "bbw Hochschule",
+      "official_url": "https://www.bbw-hochschule.de",
+      "members": [
+        "DE-BE|bbw Hochschule"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-1505E430": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Furtwangen - Informatik, Technik, Wirtschaft, Medien",
+      "official_url": "https://www.hs-furtwangen.de",
+      "members": [
+        "DE-BW|Hochschule Furtwangen - Informatik, Technik, Wirtschaft, Medien"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-156C6345": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Alanus Hochschule für Kunst und Gesellschaft",
+      "official_url": "https://www.alanus.edu",
+      "members": [
+        "DE-NW|Alanus Hochschule für Kunst und Gesellschaft"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-15830D14": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für angewandte Wissenschaften Neu-Ulm",
+      "official_url": "https://www.hs-neu-ulm.de",
+      "members": [
+        "DE-BY|Hochschule für angewandte Wissenschaften Neu-Ulm"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-176402ED": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "PH Freiburg",
+      "official_url": "https://www.ph-freiburg.de",
+      "members": [
+        "DE-BW|PH Freiburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-17C9865D": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Fachhochschule Polizei",
+      "official_url": "https://fh-polizei.sachsen-anhalt.de",
+      "members": [
+        "DE-ST|Fachhochschule Polizei"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-17EE22C0": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Rheinische Fachhochschule Köln",
+      "official_url": "https://rh-koeln.de",
+      "members": [
+        "DE-NW|Rheinische Fachhochschule Köln"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-191ACAD8": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Fachhochschule für Verwaltung und Dienstleistung",
+      "official_url": "https://www.fhvd-sh.de",
+      "members": [
+        "DE-SH|Fachhochschule für Verwaltung und Dienstleistung"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-19865BCA": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für nachhaltige Entwicklung Eberswalde",
+      "official_url": "https://www.hnee.de",
+      "members": [
+        "DE-BB|Hochschule für nachhaltige Entwicklung Eberswalde"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-1A57C376": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universitätsmedizin Neumarkt A.M.",
+      "official_url": "https://edu.umch.de",
+      "members": [
+        "DE-HH|Universitätsmedizin Neumarkt A.M. Campus Hamburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-1BDE8AC7": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule der Bundesagentur für Arbeit",
+      "official_url": "https://www.hdba.de",
+      "members": [
+        "DE-BW|Hochschule der Bundesagentur für Arbeit (HdBA)",
+        "DE-MV|Hochschule der Bundesagentur für Arbeit"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-1BEF13D5": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Koblenz",
+      "official_url": "https://www.uni-koblenz.de",
+      "members": [
+        "DE-RP|Universität Koblenz"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-1CE67FB3": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Weserbergland",
+      "official_url": "https://www.hsw-hameln.de",
+      "members": [
+        "DE-NI|Hochschule Weserbergland"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-1EEADEAB": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Studienzentrum der Finanzverwaltung und Justiz in Rotenburg an der Fulda",
+      "official_url": "https://studienzentrum-rotenburg.hessen.de",
+      "members": [
+        "DE-HE|Studienzentrum der Finanzverwaltung und Justiz in Rotenburg an der Fulda"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-1F17E6E6": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Palucca Hochschule für Tanz Dresden",
+      "official_url": "https://palucca.eu",
+      "members": [
+        "DE-SN|Palucca Hochschule für Tanz Dresden"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-1F8D52F2": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Hochschule Nürnberg Georg Simon Ohm",
+      "official_url": "https://www.th-nuernberg.de",
+      "members": [
+        "DE-BY|Technische Hochschule Nürnberg Georg Simon Ohm"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-1FC5D3D7": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Justus-Liebig-Universität Gießen",
+      "official_url": "https://www.uni-giessen.de",
+      "members": [
+        "DE-HE|Justus-Liebig-Universität Gießen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-1FEC7997": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Hochschule Georg Agricola",
+      "official_url": "https://www.thga.de",
+      "members": [
+        "DE-NW|Technische Hochschule Georg Agricola"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-20B72595": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Universität Bergakademie Freiberg",
+      "official_url": "https://tu-freiberg.de",
+      "members": [
+        "DE-SN|Technische Universität Bergakademie Freiberg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-211D09A0": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule der Bayerischen Wirtschaft für angewandte Wissenschaften",
+      "official_url": "https://www.hdbw-hochschule.de",
+      "members": [
+        "DE-BY|Hochschule der Bayerischen Wirtschaft für angewandte Wissenschaften (HDBW)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-216D1AF0": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Zeppelin Universität",
+      "official_url": "https://www.zu.de",
+      "members": [
+        "DE-BW|Zeppelin Universität"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-21A985A5": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Duale Hochschule Eisenach-Gera",
+      "official_url": "https://www.dhge.de",
+      "members": [
+        "DE-TH|Duale Hochschule Eisenach-Gera"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-22008BFA": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Trier – Trier University of Applied Sciences",
+      "official_url": "https://www.hochschule-trier.de",
+      "members": [
+        "DE-RP|Hochschule Trier – Trier University of Applied Sciences"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-22104A27": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Norddeutsche Hochschule für Rechtspflege",
+      "official_url": "https://hr-nord.niedersachsen.de",
+      "members": [
+        "DE-NI|Norddeutsche Hochschule für Rechtspflege"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-221849F0": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Bard College Berlin – A Liberal Arts University",
+      "official_url": "https://berlin.bard.edu",
+      "members": [
+        "DE-BE|Bard College Berlin – A Liberal Arts University"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-223E15AA": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Leibniz-Fachhochschule",
+      "official_url": "https://leibniz-fh.de",
+      "members": [
+        "DE-NI|Leibniz-Fachhochschule"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-2299BEAA": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Hohenheim",
+      "official_url": "https://www.uni-hohenheim.de",
+      "members": [
+        "DE-BW|Universität Hohenheim"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-22DDD815": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Otto-von-Guericke-Universität Magdeburg",
+      "official_url": "https://www.ovgu.de",
+      "members": [
+        "DE-ST|Otto-von-Guericke-Universität Magdeburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-23426299": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Medizinische Universität Lausitz – Carl Thiem",
+      "official_url": "https://mul-ct.de",
+      "members": [
+        "DE-BB|Medizinische Universität Lausitz – Carl Thiem"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-24113E46": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Universität Berlin",
+      "official_url": "https://www.tu.berlin",
+      "members": [
+        "DE-BE|Technische Universität Berlin"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-248220E0": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Apollon Hochschule der Gesundheitswirtschaft",
+      "official_url": "https://www.apollon-hochschule.de",
+      "members": [
+        "DE-HB|Apollon Hochschule der Gesundheitswirtschaft"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-2619709A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Westsächsische Hochschule Zwickau",
+      "official_url": "https://www.whz.de",
+      "members": [
+        "DE-SN|Westsächsische Hochschule Zwickau"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-2619CDB0": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Ostfalia Hochschule",
+      "official_url": "https://www.ostfalia.de",
+      "members": [
+        "DE-NI|Ostfalia Hochschule"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-26273F0F": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule des Bundes für öffentliche Verwaltung",
+      "official_url": "https://hsbund.de",
+      "members": [
+        "DE-BE|Hochschule des Bundes für öffentliche Verwaltung",
+        "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Kriminalpolizei in Wiesbaden",
+        "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Landwirtschaftliche Sozialversicherung in Kassel",
+        "DE-HE|Hochschule des Bundes für öffentliche Verwaltung - Fachbereich Wetterdienst in Offenbach",
+        "DE-NW|Hochschule des Bundes für öffentliche Verwaltung",
+        "DE-SH|FH des Bundes für öffentliche Verwaltung (Bundespolizei)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-263C6BEC": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Polizei Baden-Württemberg",
+      "official_url": "https://www.hfpol-bw.de",
+      "members": [
+        "DE-BW|Hochschule für Polizei Baden-Württemberg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-265A9C06": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Musik und Theater Rostock",
+      "official_url": "https://www.hmt-rostock.de",
+      "members": [
+        "DE-MV|Hochschule für Musik und Theater Rostock"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-26F81842": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Leipzig",
+      "official_url": "https://www.leipzig-studieren.de",
+      "members": [
+        "DE-SN|Universität Leipzig"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-28BB0A9D": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Lutherische Theologische Hochschule (Oberursel)",
+      "official_url": "https://lthh.de",
+      "members": [
+        "DE-HE|Lutherische Theologische Hochschule (Oberursel)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-296DF03C": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Freie Theologische Hochschule Gießen",
+      "official_url": "https://fth.de",
+      "members": [
+        "DE-HE|Freie Theologische Hochschule Gießen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-2AE9B688": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Hochschule Würzburg-Schweinfurt",
+      "official_url": "https://www.thws.de",
+      "members": [
+        "DE-BY|Technische Hochschule Würzburg-Schweinfurt (THWS)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-2AF4EA5B": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hertie School",
+      "official_url": "http://www.hertie-school.org",
+      "members": [
+        "DE-BE|Hertie School"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-2BC1C29A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Konstanz - Technik, Wirtschaft und Gestaltung",
+      "official_url": "https://www.htwg-konstanz.de",
+      "members": [
+        "DE-BW|Hochschule Konstanz - Technik, Wirtschaft und Gestaltung"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-2CB1F2F4": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Technik und Wirtschaft Berlin",
+      "official_url": "https://www.htw-berlin.de",
+      "members": [
+        "DE-BE|Hochschule für Technik und Wirtschaft Berlin (HTW)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-2D634A37": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Göttingen",
+      "official_url": "https://www.uni-goettingen.de",
+      "members": [
+        "DE-NI|Universität Göttingen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-2E09310B": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Ruhr-Universität Bochum",
+      "official_url": "https://www.ruhr-uni-bochum.de",
+      "members": [
+        "DE-NW|Ruhr-Universität Bochum"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-2E5C2F36": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Stralsund",
+      "official_url": "https://www.hochschule-stralsund.de",
+      "members": [
+        "DE-MV|Hochschule Stralsund"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-2F53C10E": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+      "official_url": "https://www.fau.de",
+      "members": [
+        "DE-BY|Friedrich-Alexander-Universität Erlangen-Nürnberg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-2F9102C9": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "BSP Business and Law School – Hochschule für Management und Recht",
+      "official_url": "https://www.businessschool-berlin.de",
+      "members": [
+        "DE-BE|BSP Business and Law School – Hochschule für Management und Recht"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-2FAEE87C": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität der Künste Berlin",
+      "official_url": "https://www.udk-berlin.de",
+      "members": [
+        "DE-BE|Universität der Künste Berlin (UdK)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-30296A8D": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Magdeburg-Stendal",
+      "official_url": "https://www.h2.de",
+      "members": [
+        "DE-ST|Hochschule Magdeburg-Stendal"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-3081F973": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Hamm-Lippstadt",
+      "official_url": "https://www.hshl.de",
+      "members": [
+        "DE-NW|Hochschule Hamm-Lippstadt"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-31A0F44F": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "HMU Health and Medical University Erfurt",
+      "official_url": "https://www.health-and-medical-university-erfurt.de",
+      "members": [
+        "DE-TH|HMU Health and Medical University Erfurt"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-32472D3C": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "AMD Akademie für Mode & Design",
+      "official_url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bwfg/unsere-themen/hochschulen-und-studium/hochschullandschaft-hamburg/amd-196154",
+      "members": [
+        "DE-HH|AMD Akademie für Mode & Design"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-32723EFC": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Rheinische Friedrich-Wilhelms-Universität Bonn",
+      "official_url": "https://www.uni-bonn.de",
+      "members": [
+        "DE-NW|Rheinische Friedrich-Wilhelms-Universität Bonn"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-32B9B6CC": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "accadis Hochschule",
+      "official_url": "https://www.accadis.com",
+      "members": [
+        "DE-HE|accadis Hochschule (Bad Homburg)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-32EC50D4": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Evangelische Hochschule Berlin",
+      "official_url": "https://www.eh-berlin.de",
+      "members": [
+        "DE-BE|Evangelische Hochschule Berlin"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-32EDF317": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Konstanz",
+      "official_url": "https://www.uni-konstanz.de",
+      "members": [
+        "DE-BW|Universität Konstanz"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-3402A145": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Gestaltung Schwäbisch Gmünd",
+      "official_url": "https://www.hfg-gmuend.de",
+      "members": [
+        "DE-BW|Hochschule für Gestaltung Schwäbisch Gmünd"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-348915BF": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität des Saarlandes",
+      "official_url": "https://www.uni-saarland.de",
+      "members": [
+        "DE-SL|Universität des Saarlandes"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-34CFFD22": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Euro-FH - Europäische Fernhochschule Hamburg",
+      "official_url": "https://www.euro-fh.de",
+      "members": [
+        "DE-HH|Euro-FH - Europäische Fernhochschule Hamburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-35CD887C": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Hochschule Mittelhessen (Gießen/Friedberg)",
+      "official_url": "https://www.thm.de",
+      "members": [
+        "DE-HE|Technische Hochschule Mittelhessen (Gießen/Friedberg)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-3645D7EC": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Kölner Hochschule für Katholische Theologie",
+      "official_url": "https://www.khkt.de",
+      "members": [
+        "DE-NW|Kölner Hochschule für Katholische Theologie (KHKT)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-36E37BAF": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Vechta",
+      "official_url": "https://www.uni-vechta.de",
+      "members": [
+        "DE-NI|Universität Vechta"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-379FB938": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "NBS Northern Business School",
+      "official_url": "https://www.nbs.de",
+      "members": [
+        "DE-HH|NBS Northern Business School"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-381D261C": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Quadriga Hochschule Berlin",
+      "official_url": "https://www.quadriga.eu",
+      "members": [
+        "DE-BE|Quadriga Hochschule Berlin"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-38588B71": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Ostbayerische Technische Hochschule Amberg-Weiden",
+      "official_url": "https://www.oth-aw.de",
+      "members": [
+        "DE-BY|Ostbayerische Technische Hochschule Amberg-Weiden"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-38BC3E16": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Merseburg",
+      "official_url": "https://www.hs-merseburg.de",
+      "members": [
+        "DE-ST|Hochschule Merseburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-38C89262": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Technik Stuttgart",
+      "official_url": "https://www.hft-stuttgart.de",
+      "members": [
+        "DE-BW|Hochschule für Technik Stuttgart"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-395B0822": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Johannes Gutenberg-Universität Mainz",
+      "official_url": "https://www.uni-mainz.de",
+      "members": [
+        "DE-RP|Johannes Gutenberg-Universität Mainz"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-3B91A02E": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Fliedner Fachhochschule Düsseldorf",
+      "official_url": "https://www.fliedner-fachhochschule.de",
+      "members": [
+        "DE-NW|Fliedner Fachhochschule Düsseldorf"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-3BF568E8": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Ludwig-Maximilians-Universität München",
+      "official_url": "https://www.lmu.de",
+      "members": [
+        "DE-BY|Ludwig-Maximilians-Universität München"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-3C0E0D7A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Internationale Hochschule SDI München – Hochschule für angewandte Wissenschaften",
+      "official_url": "https://www.sdi-muenchen.de",
+      "members": [
+        "DE-BY|Internationale Hochschule SDI München – Hochschule für angewandte Wissenschaften"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-3C6DFB6F": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Hamburg",
+      "official_url": "https://www.uni-hamburg.de",
+      "members": [
+        "DE-HH|Universität Hamburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-3C8D8833": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "IST-Hochschule für Management",
+      "official_url": "https://www.ist-hochschule.de",
+      "members": [
+        "DE-NW|IST-Hochschule für Management"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-3DB104EC": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Heidelberg",
+      "official_url": "https://www.uni-heidelberg.de",
+      "members": [
+        "DE-BW|Universität Heidelberg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-3FA61DE6": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Musik Würzburg",
+      "official_url": "https://hfm-wuerzburg.de",
+      "members": [
+        "DE-BY|Hochschule für Musik Würzburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-4045CE85": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Psychologische Hochschule Berlin",
+      "official_url": "https://psychologische-hochschule.de",
+      "members": [
+        "DE-BE|Psychologische Hochschule Berlin"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-40DF455E": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Macromedia University of Applied Sciences",
+      "official_url": "https://www.macromedia-fachhochschule.de",
+      "members": [
+        "DE-BB|Macromedia University of Applied Sciences",
+        "DE-HH|Hochschule Macromedia, University of Applied Science **"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-40FE027A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Lübeck",
+      "official_url": "https://www.uni-luebeck.de",
+      "members": [
+        "DE-SH|Universität Lübeck"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-42CD4B22": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Ingenieur- und Wirtschaftswissenschaften Albstadt-Sigmaringen",
+      "official_url": "https://www.hs-albsig.de",
+      "members": [
+        "DE-BW|Hochschule für Ingenieur- und Wirtschaftswissenschaften Albstadt-Sigmaringen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-44392154": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Duale Hochschule Sachsen",
+      "official_url": "https://www.dhsn.de",
+      "members": [
+        "DE-SN|Duale Hochschule Sachsen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-4447E8CD": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Hochschule Augsburg",
+      "official_url": "https://www.tha.de",
+      "members": [
+        "DE-BY|Technische Hochschule Augsburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-44606173": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule 21",
+      "official_url": "https://www.hs21.de",
+      "members": [
+        "DE-NI|Hochschule 21"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-44A66C04": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Fachhochschule Aachen",
+      "official_url": "https://www.fh-aachen.de",
+      "members": [
+        "DE-NW|Fachhochschule Aachen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-450D8EFA": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "DIU Dresden International University",
+      "official_url": "https://www.di-uni.de",
+      "members": [
+        "DE-SN|DIU Dresden International University"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-4582E4C0": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Provadis School of International Management and Technology",
+      "official_url": "https://www.provadis-hochschule.de",
+      "members": [
+        "DE-HE|Provadis School of International Management and Technology (Frankfurt/Main)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-459002DC": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Theologische Hochschule Friedensau",
+      "official_url": "https://www.thh-friedensau.de",
+      "members": [
+        "DE-ST|Theologische Hochschule Friedensau"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-466C16D5": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Kirchenmusik Heidelberg",
+      "official_url": "https://www.hfk-heidelberg.de",
+      "members": [
+        "DE-BW|Hochschule für Kirchenmusik Heidelberg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-4791CC23": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule der Deutschen Bundesbank",
+      "official_url": "https://www.hochschule-bundesbank.de",
+      "members": [
+        "DE-RP|Hochschule der Deutschen Bundesbank"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-47CDD439": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Constructor University",
+      "official_url": "https://constructor.university",
+      "members": [
+        "DE-HB|Constructor University"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-4848E4A1": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Staatliche Akademie der Bildenden Künste Stuttgart",
+      "official_url": "https://www.abk-stuttgart.de",
+      "members": [
+        "DE-BW|Staatliche Akademie der Bildenden Künste Stuttgart"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-48551F21": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "HafenCity Universität Hamburg - Universität für Baukunst und Metropolenentwicklung",
+      "official_url": "https://www.hcu-hamburg.de",
+      "members": [
+        "DE-HH|HafenCity Universität Hamburg - Universität für Baukunst und Metropolenentwicklung"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-4A1918A0": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Duale Hochschule Schleswig-Holstein",
+      "official_url": "https://www.dhsh.de",
+      "members": [
+        "DE-SH|Duale Hochschule Schleswig-Holstein"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-4A25A017": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Theologische Hochschule Reutlingen",
+      "official_url": "https://www.th-reutlingen.de",
+      "members": [
+        "DE-BW|Theologische Hochschule Reutlingen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-4C0A39B5": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Düsseldorf",
+      "official_url": "https://www.hs-duesseldorf.de",
+      "members": [
+        "DE-NW|Hochschule Düsseldorf"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-4C92C243": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Hochschule Köln",
+      "official_url": "https://www.th-koeln.de",
+      "members": [
+        "DE-NW|Technische Hochschule Köln"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-4EF400E0": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Kunstakademie Münster",
+      "official_url": "https://www.kunstakademie-muenster.de",
+      "members": [
+        "DE-NW|Kunstakademie Münster"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-4F5EC6E3": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Aalen - Technik und Wirtschaft",
+      "official_url": "https://www.hs-aalen.de",
+      "members": [
+        "DE-BW|Hochschule Aalen - Technik und Wirtschaft"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-4FEE1C6C": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Wilhelm Büchner Hochschule",
+      "official_url": "https://www.wb-fernstudium.de",
+      "members": [
+        "DE-HE|Wilhelm Büchner Hochschule"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-501A85C2": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Brand University of Applied Sciences",
+      "official_url": "https://www.brand-university.de",
+      "members": [
+        "DE-HH|Brand University of Applied Sciences"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-50D317BB": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Fachhochschule für Finanzen des Landes Brandenburg",
+      "official_url": "https://fhf.brandenburg.de",
+      "members": [
+        "DE-BB|Fachhochschule für Finanzen des Landes Brandenburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-50FCCD2A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Westfälische Wilhelms-Universität Münster",
+      "official_url": "https://www.uni-muenster.de",
+      "members": [
+        "DE-NW|Westfälische Wilhelms-Universität Münster"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-5132DCB5": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Kunsthochschule Mainz",
+      "official_url": "https://kunsthochschule-mainz.de",
+      "members": [
+        "DE-RP|Kunsthochschule Mainz"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-51352631": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Health Innovation University of Applied Sciences",
+      "official_url": "https://www.hi-university.de",
+      "members": [
+        "DE-BE|Health Innovation University of Applied Sciences"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-514F08C9": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "SRH Fernhochschule Riedlingen",
+      "official_url": "https://www.mobile-university.de",
+      "members": [
+        "DE-BW|SRH Fernhochschule Riedlingen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-518639E6": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Kirchenmusik der Evangelisch-Lutherischen Landeskirche Sachsens",
+      "official_url": "https://www.kirchenmusik-dresden.de",
+      "members": [
+        "DE-SN|Hochschule für Kirchenmusik der Evangelisch-Lutherischen Landeskirche Sachsens"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-521B813C": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Ulm",
+      "official_url": "https://www.uni-ulm.de",
+      "members": [
+        "DE-BW|Universität Ulm"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-52B79A0C": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Musik, Theater und Medien Hannover",
+      "official_url": "https://www.hmtm-hannover.de",
+      "members": [
+        "DE-NI|Hochschule für Musik, Theater und Medien Hannover"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-540286B3": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Neubrandenburg",
+      "official_url": "https://www.hs-nb.de",
+      "members": [
+        "DE-MV|Hochschule Neubrandenburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-54668927": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Hochschule Rosenheim",
+      "official_url": "https://www.th-rosenheim.de",
+      "members": [
+        "DE-BY|Technische Hochschule Rosenheim"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-54ACF41D": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Katholische Universität Eichstätt-Ingolstadt",
+      "official_url": "https://www.ku.de",
+      "members": [
+        "DE-BY|Katholische Universität Eichstätt-Ingolstadt"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-550DDCC6": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Fachhochschule der Wirtschaft Nordrhein-Westfalen",
+      "official_url": "https://www.fhdw.de",
+      "members": [
+        "DE-NW|Fachhochschule der Wirtschaft Nordrhein-Westfalen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-551A1186": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Berliner Hochschule für Technik",
+      "official_url": "https://www.bht-berlin.de",
+      "members": [
+        "DE-BE|Berliner Hochschule für Technik (BHT)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-5533AB57": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Bayreuth",
+      "official_url": "https://www.uni-bayreuth.de",
+      "members": [
+        "DE-BY|Universität Bayreuth"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-5567DEBD": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Bremen",
+      "official_url": "https://www.hs-bremen.de",
+      "members": [
+        "DE-HB|Hochschule Bremen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-557FD547": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule der Diakonie",
+      "official_url": "https://www.hochschule-diakonie.de",
+      "members": [
+        "DE-NW|Fachhochschule der Diakonie"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-55826C49": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "University of Labour",
+      "official_url": "https://www.university-of-labour.de",
+      "members": [
+        "DE-HE|University of Labour (Frankfurt/Main)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-56551C40": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Deutsche Universität für Verwaltungswissenschaften Speyer",
+      "official_url": "https://www.uni-speyer.de",
+      "members": [
+        "DE-RP|Deutsche Universität für Verwaltungswissenschaften Speyer"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-57AC693F": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule der Medien Stuttgart",
+      "official_url": "https://hdm-stuttgart.de",
+      "members": [
+        "DE-BW|Hochschule der Medien Stuttgart"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-5874CBE6": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität der Bundeswehr München",
+      "official_url": "https://www.unibw.de",
+      "members": [
+        "DE-BY|Universität der Bundeswehr München"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-5881F06A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "AKAD – Hochschule Stuttgart",
+      "official_url": "https://www.akad.de",
+      "members": [
+        "DE-BW|AKAD – Hochschule Stuttgart"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-589B0C5B": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Hochschule Deggendorf",
+      "official_url": "https://www.th-deg.de",
+      "members": [
+        "DE-BY|Technische Hochschule Deggendorf"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-59111616": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Archivschule Marburg (Hochschule für Archivwissenschaft)",
+      "official_url": "https://www.archivschule.de",
+      "members": [
+        "DE-HE|Archivschule Marburg (Hochschule für Archivwissenschaft)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-5A796BB3": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Katholische Hochschule für Sozialwesen Berlin",
+      "official_url": "https://www.khsb-berlin.de",
+      "members": [
+        "DE-BE|Katholische Hochschule für Sozialwesen Berlin"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-5C55C38B": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Frankfurt School of Finance & Management",
+      "official_url": "https://www.frankfurt-school.de",
+      "members": [
+        "DE-HE|Frankfurt School of Finance & Management"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-5C990443": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Fachhochschule für öffentliche Verwaltung, Polizei und Rechtspflege Mecklenburg-Vorpommern",
+      "official_url": "https://www.fh-guestrow.de",
+      "members": [
+        "DE-MV|Fachhochschule für öffentliche Verwaltung, Polizei und Rechtspflege Mecklenburg-Vorpommern"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-5CC15E36": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für angewandte Wissenschaften München",
+      "official_url": "https://hm.edu",
+      "members": [
+        "DE-BY|Hochschule für angewandte Wissenschaften München"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-5CEA08BF": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Evangelische Hochschule TABOR",
+      "official_url": "https://www.eh-tabor.de",
+      "members": [
+        "DE-HE|Evangelische Hochschule TABOR (Marburg)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-5D21A57A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Berufsakademie für Gesundheits- und Sozialwesen Saarland",
+      "official_url": null,
+      "members": [
+        "DE-SL|Berufsakademie für Gesundheits- und Sozialwesen Saarland gGmbH (BAGSS)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-5DA0CCC0": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Künste im Sozialen",
+      "official_url": "https://www.hks-ottersberg.de",
+      "members": [
+        "DE-NI|Hochschule für Künste im Sozialen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-5F6B8E12": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Finanzwirtschaft & Management",
+      "official_url": "https://www.s-hochschule.de",
+      "members": [
+        "DE-NW|Hochschule für Finanzwirtschaft & Management"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-606079E5": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Frankfurt University of Applied Sciences",
+      "official_url": "https://www.frankfurt-university.de",
+      "members": [
+        "DE-HE|Frankfurt University of Applied Sciences"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-617CB782": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Merz Akademie Hochschule für Gestaltung Kunst und Medien Stuttgart",
+      "official_url": "https://www.merz-akademie.de",
+      "members": [
+        "DE-BW|Merz Akademie Hochschule für Gestaltung Kunst und Medien Stuttgart"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-61A28327": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Zittau/Görlitz",
+      "official_url": "https://www.hszg.de",
+      "members": [
+        "DE-SN|Hochschule Zittau/Görlitz"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-61F9DA1B": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Gesellschaftsgestaltung",
+      "official_url": "https://hfgg.de",
+      "members": [
+        "DE-RP|Hochschule für Gesellschaftsgestaltung"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-622B5496": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Kassel",
+      "official_url": "https://www.uni-kassel.de",
+      "members": [
+        "DE-HE|Universität Kassel"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-62D051E1": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Tübingen",
+      "official_url": "https://uni-tuebingen.de",
+      "members": [
+        "DE-BW|Universität Tübingen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-62D704CE": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Technik und Wirtschaft Dresden",
+      "official_url": "https://www.htw-dresden.de",
+      "members": [
+        "DE-SN|Hochschule für Technik und Wirtschaft Dresden"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-6381E23A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Akkon Hochschule",
+      "official_url": "https://akkon-hochschule.de",
+      "members": [
+        "DE-BE|Akkon Hochschule"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-63966108": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Martin-Luther-Universität Halle-Wittenberg",
+      "official_url": "https://www.uni-halle.de",
+      "members": [
+        "DE-ST|Martin-Luther-Universität Halle-Wittenberg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-64F03647": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "German International University",
+      "official_url": "http://www.giu-berlin.de",
+      "members": [
+        "DE-BE|German International University"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-65355044": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Mainz",
+      "official_url": "https://www.hs-mainz.de",
+      "members": [
+        "DE-RP|Hochschule Mainz"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-65749061": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Kirchenmusik der Evangelischen Kirche von Westfalen",
+      "official_url": "https://www.hochschule-herford.de",
+      "members": [
+        "DE-NW|Hochschule für Kirchenmusik der Evangelischen Kirche von Westfalen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-65AA60A1": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Paderborn",
+      "official_url": "https://www.uni-paderborn.de",
+      "members": [
+        "DE-NW|Universität Paderborn"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-660E1BB2": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Harz",
+      "official_url": "https://www.hs-harz.de",
+      "members": [
+        "DE-ST|Hochschule Harz"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-66981C2B": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Bielefeld",
+      "official_url": "https://www.uni-bielefeld.de",
+      "members": [
+        "DE-NW|Universität Bielefeld"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-66D641DF": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Nordhausen",
+      "official_url": "https://www.hs-nordhausen.de",
+      "members": [
+        "DE-TH|Hochschule Nordhausen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-670B7399": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Bildende Künste–Städelschule Frankfurt am Main",
+      "official_url": "https://staedelschule.de/de",
+      "members": [
+        "DE-HE|Hochschule für Bildende Künste–Städelschule Frankfurt am Main"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-677ABB74": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Evangelische Hochschule Ludwigsburg",
+      "official_url": "https://www.eh-ludwigsburg.de",
+      "members": [
+        "DE-BW|Evangelische Hochschule Ludwigsburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-6820E908": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für angewandte Wissenschaften Coburg",
+      "official_url": "https://www.hs-coburg.de",
+      "members": [
+        "DE-BY|Hochschule für angewandte Wissenschaften Coburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-6866ABA3": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Hochschule Wildau",
+      "official_url": "https://www.th-wildau.de",
+      "members": [
+        "DE-BB|Technische Hochschule Wildau"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-6A2EF4C3": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Hannover",
+      "official_url": "https://www.hs-hannover.de",
+      "members": [
+        "DE-NI|Hochschule Hannover"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-6ABA8D4F": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Ukrainische Freie Universität in München (staatlich genehmigte nichtstaatliche Universität, vgl. Art. 103 Abs.3 BayHSchG)",
+      "official_url": "https://www.ufu-muenchen.de",
+      "members": [
+        "DE-BY|Ukrainische Freie Universität in München (staatlich genehmigte nichtstaatliche Universität, vgl. Art. 103 Abs.3 BayHSchG)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-6AE93CEE": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "HFH Hamburger Fern-Hochschule",
+      "official_url": "https://www.hfh-fernstudium.de",
+      "members": [
+        "DE-HH|HFH Hamburger Fern-Hochschule",
+        "DE-MV|HFH Hamburger Fern-Hochschule"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-6BDEA2F6": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Internationale Hochschule Liebenzell",
+      "official_url": "https://www.ihl.eu",
+      "members": [
+        "DE-BW|Internationale Hochschule Liebenzell (IHL)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-6BE279ED": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "ISM International School of Management",
+      "official_url": "https://ism.de",
+      "members": [
+        "DE-HH|ISM International School of Management",
+        "DE-NW|International School of Management"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-6BE29E26": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Goethe-Universität Frankfurt am Main",
+      "official_url": "https://www.uni-frankfurt.de",
+      "members": [
+        "DE-HE|Goethe-Universität Frankfurt am Main"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-6CCAF63A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Osnabrück",
+      "official_url": "https://www.hs-osnabrueck.de",
+      "members": [
+        "DE-NI|Hochschule Osnabrück"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-6CE50916": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Staatliche Hochschule für Musik Freiburg",
+      "official_url": "https://www.mh-freiburg.de",
+      "members": [
+        "DE-BW|Staatliche Hochschule für Musik Freiburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-6D9A2988": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "VICTORIA | Internationale Hochschule",
+      "official_url": "https://www.victoria-hochschule.de",
+      "members": [
+        "DE-BE|VICTORIA | Internationale Hochschule"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-6E4E9287": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Wirtschaft und Gesellschaft Ludwigshafen",
+      "official_url": "https://www.hwg-lu.de",
+      "members": [
+        "DE-RP|Hochschule für Wirtschaft und Gesellschaft Ludwigshafen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-6F20BF4D": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Esslingen - Technik, Wirtschaft, Soziales",
+      "official_url": "https://www.hs-esslingen.de",
+      "members": [
+        "DE-BW|Hochschule Esslingen - Technik, Wirtschaft, Soziales"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-701F81DA": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Meißen (FH) und Fortbildungszentrum",
+      "official_url": "https://www.hsf.sachsen.de",
+      "members": [
+        "DE-SN|Hochschule Meißen (FH) und Fortbildungszentrum"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-705B91D0": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Universität Chemnitz",
+      "official_url": "https://www.saxeed.net",
+      "members": [
+        "DE-SN|Technische Universität Chemnitz"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-7134AF4F": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Philipps-Universität Marburg",
+      "official_url": "https://www.uni-marburg.de",
+      "members": [
+        "DE-HE|Philipps-Universität Marburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-718BBBB8": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "IU Internationale Hochschule",
+      "official_url": "https://www.iu-dualesstudium.de",
+      "members": [
+        "DE-HH|IUBH Internationale Hochschule, Campus Hamburg",
+        "DE-TH|IU Internationale Hochschule in Erfurt"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-72AA564E": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Brandenburgische Technische Universität Cottbus-Senftenberg",
+      "official_url": "https://www.b-tu.de",
+      "members": [
+        "DE-BB|Brandenburgische Technische Universität Cottbus-Senftenberg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-734E7C77": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Private Hochschule für Wirtschaft und Technik",
+      "official_url": "https://www.phwt.de",
+      "members": [
+        "DE-NI|Private Hochschule für Wirtschaft und Technik"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-755DAEB3": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Potsdam",
+      "official_url": "https://www.uni-potsdam.de",
+      "members": [
+        "DE-BB|Universität Potsdam"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-758A394A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Private Kolping Hochschule für Gesundheit und Soziales",
+      "official_url": "https://www.kolping-hochschule.de",
+      "members": [
+        "DE-NW|Private Kolping Hochschule für Gesundheit und Soziales"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-75B71A89": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Kirchenmusik Tübingen",
+      "official_url": "https://www.kirchenmusikhochschule.de",
+      "members": [
+        "DE-BW|Hochschule für Kirchenmusik Tübingen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-75D1EB90": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "PH Ludwigsburg",
+      "official_url": "https://www.ph-ludwigsburg.de",
+      "members": [
+        "DE-BW|PH Ludwigsburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-7612A99E": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Ostbayerische Technische Hochschule Regensburg",
+      "official_url": "https://www.oth-regensburg.de",
+      "members": [
+        "DE-BY|Ostbayerische Technische Hochschule Regensburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-766BDEBB": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Polizeiakademie Niedersachsen",
+      "official_url": "https://polizei-studium.de",
+      "members": [
+        "DE-NI|Polizeiakademie Niedersachsen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-7692F732": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "HHL Leipzig Graduate School of Management",
+      "official_url": "https://www.hhl.de",
+      "members": [
+        "DE-SN|HHL Leipzig Graduate School of Management"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-7796501C": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für angewandte Wissenschaften Weihenstephan-Triesdorf",
+      "official_url": "https://www.hswt.de",
+      "members": [
+        "DE-BY|Hochschule für angewandte Wissenschaften Weihenstephan-Triesdorf"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-780D3506": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Bonn-Rhein-Sieg",
+      "official_url": "https://www.h-brs.de",
+      "members": [
+        "DE-NW|Hochschule Bonn-Rhein-Sieg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-789DECCE": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für öffentliche Verwaltung Rheinland-Pfalz",
+      "official_url": "https://hoev.rlp.de",
+      "members": [
+        "DE-RP|Hochschule für öffentliche Verwaltung Rheinland-Pfalz"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-7A952626": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "ISBA Internationale Studien- und Berufsakademie",
+      "official_url": "https://www.isba.eu",
+      "members": [
+        "DE-MV|Internationale Studien- und Berufsakademie ISBA",
+        "DE-SL|ISBA gGmbH Internationale Studien- und Berufsakademie"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-7C095366": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Universität München",
+      "official_url": "https://www.tum.de",
+      "members": [
+        "DE-BY|Technische Universität München"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-7C9DC541": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Wirtschaft und Umwelt Nürtingen-Geislingen",
+      "official_url": "https://www.hfwu.de",
+      "members": [
+        "DE-BW|Hochschule für Wirtschaft und Umwelt Nürtingen-Geislingen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-7D64A04C": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "KLU Kühne Logistics University - Wissenschaftliche Hochschule für Logistik und Unternehmensführung",
+      "official_url": "https://www.klu.org",
+      "members": [
+        "DE-HH|KLU Kühne Logistics University - Wissenschaftliche Hochschule für Logistik und Unternehmensführung"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-7E817150": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Charité - Universitätsmedizin Berlin",
+      "official_url": "https://www.charite.de",
+      "members": [
+        "DE-BE|Charité - Universitätsmedizin Berlin"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-7F4D34EC": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Friedrich-Schiller-Universität Jena",
+      "official_url": "https://www.uni-jena.de",
+      "members": [
+        "DE-TH|Friedrich-Schiller-Universität Jena"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-7F9F30E7": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Steinbeis Hochschule",
+      "official_url": "https://www.steinbeis-hochschule.de",
+      "members": [
+        "DE-ST|Steinbeis Hochschule"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-7FB9ACF2": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Humboldt-Universität zu Berlin",
+      "official_url": "http://www.hu-berlin.de",
+      "members": [
+        "DE-BE|Humboldt-Universität zu Berlin"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-80625C04": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "International Psychoanalytic University Berlin",
+      "official_url": "https://www.ipu-berlin.de",
+      "members": [
+        "DE-BE|International Psychoanalytic University Berlin"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-8106A285": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Kirchenmusik Rottenburg",
+      "official_url": "https://www.kirchenmusik-hochschule.org",
+      "members": [
+        "DE-BW|Hochschule für Kirchenmusik Rottenburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-819C93AE": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "HAWK Hildesheim/ Holzminden/ Göttingen",
+      "official_url": "https://www.hawk.de",
+      "members": [
+        "DE-NI|HAWK Hildesheim/ Holzminden/ Göttingen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-81E24F24": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Leibniz Universität Hannover",
+      "official_url": "https://www.uni-hannover.de",
+      "members": [
+        "DE-NI|Leibniz Universität Hannover"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-823B2D33": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "DHGS Deutsche Hochschule für Gesundheit und Sport",
+      "official_url": "https://www.dhgs-hochschule.de",
+      "members": [
+        "DE-BE|DHGS Deutsche Hochschule für Gesundheit und Sport"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-83A2DDFB": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Pforzheim - Gestaltung, Technik, Wirtschaft und Recht",
+      "official_url": "https://www.hs-pforzheim.de",
+      "members": [
+        "DE-BW|Hochschule Pforzheim - Gestaltung, Technik, Wirtschaft und Recht"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-83B75354": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Burg Giebichenstein Kunsthochschule Halle",
+      "official_url": "https://www.burg-halle.de",
+      "members": [
+        "DE-ST|Burg Giebichenstein Kunsthochschule Halle"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-83D1DA34": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Regensburg",
+      "official_url": "https://www.uni-regensburg.de",
+      "members": [
+        "DE-BY|Universität Regensburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-84824DD9": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Christian-Albrechts-Universität zu Kiel",
+      "official_url": "https://www.uni-kiel.de",
+      "members": [
+        "DE-SH|Christian-Albrechts-Universität zu Kiel"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-856E235F": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "CBS University of Applied Sciences",
+      "official_url": "https://www.cbs.de",
+      "members": [
+        "DE-NW|CBS International Business School",
+        "DE-NW|Europäische Fachhochschule Rhein/Erft"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-8792A52A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg",
+      "official_url": null,
+      "members": [
+        "DE-HH|Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-8838F343": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule der Polizei des Landes Brandenburg",
+      "official_url": "https://hpolbb.de",
+      "members": [
+        "DE-BB|Hochschule der Polizei des Landes Brandenburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-8867E01E": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "EBC Hochschule Hamburg",
+      "official_url": "https://www.eso.de/marken/unsere-hochschulen/ebc-hochschule",
+      "members": [
+        "DE-HH|EBC Hochschule Hamburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-88C394FF": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für angewandte Wissenschaften Kempten",
+      "official_url": "https://www.hs-kempten.de",
+      "members": [
+        "DE-BY|Hochschule für angewandte Wissenschaften Kempten"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-88F739C7": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Katholische Hochschule Nordrhein-Westfalen",
+      "official_url": "https://katho-nrw.de",
+      "members": [
+        "DE-NW|Katholische Hochschule Nordrhein-Westfalen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-892C2B02": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Universität Nürnberg",
+      "official_url": "https://www.utn.de",
+      "members": [
+        "DE-BY|Technische Universität Nürnberg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-8A2621E2": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Folkwang Universität der Künste",
+      "official_url": "https://www.folkwang-uni.de",
+      "members": [
+        "DE-NW|Folkwang Universität der Künste"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-8AB6E9F3": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Mediadesign Hochschule für Kommunikation und Informatik",
+      "official_url": "https://www.mediadesign.de",
+      "members": [
+        "DE-BE|Mediadesign Hochschule für Kommunikation und Informatik"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-8B3FF683": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Künste Bremen",
+      "official_url": "https://www.hfk-bremen.de",
+      "members": [
+        "DE-HB|Hochschule für Künste Bremen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-8B5722AF": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Hochschule Brandenburg",
+      "official_url": "https://www.th-brandenburg.de",
+      "members": [
+        "DE-BB|Technische Hochschule Brandenburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-8B8B233A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Emden / Leer",
+      "official_url": "https://www.hs-emden-leer.de",
+      "members": [
+        "DE-NI|Hochschule Emden / Leer"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-8CF3A197": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für angewandtes Management",
+      "official_url": "https://www.fham.de",
+      "members": [
+        "DE-BB|Hochschule für angewandtes Management (HAM)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-8D3A1160": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Technik und Wirtschaft des Saarlandes",
+      "official_url": "https://www.htwsaar.de",
+      "members": [
+        "DE-SL|Hochschule für Technik und Wirtschaft des Saarlandes"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-8D9E4F21": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Rechtspflege Schwetzingen",
+      "official_url": "https://www.hfr-schwetzingen.de",
+      "members": [
+        "DE-BW|Hochschule für Rechtspflege Schwetzingen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-8DA071A3": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Evangelische Hochschule Dresden (FH)",
+      "official_url": "https://www.ehs-dresden.de",
+      "members": [
+        "DE-SN|Evangelische Hochschule Dresden (FH)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-8DF9063F": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Gesundheitsfachberufe Eberswalde",
+      "official_url": "https://gesundheit-hochschule.de",
+      "members": [
+        "DE-BB|Hochschule für Gesundheitsfachberufe Eberswalde"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-8F0B869F": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Musik Saar",
+      "official_url": "http://www.hfm.saarland.de",
+      "members": [
+        "DE-SL|Hochschule für Musik Saar"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-8F341ADD": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Fachhochschule Potsdam",
+      "official_url": "https://www.fh-potsdam.de",
+      "members": [
+        "DE-BB|Fachhochschule Potsdam"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-8F4F588D": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "DIPLOMA Hochschule – Private Fachhochschule Nordhessen (Bad Sooden-Allendorf)",
+      "official_url": "https://www.diploma.de",
+      "members": [
+        "DE-HE|DIPLOMA Hochschule – Private Fachhochschule Nordhessen (Bad Sooden-Allendorf)",
+        "DE-HH|DIPLOMA Hochschule Hamburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-8F942E61": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Ravensburg-Weingarten - Technik, Wirtschaft, Sozialwesen",
+      "official_url": "https://www.rwu.de",
+      "members": [
+        "DE-BW|Hochschule Ravensburg-Weingarten - Technik, Wirtschaft, Sozialwesen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-9085A09A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Universität Hamburg",
+      "official_url": "https://www.tuhh.de/tuhh/startseite",
+      "members": [
+        "DE-HH|Technische Universität Hamburg-Harburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-908E8A5D": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Bergische Universität Wuppertal",
+      "official_url": "https://www.uni-wuppertal.de",
+      "members": [
+        "DE-NW|Bergische Universität Wuppertal"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-90A61093": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Weißensee Kunsthochschule Berlin",
+      "official_url": "https://kh-berlin.de",
+      "members": [
+        "DE-BE|Weißensee Kunsthochschule Berlin (KHB)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-91341A83": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Osnabrück",
+      "official_url": "https://www.uni-osnabrueck.de",
+      "members": [
+        "DE-NI|Universität Osnabrück"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-91444195": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Politik München (Universitäre Einrichtung mit eigenem Rechtsstatus)",
+      "official_url": "https://www.hfp.tum.de",
+      "members": [
+        "DE-BY|Hochschule für Politik München (Universitäre Einrichtung mit eigenem Rechtsstatus)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-920E5B21": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Polizei und öffentliche Verwaltung Nordrhein-Westfalen",
+      "official_url": "https://www.hspv.nrw.de",
+      "members": [
+        "DE-NW|Hochschule für Polizei und öffentliche Verwaltung Nordrhein-Westfalen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-92B0CBE6": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Deutsche Hochschule der Polizei Münster",
+      "official_url": "https://www.dhpol.de",
+      "members": [
+        "DE-NW|Deutsche Hochschule der Polizei Münster"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-92D8BA3F": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Evangelische Hochschule Hessen",
+      "official_url": "https://www.eh-hessen.de",
+      "members": [
+        "DE-HE|Evangelische Hochschule Hessen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-9383B300": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Bucerius Law School Hochschule für Rechtswissenschaft",
+      "official_url": "https://www.law-school.de",
+      "members": [
+        "DE-HH|Bucerius Law School Hochschule für Rechtswissenschaft"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-94E76296": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Bildende Künste Braunschweig",
+      "official_url": "https://www.hbk-bs.de",
+      "members": [
+        "DE-NI|Hochschule für Bildende Künste Braunschweig"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-95820360": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Evangelische Hochschule für Kirchenmusik Halle an der Saale",
+      "official_url": "https://ehk-halle.de",
+      "members": [
+        "DE-ST|Evangelische Hochschule für Kirchenmusik Halle an der Saale"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-95A8D267": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Grafik und Buchkunst Leipzig",
+      "official_url": "https://www.hgb-leipzig.de",
+      "members": [
+        "DE-SN|Hochschule für Grafik und Buchkunst Leipzig"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-96FD0EAB": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität zu Köln",
+      "official_url": "https://uni-koeln.de",
+      "members": [
+        "DE-NW|Universität zu Köln"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-976B9A2E": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Robert-Schumann-Hochschule Düsseldorf",
+      "official_url": "https://www.rsh-duesseldorf.de",
+      "members": [
+        "DE-NW|Robert-Schumann-Hochschule Düsseldorf"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-99024AE2": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Schauspielkunst Ernst Busch Berlin",
+      "official_url": "https://www.hfs-berlin.de",
+      "members": [
+        "DE-BE|Hochschule für Schauspielkunst Ernst Busch Berlin (HfS)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-99E5F115": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule der Deutschen Gesetzlichen Unfallversicherung",
+      "official_url": "https://www.dguv.de/hochschule/index.jsp",
+      "members": [
+        "DE-HE|Hochschule der Deutschen Gesetzlichen Unfallversicherung (HGU)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-9A3BAD1E": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Hildesheim",
+      "official_url": "https://www.uni-hildesheim.de",
+      "members": [
+        "DE-NI|Universität Hildesheim"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-9B4D8864": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Berufliche Hochschule Hamburg BHH",
+      "official_url": "https://bhh.de",
+      "members": [
+        "DE-HH|Berufliche Hochschule Hamburg BHH"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-9C957CAA": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule RheinMain (Wiesbaden/Rüsselsheim)",
+      "official_url": "https://www.hs-rm.de",
+      "members": [
+        "DE-HE|Hochschule RheinMain (Wiesbaden/Rüsselsheim)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-9D0DE68B": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule der Justiz Nordrhein-Westfalen",
+      "official_url": "https://www.hsjustiz.nrw.de",
+      "members": [
+        "DE-NW|Fachhochschule für Rechtspflege in NRW"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-9D336EC9": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Rheinisch-Westfälische Technische Hochschule Aachen",
+      "official_url": "https://www.rwth-aachen.de",
+      "members": [
+        "DE-NW|Rheinisch-Westfälische Technische Hochschule (RWTH) Aachen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-9D3878D4": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Deutsche Sporthochschule Köln",
+      "official_url": "https://www.dshs-koeln.de",
+      "members": [
+        "DE-NW|Deutsche Sporthochschule Köln"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-9D69CACF": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Fachhochschule Dresden",
+      "official_url": "https://www.fh-dresden.eu",
+      "members": [
+        "DE-SN|Fachhochschule Dresden"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-9D6D99CC": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Gisma University of Applied Sciences",
+      "official_url": "https://www.gisma.com",
+      "members": [
+        "DE-BB|Gisma University of Applied Sciences"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-9F79B54A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Westfälische Hochschule",
+      "official_url": "https://www.w-hs.de",
+      "members": [
+        "DE-NW|Westfälische Hochschule"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-A0A49556": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Trier",
+      "official_url": "https://www.uni-trier.de",
+      "members": [
+        "DE-RP|Universität Trier"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-A0CBFA7C": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Worms",
+      "official_url": "https://www.hs-worms.de",
+      "members": [
+        "DE-RP|Hochschule Worms"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-A2A428DC": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "HSBA Hamburg School of Business Administration",
+      "official_url": "https://www.hsba.de",
+      "members": [
+        "DE-HH|HSBA Hamburg School of Business Administration"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-A303ADB7": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für angewandte Wissenschaften Hof",
+      "official_url": "https://www.hof-university.de",
+      "members": [
+        "DE-BY|Hochschule für angewandte Wissenschaften Hof"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-A4CF6030": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Staatliche Hochschule für Musik Trossingen",
+      "official_url": "https://www.hfm-trossingen.de",
+      "members": [
+        "DE-BW|Staatliche Hochschule für Musik Trossingen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-A4D1A1AB": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Musik und Theater »Felix Mendelssohn Bartholdy« Leipzig",
+      "official_url": "https://www.hmt-leipzig.de",
+      "members": [
+        "DE-SN|Hochschule für Musik und Theater »Felix Mendelssohn Bartholdy« Leipzig"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-A51EADE6": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Deutsche Hochschule für angewandte Wissenschaften",
+      "official_url": "https://deutschehochschule.de",
+      "members": [
+        "DE-BB|Deutsche Hochschule für angewandte Wissenschaften"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-A5AC58BC": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Musik Carl Maria von Weber Dresden",
+      "official_url": "https://www.hfmdd.de",
+      "members": [
+        "DE-SN|Hochschule für Musik Carl Maria von Weber Dresden"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-A686FCFA": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Medizinische Hochschule Brandenburg",
+      "official_url": "https://www.mhb-fontane.de",
+      "members": [
+        "DE-BB|Medizinische Hochschule Brandenburg - Außenansicht"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-A716EDAB": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "FOM Hochschule für Oekonomie & Management",
+      "official_url": "https://www.fom.de",
+      "members": [
+        "DE-HH|FOM Die Hochschule für Berufstätige",
+        "DE-NW|FOM Hochschule für Oekonomie & Management"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-A7CB93AD": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Steuerakademie Niedersachsen",
+      "official_url": "https://www.mit-sicherheit-karriere.de",
+      "members": [
+        "DE-NI|Steuerakademie Niedersachsen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-A83C14C4": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "PH Weingarten",
+      "official_url": "https://www.ph-weingarten.de",
+      "members": [
+        "DE-BW|PH Weingarten"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-A8C58F48": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Ernst-Abbe-Hochschule Jena",
+      "official_url": "https://www.eah-jena.de",
+      "members": [
+        "DE-TH|Ernst-Abbe-Hochschule Jena"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-A994F23F": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Musik Detmold",
+      "official_url": "https://www.hfm-detmold.de",
+      "members": [
+        "DE-NW|Hochschule für Musik Detmold"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-AA2C65F4": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Flensburg",
+      "official_url": "https://hs-flensburg.de",
+      "members": [
+        "DE-SH|Hochschule Flensburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-AA7081B7": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "FH Sport und Management",
+      "official_url": "https://www.fhsmp.de",
+      "members": [
+        "DE-BB|FH Sport und Management - Campus"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-AB90C3B0": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Gestaltung Offenbach am Main",
+      "official_url": "https://www.hfg-offenbach.de",
+      "members": [
+        "DE-HE|Hochschule für Gestaltung Offenbach am Main"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-ABE3A109": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "FernUniversität in Hagen",
+      "official_url": "https://www.fernuni-hagen.de",
+      "members": [
+        "DE-NW|FernUniversität in Hagen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-AC36AD1B": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Hochschule Bingen",
+      "official_url": "https://www.th-bingen.de",
+      "members": [
+        "DE-RP|Technische Hochschule Bingen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-AC8CFDC2": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Universität Braunschweig",
+      "official_url": "https://www.tu-braunschweig.de",
+      "members": [
+        "DE-NI|Technische Universität Braunschweig"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-AD4B28F9": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Fachhochschule Wedel",
+      "official_url": "https://www.fh-wedel.de",
+      "members": [
+        "DE-SH|Fachhochschule Wedel"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-ADDA85A2": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Freie Hochschule Stuttgart – Seminar für Waldorfpädagogik",
+      "official_url": "https://www.freie-hochschule-stuttgart.de",
+      "members": [
+        "DE-BW|Freie Hochschule Stuttgart – Seminar für Waldorfpädagogik"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-AECF7F9A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Evangelische Kirchenmusik Bayreuth",
+      "official_url": "https://www.hfk-bayreuth.de",
+      "members": [
+        "DE-BY|Hochschule für Evangelische Kirchenmusik Bayreuth"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-AEFBC1CF": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Private Hochschule Göttingen",
+      "official_url": "https://www.pfh.de",
+      "members": [
+        "DE-NI|Private Hochschule Göttingen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-B01B0994": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Freiburg",
+      "official_url": "https://uni-freiburg.de",
+      "members": [
+        "DE-BW|Universität Freiburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-B061110A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Leuphana Universität Lüneburg",
+      "official_url": "https://www.leuphana.de",
+      "members": [
+        "DE-NI|Leuphana Universität Lüneburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-B0908312": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "CODE University of Applied Sciences",
+      "official_url": "https://code.berlin",
+      "members": [
+        "DE-BE|CODE University of Applied Sciences"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-B13B4F4F": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Bochum",
+      "official_url": "https://www.hochschule-bochum.de",
+      "members": [
+        "DE-NW|Hochschule Bochum"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-B2200F51": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Mittweida",
+      "official_url": "https://www.hs-mittweida.de",
+      "members": [
+        "DE-SN|Hochschule Mittweida"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-B26DE26C": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Helmut-Schmidt-Universität - Universität der Bundeswehr Hamburg",
+      "official_url": "https://www.hsu-hh.de",
+      "members": [
+        "DE-HH|Helmut-Schmidt-Universität - Universität der Bundeswehr Hamburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-B27DA761": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Barenboim-Said Akademie",
+      "official_url": "https://www.barenboimsaid.de",
+      "members": [
+        "DE-BE|Barenboim-Said Akademie gGmbH"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-B377A7B1": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Erfurt",
+      "official_url": "https://www.uni-erfurt.de",
+      "members": [
+        "DE-TH|Universität Erfurt"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-B4A33FEB": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Carl Remigius Medical School",
+      "official_url": "https://www.carl-remigius.de",
+      "members": [
+        "DE-HH|Carl Remigius Medical School"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-B5E9D769": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Soziale Arbeit und Pädagogik",
+      "official_url": "https://www.hsap.de",
+      "members": [
+        "DE-BE|Hochschule für Soziale Arbeit und Pädagogik"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-B5F7B2B0": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Julius-Maximilians-Universität Würzburg",
+      "official_url": "https://www.uni-wuerzburg.de",
+      "members": [
+        "DE-BY|Julius-Maximilians-Universität Würzburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-B60C4C77": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Akademie der Bildenden Künste Nürnberg",
+      "official_url": "https://adbk-nuernberg.de",
+      "members": [
+        "DE-BY|Akademie der Bildenden Künste Nürnberg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-B6F2CBE8": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "XU",
+      "official_url": "https://xu-university.com",
+      "members": [
+        "DE-BB|XU"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-B849EE58": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Mannheim",
+      "official_url": "https://www.uni-mannheim.de",
+      "members": [
+        "DE-BW|Universität Mannheim"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-B9B7E336": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Fachhochschule für die Wirtschaft Hannover",
+      "official_url": "https://www.fhdw-hannover.de",
+      "members": [
+        "DE-NI|Fachhochschule für die Wirtschaft Hannover"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-B9CC4CD7": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Karlshochschule International University",
+      "official_url": "https://karlshochschule.de",
+      "members": [
+        "DE-BW|Karlshochschule International University"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-BC7BC0FE": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Muthesius Kunsthochschule Kiel",
+      "official_url": "https://muthesius-kunsthochschule.de",
+      "members": [
+        "DE-SH|Muthesius Kunsthochschule Kiel"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-BD4569A2": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Kaiserslautern",
+      "official_url": "https://www.hs-kl.de",
+      "members": [
+        "DE-RP|Hochschule Kaiserslautern"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-BEAA4AC8": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "EBS Universität für Wirtschaft und Recht",
+      "official_url": "https://www.ebs.edu",
+      "members": [
+        "DE-HE|EBS Universität für Wirtschaft und Recht (Oestrich-Winkel)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-BF4D2C33": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hessische Hochschule für öffentliches Management und Sicherheit",
+      "official_url": "https://hoems.hessen.de",
+      "members": [
+        "DE-HE|Hessische Hochschule für öffentliches Management und Sicherheit (HöMS)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-BF99C798": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule der Bildenden Künste Saar",
+      "official_url": "https://www.hbksaar.de",
+      "members": [
+        "DE-SL|Hochschule der Bildenden Künste Saar"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-C0AE2966": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Wismar",
+      "official_url": "https://www.hs-wismar.de",
+      "members": [
+        "DE-MV|Hochschule Wismar"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-C107396B": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "HSD Hochschule Döpfer",
+      "official_url": "https://www.hs-doepfer.de",
+      "members": [
+        "DE-BB|HSD Hochschule Döpfer GmbH",
+        "DE-NW|HSD Hochschule Döpfer"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-C14F807F": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Universität Darmstadt",
+      "official_url": "https://www.tu-darmstadt.de",
+      "members": [
+        "DE-HE|Technische Universität Darmstadt"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-C1A841F9": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Staatliche Akademie der Bildenden Künste Karlsruhe",
+      "official_url": "https://www.kunstakademie-karlsruhe.de",
+      "members": [
+        "DE-BW|Staatliche Akademie der Bildenden Künste Karlsruhe"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-C1AB1B37": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Universität Dortmund",
+      "official_url": "https://www.tu-dortmund.de",
+      "members": [
+        "DE-NW|Technische Universität Dortmund"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-C1D4A99D": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für angewandte Wissenschaften Landshut",
+      "official_url": "https://www.haw-landshut.de",
+      "members": [
+        "DE-BY|Hochschule für angewandte Wissenschaften Landshut"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-C24BE0FB": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Finanzen Rheinland-Pfalz",
+      "official_url": "https://landesfinanzschule-edenkoben.rlp.de",
+      "members": [
+        "DE-RP|Hochschule für Finanzen Rheinland-Pfalz"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-C34569DB": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Musik und Theater München",
+      "official_url": "https://hmtm.de",
+      "members": [
+        "DE-BY|Hochschule für Musik und Theater München"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-C379160F": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Katholische Hochschule Freiburg",
+      "official_url": "https://www.kh-freiburg.de",
+      "members": [
+        "DE-BW|Katholische Hochschule Freiburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-C464ABBB": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Hochschule Ulm",
+      "official_url": "https://www.thu.de",
+      "members": [
+        "DE-BW|Technische Hochschule Ulm"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-C4782A83": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Angewandte Wissenschaften Hamburg",
+      "official_url": "https://www.haw-hamburg.de",
+      "members": [
+        "DE-HH|Hochschule für Angewandte Wissenschaften Hamburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-C4A9F029": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule der Polizei Rheinland-Pfalz",
+      "official_url": "https://www.polizei.rlp.de",
+      "members": [
+        "DE-RP|Hochschule der Polizei Rheinland-Pfalz"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-C50CEC25": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Kunstakademie Düsseldorf",
+      "official_url": "https://kunstakademie-duesseldorf.de",
+      "members": [
+        "DE-NW|Kunstakademie Düsseldorf"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-C579BE61": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Humanistische Hochschule Berlin",
+      "official_url": "https://humanistische-hochschule-berlin.de",
+      "members": [
+        "DE-BE|Humanistische Hochschule Berlin"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-C67FC721": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "PH Schwäbisch Gmünd",
+      "official_url": "https://www.ph-gmuend.de",
+      "members": [
+        "DE-BW|PH Schwäbisch Gmünd"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-C74696D0": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Akademie der Bildenden Künste München",
+      "official_url": "https://www.adbk.de",
+      "members": [
+        "DE-BY|Akademie der Bildenden Künste München"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-C8DE9175": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Bildende Künste Dresden",
+      "official_url": "https://www.hfbk-dresden.de",
+      "members": [
+        "DE-SN|Hochschule für Bildende Künste Dresden"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-C9521809": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Fachhochschule Erfurt",
+      "official_url": "https://www.fh-erfurt.de",
+      "members": [
+        "DE-TH|Fachhochschule Erfurt"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-C994F80F": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Fulda",
+      "official_url": "https://www.hs-fulda.de",
+      "members": [
+        "DE-HE|Hochschule Fulda"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-C9F2B38F": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Gesundheit",
+      "official_url": "https://gesundheitscampus.hochschule-bochum.de",
+      "members": [
+        "DE-NW|Hochschule für Gesundheit"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-CA665B06": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Musik und Darstellende Kunst Frankfurt am Main",
+      "official_url": "https://www.hfmdk-frankfurt.de",
+      "members": [
+        "DE-HE|Hochschule für Musik und Darstellende Kunst Frankfurt am Main"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-CC5105D4": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Darmstadt",
+      "official_url": "https://h-da.de",
+      "members": [
+        "DE-HE|Hochschule Darmstadt"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-CD886016": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Augsburg",
+      "official_url": "https://www.uni-augsburg.de",
+      "members": [
+        "DE-BY|Universität Augsburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-CDA74B53": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Technik, Wirtschaft und Medien Offenburg",
+      "official_url": "https://www.hs-offenburg.de",
+      "members": [
+        "DE-BW|Hochschule für Technik, Wirtschaft und Medien Offenburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-CE56C432": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Charlotte Fresenius Hochschule (Wiesbaden)",
+      "official_url": "https://www.charlotte-fresenius-uni.de",
+      "members": [
+        "DE-HE|Charlotte Fresenius Hochschule (Wiesbaden)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-CF6FC1B0": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Hochschule Ingolstadt",
+      "official_url": "https://www.thi.de",
+      "members": [
+        "DE-BY|Technische Hochschule Ingolstadt"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-CFA3E54D": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Private Universität Witten/Herdecke",
+      "official_url": "https://www.uni-wh.de",
+      "members": [
+        "DE-NW|Private Universität Witten/Herdecke"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-CFE25A91": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Rhein-Waal",
+      "official_url": "https://www.hochschule-rhein-waal.de",
+      "members": [
+        "DE-NW|Hochschule Rhein-Waal"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-D0302145": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Allensbach Hochschule",
+      "official_url": "https://www.allensbach-hochschule.de",
+      "members": [
+        "DE-BW|Allensbach Hochschule"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-D035B68A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule der Sächsischen Polizei (FH)",
+      "official_url": "http://www.polizei.sachsen.de",
+      "members": [
+        "DE-SN|Hochschule der Sächsischen Polizei (FH)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-D0786FB0": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Fachhochschule Dortmund",
+      "official_url": "https://www.fh-dortmund.de",
+      "members": [
+        "DE-NW|Fachhochschule Dortmund"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-D0BD6721": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Media University of Applied Sciences",
+      "official_url": "https://www.media-university.de",
+      "members": [
+        "DE-BE|Media University of Applied Sciences"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-D1C472F5": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Passau",
+      "official_url": "https://www.uni-passau.de",
+      "members": [
+        "DE-BY|Universität Passau"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-D38A4DED": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Kunsthochschule Kassel an der Universität Kassel",
+      "official_url": "https://kunsthochschulekassel.de",
+      "members": [
+        "DE-HE|Kunsthochschule Kassel an der Universität Kassel"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-D3D3E78B": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Musik Nürnberg",
+      "official_url": "https://www.hfm-nuernberg.de",
+      "members": [
+        "DE-BY|Hochschule für Musik Nürnberg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-D4137ED9": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Fachhochschule des Mittelstands",
+      "official_url": "https://www.fhm-campus.de",
+      "members": [
+        "DE-MV|Fachhochschule des Mittelstands",
+        "DE-NW|Fachhochschule des Mittelstands"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-D41EDDF0": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Fresenius",
+      "official_url": "https://www.hs-fresenius.de",
+      "members": [
+        "DE-BW|Hochschule Fresenius Heidelberg",
+        "DE-HE|Hochschule Fresenius (Idstein)",
+        "DE-HH|Hochschule Fresenius *"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-D47100E3": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Alice-Salomon-Hochschule Berlin",
+      "official_url": "https://www.ash-berlin.eu",
+      "members": [
+        "DE-BE|Alice-Salomon-Hochschule Berlin (ASH)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-D4990E57": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für angewandte Wissenschaften Ansbach",
+      "official_url": "https://www.hs-ansbach.de",
+      "members": [
+        "DE-BY|Hochschule für angewandte Wissenschaften Ansbach"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-D58FD40A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "WHU - Otto Beisheim School of Management",
+      "official_url": "https://www.whu.edu",
+      "members": [
+        "DE-RP|WHU - Otto Beisheim School of Management"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-D5A5DF1F": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "EHiP - Hochschule für Innovation und Perspektive",
+      "official_url": "https://www.ehip.eu",
+      "members": [
+        "DE-BW|EHiP - Hochschule für Innovation und Perspektive"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-D794B8B7": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Filmuniversität Babelsberg Konrad Wolf",
+      "official_url": "https://www.filmuniversitaet.de",
+      "members": [
+        "DE-BB|Filmuniversität Babelsberg Konrad Wolf"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-D7A64A0B": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "HAW Kiel",
+      "official_url": "https://www.haw-kiel.de",
+      "members": [
+        "DE-SH|HAW Kiel"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-D94FDBE5": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "BSP Business School Berlin",
+      "official_url": "https://www.bsp-campus-hamburg.de",
+      "members": [
+        "DE-HH|BSP Business School Berlin - Campus Hamburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-D9DDB71A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Munich University of Digital Technologies & Applied Sciences",
+      "official_url": "https://uni-munich.de",
+      "members": [
+        "DE-BY|Munich University of Digital Technologies & Applied Sciences"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-DA031CF0": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Freie Universität Berlin",
+      "official_url": "https://www.fu-berlin.de",
+      "members": [
+        "DE-BE|Freie Universität Berlin"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-DA1EB8C3": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Anhalt",
+      "official_url": "https://www.hs-anhalt.de",
+      "members": [
+        "DE-ST|Hochschule Anhalt"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-DB13A49C": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Evangelische Hochschule für angewandte Wissenschaften - Evangelische Fachhochschule Nürnberg",
+      "official_url": "https://www.evhn.de",
+      "members": [
+        "DE-BY|Evangelische Hochschule für angewandte Wissenschaften - Evangelische Fachhochschule Nürnberg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-DBDB4E6A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Ruhr West",
+      "official_url": "https://www.hochschule-ruhr-west.de",
+      "members": [
+        "DE-NW|Hochschule Ruhr West"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-DC3534B9": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Duale Hochschule Baden-Württemberg",
+      "official_url": "https://www.dhbw.de",
+      "members": [
+        "DE-BW|Duale Hochschule Baden-Württemberg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-DCB777C4": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Universität Clausthal",
+      "official_url": "https://www.tu-clausthal.de",
+      "members": [
+        "DE-NI|Technische Universität Clausthal"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-DCCEF789": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Finanzen Nordrhein-Westfalen",
+      "official_url": "https://www.finanzverwaltung.nrw.de/dienststellen/hochschule-fuer-finanzen-nrw",
+      "members": [
+        "DE-NW|Fachhochschule für Finanzen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-DD164845": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Europa-Universität Flensburg",
+      "official_url": "https://www.uni-flensburg.de",
+      "members": [
+        "DE-SH|Europa-Universität Flensburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-DD6EB804": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "FH Münster",
+      "official_url": "https://www.fh-muenster.de",
+      "members": [
+        "DE-NW|FH Münster"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-DD72DA93": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "European School of Management and Technology",
+      "official_url": "https://esmt.berlin",
+      "members": [
+        "DE-BE|European School of Management and Technology"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-DDE42184": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Öffentliche Verwaltung",
+      "official_url": "https://www.hfoev.bremen.de",
+      "members": [
+        "DE-HB|Hochschule für Öffentliche Verwaltung"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-DE8645F4": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Musik Hanns Eisler Berlin",
+      "official_url": "https://www.hfm-berlin.de",
+      "members": [
+        "DE-BE|Hochschule für Musik Hanns Eisler Berlin (HfM)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-DE98C3D1": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für öffentliche Verwaltung Kehl",
+      "official_url": "https://www.hs-kehl.de",
+      "members": [
+        "DE-BW|Hochschule für öffentliche Verwaltung Kehl"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-DF5DB673": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Biberach - Architektur und Bauwesen, Betriebswirtschaft und Biotechnologie",
+      "official_url": "https://www.hochschule-biberach.de",
+      "members": [
+        "DE-BW|Hochschule Biberach - Architektur und Bauwesen, Betriebswirtschaft und Biotechnologie"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-DFEEEE61": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Health and Medical University Potsdam",
+      "official_url": "https://www.health-and-medical-university.de",
+      "members": [
+        "DE-BB|Health and Medical University Potsdam (HMU)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-E0BD5F89": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Katholische Kirchenmusik und Musikpädagogik Regensburg",
+      "official_url": "https://www.hfkm-regensburg.de",
+      "members": [
+        "DE-BY|Hochschule für Katholische Kirchenmusik und Musikpädagogik Regensburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-E0D36B6B": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Europa-Universität Viadrina",
+      "official_url": "https://www.europa-uni.de",
+      "members": [
+        "DE-BB|Europa-Universität Viadrina"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-E105A8DF": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Medizinische Hochschule Hannover",
+      "official_url": "https://www.mhh.de",
+      "members": [
+        "DE-NI|Medizinische Hochschule Hannover"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-E1DF5DC9": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Katholische Hochschule Mainz",
+      "official_url": "https://www.kh-mz.de",
+      "members": [
+        "DE-RP|Katholische Hochschule Mainz"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-E2C1D231": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Akademie der Polizei Hamburg",
+      "official_url": "https://akademie-der-polizei.hamburg.de",
+      "members": [
+        "DE-HH|Akademie der Polizei Hamburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-E3443B43": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Bremen",
+      "official_url": "https://www.uni-bremen.de",
+      "members": [
+        "DE-HB|Universität Bremen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-E41EDA37": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Munich Business School",
+      "official_url": "https://www.munich-business-school.de",
+      "members": [
+        "DE-BY|Munich Business School"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-E5062F80": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Niederrhein",
+      "official_url": "https://www.hs-niederrhein.de",
+      "members": [
+        "DE-NW|Hochschule Niederrhein"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-E51D5CA7": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Evangelische Hochschule Rheinland-Westfalen-Lippe",
+      "official_url": "https://www.evh-bochum.de",
+      "members": [
+        "DE-NW|Evangelische Hochschule Rheinland-Westfalen-Lippe"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-E54DD2B1": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Kommunale Hochschule für Verwaltung",
+      "official_url": "https://www.nsi-hsvn.de",
+      "members": [
+        "DE-NI|Kommunale Hochschule für Verwaltung"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-E5EC355B": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Heilbronn - Technik, Wirtschaft, Informatik",
+      "official_url": "https://www.hs-heilbronn.de",
+      "members": [
+        "DE-BW|Hochschule Heilbronn - Technik, Wirtschaft, Informatik"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-E653AA30": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Evangelische Hochschule Freiburg",
+      "official_url": "https://www.eh-freiburg.de",
+      "members": [
+        "DE-BW|Evangelische Hochschule Freiburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-E6B220C3": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Whitecliffe University of Applied Sciences",
+      "official_url": "https://whitecliffe.de",
+      "members": [
+        "DE-BE|Whitecliffe University of Applied Sciences"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-E75328AF": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Stiftung Tierärztliche Hochschule Hannover",
+      "official_url": "https://www.tiho-hannover.de",
+      "members": [
+        "DE-NI|Stiftung Tierärztliche Hochschule Hannover"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-E79284E9": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Rostock",
+      "official_url": "https://www.uni-rostock.de",
+      "members": [
+        "DE-MV|Universität Rostock"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-E7BE296C": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Greifswald",
+      "official_url": "https://www.uni-greifswald.de",
+      "members": [
+        "DE-MV|Universität Greifswald"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-E80E0A4E": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für bildende Künste Hamburg",
+      "official_url": "https://hfbk-hamburg.de",
+      "members": [
+        "DE-HH|Hochschule für bildende Künste Hamburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-E85B1323": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Hochschule Lübeck",
+      "official_url": "https://www.th-luebeck.de",
+      "members": [
+        "DE-SH|Technische Hochschule Lübeck"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-E8A8B9D9": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "EBZ Business School",
+      "official_url": "https://www.ebz-business-school.de",
+      "members": [
+        "DE-NW|EBZ Business School"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-E94E712B": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universität Duisburg-Essen",
+      "official_url": "https://www.uni-due.de",
+      "members": [
+        "DE-NW|Universität Duisburg-Essen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-EA084E1A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Technik, Wirtschaft und Kultur Leipzig",
+      "official_url": "https://www.htwk-leipzig.de",
+      "members": [
+        "DE-SN|Hochschule für Technik, Wirtschaft und Kultur Leipzig"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-EB5F7983": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "German University of Digital Science",
+      "official_url": "https://german-uds.de",
+      "members": [
+        "DE-BB|German University of Digital Science (German UDS)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-ED33C75F": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Fachhochschule Südwestfalen",
+      "official_url": "https://www.fh-swf.de",
+      "members": [
+        "DE-NW|Fachhochschule Südwestfalen"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-ED70255C": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Schmalkalden",
+      "official_url": "https://www.hs-schmalkalden.de",
+      "members": [
+        "DE-TH|Hochschule Schmalkalden"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-EF56DF32": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Theologische Fakultät Trier",
+      "official_url": "https://theologie-trier.de",
+      "members": [
+        "DE-RP|Theologische Fakultät Trier"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-F0156433": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Karlsruher Institut für Technologie",
+      "official_url": "https://www.kit.edu",
+      "members": [
+        "DE-BW|Karlsruher Institut für Technologie (KIT)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-F016C142": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Karlsruhe - Technik und Wirtschaft",
+      "official_url": "https://www.h-ka.de",
+      "members": [
+        "DE-BW|Hochschule Karlsruhe - Technik und Wirtschaft"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-F0A89EC0": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Musikhochschule Lübeck",
+      "official_url": "https://www.mh-luebeck.de",
+      "members": [
+        "DE-SH|Musikhochschule Lübeck"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-F0E7998D": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Heinrich-Heine-Universität Düsseldorf",
+      "official_url": "https://www.hhu.de",
+      "members": [
+        "DE-NW|Heinrich-Heine-Universität Düsseldorf"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-F22DC798": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "PH Heidelberg",
+      "official_url": "https://www.ph-heidelberg.de",
+      "members": [
+        "DE-BW|PH Heidelberg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-F235B112": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "MSB Medical School Berlin – Hochschule für Gesundheit und Medizin",
+      "official_url": "https://www.medicalschool-berlin.de",
+      "members": [
+        "DE-BE|MSB Medical School Berlin – Hochschule für Gesundheit und Medizin"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-F281D17C": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Bielefeld – University of Applied Sciences and Arts",
+      "official_url": "https://www.hsbi.de",
+      "members": [
+        "DE-NW|Fachhochschule Bielefeld"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-F2F63386": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Jade Hochschule",
+      "official_url": "https://www.jade-hs.de",
+      "members": [
+        "DE-NI|Jade Hochschule"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-F5034CD3": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Forstwirtschaft Rottenburg",
+      "official_url": "https://www.hs-rottenburg.net",
+      "members": [
+        "DE-BW|Hochschule für Forstwirtschaft Rottenburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-F563344D": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Katholische Stiftungshochschule für angewandte Wissenschaften München",
+      "official_url": "https://www.ksh-muenchen.de",
+      "members": [
+        "DE-BY|Katholische Stiftungshochschule für angewandte Wissenschaften München"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-F57522F3": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "University of Europe for Applied Sciences",
+      "official_url": "https://www.ue-germany.com",
+      "members": [
+        "DE-BB|University of Europe for Applied Sciences",
+        "DE-HH|BTK Hochschule für Gestaltung, Campus Hamburg",
+        "DE-HH|University of Europe for Applied Sciences"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-F61E0273": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Thüringer Fachhochschule für öffentliche Verwaltung Gotha",
+      "official_url": null,
+      "members": [
+        "DE-TH|Thüringer Fachhochschule für öffentliche Verwaltung Gotha"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-F64404D1": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Hochschule Ostwestfalen-Lippe",
+      "official_url": "https://www.th-owl.de",
+      "members": [
+        "DE-NW|Technische Hochschule Ostwestfalen-Lippe"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-F6603125": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Tomorrow University of Applied Sciences",
+      "official_url": "https://www.tomorrow.university",
+      "members": [
+        "DE-HE|Tomorrow University of Applied Sciences (Frankfurt/Main)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-F6816864": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Theologische Fakultät Paderborn",
+      "official_url": "https://www.thf-paderborn.de",
+      "members": [
+        "DE-NW|Theologische Fakultät Paderborn"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-F75C157C": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Theologische Fakultät Fulda",
+      "official_url": "https://www.thf-fulda.de",
+      "members": [
+        "DE-HE|Theologische Fakultät Fulda"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-F8399B65": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Musik Karlsruhe",
+      "official_url": "https://hfm-karlsruhe.de",
+      "members": [
+        "DE-BW|Hochschule für Musik Karlsruhe"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-F86A82ED": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "CTS Hochschule Münster",
+      "official_url": "https://www.cts-hochschule.de",
+      "members": [
+        "DE-NW|Philosophisch-Theologische Hochschule Münster"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-FA4F7F96": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Universidad Paraguayo-Alemana de Ciencias Alicadas",
+      "official_url": "https://upa.edu.py",
+      "members": [
+        "DE-BW|Universidad Paraguayo-Alemana de Ciencias Alicadas (UPA)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-FB519A26": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "ESCP Business School",
+      "official_url": "https://escp.eu",
+      "members": [
+        "DE-BE|ESCP Business School"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-FBCDA9A6": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Hochschule Mannheim",
+      "official_url": "https://www.hs-mannheim.de",
+      "members": [
+        "DE-BW|Technische Hochschule Mannheim"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-FBE2C96E": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Bauhaus-Universität Weimar",
+      "official_url": "https://www.uni-weimar.de",
+      "members": [
+        "DE-TH|Bauhaus-Universität Weimar"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-FC327236": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "MSH Medical School Hamburg University of Applied Sciences and Medical University",
+      "official_url": "https://www.medicalschool-hamburg.de",
+      "members": [
+        "DE-HH|MSH Medical School Hamburg University of Applied Sciences and Medical University"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-FC91DB86": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule Koblenz",
+      "official_url": "https://www.hs-koblenz.de",
+      "members": [
+        "DE-RP|Hochschule Koblenz"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-FD0C92D6": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule für Wirtschaft und Recht Berlin",
+      "official_url": "https://www.hwr-berlin.de",
+      "members": [
+        "DE-BE|Hochschule für Wirtschaft und Recht Berlin (HWR)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-FE2294C9": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Technische Hochschule Aschaffenburg",
+      "official_url": "https://www.th-ab.de",
+      "members": [
+        "DE-BY|Technische Hochschule Aschaffenburg"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-FEE310F4": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Deutsche Hochschule für Prävention und Gesundheitsmanagement",
+      "official_url": "https://www.dhfpg.de",
+      "members": [
+        "DE-SL|Deutsche Hochschule für Prävention und Gesundheitsmanagement GmbH"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-FF84793A": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Staatliche Hochschule für Musik und Darstellende Kunst Stuttgart",
+      "official_url": "https://www.hmdk-stuttgart.de",
+      "members": [
+        "DE-BW|Staatliche Hochschule für Musik und Darstellende Kunst Stuttgart"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    },
+    "PTH-DE-FFEE9876": {
+      "created_at": "2026-10-01T16:23:06.809990+00:00",
+      "name": "Hochschule der Wirtschaft für Management Mannheim",
+      "official_url": "https://www.hdwm.de",
+      "members": [
+        "DE-BW|Hochschule der Wirtschaft für Management Mannheim (HdWM)"
+      ],
+      "last_seen_at": "2026-10-02T08:31:05.597642+00:00"
+    }
+  }
+}

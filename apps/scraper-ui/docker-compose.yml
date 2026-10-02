@@ -1,0 +1,15 @@
+# Scraper-UI in Docker:
+#   docker compose -f apps/scraper-ui/docker-compose.yml up --build
+# danach http://localhost:8000 öffnen.
+services:
+  ui:
+    build:
+      context: ../..
+      dockerfile: apps/scraper-ui/Dockerfile
+    ports:
+      # nur vom eigenen Rechner erreichbar
+      - "127.0.0.1:8000:8000"
+    volumes:
+      # Der ausgecheckte Scraper samt data/: Ergebnisse und
+      # Entscheidungen landen direkt im Repo-Ordner.
+      - ../../scrapers/hochschulen:/app/scraper
