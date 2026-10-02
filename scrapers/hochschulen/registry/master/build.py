@@ -33,6 +33,7 @@ from urllib.parse import urlsplit
 
 from bs4 import BeautifulSoup
 
+from registry import reliability
 from registry.enrichment.website_resolver import (
     LEGAL_FORM_RE,
     WebsiteResolver,
@@ -606,7 +607,12 @@ def main():
     parser.add_argument("--out-dir", default="data/master")
     parser.add_argument("--report", default="data/reports/validation_report.json")
     parser.add_argument("--offline", action="store_true", help="No website lookups for names")
+    parser.add_argument("--allow-degraded", action="store_true",
+                        help="Write even if the discovery build is not production safe")
     args = parser.parse_args()
+
+    if not reliability.production_gate("master build", args.allow_degraded):
+        raise SystemExit(2)
 
     institutions = json.loads(Path(args.dedup).read_text(encoding="utf-8"))
     records = json.loads(Path(args.records).read_text(encoding="utf-8"))
@@ -626,6 +632,7 @@ def main():
         else None
     )
     report = quality_report(result, len(records), dedup_report)
+    report["discovery_build"] = reliability.build_summary()
 
     out = Path(args.out_dir)
     out.mkdir(parents=True, exist_ok=True)

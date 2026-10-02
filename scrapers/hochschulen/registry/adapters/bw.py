@@ -3,6 +3,8 @@ from pathlib import Path
 from urllib.parse import urljoin
 
 import requests
+
+from registry import http_client
 from bs4 import BeautifulSoup
 
 from .base import RegistryAdapter
@@ -80,7 +82,7 @@ class BadenWuerttembergAdapter(RegistryAdapter):
 
             url = urljoin(self.BASE, slug)
 
-            response = requests.get(
+            response = http_client.get(
                 url,
                 headers=headers,
                 timeout=30,
@@ -158,7 +160,7 @@ class BadenWuerttembergAdapter(RegistryAdapter):
             "duale-hochschule-baden-wuerttemberg"
         )
 
-        response = requests.get(
+        response = http_client.get(
             dhbw_url,
             headers=headers,
             timeout=30,

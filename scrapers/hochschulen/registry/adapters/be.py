@@ -5,6 +5,8 @@ from pathlib import Path
 from urllib.parse import urljoin
 
 import requests
+
+from registry import http_client
 from bs4 import BeautifulSoup
 
 from registry.adapters.base import RegistryAdapter
@@ -92,7 +94,7 @@ class BerlinAdapter(RegistryAdapter):
                 meta["path"]
             )
 
-            response = requests.get(
+            response = http_client.get(
                 url,
                 headers={
                     "User-Agent": self.config.get(

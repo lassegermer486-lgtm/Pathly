@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "states": {
+    "DE-BB": {
+      "count": 24,
+      "updated_at": null,
+      "origin": "registry_run_v1.2"
+    },
+    "DE-BE": {
+      "count": 38,
+      "updated_at": null,
+      "origin": "registry_run_v1.2"
+    },
+    "DE-BW": {
+      "count": 69,
+      "updated_at": null,
+      "origin": "registry_run_v1.2"
+    },
+    "DE-BY": {
+      "count": 47,
+      "updated_at": null,
+      "origin": "registry_run_v1.2"
+    },
+    "DE-HB": {
+      "count": 7,
+      "updated_at": null,
+      "origin": "registry_run_v1.2"
+    },
+    "DE-HE": {
+      "count": 39,
+      "updated_at": null,
+      "origin": "registry_run_v1.2"
+    },
+    "DE-HH": {
+      "count": 34,
+      "updated_at": null,
+      "origin": "registry_run_v1.2"
+    },
+    "DE-MV": {
+      "count": 11,
+      "updated_at": null,
+      "origin": "registry_run_v1.2"
+    },
+    "DE-NI": {
+      "count": 30,
+      "updated_at": null,
+      "origin": "registry_run_v1.2"
+    },
+    "DE-NW": {
+      "count": 68,
+      "updated_at": null,
+      "origin": "registry_run_v1.2"
+    },
+    "DE-RP": {
+      "count": 22,
+      "updated_at": null,
+      "origin": "registry_run_v1.2"
+    },
+    "DE-SH": {
+      "count": 14,
+      "updated_at": null,
+      "origin": "registry_run_v1.2"
+    },
+    "DE-SL": {
+      "count": 8,
+      "updated_at": null,
+      "origin": "registry_run_v1.2"
+    },
+    "DE-SN": {
+      "count": 22,
+      "updated_at": null,
+      "origin": "registry_run_v1.2"
+    },
+    "DE-ST": {
+      "count": 11,
+      "updated_at": null,
+      "origin": "registry_run_v1.2"
+    },
+    "DE-TH": {
+      "count": 14,
+      "updated_at": null,
+      "origin": "registry_run_v1.2"
+    }
+  }
+}
