@@ -4,6 +4,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
+
+from registry import http_client
 from bs4 import BeautifulSoup
 
 from .base import RegistryAdapter
@@ -81,7 +83,7 @@ class BremenAdapter(RegistryAdapter):
 
     def fetch(self):
 
-        session = requests.Session()
+        session = http_client.session()
         session.headers.update({
             "User-Agent":
                 "ProjectPathly Registry Research/1.0"

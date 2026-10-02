@@ -24,6 +24,34 @@ python -m registry.pipeline --agent-cache-only  # no API calls
 Discovery data (`data/raw`, `data/normalized`) is never overwritten by later
 steps. Reports for every step are in `data/reports/`.
 
+## Reliability (v1.3)
+
+- **Retries:** state sources are fetched through `registry/http_client.py`.
+  A request is tried at most 3 times (waits 2 s, then 5 s) on connection
+  errors, timeouts, 429 and 5xx; 4xx answers and POSTs are not retried.
+  Hamburg and Schleswig-Holstein keep their own retry loops (and the
+  Schleswig-Holstein / Saarland source caches); their requests are only counted.
+- **Source status and count drift:** `data/reports/registry_run.json` keeps
+  its fields and adds `source_status`, `previous_count`, `current_count`,
+  `absolute_delta`, `relative_delta`, `count_status`, `production_safe`,
+  `request_attempts` per state. A state with 0 institutions counts as failed.
+  Count drift = more than ±10 institutions or more than ±30 % against the last
+  accepted count (`data/master/state_counts.json`, commit this file).
+- **Build status:** `data/reports/build_status.json`: `complete` (production
+  safe), `review` (count drift to check), `degraded` (a state failed, was
+  skipped or not requested), `failed`.
+- **Safe publishing:** while the build is not production safe, the pipeline
+  stops after discovery, and `registry.master.build` / `supabase_import`
+  refuse to replace the published files. Debugging only: `--allow-degraded`.
+
+```bash
+python -m registry.reliability                        # last build status
+python -m registry.reliability --accept-drift DE-SL   # drift checked and correct
+```
+
+Count drift never deletes or restores institutions; accepting it makes the
+new count the baseline.
+
 ## Important design rule
 
 The source page is authoritative for what it explicitly states. We do not infer

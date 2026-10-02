@@ -23,6 +23,7 @@ from .adapters.st import SachsenAnhaltAdapter
 from .adapters.sh import SchleswigHolsteinAdapter
 from .adapters.th import ThueringenAdapter
 
+from . import http_client, reliability
 from .normalize import aggregate_nrw_universities
 from .normalizers.university import aggregate_university_rows
 from .utils.validation import validate_registry
@@ -110,6 +111,9 @@ def main():
 
     states = args.states or STATE_ORDER
 
+    # Last accepted count per state, read before registry_run.json is replaced.
+    previous_counts = reliability.load_state_counts()
+
     all_universities = []
     report = []
 
@@ -175,6 +179,8 @@ def main():
         print()
         print(f"[FETCH] {state} — {cfg['name']}")
 
+        http_client.STATS.reset()
+
         try:
             raw_rows = adapter_cls(
                 state,
@@ -218,7 +224,8 @@ def main():
                 "raw_rows": len(raw_rows),
                 "universities": len(universities),
                 "locations": locations,
-                "validation_issues": len(invalid)
+                "validation_issues": len(invalid),
+                **http_client.STATS.snapshot()
             })
 
         except NotImplementedError as exc:
@@ -226,7 +233,8 @@ def main():
 
             report.append({
                 "state": state,
-                "status": "TODO"
+                "status": "TODO",
+                **http_client.STATS.snapshot()
             })
 
         except Exception as exc:
@@ -238,8 +246,21 @@ def main():
             report.append({
                 "state": state,
                 "status": "ERROR",
-                "error": str(exc)
+                "error": str(exc),
+                **http_client.STATS.snapshot()
             })
+
+    # --------------------------------------------------
+    # v1.3: source status and count drift per state
+    # --------------------------------------------------
+
+    report = [
+        reliability.assess_state(
+            entry,
+            previous_counts.get(entry["state"])
+        )
+        for entry in report
+    ]
 
     # --------------------------------------------------
     # Export university registry
@@ -283,6 +304,26 @@ def main():
     )
 
     # --------------------------------------------------
+    # v1.3: build status (is this build production safe?)
+    # --------------------------------------------------
+
+    build = reliability.build_status(
+        report,
+        STATE_ORDER,
+        normalized_path=out
+    )
+
+    reliability.write_json(
+        reliability.BUILD_STATUS_PATH,
+        build
+    )
+
+    reliability.update_state_counts(
+        report,
+        previous=previous_counts
+    )
+
+    # --------------------------------------------------
     # Summary
     # --------------------------------------------------
 
@@ -319,6 +360,7 @@ def main():
         f"REPORT:       "
         f"{report_path}"
     )
+    reliability.print_status(build)
     print("-" * 62)
 
 

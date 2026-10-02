@@ -13,6 +13,10 @@ Usage (from scrapers/hochschulen/):
     python -m registry.pipeline
     python -m registry.pipeline --from dedup        # rebuild from enriched data
     python -m registry.pipeline --agent-cache-only  # no API calls
+
+v1.3: after discovery the pipeline stops if the build is not production safe
+(a state failed, or a count drift needs review; see registry.reliability).
+--allow-degraded runs on anyway and lets master/supabase write.
 """
 
 from __future__ import annotations
@@ -22,6 +26,7 @@ import os
 import subprocess
 import sys
 
+from registry import reliability
 from registry.enrichment.agent_resolver import load_dotenv
 
 
@@ -42,13 +47,25 @@ def main():
     parser.add_argument("--from", dest="start", choices=names, default=names[0])
     parser.add_argument("--to", dest="stop", choices=names, default=names[-1])
     parser.add_argument("--agent-cache-only", action="store_true")
+    parser.add_argument("--allow-degraded", action="store_true",
+                        help="Continue and publish although the discovery build is not production safe")
     args = parser.parse_args()
 
     load_dotenv()
     selected = STEPS[names.index(args.start): names.index(args.stop) + 1]
+    gate_checked = False
 
     for name, module in selected:
+        # Everything after discovery builds on its output: check it once, early.
+        if name != "discovery" and not gate_checked:
+            gate_checked = True
+            if not reliability.production_gate("pipeline", args.allow_degraded):
+                sys.exit(2)
+
         command = [sys.executable, "-m", module]
+
+        if name in ("master", "supabase") and args.allow_degraded:
+            command.append("--allow-degraded")
 
         if name == "agent" and (args.agent_cache_only or "OPENROUTER_API_KEY" not in os.environ):
             if not args.agent_cache_only:

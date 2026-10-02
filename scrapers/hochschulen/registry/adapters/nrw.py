@@ -6,6 +6,8 @@ from urllib.parse import urlparse
 
 import requests
 
+from registry import http_client
+
 from .base import RegistryAdapter
 
 
@@ -21,7 +23,7 @@ class NRWAdapter(RegistryAdapter):
             )
         }
 
-        response = requests.get(
+        response = http_client.get(
             url,
             headers=headers,
             timeout=30

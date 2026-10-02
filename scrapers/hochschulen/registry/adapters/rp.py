@@ -2,6 +2,8 @@ import re
 from urllib.parse import urljoin
 
 import requests
+
+from registry import http_client
 from bs4 import BeautifulSoup
 
 from registry.adapters.base import RegistryAdapter
@@ -32,7 +34,7 @@ class RheinlandPfalzAdapter(RegistryAdapter):
     def __init__(self, state_code, config):
         super().__init__(state_code, config)
 
-        self.session = requests.Session()
+        self.session = http_client.session()
         self.session.headers.update({
             "User-Agent": (
                 "Mozilla/5.0 "

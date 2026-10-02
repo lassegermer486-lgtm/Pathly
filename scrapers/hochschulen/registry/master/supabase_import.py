@@ -26,6 +26,8 @@ import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
+from registry import reliability
+
 
 # The database knows no "review" lifecycle; the reason is in university_flags.
 LIFECYCLE = {"active": "active", "renamed": "renamed", "merged": "merged", "closed": "closed"}
@@ -248,7 +250,13 @@ def main():
     parser = argparse.ArgumentParser(description="ProjectPathly — Supabase import script")
     parser.add_argument("--master-dir", default="data/master")
     parser.add_argument("--out", default="data/master/supabase_import.sql")
+    parser.add_argument("--allow-degraded", action="store_true",
+                        help="Write even if the discovery build is not production safe")
     args = parser.parse_args()
+
+    # Institutions missing from an incomplete build would be set is_listed = false.
+    if not reliability.production_gate("supabase import", args.allow_degraded):
+        raise SystemExit(2)
 
     master_dir = Path(args.master_dir)
     payload = build_payload(master_dir)
