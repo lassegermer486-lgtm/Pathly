@@ -39,7 +39,7 @@ export default function DatenschutzPage() {
           <h2>Datenbank</h2>
           <p className="mt-2">
             Die angezeigten Hochschuldaten laden wir aus einer Datenbank bei
-            Supabase Inc. Beim reinen Besuch der Website werden dabei keine
+            Supabase Inc. (Serverstandort Irland, EU). Beim reinen Besuch der Website werden dabei keine
             personenbezogenen Daten gespeichert.
           </p>
         </section>
@@ -55,8 +55,8 @@ export default function DatenschutzPage() {
             (Bereitstellung des Kontos).
           </p>
           <p className="mt-2">
-            Die Kontodaten speichert unser Auftragsverarbeiter Supabase Inc. in
-            seiner Datenbank. Du kannst dein Konto jederzeit unter „Mein Konto“
+            Die Kontodaten speichert unser Auftragsverarbeiter Supabase Inc. auf
+            Servern in Irland, also innerhalb der EU. Du kannst dein Konto jederzeit unter „Mein Konto“
             selbst löschen; dabei werden die Kontodaten sofort entfernt.
           </p>
         </section>
