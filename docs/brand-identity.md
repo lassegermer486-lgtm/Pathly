@@ -65,27 +65,27 @@ Pathly klingt wie eine kluge, ruhige ältere Freundin, die sich auskennt: **klar
 
 ![Pathly Logo](brand/pathly-logo-original.png)
 
-**Aufbau:** Wortmarke `pathly` in Pathly Grün (`#044B39`). Der rechte Arm des „y“ wächst über die
-Schrift hinaus zu einem Pfeil in Signalgrün (`#72C613`) – der Weg, der nach vorn und oben führt.
+**Aufbau:** Reine Wortmarke `pathly` in Pathly Grün (`#044B39`), klein geschrieben, ohne Bildzeichen.
+Ruhig und klar – die Farbe kommt aus der Umgebung (Schimmer, Akzente), nicht aus dem Logo.
 
 | Variante | Einsatz | Datei |
 |---|---|---|
 | **Wortmarke dunkel** (Standard) | auf Weiß, Lime, Minze | `apps/web/public/brand/pathly-logo.png` |
 | **Wortmarke weiß** | auf `#044B39` / `#053438` | `apps/web/public/brand/pathly-logo-white.png` |
-| **Signet „y“-Pfeil** | Favicon, App-Icon, Avatar – weiß/grün auf `#044B39`, abgerundetes Quadrat | `apps/web/src/app/icon.png`, `apple-icon.png`, `favicon.ico` |
+| **Signet „p“** | Favicon, App-Icon, Avatar – weißes „p“ aus der Wortmarke auf `#044B39`, abgerundetes Quadrat | `apps/web/src/app/icon.png`, `apple-icon.png`, `favicon.ico` |
 | **Vorschaubild** | Link-Vorschau (Social Media, Messenger) 1200×630 | `apps/web/src/app/opengraph-image.png` |
 
 Alle Dateien entstehen aus dem Original (`docs/brand/pathly-logo-original.png`) mit
 `python scripts/build-brand-assets.py` (in `apps/web`). Dabei wird der weiße Hintergrund transparent
-und beide Farben werden exakt auf die Palette gesetzt. **Nie die erzeugten Dateien von Hand bearbeiten** –
+und die Schrift wird exakt auf `#044B39` gesetzt. **Nie die erzeugten Dateien von Hand bearbeiten** –
 Original tauschen und Skript erneut ausführen.
 
 Regeln:
 
-- **Pfeil bleibt Signalgrün** – auch auf dunklen Flächen. Er ist das einzige farbige Element im Logo.
+- **Einfarbig:** nur `#044B39` auf hellen Flächen oder Weiß auf dunklen – keine weiteren Farben oder Verläufe in der Schrift.
 - **Schutzraum:** rundum mindestens die Höhe des „a“.
 - **Mindestgröße:** Wortmarke 24 px Höhe digital (Website: 32 px). Darunter das Signet verwenden.
-- **Nicht:** verzerren, drehen, Pfeil umfärben oder abtrennen, Schatten/Glow hinzufügen, auf unruhige Fotos ohne Fläche setzen.
+- **Nicht:** verzerren, drehen, Buchstaben einzeln einfärben, Schatten/Glow hinzufügen, auf unruhige Fotos ohne Fläche setzen.
 
 > **Offen:** Das Original ist eine Rastergrafik (PNG, 1024 px). Für Druck, große Formate und gestochen
 > scharfe Darstellung braucht es noch eine **Vektor-Datei (SVG/PDF)** aus dem Design-Tool, in dem das Logo
@@ -202,7 +202,7 @@ Die Oberfläche nutzt **ausschließlich shadcn/ui-Komponenten** (Stil `base-nova
 
 | Muster | Umsetzung |
 |---|---|
-| **Marken-CTA** | dunkelgrüne Pille + Signalgrün-Punkt; beim Hovern wächst der Punkt zum Kreis mit Pfeil (`components/cta-button.tsx`) |
+| **Marken-CTA** | dunkelgrüne Pille mit Pfeil im Signalgrün-Kreis; beim Hovern wächst der Kreis leicht und der Pfeil gleitet nach rechts (`components/cta-button.tsx`) |
 | **Navigation** | schwebende weiße Pille; rechts „Anmelden“ (ghost) und „Registrieren“ (outline), der grüne CTA gleitet auf der Startseite nach dem Hero dazu |
 | **Status-Badges** | Live = Minze/`#044B39` · In Arbeit = Aqua/`#053438` · Geplant = neutral |
 | **Hover** | Minze-Fläche + `#044B39`-Text (Buttons, Items), Karten zusätzlich mit grünem Rahmen |
@@ -220,7 +220,7 @@ Bewegung erzählt den Weg von **Verstreut → Geordnet**. Sie ist langsam, weich
 | **Intro** | Seite startet weiß; Überschrift baut sich Buchstabe für Buchstabe auf (auftauchen + entschärfen) | 700 ms je Zeichen, 22 ms versetzt, `ease-out` |
 | **Schimmer** | Lime-Creme-Schimmer sinkt von oben herein | 1,4 s, `cubic-bezier(0.2, 0.7, 0.2, 1)` |
 | **Folge-Elemente** | Text, Suche, CTA, Raster blenden nacheinander ein | ab 500 ms, 70 ms versetzt |
-| **Hover** | Farbwechsel, CTA-Punkt → Pfeil | 300 ms |
+| **Hover** | Farbwechsel; CTA-Kreis wächst, Pfeil gleitet nach rechts | 300 ms |
 
 **Kein Scroll-Festhalten:** Die Seite scrollt immer frei. Animationen laufen zeitgesteuert ab, sobald
 etwas sichtbar wird – niemand muss scrollen, um Inhalte „freizuspielen“.

@@ -6,7 +6,7 @@ Quelle:  docs/brand/pathly-logo-original.png (weißer Hintergrund)
 Ergebnis:
   public/brand/pathly-logo.png        Wortmarke, dunkel, transparent
   public/brand/pathly-logo-white.png  Wortmarke für dunkle Flächen
-  src/app/icon.png, apple-icon.png, favicon.ico   "y"-Pfeil-Signet
+  src/app/icon.png, apple-icon.png, favicon.ico   "p"-Signet
   src/app/opengraph-image.png         Vorschaubild für Links (1200×630)
 """
 
@@ -18,17 +18,16 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT.parents[1] / "docs" / "brand" / "pathly-logo-original.png"
 
 PRIMARY = (0x04, 0x4B, 0x39)  # Pathly Grün
-SIGNAL = (0x72, 0xC6, 0x13)   # Signalgrün
 LIME = (0xCB, 0xF3, 0x9D)
 CREAM = (0xF6, 0xF3, 0xB8)
 WHITE = (255, 255, 255)
 
-# Position des "y" mit Pfeil im Original (x von–bis), per Spaltenprofil ermittelt
-Y_MARK_X = (743, 921)
+# Position des "p" im Original (x von–bis), per Spaltenprofil ermittelt
+P_MARK_X = (179, 308)
 
 
-def to_alpha(img: Image.Image, dark=PRIMARY, accent=SIGNAL) -> Image.Image:
-    """Weiß wird transparent; Schrift → Markenfarben (Pfeil grün, Rest dunkel)."""
+def to_alpha(img: Image.Image, color=PRIMARY) -> Image.Image:
+    """Weiß wird transparent; die Schrift bekommt exakt die Markenfarbe."""
     src = img.convert("RGB")
     out = Image.new("RGBA", src.size)
     s, o = src.load(), out.load()
@@ -39,8 +38,6 @@ def to_alpha(img: Image.Image, dark=PRIMARY, accent=SIGNAL) -> Image.Image:
             if alpha < 8:
                 o[x, y] = (0, 0, 0, 0)
                 continue
-            # Pfeil: deutlich grüner als die dunkle Schrift
-            color = accent if g > 120 and g - r > 50 else dark
             o[x, y] = (*color, min(255, int(alpha * 1.05)))
     return out
 
@@ -58,14 +55,14 @@ def main() -> None:
 
     logo = crop(to_alpha(original))
     logo.save(brand / "pathly-logo.png", optimize=True)
-    crop(to_alpha(original, dark=WHITE)).save(brand / "pathly-logo-white.png", optimize=True)
+    crop(to_alpha(original, color=WHITE)).save(brand / "pathly-logo-white.png", optimize=True)
 
-    # Signet: "y" mit Pfeil, weiß/grün auf Pathly Grün
-    mark = crop(to_alpha(original.crop((Y_MARK_X[0], 0, Y_MARK_X[1], original.height)), dark=WHITE), pad=0)
+    # Signet: weißes "p" auf Pathly Grün
+    mark = crop(to_alpha(original.crop((P_MARK_X[0], 0, P_MARK_X[1], original.height)), color=WHITE), pad=0)
     size = 512
     icon = Image.new("RGBA", (size, size), (0, 0, 0, 0))
     ImageDraw.Draw(icon).rounded_rectangle((0, 0, size - 1, size - 1), radius=112, fill=PRIMARY)
-    scale = (size * 0.68) / mark.height
+    scale = (size * 0.62) / mark.height
     m = mark.resize((round(mark.width * scale), round(mark.height * scale)), Image.LANCZOS)
     icon.alpha_composite(m, ((size - m.width) // 2, (size - m.height) // 2))
     icon.save(app / "icon.png", optimize=True)

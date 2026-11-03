@@ -16,8 +16,8 @@ export function Logo({
       <Image
         src={variant === "white" ? "/brand/pathly-logo-white.png" : "/brand/pathly-logo.png"}
         alt="pathly"
-        width={835}
-        height={316}
+        width={681}
+        height={225}
         priority
         className="h-8 w-auto"
       />
