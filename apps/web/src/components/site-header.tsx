@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { MenuIcon } from "lucide-react";
+import { CircleUserRoundIcon, MenuIcon } from "lucide-react";
 import { Logo } from "@/components/logo";
 import { CtaButton } from "@/components/cta-button";
 import { Button } from "@/components/ui/button";
@@ -15,6 +15,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { createClient } from "@/lib/supabase/client";
 import { cn } from "@/lib/utils";
 
 const LINKS = [
@@ -23,8 +24,26 @@ const LINKS = [
   { href: "/#prinzipien", label: "Prinzipien" },
 ];
 
+// Anmeldestatus im Browser: bei jedem Seitenwechsel und bei Auth-Ereignissen neu prüfen
+function useSignedIn(pathname: string) {
+  const [signedIn, setSignedIn] = useState(false);
+  useEffect(() => {
+    const supabase = createClient();
+    supabase.auth
+      .getSession()
+      .then(({ data }) => setSignedIn(Boolean(data.session)));
+    const { data } = supabase.auth.onAuthStateChange((_, session) =>
+      setSignedIn(Boolean(session)),
+    );
+    return () => data.subscription.unsubscribe();
+  }, [pathname]);
+  return signedIn;
+}
+
 export function SiteHeader() {
-  const isHome = usePathname() === "/";
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+  const signedIn = useSignedIn(pathname);
   const [scrolled, setScrolled] = useState(false);
 
   // Auf der Startseite erscheint der CTA erst, wenn der Einstieg verlassen ist
@@ -60,21 +79,42 @@ export function SiteHeader() {
         </nav>
 
         <div className="hidden items-center gap-1 md:flex">
-          <Button variant="ghost" className="rounded-full" nativeButton={false} render={<Link href="/anmelden" />}>
-            Anmelden
-          </Button>
-          <Button
-            variant="outline"
-            className="rounded-full"
-            nativeButton={false}
-            render={<Link href="/registrieren" />}
-          >
-            Registrieren
-          </Button>
+          {signedIn ? (
+            <Button
+              variant="ghost"
+              className="rounded-full"
+              nativeButton={false}
+              render={<Link href="/konto" />}
+            >
+              <CircleUserRoundIcon data-icon="inline-start" />
+              Mein Konto
+            </Button>
+          ) : (
+            <>
+              <Button
+                variant="ghost"
+                className="rounded-full"
+                nativeButton={false}
+                render={<Link href="/anmelden" />}
+              >
+                Anmelden
+              </Button>
+              <Button
+                variant="outline"
+                className="rounded-full"
+                nativeButton={false}
+                render={<Link href="/registrieren" />}
+              >
+                Registrieren
+              </Button>
+            </>
+          )}
           <div
             className={cn(
               "grid transition-all duration-500",
-              showCta ? "ml-1 grid-cols-[1fr] opacity-100" : "pointer-events-none grid-cols-[0fr] opacity-0"
+              showCta
+                ? "ml-1 grid-cols-[1fr] opacity-100"
+                : "pointer-events-none grid-cols-[0fr] opacity-0",
             )}
             aria-hidden={!showCta}
           >
@@ -88,7 +128,14 @@ export function SiteHeader() {
 
         <Sheet>
           <SheetTrigger
-            render={<Button variant="ghost" size="icon" className="rounded-full md:hidden" aria-label="Menü öffnen" />}
+            render={
+              <Button
+                variant="ghost"
+                size="icon"
+                className="rounded-full md:hidden"
+                aria-label="Menü öffnen"
+              />
+            }
           >
             <MenuIcon />
           </SheetTrigger>
@@ -115,18 +162,45 @@ export function SiteHeader() {
               ))}
             </nav>
             <div className="mt-auto grid gap-2 p-4">
-              <SheetClose
-                nativeButton={false}
-                render={<Button variant="outline" nativeButton={false} render={<Link href="/anmelden" />} />}
-              >
-                Anmelden
-              </SheetClose>
-              <SheetClose
-                nativeButton={false}
-                render={<Button nativeButton={false} render={<Link href="/registrieren" />} />}
-              >
-                Registrieren
-              </SheetClose>
+              {signedIn ? (
+                <SheetClose
+                  nativeButton={false}
+                  render={
+                    <Button
+                      nativeButton={false}
+                      render={<Link href="/konto" />}
+                    />
+                  }
+                >
+                  Mein Konto
+                </SheetClose>
+              ) : (
+                <>
+                  <SheetClose
+                    nativeButton={false}
+                    render={
+                      <Button
+                        variant="outline"
+                        nativeButton={false}
+                        render={<Link href="/anmelden" />}
+                      />
+                    }
+                  >
+                    Anmelden
+                  </SheetClose>
+                  <SheetClose
+                    nativeButton={false}
+                    render={
+                      <Button
+                        nativeButton={false}
+                        render={<Link href="/registrieren" />}
+                      />
+                    }
+                  >
+                    Registrieren
+                  </SheetClose>
+                </>
+              )}
             </div>
           </SheetContent>
         </Sheet>

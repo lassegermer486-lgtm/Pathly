@@ -39,16 +39,48 @@ export default function DatenschutzPage() {
           <h2>Datenbank</h2>
           <p className="mt-2">
             Die angezeigten Hochschuldaten laden wir aus einer Datenbank bei
-            Supabase Inc. Dabei werden keine personenbezogenen Daten von
-            Besucherinnen und Besuchern gespeichert.
+            Supabase Inc. Beim reinen Besuch der Website werden dabei keine
+            personenbezogenen Daten gespeichert.
+          </p>
+        </section>
+        <section>
+          <h2>Nutzerkonto</h2>
+          <p className="mt-2">
+            Ein Konto ist freiwillig; die Hochschulsuche funktioniert ohne. Wenn
+            du ein Konto anlegst, verarbeiten wir deine E-Mail-Adresse, optional
+            deinen Namen, ein verschlüsseltes (gehashtes) Passwort sowie
+            Zeitpunkte von Registrierung und Anmeldung. Zur Bestätigung deiner
+            E-Mail-Adresse und zum Zurücksetzen des Passworts schicken wir dir
+            E-Mails. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO
+            (Bereitstellung des Kontos).
+          </p>
+          <p className="mt-2">
+            Die Kontodaten speichert unser Auftragsverarbeiter Supabase Inc. in
+            seiner Datenbank. Du kannst dein Konto jederzeit unter „Mein Konto“
+            selbst löschen; dabei werden die Kontodaten sofort entfernt.
+          </p>
+        </section>
+        <section>
+          <h2>Anmeldung mit Google</h2>
+          <p className="mt-2">
+            Wenn du „Mit Google anmelden“ wählst, wirst du zu Google Ireland
+            Limited (Gordon House, Barrow Street, Dublin 4, Irland)
+            weitergeleitet. Google übermittelt uns nach deiner Zustimmung deinen
+            Namen, deine E-Mail-Adresse und ggf. dein Profilbild. Wir nutzen
+            diese Daten nur für dein Konto. Rechtsgrundlage ist Art. 6 Abs. 1
+            lit. b DSGVO. Für die Verarbeitung bei Google gilt dessen
+            Datenschutzerklärung.
           </p>
         </section>
         <section>
           <h2>Cookies, Tracking und Schriftarten</h2>
           <p className="mt-2">
             Wir setzen keine Tracking- oder Marketing-Cookies und keine
-            Analyse-Tools ein. Schriftarten werden von unserem eigenen Server
-            ausgeliefert; es findet keine Verbindung zu Google statt.
+            Analyse-Tools ein. Wenn du angemeldet bist, speichern wir technisch
+            notwendige Cookies, die deine Sitzung enthalten; sie werden beim
+            Abmelden gelöscht (§ 25 Abs. 2 TDDDG). Schriftarten werden von
+            unserem eigenen Server ausgeliefert; es findet keine Verbindung zu
+            Google statt.
           </p>
         </section>
         <section>
