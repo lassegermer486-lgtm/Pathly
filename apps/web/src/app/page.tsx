@@ -3,6 +3,7 @@ import { createClient } from "@/lib/supabase/server";
 import { PUBLIC_MARKET_ACCESS, STATES } from "@/lib/universities";
 import { SearchForm } from "@/components/search-form";
 import { HeroScene } from "@/components/hero-scene";
+import { Glow } from "@/components/glow";
 import { CtaButton } from "@/components/cta-button";
 import { CharReveal } from "@/components/char-reveal";
 import { Badge } from "@/components/ui/badge";
@@ -139,21 +140,17 @@ export default async function Home() {
         </div>
       </section>
 
-      <section className="px-3 pb-6 sm:px-6">
-        <div className="relative mx-auto max-w-6xl overflow-hidden rounded-[2rem] border px-6 py-20 text-center sm:px-16">
-          <div
-            aria-hidden
-            className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_60%_80%_at_50%_100%,var(--brand-lime),transparent_70%)]"
-          />
-          <h2 className="mx-auto max-w-2xl text-4xl tracking-tight text-balance text-primary sm:text-5xl">
-            Bereit, deinen Weg zu <span className="text-brand-green">finden</span>?
-          </h2>
-          <p className="mx-auto mt-4 max-w-md text-muted-foreground">
-            Durchsuche alle Hochschulen nach Name, Art, Trägerschaft und Bundesland.
-          </p>
-          <div className="mt-8 flex justify-center">
-            <CtaButton href="/hochschulen">Hochschulen entdecken</CtaButton>
-          </div>
+      {/* Abschluss: gleicher Schimmer wie oben, gespiegelt – läuft hinter die Fußzeile aus */}
+      <section className="relative mt-12 px-4 pt-24 pb-28 text-center sm:px-6 sm:pt-32 sm:pb-36">
+        <Glow edge="bottom" />
+        <h2 className="mx-auto max-w-2xl text-4xl tracking-tight text-balance text-primary sm:text-5xl">
+          Bereit, deinen Weg zu <span className="text-brand-green">finden</span>?
+        </h2>
+        <p className="mx-auto mt-4 max-w-md text-muted-foreground">
+          Durchsuche alle Hochschulen nach Name, Art, Trägerschaft und Bundesland.
+        </p>
+        <div className="mt-8 flex justify-center">
+          <CtaButton href="/hochschulen">Hochschulen entdecken</CtaButton>
         </div>
       </section>
     </main>
