@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { BadgeCheckIcon, CompassIcon, ScaleIcon } from "lucide-react";
 import { createClient } from "@/lib/supabase/server";
 import { PUBLIC_MARKET_ACCESS, STATES } from "@/lib/universities";
@@ -7,6 +6,7 @@ import { HeroScene } from "@/components/hero-scene";
 import { Glow } from "@/components/glow";
 import { CtaButton } from "@/components/cta-button";
 import { CharReveal } from "@/components/char-reveal";
+import { GermanyMap } from "@/components/germany-map";
 import { Badge } from "@/components/ui/badge";
 import {
   Card,
@@ -41,61 +41,54 @@ const PRINCIPLES = [
 
 export default async function Home() {
   const supabase = await createClient();
-  const { count } = await supabase
+  // Eine Abfrage liefert Gesamtzahl und Anzahl je Bundesland (für die Karte)
+  const { data: listed } = await supabase
     .from("universities")
-    .select("id", { count: "exact", head: true })
-    .overlaps("market_access", PUBLIC_MARKET_ACCESS);
+    .select("listed_by")
+    .overlaps("market_access", PUBLIC_MARKET_ACCESS)
+    .limit(5000);
+  const count = listed?.length ?? null;
+  const counts: Record<string, number> = {};
+  for (const row of listed ?? []) {
+    for (const code of row.listed_by as string[]) {
+      if (code in STATES) counts[code] = (counts[code] ?? 0) + 1;
+    }
+  }
 
   return (
     <main className="flex-1">
       <HeroScene>
-        <div className="mx-auto w-full max-w-6xl px-4 sm:px-6">
-          <CharReveal
-            as="h1"
-            text="Klarheit für deine Studienwahl"
-            accent="Studienwahl"
-            className="block max-w-4xl text-5xl leading-[1.05] tracking-tight text-primary sm:text-7xl"
-          />
-          <p
-            className="mt-6 max-w-xl animate-fade-up text-lg text-pretty text-muted-foreground"
-            style={{ animationDelay: "500ms" }}
-          >
-            Alle Hochschulen in Deutschland an einem Ort – geprüft, mit Quelle
-            und verständlich aufbereitet.
-          </p>
-        </div>
-
-        <div className="mx-auto mt-12 grid w-full max-w-6xl gap-10 px-4 sm:px-6 lg:grid-cols-[1fr_1.3fr]">
-          <div className="flex animate-fade-up flex-col gap-6" style={{ animationDelay: "700ms" }}>
-            <p className="text-sm">
-              <span className="font-medium">{count?.toLocaleString("de-DE") ?? "Über 400"} Hochschulen</span>{" "}
-              aus den offiziellen Listen aller 16 Bundesländer
+        <div className="mx-auto grid w-full max-w-6xl items-center gap-10 px-4 sm:px-6 lg:grid-cols-[1.15fr_0.85fr]">
+          <div>
+            <CharReveal
+              as="h1"
+              text="Klarheit für deine Studienwahl"
+              accent="Studienwahl"
+              className="block max-w-4xl text-5xl leading-[1.05] tracking-tight text-primary sm:text-7xl"
+            />
+            <p
+              className="mt-6 max-w-xl animate-fade-up text-lg text-pretty text-muted-foreground"
+              style={{ animationDelay: "500ms" }}
+            >
+              Alle Hochschulen in Deutschland an einem Ort – geprüft, mit Quelle
+              und verständlich aufbereitet.
             </p>
-            <SearchForm className="max-w-md" />
-            <div>
-              <CtaButton href="/hochschulen">Alle Hochschulen ansehen</CtaButton>
+            <div className="mt-10 flex animate-fade-up flex-col gap-6" style={{ animationDelay: "700ms" }}>
+              <p className="text-sm">
+                <span className="font-medium">{count?.toLocaleString("de-DE") ?? "Über 400"} Hochschulen</span>{" "}
+                aus den offiziellen Listen aller 16 Bundesländer
+              </p>
+              <SearchForm className="max-w-md" />
+              <div>
+                <CtaButton href="/hochschulen">Alle Hochschulen ansehen</CtaButton>
+              </div>
             </div>
           </div>
-          {/* Bundesländer als Einstieg: jede Kachel öffnet die Suche mit diesem Filter */}
-          <nav aria-label="Hochschulen nach Bundesland">
-            <ul className="grid grid-cols-2 gap-2 sm:grid-cols-4">
-              {[
-                ...Object.entries(STATES)
-                  .slice(0, 7)
-                  .map(([code, name]) => ({ href: `/hochschulen?land=${code}`, label: name })),
-                { href: "/hochschulen#filter", label: "+ 9 weitere" },
-              ].map((tile, i) => (
-                <li key={tile.href} className="animate-fade-up" style={{ animationDelay: `${900 + i * 70}ms` }}>
-                  <Link
-                    href={tile.href}
-                    className="flex h-16 items-center justify-center rounded-2xl bg-white/55 px-2 text-center text-sm font-medium text-muted-foreground shadow-xs ring-1 ring-primary/8 backdrop-blur-sm transition-colors hover:bg-brand-mint/70 hover:text-primary hover:ring-primary/20 focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none sm:h-20"
-                  >
-                    {tile.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
+          {/* Karte als Einstieg: Bundesland anklicken öffnet die Suche mit diesem Filter */}
+          <GermanyMap
+            counts={counts}
+            className="mx-auto w-full max-w-sm animate-fade-up sm:max-w-md lg:max-w-none"
+          />
         </div>
       </HeroScene>
 
