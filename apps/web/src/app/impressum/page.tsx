@@ -59,6 +59,37 @@ export default function ImpressumPage() {
             umgehend.
           </p>
         </section>
+        <section id="quellen">
+          <h2>Quellen und Lizenzen</h2>
+          <ul className="mt-2 list-disc space-y-2 pl-5">
+            <li>
+              Hochschuldaten: offizielle Hochschullisten der Landesministerien
+              der 16 Bundesländer; die jeweilige Quelle steht bei jeder
+              Hochschule.
+            </li>
+            <li>
+              Deutschlandkarte: „Map of Germany“ aus{" "}
+              <a
+                href="https://github.com/VictorCazanave/svg-maps"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline underline-offset-4"
+              >
+                svg-maps
+              </a>{" "}
+              von Victor Cazanave, lizenziert unter{" "}
+              <a
+                href="https://creativecommons.org/licenses/by/4.0/deed.de"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline underline-offset-4"
+              >
+                CC BY 4.0
+              </a>
+              . Angepasst: Farben, Beschriftungen und Interaktion.
+            </li>
+          </ul>
+        </section>
         <section>
           <h2>Verbraucherstreitbeilegung</h2>
           <p className="mt-2">

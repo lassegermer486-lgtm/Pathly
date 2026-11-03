@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 
 // Interaktive Deutschlandkarte: Bundesland hovern/fokussieren zeigt Name und
 // Anzahl der Hochschulen, Klick öffnet die Suche mit diesem Bundesland.
-// Kartendaten: @svg-maps/germany (CC BY 4.0) – Quellenhinweis unter der Karte.
+// Kartendaten: @svg-maps/germany (CC BY 4.0) – Quellenhinweis im Impressum (Quellen und Lizenzen).
 type SvgMap = { viewBox: string; locations: { id: string; name: string; path: string }[] };
 const germany = germanyData as unknown as SvgMap;
 // Stadtstaaten innerhalb anderer Länder zuletzt zeichnen, damit sie oben liegen und klickbar sind
@@ -57,13 +57,10 @@ export function GermanyMap({ counts, className }: { counts: Record<string, numbe
         })}
       </svg>
 
-      {/* Info zum aktiven Bundesland; ohne Auswahl ein Hinweis */}
-      <div
-        aria-live="polite"
-        className="pointer-events-none absolute top-2 left-0 rounded-2xl bg-white/80 px-4 py-3 shadow-sm ring-1 ring-primary/8 backdrop-blur-sm"
-      >
-        {activeCode ? (
-          <>
+      {/* Info nur beim Hovern/Fokussieren eines Bundeslands */}
+      <div aria-live="polite" className="pointer-events-none absolute top-2 left-0">
+        {activeCode && (
+          <div className="rounded-2xl bg-white/80 px-4 py-3 shadow-sm ring-1 ring-primary/8 backdrop-blur-sm">
             <p className="flex items-center gap-1.5 font-medium text-primary">
               <MapPinIcon className="size-4" />
               {STATES[activeCode]}
@@ -72,24 +69,10 @@ export function GermanyMap({ counts, className }: { counts: Record<string, numbe
               {counts[activeCode] ?? 0} Hochschulen ansehen
               <ArrowRightIcon className="size-3.5" />
             </p>
-          </>
-        ) : (
-          <p className="text-sm text-muted-foreground">Bundesland wählen</p>
+          </div>
         )}
       </div>
 
-      <p className="absolute right-0 bottom-0 text-[10px] text-muted-foreground/70">
-        Karte:{" "}
-        <a
-          href="https://github.com/VictorCazanave/svg-maps"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="pointer-events-auto underline-offset-2 hover:underline"
-        >
-          svg-maps
-        </a>
-        , CC BY 4.0
-      </p>
     </div>
   );
 }
