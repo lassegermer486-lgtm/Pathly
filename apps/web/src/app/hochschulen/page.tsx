@@ -10,6 +10,7 @@ import {
   hostname,
 } from "@/lib/universities";
 import { SearchForm } from "@/components/search-form";
+import { FilterMenu } from "@/components/filter-menu";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -28,8 +29,6 @@ import {
   EmptyMedia,
   EmptyTitle,
 } from "@/components/ui/empty";
-import { Field, FieldGroup, FieldLabel } from "@/components/ui/field";
-import { NativeSelect, NativeSelectOption } from "@/components/ui/native-select";
 import {
   Pagination,
   PaginationContent,
@@ -49,6 +48,12 @@ export const metadata: Metadata = {
 const PAGE_SIZE = 24;
 
 type SearchParams = Promise<Record<string, string | string[] | undefined>>;
+
+// Mehrfachauswahl: "a,b" bzw. ?x=a&x=b → nur gültige Schlüssel, ohne Duplikate
+function list(value: string | string[] | undefined, allowed: Record<string, string>) {
+  const raw = (Array.isArray(value) ? value : [value ?? ""]).flatMap((v) => v.split(","));
+  return [...new Set(raw.map((v) => v.trim()).filter((v) => v in allowed))];
+}
 
 function param(value: string | string[] | undefined) {
   return typeof value === "string" ? value.trim() : "";
@@ -74,7 +79,11 @@ export default async function UniversitiesPage({
 }) {
   const sp = await searchParams;
   const q = param(sp.q).slice(0, 100);
-  const values = { typ: param(sp.typ), traeger: param(sp.traeger), land: param(sp.land) };
+  const values = {
+    typ: list(sp.typ, INSTITUTION_TYPES),
+    traeger: list(sp.traeger, OWNERSHIPS),
+    land: list(sp.land, STATES),
+  };
   const page = Math.max(1, Number.parseInt(param(sp.seite), 10) || 1);
 
   const supabase = await createClient();
@@ -89,19 +98,19 @@ export default async function UniversitiesPage({
     .range((page - 1) * PAGE_SIZE, page * PAGE_SIZE - 1);
 
   if (q) query = query.ilike("name", `%${q.replace(/[%_\\]/g, "\\$&")}%`);
-  if (values.typ in INSTITUTION_TYPES) query = query.eq("institution_type", values.typ);
-  if (values.traeger in OWNERSHIPS) query = query.eq("ownership", values.traeger);
-  if (values.land in STATES) query = query.contains("listed_by", [values.land]);
+  if (values.typ.length) query = query.in("institution_type", values.typ);
+  if (values.traeger.length) query = query.in("ownership", values.traeger);
+  if (values.land.length) query = query.overlaps("listed_by", values.land);
 
   const { data: universities, count, error } = await query;
   const total = count ?? 0;
   const pages = Math.max(1, Math.ceil(total / PAGE_SIZE));
-  const hasFilter = Boolean(q || values.typ || values.traeger || values.land);
+  const hasFilter = Boolean(q || values.typ.length || values.traeger.length || values.land.length);
 
   const pageHref = (p: number) => {
     const next = new URLSearchParams();
     if (q) next.set("q", q);
-    for (const [k, v] of Object.entries(values)) if (v) next.set(k, v);
+    for (const [k, v] of Object.entries(values)) if (v.length) next.set(k, v.join(","));
     if (p > 1) next.set("seite", String(p));
     const s = next.toString();
     return s ? `/hochschulen?${s}` : "/hochschulen";
@@ -118,21 +127,18 @@ export default async function UniversitiesPage({
       </p>
 
       <SearchForm defaultValue={q} className="mt-8 max-w-3xl">
-        <FieldGroup id="filter" className="mt-4 grid scroll-mt-28 gap-3 sm:grid-cols-3">
+        <div id="filter" className="mt-4 grid scroll-mt-28 gap-3 sm:grid-cols-3">
           {FILTERS.map((f) => (
-            <Field key={f.name} className="gap-1.5">
-              <FieldLabel htmlFor={`filter-${f.name}`}>{f.label}</FieldLabel>
-              <NativeSelect id={`filter-${f.name}`} name={f.name} defaultValue={values[f.name]} className="w-full">
-                <NativeSelectOption value="">{f.all}</NativeSelectOption>
-                {Object.entries(f.options).map(([value, label]) => (
-                  <NativeSelectOption key={value} value={value}>
-                    {label}
-                  </NativeSelectOption>
-                ))}
-              </NativeSelect>
-            </Field>
+            <FilterMenu
+              key={f.name}
+              name={f.name}
+              label={f.label}
+              allLabel={f.all}
+              options={f.options}
+              value={values[f.name]}
+            />
           ))}
-        </FieldGroup>
+        </div>
       </SearchForm>
 
       {error ? (
