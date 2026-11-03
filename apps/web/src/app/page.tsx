@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { BadgeCheckIcon, CompassIcon, ScaleIcon } from "lucide-react";
 import { createClient } from "@/lib/supabase/server";
 import { PUBLIC_MARKET_ACCESS, STATES } from "@/lib/universities";
@@ -64,37 +65,42 @@ export default async function Home() {
           </p>
         </div>
 
-        <div className="mt-12">
-          {/* Haarstrich, der zu beiden Seiten ausblendet – trennt, ohne den Schimmer zu zerschneiden */}
-          <div aria-hidden className="h-px bg-linear-to-r from-transparent via-primary/15 to-transparent" />
-          <div className="mx-auto grid w-full max-w-6xl gap-10 px-4 pt-10 sm:px-6 lg:grid-cols-[1fr_1.3fr]">
-            <div className="flex animate-fade-up flex-col gap-6" style={{ animationDelay: "700ms" }}>
-              <p className="text-sm">
-                <span className="font-medium">{count?.toLocaleString("de-DE") ?? "Über 400"} Hochschulen</span>{" "}
-                aus den offiziellen Listen aller 16 Bundesländer
-              </p>
-              <SearchForm className="max-w-md" />
-              <div>
-                <CtaButton href="/hochschulen">Alle Hochschulen ansehen</CtaButton>
-              </div>
+        <div className="mx-auto mt-12 grid w-full max-w-6xl gap-10 px-4 sm:px-6 lg:grid-cols-[1fr_1.3fr]">
+          <div className="flex animate-fade-up flex-col gap-6" style={{ animationDelay: "700ms" }}>
+            <p className="text-sm">
+              <span className="font-medium">{count?.toLocaleString("de-DE") ?? "Über 400"} Hochschulen</span>{" "}
+              aus den offiziellen Listen aller 16 Bundesländer
+            </p>
+            <SearchForm className="max-w-md" />
+            <div>
+              <CtaButton href="/hochschulen">Alle Hochschulen ansehen</CtaButton>
             </div>
-            <ul className="hidden grid-cols-4 gap-2 sm:grid">
-              {[...Object.values(STATES).slice(0, 7), "+ 9 weitere"].map((name, i) => (
-                <li
-                  key={name}
-                  className="flex h-20 animate-fade-up items-center justify-center rounded-2xl bg-white/55 px-2 text-center text-sm font-medium text-muted-foreground shadow-xs ring-1 ring-primary/8 backdrop-blur-sm"
-                  style={{ animationDelay: `${900 + i * 70}ms` }}
-                >
-                  {name}
+          </div>
+          {/* Bundesländer als Einstieg: jede Kachel öffnet die Suche mit diesem Filter */}
+          <nav aria-label="Hochschulen nach Bundesland">
+            <ul className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+              {[
+                ...Object.entries(STATES)
+                  .slice(0, 7)
+                  .map(([code, name]) => ({ href: `/hochschulen?land=${code}`, label: name })),
+                { href: "/hochschulen#filter", label: "+ 9 weitere" },
+              ].map((tile, i) => (
+                <li key={tile.href} className="animate-fade-up" style={{ animationDelay: `${900 + i * 70}ms` }}>
+                  <Link
+                    href={tile.href}
+                    className="flex h-16 items-center justify-center rounded-2xl bg-white/55 px-2 text-center text-sm font-medium text-muted-foreground shadow-xs ring-1 ring-primary/8 backdrop-blur-sm transition-colors hover:bg-brand-mint/70 hover:text-primary hover:ring-primary/20 focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none sm:h-20"
+                  >
+                    {tile.label}
+                  </Link>
                 </li>
               ))}
             </ul>
-          </div>
+          </nav>
         </div>
       </HeroScene>
 
       <section id="vorhaben" className="scroll-mt-24">
-        <div className="mx-auto max-w-6xl px-4 py-24 sm:px-6">
+        <div className="mx-auto max-w-6xl px-4 pt-8 pb-24 sm:px-6 sm:pt-12">
           <h2 className="text-4xl tracking-tight text-primary">Was kommt</h2>
           <p className="mt-3 max-w-2xl text-muted-foreground">
             Pathly wächst Schritt für Schritt – vom Register bis zur

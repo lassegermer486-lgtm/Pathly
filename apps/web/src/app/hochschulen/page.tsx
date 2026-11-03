@@ -118,7 +118,7 @@ export default async function UniversitiesPage({
       </p>
 
       <SearchForm defaultValue={q} className="mt-8 max-w-3xl">
-        <FieldGroup className="mt-4 grid gap-3 sm:grid-cols-3">
+        <FieldGroup id="filter" className="mt-4 grid scroll-mt-28 gap-3 sm:grid-cols-3">
           {FILTERS.map((f) => (
             <Field key={f.name} className="gap-1.5">
               <FieldLabel htmlFor={`filter-${f.name}`}>{f.label}</FieldLabel>
