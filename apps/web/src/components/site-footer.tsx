@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";
-import { Separator } from "@/components/ui/separator";
 
 const LINKS = [
   { href: "/hochschulen", label: "Hochschulen" },
@@ -12,7 +11,7 @@ const LINKS = [
 export function SiteFooter() {
   return (
     <footer className="mt-auto">
-      <Separator />
+      <div aria-hidden className="h-px bg-linear-to-r from-transparent via-primary/15 to-transparent" />
       <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-10 sm:flex-row sm:items-center sm:justify-between sm:px-6">
         <div className="space-y-2">
           <Logo />

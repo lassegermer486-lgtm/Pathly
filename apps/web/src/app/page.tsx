@@ -64,7 +64,9 @@ export default async function Home() {
           </p>
         </div>
 
-        <div className="mt-12 border-t">
+        <div className="mt-12">
+          {/* Haarstrich, der zu beiden Seiten ausblendet – trennt, ohne den Schimmer zu zerschneiden */}
+          <div aria-hidden className="h-px bg-linear-to-r from-transparent via-primary/15 to-transparent" />
           <div className="mx-auto grid w-full max-w-6xl gap-10 px-4 pt-10 sm:px-6 lg:grid-cols-[1fr_1.3fr]">
             <div className="flex animate-fade-up flex-col gap-6" style={{ animationDelay: "700ms" }}>
               <p className="text-sm">
@@ -76,11 +78,11 @@ export default async function Home() {
                 <CtaButton href="/hochschulen">Alle Hochschulen ansehen</CtaButton>
               </div>
             </div>
-            <ul className="hidden grid-cols-4 border-t border-l sm:grid">
+            <ul className="hidden grid-cols-4 gap-2 sm:grid">
               {[...Object.values(STATES).slice(0, 7), "+ 9 weitere"].map((name, i) => (
                 <li
                   key={name}
-                  className="flex h-20 animate-fade-up items-center justify-center border-r border-b px-2 text-center text-sm font-medium text-muted-foreground"
+                  className="flex h-20 animate-fade-up items-center justify-center rounded-2xl bg-white/55 px-2 text-center text-sm font-medium text-muted-foreground shadow-xs ring-1 ring-primary/8 backdrop-blur-sm"
                   style={{ animationDelay: `${900 + i * 70}ms` }}
                 >
                   {name}

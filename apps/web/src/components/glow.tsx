@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 
 // Lime-Creme-Schimmer der Marke. "top" hängt von oben herab (Hero),
-// "bottom" ist exakt gespiegelt und steigt von unten auf (Abschluss der Seite).
+// "bottom" ist das Spiegelbild (um 180° gedreht) und steigt von unten rechts auf.
 // Liegt hinter dem Inhalt; der Elternabschnitt braucht `relative`.
 export function Glow({ edge = "top", className }: { edge?: "top" | "bottom"; className?: string }) {
   return (
@@ -9,7 +9,7 @@ export function Glow({ edge = "top", className }: { edge?: "top" | "bottom"; cla
       aria-hidden
       className={cn(
         "pointer-events-none absolute -inset-x-16 -z-10",
-        edge === "top" ? "-top-16 -bottom-16" : "-top-16 -bottom-40 -scale-y-100",
+        edge === "top" ? "-top-16 -bottom-16" : "-top-16 -bottom-40 rotate-180",
         className
       )}
     >
