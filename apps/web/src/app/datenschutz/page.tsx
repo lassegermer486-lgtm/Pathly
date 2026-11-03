@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { PROVIDER } from "@/lib/legal";
 
 export const metadata: Metadata = {
   title: "Datenschutz",
   robots: { index: false },
 };
 
-// TODO vor Livegang: Platzhalter ersetzen und Text rechtlich prüfen lassen.
+// Text vor größerem Ausbau (Konten, Analyse, Newsletter) rechtlich prüfen lassen.
 export default function DatenschutzPage() {
   return (
     <main className="mx-auto w-full max-w-3xl flex-1 px-4 py-12 sm:px-6">
@@ -14,8 +15,12 @@ export default function DatenschutzPage() {
         <section>
           <h2>Verantwortlicher</h2>
           <p className="mt-2">
-            [Vor- und Nachname bzw. Firmenname, Anschrift, E-Mail] – siehe
-            Impressum.
+            {PROVIDER.name}, {PROVIDER.street}, {PROVIDER.city}
+            <br />
+            E-Mail:{" "}
+            <a href={`mailto:${PROVIDER.email}`} className="underline underline-offset-4">
+              {PROVIDER.email}
+            </a>
           </p>
         </section>
         <section>
