@@ -4,5 +4,5 @@ export const PROVIDER = {
   street: "Am Kräherwald 179A",
   city: "70193 Stuttgart",
   country: "Deutschland",
-  email: "kontakt@pathly.com",
+  email: "kontakt@pathly.info",
 };
