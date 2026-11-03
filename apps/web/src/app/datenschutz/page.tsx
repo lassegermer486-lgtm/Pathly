@@ -73,10 +73,26 @@ export default function DatenschutzPage() {
           </p>
         </section>
         <section>
+          <h2>Reichweitenmessung mit Vercel Web Analytics</h2>
+          <p className="mt-2">
+            Um zu verstehen, welche Seiten genutzt werden, verwenden wir Vercel
+            Web Analytics. Der Dienst setzt keine Cookies und speichert nichts
+            auf deinem Gerät. Erfasst werden nur zusammengefasste Angaben:
+            aufgerufene Seite, Referrer, Land, Gerätetyp, Betriebssystem und
+            Browser. Deine IP-Adresse wird nicht gespeichert; zur Zählung
+            eindeutiger Besuche bildet Vercel einen anonymen Hashwert, der nach
+            24 Stunden verworfen wird. Ein Wiedererkennen über Tage oder Websites
+            hinweg ist damit nicht möglich. Aus Seitenadressen entfernen wir vor
+            dem Senden alle Parameter außer Suchbegriff und Filtern.
+            Rechtsgrundlage ist unser berechtigtes Interesse an einer
+            bedarfsgerechten Verbesserung des Angebots (Art. 6 Abs. 1 lit. f
+            DSGVO). Anbieter ist Vercel Inc. (siehe Hosting).
+          </p>
+        </section>
+        <section>
           <h2>Cookies, Tracking und Schriftarten</h2>
           <p className="mt-2">
-            Wir setzen keine Tracking- oder Marketing-Cookies und keine
-            Analyse-Tools ein. Wenn du angemeldet bist, speichern wir technisch
+            Wir setzen keine Tracking- oder Marketing-Cookies ein. Wenn du angemeldet bist, speichern wir technisch
             notwendige Cookies, die deine Sitzung enthalten; sie werden beim
             Abmelden gelöscht (§ 25 Abs. 2 TDDDG). Schriftarten werden von
             unserem eigenen Server ausgeliefert; es findet keine Verbindung zu
