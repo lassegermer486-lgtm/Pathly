@@ -1,24 +1,161 @@
+import { BadgeCheckIcon, CompassIcon, ScaleIcon } from "lucide-react";
 import { createClient } from "@/lib/supabase/server";
-import { Button } from "@/components/ui/button";
+import { PUBLIC_MARKET_ACCESS, STATES } from "@/lib/universities";
+import { SearchForm } from "@/components/search-form";
+import { HeroScene } from "@/components/hero-scene";
+import { CtaButton } from "@/components/cta-button";
+import { CharReveal } from "@/components/char-reveal";
+import { Badge } from "@/components/ui/badge";
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import {
+  Item,
+  ItemContent,
+  ItemDescription,
+  ItemGroup,
+  ItemMedia,
+  ItemTitle,
+} from "@/components/ui/item";
+
+const ROADMAP = [
+  { title: "Hochschulregister", text: "Alle Hochschulen in Deutschland mit Standort, Trägerschaft und Quelle.", status: "Live" },
+  { title: "Studiengänge", text: "Welche Hochschule bietet was an – vergleichbar statt verstreut.", status: "In Arbeit" },
+  { title: "Zulassung Bachelor → Master", text: "Voraussetzungen nebeneinander, damit der Übergang planbar wird.", status: "Geplant" },
+  { title: "Kosten & Lebenshaltung", text: "Studiengebühren, Semesterbeitrag und Lebenshaltung am Studienort.", status: "Geplant" },
+  { title: "Nachvollziehbare Rankings", text: "Eigene Rankings mit offener Methodik statt Blackbox.", status: "Geplant" },
+  { title: "Verifizierte Bewertungen", text: "Erfahrungen nur von nachweislich Studierenden der Hochschule.", status: "Geplant" },
+];
+
+const PRINCIPLES = [
+  { icon: BadgeCheckIcon, title: "Offizielle Quellen", text: "Unsere Daten stammen aus den Hochschullisten der Landesministerien. Zu jedem Eintrag zeigen wir, woher er kommt." },
+  { icon: ScaleIcon, title: "Transparente Methodik", text: "Jede Bewertung, jeder Faktor und jede Gewichtung wird offen dokumentiert." },
+  { icon: CompassIcon, title: "Keine Garantien", text: "Wir zeigen Wege und Wahrscheinlichkeiten – keine Versprechen. Auch ungewöhnliche Bildungswege können ans Ziel führen." },
+];
 
 export default async function Home() {
   const supabase = await createClient();
-  const { data: universities, error } = await supabase
+  const { count } = await supabase
     .from("universities")
-    .select("id, name")
-    .limit(10);
-
-  if (error) return <p>Fehler: {error.message}</p>;
+    .select("id", { count: "exact", head: true })
+    .overlaps("market_access", PUBLIC_MARKET_ACCESS);
 
   return (
-    <main className="p-8">
-      <h1 className="text-2xl font-bold">Hochschulen ({universities.length})</h1>
-      <ul>
-        {universities.map((u) => (
-          <li key={u.id}>{u.name}</li>
-        ))}
-      </ul>
-      <Button className="mt-4">Hochschule finden</Button>
+    <main className="flex-1">
+      <HeroScene>
+        <div className="mx-auto w-full max-w-6xl px-4 sm:px-6">
+          <CharReveal
+            as="h1"
+            text="Klarheit für deine Studienwahl"
+            accent="Studienwahl"
+            className="block max-w-4xl text-5xl leading-[1.05] tracking-tight text-primary sm:text-7xl"
+          />
+          <p
+            className="mt-6 max-w-xl animate-fade-up text-lg text-pretty text-muted-foreground"
+            style={{ animationDelay: "500ms" }}
+          >
+            Alle Hochschulen in Deutschland an einem Ort – geprüft, mit Quelle
+            und verständlich aufbereitet.
+          </p>
+        </div>
+
+        <div className="mt-12 border-t">
+          <div className="mx-auto grid w-full max-w-6xl gap-10 px-4 pt-10 sm:px-6 lg:grid-cols-[1fr_1.3fr]">
+            <div className="flex animate-fade-up flex-col gap-6" style={{ animationDelay: "700ms" }}>
+              <p className="text-sm">
+                <span className="font-medium">{count?.toLocaleString("de-DE") ?? "Über 400"} Hochschulen</span>{" "}
+                aus den offiziellen Listen aller 16 Bundesländer
+              </p>
+              <SearchForm className="max-w-md" />
+              <div>
+                <CtaButton href="/hochschulen">Alle Hochschulen ansehen</CtaButton>
+              </div>
+            </div>
+            <ul className="hidden grid-cols-4 border-t border-l sm:grid">
+              {[...Object.values(STATES).slice(0, 7), "+ 9 weitere"].map((name, i) => (
+                <li
+                  key={name}
+                  className="flex h-20 animate-fade-up items-center justify-center border-r border-b px-2 text-center text-sm font-medium text-muted-foreground"
+                  style={{ animationDelay: `${900 + i * 70}ms` }}
+                >
+                  {name}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </HeroScene>
+
+      <section id="vorhaben" className="scroll-mt-24">
+        <div className="mx-auto max-w-6xl px-4 py-24 sm:px-6">
+          <h2 className="text-4xl tracking-tight text-primary">Was kommt</h2>
+          <p className="mt-3 max-w-2xl text-muted-foreground">
+            Pathly wächst Schritt für Schritt – vom Register bis zur
+            Unterstützung beim Übergang ins Berufsleben.
+          </p>
+          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {ROADMAP.map((item) => (
+              <Card key={item.title} className="rounded-2xl">
+                <CardHeader>
+                  <CardTitle>{item.title}</CardTitle>
+                  <CardAction>
+                    <Badge
+                      variant={item.status === "Geplant" ? "outline" : "default"}
+                      className={item.status === "Live" ? "bg-brand-mint text-brand-primary" : item.status === "In Arbeit" ? "bg-brand-aqua text-brand-forest" : undefined}
+                    >
+                      {item.status}
+                    </Badge>
+                  </CardAction>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">{item.text}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="prinzipien" className="scroll-mt-24 border-t">
+        <div className="mx-auto max-w-6xl px-4 py-24 sm:px-6">
+          <h2 className="text-4xl tracking-tight text-primary">Worauf du dich verlassen kannst</h2>
+          <ItemGroup className="mt-10 grid gap-4 sm:grid-cols-3">
+            {PRINCIPLES.map(({ icon: Icon, title, text }) => (
+              <Item key={title} variant="outline" className="items-start rounded-2xl p-5">
+                <ItemMedia variant="icon" className="rounded-full bg-accent p-2.5">
+                  <Icon className="size-5 text-accent-foreground" />
+                </ItemMedia>
+                <ItemContent>
+                  <ItemTitle className="text-base">{title}</ItemTitle>
+                  <ItemDescription className="line-clamp-none">{text}</ItemDescription>
+                </ItemContent>
+              </Item>
+            ))}
+          </ItemGroup>
+        </div>
+      </section>
+
+      <section className="px-3 pb-6 sm:px-6">
+        <div className="relative mx-auto max-w-6xl overflow-hidden rounded-[2rem] border px-6 py-20 text-center sm:px-16">
+          <div
+            aria-hidden
+            className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_60%_80%_at_50%_100%,var(--brand-lime),transparent_70%)]"
+          />
+          <h2 className="mx-auto max-w-2xl text-4xl tracking-tight text-balance text-primary sm:text-5xl">
+            Bereit, deinen Weg zu <span className="text-brand-green">finden</span>?
+          </h2>
+          <p className="mx-auto mt-4 max-w-md text-muted-foreground">
+            Durchsuche alle Hochschulen nach Name, Art, Trägerschaft und Bundesland.
+          </p>
+          <div className="mt-8 flex justify-center">
+            <CtaButton href="/hochschulen">Hochschulen entdecken</CtaButton>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

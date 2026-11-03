@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -13,8 +15,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pathly",
-  description: "Orientierungsplattform für Bildung und Karriere",
+  metadataBase: new URL("https://pathly.info"),
+  title: {
+    default: "Pathly – Orientierung für Studium und Karriere",
+    template: "%s · Pathly",
+  },
+  description:
+    "Alle staatlich anerkannten Hochschulen in Deutschland an einem Ort – aus offiziellen Quellen der Bundesländer, transparent und ohne Versprechen.",
+  openGraph: {
+    type: "website",
+    locale: "de_DE",
+    siteName: "Pathly",
+    url: "https://pathly.info",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -23,7 +36,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="de"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <SiteHeader />
+        {children}
+        <SiteFooter />
+      </body>
     </html>
   );
 }
