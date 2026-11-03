@@ -129,8 +129,8 @@ export default async function Home() {
         </div>
       </section>
 
-      <section id="prinzipien" className="scroll-mt-24 border-t">
-        <div className="mx-auto max-w-6xl px-4 py-24 sm:px-6">
+      <section id="prinzipien" className="scroll-mt-24">
+        <div className="mx-auto max-w-6xl px-4 pt-12 pb-8 sm:px-6 sm:pt-16">
           <h2 className="text-4xl tracking-tight text-primary">Worauf du dich verlassen kannst</h2>
           <ItemGroup className="mt-10 grid gap-4 sm:grid-cols-3">
             {PRINCIPLES.map(({ icon: Icon, title, text }) => (
@@ -149,7 +149,7 @@ export default async function Home() {
       </section>
 
       {/* Abschluss: gleicher Schimmer wie oben, gespiegelt – läuft hinter die Fußzeile aus */}
-      <section className="relative mt-12 px-4 pt-24 pb-28 text-center sm:px-6 sm:pt-32 sm:pb-36">
+      <section className="relative px-4 pt-16 pb-20 text-center sm:px-6 sm:pt-20 sm:pb-24">
         <Glow edge="bottom" />
         <h2 className="mx-auto max-w-2xl text-4xl tracking-tight text-balance text-primary sm:text-5xl">
           Bereit, deinen Weg zu <span className="text-brand-green">finden</span>?
