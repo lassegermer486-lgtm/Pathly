@@ -2,9 +2,11 @@
 
 > Orientierungsplattform für Bildung und Karriere
 >
-> **Stand:** 01.10.2026 · **Grundlage:** zwei Abstimmungen zwischen Karm und Lasse (KI-generierte Besprechungsnotizen, inhaltlich übernommen und strukturiert) sowie der aktuelle Stand des Repositories.
+> **Stand:** 04.11.2026 · **Grundlage:** zwei Abstimmungen zwischen Karm und Lasse (KI-generierte Besprechungsnotizen, inhaltlich übernommen und strukturiert) sowie der aktuelle Stand des Repositories.
 >
-> In den Notizen taucht der Produktname teils als „Pawley“ auf – gemeint ist **ProjectPathly**.
+> In den Notizen taucht der Produktname teils als „Pawley“ auf – gemeint ist **ProjectPathly**. Die Website läuft unter dem Namen **Pathly** auf [pathly.info](https://pathly.info).
+>
+> Zahlen zum Register stammen aus den Daten im Repository (`scrapers/hochschulen/data/`, letzter Build 02.10.2026), nicht aus der Live-Datenbank.
 
 ---
 
@@ -27,6 +29,7 @@
    - [J – Bewerbungstraining & Premium-Services](#j--bewerbungstraining--premium-services)
    - [K – Internationalisierung & Netzwerke](#k--internationalisierung--netzwerke)
    - [L – Studierenden-Hub (Vision)](#l--studierenden-hub-vision)
+   - [M – Web-App & Konto](#m--web-app--konto)
 6. [Roadmap](#6-roadmap)
 7. [Datenquellen](#7-datenquellen)
 8. [Offene Aufgaben aus den Meetings](#8-offene-aufgaben-aus-den-meetings)
@@ -89,12 +92,17 @@ Langfristig wird aus der Übersichtsplattform ein **Informations- und Unterstüt
 | ID | Feature | Phase | Status | Verantwortlich |
 |---|---|---|---|---|
 | **A** | **Hochschul-Register & Datengrundlage** | | | |
-| A1 | Hochschul-Scraper (Name, Website, Bundesland) | MVP | 🟡 | Karm |
+| A1 | Hochschul-Scraper (Name, Website, Bundesland) | MVP | ✅ | Karm |
 | A2 | Erweiterte Hochschul-Attribute (Trägerschaft, Typ, Anerkennung) | MVP | 🟡 | Karm |
 | A3 | Quellen-Nachverfolgung & Rohdaten-Snapshots | MVP | ✅ | Karm |
-| A4 | Deduplizierung & Vereinheitlichung | MVP | 🟡 | Karm |
+| A4 | Deduplizierung & Vereinheitlichung | MVP | ✅ | Karm |
 | A5 | Abgleich mit Hochschulkompass (Validierungsreport) | P2 | ⚪ | – |
 | A6 | Containerisierter Betrieb (Docker) | MVP | ✅ | Karm |
+| A7 | Prüfung & Ermittlung offizieller Websites | MVP | ✅ | Karm |
+| A8 | Zuverlässige Läufe & sichere Veröffentlichung | MVP | ✅ | Karm |
+| A9 | Physische Präsenz in Deutschland | MVP | 🟡 | Karm |
+| A10 | Internationale Online-Hochschulen | P2 | 🟡 | Karm |
+| A11 | Scraper-Oberfläche & Datenbank-Import | MVP | ✅ | Karm |
 | **B** | **Standorte & Kartenansicht** | | | |
 | B1 | Standort-Datenmodell (Haupt- & Nebenstandorte) | MVP | 🟡 | Lasse |
 | B2 | Zuordnung Fakultät ↔ Standort | P2 | ⚪ | Lasse |
@@ -155,6 +163,14 @@ Langfristig wird aus der Übersichtsplattform ein **Informations- und Unterstüt
 | **L** | **Studierenden-Hub (Vision)** | | | |
 | L1 | Hochschulkonto verbinden & Stundenplan laden | V | ⚪ | – |
 | L2 | Mensa-Finder & aktueller Speiseplan | V | ⚪ | – |
+| **M** | **Web-App & Konto** | | | |
+| M1 | Startseite mit Suche und Ausblick „Was kommt“ | MVP | ✅ | Lasse |
+| M2 | Hochschulsuche mit Filtern | MVP | ✅ | Lasse |
+| M3 | Hochschul-Detailseite | MVP | ✅ | Lasse |
+| M4 | Deutschlandkarte als Einstieg (Bundesländer) | MVP | ✅ | Lasse |
+| M5 | Registrierung, Login & Kontoverwaltung | MVP | ✅ | Lasse |
+| M6 | Impressum & Datenschutz | MVP | ✅ | Lasse |
+| M7 | Suchmaschinen-Grundlagen & Web Analytics | MVP | ✅ | Lasse |
 
 ---
 
@@ -168,11 +184,11 @@ Fundament der Plattform: ein reproduzierbares Verzeichnis aller deutschen Hochsc
 
 | | |
 |---|---|
-| **Phase / Status** | MVP · 🟡 |
+| **Phase / Status** | MVP · ✅ |
 | **Verantwortlich** | Karm |
 | **Beschreibung** | Erfasst für jede Hochschule die Pflichtfelder **Name** und **offizielle Website** sowie – sofern die Quelle es liefert – das **meldende Bundesland**. |
 | **Datenfelder** | `name`, `official_url`, `state` (ISO 3166-2, z. B. `DE-NW`), `country` |
-| **Aktueller Stand** | Adapter für alle 16 Bundesländer angelegt (`registry/adapters/`). Saarland: Parsing des Ausbildungsstättenverzeichnisses (PDF) in Arbeit. |
+| **Aktueller Stand** | Alle 16 Bundesländer laufen erfolgreich durch (`build_status: complete`), das Saarland über das Ausbildungsstättenverzeichnis (PDF). Der Master enthält 435 deutsche Einträge, 431 davon sind öffentlich sichtbar. |
 | **Akzeptanzkriterien** | Für jedes Bundesland mindestens Name + Website aller gelisteten Hochschulen; Lauf ist reproduzierbar (`python -m registry.run`). |
 
 #### A2 – Erweiterte Hochschul-Attribute
@@ -183,6 +199,7 @@ Fundament der Plattform: ein reproduzierbares Verzeichnis aller deutschen Hochsc
 | **Beschreibung** | Ergänzung von Attributen, abhängig davon, was die jeweilige Landesquelle bereitstellt. |
 | **Datenfelder** | `ownership` (öffentlich / privat / kirchlich), `institution_type` (Universität, HAW, Kunst-/Musikhochschule, PH, Duale Hochschule …), `recognition_status` |
 | **Regel** | Werte nur übernehmen, wenn die Quelle sie explizit nennt – sonst `unknown`. |
+| **Aktueller Stand** | Von allen 505 Einträgen (inkl. internationaler Kandidaten) sind `institution_type` bei 74, `ownership` bei 125 und `recognition_status` bei 446 noch `unknown`. Der Anerkennungsstatus ist damit die größte Lücke. |
 
 #### A3 – Quellen-Nachverfolgung & Rohdaten-Snapshots
 
@@ -197,9 +214,8 @@ Fundament der Plattform: ein reproduzierbares Verzeichnis aller deutschen Hochsc
 
 | | |
 |---|---|
-| **Phase / Status** | MVP · 🟡 (Branch `Scraper-v1.2`, noch nicht in `main`) |
-| **Beschreibung** | Zusammenführen doppelter Einträge (z. B. Hochschule in mehreren Landeslisten) und Normalisierung von Schreibweisen, Typen und URLs. |
-| **Nächster Schritt** | Pull Request `Scraper-v1.2` → `main` mit Review. |
+| **Phase / Status** | MVP · ✅ (in `main`) |
+| **Beschreibung** | Zusammenführen doppelter Einträge (z. B. Hochschule in mehreren Landeslisten) und Normalisierung von Schreibweisen, Typen und URLs. Unklare Fälle werden in `data/master/overrides.yaml` entschieden. Jede Hochschule behält eine dauerhafte ID. |
 
 #### A5 – Abgleich mit Hochschulkompass
 
@@ -215,6 +231,46 @@ Fundament der Plattform: ein reproduzierbares Verzeichnis aller deutschen Hochsc
 | **Phase / Status** | MVP · ✅ |
 | **Beschreibung** | Scraper läuft per `Dockerfile` / `docker-compose.yml` reproduzierbar auf jeder Maschine. |
 
+#### A7 – Prüfung & Ermittlung offizieller Websites
+
+| | |
+|---|---|
+| **Phase / Status** | MVP · ✅ |
+| **Beschreibung** | Website-URLs werden technisch geprüft, fehlende über Domain-Kandidaten gesucht. Als letztes Mittel schlägt ein KI-Agent mit Websuche eine Adresse vor, die dieselben Prüfungen bestehen muss. Akzeptiert wird nur, wenn das Impressum die Hochschule nennt; sonst bleibt der Fall in Prüfung. |
+| **Aktueller Stand** | 498 von 505 Einträgen haben eine verifizierte Website. |
+
+#### A8 – Zuverlässige Läufe & sichere Veröffentlichung
+
+| | |
+|---|---|
+| **Phase / Status** | MVP · ✅ |
+| **Beschreibung** | Wiederholte Abrufe bei Quellenfehlern und Warnung bei auffälligen Änderungen der Anzahl je Bundesland. Ist ein Build nicht sicher, werden die veröffentlichten Dateien nicht ersetzt. |
+
+#### A9 – Physische Präsenz in Deutschland
+
+| | |
+|---|---|
+| **Phase / Status** | MVP · 🟡 |
+| **Beschreibung** | Bewertet, ob eine Hochschule aktuell mindestens einen aktiven Standort in Deutschland hat. „Nicht präsent“ gilt nur nach manueller Prüfung mit Beleg. Öffentlich sichtbar sind nur Hochschulen mit bestätigtem Zugang (`market_access`). |
+| **Aktueller Stand** | 431 von 435 deutschen Einträgen sind bestätigt, die übrigen in Prüfung. Die Einstufung ist vorläufig und soll durch einen späteren Scraper mit Standortdaten von den Hochschul-Websites bestätigt oder korrigiert werden. |
+
+#### A10 – Internationale Online-Hochschulen
+
+| | |
+|---|---|
+| **Phase / Status** | P2 · 🟡 |
+| **Beschreibung** | Hochschulen außerhalb Deutschlands, die einen vollständigen Online-Abschluss anbieten und aus Deutschland zugänglich sind. Kandidaten kommen aus ETER (Europa) und IPEDS (USA). Details: [Quellenkonzept v1.3](hochschulregister-v1.3-internationale-quellen.md). |
+| **Regel** | Öffentlich erst nach manueller Entscheidung mit zwei offiziellen Belegen: Online-Abschluss und Einschreibung aus Deutschland. |
+| **Aktueller Stand** | 70 Kandidaten sind erfasst, alle noch in Prüfung und damit nicht öffentlich sichtbar. |
+| **Abgrenzung** | Kein regionaler Ausbau im Sinne von K3/K4. Hier geht es nur um Angebote, die aus Deutschland studierbar sind. |
+
+#### A11 – Scraper-Oberfläche & Datenbank-Import
+
+| | |
+|---|---|
+| **Phase / Status** | MVP · ✅ |
+| **Beschreibung** | Weboberfläche zum Steuern der Scraper und zum Entscheiden von Prüffällen ([`apps/scraper-ui`](../apps/scraper-ui/README.md)). Der Import nach Supabase ist wiederholbar und löscht keine Hochschulen; nicht mehr gelistete werden nur markiert. |
+
 ---
 
 ### B – Standorte & Kartenansicht
@@ -226,8 +282,8 @@ Fundament der Plattform: ein reproduzierbares Verzeichnis aller deutschen Hochsc
 | **Phase / Status** | MVP · 🟡 |
 | **Verantwortlich** | Lasse (Definition des vollständigen Datensatzes) |
 | **Beschreibung** | Hochschule und Standort sind getrennte Entitäten. Eine Hochschule hat einen Hauptstandort und beliebig viele Nebenstandorte/Campus. |
-| **Datenfelder** | `locations[].name` (Bezeichnung, z. B. „Campus Garching“), `street`, `postal_code`, `city`, `location_type` (`main` / `branch`), *geplant:* Geokoordinaten (`lat`, `lon`) |
-| **Aktueller Stand** | Adressfelder und `location_type` im normalisierten Schema vorhanden; Bezeichnungen und Nebenstandorte nur teilweise befüllt. |
+| **Datenfelder** | `locations[].name` (Bezeichnung, z. B. „Campus Garching“), `street`, `postal_code`, `city`, `location_type` (`main` / `branch`), `latitude`, `longitude` |
+| **Aktueller Stand** | Das Schema steht. Erfasst sind 322 Standorte für 229 der 505 Einträge (207 Haupt-, 115 Nebenstandorte), davon 197 mit Straße und 87 mit Bezeichnung. Die Spalten für Geokoordinaten gibt es in der Datenbank, die Pipeline befüllt sie aber noch nicht. |
 
 #### B2 – Zuordnung Fakultät ↔ Standort
 
@@ -251,6 +307,7 @@ Fundament der Plattform: ein reproduzierbares Verzeichnis aller deutschen Hochsc
 | **Phase / Status** | P2 · ⚪ |
 | **Beschreibung** | Interaktive Karte aller Hochschulstandorte mit Filter (Bundesland, Typ, Trägerschaft, Studiengang). Klick auf Standort öffnet Hochschul- bzw. Studiengangs-Steckbrief. |
 | **Abhängigkeiten** | B1 inkl. Geokoordinaten (Geocoding der Adressen) |
+| **Abgrenzung** | Die Karte auf der Startseite (M4) zeigt nur Bundesländer, keine einzelnen Standorte. |
 
 #### B5 – Studentenwohnheime auf der Karte
 
@@ -277,6 +334,7 @@ Fundament der Plattform: ein reproduzierbares Verzeichnis aller deutschen Hochsc
 | **Phase / Status** | MVP · ⚪ |
 | **Beschreibung** | Kerninformationen je Studiengang (Bachelor und Master). |
 | **Datenfelder** | Name, Abschluss (B.Sc., M.A., …), Regelstudienzeit, ECTS gesamt, Unterrichtssprache(n), Hochschule, Standort(e), Studienbeginn (WS/SS), Link zur Studiengangsseite |
+| **Aktueller Stand** | Im Repository gibt es noch keinen Studiengangs-Scraper und keine Datenbanktabelle. Die Startseite zeigt das Thema bereits als „In Arbeit“. |
 
 #### C2 – Semesterplan & Module
 
@@ -613,18 +671,39 @@ Langfristig: zentrale Plattform für mehrere Hochschulen, die auch im laufenden 
 
 ---
 
+### M – Web-App & Konto
+
+Die öffentliche Website auf [pathly.info](https://pathly.info), umgesetzt in [`apps/web`](../apps/web/README.md). Das Erscheinungsbild ist in der [Brand Identity](brand-identity.md) beschrieben.
+
+| ID | Feature | Phase | Status | Beschreibung |
+|---|---|---|---|---|
+| M1 | Startseite | MVP | ✅ | Einstieg mit Suche, Anzahl der Hochschulen, Ausblick „Was kommt“ und Prinzipien. |
+| M2 | Hochschulsuche | MVP | ✅ | Suche nach Name, Mehrfachfilter für Art, Trägerschaft und Bundesland, seitenweise Ergebnisse. |
+| M3 | Hochschul-Detailseite | MVP | ✅ | Grunddaten, offizielle Website, Standorte und Quellen mit Abrufdatum. |
+| M4 | Deutschlandkarte | MVP | ✅ | Interaktive Karte der Bundesländer mit Anzahl der Hochschulen. Ein Klick öffnet die Suche mit diesem Filter. |
+| M5 | Registrierung, Login & Konto | MVP | ✅ | Supabase Auth mit E-Mail/Passwort und Google, Passwort zurücksetzen und ändern, Konto selbst löschen. |
+| M6 | Impressum & Datenschutz | MVP | ✅ | Rechtsseiten mit Anbieterangaben. |
+| M7 | Suchmaschinen-Grundlagen & Analytics | MVP | ✅ | Sitemap, `robots`, Vorschaubild für geteilte Links, Vercel Web Analytics. |
+
+Das Konto dient bisher nur der eigenen Verwaltung. Darauf aufbauen können zum Beispiel Fristen-Erinnerungen (D1) und die Verifikation für Bewertungen (H1).
+
+---
+
 ## 6. Roadmap
 
 ```mermaid
 flowchart LR
-    MVP["<b>MVP – Working Product</b><br/>A1–A4, A6 Register<br/>B1 Standorte<br/>C1 Steckbrief<br/>D1, D4 Fristen & Zulassung<br/>D5 Zulassungsvergleich (Basis)"]
-    P2["<b>P2</b><br/>A5 Hochschulkompass-Abgleich<br/>B2–B4 Mappings & Karte<br/>C2–C4 Module & Format<br/>D2–D3, E1<br/>F1–F2 Ranking-Baseline"]
+    LIVE["<b>Bereits umgesetzt</b><br/>A1, A3, A4, A6–A8, A11 Register<br/>M1–M7 Web-App & Konto"]
+    MVP["<b>MVP – Working Product (offen)</b><br/>A2, A9 Register vervollständigen<br/>B1 Standorte<br/>C1 Steckbrief<br/>D1, D4 Fristen & Zulassung<br/>D5 Zulassungsvergleich (Basis)"]
+    P2["<b>P2</b><br/>A5 Hochschulkompass-Abgleich<br/>A10 Internationale Online-Hochschulen<br/>B2–B4 Mappings & Karte<br/>C2–C4 Module & Format<br/>D2–D3, E1<br/>F1–F2 Ranking-Baseline"]
     P3["<b>P3</b><br/>B5 Wohnheime<br/>C5–C6, E2<br/>F3–F11 Rankings<br/>G1–G4 Karriere<br/>H Bewertungen<br/>I Wissen<br/>K1, K3 DACH"]
     V["<b>Vision</b><br/>B6, G5<br/>J Premium-Services<br/>K2, K4 Netzwerk & Europa<br/>L Studierenden-Hub"]
-    MVP --> P2 --> P3 --> V
+    LIVE --> MVP --> P2 --> P3 --> V
 ```
 
 **Definition „Working Product“ (Vorschlag):** Ein Nutzer kann eine deutsche Hochschule suchen, sieht deren Grunddaten und Standorte, findet die angebotenen Studiengänge mit Steckbrief, Bewerbungsfristen und Zulassungsvoraussetzungen.
+
+**Stand:** Suche und Grunddaten sind live, Standorte nur teilweise. Es fehlen vor allem die Studiengänge mit Fristen und Zulassungsvoraussetzungen (C1, D1, D4).
 
 ---
 
@@ -633,7 +712,9 @@ flowchart LR
 | Quelle | Inhalt | Genutzt für | Status |
 |---|---|---|---|
 | Landesministerien / amtliche Hochschullisten (16 Bundesländer) | Hochschulen, Typ, Trägerschaft, Adressen | A1–A4, B1 | in Nutzung |
-| Ausbildungsstättenverzeichnis Saarland (PDF) | Hochschulen Saarland | A1 | in Arbeit |
+| Ausbildungsstättenverzeichnis Saarland (PDF) | Hochschulen Saarland | A1 | in Nutzung |
+| ETER (Europa) | Kandidaten für Online-Hochschulen | A10 | in Nutzung |
+| IPEDS (USA) | Kandidaten für Online-Hochschulen | A10 | in Nutzung |
 | Hochschulkompass (HRK) | Hochschulen, Studiengänge | A5, C1, D1, D4 | zu prüfen |
 | Hochschul-Websites, Modulhandbücher, Prüfungsordnungen | Studiengänge, Module, Zulassung, Fristen | C1–C4, D1–D4, F3 | zu prüfen |
 | Studierendenwerke | Wohnheime, Mensen, Semesterbeitrag | B5, E1, L2 | zu prüfen |
@@ -646,16 +727,28 @@ flowchart LR
 
 ## 8. Offene Aufgaben aus den Meetings
 
-| Aufgabe | Verantwortlich | Bezug |
-|---|---|---|
-| Pflichtfelder der ersten Scraper-Version festlegen: Name, Website, Bundesland (sofern verfügbar) | Karm | A1 |
-| Saarland-Daten vollständig durchlesen und PDF parsen | Karm | A1 |
-| Code-Änderungen als Pull Request bereitstellen (`Scraper-v1.2` → `main`) | Karm | A4 |
-| Vollständigen Standort-Datensatz definieren (Haupt-/Nebenstandorte, Adressen, Bezeichnungen, Fakultäten, Studiengang-Mapping) | Lasse | B1–B3 |
-| Belastbare Datenquellen für Gehälter und weitere Ranking-Metriken prüfen | Karm | F2, G2, Abschnitt 7 |
-| Transparente Ranking-Formel mit getrennten Dimensionen erstellen | Karm, Lasse | F1–F11 |
-| Verifikationskonzept für Studentenbewertungen (Hochschul-Mail) | Karm | H1 |
-| Working Product auf Kernfunktionen fokussieren; Feature-Deep-Dive und Internationalisierung verschieben | Lasse, Karm | Abschnitt 6 |
+Der Status „offen“ heißt: Im Repository ist kein Ergebnis zu finden. Arbeit außerhalb des Repositories kann es trotzdem geben.
+
+| Aufgabe | Verantwortlich | Bezug | Status |
+|---|---|---|---|
+| Pflichtfelder der ersten Scraper-Version festlegen: Name, Website, Bundesland (sofern verfügbar) | Karm | A1 | ✅ |
+| Saarland-Daten vollständig durchlesen und PDF parsen | Karm | A1 | ✅ |
+| Code-Änderungen als Pull Request bereitstellen | Karm | A4 | ✅ (in `main`, zuletzt Scraper v1.3) |
+| Vollständigen Standort-Datensatz definieren (Haupt-/Nebenstandorte, Adressen, Bezeichnungen, Fakultäten, Studiengang-Mapping) | Lasse | B1–B3 | 🟡 Schema für Standorte steht, Fakultäten und Studiengang-Mapping fehlen |
+| Belastbare Datenquellen für Gehälter und weitere Ranking-Metriken prüfen | Karm | F2, G2, Abschnitt 7 | ⚪ offen |
+| Transparente Ranking-Formel mit getrennten Dimensionen erstellen | Karm, Lasse | F1–F11 | ⚪ offen |
+| Verifikationskonzept für Studentenbewertungen (Hochschul-Mail) | Karm | H1 | ⚪ offen |
+| Working Product auf Kernfunktionen fokussieren; Feature-Deep-Dive und Internationalisierung verschieben | Lasse, Karm | Abschnitt 6 | 🟡 läuft |
+
+**Neu aus dem Abgleich mit dem Repository (noch ohne Verantwortliche):**
+
+| Aufgabe | Bezug |
+|---|---|
+| Studiengangs-Scraper und Datenmodell für Studiengänge beginnen | C1, D1, D4 |
+| Offene Prüffälle entscheiden: 70 internationale Kandidaten und 4 deutsche Einträge | A9, A10 |
+| Standortdaten vervollständigen und Adressen geokodieren | B1, B4 |
+| Anerkennungsstatus aus belastbarer Quelle ergänzen | A2 |
+| Festlegen, wie oft das Register neu gebaut und importiert wird | Abschnitt 9 |
 
 ---
 
@@ -664,10 +757,12 @@ flowchart LR
 | Thema | Frage / Risiko |
 |---|---|
 | **Rechtliches Scraping** | Nutzungsbedingungen von LinkedIn & Co. verbieten automatisiertes Auslesen häufig. Personenbezogene Profildaten unterliegen der DSGVO. Alternativen: offizielle APIs, Absolventenstudien, aggregierte Statistiken. |
-| **Datenaktualität** | Fristen, Gebühren und Module ändern sich jährlich – wie oft wird neu gescraped, wie werden Änderungen erkannt? |
+| **Datenaktualität** | Fristen, Gebühren und Module ändern sich jährlich – wie oft wird neu gescraped, wie werden Änderungen erkannt? Beim Register erkennt der Build auffällige Änderungen der Anzahl je Bundesland (A8), ein fester Rhythmus für neue Läufe ist aber nicht dokumentiert. |
 | **Datenvollständigkeit** | Bundesländer liefern unterschiedlich viele Attribute; Lücken müssen als `unknown` sichtbar bleiben statt geschätzt zu werden. |
+| **Aussage „staatlich anerkannt“** | Die Beschreibung der Hochschulsuche spricht von „allen staatlich anerkannten Hochschulen“, der Anerkennungsstatus ist in den Daten aber überwiegend `unknown` (A2). Formulierung prüfen oder Daten ergänzen. |
 | **Ranking-Bias** | Gehalts- und Karrieredaten sind verzerrt (Selbstselektion, Stichprobengröße, Branche). Mindest-Stichprobengrößen und Konfidenzangaben festlegen. |
 | **Haftung / Erwartungsmanagement** | Klare Disclaimer, dass keine Karriere- oder Zulassungsgarantien gegeben werden (P4). |
 | **Verifikation** | Hochschul-Mails sind nicht für alle Gruppen (Alumni, Bewerbende) verfügbar – wer darf was bewerten? |
-| **Tech-Stack** | Backend, Datenbank, Frontend und Hosting für das Working Product noch nicht festgelegt. |
 | **Monetarisierung** | Abgrenzung kostenloser vs. Premium-Funktionen (J) und Vereinbarkeit mit der Neutralität der Rankings. |
+
+**Geklärt – Tech-Stack:** Next.js 16 mit React 19, Tailwind CSS 4 und shadcn/ui als Frontend, Supabase als Datenbank und Login (Serverstandort Irland), Hosting bei Vercel, Scraper in Python.
