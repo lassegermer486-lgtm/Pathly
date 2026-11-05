@@ -74,34 +74,31 @@ export default async function Home({ searchParams }: PageProps<"/">) {
 
   return (
     <main className="flex-1">
-      {/* Einstieg: Ab lg steht das ganze Foto in voller Höhe rechts und läuft links in den Himmel aus,
-          daneben steht der Text. Darunter steht der Text oben und das Foto beginnt erst darunter.
-          Der Rahmen hat die Farbe des Himmels oben im Foto. */}
+      {/* Einstieg: Das Foto füllt die ganze Fläche. Ab lg steht der Text oben links im Himmel,
+          darunter unten auf dem Foto über einem Verlauf. */}
       <section className="px-3 pt-3 sm:px-4">
-        <div className="relative isolate mx-auto flex min-h-[44rem] max-w-[110rem] flex-col max-sm:min-h-[48rem] max-[360px]:min-h-[52rem] overflow-hidden rounded-3xl bg-[#cddceb] lg:h-[calc(100svh-6.5rem)] lg:max-h-[56rem] lg:min-h-[36rem] lg:justify-center">
-          <div
-            data-hero-photo
-            className="absolute inset-y-0 left-0 -z-30 w-full max-lg:top-[19rem] max-sm:top-[24rem] max-[360px]:top-[29rem] max-lg:[mask-image:linear-gradient(to_bottom,transparent,black_5rem)] lg:right-0 lg:left-auto lg:aspect-[2400/1548] lg:w-auto lg:translate-x-[15%] lg:[mask-image:linear-gradient(to_right,transparent,black_32%)]"
-          >
+        <div className="relative isolate mx-auto flex h-[calc(100svh-6.5rem)] max-h-[56rem] min-h-[38rem] max-w-[110rem] flex-col justify-end overflow-hidden rounded-3xl bg-brand-forest lg:justify-start">
+          <div data-hero-photo className="absolute inset-0 -z-30">
             <Image
               src="/images/hero/hero.jpg"
               alt=""
               fill
               priority
-              sizes="(min-width: 1024px) 80vw, 100vw"
-              className="object-cover object-[72%_top] lg:object-[0%_top]"
+              sizes="100vw"
+              className="object-cover object-[60%_top]"
             />
           </div>
+          <div aria-hidden className="absolute inset-x-0 bottom-0 -z-20 h-2/3 bg-gradient-to-t from-black/75 via-black/40 to-transparent lg:hidden" />
           <HeroFlag />
 
-          <div className="max-w-2xl p-5 sm:p-8 lg:w-1/2 lg:pl-12">
+          <div className="max-w-2xl p-5 text-white sm:p-8 lg:max-w-[30rem] lg:pt-12 lg:pl-12 lg:text-brand-forest 2xl:max-w-[38rem]">
             <CharReveal
               as="h1"
               text="Klarheit für deinen nächsten Schritt"
-              className="block text-4xl leading-[1.05] tracking-tight text-brand-forest sm:text-6xl xl:text-7xl"
+              className="block text-4xl leading-[1.05] tracking-tight sm:text-6xl 2xl:text-7xl"
             />
             <p
-              className="mt-5 max-w-xl animate-fade-up text-pretty text-brand-forest sm:text-lg"
+              className="mt-5 max-w-xl animate-fade-up text-pretty sm:text-lg"
               style={{ animationDelay: "500ms" }}
             >
               Was willst du später arbeiten, und welcher Weg führt dorthin? Pathly soll

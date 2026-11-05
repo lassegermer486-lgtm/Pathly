@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { PATHLY_FIGURE_RATIO, PathlyFigure } from "@/components/pathly-figure";
+import { PATHLY_FIGURE_GRIP_X, PATHLY_FIGURE_RATIO, PathlyFigure } from "@/components/pathly-figure";
 
 // Gipfel im Foto hero.jpg (2400 × 1548 px). Das Foto liegt mit object-cover oben ausgerichtet
 // im Einstieg ([data-hero-photo]). Dieselbe Rechnung setzt den Mast auf den Berg.
@@ -92,12 +92,12 @@ export function HeroFlag() {
       // Die untere Spitze des Mastes steht auf dem Gipfel
       canvas!.style.left = `${summitX - margin}px`;
       canvas!.style.top = `${summitY - poleH - margin}px`;
-      // Das Männchen steht links vom Mast auf dem Gipfel
+      // Das Männchen steht links vom Mast auf dem Gipfel und greift ihn
       const figure = figureRef.current;
       if (figure) {
-        const figureH = flagH * 1.25;
+        const figureH = flagH * 1.55;
         figure.style.height = `${figureH}px`;
-        figure.style.left = `${summitX - figureH * PATHLY_FIGURE_RATIO - 2}px`;
+        figure.style.left = `${summitX - figureH * PATHLY_FIGURE_RATIO * PATHLY_FIGURE_GRIP_X}px`;
         figure.style.top = `${summitY - figureH + figureH * 0.02}px`;
       }
       drawFlagCloth();
@@ -171,7 +171,7 @@ export function HeroFlag() {
     <>
       <canvas ref={canvasRef} aria-hidden className="pointer-events-none absolute -z-[5]" />
       <div ref={figureRef} className="pointer-events-none absolute -z-[5]">
-        <PathlyFigure sizes="120px" className="h-full" />
+        <PathlyFigure className="h-full" />
       </div>
     </>
   );
