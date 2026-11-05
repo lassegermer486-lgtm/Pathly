@@ -28,9 +28,9 @@
 | | |
 |---|---|
 | **Name** | Pathly (Wortmarke immer klein: `pathly`; im Fließtext „Pathly“) |
-| **Claim** | Klarheit für deine Studienwahl. |
-| **Versprechen** | Pathly ordnet, was sonst verstreut ist: Hochschulen, Studiengänge, Zulassung und Kosten – klar, nachvollziehbar und aus offiziellen Quellen. |
-| **Zielgruppe** | Studieninteressierte, Studierende vor dem Master, Menschen mit ungewöhnlichen Bildungswegen |
+| **Claim** | Klarheit für deinen nächsten Schritt. |
+| **Versprechen** | Pathly ordnet, was sonst verstreut ist, von der Studienwahl über das Studium bis zum Berufseinstieg – klar, nachvollziehbar und aus offiziellen Quellen. |
+| **Zielgruppe** | Studieninteressierte, Studierende vor dem Master, Menschen beim Berufseinstieg und mit ungewöhnlichen Bildungswegen |
 | **Leitidee** | Klarheit. Jede Seite soll ruhiger wirken als die Suche, die sie ersetzt. |
 
 **Markenwerte** (abgeleitet aus den Leitprinzipien im [Feature-Katalog](feature-katalog.md#2-leitprinzipien)):
@@ -73,6 +73,7 @@ Ruhig und klar – die Farbe kommt aus der Umgebung (Schimmer, Akzente), nicht a
 | **Wortmarke dunkel** (Standard) | auf Weiß, Lime, Minze | `apps/web/public/brand/pathly-logo.png` |
 | **Wortmarke weiß** | auf `#044B39` / `#053438` | `apps/web/public/brand/pathly-logo-white.png` |
 | **Signet „p“** | Favicon, App-Icon, Avatar – weißes „p“ aus der Wortmarke auf `#044B39`, abgerundetes Quadrat | `apps/web/src/app/icon.png`, `apple-icon.png`, `favicon.ico` |
+| **Instagram-Profilbild** | Signet vollflächig auf `#044B39`, 1080×1080, ohne eigene Rundung (Instagram schneidet rund zu) | `docs/brand/pathly-instagram-profilbild.png` |
 | **Vorschaubild** | Link-Vorschau (Social Media, Messenger) 1200×630 | `apps/web/src/app/opengraph-image.png` |
 
 Alle Dateien entstehen aus dem Original (`docs/brand/pathly-logo-original.png`) mit
@@ -192,6 +193,7 @@ Weitere Regeln: sichtbarer Fokus-Ring (`#1EA97B`, 3 px), Animationen respektiere
 - **Raster-Linien** statt Schatten: dünne Linien `#DCE8E2` gliedern Bereiche (Hero-Trennlinie, Logo-/Länder-Raster).
 - **Schatten** nur an der schwebenden Navigation (`shadow-sm`).
 - **Weißraum:** Abschnitte mit 96 px Abstand oben/unten (`py-24`).
+- **Mobil:** Buttons und Eingabefelder sind unterhalb von 768 px mindestens 40 px hoch (`max-md:h-10`). Getestet wird ab 320 px Breite. Inhalte dürfen nie nur per Hover erreichbar sein.
 
 ---
 

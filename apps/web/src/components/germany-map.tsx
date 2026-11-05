@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import germanyData from "@svg-maps/germany";
 import { ArrowRightIcon, MapPinIcon } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import { STATES } from "@/lib/universities";
 import { cn } from "@/lib/utils";
 
@@ -73,6 +74,21 @@ export function GermanyMap({ counts, className }: { counts: Record<string, numbe
         )}
       </div>
 
+      {/* Touch-Geräte haben kein Hovern und kleine Länder sind schwer zu treffen */}
+      <nav aria-label="Hochschulen nach Bundesland" className="mt-6 grid grid-cols-1 gap-1 min-[420px]:grid-cols-2 lg:hidden">
+        {Object.entries(STATES).map(([code, name]) => (
+          <Button
+            key={code}
+            variant="ghost"
+            className="justify-between font-normal"
+            nativeButton={false}
+            render={<Link href={`/hochschulen?land=${code}`} />}
+          >
+            {name}
+            <span className="text-muted-foreground tabular-nums">{counts[code] ?? 0}</span>
+          </Button>
+        ))}
+      </nav>
     </div>
   );
 }

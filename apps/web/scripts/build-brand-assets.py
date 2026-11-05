@@ -8,6 +8,7 @@ Ergebnis:
   public/brand/pathly-logo-white.png  Wortmarke für dunkle Flächen
   src/app/icon.png, apple-icon.png, favicon.ico   "p"-Signet
   src/app/opengraph-image.png         Vorschaubild für Links (1200×630)
+  docs/brand/pathly-instagram-profilbild.png   Profilbild für Instagram (1080×1080)
 """
 
 from pathlib import Path
@@ -24,6 +25,9 @@ WHITE = (255, 255, 255)
 
 # Position des "p" im Original (x von–bis), per Spaltenprofil ermittelt
 P_MARK_X = (179, 308)
+# Das ganze "p" mit Rand zum Nachschärfen fürs Instagram-Profilbild (links, oben, rechts, unten)
+P_AVATAR_BOX = (174, 226, 313, 394)
+P_AVATAR_INK_HEIGHT = 159
 
 
 def to_alpha(img: Image.Image, color=PRIMARY) -> Image.Image:
@@ -47,8 +51,30 @@ def crop(img: Image.Image, pad: int = 6) -> Image.Image:
     return img.crop((left - pad, top - pad, right + pad, bottom + pad))
 
 
+def instagram_avatar(original: Image.Image) -> None:
+    """Profilbild 1080×1080: vollflächig, weil Instagram selbst rund zuschneidet.
+
+    Das Original ist für diese Größe zu klein, darum wird das "p" vergrößert und
+    die Kante neu geschärft statt nur hochskaliert.
+    """
+    size, oversample = 1080, 4
+    letter = original.convert("L").crop(P_AVATAR_BOX)
+    # 157 = Mitte zwischen Schrift (Helligkeit ca. 60) und Weiß: Die Kante bleibt, wo sie ist
+    scale = size * 0.56 * oversample / P_AVATAR_INK_HEIGHT
+    big = letter.resize((round(letter.width * scale), round(letter.height * scale)), Image.BICUBIC)
+    big = big.filter(ImageFilter.GaussianBlur(scale * 0.75))
+    mask = big.point(lambda v: 255 if v < 157 else 0)
+    mask = mask.crop(mask.getbbox())
+    mask = mask.resize((mask.width // oversample, mask.height // oversample), Image.LANCZOS)
+
+    avatar = Image.new("RGB", (size, size), PRIMARY)
+    avatar.paste(WHITE, ((size - mask.width) // 2, (size - mask.height) // 2), mask)
+    avatar.save(SOURCE.parent / "pathly-instagram-profilbild.png", optimize=True)
+
+
 def main() -> None:
     original = Image.open(SOURCE)
+    instagram_avatar(original)
     brand = ROOT / "public" / "brand"
     app = ROOT / "src" / "app"
     brand.mkdir(parents=True, exist_ok=True)

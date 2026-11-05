@@ -30,7 +30,7 @@ export function SearchForm({
           className="text-base text-card-foreground"
         />
         <InputGroupAddon align="inline-end">
-          <InputGroupButton type="submit" variant="default" size="sm" className="h-8 px-4">
+          <InputGroupButton type="submit" variant="default" size="sm" className="h-8 px-4 max-md:h-9">
             Suchen
           </InputGroupButton>
         </InputGroupAddon>

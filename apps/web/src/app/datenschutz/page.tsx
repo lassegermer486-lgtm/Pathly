@@ -51,13 +51,14 @@ export default function DatenschutzPage() {
             deinen Namen, ein verschlüsseltes (gehashtes) Passwort sowie
             Zeitpunkte von Registrierung und Anmeldung. Zur Bestätigung deiner
             E-Mail-Adresse und zum Zurücksetzen des Passworts schicken wir dir
-            E-Mails. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO
-            (Bereitstellung des Kontos).
+            E-Mails. Wenn du dir Hochschulen merkst, speichern wir diese
+            Merkliste zu deinem Konto. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b
+            DSGVO (Bereitstellung des Kontos).
           </p>
           <p className="mt-2">
             Die Kontodaten speichert unser Auftragsverarbeiter Supabase Inc. auf
             Servern in Irland, also innerhalb der EU. Du kannst dein Konto jederzeit unter „Mein Konto“
-            selbst löschen; dabei werden die Kontodaten sofort entfernt.
+            selbst löschen; dabei werden die Kontodaten samt Merkliste sofort entfernt.
           </p>
         </section>
         <section>

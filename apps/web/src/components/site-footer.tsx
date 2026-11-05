@@ -16,7 +16,7 @@ export function SiteFooter() {
           <Logo />
           <p className="text-sm">Orientierung für Studium und Karriere.</p>
         </div>
-        <nav className="-ml-2.5 flex gap-1 sm:ml-0">
+        <nav className="-ml-2.5 flex flex-wrap gap-1 sm:ml-0">
           {LINKS.map((l) => (
             <Button key={l.href} variant="ghost" nativeButton={false} render={<Link href={l.href} />}>
               {l.label}

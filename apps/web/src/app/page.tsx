@@ -1,4 +1,11 @@
-import { BadgeCheckIcon, CompassIcon, ScaleIcon } from "lucide-react";
+import {
+  BadgeCheckIcon,
+  BuildingIcon,
+  CompassIcon,
+  GraduationCapIcon,
+  ScaleIcon,
+} from "lucide-react";
+import { PROVIDER } from "@/lib/legal";
 import { createClient } from "@/lib/supabase/server";
 import { PUBLIC_MARKET_ACCESS, STATES } from "@/lib/universities";
 import { SearchForm } from "@/components/search-form";
@@ -8,6 +15,7 @@ import { CtaButton } from "@/components/cta-button";
 import { CharReveal } from "@/components/char-reveal";
 import { GermanyMap } from "@/components/germany-map";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import {
   Card,
   CardAction,
@@ -25,18 +33,23 @@ import {
 } from "@/components/ui/item";
 
 const ROADMAP = [
-  { title: "Hochschulregister", text: "Alle Hochschulen in Deutschland mit Standort, Trägerschaft und Quelle.", status: "Live" },
-  { title: "Studiengänge", text: "Welche Hochschule bietet was an – vergleichbar statt verstreut.", status: "In Arbeit" },
-  { title: "Zulassung Bachelor → Master", text: "Voraussetzungen nebeneinander, damit der Übergang planbar wird.", status: "Geplant" },
-  { title: "Kosten & Lebenshaltung", text: "Studiengebühren, Semesterbeitrag und Lebenshaltung am Studienort.", status: "Geplant" },
-  { title: "Nachvollziehbare Rankings", text: "Eigene Rankings mit offener Methodik statt Blackbox.", status: "Geplant" },
-  { title: "Verifizierte Bewertungen", text: "Erfahrungen nur von nachweislich Studierenden der Hochschule.", status: "Geplant" },
+  { title: "Hochschulregister", text: "Hochschulen in Deutschland mit Standort, Trägerschaft und Quelle.", status: "Live" },
+  { title: "Studiengänge & Zulassung", text: "Welcher Studiengang passt zu deinem Abschluss? Voraussetzungen, Tests und Studienmodelle auf einen Blick, statt Hochschule für Hochschule zu suchen.", status: "Geplant" },
+  { title: "Kosten & Leben vor Ort", text: "Gebühren, Miete und Lebenshaltung am Studienort, damit du abschätzen kannst, wie viel du nebenbei verdienen müsstest.", status: "Geplant" },
+  { title: "Auslandssemester", text: "Partnerhochschulen und Allianzen als klare Übersicht, damit du siehst, wohin du von deiner Hochschule aus gehen kannst.", status: "Geplant" },
+  { title: "Rankings & Bewertungen", text: "Rankings mit offener Methodik und Erfahrungen von Menschen, die nachweislich dort studieren.", status: "Geplant" },
+  { title: "Karriere & Bewerbung", text: "Welche Wege führen in welchen Beruf, und brauchst du dafür einen Master? Dazu Lebenslauf-Feedback und Vorbereitung auf Interviews und Case Studies.", status: "Geplant" },
 ];
 
 const PRINCIPLES = [
   { icon: BadgeCheckIcon, title: "Offizielle Quellen", text: "Unsere Daten stammen aus den Hochschullisten der Landesministerien. Zu jedem Eintrag zeigen wir, woher er kommt." },
-  { icon: ScaleIcon, title: "Transparente Methodik", text: "Jede Bewertung, jeder Faktor und jede Gewichtung wird offen dokumentiert." },
-  { icon: CompassIcon, title: "Keine Garantien", text: "Wir zeigen Wege und Wahrscheinlichkeiten – keine Versprechen. Auch ungewöhnliche Bildungswege können ans Ziel führen." },
+  { icon: ScaleIcon, title: "Transparente Methodik", text: "Wenn wir etwas bewerten oder einschätzen, legen wir Faktoren und Gewichtung offen." },
+  { icon: CompassIcon, title: "Keine Garantien", text: "Wir zeigen Wege und Einschätzungen, keine Versprechen. Jedes Profil ist anders, und auch ungewöhnliche Bildungswege können ans Ziel führen." },
+];
+
+const PARTNERS = [
+  { icon: GraduationCapIcon, title: "Hochschulen", text: "Jede Hochschule aus den offiziellen Listen steht bei uns gleichberechtigt, auch abseits der bekannten Rankings. So können auch kleinere Hochschulen gefunden werden." },
+  { icon: BuildingIcon, title: "Unternehmen", text: "Studierende sollen früh sehen, welche Wege in welche Branchen führen. Dazu möchten wir mit Unternehmen sprechen, die zeigen wollen, wen sie suchen." },
 ];
 
 export default async function Home() {
@@ -62,16 +75,17 @@ export default async function Home() {
           <div>
             <CharReveal
               as="h1"
-              text="Klarheit für deine Studienwahl"
-              accent="Studienwahl"
+              text="Klarheit für deinen nächsten Schritt"
+              accent="Schritt"
               className="block max-w-4xl text-5xl leading-[1.05] tracking-tight text-primary sm:text-7xl"
             />
             <p
               className="mt-6 max-w-xl animate-fade-up text-lg text-pretty text-muted-foreground"
               style={{ animationDelay: "500ms" }}
             >
-              Alle Hochschulen in Deutschland an einem Ort – geprüft, mit Quelle
-              und verständlich aufbereitet.
+              Was willst du später arbeiten, und welcher Weg führt dorthin? Pathly
+              soll dich von der Studienwahl bis zum Berufseinstieg begleiten. Wir
+              starten mit den Hochschulen in Deutschland, aus offiziellen Quellen.
             </p>
             <div className="mt-10 flex animate-fade-up flex-col gap-6" style={{ animationDelay: "700ms" }}>
               <p className="text-sm">
@@ -80,7 +94,7 @@ export default async function Home() {
               </p>
               <SearchForm className="max-w-md" />
               <div>
-                <CtaButton href="/hochschulen">Alle Hochschulen ansehen</CtaButton>
+                <CtaButton href="/hochschulen">Hochschulen ansehen</CtaButton>
               </div>
             </div>
           </div>
@@ -96,8 +110,11 @@ export default async function Home() {
         <div className="mx-auto max-w-6xl px-4 pt-8 pb-24 sm:px-6 sm:pt-12">
           <h2 className="text-4xl tracking-tight text-primary">Was kommt</h2>
           <p className="mt-3 max-w-2xl text-muted-foreground">
-            Pathly wächst Schritt für Schritt – vom Register bis zur
-            Unterstützung beim Übergang ins Berufsleben.
+            Oft geht es zuerst darum, was du studieren willst. Wir fragen auch,
+            was du danach arbeiten möchtest. Darum wächst Pathly in drei Etappen:
+            Studienwahl, Studium und Berufseinstieg. Du kannst dich selbst
+            durchklicken und sollst später auch eine KI-Beratung fragen können,
+            die ihre Quellen nennt.
           </p>
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {ROADMAP.map((item) => (
@@ -141,6 +158,37 @@ export default async function Home() {
         </div>
       </section>
 
+      <section id="partner" className="scroll-mt-24">
+        <div className="mx-auto max-w-6xl px-4 pt-12 pb-8 sm:px-6 sm:pt-16">
+          <h2 className="text-4xl tracking-tight text-primary">Für Hochschulen und Unternehmen</h2>
+          <p className="mt-3 max-w-2xl text-muted-foreground">
+            Pathly soll mehr werden als ein Verzeichnis: Wir verbinden Hochschulen,
+            Studiengänge und Berufswege. Dafür suchen wir das Gespräch.
+          </p>
+          <ItemGroup className="mt-10 grid gap-4 sm:grid-cols-2">
+            {PARTNERS.map(({ icon: Icon, title, text }) => (
+              <Item key={title} variant="outline" className="items-start rounded-2xl p-5">
+                <ItemMedia variant="icon" className="rounded-full bg-accent p-2.5">
+                  <Icon className="size-5 text-accent-foreground" />
+                </ItemMedia>
+                <ItemContent>
+                  <ItemTitle className="text-base">{title}</ItemTitle>
+                  <ItemDescription className="line-clamp-none">{text}</ItemDescription>
+                </ItemContent>
+              </Item>
+            ))}
+          </ItemGroup>
+          <Button
+            variant="outline"
+            className="mt-6"
+            nativeButton={false}
+            render={<a href={`mailto:${PROVIDER.email}`} />}
+          >
+            Kontakt aufnehmen
+          </Button>
+        </div>
+      </section>
+
       {/* Abschluss: gleicher Schimmer wie oben, gespiegelt – läuft hinter die Fußzeile aus */}
       <section className="relative px-4 pt-16 pb-20 text-center sm:px-6 sm:pt-20 sm:pb-24">
         <Glow edge="bottom" />
@@ -148,7 +196,7 @@ export default async function Home() {
           Bereit, deinen Weg zu <span className="text-brand-green">finden</span>?
         </h2>
         <p className="mx-auto mt-4 max-w-md text-muted-foreground">
-          Durchsuche alle Hochschulen nach Name, Art, Trägerschaft und Bundesland.
+          Starte mit den Hochschulen: Such nach Name, Art, Trägerschaft und Bundesland.
         </p>
         <div className="mt-8 flex justify-center">
           <CtaButton href="/hochschulen">Hochschulen entdecken</CtaButton>

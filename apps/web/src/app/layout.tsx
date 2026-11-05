@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s · Pathly",
   },
   description:
-    "Alle staatlich anerkannten Hochschulen in Deutschland an einem Ort – aus offiziellen Quellen der Bundesländer, transparent und ohne Versprechen.",
+    "Pathly soll dich von der Studienwahl bis zum Berufseinstieg begleiten. Wir starten mit den Hochschulen in Deutschland, aus den offiziellen Listen der Bundesländer.",
   openGraph: {
     type: "website",
     locale: "de_DE",

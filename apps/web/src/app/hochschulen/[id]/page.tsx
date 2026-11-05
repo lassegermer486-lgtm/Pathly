@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ExternalLinkIcon, LandmarkIcon, MapPinIcon } from "lucide-react";
 import { createClient } from "@/lib/supabase/server";
+import { getSavedState } from "@/lib/saved";
 import {
   INSTITUTION_TYPES,
   OWNERSHIPS,
@@ -10,6 +11,7 @@ import {
   STATES,
   hostname,
 } from "@/lib/universities";
+import { SaveButton } from "@/components/save-button";
 import { Badge } from "@/components/ui/badge";
 import {
   Breadcrumb,
@@ -89,6 +91,8 @@ export default async function UniversityPage({
   const u = await getUniversity((await params).id);
   if (!u) notFound();
 
+  const { signedIn, saved } = await getSavedState([u.id]);
+
   const facts = [
     ["Art", INSTITUTION_TYPES[u.institution_type]],
     ["Trägerschaft", OWNERSHIPS[u.ownership]],
@@ -116,16 +120,25 @@ export default async function UniversityPage({
         <p className="mt-2">Auch bekannt als: {u.name_variants.join(", ")}</p>
       )}
 
-      {u.official_url && (
-        <Button
-          size="lg"
-          className="mt-6 h-10 px-4"
-          nativeButton={false}
-          render={<a href={u.official_url} target="_blank" rel="noopener noreferrer" />}
-        >
-          {hostname(u.official_url)} <ExternalLinkIcon data-icon="inline-end" />
-        </Button>
-      )}
+      <div className="mt-6 flex flex-wrap items-start gap-3">
+        {u.official_url && (
+          <Button
+            size="lg"
+            className="h-10 max-w-full shrink px-4"
+            nativeButton={false}
+            render={<a href={u.official_url} target="_blank" rel="noopener noreferrer" />}
+          >
+            <span className="truncate">{hostname(u.official_url)}</span>
+            <ExternalLinkIcon data-icon="inline-end" />
+          </Button>
+        )}
+        <SaveButton
+          universityId={u.id}
+          universityName={u.name}
+          saved={saved.has(u.id)}
+          signedIn={signedIn}
+        />
+      </div>
 
       {facts.length > 0 && (
         <div className="mt-10 grid gap-4 sm:grid-cols-3">

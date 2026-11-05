@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ExternalLinkIcon, MapPinIcon, SearchXIcon, TriangleAlertIcon } from "lucide-react";
 import { createClient } from "@/lib/supabase/server";
+import { getSavedState } from "@/lib/saved";
 import {
   INSTITUTION_TYPES,
   OWNERSHIPS,
@@ -11,11 +12,13 @@ import {
 } from "@/lib/universities";
 import { SearchForm } from "@/components/search-form";
 import { FilterMenu } from "@/components/filter-menu";
+import { SaveButton } from "@/components/save-button";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
   Card,
+  CardAction,
   CardDescription,
   CardFooter,
   CardHeader,
@@ -42,7 +45,7 @@ import {
 export const metadata: Metadata = {
   title: "Hochschulen in Deutschland",
   description:
-    "Durchsuche alle staatlich anerkannten Hochschulen in Deutschland nach Name, Art, Trägerschaft und Bundesland.",
+    "Durchsuche die Hochschulen aus den offiziellen Listen der Bundesländer nach Name, Art, Trägerschaft und Bundesland.",
 };
 
 const PAGE_SIZE = 24;
@@ -103,6 +106,7 @@ export default async function UniversitiesPage({
   if (values.land.length) query = query.overlaps("listed_by", values.land);
 
   const { data: universities, count, error } = await query;
+  const { signedIn, saved } = await getSavedState((universities ?? []).map((u) => u.id));
   const total = count ?? 0;
   const pages = Math.max(1, Math.ceil(total / PAGE_SIZE));
   const hasFilter = Boolean(q || values.typ.length || values.traeger.length || values.land.length);
@@ -127,7 +131,10 @@ export default async function UniversitiesPage({
       </p>
 
       <SearchForm defaultValue={q} className="mt-8 max-w-3xl">
-        <div id="filter" className="mt-4 grid scroll-mt-28 gap-3 sm:grid-cols-3">
+        <div
+          id="filter"
+          className="mt-4 grid scroll-mt-28 grid-cols-2 gap-2 *:last:col-span-2 sm:grid-cols-3 sm:gap-3 sm:*:last:col-span-1"
+        >
           {FILTERS.map((f) => (
             <FilterMenu
               key={f.name}
@@ -186,7 +193,7 @@ export default async function UniversitiesPage({
               const stateCode = u.listed_by.find((s: string) => s in STATES);
               const place = city ?? (stateCode ? STATES[stateCode] : null);
               return (
-                <li key={u.id}>
+                <li key={u.id} className="min-w-0">
                   <Card className="relative h-full transition-colors hover:bg-accent/60 hover:ring-accent-foreground/40">
                     <CardHeader>
                       <CardTitle className="leading-snug">
@@ -194,9 +201,21 @@ export default async function UniversitiesPage({
                           {u.name}
                         </Link>
                       </CardTitle>
+                      {/* Über dem Link, der die ganze Karte abdeckt */}
+                      <CardAction className="relative z-10">
+                        <SaveButton
+                          compact
+                          universityId={u.id}
+                          universityName={u.name}
+                          saved={saved.has(u.id)}
+                          signedIn={signedIn}
+                        />
+                      </CardAction>
                       <CardDescription className="flex flex-wrap gap-1.5 pt-1">
                         {INSTITUTION_TYPES[u.institution_type] && (
-                          <Badge variant="secondary">{INSTITUTION_TYPES[u.institution_type]}</Badge>
+                          <Badge variant="secondary" className="h-auto whitespace-normal">
+                            {INSTITUTION_TYPES[u.institution_type]}
+                          </Badge>
                         )}
                         {OWNERSHIPS[u.ownership] && (
                           <Badge variant="outline">{OWNERSHIPS[u.ownership]}</Badge>
@@ -215,7 +234,7 @@ export default async function UniversitiesPage({
                           href={u.official_url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="relative z-10 inline-flex items-center gap-1 hover:text-accent-foreground"
+                          className="relative z-10 inline-flex min-w-0 items-center gap-1 break-all hover:text-accent-foreground max-md:-my-2 max-md:py-2"
                         >
                           {hostname(u.official_url)}
                           <ExternalLinkIcon className="size-3.5" />

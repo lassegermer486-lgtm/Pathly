@@ -171,6 +171,7 @@ Langfristig wird aus der Übersichtsplattform ein **Informations- und Unterstüt
 | M5 | Registrierung, Login & Kontoverwaltung | MVP | ✅ | Lasse |
 | M6 | Impressum & Datenschutz | MVP | ✅ | Lasse |
 | M7 | Suchmaschinen-Grundlagen & Web Analytics | MVP | ✅ | Lasse |
+| M8 | Merkliste | P2 | 🟡 | Lasse |
 
 ---
 
@@ -334,7 +335,7 @@ Fundament der Plattform: ein reproduzierbares Verzeichnis aller deutschen Hochsc
 | **Phase / Status** | MVP · ⚪ |
 | **Beschreibung** | Kerninformationen je Studiengang (Bachelor und Master). |
 | **Datenfelder** | Name, Abschluss (B.Sc., M.A., …), Regelstudienzeit, ECTS gesamt, Unterrichtssprache(n), Hochschule, Standort(e), Studienbeginn (WS/SS), Link zur Studiengangsseite |
-| **Aktueller Stand** | Im Repository gibt es noch keinen Studiengangs-Scraper und keine Datenbanktabelle. Die Startseite zeigt das Thema bereits als „In Arbeit“. |
+| **Aktueller Stand** | Im Repository gibt es noch keinen Studiengangs-Scraper und keine Datenbanktabelle. Die Datenquelle ist rechtlich noch nicht geklärt (Abschnitt 9). |
 
 #### C2 – Semesterplan & Module
 
@@ -684,8 +685,9 @@ Die öffentliche Website auf [pathly.info](https://pathly.info), umgesetzt in [`
 | M5 | Registrierung, Login & Konto | MVP | ✅ | Supabase Auth mit E-Mail/Passwort und Google, Passwort zurücksetzen und ändern, Konto selbst löschen. |
 | M6 | Impressum & Datenschutz | MVP | ✅ | Rechtsseiten mit Anbieterangaben. |
 | M7 | Suchmaschinen-Grundlagen & Analytics | MVP | ✅ | Sitemap, `robots`, Vorschaubild für geteilte Links, Vercel Web Analytics. |
+| M8 | Merkliste | P2 | 🟡 | Hochschulen in der Suche und auf der Detailseite merken, Liste unter „Mein Konto“. Gebaut, die Migration muss noch in die Live-Datenbank. |
 
-Das Konto dient bisher nur der eigenen Verwaltung. Darauf aufbauen können zum Beispiel Fristen-Erinnerungen (D1) und die Verifikation für Bewertungen (H1).
+Auf dem Konto können außerdem zum Beispiel Fristen-Erinnerungen (D1) und die Verifikation für Bewertungen (H1) aufbauen.
 
 ---
 
@@ -759,7 +761,8 @@ Der Status „offen“ heißt: Im Repository ist kein Ergebnis zu finden. Arbeit
 | **Rechtliches Scraping** | Nutzungsbedingungen von LinkedIn & Co. verbieten automatisiertes Auslesen häufig. Personenbezogene Profildaten unterliegen der DSGVO. Alternativen: offizielle APIs, Absolventenstudien, aggregierte Statistiken. |
 | **Datenaktualität** | Fristen, Gebühren und Module ändern sich jährlich – wie oft wird neu gescraped, wie werden Änderungen erkannt? Beim Register erkennt der Build auffällige Änderungen der Anzahl je Bundesland (A8), ein fester Rhythmus für neue Läufe ist aber nicht dokumentiert. |
 | **Datenvollständigkeit** | Bundesländer liefern unterschiedlich viele Attribute; Lücken müssen als `unknown` sichtbar bleiben statt geschätzt zu werden. |
-| **Aussage „staatlich anerkannt“** | Die Beschreibung der Hochschulsuche spricht von „allen staatlich anerkannten Hochschulen“, der Anerkennungsstatus ist in den Daten aber überwiegend `unknown` (A2). Formulierung prüfen oder Daten ergänzen. |
+| **Aussage „staatlich anerkannt“** | Der Anerkennungsstatus ist in den Daten überwiegend `unknown` (A2). Die Website wirbt deshalb nicht mehr damit; das sollte erst zurückkommen, wenn die Daten es belegen. |
+| **Quelle für Studiengänge** | Vorprüfung vom 04.11.2026: Der Hochschulkompass erlaubt frei nur den persönlichen Gebrauch, seine `robots.txt` sperrt Suchbereiche und eine Kooperation bringt Auflagen mit. Mehrere Hochschul-Impressen verlangen für die Weiterverwendung eine Zustimmung, und das Datenbankrecht (§ 87b UrhG) ist bei kompletten Katalogen ungeklärt. Vor jedem Scraping: anwaltliche Prüfung oder schriftliche Erlaubnis. |
 | **Ranking-Bias** | Gehalts- und Karrieredaten sind verzerrt (Selbstselektion, Stichprobengröße, Branche). Mindest-Stichprobengrößen und Konfidenzangaben festlegen. |
 | **Haftung / Erwartungsmanagement** | Klare Disclaimer, dass keine Karriere- oder Zulassungsgarantien gegeben werden (P4). |
 | **Verifikation** | Hochschul-Mails sind nicht für alle Gruppen (Alumni, Bewerbende) verfügbar – wer darf was bewerten? |

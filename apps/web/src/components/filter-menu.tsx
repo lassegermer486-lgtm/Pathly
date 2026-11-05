@@ -62,14 +62,15 @@ export function FilterMenu({
 
   return (
     <div className="flex flex-col gap-1.5">
-      <span className="text-sm font-medium">{label}</span>
+      {/* Auf dem Handy spart das Platz: „Alle Arten“ erklärt sich selbst, aria-label nennt den Filter */}
+      <span className="text-sm font-medium max-sm:sr-only">{label}</span>
       <DropdownMenu>
         <DropdownMenuTrigger
           render={
             <Button
               variant="outline"
               className={cn(
-                "h-9 w-full justify-between rounded-lg font-normal",
+                "h-9 w-full justify-between rounded-lg font-normal max-md:h-10",
                 selected.length > 0 && "border-primary/30 bg-brand-mint/40 text-primary"
               )}
               aria-label={`${label}: ${selected.length ? selected.map((k) => options[k]).join(", ") : allLabel}`}
