@@ -89,7 +89,7 @@ export default function ImpressumPage() {
               . Angepasst: Farben, Beschriftungen und Interaktion.
             </li>
             <li>
-              Fotos auf der Startseite: Fotis Fotopoulos, Benjamin Hibbert-Hingston und Geranimo über{" "}
+              Foto auf der Startseite: Georgi Kalaydzhiev über{" "}
               <a
                 href="https://unsplash.com/license"
                 target="_blank"

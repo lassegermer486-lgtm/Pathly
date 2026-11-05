@@ -7,10 +7,11 @@ import {
   ScaleIcon,
 } from "lucide-react";
 import { PROVIDER } from "@/lib/legal";
+import { list } from "@/lib/search-params";
 import { createClient } from "@/lib/supabase/server";
-import { PUBLIC_MARKET_ACCESS, STATES } from "@/lib/universities";
+import { PUBLIC_MARKET_ACCESS, STATES, UNIVERSITY_FILTERS } from "@/lib/universities";
+import { FilterMenu } from "@/components/filter-menu";
 import { SearchForm } from "@/components/search-form";
-import { HeroScene } from "@/components/hero-scene";
 import { Glow } from "@/components/glow";
 import { CtaButton } from "@/components/cta-button";
 import { CharReveal } from "@/components/char-reveal";
@@ -42,12 +43,6 @@ const ROADMAP = [
   { title: "Karriere & Bewerbung", text: "Welche Wege führen in welchen Beruf, und brauchst du dafür einen Master? Dazu Lebenslauf-Feedback und Vorbereitung auf Interviews und Case Studies.", status: "Geplant" },
 ];
 
-const STAGES = [
-  { title: "Studienwahl", text: "Welche Richtung passt zu dir, und welche Wege stehen dir offen?", image: "/images/wege/studienwahl.jpg", alt: "Luftbild: Ein Waldweg, der sich in zwei Richtungen gabelt" },
-  { title: "Studium", text: "Welcher Master, welches Auslandssemester, welche Praktika bringen dich weiter?", image: "/images/wege/studium.jpg", alt: "Luftbild: Ein Weg führt durch einen herbstlich bunten Wald" },
-  { title: "Berufseinstieg", text: "Was brauchst du, um dort anzukommen, wo du arbeiten willst?", image: "/images/wege/berufseinstieg.jpg", alt: "Luftbild: Ein geschwungener Weg durch einen dunkelgrünen Wald" },
-];
-
 const PRINCIPLES = [
   { icon: BadgeCheckIcon, title: "Offizielle Quellen", text: "Unsere Daten stammen aus den Hochschullisten der Landesministerien. Zu jedem Eintrag zeigen wir, woher er kommt." },
   { icon: ScaleIcon, title: "Transparente Methodik", text: "Wenn wir etwas bewerten oder einschätzen, legen wir Faktoren und Gewichtung offen." },
@@ -59,7 +54,8 @@ const PARTNERS = [
   { icon: BuildingIcon, title: "Unternehmen", text: "Studierende sollen früh sehen, welche Wege in welche Branchen führen. Dazu möchten wir mit Unternehmen sprechen, die zeigen wollen, wen sie suchen." },
 ];
 
-export default async function Home() {
+export default async function Home({ searchParams }: PageProps<"/">) {
+  const sp = await searchParams;
   const supabase = await createClient();
   // Eine Abfrage liefert Gesamtzahl und Anzahl je Bundesland (für die Karte)
   const { data: listed } = await supabase
@@ -77,41 +73,88 @@ export default async function Home() {
 
   return (
     <main className="flex-1">
-      <HeroScene>
-        <div className="mx-auto grid w-full max-w-6xl items-center gap-10 px-4 sm:px-6 lg:grid-cols-[1.15fr_0.85fr]">
-          <div>
+      {/* Einstieg mit Tiefe: Foto, darüber das große Wort, darüber der freigestellte Berg */}
+      <section className="px-3 pt-3 sm:px-4">
+        <div className="relative isolate mx-auto flex h-[calc(100svh-6.5rem)] max-h-[56rem] min-h-[36rem] max-w-[110rem] flex-col justify-end overflow-hidden rounded-3xl bg-brand-forest">
+          <Image
+            src="/images/hero/hero.jpg"
+            alt=""
+            fill
+            priority
+            sizes="100vw"
+            className="-z-30 object-cover object-[60%_top]"
+          />
+          <div aria-hidden className="absolute inset-x-0 top-[3%] -z-20 text-center">
             <CharReveal
-              as="h1"
-              text="Klarheit für deinen nächsten Schritt"
-              accent="Schritt"
-              className="block max-w-4xl text-5xl leading-[1.05] tracking-tight text-primary sm:text-7xl"
+              text="Klarheit"
+              className="block text-[23vw] leading-none font-medium tracking-tight text-brand-forest min-[110rem]:text-[25rem]"
             />
-            <p
-              className="mt-6 max-w-xl animate-fade-up text-lg text-pretty text-muted-foreground"
-              style={{ animationDelay: "500ms" }}
-            >
-              Was willst du später arbeiten, und welcher Weg führt dorthin? Pathly
-              soll dich von der Studienwahl bis zum Berufseinstieg begleiten. Wir
-              starten mit den Hochschulen in Deutschland, aus offiziellen Quellen.
-            </p>
-            <div className="mt-10 flex animate-fade-up flex-col gap-6" style={{ animationDelay: "700ms" }}>
-              <p className="text-sm">
-                <span className="font-medium">{count?.toLocaleString("de-DE") ?? "Über 400"} Hochschulen</span>{" "}
-                aus den offiziellen Listen aller 16 Bundesländer
+          </div>
+          <Image
+            src="/images/hero/hero-vorne.webp"
+            alt=""
+            fill
+            priority
+            sizes="100vw"
+            className="-z-10 object-cover object-[60%_top]"
+          />
+          <div aria-hidden className="absolute inset-x-0 bottom-0 -z-10 h-2/3 bg-gradient-to-t from-black/70 via-black/35 to-transparent" />
+
+          <div className="flex flex-wrap items-end justify-between gap-6 p-5 text-white sm:p-8">
+            <div className="max-w-2xl animate-fade-up" style={{ animationDelay: "500ms" }}>
+              <h1 className="text-4xl leading-[1.05] tracking-tight text-balance sm:text-6xl">
+                <span className="sr-only">Klarheit </span>für deinen nächsten Schritt
+              </h1>
+              <p className="mt-4 max-w-xl text-pretty sm:text-lg">
+                Was willst du später arbeiten, und welcher Weg führt dorthin? Pathly soll
+                dich von der Studienwahl bis zum Berufseinstieg begleiten.
               </p>
-              <SearchForm className="max-w-md" />
-              <div>
-                <CtaButton href="/hochschulen">Hochschulen ansehen</CtaButton>
-              </div>
+              <CtaButton href="/hochschulen" className="mt-6">
+                Hochschulen ansehen
+              </CtaButton>
             </div>
+            <p
+              className="animate-fade-up rounded-2xl bg-background/90 p-4 text-sm text-foreground backdrop-blur max-sm:hidden"
+              style={{ animationDelay: "700ms" }}
+            >
+              <span className="block text-3xl font-medium tracking-tight text-primary">
+                {count?.toLocaleString("de-DE") ?? "Über 400"}
+              </span>
+              Hochschulen aus den offiziellen
+              <br />
+              Listen aller 16 Bundesländer
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="hochschulen" className="scroll-mt-24">
+        <div className="mx-auto grid w-full max-w-6xl items-center gap-10 px-4 pt-14 pb-16 sm:px-6 lg:grid-cols-[1.15fr_0.85fr]">
+          <div>
+            <h2 className="text-4xl tracking-tight text-primary">Finde deine Hochschule</h2>
+            <p className="mt-3 max-w-xl text-muted-foreground">
+              Wir starten mit den {count?.toLocaleString("de-DE") ?? "über 400"} Hochschulen aus den
+              offiziellen Listen aller 16 Bundesländer.
+            </p>
+            <SearchForm className="mt-8 max-w-xl">
+              <div className="mt-4 grid grid-cols-2 gap-2 *:last:col-span-2 sm:grid-cols-3 sm:gap-3 sm:*:last:col-span-1">
+                {UNIVERSITY_FILTERS.map((f) => (
+                  <FilterMenu
+                    key={f.name}
+                    name={f.name}
+                    label={f.label}
+                    allLabel={f.all}
+                    options={f.options}
+                    value={list(sp[f.name], f.options)}
+                  />
+                ))}
+              </div>
+            </SearchForm>
           </div>
           {/* Karte als Einstieg: Bundesland anklicken öffnet die Suche mit diesem Filter */}
-          <GermanyMap
-            counts={counts}
-            className="mx-auto w-full max-w-sm animate-fade-up sm:max-w-md lg:max-w-none"
-          />
+          <GermanyMap counts={counts} className="mx-auto w-full max-w-sm sm:max-w-md lg:max-w-none" />
         </div>
-      </HeroScene>
+      </section>
 
       <section id="vorhaben" className="scroll-mt-24">
         <div className="mx-auto max-w-6xl px-4 pt-8 pb-24 sm:px-6 sm:pt-12">
@@ -123,24 +166,7 @@ export default async function Home() {
             durchklicken und sollst später auch eine KI-Beratung fragen können,
             die ihre Quellen nennt.
           </p>
-          <ul className="mt-10 grid gap-6 sm:grid-cols-3 sm:gap-4">
-            {STAGES.map((stage) => (
-              <li key={stage.title} className="min-w-0">
-                <div className="relative aspect-[4/3] overflow-hidden rounded-2xl max-sm:aspect-video">
-                  <Image
-                    src={stage.image}
-                    alt={stage.alt}
-                    fill
-                    sizes="(min-width: 1152px) 368px, (min-width: 640px) 33vw, 100vw"
-                    className="object-cover"
-                  />
-                </div>
-                <h3 className="mt-3 text-lg font-semibold text-primary">{stage.title}</h3>
-                <p className="mt-1 text-pretty text-muted-foreground">{stage.text}</p>
-              </li>
-            ))}
-          </ul>
-          <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {ROADMAP.map((item) => (
               <Card key={item.title} className="rounded-2xl">
                 <CardHeader>

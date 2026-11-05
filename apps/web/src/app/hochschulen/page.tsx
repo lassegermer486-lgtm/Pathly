@@ -9,6 +9,7 @@ import {
   OWNERSHIPS,
   PUBLIC_MARKET_ACCESS,
   STATES,
+  UNIVERSITY_FILTERS,
   hostname,
 } from "@/lib/universities";
 import { SearchForm } from "@/components/search-form";
@@ -59,12 +60,6 @@ function pageWindow(page: number, pages: number): (number | "…")[] {
   const nums = [...set].filter((p) => p >= 1 && p <= pages).sort((a, b) => a - b);
   return nums.flatMap((p, i) => (i > 0 && p - nums[i - 1] > 1 ? ["…" as const, p] : [p]));
 }
-
-const FILTERS = [
-  { name: "typ", label: "Art", all: "Alle Arten", options: INSTITUTION_TYPES },
-  { name: "traeger", label: "Trägerschaft", all: "Alle Träger", options: OWNERSHIPS },
-  { name: "land", label: "Bundesland", all: "Alle Bundesländer", options: STATES },
-] as const;
 
 export default async function UniversitiesPage({
   searchParams,
@@ -127,7 +122,7 @@ export default async function UniversitiesPage({
           id="filter"
           className="mt-4 grid scroll-mt-28 grid-cols-2 gap-2 *:last:col-span-2 sm:grid-cols-3 sm:gap-3 sm:*:last:col-span-1"
         >
-          {FILTERS.map((f) => (
+          {UNIVERSITY_FILTERS.map((f) => (
             <FilterMenu
               key={f.name}
               name={f.name}

@@ -40,6 +40,12 @@ export const STATES: Record<string, string> = {
   "DE-TH": "Thüringen",
 };
 
+export const UNIVERSITY_FILTERS = [
+  { name: "typ", label: "Art", all: "Alle Arten", options: INSTITUTION_TYPES },
+  { name: "traeger", label: "Trägerschaft", all: "Alle Träger", options: OWNERSHIPS },
+  { name: "land", label: "Bundesland", all: "Alle Bundesländer", options: STATES },
+] as const;
+
 export function hostname(url: string) {
   try {
     return new URL(url).hostname.replace(/^www\./, "");
