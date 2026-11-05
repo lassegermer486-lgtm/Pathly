@@ -111,7 +111,7 @@ Langfristig wird aus der Übersichtsplattform ein **Informations- und Unterstüt
 | B5 | Studentenwohnheime auf der Karte | P3 | ⚪ | – |
 | B6 | Weitere Orte auf der Karte (Mensen, relevante POIs) | V | ⚪ | – |
 | **C** | **Studiengänge** | | | |
-| C1 | Studiengangs-Steckbrief (Dauer, Abschluss, Sprache) | MVP | ⚪ | – |
+| C1 | Studiengangs-Steckbrief (Dauer, Abschluss, Sprache) | MVP | 🟡 | Lasse |
 | C2 | Semesterplan & Module | P2 | ⚪ | – |
 | C3 | Modulbeschreibungen | P2 | ⚪ | – |
 | C4 | Studienformat (Vollzeit/Teilzeit, Wochentag/Wochenende/Block) | P2 | ⚪ | – |
@@ -121,8 +121,8 @@ Langfristig wird aus der Übersichtsplattform ein **Informations- und Unterstüt
 | D1 | Bewerbungszeiträume als Zeitfenster | MVP | ⚪ | – |
 | D2 | Early-Bird-Fristen & Rabatte | P2 | ⚪ | – |
 | D3 | Checkliste erforderlicher Unterlagen | P2 | ⚪ | – |
-| D4 | Zulassungsvoraussetzungen (ECTS, Pflichtfächer) | MVP | ⚪ | – |
-| D5 | **Bachelor-Master-Zulassungsvergleich (Kernfeature)** | MVP/P2 | ⚪ | – |
+| D4 | Zulassungsvoraussetzungen (ECTS, Pflichtfächer) | MVP | 🟡 | Lasse |
+| D5 | **Bachelor-Master-Zulassungsvergleich (Kernfeature)** | MVP/P2 | 🟡 | Lasse |
 | **E** | **Kosten & Lebenshaltung** | | | |
 | E1 | Studiengebühren (Semester / gesamt) | P2 | ⚪ | – |
 | E2 | Kontextbezogene Kostenprognose | P3 | ⚪ | – |
@@ -335,7 +335,7 @@ Fundament der Plattform: ein reproduzierbares Verzeichnis aller deutschen Hochsc
 | **Phase / Status** | MVP · ⚪ |
 | **Beschreibung** | Kerninformationen je Studiengang (Bachelor und Master). |
 | **Datenfelder** | Name, Abschluss (B.Sc., M.A., …), Regelstudienzeit, ECTS gesamt, Unterrichtssprache(n), Hochschule, Standort(e), Studienbeginn (WS/SS), Link zur Studiengangsseite |
-| **Aktueller Stand** | Im Repository gibt es noch keinen Studiengangs-Scraper und keine Datenbanktabelle. Die Datenquelle ist rechtlich noch nicht geklärt (Abschnitt 9). |
+| **Aktueller Stand** | Tabelle `programs` und Seiten `/studiengaenge` stehen, aber nur auf dem Dev-Server und mit erfundenen Demodaten (`supabase/seeds/dev-demo-programs.sql`). Auf pathly.info sind sie verborgen (`lib/flags.ts`). Es gibt noch keinen Scraper, die Datenquelle ist rechtlich nicht geklärt (Abschnitt 9). |
 
 #### C2 – Semesterplan & Module
 
@@ -413,6 +413,7 @@ Fundament der Plattform: ein reproduzierbares Verzeichnis aller deutschen Hochsc
 | **Beschreibung** | Nutzer gibt seinen Bachelor (bzw. Module/ECTS) an und sieht, für welche Master er die Zulassungsvoraussetzungen erfüllt, teilweise erfüllt (inkl. fehlender ECTS/Fächer) oder nicht erfüllt. |
 | **Abhängigkeiten** | C1, C2, D4 |
 | **Hinweis** | Von Karm als besonders wichtig eingestuft. Laut Lasse aber erst nach einem funktionsfähigen Grundprodukt im Detail ausarbeiten. |
+| **Aktueller Stand** | Erster Entwurf auf dem Dev-Server: Der Abgleich läuft im Browser (`lib/admission.ts`, Tests mit `npm test`), das Profil bleibt auf dem Gerät. Die Grenzen für „teilweise erfüllt“ (30 ECTS, 0,3 Notenpunkte, die Hälfte der Fachgebiets-ECTS) sind Annahmen und müssen mit echten Prüfungsordnungen geprüft werden. |
 
 ---
 

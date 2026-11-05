@@ -15,11 +15,13 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { showDemoFeatures } from "@/lib/flags";
 import { createClient } from "@/lib/supabase/client";
 import { cn } from "@/lib/utils";
 
 const LINKS = [
   { href: "/hochschulen", label: "Hochschulen" },
+  ...(showDemoFeatures ? [{ href: "/studiengaenge", label: "Studiengänge" }] : []),
   { href: "/#vorhaben", label: "Was kommt" },
   { href: "/#prinzipien", label: "Prinzipien" },
 ];

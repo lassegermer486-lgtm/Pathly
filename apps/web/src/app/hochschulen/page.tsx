@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ExternalLinkIcon, MapPinIcon, SearchXIcon, TriangleAlertIcon } from "lucide-react";
 import { createClient } from "@/lib/supabase/server";
 import { getSavedState } from "@/lib/saved";
+import { likePattern, list, param } from "@/lib/search-params";
 import {
   INSTITUTION_TYPES,
   OWNERSHIPS,
@@ -52,16 +53,6 @@ const PAGE_SIZE = 24;
 
 type SearchParams = Promise<Record<string, string | string[] | undefined>>;
 
-// Mehrfachauswahl: "a,b" bzw. ?x=a&x=b → nur gültige Schlüssel, ohne Duplikate
-function list(value: string | string[] | undefined, allowed: Record<string, string>) {
-  const raw = (Array.isArray(value) ? value : [value ?? ""]).flatMap((v) => v.split(","));
-  return [...new Set(raw.map((v) => v.trim()).filter((v) => v in allowed))];
-}
-
-function param(value: string | string[] | undefined) {
-  return typeof value === "string" ? value.trim() : "";
-}
-
 // Seitenzahlen mit Auslassungen, z. B. 1 … 4 5 6 … 18
 function pageWindow(page: number, pages: number): (number | "…")[] {
   const set = new Set([1, pages, page - 1, page, page + 1]);
@@ -100,7 +91,7 @@ export default async function UniversitiesPage({
     .order("name")
     .range((page - 1) * PAGE_SIZE, page * PAGE_SIZE - 1);
 
-  if (q) query = query.ilike("name", `%${q.replace(/[%_\\]/g, "\\$&")}%`);
+  if (q) query = query.ilike("name", likePattern(q));
   if (values.typ.length) query = query.in("institution_type", values.typ);
   if (values.traeger.length) query = query.in("ownership", values.traeger);
   if (values.land.length) query = query.overlaps("listed_by", values.land);
