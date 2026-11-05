@@ -77,6 +77,20 @@ export type Program = {
   university: { id: number; name: string };
 };
 
+// Bachelor mit bekanntem Studienplan: daraus entsteht das Profil
+export type BachelorOption = {
+  id: number;
+  name: string;
+  degree_title: string;
+  field: string;
+  ects: number | null;
+  curriculum_ects: Record<string, number>;
+  university: { id: number; name: string };
+};
+
+export const BACHELOR_COLUMNS =
+  "id, name, degree_title, field, ects, curriculum_ects, university:universities!inner(id, name)";
+
 export const PROGRAM_COLUMNS =
   "id, name, degree, degree_title, field, study_models, languages, semesters, ects, start_terms, " +
   "tuition_per_semester_eur, city, program_url, admission_type, min_total_ects, min_grade, " +

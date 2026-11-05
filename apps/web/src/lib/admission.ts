@@ -7,9 +7,40 @@ export type ProfileInput = {
   totalEcts: string;
   grade: string;
   areaEcts: Record<string, string>;
+  bachelorUniversityId: string;
+  bachelorProgramId: string;
 };
 
-export const EMPTY_PROFILE: ProfileInput = { field: "", totalEcts: "", grade: "", areaEcts: {} };
+export const EMPTY_PROFILE: ProfileInput = {
+  field: "",
+  totalEcts: "",
+  grade: "",
+  areaEcts: {},
+  bachelorUniversityId: "",
+  bachelorProgramId: "",
+};
+
+export type Curriculum = {
+  id: number;
+  field: string;
+  ects: number | null;
+  curriculum_ects: Record<string, number>;
+  university: { id: number };
+};
+
+// Füllt das Profil aus dem Studienplan. Die Note kennt nur die Person selbst, sie bleibt erhalten.
+export function applyCurriculum(profile: ProfileInput, bachelor: Curriculum): ProfileInput {
+  return {
+    ...profile,
+    field: bachelor.field,
+    totalEcts: bachelor.ects === null ? "" : String(bachelor.ects),
+    areaEcts: Object.fromEntries(
+      Object.entries(bachelor.curriculum_ects).map(([area, ects]) => [area, String(ects)]),
+    ),
+    bachelorUniversityId: String(bachelor.university.id),
+    bachelorProgramId: String(bachelor.id),
+  };
+}
 
 export type Requirements = {
   degree: string;

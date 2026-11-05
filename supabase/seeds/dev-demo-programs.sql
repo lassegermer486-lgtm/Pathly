@@ -92,9 +92,44 @@ from (values
    '{}', '[]', '{}', 'Deutsch C1', '15.07.', null, null),
   ('PTH-DE-DE000002', 'Maschinenbau', 'bachelor', 'B.Sc.', 'ingenieurwesen', '{full_time}', '{de}', 6, 180,
    '{winter,summer}', 0, 'Bergstadt', 'requirements', null, null,
-   '{}', '[]', '{Eignungstest}', 'Deutsch C1', '15.07.', '15.01.', null)
+   '{}', '[]', '{Eignungstest}', 'Deutsch C1', '15.07.', '15.01.', null),
+  ('PTH-DE-DE000001', 'Informatik', 'bachelor', 'B.Sc.', 'informatik', '{full_time}', '{de}', 6, 180,
+   '{winter}', 0, 'Nordstadt', 'open', null, null,
+   '{}', '[]', '{}', 'Deutsch C1', '15.09.', null, null),
+  ('PTH-DE-DE000001', 'Physik', 'bachelor', 'B.Sc.', 'naturwissenschaften', '{full_time}', '{de}', 6, 180,
+   '{winter}', 0, 'Nordstadt', 'open', null, null,
+   '{}', '[]', '{}', 'Deutsch C1', '15.09.', null, null),
+  ('PTH-DE-DE000002', 'Wirtschaftsinformatik', 'bachelor', 'B.Sc.', 'wirtschaftsinformatik', '{full_time}', '{de}', 6, 180,
+   '{winter}', 0, 'Bergstadt', 'requirements', null, null,
+   '{}', '[]', '{}', 'Deutsch C1', '15.07.', null, null),
+  ('PTH-DE-DE000003', 'Wirtschaftsinformatik', 'bachelor', 'B.Sc.', 'wirtschaftsinformatik', '{full_time,dual}', '{de}', 7, 210,
+   '{winter}', 0, 'Rheintal', 'open', null, null,
+   '{}', '[]', '{}', 'Deutsch C1', '15.09.', null, null),
+  ('PTH-DE-DE000004', 'Betriebswirtschaft', 'bachelor', 'B.A.', 'wirtschaft', '{full_time}', '{de}', 6, 180,
+   '{winter,summer}', 0, 'Seeland', 'nc', null, null,
+   '{}', '[]', '{}', 'Deutsch C1', '15.07.', '15.01.', null),
+  ('PTH-DE-DE000006', 'Wirtschaftsingenieurwesen', 'bachelor', 'B.Eng.', 'ingenieurwesen', '{dual}', '{de}', 7, 210,
+   '{winter}', 0, 'Waldau', 'requirements', null, null,
+   '{}', '[]', '{Arbeitsvertrag mit Partnerunternehmen}', 'Deutsch B2', '31.07.', null, null)
 ) as v(reg, name, degree, title, field, models, languages, semesters, ects, terms, tuition, city, admission,
        min_ects, min_grade, accepted, areas, tests, lang_req, d_winter, d_summer, notes)
 join public.universities u on u.registry_id = v.reg;
+
+-- Studienpläne der Bachelor: ECTS pro Fachgebiet
+update public.programs p
+set curriculum_ects = v.plan::jsonb
+from (values
+  ('PTH-DE-DE000001', 'Informatik', '{"informatik":105,"mathematik":36,"wirtschaft":0,"technik":6}'),
+  ('PTH-DE-DE000001', 'Physik', '{"informatik":12,"mathematik":50,"wirtschaft":0,"technik":20}'),
+  ('PTH-DE-DE000001', 'Wirtschaftswissenschaften', '{"informatik":6,"mathematik":18,"wirtschaft":120,"technik":0}'),
+  ('PTH-DE-DE000002', 'Maschinenbau', '{"informatik":8,"mathematik":30,"wirtschaft":6,"technik":110}'),
+  ('PTH-DE-DE000002', 'Wirtschaftsinformatik', '{"informatik":60,"mathematik":18,"wirtschaft":60,"technik":0}'),
+  ('PTH-DE-DE000003', 'Informatik', '{"informatik":120,"mathematik":30,"wirtschaft":6,"technik":12}'),
+  ('PTH-DE-DE000003', 'Wirtschaftsinformatik', '{"informatik":70,"mathematik":15,"wirtschaft":65,"technik":6}'),
+  ('PTH-DE-DE000004', 'Betriebswirtschaft', '{"informatik":6,"mathematik":12,"wirtschaft":125,"technik":0}'),
+  ('PTH-DE-DE000006', 'Wirtschaftsingenieurwesen', '{"informatik":10,"mathematik":20,"wirtschaft":70,"technik":70}')
+) as v(reg, name, plan)
+join public.universities u on u.registry_id = v.reg
+where p.university_id = u.id and p.name = v.name and p.degree = 'bachelor';
 
 commit;

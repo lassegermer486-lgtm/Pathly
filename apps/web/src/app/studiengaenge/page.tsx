@@ -9,6 +9,7 @@ import { ProgramList } from "@/components/program-list";
 import { SearchForm } from "@/components/search-form";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
+import { getBachelorOptions } from "@/lib/bachelors";
 import { showDemoFeatures } from "@/lib/flags";
 import {
   ADMISSION_TYPES,
@@ -57,6 +58,7 @@ export default async function ProgramsPage({ searchParams }: PageProps<"/studien
   const { data, error } = await query;
   if (error) console.error("Studiengänge konnten nicht geladen werden:", error);
   const programs = (data ?? []) as unknown as Program[];
+  const bachelors = await getBachelorOptions();
 
   return (
     <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-12 sm:px-6">
@@ -95,7 +97,7 @@ export default async function ProgramsPage({ searchParams }: PageProps<"/studien
       )}
 
       <div className="mt-10 grid items-start gap-8 lg:grid-cols-[20rem_1fr]">
-        <ProfileForm className="lg:sticky lg:top-24" />
+        <ProfileForm bachelors={bachelors} className="lg:sticky lg:top-24" />
         {error ? (
           <Alert variant="destructive">
             <TriangleAlertIcon />

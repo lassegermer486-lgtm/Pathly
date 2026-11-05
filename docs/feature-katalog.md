@@ -413,7 +413,7 @@ Fundament der Plattform: ein reproduzierbares Verzeichnis aller deutschen Hochsc
 | **Beschreibung** | Nutzer gibt seinen Bachelor (bzw. Module/ECTS) an und sieht, für welche Master er die Zulassungsvoraussetzungen erfüllt, teilweise erfüllt (inkl. fehlender ECTS/Fächer) oder nicht erfüllt. |
 | **Abhängigkeiten** | C1, C2, D4 |
 | **Hinweis** | Von Karm als besonders wichtig eingestuft. Laut Lasse aber erst nach einem funktionsfähigen Grundprodukt im Detail ausarbeiten. |
-| **Aktueller Stand** | Erster Entwurf auf dem Dev-Server: Der Abgleich läuft im Browser (`lib/admission.ts`, Tests mit `npm test`), das Profil bleibt auf dem Gerät. Die Grenzen für „teilweise erfüllt“ (30 ECTS, 0,3 Notenpunkte, die Hälfte der Fachgebiets-ECTS) sind Annahmen und müssen mit echten Prüfungsordnungen geprüft werden. |
+| **Aktueller Stand** | Erster Entwurf auf dem Dev-Server: Hochschule und Bachelor-Studiengang genügen, Fachrichtung und ECTS kommen aus dem Studienplan (`programs.curriculum_ects`), die Note ist optional. Der Abgleich läuft im Browser (`lib/admission.ts`, Tests mit `npm test`), das Profil bleibt auf dem Gerät. Die Grenzen für „teilweise erfüllt“ (30 ECTS, 0,3 Notenpunkte, die Hälfte der Fachgebiets-ECTS) sind Annahmen und müssen mit echten Prüfungsordnungen geprüft werden. |
 
 ---
 

@@ -1,7 +1,7 @@
 // Aufruf: npm test (Node führt die TypeScript-Datei direkt aus)
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { assess, hasProfileData, parseGrade, EMPTY_PROFILE } from "./admission.ts";
+import { applyCurriculum, assess, hasProfileData, parseGrade, EMPTY_PROFILE } from "./admission.ts";
 
 const labels = {
   fields: { informatik: "Informatik", wirtschaft: "Wirtschaft" },
@@ -87,6 +87,43 @@ test("Eingaben: Komma, ungültige Werte, leeres Profil", () => {
   assert.equal(hasProfileData(EMPTY_PROFILE), false);
   assert.equal(hasProfileData({ ...EMPTY_PROFILE, grade: "abc" }), false);
   assert.equal(hasProfileData({ ...EMPTY_PROFILE, totalEcts: "0" }), true);
+});
+
+const bachelor = {
+  id: 7,
+  field: "informatik",
+  ects: 180,
+  curriculum_ects: { informatik: 105, mathematik: 36 },
+  university: { id: 3 },
+};
+
+test("Hochschule und Studiengang füllen alles außer der Note", () => {
+  const filled = applyCurriculum(EMPTY_PROFILE, bachelor);
+  assert.deepEqual(filled, {
+    field: "informatik",
+    totalEcts: "180",
+    grade: "",
+    areaEcts: { informatik: "105", mathematik: "36" },
+    bachelorUniversityId: "3",
+    bachelorProgramId: "7",
+  });
+  assert.equal(hasProfileData(filled), true);
+});
+
+test("Wechsel des Studiengangs behält die Note und ersetzt alte Fachgebiete", () => {
+  const before = { ...EMPTY_PROFILE, grade: "2,0", areaEcts: { technik: "99" } };
+  const filled = applyCurriculum(before, bachelor);
+  assert.equal(filled.grade, "2,0");
+  assert.equal(filled.areaEcts.technik, undefined);
+});
+
+test("ohne Note gibt es trotzdem eine Einschätzung der ECTS", () => {
+  const filled = applyCurriculum(EMPTY_PROFILE, bachelor);
+  const fits = assess(master, filled, labels);
+  assert.equal(status(fits, "grade"), "unknown");
+  assert.equal(fits.fit, "incomplete");
+  const gap = assess({ ...master, ects_requirements: [{ area: "informatik", ects: 300 }] }, filled, labels);
+  assert.equal(gap.fit, "unlikely");
 });
 
 test("numeric aus der Datenbank kommt auch als Text richtig an", () => {

@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Button } from "@/components/ui/button";
 import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { getBachelorOptions } from "@/lib/bachelors";
 import { showDemoFeatures } from "@/lib/flags";
 import {
   ADMISSION_TYPES,
@@ -168,7 +169,7 @@ export default async function ProgramPage({ params }: PageProps<"/studiengaenge/
             </section>
           )}
         </div>
-        {isMaster && <ProfileForm className="lg:sticky lg:top-24" />}
+        {isMaster && <ProfileForm bachelors={await getBachelorOptions()} className="lg:sticky lg:top-24" />}
       </div>
     </main>
   );

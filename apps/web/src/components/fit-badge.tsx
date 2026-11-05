@@ -22,7 +22,7 @@ const FITS: Partial<Record<Fit, { label: string; icon: typeof CircleCheckIcon; c
   likely: { label: "Passt voraussichtlich", icon: CircleCheckIcon, className: "bg-brand-mint text-brand-primary" },
   partial: { label: "Teilweise erfüllt", icon: CircleAlertIcon, className: "bg-brand-cream text-brand-olive" },
   unlikely: { label: "Eher nicht erfüllt", icon: CircleXIcon, className: "bg-destructive/10 text-destructive" },
-  incomplete: { label: "Angaben fehlen", icon: CircleDashedIcon, className: "bg-muted text-muted-foreground" },
+  incomplete: { label: "Bisher keine Lücke", icon: CircleDashedIcon, className: "bg-muted text-muted-foreground" },
 };
 
 export function FitBadge({ fit, className }: { fit: Fit; className?: string }) {
