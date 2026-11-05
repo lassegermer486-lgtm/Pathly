@@ -14,6 +14,14 @@ const POLE_COLOR = "#053438";
 const LOGO_SRC = "/brand/pathly-logo.png";
 const LOGO_RATIO = 681 / 225;
 
+// Hier lässt sich der Wind einstellen
+const WIND = {
+  speed: 4.2, // Tempo der Wellen, 6,28 wäre eine Welle pro Sekunde
+  waves: 1.1, // Wellen über die Flaggenlänge
+  height: 0.3, // Wellenhöhe im Verhältnis zur Flaggenhöhe
+  gustSpeed: 0.55, // Wie schnell Böen kommen und gehen
+};
+
 // Die Flagge entsteht auf einer Zeichenfläche und wird Streifen für Streifen wellenförmig
 // verschoben. Sie ist also kein Bild und passt sich jeder Größe an.
 export function HeroFlag() {
@@ -41,6 +49,7 @@ export function HeroFlag() {
       flag.height = Math.round(flagH * dpr);
       const f = flag.getContext("2d");
       if (!f) return;
+      f.imageSmoothingQuality = "high";
       f.fillStyle = FLAG_COLOR;
       f.fillRect(0, 0, flag.width, flag.height);
       if (logo.complete && logo.naturalWidth > 0) {
@@ -54,11 +63,12 @@ export function HeroFlag() {
       const cw = parent!.clientWidth;
       const ch = parent!.clientHeight;
 
-      flagW = Math.max(84, Math.min(cw * 0.1, 170));
+      flagW = Math.max(84, Math.min(cw * 0.085, 150));
       flagH = flagW / 1.55;
-      poleH = flagH * 1.55;
-      margin = flagH * 0.55;
-      dpr = Math.min(window.devicePixelRatio || 1, 2);
+      poleH = flagH * 1.35;
+      margin = flagH * 0.6;
+      // Mindestens doppelte Auflösung, damit Kanten und Logo auch bei kleiner Flagge weich bleiben
+      dpr = Math.min(Math.max(window.devicePixelRatio || 1, 2), 3);
 
       // Schmale Bildschirme: Berg so weit nach unten, dass die Flagge unter dem Wort Platz hat.
       // Der Abstand ändert auch den Maßstab des Fotos, darum in wenigen Schritten annähern.
@@ -70,7 +80,8 @@ export function HeroFlag() {
           : 0;
         for (let i = 0; i < 4; i++) {
           const s = Math.max(cw / PHOTO.width, (ch - offset) / PHOTO.height);
-          offset = Math.max(0, wordBottom + poleH + 8 - SUMMIT.y * s);
+          // flagH * 0,5: Platz für den höchsten Wellenberg über dem Mast
+          offset = Math.max(0, wordBottom + poleH + flagH * 0.5 + 8 - SUMMIT.y * s);
         }
       }
       parent!.style.setProperty("--hero-offset", `${offset}px`);
@@ -99,26 +110,24 @@ export function HeroFlag() {
 
       const poleX = margin;
       const top = margin;
-      const startX = poleX + 1.5;
-      const gust = 1 + 0.3 * Math.sin(t * 0.9) + 0.15 * Math.sin(t * 2.3);
-      const step = 1 / dpr;
-      const cloth = flag.width / flagW;
+      const gust = 1 + 0.25 * Math.sin(t * WIND.gustSpeed) + 0.1 * Math.sin(t * WIND.gustSpeed * 2.3);
 
-      // Starker Wind: kurze, schnelle Wellen, die zum freien Ende hin größer werden
-      for (let x = 0; x < flagW; x += step) {
-        const reach = x / flagW;
-        const phase = reach * 9 - t * 11;
-        const amp = flagH * 0.27 * gust * (0.08 + reach * reach * 0.75 + reach * 0.35);
-        const wave = Math.sin(phase) + 0.35 * Math.sin(phase * 2.1 + 1.3);
-        const y = top + amp * wave;
-        const squeeze = 1 - 0.1 * reach * (0.5 + 0.5 * Math.sin(phase + 0.9));
-        const drawX = startX + x * squeeze;
-        c.drawImage(flag, x * cloth, 0, Math.max(step * cloth, 1), flag.height, drawX, y, step + 0.6, flagH);
+      // Genau eine Pixelspalte pro Stoffspalte, ohne Überlappung: sonst entstehen senkrechte Linien.
+      // Die Falten verschieben den Stoff nur nach oben und unten, damit das Logo nicht gequetscht wird.
+      c.setTransform(1, 0, 0, 1, 0, 0);
+      const startPx = Math.round((poleX + 1.5) * dpr);
+      for (let col = 0; col < flag.width; col++) {
+        const reach = col / flag.width;
+        const phase = reach * WIND.waves * Math.PI * 2 - t * WIND.speed;
+        const amp = flagH * WIND.height * gust * (0.06 + reach * 0.45 + reach * reach * 0.6);
+        const y = (top + amp * (Math.sin(phase) + 0.18 * Math.sin(phase * 2 + 1.3))) * dpr;
+        c.drawImage(flag, col, 0, 1, flag.height, startPx + col, y, 1, flag.height);
         // Licht und Schatten auf den Falten
         const slope = Math.cos(phase);
-        c.fillStyle = slope > 0 ? `rgba(0, 40, 30, ${slope * 0.3})` : `rgba(255, 255, 255, ${-slope * 0.28})`;
-        c.fillRect(drawX, y, step + 0.6, flagH);
+        c.fillStyle = slope > 0 ? `rgba(0, 40, 30, ${slope * 0.22})` : `rgba(255, 255, 255, ${-slope * 0.3})`;
+        c.fillRect(startPx + col, y, 1, flag.height);
       }
+      c.setTransform(dpr, 0, 0, dpr, 0, 0);
 
       c.strokeStyle = POLE_COLOR;
       c.lineWidth = 3;
