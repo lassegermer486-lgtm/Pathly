@@ -106,6 +106,7 @@ export default async function UniversitiesPage({
   if (values.land.length) query = query.overlaps("listed_by", values.land);
 
   const { data: universities, count, error } = await query;
+  if (error) console.error("Hochschulen konnten nicht geladen werden:", error);
   const { signedIn, saved } = await getSavedState((universities ?? []).map((u) => u.id));
   const total = count ?? 0;
   const pages = Math.max(1, Math.ceil(total / PAGE_SIZE));
