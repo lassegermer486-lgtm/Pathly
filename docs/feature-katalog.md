@@ -307,6 +307,7 @@ Fundament der Plattform: ein reproduzierbares Verzeichnis aller deutschen Hochsc
 |---|---|
 | **Phase / Status** | P2 · ⚪ |
 | **Beschreibung** | Interaktive Karte aller Hochschulstandorte mit Filter (Bundesland, Typ, Trägerschaft, Studiengang). Klick auf Standort öffnet Hochschul- bzw. Studiengangs-Steckbrief. |
+| **Prototyp 3D-Campus** | Auf dem Dev-Server für die Hochschule Reutlingen (`/hochschulen/270`): Gebäude und Wohnheime aus OpenStreetMap (`public/campus/`), Kartenbasis von OpenFreeMap, lädt erst nach Klick. Vor dem Livegang: Datenschutzerklärung und Impressum ergänzen (OpenFreeMap, ODbL) und klären, ob OpenFreeMap im Live-Betrieb genügt. |
 | **Abhängigkeiten** | B1 inkl. Geokoordinaten (Geocoding der Adressen) |
 | **Abgrenzung** | Die Karte auf der Startseite (M4) zeigt nur Bundesländer, keine einzelnen Standorte. |
 

@@ -40,3 +40,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Wird beim Start aus node_modules kopiert (scripts/copy-map-worker.mjs)
+/public/vendor/

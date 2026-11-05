@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ExternalLinkIcon, LandmarkIcon, MapPinIcon } from "lucide-react";
 import { createClient } from "@/lib/supabase/server";
+import { campusDataUrl } from "@/lib/campus";
 import { getSavedState } from "@/lib/saved";
 import {
   INSTITUTION_TYPES,
@@ -11,6 +12,7 @@ import {
   STATES,
   hostname,
 } from "@/lib/universities";
+import { CampusMap } from "@/components/campus-map";
 import { SaveButton } from "@/components/save-button";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -34,6 +36,7 @@ import {
 
 type University = {
   id: number;
+  registry_id: string;
   name: string;
   name_variants: string[];
   institution_type: string;
@@ -64,7 +67,7 @@ async function getUniversity(rawId: string) {
   const { data } = await supabase
     .from("universities")
     .select(
-      "id, name, name_variants, institution_type, ownership, official_url, listed_by, " +
+      "id, registry_id, name, name_variants, institution_type, ownership, official_url, listed_by, " +
         "locations(id, name, street, postal_code, city, state, location_type), " +
         "sources(id, state, authority, url, retrieved_at)"
     )
@@ -92,6 +95,7 @@ export default async function UniversityPage({
   if (!u) notFound();
 
   const { signedIn, saved } = await getSavedState([u.id]);
+  const campusUrl = campusDataUrl(u.registry_id);
 
   const facts = [
     ["Art", INSTITUTION_TYPES[u.institution_type]],
@@ -178,6 +182,8 @@ export default async function UniversityPage({
           </ItemGroup>
         </section>
       )}
+
+      {campusUrl && <CampusMap dataUrl={campusUrl} />}
 
       {u.sources.length > 0 && (
         <section className="mt-12">
