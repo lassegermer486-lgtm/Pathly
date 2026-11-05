@@ -16,6 +16,7 @@ import { Glow } from "@/components/glow";
 import { CtaButton } from "@/components/cta-button";
 import { CharReveal } from "@/components/char-reveal";
 import { GermanyMap } from "@/components/germany-map";
+import { HeroFlag } from "@/components/hero-flag";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
@@ -75,30 +76,37 @@ export default async function Home({ searchParams }: PageProps<"/">) {
     <main className="flex-1">
       {/* Einstieg mit Tiefe: Foto, darüber das große Wort, darüber der freigestellte Berg */}
       <section className="px-3 pt-3 sm:px-4">
-        <div className="relative isolate mx-auto flex h-[calc(100svh-6.5rem)] max-h-[56rem] min-h-[36rem] max-w-[110rem] flex-col justify-end overflow-hidden rounded-3xl bg-brand-forest">
-          <Image
-            src="/images/hero/hero.jpg"
-            alt=""
-            fill
-            priority
-            sizes="100vw"
-            className="-z-30 object-cover object-[60%_top]"
-          />
-          <div aria-hidden className="absolute inset-x-0 top-[3%] -z-20 text-center">
+        {/* --hero-offset: Auf schmalen Bildschirmen rückt der Berg nach unten, damit die Flagge
+            nicht das Wort verdeckt (genauer Wert aus HeroFlag). Der Hintergrund hat die Farbe des Himmels. */}
+        <div className="relative isolate mx-auto flex h-[calc(100svh-6.5rem)] max-h-[56rem] min-h-[36rem] max-w-[110rem] flex-col justify-end overflow-hidden rounded-3xl bg-[#dbe6f0] [--hero-offset:0px] max-lg:[--hero-offset:22vw]">
+          <div className="absolute inset-x-0 top-(--hero-offset) bottom-0 -z-30 max-lg:[mask-image:linear-gradient(to_bottom,transparent,black_5rem)]">
+            <Image
+              src="/images/hero/hero.jpg"
+              alt=""
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover object-[60%_top]"
+            />
+          </div>
+          <div aria-hidden data-hero-word className="absolute inset-x-0 top-[3%] -z-20 text-center">
             <CharReveal
               text="Klarheit"
               className="block text-[23vw] leading-none font-medium tracking-tight text-brand-forest min-[110rem]:text-[25rem]"
             />
           </div>
-          <Image
-            src="/images/hero/hero-vorne.webp"
-            alt=""
-            fill
-            priority
-            sizes="100vw"
-            className="-z-10 object-cover object-[60%_top]"
-          />
+          <div className="absolute inset-x-0 top-(--hero-offset) bottom-0 -z-10">
+            <Image
+              src="/images/hero/hero-vorne.webp"
+              alt=""
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover object-[60%_top]"
+            />
+          </div>
           <div aria-hidden className="absolute inset-x-0 bottom-0 -z-10 h-2/3 bg-gradient-to-t from-black/70 via-black/35 to-transparent" />
+          <HeroFlag />
 
           <div className="flex flex-wrap items-end justify-between gap-6 p-5 text-white sm:p-8">
             <div className="max-w-2xl animate-fade-up" style={{ animationDelay: "500ms" }}>
