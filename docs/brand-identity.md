@@ -236,8 +236,7 @@ und Wortwechsel – Inhalte erscheinen sofort.
 
 - **Motiv „Weg“:** Pfade, Straßen und Wege von oben – durch Wald, Landschaft, Stadt. Echt, ruhig, natürliche Farben mit Grünanteil.
 - **Menschen:** echte Situationen (Bibliothek, Campus, Pendeln), keine gestellten Stockfotos mit Daumen hoch.
-- **Nicht:** Absolventenhüte in Fotos, Pokale, Raketen, Erfolgsversprechen in Bildern, **KI-generierte Bilder**.
-- **Pathly-Figur:** Eigene Figur mit Absolventenhut im Low-Poly-Stil, in den Markenfarben von Hand als Vektorgrafik gezeichnet, nicht KI-generiert: `apps/web/src/components/pathly-figure.tsx`.
+- **Nicht:** Absolventenhüte, Pokale, Raketen, Erfolgsversprechen in Bildern, **KI-generierte Bilder**.
 - **Quellen:** nur frei nutzbare Fotos mit geprüfter Lizenz, festgehalten in [`brand/bildquellen.md`](brand/bildquellen.md). Fotos von Hochschulen nur mit deren Erlaubnis.
 
 ---

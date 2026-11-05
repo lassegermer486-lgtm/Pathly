@@ -1,10 +1,9 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { PATHLY_FIGURE_GRIP_X, PATHLY_FIGURE_RATIO, PathlyFigure } from "@/components/pathly-figure";
 
-// Gipfel im Foto hero.jpg (2400 × 1548 px). Das Foto liegt mit object-cover oben ausgerichtet
-// im Einstieg ([data-hero-photo]). Dieselbe Rechnung setzt den Mast auf den Berg.
+// Gipfel im Foto hero.jpg (2400 × 1548 px). Das Foto liegt mit object-cover im Einstieg
+// ([data-hero-photo]). Dieselbe Rechnung setzt den Mast auf den Berg.
 const PHOTO = { width: 2400, height: 1548 };
 const SUMMIT = { x: 1472, y: 280 };
 
@@ -25,7 +24,6 @@ const WIND = {
 // verschoben. Sie ist also kein Bild und passt sich jeder Größe an.
 export function HeroFlag() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const figureRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -65,16 +63,15 @@ export function HeroFlag() {
       if (!box || !img) return;
       const cw = box.clientWidth;
       const ch = box.clientHeight;
-      // Waagerechte Ausrichtung des Fotos, wie sie gerade im CSS gilt, z. B. „72% 0%“
-      const positionX = parseFloat(getComputedStyle(img).objectPosition) / 100 || 0;
+      // Ausrichtung des Fotos, wie sie gerade im CSS gilt, z. B. „72% 100%“
+      const [positionX, positionY] = getComputedStyle(img)
+        .objectPosition.split(" ")
+        .map((value) => parseFloat(value) / 100 || 0);
       const scale = Math.max(cw / PHOTO.width, ch / PHOTO.height);
-      // getBoundingClientRect berücksichtigt auch die Verschiebung des Fotos nach rechts
-      const boxRect = box.getBoundingClientRect();
-      const parentRect = parent!.getBoundingClientRect();
-      const summitX = boxRect.left - parentRect.left + (cw - PHOTO.width * scale) * positionX + SUMMIT.x * scale;
-      const summitY = boxRect.top - parentRect.top + SUMMIT.y * scale;
+      const summitX = (cw - PHOTO.width * scale) * positionX + SUMMIT.x * scale;
+      const summitY = (ch - PHOTO.height * scale) * positionY + SUMMIT.y * scale;
 
-      // Flagge und Männchen wachsen mit dem Berg
+      // Die Flagge wächst mit dem Berg
       flagW = Math.max(72, Math.min(PHOTO.width * scale * 0.095, 150));
       flagH = flagW / 1.55;
       margin = flagH * 0.6;
@@ -92,14 +89,6 @@ export function HeroFlag() {
       // Die untere Spitze des Mastes steht auf dem Gipfel
       canvas!.style.left = `${summitX - margin}px`;
       canvas!.style.top = `${summitY - poleH - margin}px`;
-      // Das Männchen steht links vom Mast auf dem Gipfel und greift ihn
-      const figure = figureRef.current;
-      if (figure) {
-        const figureH = flagH * 1.55;
-        figure.style.height = `${figureH}px`;
-        figure.style.left = `${summitX - figureH * PATHLY_FIGURE_RATIO * PATHLY_FIGURE_GRIP_X}px`;
-        figure.style.top = `${summitY - figureH + figureH * 0.02}px`;
-      }
       drawFlagCloth();
       draw(reduceMotion ? 1.2 : performance.now() / 1000);
     }
@@ -167,12 +156,5 @@ export function HeroFlag() {
     };
   }, []);
 
-  return (
-    <>
-      <canvas ref={canvasRef} aria-hidden className="pointer-events-none absolute -z-[5]" />
-      <div ref={figureRef} className="pointer-events-none absolute -z-[5]">
-        <PathlyFigure className="h-full" />
-      </div>
-    </>
-  );
+  return <canvas ref={canvasRef} aria-hidden className="pointer-events-none absolute -z-[5]" />;
 }
