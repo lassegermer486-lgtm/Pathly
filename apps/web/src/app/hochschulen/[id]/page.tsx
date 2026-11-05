@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ExternalLinkIcon, LandmarkIcon, MapPinIcon } from "lucide-react";
 import { createClient } from "@/lib/supabase/server";
 import { campusDataUrl } from "@/lib/campus";
+import { universityLogo } from "@/lib/logos";
 import { getSavedState } from "@/lib/saved";
 import {
   INSTITUTION_TYPES,
@@ -96,6 +98,7 @@ export default async function UniversityPage({
 
   const { signedIn, saved } = await getSavedState([u.id]);
   const campusUrl = campusDataUrl(u.registry_id);
+  const logo = universityLogo(u.registry_id);
 
   const facts = [
     ["Art", INSTITUTION_TYPES[u.institution_type]],
@@ -116,6 +119,16 @@ export default async function UniversityPage({
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
+
+      {logo && (
+        <Image
+          src={logo.src}
+          width={logo.width}
+          height={logo.height}
+          alt={`Logo: ${u.name}`}
+          className="mt-6 h-12 w-auto max-w-full object-contain sm:h-14"
+        />
+      )}
 
       <h1 className="mt-6 text-3xl font-bold tracking-tight text-balance sm:text-4xl">
         {u.name}

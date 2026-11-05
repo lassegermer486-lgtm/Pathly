@@ -11,3 +11,11 @@ Fotos der Website, Stand 05.11.2026. Regel: nur echte, frei nutzbare Fotos, kein
 | `berufseinstieg.jpg` | Startseite, Etappe Berufseinstieg | Geranimo | [Unsplash](https://unsplash.com/photos/aerial-shot-of-road-surrounded-by-green-trees-qzgN45hseN0) | DJI FC300X |
 
 Alle drei auf 1400 × 1050 px zugeschnitten.
+
+## Hochschul-Logos
+
+Logos brauchen eine schriftliche Freigabe der Hochschule, bevor sie live gehen.
+
+| Datei (`apps/web/public/logos/`) | Hochschule | Status |
+|---|---|---|
+| `PTH-DE-138698E2.png` | Hochschule Reutlingen | Nur Vorschau auf dem Dev-Server, keine Freigabe. Ohne Freigabe vor der Übernahme nach `main` entfernen |
