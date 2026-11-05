@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { LngLatBounds, Map as MapLibreMap, NavigationControl, Popup, setWorkerUrl } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
-import { BuildingIcon, BedDoubleIcon, TriangleAlertIcon } from "lucide-react";
+import { BedDoubleIcon, BuildingIcon, LoaderCircleIcon, TriangleAlertIcon } from "lucide-react";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 
@@ -34,6 +34,7 @@ export default function CampusMapCanvas({ dataUrl }: { dataUrl: string }) {
   const [features, setFeatures] = useState<CampusFeature[]>([]);
   const [is3d, setIs3d] = useState(true);
   const [failed, setFailed] = useState(false);
+  const [ready, setReady] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -71,6 +72,7 @@ export default function CampusMapCanvas({ dataUrl }: { dataUrl: string }) {
         map.addControl(new NavigationControl({ visualizePitch: true }), "top-right");
         map.on("error", (event) => console.error("Karte:", event.error));
 
+        map.once("idle", () => setReady(true)); // Erst jetzt ist die Karte wirklich gezeichnet
         map.on("load", () => {
           map.addSource("campus", { type: "geojson", data: dataUrl });
           map.addLayer({
@@ -135,12 +137,25 @@ export default function CampusMapCanvas({ dataUrl }: { dataUrl: string }) {
 
   return (
     <div>
-      <div
-        ref={container}
-        className="h-[28rem] w-full overflow-hidden rounded-2xl border max-md:h-96 max-md:[&_.maplibregl-ctrl-group_button]:size-10!"
-        role="application"
-        aria-label="3D-Karte des Campus. Die Gebäude stehen auch in der Liste unter der Karte."
-      />
+      <div className="relative">
+        <div
+          ref={container}
+          className="h-[28rem] w-full overflow-hidden rounded-2xl border max-md:h-96 max-md:[&_.maplibregl-ctrl-group_button]:size-10!"
+          role="application"
+          aria-label="3D-Karte des Campus. Die Gebäude stehen auch in der Liste unter der Karte."
+        />
+        {!ready && (
+          <div
+            className="pointer-events-none absolute inset-0 grid place-items-center rounded-2xl bg-background/80"
+            role="status"
+          >
+            <span className="inline-flex items-center gap-2 text-sm">
+              <LoaderCircleIcon className="size-4 animate-spin" />
+              Karte wird geladen
+            </span>
+          </div>
+        )}
+      </div>
       <div className="mt-3 flex flex-wrap items-center justify-between gap-3">
         <ul className="flex flex-wrap gap-x-4 gap-y-1 text-sm">
           <li className="inline-flex items-center gap-1.5">
