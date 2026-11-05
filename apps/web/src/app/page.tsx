@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   BadgeCheckIcon,
   BuildingIcon,
@@ -39,6 +40,12 @@ const ROADMAP = [
   { title: "Auslandssemester", text: "Partnerhochschulen und Allianzen als klare Übersicht, damit du siehst, wohin du von deiner Hochschule aus gehen kannst.", status: "Geplant" },
   { title: "Rankings & Bewertungen", text: "Rankings mit offener Methodik und Erfahrungen von Menschen, die nachweislich dort studieren.", status: "Geplant" },
   { title: "Karriere & Bewerbung", text: "Welche Wege führen in welchen Beruf, und brauchst du dafür einen Master? Dazu Lebenslauf-Feedback und Vorbereitung auf Interviews und Case Studies.", status: "Geplant" },
+];
+
+const STAGES = [
+  { title: "Studienwahl", text: "Welche Richtung passt zu dir, und welche Wege stehen dir offen?", image: "/images/wege/studienwahl.jpg", alt: "Luftbild: Ein Waldweg, der sich in zwei Richtungen gabelt" },
+  { title: "Studium", text: "Welcher Master, welches Auslandssemester, welche Praktika bringen dich weiter?", image: "/images/wege/studium.jpg", alt: "Luftbild: Ein Weg führt durch einen herbstlich bunten Wald" },
+  { title: "Berufseinstieg", text: "Was brauchst du, um dort anzukommen, wo du arbeiten willst?", image: "/images/wege/berufseinstieg.jpg", alt: "Luftbild: Ein geschwungener Weg durch einen dunkelgrünen Wald" },
 ];
 
 const PRINCIPLES = [
@@ -116,7 +123,24 @@ export default async function Home() {
             durchklicken und sollst später auch eine KI-Beratung fragen können,
             die ihre Quellen nennt.
           </p>
-          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="mt-10 grid gap-6 sm:grid-cols-3 sm:gap-4">
+            {STAGES.map((stage) => (
+              <li key={stage.title} className="min-w-0">
+                <div className="relative aspect-[4/3] overflow-hidden rounded-2xl max-sm:aspect-video">
+                  <Image
+                    src={stage.image}
+                    alt={stage.alt}
+                    fill
+                    sizes="(min-width: 1152px) 368px, (min-width: 640px) 33vw, 100vw"
+                    className="object-cover"
+                  />
+                </div>
+                <h3 className="mt-3 text-lg font-semibold text-primary">{stage.title}</h3>
+                <p className="mt-1 text-pretty text-muted-foreground">{stage.text}</p>
+              </li>
+            ))}
+          </ul>
+          <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {ROADMAP.map((item) => (
               <Card key={item.title} className="rounded-2xl">
                 <CardHeader>

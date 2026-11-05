@@ -88,6 +88,18 @@ export default function ImpressumPage() {
               </a>
               . Angepasst: Farben, Beschriftungen und Interaktion.
             </li>
+            <li>
+              Fotos auf der Startseite: Fotis Fotopoulos, Benjamin Hibbert-Hingston und Geranimo über{" "}
+              <a
+                href="https://unsplash.com/license"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline underline-offset-4"
+              >
+                Unsplash
+              </a>
+              .
+            </li>
           </ul>
         </section>
         <section>

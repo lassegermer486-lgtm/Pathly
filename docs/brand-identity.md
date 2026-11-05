@@ -236,7 +236,8 @@ und Wortwechsel – Inhalte erscheinen sofort.
 
 - **Motiv „Weg“:** Pfade, Straßen und Wege von oben – durch Wald, Landschaft, Stadt. Echt, ruhig, natürliche Farben mit Grünanteil.
 - **Menschen:** echte Situationen (Bibliothek, Campus, Pendeln), keine gestellten Stockfotos mit Daumen hoch.
-- **Nicht:** Absolventenhüte, Pokale, Raketen, Erfolgsversprechen in Bildern.
+- **Nicht:** Absolventenhüte, Pokale, Raketen, Erfolgsversprechen in Bildern, **KI-generierte Bilder**.
+- **Quellen:** nur frei nutzbare Fotos mit geprüfter Lizenz, festgehalten in [`brand/bildquellen.md`](brand/bildquellen.md). Fotos von Hochschulen nur mit deren Erlaubnis.
 
 ---
 
