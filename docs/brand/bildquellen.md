@@ -7,7 +7,6 @@ Fotos der Website, Stand 05.11.2026. Regel: nur echte, frei nutzbare Fotos, kein
 | Datei (`apps/web/public/images/hero/`) | Verwendung | Fotograf | Quelle | Kamera laut Unsplash |
 |---|---|---|---|---|
 | `hero.jpg` | Startseite, Hintergrund | Georgi Kalaydzhiev | [Unsplash](https://unsplash.com/photos/lighthouse-on-grassy-ocean-cliff-azEPUeuTKhU) | Sony ILCE-7RM3 |
-| `hero-vorne.webp` | Startseite, freigestellter Berg aus demselben Foto | Georgi Kalaydzhiev | wie oben | wie oben |
 
 ## Hochschul-Logos
 

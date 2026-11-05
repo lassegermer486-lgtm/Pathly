@@ -2,12 +2,10 @@
 
 import { useEffect, useRef } from "react";
 
-// Gipfel im Foto hero.jpg (2400 × 1548 px). Das Foto liegt mit object-cover und
-// object-position 60 % top im Einstieg, dieselbe Rechnung setzt den Mast auf den Berg.
+// Gipfel im Foto hero.jpg (2400 × 1548 px). Das Foto liegt mit object-cover oben ausgerichtet
+// im Einstieg ([data-hero-photo]). Dieselbe Rechnung setzt den Mast auf den Berg.
 const PHOTO = { width: 2400, height: 1548 };
 const SUMMIT = { x: 1472, y: 280 };
-const POSITION_X = 0.6;
-const NARROW_BELOW = 1024; // Breite, ab der das Wort hinter dem Berg durchlaufen darf
 
 const FLAG_COLOR = "#cbf39d"; // Marken-Lime: hebt sich von Himmel und dunkler Schrift ab
 const POLE_COLOR = "#053438";
@@ -60,35 +58,24 @@ export function HeroFlag() {
     }
 
     function layout() {
-      const cw = parent!.clientWidth;
-      const ch = parent!.clientHeight;
+      const box = parent!.querySelector<HTMLElement>("[data-hero-photo]");
+      const img = box?.querySelector("img");
+      if (!box || !img) return;
+      const cw = box.clientWidth;
+      const ch = box.clientHeight;
+      // Waagerechte Ausrichtung des Fotos, wie sie gerade im CSS gilt, z. B. „72% 0%“
+      const positionX = parseFloat(getComputedStyle(img).objectPosition) / 100 || 0;
+      const scale = Math.max(cw / PHOTO.width, ch / PHOTO.height);
+      const summitX = box.offsetLeft + (cw - PHOTO.width * scale) * positionX + SUMMIT.x * scale;
+      const summitY = box.offsetTop + SUMMIT.y * scale;
 
-      flagW = Math.max(84, Math.min(cw * 0.085, 150));
+      flagW = Math.max(84, Math.min(parent!.clientWidth * 0.1, 170));
       flagH = flagW / 1.55;
-      poleH = flagH * 1.35;
       margin = flagH * 0.6;
+      // Der Mast bleibt so kurz, dass auch der höchste Wellenberg nicht oben anstößt
+      poleH = Math.max(flagH * 1.1, Math.min(flagH * 1.55, summitY - margin - 6));
       // Mindestens doppelte Auflösung, damit Kanten und Logo auch bei kleiner Flagge weich bleiben
       dpr = Math.min(Math.max(window.devicePixelRatio || 1, 2), 3);
-
-      // Schmale Bildschirme: Berg so weit nach unten, dass die Flagge unter dem Wort Platz hat.
-      // Der Abstand ändert auch den Maßstab des Fotos, darum in wenigen Schritten annähern.
-      let offset = 0;
-      if (cw < NARROW_BELOW) {
-        const word = parent!.querySelector("[data-hero-word]");
-        const wordBottom = word
-          ? word.getBoundingClientRect().bottom - parent!.getBoundingClientRect().top
-          : 0;
-        for (let i = 0; i < 4; i++) {
-          const s = Math.max(cw / PHOTO.width, (ch - offset) / PHOTO.height);
-          // flagH * 0,5: Platz für den höchsten Wellenberg über dem Mast
-          offset = Math.max(0, wordBottom + poleH + flagH * 0.5 + 8 - SUMMIT.y * s);
-        }
-      }
-      parent!.style.setProperty("--hero-offset", `${offset}px`);
-
-      const scale = Math.max(cw / PHOTO.width, (ch - offset) / PHOTO.height);
-      const summitX = (cw - PHOTO.width * scale) * POSITION_X + SUMMIT.x * scale;
-      const summitY = offset + SUMMIT.y * scale;
 
       const width = flagW * 1.1 + margin;
       const height = poleH + margin;

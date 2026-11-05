@@ -74,65 +74,56 @@ export default async function Home({ searchParams }: PageProps<"/">) {
 
   return (
     <main className="flex-1">
-      {/* Einstieg mit Tiefe: Foto, darüber das große Wort, darüber der freigestellte Berg */}
+      {/* Einstieg: Der Berg steht rechts im Foto, der Text links daneben im Himmel.
+          Ab lg ist das Foto breiter als der Rahmen, dadurch rückt der Berg nach rechts.
+          Darunter steht der Text oben und das Foto beginnt erst darunter; der Rahmen hat die Farbe des Himmels. */}
       <section className="px-3 pt-3 sm:px-4">
-        {/* --hero-offset: Auf schmalen Bildschirmen rückt der Berg nach unten, damit die Flagge
-            nicht das Wort verdeckt (genauer Wert aus HeroFlag). Der Hintergrund hat die Farbe des Himmels. */}
-        <div className="relative isolate mx-auto flex h-[calc(100svh-6.5rem)] max-h-[56rem] min-h-[36rem] max-w-[110rem] flex-col justify-end overflow-hidden rounded-3xl bg-[#dbe6f0] [--hero-offset:0px] max-lg:[--hero-offset:22vw]">
-          <div className="absolute inset-x-0 top-(--hero-offset) bottom-0 -z-30 max-lg:[mask-image:linear-gradient(to_bottom,transparent,black_5rem)]">
+        <div className="relative isolate mx-auto flex min-h-[44rem] max-w-[110rem] flex-col max-sm:min-h-[48rem] max-[360px]:min-h-[52rem] overflow-hidden rounded-3xl bg-[#dbe6f0] lg:h-[calc(100svh-6.5rem)] lg:max-h-[56rem] lg:min-h-[36rem] lg:justify-center">
+          <div
+            data-hero-photo
+            className="absolute inset-y-0 left-0 -z-30 w-full max-lg:top-[19rem] max-sm:top-[24rem] max-[360px]:top-[29rem] max-lg:[mask-image:linear-gradient(to_bottom,transparent,black_5rem)] lg:w-[125%]"
+          >
             <Image
               src="/images/hero/hero.jpg"
               alt=""
               fill
               priority
-              sizes="100vw"
-              className="object-cover object-[60%_top]"
+              sizes="(min-width: 1024px) 125vw, 100vw"
+              className="object-cover object-[72%_top] lg:object-[0%_top]"
             />
           </div>
-          <div aria-hidden data-hero-word className="absolute inset-x-0 top-[3%] -z-20 text-center">
-            <CharReveal
-              text="Klarheit"
-              className="block text-[23vw] leading-none font-medium tracking-tight text-brand-forest min-[110rem]:text-[25rem]"
-            />
-          </div>
-          <div className="absolute inset-x-0 top-(--hero-offset) bottom-0 -z-10">
-            <Image
-              src="/images/hero/hero-vorne.webp"
-              alt=""
-              fill
-              priority
-              sizes="100vw"
-              className="object-cover object-[60%_top]"
-            />
-          </div>
-          <div aria-hidden className="absolute inset-x-0 bottom-0 -z-10 h-2/3 bg-gradient-to-t from-black/70 via-black/35 to-transparent" />
+          <div aria-hidden className="absolute inset-y-0 left-0 -z-20 w-3/5 bg-gradient-to-r from-white/50 to-transparent max-lg:hidden" />
           <HeroFlag />
 
-          <div className="flex flex-wrap items-end justify-between gap-6 p-5 text-white sm:p-8">
-            <div className="max-w-2xl animate-fade-up" style={{ animationDelay: "500ms" }}>
-              <h1 className="text-4xl leading-[1.05] tracking-tight text-balance sm:text-6xl">
-                <span className="sr-only">Klarheit </span>für deinen nächsten Schritt
-              </h1>
-              <p className="mt-4 max-w-xl text-pretty sm:text-lg">
-                Was willst du später arbeiten, und welcher Weg führt dorthin? Pathly soll
-                dich von der Studienwahl bis zum Berufseinstieg begleiten.
-              </p>
-              <CtaButton href="/hochschulen" className="mt-6">
-                Hochschulen ansehen
-              </CtaButton>
-            </div>
+          <div className="max-w-2xl p-5 sm:p-8 lg:w-1/2 lg:pl-12">
+            <CharReveal
+              as="h1"
+              text="Klarheit für deinen nächsten Schritt"
+              className="block text-4xl leading-[1.05] tracking-tight text-brand-forest sm:text-6xl xl:text-7xl"
+            />
             <p
-              className="animate-fade-up rounded-2xl bg-background/90 p-4 text-sm text-foreground backdrop-blur max-sm:hidden"
-              style={{ animationDelay: "700ms" }}
+              className="mt-5 max-w-xl animate-fade-up text-pretty text-brand-forest sm:text-lg"
+              style={{ animationDelay: "500ms" }}
             >
-              <span className="block text-3xl font-medium tracking-tight text-primary">
-                {count?.toLocaleString("de-DE") ?? "Über 400"}
-              </span>
-              Hochschulen aus den offiziellen
-              <br />
-              Listen aller 16 Bundesländer
+              Was willst du später arbeiten, und welcher Weg führt dorthin? Pathly soll
+              dich von der Studienwahl bis zum Berufseinstieg begleiten.
             </p>
+            <div className="mt-6 animate-fade-up" style={{ animationDelay: "650ms" }}>
+              <CtaButton href="/hochschulen">Hochschulen ansehen</CtaButton>
+            </div>
           </div>
+
+          <p
+            className="absolute right-5 bottom-5 animate-fade-up rounded-2xl bg-background/90 p-4 text-sm text-foreground backdrop-blur max-sm:hidden sm:right-8 sm:bottom-8"
+            style={{ animationDelay: "800ms" }}
+          >
+            <span className="block text-3xl font-medium tracking-tight text-primary">
+              {count?.toLocaleString("de-DE") ?? "Über 400"}
+            </span>
+            Hochschulen aus den offiziellen
+            <br />
+            Listen aller 16 Bundesländer
+          </p>
         </div>
       </section>
 
