@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { PATHLY_FIGURE_RATIO, PathlyFigure } from "@/components/pathly-figure";
 
 // Gipfel im Foto hero.jpg (2400 × 1548 px). Das Foto liegt mit object-cover oben ausgerichtet
 // im Einstieg ([data-hero-photo]). Dieselbe Rechnung setzt den Mast auf den Berg.
@@ -24,6 +25,7 @@ const WIND = {
 // verschoben. Sie ist also kein Bild und passt sich jeder Größe an.
 export function HeroFlag() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const figureRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -66,10 +68,14 @@ export function HeroFlag() {
       // Waagerechte Ausrichtung des Fotos, wie sie gerade im CSS gilt, z. B. „72% 0%“
       const positionX = parseFloat(getComputedStyle(img).objectPosition) / 100 || 0;
       const scale = Math.max(cw / PHOTO.width, ch / PHOTO.height);
-      const summitX = box.offsetLeft + (cw - PHOTO.width * scale) * positionX + SUMMIT.x * scale;
-      const summitY = box.offsetTop + SUMMIT.y * scale;
+      // getBoundingClientRect berücksichtigt auch die Verschiebung des Fotos nach rechts
+      const boxRect = box.getBoundingClientRect();
+      const parentRect = parent!.getBoundingClientRect();
+      const summitX = boxRect.left - parentRect.left + (cw - PHOTO.width * scale) * positionX + SUMMIT.x * scale;
+      const summitY = boxRect.top - parentRect.top + SUMMIT.y * scale;
 
-      flagW = Math.max(84, Math.min(parent!.clientWidth * 0.1, 170));
+      // Flagge und Männchen wachsen mit dem Berg
+      flagW = Math.max(72, Math.min(PHOTO.width * scale * 0.095, 150));
       flagH = flagW / 1.55;
       margin = flagH * 0.6;
       // Der Mast bleibt so kurz, dass auch der höchste Wellenberg nicht oben anstößt
@@ -86,6 +92,14 @@ export function HeroFlag() {
       // Die untere Spitze des Mastes steht auf dem Gipfel
       canvas!.style.left = `${summitX - margin}px`;
       canvas!.style.top = `${summitY - poleH - margin}px`;
+      // Das Männchen steht links vom Mast auf dem Gipfel
+      const figure = figureRef.current;
+      if (figure) {
+        const figureH = flagH * 1.25;
+        figure.style.height = `${figureH}px`;
+        figure.style.left = `${summitX - figureH * PATHLY_FIGURE_RATIO - 2}px`;
+        figure.style.top = `${summitY - figureH + figureH * 0.02}px`;
+      }
       drawFlagCloth();
       draw(reduceMotion ? 1.2 : performance.now() / 1000);
     }
@@ -153,5 +167,12 @@ export function HeroFlag() {
     };
   }, []);
 
-  return <canvas ref={canvasRef} aria-hidden className="pointer-events-none absolute -z-[5]" />;
+  return (
+    <>
+      <canvas ref={canvasRef} aria-hidden className="pointer-events-none absolute -z-[5]" />
+      <div ref={figureRef} className="pointer-events-none absolute -z-[5]">
+        <PathlyFigure sizes="120px" className="h-full" />
+      </div>
+    </>
+  );
 }
